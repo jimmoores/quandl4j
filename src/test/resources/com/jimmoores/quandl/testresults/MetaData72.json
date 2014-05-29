@@ -1,0 +1,415 @@
+{
+  "current_page": 98448,
+  "docs": [
+    {
+      "code": "MCOUNTY_MEDIANSOLDPRICEPERSQFT_ALLHOMES_GARFIELDOK",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of sale prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_MedianSoldPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7481937,
+      "name": "Zillow Metrics (Counties): Median Sale Price per Sq. Ft. - Garfield, OK",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:15Z",
+      "urlize_name": "Zillow-Metrics-Counties-Median-Sale-Price-per-Sq-Ft-Garfield-OK"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_YORKVILLEOH",
+      "column_names": [
+        "Date",
+        "Yorkville"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "2004-05-31",
+      "id": 7250619,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Yorkville, OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:15Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Yorkville-OH"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_GUNNISONCO",
+      "column_names": [
+        "Date",
+        "Gunnison"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "2007-06-30",
+      "id": 7122986,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Gunnison, CO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-07-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:15Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Gunnison-CO"
+    },
+    {
+      "code": "MZIP_TURNOVER_ALLHOMES_14860",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1999-06-30",
+      "id": 7601225,
+      "name": "Zillow Metrics (Zip Codes): Sold in the Past Year (%) - 14860,Town of Lodi,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:15Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-in-the-Past-Year-14860-Town-of-Lodi-NY"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_IRMAWI",
+      "column_names": [
+        "Date",
+        "Irma"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "annual",
+      "from_date": "2010-10-31",
+      "id": 7247156,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Irma, WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:15Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Irma-WI"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_HEREFORDAZ",
+      "column_names": [
+        "Date",
+        "Hereford"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2001-03-31",
+      "id": 7116998,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Hereford, AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2012-10-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:15Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Hereford-AZ"
+    },
+    {
+      "code": "MZIP_TURNOVER_ALLHOMES_14130",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2004-10-31",
+      "id": 7602390,
+      "name": "Zillow Metrics (Zip Codes): Sold in the Past Year (%) - 14130,Town of Pike,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:15Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-in-the-Past-Year-14130-Town-of-Pike-NY"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_ATWATERMN",
+      "column_names": [
+        "Date",
+        "Atwater"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7242150,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Atwater, MN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:15Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Atwater-MN"
+    },
+    {
+      "code": "MZIP_TURNOVER_ALLHOMES_54128",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-06-30",
+      "id": 7600296,
+      "name": "Zillow Metrics (Zip Codes): Sold in the Past Year (%) - 54128,Gresham,WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:15Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-in-the-Past-Year-54128-Gresham-WI"
+    },
+    {
+      "code": "MZIP_TURNOVER_ALLHOMES_55703",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2004-03-31",
+      "id": 7601949,
+      "name": "Zillow Metrics (Zip Codes): Sold in the Past Year (%) - 55703,Angora,MN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:15Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-in-the-Past-Year-55703-Angora-MN"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_MENOMINEEMI",
+      "column_names": [
+        "Date",
+        "Menominee"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7229150,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Menominee, MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2012-07-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:16Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Menominee-MI"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_KITTRELLNC",
+      "column_names": [
+        "Date",
+        "Kittrell"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2006-08-31",
+      "id": 7238463,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Kittrell, NC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:16Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Kittrell-NC"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_OREGONIL",
+      "column_names": [
+        "Date",
+        "Oregon"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "2011-11-30",
+      "id": 7118304,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Oregon, IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:16Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Oregon-IL"
+    },
+    {
+      "code": "MCOUNTY_MEDIANSOLDPRICEPERSQFT_ALLHOMES_WARRENPA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of sale prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_MedianSoldPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-08-31",
+      "id": 7482068,
+      "name": "Zillow Metrics (Counties): Median Sale Price per Sq. Ft. - Warren, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2011-10-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:16Z",
+      "urlize_name": "Zillow-Metrics-Counties-Median-Sale-Price-per-Sq-Ft-Warren-PA"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_EASTSYRACUSENY",
+      "column_names": [
+        "Date",
+        "East Syracuse"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2002-11-30",
+      "id": 7123883,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - East Syracuse, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2003-06-30",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:16Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-East-Syracuse-NY"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_HANCOCKMN",
+      "column_names": [
+        "Date",
+        "Hancock"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-06-30",
+      "id": 7247093,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Hancock, MN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:16Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Hancock-MN"
+    },
+    {
+      "code": "MZIP_TURNOVER_ALLHOMES_16154",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2007-08-31",
+      "id": 7599269,
+      "name": "Zillow Metrics (Zip Codes): Sold in the Past Year (%) - 16154,Pymatuning Township,PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:16Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-in-the-Past-Year-16154-Pymatuning-Township-PA"
+    },
+    {
+      "code": "MZIP_TURNOVER_ALLHOMES_61021",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7596184,
+      "name": "Zillow Metrics (Zip Codes): Sold in the Past Year (%) - 61021,Dixon,IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:16Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-in-the-Past-Year-61021-Dixon-IL"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_SODUSPOINTNY",
+      "column_names": [
+        "Date",
+        "Sodus Point"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2003-05-31",
+      "id": 7124614,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Sodus Point, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2004-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:16Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Sodus-Point-NY"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_SURFSIDEBEACHSC",
+      "column_names": [
+        "Date",
+        "Surfside Beach"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-07-31",
+      "id": 7122199,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Surfside Beach, SC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-05-15T19:09:17Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Surfside-Beach-SC"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "ZILLOW",
+    "datasets_count": 216313,
+    "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+    "host": "files.zillowstatic.com",
+    "id": 797,
+    "name": "Zillow Real Estate Research"
+  }],
+  "total_count": 10006019
+}

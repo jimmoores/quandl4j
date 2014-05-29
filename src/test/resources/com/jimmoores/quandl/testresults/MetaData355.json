@@ -1,0 +1,21 @@
+{
+  "code": "MCITY_MEDIANLISTINGPRICE_ALLHOMES_PHILLIPSWI",
+  "column_names": [
+    "Date",
+    "Phillips"
+  ],
+  "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianListingPrice_AllHomes.csv",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "2008-11-30",
+  "id": 7002739,
+  "name": "Zillow Metrics (Cities): Median List Price - Phillips, WI",
+  "private": false,
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
+  "type": null,
+  "updated_at": "2014-05-07T22:39:56Z",
+  "urlize_name": "Zillow-Metrics-Cities-Median-List-Price-Phillips-WI"
+}

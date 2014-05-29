@@ -1,0 +1,415 @@
+{
+  "current_page": 32011,
+  "docs": [
+    {
+      "code": "HLSH_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 4554368,
+      "name": "HEALTHSOUTH Corp. ( HLSH ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:03Z",
+      "urlize_name": "HEALTHSOUTH-Corp-HLSH-Trailing-Net-Income"
+    },
+    {
+      "code": "PFGI_PE_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing PE Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5360066,
+      "name": "Provident Finl Group ( PFGI ) - Trailing PE Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:22Z",
+      "urlize_name": "Provident-Finl-Group-PFGI-Trailing-PE-Ratio"
+    },
+    {
+      "code": "NHPI_BV_ASSETS",
+      "column_names": [
+        "Date",
+        "Book Value of Assets"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 4696775,
+      "name": "Neuro-Hitech Pharmaceuticals ( NHPI ) - Book Value of Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:22Z",
+      "urlize_name": "Neuro-Hitech-Pharmaceuticals-NHPI-Book-Value-of-Assets"
+    },
+    {
+      "code": "STNG_REINV_RATE",
+      "column_names": [
+        "Date",
+        "Reinvestment Rate"
+      ],
+      "description": "Reinvestment Rate = (Net Capital Expenditures + Change in WC) / EBIT(1-t). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5504419,
+      "name": "Scorpio Tankers Inc ( STNG ) - Reinvestment Rate",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:03Z",
+      "urlize_name": "Scorpio-Tankers-Inc-STNG-Reinvestment-Rate"
+    },
+    {
+      "code": "STNG_ROC",
+      "column_names": [
+        "Date",
+        "Return on Capital"
+      ],
+      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5504421,
+      "name": "Scorpio Tankers Inc ( STNG ) - Return on Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:03Z",
+      "urlize_name": "Scorpio-Tankers-Inc-STNG-Return-on-Capital"
+    },
+    {
+      "code": "STNG_SGA",
+      "column_names": [
+        "Date",
+        "Sales General and Administration Expenses"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5504423,
+      "name": "Scorpio Tankers Inc ( STNG ) - Sales General and Administration Expenses",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:03Z",
+      "urlize_name": "Scorpio-Tankers-Inc-STNG-Sales-General-and-Administration-Expenses"
+    },
+    {
+      "code": "STNG_ROE",
+      "column_names": [
+        "Date",
+        "Return on Equity"
+      ],
+      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5504422,
+      "name": "Scorpio Tankers Inc ( STNG ) - Return on Equity",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:22Z",
+      "urlize_name": "Scorpio-Tankers-Inc-STNG-Return-on-Equity"
+    },
+    {
+      "code": "LNDT_TRAD_VOL",
+      "column_names": [
+        "Date",
+        "Trading Volume"
+      ],
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6090418,
+      "name": "LianDi Clean Technology Inc ( LNDT ) - Trading Volume",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:04Z",
+      "urlize_name": "LianDi-Clean-Technology-Inc-LNDT-Trading-Volume"
+    },
+    {
+      "code": "STNG_BETA_VL",
+      "column_names": [
+        "Date",
+        "Value Line Beta"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2012-12-31",
+      "id": 5504428,
+      "name": "Scorpio Tankers Inc ( STNG ) - Value Line Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:23Z",
+      "urlize_name": "Scorpio-Tankers-Inc-STNG-Value-Line-Beta"
+    },
+    {
+      "code": "STNG_EV_BV",
+      "column_names": [
+        "Date",
+        "EV to Book Value Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5504427,
+      "name": "Scorpio Tankers Inc ( STNG ) - EV to Book Value Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:04Z",
+      "urlize_name": "Scorpio-Tankers-Inc-STNG-EV-to-Book-Value-Ratio"
+    },
+    {
+      "code": "CYDY_FLOAT",
+      "column_names": [
+        "Date",
+        "Number of Shares Outstanding"
+      ],
+      "description": "Units: million shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 4411765,
+      "name": "CytoDyn Inc. ( CYDY ) - Number of Shares Outstanding",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:23Z",
+      "urlize_name": "CytoDyn-Inc-CYDY-Number-of-Shares-Outstanding"
+    },
+    {
+      "code": "WEGY_EV_SALES",
+      "column_names": [
+        "Date",
+        "EV To Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 5565050,
+      "name": "World Energy Solutions Inc ( WEGY ) - EV To Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:23Z",
+      "urlize_name": "World-Energy-Solutions-Inc-WEGY-EV-To-Sales-Ratio"
+    },
+    {
+      "code": "KTR_REV_GRO",
+      "column_names": [
+        "Date",
+        "Previous Year Growth in Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 6091605,
+      "name": "Keystone Ppty Tr ( KTR ) - Previous Year Growth in Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:04Z",
+      "urlize_name": "Keystone-Ppty-Tr-KTR-Previous-Year-Growth-in-Revenues"
+    },
+    {
+      "code": "CYDY_CASH_ASSETS",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Total Assets"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 4411728,
+      "name": "CytoDyn Inc. ( CYDY ) - Cash as Percentage of Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:23Z",
+      "urlize_name": "CytoDyn-Inc-CYDY-Cash-as-Percentage-of-Total-Assets"
+    },
+    {
+      "code": "FIWC_MKT_DE",
+      "column_names": [
+        "Date",
+        "Market Debt to Equity Ratio"
+      ],
+      "description": "Debt is defined as including both short term and long term debt (but not accounts payable or non-interest bearing liabilities), and the book value of debt is used as a proxy for market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 6088727,
+      "name": "First Ipswich Bancorp ( FIWC ) - Market Debt to Equity Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:23Z",
+      "urlize_name": "First-Ipswich-Bancorp-FIWC-Market-Debt-to-Equity-Ratio"
+    },
+    {
+      "code": "IHP_PE_FWD",
+      "column_names": [
+        "Date",
+        "Forward PE Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4592878,
+      "name": "IHOP Corp. ( IHP ) - Forward PE Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:05Z",
+      "urlize_name": "IHOP-Corp-IHP-Forward-PE-Ratio"
+    },
+    {
+      "code": "KTR_HILO",
+      "column_names": [
+        "Date",
+        "Hi-Lo Risk"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 6091610,
+      "name": "Keystone Ppty Tr ( KTR ) - Hi-Lo Risk",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:05Z",
+      "urlize_name": "Keystone-Ppty-Tr-KTR-Hi-Lo-Risk"
+    },
+    {
+      "code": "XYNY_DIV_YLD",
+      "column_names": [
+        "Date",
+        "Dividend Yield"
+      ],
+      "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 5587631,
+      "name": "Xynergy Corp ( XYNY ) - Dividend Yield",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:05Z",
+      "urlize_name": "Xynergy-Corp-XYNY-Dividend-Yield"
+    },
+    {
+      "code": "CYDY_DEPREC",
+      "column_names": [
+        "Date",
+        "Depreciation"
+      ],
+      "description": "Includes both depreciation and amortization, as reported in the statement of cash flows. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 4411733,
+      "name": "CytoDyn Inc. ( CYDY ) - Depreciation",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:05Z",
+      "urlize_name": "CytoDyn-Inc-CYDY-Depreciation"
+    },
+    {
+      "code": "LNDT_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6090429,
+      "name": "LianDi Clean Technology Inc ( LNDT ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:44:24Z",
+      "urlize_name": "LianDi-Clean-Technology-Inc-LNDT-Trailing-Net-Income"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
+  }],
+  "total_count": 10006019
+}

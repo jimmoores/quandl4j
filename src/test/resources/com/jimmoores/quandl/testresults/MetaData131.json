@@ -1,0 +1,415 @@
+{
+  "current_page": 41849,
+  "docs": [
+    {
+      "code": "FHN_EFF_TAX_INC",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate on Income"
+      ],
+      "description": "This is the effective tax rate, obtained by dividing the taxes paid by the taxable income as reported to the stockholders. We would rather have used marginal tax rates, but these are not reported. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 6079255,
+      "name": "First Tennessee National Corp. ( FHN ) - Effective Tax Rate on Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:48:34Z",
+      "urlize_name": "First-Tennessee-National-Corp-FHN-Effective-Tax-Rate-on-Income"
+    },
+    {
+      "code": "APSG_INSIDER",
+      "column_names": [
+        "Date",
+        "Insider Holdings"
+      ],
+      "description": "Number of shares held by insiders (as defined by the SEC to include corporate officers, directors and those holding more than 5% of the outstanding stock) as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-10-31",
+      "id": 4035952,
+      "name": "Applied Signal Tech ( APSG ) - Insider Holdings",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-10-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:48:37Z",
+      "urlize_name": "Applied-Signal-Tech-APSG-Insider-Holdings"
+    },
+    {
+      "code": "PNTV_REV_LAST",
+      "column_names": [
+        "Date",
+        "Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5394870,
+      "name": "Players Network Inc ( PNTV ) - Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:48:40Z",
+      "urlize_name": "Players-Network-Inc-PNTV-Revenues"
+    },
+    {
+      "code": "SWWI_BETA",
+      "column_names": [
+        "Date",
+        "3-Year Regression Beta"
+      ],
+      "description": "Estimated by regressing weekly returns on stock against NYSE composite. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5521674,
+      "name": "Simon Worldwide Inc ( SWWI ) - 3-Year Regression Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:48:42Z",
+      "urlize_name": "Simon-Worldwide-Inc-SWWI-3-Year-Regression-Beta"
+    },
+    {
+      "code": "SWWI_NET_MARG",
+      "column_names": [
+        "Date",
+        "Net Margin"
+      ],
+      "description": "Estimated by dividing the net income by the total revenues. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5521710,
+      "name": "Simon Worldwide Inc ( SWWI ) - Net Margin",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:48:46Z",
+      "urlize_name": "Simon-Worldwide-Inc-SWWI-Net-Margin"
+    },
+    {
+      "code": "UBP_MKT_CAP",
+      "column_names": [
+        "Date",
+        "Market Capitalization"
+      ],
+      "description": "Estimated market value of equity, obtained by multiplying the number of shares outstanding by the share price. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-10-31",
+      "id": 5351225,
+      "name": "Urstadt Biddle Pptys ( UBP ) - Market Capitalization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-10-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:48:48Z",
+      "urlize_name": "Urstadt-Biddle-Pptys-UBP-Market-Capitalization"
+    },
+    {
+      "code": "PNTV_MKT_DE",
+      "column_names": [
+        "Date",
+        "Market Debt to Equity Ratio"
+      ],
+      "description": "Debt is defined as including both short term and long term debt (but not accounts payable or non-interest bearing liabilities), and the book value of debt is used as a proxy for market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5394847,
+      "name": "Players Network Inc ( PNTV ) - Market Debt to Equity Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:48:52Z",
+      "urlize_name": "Players-Network-Inc-PNTV-Market-Debt-to-Equity-Ratio"
+    },
+    {
+      "code": "PNTV_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5394803,
+      "name": "Players Network Inc ( PNTV ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:48:54Z",
+      "urlize_name": "Players-Network-Inc-PNTV-Correlation-with-the-Market"
+    },
+    {
+      "code": "EFIR_DIV",
+      "column_names": [
+        "Date",
+        "Dividends"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 6011152,
+      "name": "EGPI Firecreek Inc ( EFIR ) - Dividends",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:48:56Z",
+      "urlize_name": "EGPI-Firecreek-Inc-EFIR-Dividends"
+    },
+    {
+      "code": "PNTV_DIV_YLD",
+      "column_names": [
+        "Date",
+        "Dividend Yield"
+      ],
+      "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5394809,
+      "name": "Players Network Inc ( PNTV ) - Dividend Yield",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:49:19Z",
+      "urlize_name": "Players-Network-Inc-PNTV-Dividend-Yield"
+    },
+    {
+      "code": "PNTV_OP_MARG",
+      "column_names": [
+        "Date",
+        "Pre-Tax Operating Margin"
+      ],
+      "description": "Estimated by dividing the pre-tax operating income by the total revenues. This is a pre-tax measure of operating profitability: Pre-tax Operating Margin = EBIT / Sales. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5394863,
+      "name": "Players Network Inc ( PNTV ) - Pre-Tax Operating Margin",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:49:01Z",
+      "urlize_name": "Players-Network-Inc-PNTV-Pre-Tax-Operating-Margin"
+    },
+    {
+      "code": "UBP_MKT_DC",
+      "column_names": [
+        "Date",
+        "Market Debt to Capital Ratio"
+      ],
+      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-10-31",
+      "id": 5351234,
+      "name": "Urstadt Biddle Pptys ( UBP ) - Market Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "1999-10-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:49:24Z",
+      "urlize_name": "Urstadt-Biddle-Pptys-UBP-Market-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "SWWI_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5521726,
+      "name": "Simon Worldwide Inc ( SWWI ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:49:27Z",
+      "urlize_name": "Simon-Worldwide-Inc-SWWI-Trailing-Net-Income"
+    },
+    {
+      "code": "AMK_DIV_YLD",
+      "column_names": [
+        "Date",
+        "Dividend Yield"
+      ],
+      "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 3944965,
+      "name": "Amer Tech Ceramics ( AMK ) - Dividend Yield",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:49:10Z",
+      "urlize_name": "Amer-Tech-Ceramics-AMK-Dividend-Yield"
+    },
+    {
+      "code": "UBP_NET_INC",
+      "column_names": [
+        "Date",
+        "Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-10-31",
+      "id": 5351237,
+      "name": "Urstadt Biddle Pptys ( UBP ) - Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-10-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:49:32Z",
+      "urlize_name": "Urstadt-Biddle-Pptys-UBP-Net-Income"
+    },
+    {
+      "code": "ACUS_FIRM_VAL",
+      "column_names": [
+        "Date",
+        "Firm Value"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 3885178,
+      "name": "Acusphere Inc ( ACUS ) - Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:49:34Z",
+      "urlize_name": "Acusphere-Inc-ACUS-Firm-Value"
+    },
+    {
+      "code": "PNTV_INV_CAP",
+      "column_names": [
+        "Date",
+        "Invested Capital"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5394843,
+      "name": "Players Network Inc ( PNTV ) - Invested Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:49:17Z",
+      "urlize_name": "Players-Network-Inc-PNTV-Invested-Capital"
+    },
+    {
+      "code": "APSG_MKT_DC",
+      "column_names": [
+        "Date",
+        "Market Debt to Capital Ratio"
+      ],
+      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-10-31",
+      "id": 4036043,
+      "name": "Applied Signal Tech ( APSG ) - Market Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-10-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:49:39Z",
+      "urlize_name": "Applied-Signal-Tech-APSG-Market-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "MOLX_FLOAT",
+      "column_names": [
+        "Date",
+        "Number of Shares Outstanding"
+      ],
+      "description": "Units: million shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-06-30",
+      "id": 4683234,
+      "name": "Molex Inc. ( MOLX ) - Number of Shares Outstanding",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-03-20T18:49:22Z",
+      "urlize_name": "Molex-Inc-MOLX-Number-of-Shares-Outstanding"
+    },
+    {
+      "code": "UBP_NCWC",
+      "column_names": [
+        "Date",
+        "Non-Cash Working Capital"
+      ],
+      "description": "Non-Cash Working Capital = Inventory + Other Current Assets + Accounts Receivable - Accounts Payable - Other Current Liabilities.  Current Assets excludes cash.  Current Liabilities excludes interest bearing debt. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-10-31",
+      "id": 5351248,
+      "name": "Urstadt Biddle Pptys ( UBP ) - Non-Cash Working Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-10-31",
+      "type": null,
+      "updated_at": "2014-03-20T18:49:25Z",
+      "urlize_name": "Urstadt-Biddle-Pptys-UBP-Non-Cash-Working-Capital"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
+  }],
+  "total_count": 10006019
+}

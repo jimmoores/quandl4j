@@ -1,0 +1,415 @@
+{
+  "current_page": 385131,
+  "docs": [
+    {
+      "code": "UCFC_INCOMETAXRECONCILIATIONOTHERADJUSTMENTS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeTaxReconciliationOtherAdjustments",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10400363,
+      "name": "UNITED COMMUNITY FINANCIAL CORP  (UCFC): Annual Income Tax Reconciliation Other Adjustments",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:55:05Z",
+      "urlize_name": "UNITED-COMMUNITY-FINANCIAL-CORP-UCFC-Annual-Income-Tax-Reconciliation-Other-Adjustments"
+    },
+    {
+      "code": "UCFC_INCOMETAXRECONCILIATIONNONDEDUCTIBLEEXPENSELIFEINSURANCE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeTaxReconciliationNondeductibleExpenseLifeInsurance",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10400365,
+      "name": "UNITED COMMUNITY FINANCIAL CORP  (UCFC): Annual Income Tax Reconciliation Nondeductible Expense Life Insurance",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:55:05Z",
+      "urlize_name": "UNITED-COMMUNITY-FINANCIAL-CORP-UCFC-Annual-Income-Tax-Reconciliation-Nondeductible-Expense-Life-Insurance"
+    },
+    {
+      "code": "PRTS_CASHDOMINIONPERIODTRIGGERMINIMUMEXCESSAVAILABILITYPERIOD_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CashDominionPeriodTriggerMinimumExcessAvailabilityPeriod",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-03-30",
+      "id": 10400375,
+      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Cash Dominion Period Trigger Minimum Excess Availability Period",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-30",
+      "type": null,
+      "updated_at": "2014-03-06T22:55:05Z",
+      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Cash-Dominion-Period-Trigger-Minimum-Excess-Availability-Period"
+    },
+    {
+      "code": "PRTS_CASHDOMINIONPERIODTRIGGERMAXIMUMEXCESSAVAILABILITYAMOUNT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CashDominionPeriodTriggerMaximumExcessAvailabilityAmount",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-03-30",
+      "id": 10400369,
+      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Cash Dominion Period Trigger Maximum Excess Availability Amount",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-30",
+      "type": null,
+      "updated_at": "2014-03-06T22:54:48Z",
+      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Cash-Dominion-Period-Trigger-Maximum-Excess-Availability-Amount"
+    },
+    {
+      "code": "PRTS_CAPITALSTOCKPERCENTAGE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CapitalStockPercentage",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-03-30",
+      "id": 10400376,
+      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Capital Stock Percentage",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-30",
+      "type": null,
+      "updated_at": "2014-03-06T22:55:05Z",
+      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Capital-Stock-Percentage"
+    },
+    {
+      "code": "UCFC_INCOMETAXRECONCILIATIONTAXEXEMPTINCOME_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeTaxReconciliationTaxExemptIncome",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": null,
+      "id": 10400378,
+      "name": "UNITED COMMUNITY FINANCIAL CORP  (UCFC): Annual Income Tax Reconciliation Tax Exempt Income",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2014-03-06T22:55:06Z",
+      "urlize_name": "UNITED-COMMUNITY-FINANCIAL-CORP-UCFC-Annual-Income-Tax-Reconciliation-Tax-Exempt-Income"
+    },
+    {
+      "code": "PRTS_CASHDOMINIONTRIGGEREDCONSECUTIVEPERIOD_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CashDominionTriggeredConsecutivePeriod",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-03-30",
+      "id": 10400380,
+      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Cash Dominion Triggered Consecutive Period",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-30",
+      "type": null,
+      "updated_at": "2014-03-06T22:54:48Z",
+      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Cash-Dominion-Triggered-Consecutive-Period"
+    },
+    {
+      "code": "PRTS_AGGREGATEAMOUNTOFDIRECTORFEES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AggregateAmountOfDirectorFees",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-03-30",
+      "id": 10399813,
+      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Aggregate Amount Of Director Fees",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-28",
+      "type": null,
+      "updated_at": "2014-03-06T22:55:06Z",
+      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Aggregate-Amount-Of-Director-Fees"
+    },
+    {
+      "code": "UCFC_INCOMETAXRECONCILIATIONINCOMETAXEXPENSEBENEFITATFEDERALSTATUTORYINCOMETAXRATE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10400393,
+      "name": "UNITED COMMUNITY FINANCIAL CORP  (UCFC): Annual Income Tax Reconciliation Income Tax Expense Benefit At Federal Statutory Income Tax Rate",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:54:49Z",
+      "urlize_name": "UNITED-COMMUNITY-FINANCIAL-CORP-UCFC-Annual-Income-Tax-Reconciliation-Income-Tax-Expense-Benefit-At-Federal-Statutory-Income-Tax-Rate"
+    },
+    {
+      "code": "UCFC_INCREMENTALCOMMONSHARESATTRIBUTABLETOSHAREBASEDPAYMENTARRANGEMENTS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncrementalCommonSharesAttributableToShareBasedPaymentArrangements",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": null,
+      "id": 10400404,
+      "name": "UNITED COMMUNITY FINANCIAL CORP  (UCFC): Annual Incremental Common Shares Attributable To Share Based Payment Arrangements",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2014-03-06T22:55:06Z",
+      "urlize_name": "UNITED-COMMUNITY-FINANCIAL-CORP-UCFC-Annual-Incremental-Common-Shares-Attributable-To-Share-Based-Payment-Arrangements"
+    },
+    {
+      "code": "PRTS_CASHEQUIVALENTSMONEYMARKETFUNDSANDSHORTTERMINVESTMENTSMATURITYPERIOD_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CashEquivalentsMoneyMarketFundsAndShortTermInvestmentsMaturityPeriod",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-03-30",
+      "id": 10400397,
+      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Cash Equivalents Money Market Funds And Short Term Investments Maturity Period",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-30",
+      "type": null,
+      "updated_at": "2014-03-06T22:55:07Z",
+      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Cash-Equivalents-Money-Market-Funds-And-Short-Term-Investments-Maturity-Period"
+    },
+    {
+      "code": "PRTS_CASHDOMINIONPERIODTRIGGERMINIMUMEXCESSAVAILABILITYAMOUNT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CashDominionPeriodTriggerMinimumExcessAvailabilityAmount",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-03-30",
+      "id": 10400392,
+      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Cash Dominion Period Trigger Minimum Excess Availability Amount",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-30",
+      "type": null,
+      "updated_at": "2014-03-06T22:54:49Z",
+      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Cash-Dominion-Period-Trigger-Minimum-Excess-Availability-Amount"
+    },
+    {
+      "code": "HON_ASSETSOFDISPOSALGROUPINCLUDINGDISCONTINUEDOPERATIONCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AssetsOfDisposalGroupIncludingDiscontinuedOperationCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10397764,
+      "name": "HONEYWELL INTERNATIONAL INC  (HON): Quarterly Assets Of Disposal Group Including Discontinued Operation Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:55:07Z",
+      "urlize_name": "HONEYWELL-INTERNATIONAL-INC-HON-Quarterly-Assets-Of-Disposal-Group-Including-Discontinued-Operation-Current"
+    },
+    {
+      "code": "PRTS_COMMONSTOCKISSUANCECOSTS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CommonStockIssuanceCosts",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-03-30",
+      "id": 10400420,
+      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Common Stock Issuance Costs",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-30",
+      "type": null,
+      "updated_at": "2014-03-06T22:54:50Z",
+      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Common-Stock-Issuance-Costs"
+    },
+    {
+      "code": "SNMX_AMORTIZATIONOFLEASEHOLDINCENTIVEOBLIGATION_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AmortizationOfLeaseholdIncentiveObligation",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 10398849,
+      "name": "SENOMYX INC  (SNMX): Quarterly Amortization Of Leasehold Incentive Obligation",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:55:07Z",
+      "urlize_name": "SENOMYX-INC-SNMX-Quarterly-Amortization-Of-Leasehold-Incentive-Obligation"
+    },
+    {
+      "code": "SNMX_ACCRETIONAMORTIZATIONOFDISCOUNTSANDPREMIUMSINVESTMENTS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AccretionAmortizationOfDiscountsAndPremiumsInvestments",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 10398843,
+      "name": "SENOMYX INC  (SNMX): Quarterly Accretion Amortization Of Discounts And Premiums Investments",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:55:07Z",
+      "urlize_name": "SENOMYX-INC-SNMX-Quarterly-Accretion-Amortization-Of-Discounts-And-Premiums-Investments"
+    },
+    {
+      "code": "SNMX_ENTITYREGISTRANTNAME_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EntityRegistrantName",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": null,
+      "id": 10398569,
+      "name": "SENOMYX INC  (SNMX): Quarterly Entity Registrant Name",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2014-03-06T22:55:07Z",
+      "urlize_name": "SENOMYX-INC-SNMX-Quarterly-Entity-Registrant-Name"
+    },
+    {
+      "code": "SNMX_ENTITYCENTRALINDEXKEY_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EntityCentralIndexKey",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 10398577,
+      "name": "SENOMYX INC  (SNMX): Quarterly Entity Central Index Key",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:55:07Z",
+      "urlize_name": "SENOMYX-INC-SNMX-Quarterly-Entity-Central-Index-Key"
+    },
+    {
+      "code": "SNMX_AMENDMENTFLAG_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AmendmentFlag",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": null,
+      "id": 10398593,
+      "name": "SENOMYX INC  (SNMX): Quarterly Amendment Flag",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2014-03-06T22:55:07Z",
+      "urlize_name": "SENOMYX-INC-SNMX-Quarterly-Amendment-Flag"
+    },
+    {
+      "code": "SNMX_CURRENTFISCALYEARENDDATE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CurrentFiscalYearEndDate",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 10398595,
+      "name": "SENOMYX INC  (SNMX): Quarterly Current Fiscal Year End Date",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:54:50Z",
+      "urlize_name": "SENOMYX-INC-SNMX-Quarterly-Current-Fiscal-Year-End-Date"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "SEC",
+    "datasets_count": 4867,
+    "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+    "host": "www.sec.gov",
+    "id": 651,
+    "name": "U.S. Securities and Exchange Commission"
+  }],
+  "total_count": 9990700
+}

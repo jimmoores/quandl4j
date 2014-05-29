@@ -32,7 +32,7 @@ public final class MultiMetaDataRequest {
    * @return an instance of the MetaDataRequest for the given quandlCode, not null
    */
   public static MultiMetaDataRequest of(final List<String> quandlCodes) {
-    ArgumentChecker.notNull(quandlCodes, "quandlCodes");
+    ArgumentChecker.notNullOrEmpty(quandlCodes, "quandlCodes");
     return new MultiMetaDataRequest(quandlCodes);
   }
   
@@ -42,7 +42,7 @@ public final class MultiMetaDataRequest {
    * @return an instance of the MetaDataRequest for the given quandlCode, not null
    */
   public static MultiMetaDataRequest of(final String... quandlCodes) {
-    ArgumentChecker.notNull(quandlCodes, "quandlCodes");
+    ArgumentChecker.notNullOrEmpty(quandlCodes, "quandlCodes");
     return new MultiMetaDataRequest(Arrays.asList(quandlCodes));
   }
   

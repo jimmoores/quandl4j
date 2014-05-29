@@ -12,7 +12,6 @@ import com.jimmoores.quandl.QuandlCodeRequest;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.Transform;
-import com.jimmoores.quandl.DataSetRequest.Builder;
 import com.jimmoores.quandl.util.PrettyPrinter;
 
 /**
@@ -27,7 +26,7 @@ public final class Demo {
    */
   private Demo() {
   }
-
+ 
   /**
    * The main body of the code.
    */

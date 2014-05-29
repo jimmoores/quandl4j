@@ -1,0 +1,486 @@
+{
+  "current_page": 123672,
+  "docs": [
+    {
+      "code": "COMM_22_FOODPREPARATIONSNES_IMPORT_NER",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 3015654,
+      "name": "Commodity Imports - Miscellaneous Edible Preparations / Food preparations nes - Niger",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T10:47:02Z",
+      "urlize_name": "Commodity-Imports-Miscellaneous-Edible-Preparations-Food-preparations-nes-Niger"
+    },
+    {
+      "code": "POP_320_DOM_MAL_65TO69",
+      "column_names": [
+        "Year",
+        "Total",
+        "Employer",
+        "Own account worker",
+        "Employee",
+        "Contributing family members",
+        "Member of producers' cooperative",
+        "Unknown"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 2603418,
+      "name": "Employed Population by Status - Male / Age 65 to 69 - Dominican Republic",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T10:02:02Z",
+      "urlize_name": "Employed-Population-by-Status-Male-Age-65-to-69-Dominican-Republic"
+    },
+    {
+      "code": "COMM_85_TURNTABLESWITHOUTRECORDCHANGERS_IMPORT_PRY",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1992-12-31",
+      "id": 5618737,
+      "name": "Commodity Imports - Electrical, Electronic Equipment / Turntables, without record changers - Paraguay",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T08:38:35Z",
+      "urlize_name": "Commodity-Imports-Electrical-Electronic-Equipment-Turntables-without-record-changers-Paraguay"
+    },
+    {
+      "code": "UNE_SEX_AGE_DUR_NB_SEX_F_AGE_10YEARSBAND_15P_DUR_UNE_12P_HRV",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 6232445,
+      "name": "Unemployment By Sex, Age And Duration, Female, 15+, 12 Months Or More - Croatia",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-20T07:07:09Z",
+      "urlize_name": "Unemployment-By-Sex-Age-And-Duration-Female-15-12-Months-Or-More-Croatia"
+    },
+    {
+      "code": "UNE_SEX_AGE_DUR_NB_SEX_T_AGE_10YEARSBAND_35_54_DUR_UNE_TOTAL_USA",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 6236641,
+      "name": "Unemployment By Sex, Age And Duration, Total, 35-54, Total - United States",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-20T09:23:04Z",
+      "urlize_name": "Unemployment-By-Sex-Age-And-Duration-Total-35-54-Total-United-States"
+    },
+    {
+      "code": "COMM_87_STEERINGWHEELSCOLUMNSBOXESFORMOTORVEHICLES_EXPORT_MNG",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5702572,
+      "name": "Commodity Exports - Vehicles Other Than Railway, Tramway / Steering wheels, columns & boxes for motor vehicles - Mongolia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T10:07:12Z",
+      "urlize_name": "Commodity-Exports-Vehicles-Other-Than-Railway-Tramway-Steering-wheels-columns-boxes-for-motor-vehicles-Mongolia"
+    },
+    {
+      "code": "TRNG_ENT03S_827",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "CVTS2 and CVTS3 data were collected with reference year 1 1999 and 2005 and published by Eurostat in order to:\r\nProvide the Commission with harmonised, reliable and relevant statistical information needed to define, implement, monitor and evaluate Commission policies in the continuing vocational training in enterprises sector.\r\nProvide the EU institutions, national administrations, enterprises, professional associations and EU citizens with high quality statistical services and products in the field of training.\r\nCVTS3 provides comparable statistics on training enterprises, the participation to training, the volume of CVT courses and its costs, and moreover information on Initial vocational training (IVT) courses.\r\nCVTS2 provides comparable statistical results on training and non-training enterprises, the supply of and the demand for vocational skills, the need for CVT and the forms, content and volume of CVT, the use of enterprises' own training resources and of external providers, and the cost of CVT courses.\r\nThe CVTS1 was the first survey on continuing vocational training in enterprises carried out on the EU level in a co-ordinated form (outline questionnaire, common definitions, and common recommendations with the respect to the fieldwork). The survey therefore was of pioneering nature, and is not any longer disseminated.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_cvts_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_ent03s.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 763739,
+      "name": "Training enterprises as  of all enterprises by type of training and size class  : Percentage of total : No vocational training : European Union : 250 employees or more",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "1999-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T20:37:55Z",
+      "urlize_name": "Training-enterprises-as-of-all-enterprises-by-type-of-training-and-size-class-Percentage-of-total-No-vocational-training-European-Union-250-employees-or-more"
+    },
+    {
+      "code": "697_001507375_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Without object, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=697",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "monthly",
+      "from_date": "1996-01-31",
+      "id": 8277597,
+      "name": "Labor cost index - Index (2000=100) - Working day adjusted - Euro area (12 countries) - Stopped series",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2008-03-31",
+      "type": null,
+      "updated_at": "2014-01-08T21:15:10Z",
+      "urlize_name": "Labor-cost-index-Index-2000-100-Working-day-adjusted-Euro-area-12-countries-Stopped-series"
+    },
+    {
+      "code": "FAO_5802LANDLOCKEDDEVELOPINGCOUNTRIESTOTAL2667HARDFIBRESOTHER",
+      "column_names": [
+        "Year",
+        "Production Quantity (tonnes)",
+        "Import Quantity (tonnes)",
+        "Stock Variation (tonnes)",
+        "Export Quantity (tonnes)",
+        "Domestic supply quantity (tonnes)",
+        "Other Util (tonnes)"
+      ],
+      "description": "Commodity balances show balances of food and agricultural commodities in a standardized form. The scope of standardization is to present these data in a less detailed form for a selected number of commodities without causing any significant loss of the basic variables monitoring the agricultural sector. The selected commodities include the equivalents of their derived products falling in the same commodity group, but exclude the equivalents of by-products and derived commodities, which through processing, change their nature and become part of different commodity groups. The commodity list in this domain has been generally confined to primary commodities - except for sugar, oils and fats and beverages. Whenever possible trade in processed commodities is expressed in the originating primary commodity equivalent. Rice is expressed in milled equivalent.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/CommodityBalances_Crops_E_All_Area_Groups_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7802937,
+      "name": "Commodity Balances Crops: Hard Fibres, Other - LandLocked developing countries + (Total)",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T10:08:39Z",
+      "urlize_name": "Commodity-Balances-Crops-Hard-Fibres-Other-LandLocked-developing-countries-Total"
+    },
+    {
+      "code": "ENPR_ETFLOW_157",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The domain focuses on the Eastern European Neighbourhood Policy countries (ENP): Armenia, Azerbaijan, Belarus, Georgia, Moldova and the Ukraine.\r\nData are provided for 200 to 300 indicators.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/enpr_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fenpr_etflow.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 916422,
+      "name": "ENP countries Trading partners  flows  : Value of imports from Japan (EUR million) : Belarus",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T20:37:55Z",
+      "urlize_name": "ENP-countries-Trading-partners-flows-Value-of-imports-from-Japan-EUR-million-Belarus"
+    },
+    {
+      "code": "TRNG_AES_185_194",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Adult Education Survey is part of the EU Statistics on lifelong learning. The surveys have been carried out by countries in the EU, EFTA and candidate countries between 2005 and 2008. The EU AES is a pilot exercise which for the first time proposed a common EU framework including a standard questionnaire, tools and quality reporting.\r\nAES data from approximately half of the participating countries will be disseminated in autumn 2008 and the second part in mid 2009\r\nThe survey covers participation in education and lifelong learning activities (formal, non-formal and informal learning) including job-related activities, characteristics of learning activities, self-reported skills as well as modules on social and cultural participation, foreign language skills, IT skills and background variables related to main characteristics of the respondents.\r\nParameters and main variables\r\nThe AES in all the participating countries focused on the following parameters:\r\nParticipation in formal, non-formal and informal education (FED, NFE, INF)\r\nNon-participation and obstacles to participation in training\r\nParticipation in FED, NFE and INF activities by field of education/learning\r\nShare of the job related NFE\r\nVolume of instruction hours in FED and NFE\r\nEmployer financing and costs of learning in FED and NFE\r\nModule on language and ICT skills of the population\r\nModule on social and cultural participation of the population\r\n\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_aes_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_aes_185.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 571761,
+      "name": "Access to information on learning possibilities by type of participation in education and training  : Percentage of total : Total (any type of vocational training and no vocational training) : No : Poland",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T20:39:12Z",
+      "urlize_name": "Access-to-information-on-learning-possibilities-by-type-of-participation-in-education-and-training-Percentage-of-total-Total-any-type-of-vocational-training-and-no-vocational-training-No-Poland"
+    },
+    {
+      "code": "GSP_SIC_ALL_S_AGRICULTUREFORESTRYFISHINGANDHUNTING_WISCONSIN",
+      "column_names": [],
+      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+      "display_url": "http://bea.gov/regional",
+      "frequency": null,
+      "from_date": null,
+      "id": 8196494,
+      "name": "Subsidies (SIC): Agriculture, forestry, fishing, and hunting - Wisconsin",
+      "private": false,
+      "source_code": "BEA",
+      "source_name": "Bureau of Economic Analysis",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2013-09-13T01:03:45Z",
+      "urlize_name": "Subsidies-SIC-Agriculture-forestry-fishing-and-hunting-Wisconsin"
+    },
+    {
+      "code": "COMM_63_TIESBOWTIESANDCRAVATSMATERIALNESNOTKNIT_EXPORT_MLI",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1996-12-31",
+      "id": 3935658,
+      "name": "Commodity Exports - Articles Of Apparel, Accessories, Not Knit Or Crochet / Ties, bow ties and cravats, material nes, not knit - Mali",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "1996-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T07:31:06Z",
+      "urlize_name": "Commodity-Exports-Articles-Of-Apparel-Accessories-Not-Knit-Or-Crochet-Ties-bow-ties-and-cravats-material-nes-not-knit-Mali"
+    },
+    {
+      "code": "TEN00101_32",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Annual data on crude oil, oil products, natural gas, electricity, solid fuels and renewable covering the full spectrum of the energy balances positions from supply through transformation to final energy consumption by sector and fuel type.\r\nMonthly data on crude oil, oil products, natural gas, electricity and solid fuels, covering mainly the supply side.\r\nAlso, annual and monthly imports and exports data of various energy carriers by country of origin and destination, as well as infrastructure information.\r\nAll the above is measured in physical units (t, TJ, kWh, toe, etc.).\r\nIn general, annual data collections cover the full spectrum of the 27 Member States of the European Union, the European Economic Area countries Iceland and Norway, and the Candidate Countries FYROM, Croatia and Turkey, with time-series reaching back to 1990 (for some new Member States selected energy indicators belonging to the major collections \"Structural Indicators\" and \"Euro indicators\" are included).\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/nrg_quant_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ften00101.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 599224,
+      "name": "Final energy consumption by households trades services etc  : Thousand tonnes of oil equivalent (TOE) : All products : Final Energy Consumption - Other Sectors : Romania",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T20:37:55Z",
+      "urlize_name": "Final-energy-consumption-by-households-trades-services-etc-Thousand-tonnes-of-oil-equivalent-TOE-All-products-Final-Energy-Consumption-Other-Sectors-Romania"
+    },
+    {
+      "code": "UNE_SEX_AGE_DUR_NB_SEX_F_AGE_10YEARSBAND_15P_DUR_UNE_12P_DEU",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 6232431,
+      "name": "Unemployment By Sex, Age And Duration, Female, 15+, 12 Months Or More - Germany",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-20T07:06:42Z",
+      "urlize_name": "Unemployment-By-Sex-Age-And-Duration-Female-15-12-Months-Or-More-Germany"
+    },
+    {
+      "code": "POP_24_VEN_MAL_TOT_UNKNOWN",
+      "column_names": [
+        "Year",
+        "Total",
+        "Native",
+        "Foreign-born",
+        "Unknown"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 2508574,
+      "name": "Native and Foreign-Born Population - Male / Age Unknown / Total Areas - Venezuela (Bolivarian Republic of)",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T08:48:08Z",
+      "urlize_name": "Native-and-Foreign-Born-Population-Male-Age-Unknown-Total-Areas-Venezuela-Bolivarian-Republic-of"
+    },
+    {
+      "code": "GSP_NAICS_ALL_T_OTHERTRANSPORTATIONEQUIPMENTMANUFACTURING_MARYLAND",
+      "column_names": [
+        "Year",
+        "Other Transportation Equipment Manufacturing"
+      ],
+      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+      "display_url": "http://bea.gov/regional",
+      "frequency": "annual",
+      "from_date": "1997-12-31",
+      "id": 6708129,
+      "name": "TOPI (NAICS): Other transportation equipment manufacturing - Maryland",
+      "private": false,
+      "source_code": "BEA",
+      "source_name": "Bureau of Economic Analysis",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T09:51:22Z",
+      "urlize_name": "TOPI-NAICS-Other-transportation-equipment-manufacturing-Maryland"
+    },
+    {
+      "code": "HSW_AC9_921",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This data collection, based on the Labour Force Survey 2007 ad-hoc module, provides data on the occurrence of accidents at work, work-related health problems and hazardous exposure. In particular this collection aims:\r\nto know the number of cases and days lost because of accidents at work and the number of cases and days lost because of non-accidental work-related health problems;\r\nto analyse the differences in the occurrence of these accidents and health problems by factors linked to the employment characteristics of the worker and factors linked to the employer's characteristics;\r\nto know about the occurrence of factors at work that can adversely affect health.\r\nThe LFS 2007 module gives additional value compared to the administrative data collection ESAW (European statistics at work) by:\r\nincluding the \"less serious\" accidents (less than four days of absence from work);\r\nanalysing the occurrence of accidents at work by the LFS core variables;\r\nenabling a comparison to estimate the reporting levels in ESAW;\r\nspecifying the occurrence of accidents not so well covered in ESAW.\r\nThe LFS 2007 module gives additional value compared to the administrative data on occupational diseases by:\r\nspecifying the frequency of diseases caused by work or made worse by work, irrespectively if the disease is recognised or not as an occupational disease;\r\nspecifying the frequency of new emerging types of work-related diseases which are not included in the administrative lists of occupational diseases (especially musculoskeletal and psychosocial health problems);\r\nestimating the burden of work-related diseases in terms of absence from work;\r\nanalysing the occurrence of work-related diseases by the LFS core variables.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/hsw_apex_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fhsw_ac9.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 910201,
+      "name": "Persons reporting an accident at work in the past 12 months by sex age and size of enterprise  : Males : From 45 to 54 years : 10 employees or fewer : Luxembourg",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T20:37:55Z",
+      "urlize_name": "Persons-reporting-an-accident-at-work-in-the-past-12-months-by-sex-age-and-size-of-enterprise-Males-From-45-to-54-years-10-employees-or-fewer-Luxembourg"
+    },
+    {
+      "code": "COMM_65_FOOTWEARSOLELEATHERANDUPPERSTEXTILEMATERIAL_IMPORT_DEU",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 4019403,
+      "name": "Commodity Imports - Footwear, Gaiters And The Like, Parts Thereof / Footwear, sole leather and uppers textile material - Germany",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T10:45:08Z",
+      "urlize_name": "Commodity-Imports-Footwear-Gaiters-And-The-Like-Parts-Thereof-Footwear-sole-leather-and-uppers-textile-material-Germany"
+    },
+    {
+      "code": "192_SGP",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=119",
+      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/WHS7_147&filter=COUNTRY:SGP;\n",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 9512431,
+      "name": "Private expenditure on health as a percentage of total expenditure on health - Singapore",
+      "private": false,
+      "source_code": "WHO",
+      "source_name": "World Health Organization",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T20:39:11Z",
+      "urlize_name": "Private-expenditure-on-health-as-a-percentage-of-total-expenditure-on-health-Singapore"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "ILO",
+      "datasets_count": 228980,
+      "description": "No description for this source yet",
+      "host": "www.ilo.org",
+      "id": 686,
+      "name": "International Labour Organization"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
+    },
+    {
+      "code": "BEA",
+      "datasets_count": 107459,
+      "description": "No description for this source yet",
+      "host": "www.bea.gov",
+      "id": 95,
+      "name": "Bureau of Economic Analysis"
+    },
+    {
+      "code": "WHO",
+      "datasets_count": 21456,
+      "description": "",
+      "host": "apps.who.int",
+      "id": 525,
+      "name": "World Health Organization"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    }
+  ],
+  "total_count": 10006019
+}

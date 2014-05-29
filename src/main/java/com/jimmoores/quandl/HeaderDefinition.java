@@ -1,31 +1,64 @@
 package com.jimmoores.quandl;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.jimmoores.quandl.util.ArgumentChecker;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import jersey.repackaged.com.google.common.collect.Lists;
+import com.jimmoores.quandl.util.ArgumentChecker;
 
 /**
  * The definition of the names of columns in a Row.
  */
 public final class HeaderDefinition {
+  private static Logger s_logger = LoggerFactory.getLogger(HeaderDefinition.class);
   private final Map<String, Integer> _columnNamesToIndices = new LinkedHashMap<String, Integer>();
-
+  private final List<String> _columnNames;
+  
   private HeaderDefinition(final List<String> columnNames) {
+    _columnNames = new ArrayList<String>(columnNames);
     int i = 0;
+    Map<String, Integer> duplicateCounters = new HashMap<String, Integer>();
     for (String columnName : columnNames) {
-      _columnNamesToIndices.put(columnName, i++);
+      if (_columnNamesToIndices.containsKey(columnName)) {
+        int count;
+        if (duplicateCounters.containsKey(columnName)) {
+          count = duplicateCounters.get(columnName);
+          duplicateCounters.put(columnName, count + 1);
+        } else {
+          duplicateCounters.put(columnName, 1);
+          count = 1;
+        }
+        String arrayColumnName = columnName + "." + count;
+        s_logger.warn("Duplicate column name {} enountered, renaming {}", columnName, arrayColumnName);
+        _columnNamesToIndices.put(arrayColumnName, i);
+        _columnNames.set(i, arrayColumnName);
+        i++;
+      } else {
+        _columnNamesToIndices.put(columnName, i++);
+      }
     }
+
   }
   
   /**
-   * Create a RowDefinition when no type information is available.
+   * Create a RowDefinition.
+   * In rare situations, duplicates can occur.  These will be renamed so:
+   * <pre>
+   *   column, column, column, ... 
+   * </pre>
+   * becomes:
+   * <pre>
+   *   column, column.1, column.2, ...
+   * </pre>
+   * for lookup and display purposes.  A warning will be printed to the logger.
    * @param columnNames a list of strings, each naming a column
    * @return the instance
    */
@@ -36,6 +69,15 @@ public final class HeaderDefinition {
   
   /**
    * Create a RowDefinition when no type information is available.
+   * In rare situations, duplicates can occur.  These will be renamed so:
+   * <pre>
+   *   column, column, column, ... 
+   * </pre>
+   * becomes:
+   * <pre>
+   *   column, column.1, column.2, ...
+   * </pre>
+   * for lookup purposes.  A warning will be printed to the logger.
    * @param columnNames a vararg array of strings, each naming a column
    * @return the instance
    */
@@ -46,6 +88,7 @@ public final class HeaderDefinition {
   
   /**
    * Get the column index of the named column (zero-based).  Throws IllegalArgumentException if column of provided name is not found.
+   * Repeated column names can be indexed as column, column.1, column.2, etc.
    * @param columnName the name of the column
    * @return the column index
    * 
@@ -63,7 +106,7 @@ public final class HeaderDefinition {
    * @return the number of columns
    */
   public int size() {
-    return _columnNamesToIndices.size();
+    return _columnNames.size();
   }
   
   /**
@@ -79,13 +122,12 @@ public final class HeaderDefinition {
    * @return an immutable copy of the list of column names
    */
   public List<String> getColumnNames() {
-    // TODO: make this less ugly
-    return Collections.unmodifiableList(Lists.newArrayList(_columnNamesToIndices.keySet()));
+    return Collections.unmodifiableList(_columnNames);
   }
 
   @Override
   public int hashCode() {
-    return _columnNamesToIndices.hashCode();
+    return _columnNames.hashCode();
   }
 
   @Override
@@ -100,11 +142,11 @@ public final class HeaderDefinition {
       return false;
     }
     HeaderDefinition other = (HeaderDefinition) obj;
-    if (_columnNamesToIndices == null) {
-      if (other._columnNamesToIndices != null) {
+    if (_columnNames == null) {
+      if (other._columnNames != null) {
         return false;
       }
-    } else if (!_columnNamesToIndices.equals(other._columnNamesToIndices)) {
+    } else if (!_columnNames.equals(other._columnNames)) {
       return false;
     }
     return true;
@@ -114,7 +156,7 @@ public final class HeaderDefinition {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("HeaderDefinition[");
-    Iterator<String> iter = _columnNamesToIndices.keySet().iterator();
+    Iterator<String> iter = _columnNames.iterator();
     while (iter.hasNext()) {
       sb.append(iter.next());
       if (iter.hasNext()) {

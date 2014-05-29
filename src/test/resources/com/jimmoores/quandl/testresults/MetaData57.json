@@ -1,0 +1,415 @@
+{
+  "current_page": 462294,
+  "docs": [
+    {
+      "code": "COAL_SHIPMENT_QTY_3303288_2840_BIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303288-2840-BIT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303288-2840-BIT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3303288-2840-BIT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2010-06-30",
+      "id": 11936856,
+      "name": "Coal Shipment Quantity : Rice #7 (strip) To Conesville : Bituminous : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:20Z",
+      "urlize_name": "Coal-Shipment-Quantity-Rice-7-strip-To-Conesville-Bituminous-Quarterly"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3303288_2840_TOT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303288-2840-TOT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303288-2840-TOT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3303288-2840-TOT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 11936857,
+      "name": "Coal Shipment Quantity : Rice #7 (strip) To Conesville : All : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:53Z",
+      "urlize_name": "Coal-Shipment-Quantity-Rice-7-strip-To-Conesville-All-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3304614_2840_BIT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304614-2840-BIT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304614-2840-BIT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3304614-2840-BIT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2012-12-31",
+      "id": 11939082,
+      "name": "Coal Shipment Quantity : Prep Plant To Conesville : Bituminous : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:21Z",
+      "urlize_name": "Coal-Shipment-Quantity-Prep-Plant-To-Conesville-Bituminous-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3304614_2840_BIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304614-2840-BIT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304614-2840-BIT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3304614-2840-BIT.Q&out=xml",
+      "frequency": "annual",
+      "from_date": "2012-06-30",
+      "id": 11939083,
+      "name": "Coal Shipment Quantity : Prep Plant To Conesville : Bituminous : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:22Z",
+      "urlize_name": "Coal-Shipment-Quantity-Prep-Plant-To-Conesville-Bituminous-Quarterly"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3304614_2840_TOT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304614-2840-TOT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304614-2840-TOT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3304614-2840-TOT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2012-12-31",
+      "id": 11939084,
+      "name": "Coal Shipment Quantity : Prep Plant To Conesville : All : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:23Z",
+      "urlize_name": "Coal-Shipment-Quantity-Prep-Plant-To-Conesville-All-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3304614_2840_TOT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304614-2840-TOT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304614-2840-TOT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3304614-2840-TOT.Q&out=xml",
+      "frequency": "annual",
+      "from_date": "2012-06-30",
+      "id": 11939085,
+      "name": "Coal Shipment Quantity : Prep Plant To Conesville : All : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:55Z",
+      "urlize_name": "Coal-Shipment-Quantity-Prep-Plant-To-Conesville-All-Quarterly"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3303288_2840_TOT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303288-2840-TOT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303288-2840-TOT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3303288-2840-TOT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2010-06-30",
+      "id": 11936858,
+      "name": "Coal Shipment Quantity : Rice #7 (strip) To Conesville : All : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:56Z",
+      "urlize_name": "Coal-Shipment-Quantity-Rice-7-strip-To-Conesville-All-Quarterly"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3303793_2840_BIT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303793-2840-BIT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303793-2840-BIT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3303793-2840-BIT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2013-12-31",
+      "id": 11936991,
+      "name": "Coal Shipment Quantity : Stonecreek Mine To Conesville : Bituminous : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:24Z",
+      "urlize_name": "Coal-Shipment-Quantity-Stonecreek-Mine-To-Conesville-Bituminous-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3303793_2840_BIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303793-2840-BIT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303793-2840-BIT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3303793-2840-BIT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2013-09-30",
+      "id": 11936992,
+      "name": "Coal Shipment Quantity : Stonecreek Mine To Conesville : Bituminous : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:25Z",
+      "urlize_name": "Coal-Shipment-Quantity-Stonecreek-Mine-To-Conesville-Bituminous-Quarterly"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3303793_2840_TOT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303793-2840-TOT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303793-2840-TOT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3303793-2840-TOT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2013-12-31",
+      "id": 11936993,
+      "name": "Coal Shipment Quantity : Stonecreek Mine To Conesville : All : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:58Z",
+      "urlize_name": "Coal-Shipment-Quantity-Stonecreek-Mine-To-Conesville-All-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3303793_2840_TOT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303793-2840-TOT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303793-2840-TOT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3303793-2840-TOT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2013-09-30",
+      "id": 11936994,
+      "name": "Coal Shipment Quantity : Stonecreek Mine To Conesville : All : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:26Z",
+      "urlize_name": "Coal-Shipment-Quantity-Stonecreek-Mine-To-Conesville-All-Quarterly"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3304645_2840_BIT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304645-2840-BIT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304645-2840-BIT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3304645-2840-BIT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2013-12-31",
+      "id": 11939158,
+      "name": "Coal Shipment Quantity : Vail Mine To Conesville : Bituminous : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:59Z",
+      "urlize_name": "Coal-Shipment-Quantity-Vail-Mine-To-Conesville-Bituminous-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3304645_2840_BIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304645-2840-BIT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304645-2840-BIT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3304645-2840-BIT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2013-09-30",
+      "id": 11939159,
+      "name": "Coal Shipment Quantity : Vail Mine To Conesville : Bituminous : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:28Z",
+      "urlize_name": "Coal-Shipment-Quantity-Vail-Mine-To-Conesville-Bituminous-Quarterly"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3304645_2840_TOT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304645-2840-TOT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304645-2840-TOT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3304645-2840-TOT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2013-12-31",
+      "id": 11939160,
+      "name": "Coal Shipment Quantity : Vail Mine To Conesville : All : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:40:00Z",
+      "urlize_name": "Coal-Shipment-Quantity-Vail-Mine-To-Conesville-All-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3304645_2840_TOT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304645-2840-TOT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304645-2840-TOT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3304645-2840-TOT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2013-09-30",
+      "id": 11939161,
+      "name": "Coal Shipment Quantity : Vail Mine To Conesville : All : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:40:00Z",
+      "urlize_name": "Coal-Shipment-Quantity-Vail-Mine-To-Conesville-All-Quarterly"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3303907_2840_BIT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303907-2840-BIT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303907-2840-BIT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3303907-2840-BIT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 11937035,
+      "name": "Coal Shipment Quantity : Conesville Coal Preparation Co To Conesville : Bituminous : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:29Z",
+      "urlize_name": "Coal-Shipment-Quantity-Conesville-Coal-Preparation-Co-To-Conesville-Bituminous-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3303907_2840_BIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303907-2840-BIT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303907-2840-BIT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3303907-2840-BIT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2009-09-30",
+      "id": 11937036,
+      "name": "Coal Shipment Quantity : Conesville Coal Preparation Co To Conesville : Bituminous : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:30Z",
+      "urlize_name": "Coal-Shipment-Quantity-Conesville-Coal-Preparation-Co-To-Conesville-Bituminous-Quarterly"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3303907_2840_TOT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303907-2840-TOT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303907-2840-TOT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3303907-2840-TOT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 11937037,
+      "name": "Coal Shipment Quantity : Conesville Coal Preparation Co To Conesville : All : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:40:03Z",
+      "urlize_name": "Coal-Shipment-Quantity-Conesville-Coal-Preparation-Co-To-Conesville-All-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3303907_2840_TOT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303907-2840-TOT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303907-2840-TOT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3303907-2840-TOT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2009-09-30",
+      "id": 11937038,
+      "name": "Coal Shipment Quantity : Conesville Coal Preparation Co To Conesville : All : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:40:03Z",
+      "urlize_name": "Coal-Shipment-Quantity-Conesville-Coal-Preparation-Co-To-Conesville-All-Quarterly"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3304213_2840_BIT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304213-2840-BIT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3304213-2840-BIT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3304213-2840-BIT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 11937608,
+      "name": "Coal Shipment Quantity : Oxford Mining #2 To Conesville : Bituminous : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:39:32Z",
+      "urlize_name": "Coal-Shipment-Quantity-Oxford-Mining-2-To-Conesville-Bituminous-Annual"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "EIA",
+    "datasets_count": 427809,
+    "description": "No description for this source yet",
+    "host": "www.api.eia.gov",
+    "id": 661,
+    "name": "U.S. Energy Information Administration"
+  }],
+  "total_count": 10006019
+}

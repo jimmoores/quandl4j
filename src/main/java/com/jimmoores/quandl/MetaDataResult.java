@@ -51,7 +51,7 @@ public final class MetaDataResult {
     JSONArray jsonArray = null;
     try {
       jsonArray = _jsonObject.getJSONArray(COLUMN_NAMES_FIELD);
-      List<String> columnNames = new ArrayList<>(jsonArray.length()); 
+      List<String> columnNames = new ArrayList<String>(jsonArray.length()); 
       for (int i = 0; i < jsonArray.length(); i++) {
         columnNames.add(jsonArray.getString(i));
       }

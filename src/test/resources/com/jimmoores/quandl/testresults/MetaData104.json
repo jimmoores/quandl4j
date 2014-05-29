@@ -1,0 +1,415 @@
+{
+  "current_page": 21488,
+  "docs": [
+    {
+      "code": "MZIP_PCTTRANSACTIONSTHATAREPREVIOUSLYFORECLOSUREDHOMES_ALLHOMES_93514",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of home sales in a given month where the home was foreclosed upon within the previous 12 months (e.g. sales of bank-owned homes after the bank repossessed a home during a foreclosure). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctTransactionsThatArePreviouslyForeclosuredHomes_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "1999-04-30",
+      "id": 7417364,
+      "name": "Zillow Metrics (Zip Codes): Foreclosure Resales (%) - 93514,Bishop,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T17:49:51Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Foreclosure-Resales-93514-Bishop-CA"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_SOUTHHAVENTOWNSHIPMI",
+      "column_names": [
+        "Date",
+        "South Haven Township"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-08-31",
+      "id": 7316152,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - South Haven Township, MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-05-15T18:36:34Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-South-Haven-Township-MI"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_TOWNOFLITCHFIELDCT",
+      "column_names": [
+        "Date",
+        "Town of Litchfield"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-03-31",
+      "id": 7317614,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Town of Litchfield, CT",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-05-15T19:38:18Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Town-of-Litchfield-CT"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_HALFMOONBAYCA",
+      "column_names": [
+        "Date",
+        "Half Moon Bay"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-04-30",
+      "id": 7315294,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Half Moon Bay, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:53:16Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Half-Moon-Bay-CA"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_MADISONOH",
+      "column_names": [
+        "Date",
+        "Madison"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-08-31",
+      "id": 7314974,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Madison, OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:34:06Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Madison-OH"
+    },
+    {
+      "code": "MZIP_PCTTRANSACTIONSTHATAREPREVIOUSLYFORECLOSUREDHOMES_ALLHOMES_90303",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of home sales in a given month where the home was foreclosed upon within the previous 12 months (e.g. sales of bank-owned homes after the bank repossessed a home during a foreclosure). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctTransactionsThatArePreviouslyForeclosuredHomes_AllHomes.csv",
+      "frequency": "annual",
+      "from_date": "1998-08-31",
+      "id": 7417031,
+      "name": "Zillow Metrics (Zip Codes): Foreclosure Resales (%) - 90303,Inglewood,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-07-31",
+      "type": null,
+      "updated_at": "2014-05-15T17:50:55Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Foreclosure-Resales-90303-Inglewood-CA"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_WOODBINEGA",
+      "column_names": [
+        "Date",
+        "Woodbine"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-08-31",
+      "id": 7318030,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Woodbine, GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:43:14Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Woodbine-GA"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_WOODMEREOH",
+      "column_names": [
+        "Date",
+        "Woodmere"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-12-31",
+      "id": 7319512,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Woodmere, OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-05-07T21:54:34Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Woodmere-OH"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_FRISCOCO",
+      "column_names": [
+        "Date",
+        "Frisco"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-07-31",
+      "id": 7319434,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Frisco, CO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-05-07T21:53:14Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Frisco-CO"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_RADFORDVA",
+      "column_names": [
+        "Date",
+        "Radford"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "annual",
+      "from_date": "2013-04-30",
+      "id": 7314412,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Radford, VA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:32:02Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Radford-VA"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_SOMERSETWI",
+      "column_names": [
+        "Date",
+        "Somerset"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-02-28",
+      "id": 7318089,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Somerset, WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:53:30Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Somerset-WI"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_MILANMI",
+      "column_names": [
+        "Date",
+        "Milan"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-10-31",
+      "id": 7318429,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Milan, MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-05-15T18:46:00Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Milan-MI"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_FREELANDWA",
+      "column_names": [
+        "Date",
+        "Freeland"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-07-31",
+      "id": 7318798,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Freeland, WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:53:01Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Freeland-WA"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_WILLOWSPRINGSIL",
+      "column_names": [
+        "Date",
+        "Willow Springs"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "2012-11-30",
+      "id": 7318453,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Willow Springs, IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-05-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:43:50Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Willow-Springs-IL"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_BOXBOROMA",
+      "column_names": [
+        "Date",
+        "Boxboro"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-01-31",
+      "id": 7318569,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Boxboro, MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-05-15T18:33:05Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Boxboro-MA"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_MOUNTRAINIERMD",
+      "column_names": [
+        "Date",
+        "Mount Rainier"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2013-01-31",
+      "id": 7317551,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Mount Rainier, MD",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:34:24Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Mount-Rainier-MD"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_HUNTINGTONIN",
+      "column_names": [
+        "Date",
+        "Huntington"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-05-31",
+      "id": 7315918,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Huntington, IN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-05-07T21:53:08Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Huntington-IN"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_PINOLECA",
+      "column_names": [
+        "Date",
+        "Pinole"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-03-31",
+      "id": 7315195,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Pinole, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:33:50Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Pinole-CA"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_CANONSBURGPA",
+      "column_names": [
+        "Date",
+        "Canonsburg"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "2011-11-30",
+      "id": 7317395,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Canonsburg, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-05-07T21:53:27Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Canonsburg-PA"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_PERINTONNY",
+      "column_names": [
+        "Date",
+        "Perinton"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-08-31",
+      "id": 7313169,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Perinton, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:53:21Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Perinton-NY"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "ZILLOW",
+    "datasets_count": 216313,
+    "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+    "host": "files.zillowstatic.com",
+    "id": 797,
+    "name": "Zillow Real Estate Research"
+  }],
+  "total_count": 10006019
+}

@@ -1,0 +1,415 @@
+{
+  "current_page": 472832,
+  "docs": [
+    {
+      "code": "HARR442PBSV",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The data services of the Federal Reserve Bank of St. Louis include series that are seasonally adjusted. To make these adjustments, we use the X-12 Procedure of SAS to remove the seasonal component of the series so that non-seasonal trends can be analyzed. This procedure is based on the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on this program can be found at http://www.census.gov/srd/www/x12a/. The seasonal moving average function used is that of the Census Bureau\u2019s X-11-ARIMA program. This includes a 3x3 moving average for the initial seasonal factors and a 3x5 moving average to calculate the final seasonal factors. The D11 function is also used to output the entire seasonally adjusted series that is displayed. For specific information on the SAS X-12 procedure, please visit their website: http://support.sas.com/documentation/cdl/en/etsug/60372/HTML/default/viewer.htm#etsug_x12_sect001.htm. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/HARR442PBSV.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 2366099,
+      "name": "Professional and Business Services Employment in Harrisburg-Carlisle, PA (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-28T23:59:02Z",
+      "urlize_name": "Professional-and-Business-Services-Employment-in-Harrisburg-Carlisle-PA-MSA"
+    },
+    {
+      "code": "BC0LCBM027NBOG",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Billions of U.S. Dollars Not Seasonally Adjusted, For further information, please refer to the Board of Governors of the Federal Reserve System's H.8 release, online at http://www.federalreserve.gov/releases/h8/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/BC0LCBM027NBOG.csv",
+      "frequency": "monthly",
+      "from_date": "1985-04-01",
+      "id": 2361231,
+      "name": "Bank Credit, Large Domestically Chartered Commercial Banks",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-26T15:10:59Z",
+      "urlize_name": "Bank-Credit-Large-Domestically-Chartered-Commercial-Banks"
+    },
+    {
+      "code": "NORW409GOVT",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The data services of the Federal Reserve Bank of St. Louis include series that are seasonally adjusted. To make these adjustments, we use the X-12 Procedure of SAS to remove the seasonal component of the series so that non-seasonal trends can be analyzed. This procedure is based on the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on this program can be found at http://www.census.gov/srd/www/x12a/. The seasonal moving average function used is that of the Census Bureau\u2019s X-11-ARIMA program. This includes a 3x3 moving average for the initial seasonal factors and a 3x5 moving average to calculate the final seasonal factors. The D11 function is also used to output the entire seasonally adjusted series that is displayed. For specific information on the SAS X-12 procedure, please visit their website: http://support.sas.com/documentation/cdl/en/etsug/60372/HTML/default/viewer.htm#etsug_x12_sect001.htm. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/NORW409GOVT.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 2364232,
+      "name": "Government Employment in Norwich-New London, CT-RI (NECTA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-28T20:42:38Z",
+      "urlize_name": "Government-Employment-in-Norwich-New-London-CT-RI-NECTA"
+    },
+    {
+      "code": "A36STI",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Million of Dollars Seasonally Adjusted,  ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/A36STI.csv",
+      "frequency": "monthly",
+      "from_date": "1992-01-01",
+      "id": 134098,
+      "name": "Value of Manufacturers' Total Inventories for Durable Goods Industries: Transportation Equipment",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-03-01",
+      "type": null,
+      "updated_at": "2014-05-24T12:19:08Z",
+      "urlize_name": "Value-of-Manufacturers-Total-Inventories-for-Durable-Goods-Industries-Transportation-Equipment"
+    },
+    {
+      "code": "CUURD000SAF1",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Index 1982-84=100 Not Seasonally Adjusted,  ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/CUURD000SAF1.csv",
+      "frequency": "monthly",
+      "from_date": "1977-12-01",
+      "id": 129841,
+      "name": "Consumer Price Index for All Urban Consumers: Food in Size Class D (under 50,000 persons)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-25T21:44:25Z",
+      "urlize_name": "Consumer-Price-Index-for-All-Urban-Consumers-Food-in-Size-Class-D-under-50-000-persons"
+    },
+    {
+      "code": "LINC731TRAD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The data services of the Federal Reserve Bank of St. Louis include series that are seasonally adjusted. To make these adjustments, we use the X-12 Procedure of SAS to remove the seasonal component of the series so that non-seasonal trends can be analyzed. This procedure is based on the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on this program can be found at http://www.census.gov/srd/www/x12a/. The seasonal moving average function used is that of the Census Bureau\u2019s X-11-ARIMA program. This includes a 3x3 moving average for the initial seasonal factors and a 3x5 moving average to calculate the final seasonal factors. The D11 function is also used to output the entire seasonally adjusted series that is displayed. For specific information on the SAS X-12 procedure, please visit their website: http://support.sas.com/documentation/cdl/en/etsug/60372/HTML/default/viewer.htm#etsug_x12_sect001.htm. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/LINC731TRAD.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 2366514,
+      "name": "Trade, Transportation and Utilities Employment in Lincoln, NE (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-24T12:22:29Z",
+      "urlize_name": "Trade-Transportation-and-Utilities-Employment-in-Lincoln-NE-MSA"
+    },
+    {
+      "code": "AOLLCBM027NBOG",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Billions of U.S. Dollars Not Seasonally Adjusted, For further information, please refer to the Board of Governors of the Federal Reserve System's H.8 release, online at http://www.federalreserve.gov/releases/h8/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/AOLLCBM027NBOG.csv",
+      "frequency": "monthly",
+      "from_date": "1985-04-01",
+      "id": 2361881,
+      "name": "Other Loans and Leases: All Other Loans and Leases, Large Domestically Chartered Commercial Banks",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-28T20:47:10Z",
+      "urlize_name": "Other-Loans-and-Leases-All-Other-Loans-and-Leases-Large-Domestically-Chartered-Commercial-Banks"
+    },
+    {
+      "code": "SALI524GOVT",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The data services of the Federal Reserve Bank of St. Louis include series that are seasonally adjusted. To make these adjustments, we use the X-12 Procedure of SAS to remove the seasonal component of the series so that non-seasonal trends can be analyzed. This procedure is based on the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on this program can be found at http://www.census.gov/srd/www/x12a/. The seasonal moving average function used is that of the Census Bureau\u2019s X-11-ARIMA program. This includes a 3x3 moving average for the initial seasonal factors and a 3x5 moving average to calculate the final seasonal factors. The D11 function is also used to output the entire seasonally adjusted series that is displayed. For specific information on the SAS X-12 procedure, please visit their website: http://support.sas.com/documentation/cdl/en/etsug/60372/HTML/default/viewer.htm#etsug_x12_sect001.htm. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SALI524GOVT.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 2364285,
+      "name": "Government Employment in Salisbury, MD (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-25T23:04:23Z",
+      "urlize_name": "Government-Employment-in-Salisbury-MD-MSA"
+    },
+    {
+      "code": "DECA517PBSVN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted,  ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/DECA517PBSVN.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 149171,
+      "name": "Professional and Business Services Employment in Decatur, IL (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-24T12:33:13Z",
+      "urlize_name": "Professional-and-Business-Services-Employment-in-Decatur-IL-MSA"
+    },
+    {
+      "code": "TULS140EDUH",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The data services of the Federal Reserve Bank of St. Louis include series that are seasonally adjusted. To make these adjustments, we use the X-12 Procedure of SAS to remove the seasonal component of the series so that non-seasonal trends can be analyzed. This procedure is based on the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on this program can be found at http://www.census.gov/srd/www/x12a/. The seasonal moving average function used is that of the Census Bureau\u2019s X-11-ARIMA program. This includes a 3x3 moving average for the initial seasonal factors and a 3x5 moving average to calculate the final seasonal factors. The D11 function is also used to output the entire seasonally adjusted series that is displayed. For specific information on the SAS X-12 procedure, please visit their website: http://support.sas.com/documentation/cdl/en/etsug/60372/HTML/default/viewer.htm#etsug_x12_sect001.htm. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/TULS140EDUH.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 2363324,
+      "name": "Educational and Health Services Employment in Tulsa, OK (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-24T12:33:16Z",
+      "urlize_name": "Educational-and-Health-Services-Employment-in-Tulsa-OK-MSA"
+    },
+    {
+      "code": "BOWSCBM027SBOG",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Billions of U.S. Dollars Seasonally Adjusted, For further information, please refer to the Board of Governors of the Federal Reserve System's H.8 release, online at http://www.federalreserve.gov/releases/h8/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/BOWSCBM027SBOG.csv",
+      "frequency": "monthly",
+      "from_date": "1985-04-01",
+      "id": 2361297,
+      "name": "Borrowings, Small Domestically Chartered Commercial Banks",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-26T15:09:18Z",
+      "urlize_name": "Borrowings-Small-Domestically-Chartered-Commercial-Banks"
+    },
+    {
+      "code": "A33CUO",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Million of Dollars Seasonally Adjusted,  ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/A33CUO.csv",
+      "frequency": "monthly",
+      "from_date": "1992-01-01",
+      "id": 134216,
+      "name": "Value of Manufacturers' Unfilled Orders for Durable Goods Industries: Machinery: Construction Machinery",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-03-01",
+      "type": null,
+      "updated_at": "2014-05-28T21:01:18Z",
+      "urlize_name": "Value-of-Manufacturers-Unfilled-Orders-for-Durable-Goods-Industries-Machinery-Construction-Machinery"
+    },
+    {
+      "code": "BBUSCBM027NBOG",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Billions of U.S. Dollars Not Seasonally Adjusted, For further information, please refer to the Board of Governors of the Federal Reserve System's H.8 release, online at http://www.federalreserve.gov/releases/h8/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/BBUSCBM027NBOG.csv",
+      "frequency": "monthly",
+      "from_date": "1996-10-01",
+      "id": 2361267,
+      "name": "Borrowings from Banks in the U.S., Small Domestically Chartered Commercial Banks",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-24T12:33:22Z",
+      "urlize_name": "Borrowings-from-Banks-in-the-U-S-Small-Domestically-Chartered-Commercial-Banks"
+    },
+    {
+      "code": "PRES104SRVO",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The data services of the Federal Reserve Bank of St. Louis include series that are seasonally adjusted. To make these adjustments, we use the X-12 Procedure of SAS to remove the seasonal component of the series so that non-seasonal trends can be analyzed. This procedure is based on the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on this program can be found at http://www.census.gov/srd/www/x12a/. The seasonal moving average function used is that of the Census Bureau\u2019s X-11-ARIMA program. This includes a 3x3 moving average for the initial seasonal factors and a 3x5 moving average to calculate the final seasonal factors. The D11 function is also used to output the entire seasonally adjusted series that is displayed. For specific information on the SAS X-12 procedure, please visit their website: http://support.sas.com/documentation/cdl/en/etsug/60372/HTML/default/viewer.htm#etsug_x12_sect001.htm. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/PRES104SRVO.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 2365713,
+      "name": "Other Services Employment in Prescott, AZ (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-24T12:33:25Z",
+      "urlize_name": "Other-Services-Employment-in-Prescott-AZ-MSA"
+    },
+    {
+      "code": "TX65624000M175FRBDAL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The Dallas Fed has improved the quality of the payroll employment estimates for Texas using early benchmarking and two-step seasonal adjustment. More information regarding the early benchmarking technique can be found at http://www.dallasfed.org/research/basics/benchmark.cfm. More information pertaining to two-step seasonal adjustment can be found at http://www.dallasfed.org/research/basics/twostep.cfm. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/TX65624000M175FRBDAL.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 10950515,
+      "name": "Social Assistance Payroll Employment in Texas",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-28T21:01:18Z",
+      "urlize_name": "Social-Assistance-Payroll-Employment-in-Texas"
+    },
+    {
+      "code": "TX32311600M175FRBDAL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The Dallas Fed has improved the quality of the payroll employment estimates for Texas using early benchmarking and two-step seasonal adjustment. More information regarding the early benchmarking technique can be found at http://www.dallasfed.org/research/basics/benchmark.cfm. More information pertaining to two-step seasonal adjustment can be found at http://www.dallasfed.org/research/basics/twostep.cfm. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/TX32311600M175FRBDAL.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 10950093,
+      "name": "Non-Durable Goods: Animal Slaughtering and Processing Payroll Employment in Texas",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-24T12:34:13Z",
+      "urlize_name": "Non-Durable-Goods-Animal-Slaughtering-and-Processing-Payroll-Employment-in-Texas"
+    },
+    {
+      "code": "BEAU148TRAD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The data services of the Federal Reserve Bank of St. Louis include series that are seasonally adjusted. To make these adjustments, we use the X-12 Procedure of SAS to remove the seasonal component of the series so that non-seasonal trends can be analyzed. This procedure is based on the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on this program can be found at http://www.census.gov/srd/www/x12a/. The seasonal moving average function used is that of the Census Bureau\u2019s X-11-ARIMA program. This includes a 3x3 moving average for the initial seasonal factors and a 3x5 moving average to calculate the final seasonal factors. The D11 function is also used to output the entire seasonally adjusted series that is displayed. For specific information on the SAS X-12 procedure, please visit their website: http://support.sas.com/documentation/cdl/en/etsug/60372/HTML/default/viewer.htm#etsug_x12_sect001.htm. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/BEAU148TRAD.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 2366358,
+      "name": "Trade, Transportation and Utilities Employment in Beaumont-Port Arthur, TX (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-25T21:56:50Z",
+      "urlize_name": "Trade-Transportation-and-Utilities-Employment-in-Beaumont-Port-Arthur-TX-MSA"
+    },
+    {
+      "code": "TLADCBM027NBOG",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Billions of U.S. Dollars Not Seasonally Adjusted, For further information, please refer to the Board of Governors of the Federal Reserve System's H.8 release, online at http://www.federalreserve.gov/releases/h8/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/TLADCBM027NBOG.csv",
+      "frequency": "monthly",
+      "from_date": "1973-01-01",
+      "id": 2362269,
+      "name": "Total Assets, Domestically Chartered Commercial Banks",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-29T12:45:48Z",
+      "urlize_name": "Total-Assets-Domestically-Chartered-Commercial-Banks"
+    },
+    {
+      "code": "ADJRESSL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Billions of Dollars Seasonally Adjusted, This series has been reconstructed starting July 14, 2003.  For further information, please refer to http://research.stlouisfed.org/publications/review/03/09/Anderson.pdf. Historical data and components are available at http://research.stlouisfed.org/publications/review/03/09/0309ra.xls.  Further information and definitions are available at: http://research.stlouisfed.org/publications/mt/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/ADJRESSL.csv",
+      "frequency": "monthly",
+      "from_date": "1918-01-01",
+      "id": 121159,
+      "name": "St. Louis Adjusted Reserves",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-25T21:36:32Z",
+      "urlize_name": "St-Louis-Adjusted-Reserves"
+    },
+    {
+      "code": "CUURA422SEHF",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Index 1982-84=100 Not Seasonally Adjusted,  ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/CUURA422SEHF.csv",
+      "frequency": "monthly",
+      "from_date": "1935-03-01",
+      "id": 145925,
+      "name": "Consumer Price Index for All Urban Consumers: Energy services in San Francisco-Oakland-San Jose, CA (CMSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-05-27T21:36:40Z",
+      "urlize_name": "Consumer-Price-Index-for-All-Urban-Consumers-Energy-services-in-San-Francisco-Oakland-San-Jose-CA-CMSA"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "FRED",
+    "datasets_count": 60949,
+    "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
+    "host": "www.research.stlouisfed.org",
+    "id": 118,
+    "name": "Federal Reserve Economic Data"
+  }],
+  "total_count": 10006019
+}

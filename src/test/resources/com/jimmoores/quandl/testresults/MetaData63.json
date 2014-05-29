@@ -1,0 +1,415 @@
+{
+  "current_page": 456861,
+  "docs": [
+    {
+      "code": "COAL_SHIPMENT_HEAT_1517278_1008_TOT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Btu/lb. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1517278-1008-TOT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1517278-1008-TOT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_HEAT.1517278-1008-TOT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2010-12-31",
+      "id": 11956588,
+      "name": "Coal Shipment Heat Content : Red Bud Dock North To R Gallagher : All : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-03-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:11:40Z",
+      "urlize_name": "Coal-Shipment-Heat-Content-Red-Bud-Dock-North-To-R-Gallagher-All-Quarterly"
+    },
+    {
+      "code": "PET_MLUNT_NUS_NER_2_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MLUNT_NUS-NER_2.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MLUNT_NUS-NER_2.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MLUNT_NUS-NER_2.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 12024781,
+      "name": "U.s. Net Imports From Eritrea Of Lubricants, Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:11:40Z",
+      "urlize_name": "U-s-Net-Imports-From-Eritrea-Of-Lubricants-Annual"
+    },
+    {
+      "code": "PET_MWXNT_NUS_NER_2_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MWXNT_NUS-NER_2.M>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MWXNT_NUS-NER_2.M<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MWXNT_NUS-NER_2.M&out=xml",
+      "frequency": "annual",
+      "from_date": "2005-03-31",
+      "id": 12027934,
+      "name": "U.s. Net Imports From Eritrea Of Waxes, Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-05-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:11:41Z",
+      "urlize_name": "U-s-Net-Imports-From-Eritrea-Of-Waxes-Monthly"
+    },
+    {
+      "code": "COAL_SHIPMENT_HEAT_1518418_1008_BIT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Btu/lb. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1518418-1008-BIT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1518418-1008-BIT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_HEAT.1518418-1008-BIT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 11942939,
+      "name": "Coal Shipment Heat Content : Joe's Run To R Gallagher : Bituminous : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:11:41Z",
+      "urlize_name": "Coal-Shipment-Heat-Content-Joe-s-Run-To-R-Gallagher-Bituminous-Annual"
+    },
+    {
+      "code": "PET_MO5NT_NUS_NEN_2_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MO5NT_NUS-NEN_2.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MO5NT_NUS-NEN_2.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MO5NT_NUS-NEN_2.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 12028533,
+      "name": "U.s. Net Imports From Estonia Of Conventional Gasoline Blending Components, Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:11:41Z",
+      "urlize_name": "U-s-Net-Imports-From-Estonia-Of-Conventional-Gasoline-Blending-Components-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_HEAT_1518418_1008_BIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Btu/lb. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1518418-1008-BIT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1518418-1008-BIT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_HEAT.1518418-1008-BIT.Q&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-03-31",
+      "id": 11942940,
+      "name": "Coal Shipment Heat Content : Joe's Run To R Gallagher : Bituminous : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-03-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:12:13Z",
+      "urlize_name": "Coal-Shipment-Heat-Content-Joe-s-Run-To-R-Gallagher-Bituminous-Quarterly"
+    },
+    {
+      "code": "PET_M_EPDXL0_IMN_NUS_NEN_MBBLD_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.M_EPDXL0_IMN_NUS-NEN_MBBLD.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.M_EPDXL0_IMN_NUS-NEN_MBBLD.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.M_EPDXL0_IMN_NUS-NEN_MBBLD.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 12022375,
+      "name": "U.s. Net Imports From Estonia Of Distillate Fuel Oil, 0 To 15 Ppm Sulfur, Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:12:13Z",
+      "urlize_name": "U-s-Net-Imports-From-Estonia-Of-Distillate-Fuel-Oil-0-To-15-Ppm-Sulfur-Annual"
+    },
+    {
+      "code": "PET_MDINT_NUS_NEN_2_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MDINT_NUS-NEN_2.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MDINT_NUS-NEN_2.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MDINT_NUS-NEN_2.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 12021634,
+      "name": "U.s. Net Imports From Estonia Of Distillate Fuel Oil, Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:11:42Z",
+      "urlize_name": "U-s-Net-Imports-From-Estonia-Of-Distillate-Fuel-Oil-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_HEAT_1518418_1008_TOT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Btu/lb. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1518418-1008-TOT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1518418-1008-TOT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_HEAT.1518418-1008-TOT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 11942941,
+      "name": "Coal Shipment Heat Content : Joe's Run To R Gallagher : All : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:11:43Z",
+      "urlize_name": "Coal-Shipment-Heat-Content-Joe-s-Run-To-R-Gallagher-All-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_HEAT_1518418_1008_TOT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Btu/lb. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1518418-1008-TOT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1518418-1008-TOT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_HEAT.1518418-1008-TOT.Q&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-03-31",
+      "id": 11942942,
+      "name": "Coal Shipment Heat Content : Joe's Run To R Gallagher : All : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-03-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:11:44Z",
+      "urlize_name": "Coal-Shipment-Heat-Content-Joe-s-Run-To-R-Gallagher-All-Quarterly"
+    },
+    {
+      "code": "PET_MO1NT_NUS_NEN_2_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MO1NT_NUS-NEN_2.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MO1NT_NUS-NEN_2.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MO1NT_NUS-NEN_2.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 12020562,
+      "name": "U.s. Net Imports From Estonia Of Reformulated Gasoline Blending Components, Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:12:17Z",
+      "urlize_name": "U-s-Net-Imports-From-Estonia-Of-Reformulated-Gasoline-Blending-Components-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_PRICE_1518418_1008_BIT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = $/short Ton. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.1518418-1008-BIT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.1518418-1008-BIT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_PRICE.1518418-1008-BIT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 11942971,
+      "name": "Coal Shipment Price : Joe's Run To R Gallagher : Bituminous : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:11:50Z",
+      "urlize_name": "Coal-Shipment-Price-Joe-s-Run-To-R-Gallagher-Bituminous-Annual"
+    },
+    {
+      "code": "PET_MGFNT_NUS_NEN_2_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MGFNT_NUS-NEN_2.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MGFNT_NUS-NEN_2.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MGFNT_NUS-NEN_2.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 12025835,
+      "name": "U.s. Net Imports From Estonia Of Finished Motor Gasoline, Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:12:21Z",
+      "urlize_name": "U-s-Net-Imports-From-Estonia-Of-Finished-Motor-Gasoline-Annual"
+    },
+    {
+      "code": "PET_MNSNT_NUS_NEN_2_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MNSNT_NUS-NEN_2.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MNSNT_NUS-NEN_2.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MNSNT_NUS-NEN_2.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 12023195,
+      "name": "U.s. Net Imports From Estonia Of Special Naphthas, Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:11:50Z",
+      "urlize_name": "U-s-Net-Imports-From-Estonia-Of-Special-Naphthas-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_PRICE_1518418_1008_BIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = $/short Ton. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.1518418-1008-BIT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.1518418-1008-BIT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_PRICE.1518418-1008-BIT.Q&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-03-31",
+      "id": 11942972,
+      "name": "Coal Shipment Price : Joe's Run To R Gallagher : Bituminous : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-03-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:12:22Z",
+      "urlize_name": "Coal-Shipment-Price-Joe-s-Run-To-R-Gallagher-Bituminous-Quarterly"
+    },
+    {
+      "code": "COAL_SHIPMENT_PRICE_1518418_1008_TOT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = $/short Ton. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.1518418-1008-TOT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.1518418-1008-TOT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_PRICE.1518418-1008-TOT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 11942973,
+      "name": "Coal Shipment Price : Joe's Run To R Gallagher : All : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:12:22Z",
+      "urlize_name": "Coal-Shipment-Price-Joe-s-Run-To-R-Gallagher-All-Annual"
+    },
+    {
+      "code": "PET_MD1NT_NUS_NEN_2_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MD1NT_NUS-NEN_2.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MD1NT_NUS-NEN_2.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MD1NT_NUS-NEN_2.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 12021958,
+      "name": "U.s. Net Imports From Estonia Of Distillate Fuel Oil, Greater Than 15 To 500 Ppm Sulfur, Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:11:51Z",
+      "urlize_name": "U-s-Net-Imports-From-Estonia-Of-Distillate-Fuel-Oil-Greater-Than-15-To-500-Ppm-Sulfur-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_PRICE_1518418_1008_TOT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = $/short Ton. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.1518418-1008-TOT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.1518418-1008-TOT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_PRICE.1518418-1008-TOT.Q&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-03-31",
+      "id": 11942974,
+      "name": "Coal Shipment Price : Joe's Run To R Gallagher : All : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-03-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:11:51Z",
+      "urlize_name": "Coal-Shipment-Price-Joe-s-Run-To-R-Gallagher-All-Quarterly"
+    },
+    {
+      "code": "PET_MBCNT_NUS_NEN_2_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MBCNT_NUS-NEN_2.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MBCNT_NUS-NEN_2.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MBCNT_NUS-NEN_2.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 12026683,
+      "name": "U.s. Net Imports From Estonia Of Gasoline Blending Components, Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:12:23Z",
+      "urlize_name": "U-s-Net-Imports-From-Estonia-Of-Gasoline-Blending-Components-Annual"
+    },
+    {
+      "code": "COAL_SHIPMENT_PRICE_1202189_1008_BIT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = $/short Ton. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.1202189-1008-BIT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.1202189-1008-BIT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_PRICE.1202189-1008-BIT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 12008040,
+      "name": "Coal Shipment Price : Air Quality South Wash Plant To R Gallagher : Bituminous : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T06:12:23Z",
+      "urlize_name": "Coal-Shipment-Price-Air-Quality-South-Wash-Plant-To-R-Gallagher-Bituminous-Annual"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "EIA",
+    "datasets_count": 427809,
+    "description": "No description for this source yet",
+    "host": "www.api.eia.gov",
+    "id": 661,
+    "name": "U.S. Energy Information Administration"
+  }],
+  "total_count": 10006019
+}

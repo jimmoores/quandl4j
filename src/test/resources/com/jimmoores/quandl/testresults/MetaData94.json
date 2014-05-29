@@ -1,0 +1,425 @@
+{
+  "current_page": 440139,
+  "docs": [
+    {
+      "code": "PRKR_AVAILABLEFORSALESECURITIESCURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AvailableForSaleSecuritiesCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10373057,
+      "name": "PARKERVISION INC  (PRKR): Annual Available For Sale Securities Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:33:00Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Annual-Available-For-Sale-Securities-Current"
+    },
+    {
+      "code": "PRKR_CASHANDCASHEQUIVALENTSATCARRYINGVALUE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CashAndCashEquivalentsAtCarryingValue",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2008-12-31",
+      "id": 10372593,
+      "name": "PARKERVISION INC  (PRKR): Quarterly Cash And Cash Equivalents At Carrying Value",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:32:33Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Quarterly-Cash-And-Cash-Equivalents-At-Carrying-Value"
+    },
+    {
+      "code": "PRKR_CASHANDCASHEQUIVALENTSATCARRYINGVALUE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CashAndCashEquivalentsAtCarryingValue",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 10373100,
+      "name": "PARKERVISION INC  (PRKR): Annual Cash And Cash Equivalents At Carrying Value",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:32:33Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Annual-Cash-And-Cash-Equivalents-At-Carrying-Value"
+    },
+    {
+      "code": "PSS_A_AT_S102_I00_I320_NT_X0_20_Z0Z_Z",
+      "column_names": [
+        "Date",
+        "Pure number"
+      ],
+      "description": " Austria - Number of terminals - All types of payment instruments - VIA CUSTOMER TERMINALS - in the reporting country - of which e-money card accepting terminals - Number - Non-MFIs counterpart , :, Dataset:PSS : Payments and Settlement Systems Statistics Explanation page (Series and Dataset Level Information), Reference area:Austria (AT), Decimals:Zero (0), Collection indicator:End of period (E), Methodology reference:unspecified",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=3447412&SERIES_KEY=169.PSS.A.AT.S102.I00.I320.NT.X0.20.Z0Z.Z&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 11454585,
+      "name": "Austria Number of terminals All types of payment instruments VIA CUSTOMER TERMINALS in the reporting country of which e-money card accepting terminals Number Non-MFIs counterpart",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:33:02Z",
+      "urlize_name": "Austria-Number-of-terminals-All-types-of-payment-instruments-VIA-CUSTOMER-TERMINALS-in-the-reporting-country-of-which-e-money-card-accepting-terminals-Number-Non-MFIs-counterpart"
+    },
+    {
+      "code": "PRKR_COMMONSTOCKSHARESOUTSTANDING_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CommonStockSharesOutstanding",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10372604,
+      "name": "PARKERVISION INC  (PRKR): Quarterly Common Stock Shares Outstanding",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:32:34Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Quarterly-Common-Stock-Shares-Outstanding"
+    },
+    {
+      "code": "PRKR_COMMONSTOCKSHARESOUTSTANDING_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CommonStockSharesOutstanding",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10373163,
+      "name": "PARKERVISION INC  (PRKR): Annual Common Stock Shares Outstanding",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:32:34Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Annual-Common-Stock-Shares-Outstanding"
+    },
+    {
+      "code": "PRKR_COMMONSTOCKVALUE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CommonStockValue",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10372606,
+      "name": "PARKERVISION INC  (PRKR): Quarterly Common Stock Value",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:33:03Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Quarterly-Common-Stock-Value"
+    },
+    {
+      "code": "PRKR_COMMONSTOCKVALUE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CommonStockValue",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10373167,
+      "name": "PARKERVISION INC  (PRKR): Annual Common Stock Value",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:33:03Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Annual-Common-Stock-Value"
+    },
+    {
+      "code": "PSS_A_BE_S102_I00_I100_NT_X0_20_Z0Z_Z",
+      "column_names": [
+        "Date",
+        "Pure number"
+      ],
+      "description": " Belgium - Number of terminals - All types of payment instruments - VIA CUSTOMER TERMINALS - in the reporting country - ATMs - Number - Non-MFIs counterpart , :, Dataset:PSS : Payments and Settlement Systems Statistics Explanation page (Series and Dataset Level Information), Reference area:Belgium (BE), Decimals:Zero (0), Collection indicator:End of period (E), Methodology reference:unspecified",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=3447412&SERIES_KEY=169.PSS.A.BE.S102.I00.I100.NT.X0.20.Z0Z.Z&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 11454586,
+      "name": "Belgium Number of terminals All types of payment instruments VIA CUSTOMER TERMINALS in the reporting country ATMs Number Non-MFIs counterpart",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:32:36Z",
+      "urlize_name": "Belgium-Number-of-terminals-All-types-of-payment-instruments-VIA-CUSTOMER-TERMINALS-in-the-reporting-country-ATMs-Number-Non-MFIs-counterpart"
+    },
+    {
+      "code": "PRKR_DEFERREDRENTCREDITCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DeferredRentCreditCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10372607,
+      "name": "PARKERVISION INC  (PRKR): Quarterly Deferred Rent Credit Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:33:04Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Quarterly-Deferred-Rent-Credit-Current"
+    },
+    {
+      "code": "PRKR_DEFERREDRENTCREDITCURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DeferredRentCreditCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10373186,
+      "name": "PARKERVISION INC  (PRKR): Annual Deferred Rent Credit Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:32:36Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Annual-Deferred-Rent-Credit-Current"
+    },
+    {
+      "code": "PRKR_DEPRECIATIONANDAMORTIZATION_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DepreciationAndAmortization",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10373287,
+      "name": "PARKERVISION INC  (PRKR): Annual Depreciation And Amortization",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:33:05Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Annual-Depreciation-And-Amortization"
+    },
+    {
+      "code": "PSS_A_BE_S102_I00_I200_NT_X0_20_Z0Z_Z",
+      "column_names": [
+        "Date",
+        "Pure number"
+      ],
+      "description": " Belgium - Number of terminals - All types of payment instruments - VIA CUSTOMER TERMINALS - in the reporting country - POS terminals - Number - Non-MFIs counterpart , :, Dataset:PSS : Payments and Settlement Systems Statistics Explanation page (Series and Dataset Level Information), Reference area:Belgium (BE), Decimals:Zero (0), Collection indicator:End of period (E), Methodology reference:unspecified",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=3447412&SERIES_KEY=169.PSS.A.BE.S102.I00.I200.NT.X0.20.Z0Z.Z&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 11454587,
+      "name": "Belgium Number of terminals All types of payment instruments VIA CUSTOMER TERMINALS in the reporting country POS terminals Number Non-MFIs counterpart",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:33:05Z",
+      "urlize_name": "Belgium-Number-of-terminals-All-types-of-payment-instruments-VIA-CUSTOMER-TERMINALS-in-the-reporting-country-POS-terminals-Number-Non-MFIs-counterpart"
+    },
+    {
+      "code": "PRKR_EARNINGSPERSHAREBASICANDDILUTED_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EarningsPerShareBasicAndDiluted",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-06-30",
+      "id": 10372615,
+      "name": "PARKERVISION INC  (PRKR): Quarterly Earnings Per Share Basic And Diluted",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:33:06Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Quarterly-Earnings-Per-Share-Basic-And-Diluted"
+    },
+    {
+      "code": "PRKR_EARNINGSPERSHAREBASICANDDILUTED_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EarningsPerShareBasicAndDiluted",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10373316,
+      "name": "PARKERVISION INC  (PRKR): Annual Earnings Per Share Basic And Diluted",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:32:38Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Annual-Earnings-Per-Share-Basic-And-Diluted"
+    },
+    {
+      "code": "PRKR_INTANGIBLEASSETSNETEXCLUDINGGOODWILL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IntangibleAssetsNetExcludingGoodwill",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10372640,
+      "name": "PARKERVISION INC  (PRKR): Quarterly Intangible Assets Net Excluding Goodwill",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:32:39Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Quarterly-Intangible-Assets-Net-Excluding-Goodwill"
+    },
+    {
+      "code": "PSS_A_BE_S102_I00_I310_NT_X0_20_Z0Z_Z",
+      "column_names": [
+        "Date",
+        "Pure number"
+      ],
+      "description": " Belgium - Number of terminals - All types of payment instruments - VIA CUSTOMER TERMINALS - in the reporting country - of which e-money card loading/unloading terminals - Number - Non-MFIs counterpart , :, Dataset:PSS : Payments and Settlement Systems Statistics Explanation page (Series and Dataset Level Information), Reference area:Belgium (BE), Decimals:Zero (0), Collection indicator:End of period (E), Methodology reference:unspecified",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=3447412&SERIES_KEY=169.PSS.A.BE.S102.I00.I310.NT.X0.20.Z0Z.Z&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 11454588,
+      "name": "Belgium Number of terminals All types of payment instruments VIA CUSTOMER TERMINALS in the reporting country of which e-money card loading/unloading terminals Number Non-MFIs counterpart",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:32:39Z",
+      "urlize_name": "Belgium-Number-of-terminals-All-types-of-payment-instruments-VIA-CUSTOMER-TERMINALS-in-the-reporting-country-of-which-e-money-card-loading-unloading-terminals-Number-Non-MFIs-counterpart"
+    },
+    {
+      "code": "PRKR_INTANGIBLEASSETSNETEXCLUDINGGOODWILL_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IntangibleAssetsNetExcludingGoodwill",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10373449,
+      "name": "PARKERVISION INC  (PRKR): Annual Intangible Assets Net Excluding Goodwill",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:32:40Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Annual-Intangible-Assets-Net-Excluding-Goodwill"
+    },
+    {
+      "code": "PRKR_LIABILITIES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: Liabilities",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10372646,
+      "name": "PARKERVISION INC  (PRKR): Quarterly Liabilities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:33:08Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Quarterly-Liabilities"
+    },
+    {
+      "code": "PRKR_LIABILITIES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: Liabilities",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10373463,
+      "name": "PARKERVISION INC  (PRKR): Annual Liabilities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T08:33:09Z",
+      "urlize_name": "PARKERVISION-INC-PRKR-Annual-Liabilities"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "ECB",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "sdw.ecb.europa.eu",
+      "id": 8917,
+      "name": "European Central Bank"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    }
+  ],
+  "total_count": 10006019
+}

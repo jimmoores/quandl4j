@@ -1,0 +1,21 @@
+{
+  "code": "ELEC_RECEIPTS_SUB_MI_98_M",
+  "column_names": [
+    "Date",
+    "Value"
+  ],
+  "description": "Units=Thousand Tons. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.RECEIPTS.SUB-MI-98.M",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.RECEIPTS.SUB-MI-98.M&out=xml",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "2008-01-31",
+  "id": 5225003,
+  "name": "Receipts Of Fossil Fuels : Subbituminous Coal : Michigan : Electric Power : Monthly",
+  "private": false,
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2013-10-31",
+  "type": null,
+  "updated_at": "2014-01-09T20:12:28Z",
+  "urlize_name": "Receipts-Of-Fossil-Fuels-Subbituminous-Coal-Michigan-Electric-Power-Monthly"
+}

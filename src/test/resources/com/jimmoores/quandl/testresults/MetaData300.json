@@ -1,0 +1,21 @@
+{
+  "code": "CCES_DIV_YLD",
+  "column_names": [
+    "Date",
+    "Dividend Yield"
+  ],
+  "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "2001-12-31",
+  "id": 4026101,
+  "name": "Crescent Communications Inc ( CCES ) - Dividend Yield",
+  "private": false,
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2003-12-31",
+  "type": null,
+  "updated_at": "2014-03-14T10:50:52Z",
+  "urlize_name": "Crescent-Communications-Inc-CCES-Dividend-Yield"
+}

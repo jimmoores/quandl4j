@@ -1,0 +1,415 @@
+{
+  "current_page": 24835,
+  "docs": [
+    {
+      "code": "BVB_REINV",
+      "column_names": [
+        "Date",
+        "Reinvestment Amount"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5964983,
+      "name": "Bridge View Bancorp ( BVB ) - Reinvestment Amount",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:38Z",
+      "urlize_name": "Bridge-View-Bancorp-BVB-Reinvestment-Amount"
+    },
+    {
+      "code": "FFBZ_TRAD_VOL",
+      "column_names": [
+        "Date",
+        "Trading Volume"
+      ],
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4441771,
+      "name": "1ST FEDL BANCORP OHIO ( FFBZ ) - Trading Volume",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:38Z",
+      "urlize_name": "1ST-FEDL-BANCORP-OHIO-FFBZ-Trading-Volume"
+    },
+    {
+      "code": "AC_DEPREC",
+      "column_names": [
+        "Date",
+        "Depreciation"
+      ],
+      "description": "Includes both depreciation and amortization, as reported in the statement of cash flows. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3872509,
+      "name": "Alliance Capital Mgmt. ( AC ) - Depreciation",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:38Z",
+      "urlize_name": "Alliance-Capital-Mgmt-AC-Depreciation"
+    },
+    {
+      "code": "EYDY_DIV_YLD",
+      "column_names": [
+        "Date",
+        "Dividend Yield"
+      ],
+      "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4416078,
+      "name": "Eye Dynamics Inc ( EYDY ) - Dividend Yield",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:57Z",
+      "urlize_name": "Eye-Dynamics-Inc-EYDY-Dividend-Yield"
+    },
+    {
+      "code": "RLTI_INSIDER",
+      "column_names": [
+        "Date",
+        "Insider Holdings"
+      ],
+      "description": "Number of shares held by insiders (as defined by the SEC to include corporate officers, directors and those holding more than 5% of the outstanding stock) as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5367133,
+      "name": "Reality Interactive Inc ( RLTI ) - Insider Holdings",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:38Z",
+      "urlize_name": "Reality-Interactive-Inc-RLTI-Insider-Holdings"
+    },
+    {
+      "code": "RLTI_INST_HOLD",
+      "column_names": [
+        "Date",
+        "Institutional Holdings"
+      ],
+      "description": "Number of shares held by mutual funds, pension funds and trusts as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5367134,
+      "name": "Reality Interactive Inc ( RLTI ) - Institutional Holdings",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:58Z",
+      "urlize_name": "Reality-Interactive-Inc-RLTI-Institutional-Holdings"
+    },
+    {
+      "code": "RLP_TO_PE_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing PE Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5366922,
+      "name": "Richland Petroleum Corp. ( RLP.TO ) - Trailing PE Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:39Z",
+      "urlize_name": "Richland-Petroleum-Corp-RLP-TO-Trailing-PE-Ratio"
+    },
+    {
+      "code": "ARM_REV_GRO",
+      "column_names": [
+        "Date",
+        "Previous Year Growth in Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4079707,
+      "name": "ArvinMeritor ( ARM ) - Previous Year Growth in Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:39Z",
+      "urlize_name": "ArvinMeritor-ARM-Previous-Year-Growth-in-Revenues"
+    },
+    {
+      "code": "PROI_NCWC_REV",
+      "column_names": [
+        "Date",
+        "Non-Cash Working Capital as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 5408400,
+      "name": "Proterion Corp ( PROI ) - Non-Cash Working Capital as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:39Z",
+      "urlize_name": "Proterion-Corp-PROI-Non-Cash-Working-Capital-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "SGTI_MKT_CAP",
+      "column_names": [
+        "Date",
+        "Market Capitalization"
+      ],
+      "description": "Estimated market value of equity, obtained by multiplying the number of shares outstanding by the share price. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5412128,
+      "name": "Shengtai Pharmaceutical Inc. ( SGTI ) - Market Capitalization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:58Z",
+      "urlize_name": "Shengtai-Pharmaceutical-Inc-SGTI-Market-Capitalization"
+    },
+    {
+      "code": "EYDY_DIV",
+      "column_names": [
+        "Date",
+        "Dividends"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4416075,
+      "name": "Eye Dynamics Inc ( EYDY ) - Dividends",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:58Z",
+      "urlize_name": "Eye-Dynamics-Inc-EYDY-Dividends"
+    },
+    {
+      "code": "HMSR_CASH",
+      "column_names": [
+        "Date",
+        "Cash"
+      ],
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4563521,
+      "name": "Hemasure Inc ( HMSR ) - Cash",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:40Z",
+      "urlize_name": "Hemasure-Inc-HMSR-Cash"
+    },
+    {
+      "code": "EYDY_EBIT",
+      "column_names": [
+        "Date",
+        "Earnings Before Interest and Taxes"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4416081,
+      "name": "Eye Dynamics Inc ( EYDY ) - Earnings Before Interest and Taxes",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:59Z",
+      "urlize_name": "Eye-Dynamics-Inc-EYDY-Earnings-Before-Interest-and-Taxes"
+    },
+    {
+      "code": "RLTI_INV_CAP",
+      "column_names": [
+        "Date",
+        "Invested Capital"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5367135,
+      "name": "Reality Interactive Inc ( RLTI ) - Invested Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:40Z",
+      "urlize_name": "Reality-Interactive-Inc-RLTI-Invested-Capital"
+    },
+    {
+      "code": "CTBK_EV",
+      "column_names": [
+        "Date",
+        "Enterprise Value"
+      ],
+      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4348657,
+      "name": "CityBank Wash. ( CTBK ) - Enterprise Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:40Z",
+      "urlize_name": "CityBank-Wash-CTBK-Enterprise-Value"
+    },
+    {
+      "code": "RLTI_MKT_CAP",
+      "column_names": [
+        "Date",
+        "Market Capitalization"
+      ],
+      "description": "Estimated market value of equity, obtained by multiplying the number of shares outstanding by the share price. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5367137,
+      "name": "Reality Interactive Inc ( RLTI ) - Market Capitalization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:59Z",
+      "urlize_name": "Reality-Interactive-Inc-RLTI-Market-Capitalization"
+    },
+    {
+      "code": "CSTE_SGA",
+      "column_names": [
+        "Date",
+        "Sales General and Administration Expenses"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2012-12-31",
+      "id": 4330778,
+      "name": "Caesarstone Sdot-Yam Ltd. ( CSTE ) - Sales General and Administration Expenses",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:41Z",
+      "urlize_name": "Caesarstone-Sdot-Yam-Ltd-CSTE-Sales-General-and-Administration-Expenses"
+    },
+    {
+      "code": "GAB_NCWC",
+      "column_names": [
+        "Date",
+        "Non-Cash Working Capital"
+      ],
+      "description": "Non-Cash Working Capital = Inventory + Other Current Assets + Accounts Receivable - Accounts Payable - Other Current Liabilities.  Current Assets excludes cash.  Current Liabilities excludes interest bearing debt. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4426151,
+      "name": "Gabelli Equity Trust ( GAB ) - Non-Cash Working Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:18:59Z",
+      "urlize_name": "Gabelli-Equity-Trust-GAB-Non-Cash-Working-Capital"
+    },
+    {
+      "code": "BVB_SGA",
+      "column_names": [
+        "Date",
+        "Sales General and Administration Expenses"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5964987,
+      "name": "Bridge View Bancorp ( BVB ) - Sales General and Administration Expenses",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:19:00Z",
+      "urlize_name": "Bridge-View-Bancorp-BVB-Sales-General-and-Administration-Expenses"
+    },
+    {
+      "code": "EYDY_EFF_TAX",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4416092,
+      "name": "Eye Dynamics Inc ( EYDY ) - Effective Tax Rate",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:19:00Z",
+      "urlize_name": "Eye-Dynamics-Inc-EYDY-Effective-Tax-Rate"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
+  }],
+  "total_count": 10006019
+}

@@ -1,0 +1,433 @@
+{
+  "current_page": 424545,
+  "docs": [
+    {
+      "code": "SMS41000004300000001",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, This series is seasonally adjusted by the U.S. Bureau of Labor Statistics. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMS41000004300000001.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 11016802,
+      "name": "All Employees: Transportation and Utilities in Oregon",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2013-12-01",
+      "type": null,
+      "updated_at": "2014-03-20T23:01:22Z",
+      "urlize_name": "All-Employees-Transportation-and-Utilities-in-Oregon"
+    },
+    {
+      "code": "ROX_INTERESTPAID_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: InterestPaid",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-06-30",
+      "id": 11167104,
+      "name": "Castle Brands Inc  (ROX): Quarterly Interest Paid",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-03-20T22:55:55Z",
+      "urlize_name": "Castle-Brands-Inc-ROX-Quarterly-Interest-Paid"
+    },
+    {
+      "code": "ROX_WARRANTLIABILITY_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: WarrantLiability",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-03-31",
+      "id": 11167077,
+      "name": "Castle Brands Inc  (ROX): Quarterly Warrant Liability",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T22:56:15Z",
+      "urlize_name": "Castle-Brands-Inc-ROX-Quarterly-Warrant-Liability"
+    },
+    {
+      "code": "ROX_NETCASHPROVIDEDBYUSEDINFINANCINGACTIVITIES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: NetCashProvidedByUsedInFinancingActivities",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-06-30",
+      "id": 11167101,
+      "name": "Castle Brands Inc  (ROX): Quarterly Net Cash Provided By Used In Financing Activities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-03-20T22:56:15Z",
+      "urlize_name": "Castle-Brands-Inc-ROX-Quarterly-Net-Cash-Provided-By-Used-In-Financing-Activities"
+    },
+    {
+      "code": "ROX_CASHANDCASHEQUIVALENTSPERIODINCREASEDECREASE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CashAndCashEquivalentsPeriodIncreaseDecrease",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-06-30",
+      "id": 11167102,
+      "name": "Castle Brands Inc  (ROX): Quarterly Cash And Cash Equivalents Period Increase Decrease",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-03-20T22:55:55Z",
+      "urlize_name": "Castle-Brands-Inc-ROX-Quarterly-Cash-And-Cash-Equivalents-Period-Increase-Decrease"
+    },
+    {
+      "code": "ROX_NETINCOMELOSSAVAILABLETOCOMMONSTOCKHOLDERSBASIC_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: NetIncomeLossAvailableToCommonStockholdersBasic",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-06-30",
+      "id": 11167094,
+      "name": "Castle Brands Inc  (ROX): Quarterly Net Income Loss Available To Common Stockholders Basic",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T22:55:55Z",
+      "urlize_name": "Castle-Brands-Inc-ROX-Quarterly-Net-Income-Loss-Available-To-Common-Stockholders-Basic"
+    },
+    {
+      "code": "AWWC_STOCK_PX",
+      "column_names": [
+        "Date",
+        "Stock Price"
+      ],
+      "description": "Units: dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4178904,
+      "name": "Access Worldwide Comm ( AWWC ) - Stock Price",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-20T22:56:16Z",
+      "urlize_name": "Access-Worldwide-Comm-AWWC-Stock-Price"
+    },
+    {
+      "code": "SMU18346209092000001",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU18346209092000001.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 11010828,
+      "name": "All Employees: State Government in Muncie, IN (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2013-12-01",
+      "type": null,
+      "updated_at": "2014-03-23T23:20:21Z",
+      "urlize_name": "All-Employees-State-Government-in-Muncie-IN-MSA"
+    },
+    {
+      "code": "SMU12452204300000001",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU12452204300000001.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 11017086,
+      "name": "All Employees: Transportation and Utilities in Tallahassee, FL (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2013-12-01",
+      "type": null,
+      "updated_at": "2014-03-23T23:20:21Z",
+      "urlize_name": "All-Employees-Transportation-and-Utilities-in-Tallahassee-FL-MSA"
+    },
+    {
+      "code": "SMU06310849092000001SA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The Federal Reserve Bank of St. Louis seasonally adjusts this series by using the 'x12' package from R with default parameter settings. The package uses the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on the 'x12' package can be found at http://cran.r-project.org/web/packages/x12/x12.pdf. More information on X-12-ARIMA can be found at http://www.census.gov/srd/www/x12a/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU06310849092000001SA.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 11010708,
+      "name": "All Employees: State Government in Los Angeles-Long Beach-Glendale, CA (MD)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2013-12-01",
+      "type": null,
+      "updated_at": "2014-03-21T20:27:16Z",
+      "urlize_name": "All-Employees-State-Government-in-Los-Angeles-Long-Beach-Glendale-CA-MD"
+    },
+    {
+      "code": "RP_OTHERCOMPREHENSIVEINCOMELOSSFOREIGNCURRENCYTRANSACTIONANDTRANSLATIONADJUSTMENTNETOFTAX_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-06-30",
+      "id": 11167211,
+      "name": "REALPAGE INC  (RP): Quarterly Other Comprehensive Income Loss Foreign Currency Transaction And Translation Adjustment Net Of Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-20T22:56:43Z",
+      "urlize_name": "REALPAGE-INC-RP-Quarterly-Other-Comprehensive-Income-Loss-Foreign-Currency-Transaction-And-Translation-Adjustment-Net-Of-Tax"
+    },
+    {
+      "code": "RP_DEPRECIATIONANDAMORTIZATION_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DepreciationAndAmortization",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 11167214,
+      "name": "REALPAGE INC  (RP): Quarterly Depreciation And Amortization",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-20T22:56:46Z",
+      "urlize_name": "REALPAGE-INC-RP-Quarterly-Depreciation-And-Amortization"
+    },
+    {
+      "code": "RP_INCOMETAXESPAIDNET_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeTaxesPaidNet",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 11167217,
+      "name": "REALPAGE INC  (RP): Quarterly Income Taxes Paid Net",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-20T22:56:26Z",
+      "urlize_name": "REALPAGE-INC-RP-Quarterly-Income-Taxes-Paid-Net"
+    },
+    {
+      "code": "RP_DEFERREDINCOMETAXEXPENSEBENEFIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DeferredIncomeTaxExpenseBenefit",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 11167219,
+      "name": "REALPAGE INC  (RP): Quarterly Deferred Income Tax Expense Benefit",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-20T22:56:46Z",
+      "urlize_name": "REALPAGE-INC-RP-Quarterly-Deferred-Income-Tax-Expense-Benefit"
+    },
+    {
+      "code": "RP_INTERESTPAID_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: InterestPaid",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 11167218,
+      "name": "REALPAGE INC  (RP): Quarterly Interest Paid",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-20T22:56:26Z",
+      "urlize_name": "REALPAGE-INC-RP-Quarterly-Interest-Paid"
+    },
+    {
+      "code": "SMU72386604244800001SA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The Federal Reserve Bank of St. Louis seasonally adjusts this series by using the 'x12' package from R with default parameter settings. The package uses the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on the 'x12' package can be found at http://cran.r-project.org/web/packages/x12/x12.pdf. More information on X-12-ARIMA can be found at http://www.census.gov/srd/www/x12a/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU72386604244800001SA.csv",
+      "frequency": "monthly",
+      "from_date": "2003-01-01",
+      "id": 11000364,
+      "name": "All Employees: Retail Trade: Clothing and Clothing Accessories Stores in Ponce, PR (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2013-12-01",
+      "type": null,
+      "updated_at": "2014-04-01T22:13:51Z",
+      "urlize_name": "All-Employees-Retail-Trade-Clothing-and-Clothing-Accessories-Stores-in-Ponce-PR-MSA"
+    },
+    {
+      "code": "RP_NETCASHPROVIDEDBYUSEDINOPERATINGACTIVITIES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: NetCashProvidedByUsedInOperatingActivities",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 11167213,
+      "name": "REALPAGE INC  (RP): Quarterly Net Cash Provided By Used In Operating Activities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-20T22:56:47Z",
+      "urlize_name": "REALPAGE-INC-RP-Quarterly-Net-Cash-Provided-By-Used-In-Operating-Activities"
+    },
+    {
+      "code": "RP_NETCASHPROVIDEDBYUSEDININVESTINGACTIVITIES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: NetCashProvidedByUsedInInvestingActivities",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 11167215,
+      "name": "REALPAGE INC  (RP): Quarterly Net Cash Provided By Used In Investing Activities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-20T22:56:47Z",
+      "urlize_name": "REALPAGE-INC-RP-Quarterly-Net-Cash-Provided-By-Used-In-Investing-Activities"
+    },
+    {
+      "code": "RP_NETCASHPROVIDEDBYUSEDINFINANCINGACTIVITIES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: NetCashProvidedByUsedInFinancingActivities",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 11167216,
+      "name": "REALPAGE INC  (RP): Quarterly Net Cash Provided By Used In Financing Activities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-20T22:56:47Z",
+      "urlize_name": "REALPAGE-INC-RP-Quarterly-Net-Cash-Provided-By-Used-In-Financing-Activities"
+    },
+    {
+      "code": "RP_COSTOFSERVICES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CostOfServices",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-06-30",
+      "id": 11167207,
+      "name": "REALPAGE INC  (RP): Quarterly Cost Of Services",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-20T22:56:56Z",
+      "urlize_name": "REALPAGE-INC-RP-Quarterly-Cost-Of-Services"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "FRED",
+      "datasets_count": 60949,
+      "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
+      "host": "www.research.stlouisfed.org",
+      "id": 118,
+      "name": "Federal Reserve Economic Data"
+    }
+  ],
+  "total_count": 10006019
+}

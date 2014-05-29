@@ -1,0 +1,415 @@
+{
+  "current_page": 71025,
+  "docs": [
+    {
+      "code": "MCITY_MEDIANLISTINGPRICE_ALLHOMES_PHILLIPSWI",
+      "column_names": [
+        "Date",
+        "Phillips"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7002739,
+      "name": "Zillow Metrics (Cities): Median List Price - Phillips, WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:56Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-List-Price-Phillips-WI"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_EGGHARBORCITYNJ",
+      "column_names": [
+        "Date",
+        "Egg Harbor City"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-03-31",
+      "id": 7154897,
+      "name": "Zillow Metrics (Cities): Decreasing Values (%) - Egg Harbor City, NJ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:57Z",
+      "urlize_name": "Zillow-Metrics-Cities-Decreasing-Values-Egg-Harbor-City-NJ"
+    },
+    {
+      "code": "ZIP_3BEDROOM_12577",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the zip code of 12577, Beaverdam Lake-Salisbury Mills, NY. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6792674,
+      "name": "Zillow Home Value Index (Zip Codes): Three Bedroom Homes - 12577,Beaverdam Lake-Salisbury Mills,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:57Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Three-Bedroom-Homes-12577-Beaverdam-Lake-Salisbury-Mills-NY"
+    },
+    {
+      "code": "MZIP_MEDIANLISTINGPRICEPERSQFT_ALLHOMES_95340",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of list prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianListingPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7250533,
+      "name": "Zillow Metrics (Zip Codes): Median List Price per Sq. Ft. - 95340, Merced, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:57Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-List-Price-per-Sq-Ft-95340-Merced-CA"
+    },
+    {
+      "code": "MMETRO_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_WILLIMANTICCT",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Metro/Metro_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 6960860,
+      "name": "Zillow Metrics (Metro Areas): Listings with Price Cuts (%) - Willimantic, CT",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:57Z",
+      "urlize_name": "Zillow-Metrics-Metro-Areas-Listings-with-Price-Cuts-Willimantic-CT"
+    },
+    {
+      "code": "MCITY_MEDIANLISTINGPRICE_ALLHOMES_WARRENRI",
+      "column_names": [
+        "Date",
+        "Warren"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 6983182,
+      "name": "Zillow Metrics (Cities): Median List Price - Warren, RI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:57Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-List-Price-Warren-RI"
+    },
+    {
+      "code": "MZIP_TURNOVER_ALLHOMES_75236",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-01-31",
+      "id": 7380416,
+      "name": "Zillow Metrics (Zip Codes): Sold in the Past Year (%) - 75236,Dallas,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:57Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-in-the-Past-Year-75236-Dallas-TX"
+    },
+    {
+      "code": "MMETRO_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_FONDDULACWI",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Metro/Metro_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 6960925,
+      "name": "Zillow Metrics (Metro Areas): Listings with Price Cuts (%) - Fond du Lac, WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:57Z",
+      "urlize_name": "Zillow-Metrics-Metro-Areas-Listings-with-Price-Cuts-Fond-du-Lac-WI"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_RICHMONDMA",
+      "column_names": [
+        "Date",
+        "Richmond"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-03-31",
+      "id": 7158472,
+      "name": "Zillow Metrics (Cities): Decreasing Values (%) - Richmond, MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:57Z",
+      "urlize_name": "Zillow-Metrics-Cities-Decreasing-Values-Richmond-MA"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_EASTLONGMEADOWMA",
+      "column_names": [
+        "Date",
+        "East Longmeadow"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-03-31",
+      "id": 7150254,
+      "name": "Zillow Metrics (Cities): Decreasing Values (%) - East Longmeadow, MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:57Z",
+      "urlize_name": "Zillow-Metrics-Cities-Decreasing-Values-East-Longmeadow-MA"
+    },
+    {
+      "code": "MCITY_MEDIANLISTINGPRICE_ALLHOMES_OWASSOOK",
+      "column_names": [
+        "Date",
+        "Owasso"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 6966844,
+      "name": "Zillow Metrics (Cities): Median List Price - Owasso, OK",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-List-Price-Owasso-OK"
+    },
+    {
+      "code": "MCITY_MEDIANLISTINGPRICE_ALLHOMES_SEARSMI",
+      "column_names": [
+        "Date",
+        "Sears"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7032179,
+      "name": "Zillow Metrics (Cities): Median List Price - Sears, MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-List-Price-Sears-MI"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_LAFAYETTECA",
+      "column_names": [
+        "Date",
+        "Lafayette"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-03-31",
+      "id": 7149004,
+      "name": "Zillow Metrics (Cities): Decreasing Values (%) - Lafayette, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Decreasing-Values-Lafayette-CA"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_HEWLETTNY",
+      "column_names": [
+        "Date",
+        "Hewlett"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-07-31",
+      "id": 7152874,
+      "name": "Zillow Metrics (Cities): Decreasing Values (%) - Hewlett, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Decreasing-Values-Hewlett-NY"
+    },
+    {
+      "code": "MCITY_MEDIANLISTINGPRICE_ALLHOMES_TOWNOFCAMILLUSNY",
+      "column_names": [
+        "Date",
+        "Town of Camillus"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 6978261,
+      "name": "Zillow Metrics (Cities): Median List Price - Town of Camillus, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-List-Price-Town-of-Camillus-NY"
+    },
+    {
+      "code": "MMETRO_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_NORFOLKNE",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Metro/Metro_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 6961319,
+      "name": "Zillow Metrics (Metro Areas): Listings with Price Cuts (%) - Norfolk, NE",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:58Z",
+      "urlize_name": "Zillow-Metrics-Metro-Areas-Listings-with-Price-Cuts-Norfolk-NE"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_28339",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7357143,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 28339,Erwin,NC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:59Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-28339-Erwin-NC"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_TOWNOFOWEGONY",
+      "column_names": [
+        "Date",
+        "Town of Owego"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2000-10-31",
+      "id": 7149792,
+      "name": "Zillow Metrics (Cities): Decreasing Values (%) - Town of Owego, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:59Z",
+      "urlize_name": "Zillow-Metrics-Cities-Decreasing-Values-Town-of-Owego-NY"
+    },
+    {
+      "code": "MZIP_MEDIANLISTINGPRICEPERSQFT_ALLHOMES_34788",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of list prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianListingPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7253439,
+      "name": "Zillow Metrics (Zip Codes): Median List Price per Sq. Ft. - 34788, Silver Lake, FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:59Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-List-Price-per-Sq-Ft-34788-Silver-Lake-FL"
+    },
+    {
+      "code": "METRO_SINGLEFAMILYRESIDENCE_MADERACA",
+      "column_names": [
+        "Date",
+        "Madera, CA"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the metropolitan of Madera, CA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Metro/Metro_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6715544,
+      "name": "Zillow Home Value Index (Metro Areas): Single Family Residence - Madera, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:39:59Z",
+      "urlize_name": "Zillow-Home-Value-Index-Metro-Areas-Single-Family-Residence-Madera-CA"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "ZILLOW",
+    "datasets_count": 216313,
+    "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+    "host": "files.zillowstatic.com",
+    "id": 797,
+    "name": "Zillow Real Estate Research"
+  }],
+  "total_count": 10006019
+}

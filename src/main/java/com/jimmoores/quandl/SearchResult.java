@@ -44,7 +44,7 @@ public final class SearchResult {
     JSONArray jsonArray = null;
     try {
       jsonArray = _jsonObject.getJSONArray(DOCUMENTS_ARRAY_FIELD);
-      List<MetaDataResult> metaDataResults = new ArrayList<>(jsonArray.length()); 
+      List<MetaDataResult> metaDataResults = new ArrayList<MetaDataResult>(jsonArray.length()); 
       for (int i = 0; i < jsonArray.length(); i++) {
         metaDataResults.add(MetaDataResult.of(jsonArray.getJSONObject(i)));
       }

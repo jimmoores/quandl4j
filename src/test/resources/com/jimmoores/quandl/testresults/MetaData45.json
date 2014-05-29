@@ -1,0 +1,453 @@
+{
+  "current_page": 455054,
+  "docs": [
+    {
+      "code": "1170_84742009_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1170.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7890778,
+      "name": "Import of goods, HS 84 Non-electric machines. Value and Quantity, latest 13 months - (q1=kg, q2=number) Subgroup of: 847420 Crushing or grinding machines for solid mineral substances - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:54Z",
+      "urlize_name": "Import-of-goods-HS-84-Non-electric-machines-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Subgroup-of-847420-Crushing-or-grinding-machines-for-solid-mineral-substances-Imports"
+    },
+    {
+      "code": "COAL_SHIPMENT_PRICE_OVR_2364_TOT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = $/short Ton. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.OVR-2364-TOT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.OVR-2364-TOT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_PRICE.OVR-2364-TOT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2008-06-30",
+      "id": 12048518,
+      "name": "Coal Shipment Price : Overseas To Merrimack : All : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T11:47:06Z",
+      "urlize_name": "Coal-Shipment-Price-Overseas-To-Merrimack-All-Quarterly"
+    },
+    {
+      "code": "PET_M_EPOBG_EEX_NUS_NGP_2_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.M_EPOBG_EEX_NUS-NGP_2.M>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.M_EPOBG_EEX_NUS-NGP_2.M<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.M_EPOBG_EEX_NUS-NGP_2.M&out=xml",
+      "frequency": "annual",
+      "from_date": "2006-08-31",
+      "id": 12036010,
+      "name": "U.s. Exports To Guadeloupe Of Gasoline Blending Components, Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2006-08-31",
+      "type": null,
+      "updated_at": "2014-05-16T11:47:38Z",
+      "urlize_name": "U-s-Exports-To-Guadeloupe-Of-Gasoline-Blending-Components-Monthly"
+    },
+    {
+      "code": "1170_84439100_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1170.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7890544,
+      "name": "Import of goods, HS 84 Non-electric machines. Value and Quantity, latest 13 months - (q1=kg, q2=none) Parts and accessories of printing machinery used for printing by means of plates, cylinders and other printing components of heading 8442 - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:54Z",
+      "urlize_name": "Import-of-goods-HS-84-Non-electric-machines-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Parts-and-accessories-of-printing-machinery-used-for-printing-by-means-of-plates-cylinders-and-other-printing-components-of-heading-8442-Imports"
+    },
+    {
+      "code": "1148_15029010_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1148.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7885047,
+      "name": "Import of goods, HS 15 Animal or vegetable fats and oils or their cleavage products. Value and Quantity, latest 13 months - (q1=kg,q2=none) Subgroup of:150290 Fats of bovine animals, sheep or goats (excl. tallow, oleostearin and oleo-oil) - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:54Z",
+      "urlize_name": "Import-of-goods-HS-15-Animal-or-vegetable-fats-and-oils-or-their-cleavage-products-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Subgroup-of-150290-Fats-of-bovine-animals-sheep-or-goats-excl-tallow-oleostearin-and-oleo-oil-Imports"
+    },
+    {
+      "code": "1231_85242200_2",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1231.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7880683,
+      "name": "Export of goods, HS 85 Electric motors and generators etc. Value and Quantity, latest 13 months - (q1=kg, q2=number) Magnetic tapes, recorded, for sound or other similarly recorded phenomena, of a width > 4 mm but =< 6.5 mm - Exports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:54Z",
+      "urlize_name": "Export-of-goods-HS-85-Electric-motors-and-generators-etc-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Magnetic-tapes-recorded-for-sound-or-other-similarly-recorded-phenomena-of-a-width-4-mm-but-6-5-mm-Exports"
+    },
+    {
+      "code": "1231_85086000_2",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1231.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7880482,
+      "name": "Export of goods, HS 85 Electric motors and generators etc. Value and Quantity, latest 13 months - (q1=kg, q2=number) Vacuum cleaners, incl. dry cleaners and wet vacuum cleaners (excl. with self-contained electric motor) - Exports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:54Z",
+      "urlize_name": "Export-of-goods-HS-85-Electric-motors-and-generators-etc-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Vacuum-cleaners-incl-dry-cleaners-and-wet-vacuum-cleaners-excl-with-self-contained-electric-motor-Exports"
+    },
+    {
+      "code": "1231_85322500_2",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1231.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7880850,
+      "name": "Export of goods, HS 85 Electric motors and generators etc. Value and Quantity, latest 13 months - (q1=kg, q2=none) Fixed electrical capacitors, dielectric of paper or plastics (excl. power capacitors) - Exports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:54Z",
+      "urlize_name": "Export-of-goods-HS-85-Electric-motors-and-generators-etc-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Fixed-electrical-capacitors-dielectric-of-paper-or-plastics-excl-power-capacitors-Exports"
+    },
+    {
+      "code": "1170_84463000_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1170.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7890558,
+      "name": "Import of goods, HS 84 Non-electric machines. Value and Quantity, latest 13 months - (q1=kg, q2=number) Weaving machines for weaving fabrics of a width > 30 cm, shuttleless type - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:55Z",
+      "urlize_name": "Import-of-goods-HS-84-Non-electric-machines-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Weaving-machines-for-weaving-fabrics-of-a-width-30-cm-shuttleless-type-Imports"
+    },
+    {
+      "code": "1170_84732900_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1170.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7890772,
+      "name": "Import of goods, HS 84 Non-electric machines. Value and Quantity, latest 13 months - (q1=kg, q2=none) Parts and accessories of non-electronic calculators for accounting machines, cash registers or other machines, incorporating a calculating device, of - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:55Z",
+      "urlize_name": "Import-of-goods-HS-84-Non-electric-machines-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Parts-and-accessories-of-non-electronic-calculators-for-accounting-machines-cash-registers-or-other-machines-incorporating-a-calculating-device-of-Imports"
+    },
+    {
+      "code": "PET_M_EPM0F_EEX_NUS_NGP_2_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.M_EPM0F_EEX_NUS-NGP_2.M>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.M_EPM0F_EEX_NUS-NGP_2.M<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.M_EPM0F_EEX_NUS-NGP_2.M&out=xml",
+      "frequency": "monthly",
+      "from_date": "2006-05-31",
+      "id": 12035458,
+      "name": "U.s. Exports To Guadeloupe Of Finished Motor Gasoline, Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-05-16T11:47:39Z",
+      "urlize_name": "U-s-Exports-To-Guadeloupe-Of-Finished-Motor-Gasoline-Monthly"
+    },
+    {
+      "code": "1231_85407100_2",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1231.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7880937,
+      "name": "Export of goods, HS 85 Electric motors and generators etc. Value and Quantity, latest 13 months - (q1=kg, q2=number) Magnetrons - Exports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:55Z",
+      "urlize_name": "Export-of-goods-HS-85-Electric-motors-and-generators-etc-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Magnetrons-Exports"
+    },
+    {
+      "code": "1170_84691200_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1170.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7890708,
+      "name": "Import of goods, HS 84 Non-electric machines. Value and Quantity, latest 13 months - (q1=kg, q2=number) Typewriters, automatic (excl. word-processing machines, automatic data-processing machines and units thereof of heading no 8471 and laser, thermal and electrose - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:55Z",
+      "urlize_name": "Import-of-goods-HS-84-Non-electric-machines-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Typewriters-automatic-excl-word-processing-machines-automatic-data-processing-machines-and-units-thereof-of-heading-no-8471-and-laser-thermal-and-electrose-Imports"
+    },
+    {
+      "code": "1170_84807900_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1170.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7890834,
+      "name": "Import of goods, HS 84 Non-electric machines. Value and Quantity, latest 13 months - (q1=kg, q2=none) Moulds for rubber or plastics (other than injection or compression types) - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:55Z",
+      "urlize_name": "Import-of-goods-HS-84-Non-electric-machines-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Moulds-for-rubber-or-plastics-other-than-injection-or-compression-types-Imports"
+    },
+    {
+      "code": "COAL_SHIPMENT_PRICE_WVN_2364_BIT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = $/short Ton. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.WVN-2364-BIT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.WVN-2364-BIT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_PRICE.WVN-2364-BIT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2012-12-31",
+      "id": 12048519,
+      "name": "Coal Shipment Price : West Virginia (northern) To Merrimack : Bituminous : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T11:47:39Z",
+      "urlize_name": "Coal-Shipment-Price-West-Virginia-northern-To-Merrimack-Bituminous-Annual"
+    },
+    {
+      "code": "PET_M_EPP0_EEX_NUS_NGP_1_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.M_EPP0_EEX_NUS-NGP_1.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.M_EPP0_EEX_NUS-NGP_1.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.M_EPP0_EEX_NUS-NGP_1.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 12033873,
+      "name": "U.s. Exports To Guadeloupe Of Total Petroleum Products, Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T11:47:40Z",
+      "urlize_name": "U-s-Exports-To-Guadeloupe-Of-Total-Petroleum-Products-Annual"
+    },
+    {
+      "code": "1148_15089000_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1148.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7885093,
+      "name": "Import of goods, HS 15 Animal or vegetable fats and oils or their cleavage products. Value and Quantity, latest 13 months - (q1=kg, q2=none) Ground-nut oil and its fractions, whether or not refined (excl. chemically modified and crude) - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:55Z",
+      "urlize_name": "Import-of-goods-HS-15-Animal-or-vegetable-fats-and-oils-or-their-cleavage-products-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Ground-nut-oil-and-its-fractions-whether-or-not-refined-excl-chemically-modified-and-crude-Imports"
+    },
+    {
+      "code": "1170_84814092_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1170.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7890853,
+      "name": "Import of goods, HS 84 Non-electric machines. Value and Quantity, latest 13 months - (q1=kg, q2=none) Subgroup of: 848140 Safety or relief valves - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:55Z",
+      "urlize_name": "Import-of-goods-HS-84-Non-electric-machines-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Subgroup-of-848140-Safety-or-relief-valves-Imports"
+    },
+    {
+      "code": "1170_84472000_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1170.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7890561,
+      "name": "Import of goods, HS 84 Non-electric machines. Value and Quantity, latest 13 months - (q1=kg, q2=number) Flat knitting machines; stitch-bonding machines - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:51:55Z",
+      "urlize_name": "Import-of-goods-HS-84-Non-electric-machines-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Flat-knitting-machines-stitch-bonding-machines-Imports"
+    },
+    {
+      "code": "COAL_SHIPMENT_PRICE_WVN_2364_BIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = $/short Ton. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.WVN-2364-BIT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.WVN-2364-BIT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_PRICE.WVN-2364-BIT.Q&out=xml",
+      "frequency": "annual",
+      "from_date": "2012-09-30",
+      "id": 12048520,
+      "name": "Coal Shipment Price : West Virginia (northern) To Merrimack : Bituminous : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-09-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:47:08Z",
+      "urlize_name": "Coal-Shipment-Price-West-Virginia-northern-To-Merrimack-Bituminous-Quarterly"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "STATNOR",
+      "datasets_count": 0,
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "host": "data.ssb.no",
+      "id": 912,
+      "name": "Statistics Norway"
+    }
+  ],
+  "total_count": 9990700
+}

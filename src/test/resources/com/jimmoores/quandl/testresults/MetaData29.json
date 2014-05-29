@@ -1,0 +1,439 @@
+{
+  "current_page": 18474,
+  "docs": [
+    {
+      "code": "TCD_DB_PRIORITY_REDUNDANCIES",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Are there priority rules for redundancies? (Yes=1; No=0)\nPriority rules for redundancies?",
+      "display_url": "http://api.worldbank.org/countries/TCD/indicators/db_priority_redundancies?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 2108899,
+      "name": "Chad: Priority rules for redundancies?",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T20:31:16Z",
+      "urlize_name": "Chad-Priority-rules-for-redundancies"
+    },
+    {
+      "code": "SLB_NEIMPGNFSXN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Imports GNFS implicit deflator is the ratio of  Imports GNFS in current local currency to Imports GNFS in constant local currency. The base year varies by country.\nImports GNFS deflator, LCU",
+      "display_url": "http://api.worldbank.org/countries/SLB/indicators/NEIMPGNFSXN?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1980-12-31",
+      "id": 2170025,
+      "name": "Solomon Islands: Imports GNFS deflator, LCU",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2015-12-31",
+      "type": null,
+      "updated_at": "2013-08-29T20:40:25Z",
+      "urlize_name": "Solomon-Islands-Imports-GNFS-deflator-LCU"
+    },
+    {
+      "code": "MNG_GER_SEC_POP_ATTN_0509_FE",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population by educational attainment, secondary, female (aged 5-9) is the total number of females age 5-9 with secondary education.\nPopulation by educational attainment, secondary, female (aged 5-9)",
+      "display_url": "http://api.worldbank.org/countries/MNG/indicators/GER.SEC.POP.ATTN.0509.FE?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 513280,
+      "name": "Mongolia: Population by educational attainment, secondary, female (aged 5-9)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2025-12-31",
+      "type": null,
+      "updated_at": "2013-06-20T17:13:58Z",
+      "urlize_name": "Mongolia-Population-by-educational-attainment-secondary-female-aged-5-9"
+    },
+    {
+      "code": "SWZ_GER_PRE_POP_ATTN_5054_MA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population by educational attainment, no-school, male (aged 50-54) is the total number of males age 50-54 with no education.\nPopulation by educational attainment, no-school, male (aged 50-54)",
+      "display_url": "http://api.worldbank.org/countries/SWZ/indicators/GER.PRE.POP.ATTN.5054.MA?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 2105365,
+      "name": "Swaziland: Population by educational attainment, no-school, male (aged 50-54)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2025-12-31",
+      "type": null,
+      "updated_at": "2013-06-20T18:27:34Z",
+      "urlize_name": "Swaziland-Population-by-educational-attainment-no-school-male-aged-50-54"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESSOLD_ALLHOMES_98625",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Total number of homes sold during the prior 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesSold_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "2004-05-31",
+      "id": 7374356,
+      "name": "Zillow Metrics (Zip Codes): Total Homes Sold - 98625,Kalama,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-01-09T07:01:01Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Total-Homes-Sold-98625-Kalama-WA"
+    },
+    {
+      "code": "COM_SH_XPD_PRIV_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Private health expenditure includes direct household (out-of-pocket) spending, private insurance, charitable donations, and direct service payments by private corporations.\nHealth expenditure, private (current US$)",
+      "display_url": "http://api.worldbank.org/countries/COM/indicators/SH.XPD.PRIV.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 270232,
+      "name": "Comoros: Health expenditure, private (current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-06-20T16:47:47Z",
+      "urlize_name": "Comoros-Health-expenditure-private-current-US"
+    },
+    {
+      "code": "HOOD_TOPTIER_EASTOAKHILLAUSTINTX",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of top tier homes within the neighborhood of East Oak Hill, Austin, TX. Top tier homes are homes that fall into the top third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_TopTier.csv",
+      "frequency": "monthly",
+      "from_date": "2000-08-31",
+      "id": 6771166,
+      "name": "Zillow Home Value Index (Neighborhoods): Top Tier Homes - East Oak Hill,Austin,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2013-11-29T22:22:38Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Top-Tier-Homes-East-Oak-Hill-Austin-TX"
+    },
+    {
+      "code": "ZWE_MYS_POP_1519_PRI_MA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population in thousand, 15-19, male, primary is the total number of males age 15-19 (in thousands) with primary education.\npopulation in thousand, 15-19, male, primary",
+      "display_url": "http://api.worldbank.org/countries/ZWE/indicators/MYS.POP.1519.PRI.MA?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 2143299,
+      "name": "Zimbabwe: population in thousand, 15-19, male, primary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2050-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T22:57:18Z",
+      "urlize_name": "Zimbabwe-population-in-thousand-15-19-male-primary"
+    },
+    {
+      "code": "URY_WP11631_4_8",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults whose usual mode of access to get cash (paper or coins) from their account(s) is from some other person who is associated with one's bank or financial institution (% in the first (lowest) and second income quintiles (0-40th percentile), age 15+, with a formal account)\nBank agent is main mode of deposit into account, income quintiles I (lowest) and II (% with an account,  age 15+)",
+      "display_url": "http://api.worldbank.org/countries/URY/indicators/WP11631.4.8?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2145457,
+      "name": "Uruguay: Bank agent is main mode of deposit into account, income quintiles I (lowest) and II (% with an account,  age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-08-29T18:42:33Z",
+      "urlize_name": "Uruguay-Bank-agent-is-main-mode-of-deposit-into-account-income-quintiles-I-lowest-and-II-with-an-account-age-15"
+    },
+    {
+      "code": "LSO_GER_PRE_POP_ATTN_5559_MA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population by educational attainment, no-school, male (aged 55-59) is the total number of males age 55-59 with no education.\nPopulation by educational attainment, no-school, male (aged 55-59)",
+      "display_url": "http://api.worldbank.org/countries/LSO/indicators/GER.PRE.POP.ATTN.5559.MA?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 446106,
+      "name": "Lesotho: Population by educational attainment, no-school, male (aged 55-59)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2025-12-31",
+      "type": null,
+      "updated_at": "2013-06-20T17:08:45Z",
+      "urlize_name": "Lesotho-Population-by-educational-attainment-no-school-male-aged-55-59"
+    },
+    {
+      "code": "SGP_UIS_LP_AG15T99_F",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adult illiterate population. Female is the total number of females over age 15 who cannot both read and write with understanding a short simple statement on their everyday life.\nAdult illiterate population. Female",
+      "display_url": "http://api.worldbank.org/countries/SGP/indicators/UIS.LP.AG15T99.F?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1980-12-31",
+      "id": 2086980,
+      "name": "Singapore: Adult illiterate population. Female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T17:23:20Z",
+      "urlize_name": "Singapore-Adult-illiterate-population-Female"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_44306",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7395447,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 44306,Akron,OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-01-09T06:47:01Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-44306-Akron-OH"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESSOLD_ALLHOMES_92780",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Total number of homes sold during the prior 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesSold_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-07-31",
+      "id": 7369112,
+      "name": "Zillow Metrics (Zip Codes): Total Homes Sold - 92780,Tustin,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-01-09T06:44:36Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Total-Homes-Sold-92780-Tustin-CA"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_15201",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7610584,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 15201,Pittsburgh,PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-01-09T06:43:18Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-15201-Pittsburgh-PA"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESSOLD_ALLHOMES_89122",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Total number of homes sold during the prior 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesSold_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-07-31",
+      "id": 7592652,
+      "name": "Zillow Metrics (Zip Codes): Total Homes Sold - 89122,Las Vegas,NV",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-01-09T06:43:28Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Total-Homes-Sold-89122-Las-Vegas-NV"
+    },
+    {
+      "code": "NOR_BM_GSR_FCTY_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Primary income payments refer to employee compensation paid to nonresident workers and investment income (payments on direct investment, portfolio investment, other investments). Data are in current U.S. dollars.\nPrimary income payments (BoP, current US$)",
+      "display_url": "http://api.worldbank.org/countries/NOR/indicators/BM.GSR.FCTY.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 536261,
+      "name": "Norway: Primary income payments (BoP, current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T12:56:58Z",
+      "urlize_name": "Norway-Primary-income-payments-BoP-current-US"
+    },
+    {
+      "code": "NLD_BAR_PRM_ICMP_25UP_FE_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage of population, 25+, female, incomplete primary is the percentage of the female population over age 25 who did not complete primary education.\npercentage of population (15+), 25+, female, incomplete primary",
+      "display_url": "http://api.worldbank.org/countries/NLD/indicators/BAR.PRM.ICMP.25UP.FE.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 6581421,
+      "name": "Netherlands: percentage of population (15+), 25+, female, incomplete primary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T23:03:18Z",
+      "urlize_name": "Netherlands-percentage-of-population-15-25-female-incomplete-primary"
+    },
+    {
+      "code": "UIS_TERTIARYEDUCATIONISCED5AND6ENROLMENT__FEMALE_OMN",
+      "column_names": [
+        "Year",
+        "Percent"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1978-12-31",
+      "id": 3509953,
+      "name": "Tertiary education (ISCED 5 and 6) Enrolment / Female - Oman",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T12:55:48Z",
+      "urlize_name": "Tertiary-education-ISCED-5-and-6-Enrolment-Female-Oman"
+    },
+    {
+      "code": "UIS_EXPECTEDGROSSINTAKERATIOTOTHELASTGRADEOFPRIMARY__ALLGENDERS_ESP",
+      "column_names": [
+        "Year",
+        "Percent"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1982-12-31",
+      "id": 3566520,
+      "name": "Expected gross intake ratio to the last grade of primary / All genders - Spain",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T12:57:00Z",
+      "urlize_name": "Expected-gross-intake-ratio-to-the-last-grade-of-primary-All-genders-Spain"
+    },
+    {
+      "code": "UKR_HH_MICS_YRS_1519_Q4",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Average years of schooling by age group. Age 15-19. Quintile 4 is the number of years of formal schooling received, on average, by the quintile 4 population of the given age group.\nMICS: Average years of schooling by age group. Age 15-19. Quintile 4",
+      "display_url": "http://api.worldbank.org/countries/UKR/indicators/HH.MICS.YRS.1519.Q4?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 2133704,
+      "name": "Ukraine: MICS: Average years of schooling by age group. Age 15-19. Quintile 4",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T22:21:29Z",
+      "urlize_name": "Ukraine-MICS-Average-years-of-schooling-by-age-group-Age-15-19-Quintile-4"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "ZILLOW",
+      "concurrency": 20,
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research",
+      "use_proxy": false
+    },
+    {
+      "code": "UN",
+      "concurrency": 10000,
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations",
+      "use_proxy": false
+    },
+    {
+      "code": "WORLDBANK",
+      "concurrency": 400,
+      "datasets_count": 792087,
+      "description": "The World Bank's mission is to fight poverty with passion and professionalism for lasting results.\r\n\r\nFree and open access to data about development in countries around the globe.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank",
+      "use_proxy": false
+    }
+  ],
+  "total_count": 9990700
+}

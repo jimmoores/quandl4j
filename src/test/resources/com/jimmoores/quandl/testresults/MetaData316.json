@@ -1,0 +1,21 @@
+{
+  "code": "ELEC_GEN_NG_LA_6_Q",
+  "column_names": [
+    "Date",
+    "Value"
+  ],
+  "description": "Units=Thousand Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.GEN.NG-LA-6.Q",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.GEN.NG-LA-6.Q&out=xml",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "2001-01-31",
+  "id": 5192965,
+  "name": "Net Generation : Natural Gas : Louisiana : Industrial Non-cogen : Quarterly",
+  "private": false,
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2013-09-30",
+  "type": null,
+  "updated_at": "2014-01-10T01:10:36Z",
+  "urlize_name": "Net-Generation-Natural-Gas-Louisiana-Industrial-Non-cogen-Quarterly"
+}

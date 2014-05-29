@@ -1,0 +1,415 @@
+{
+  "current_page": 57084,
+  "docs": [
+    {
+      "code": "MANH_INV_CAP",
+      "column_names": [
+        "Date",
+        "Invested Capital"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4651744,
+      "name": "Manhattan Associates ( MANH ) - Invested Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:28:41Z",
+      "urlize_name": "Manhattan-Associates-MANH-Invested-Capital"
+    },
+    {
+      "code": "LAKE_EV_SALESTR",
+      "column_names": [
+        "Date",
+        "EV to Trailing Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-01-31",
+      "id": 4647309,
+      "name": "Lakeland Industries ( LAKE ) - EV to Trailing Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-01-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:28:41Z",
+      "urlize_name": "Lakeland-Industries-LAKE-EV-to-Trailing-Sales-Ratio"
+    },
+    {
+      "code": "VTS_INST_HOLD",
+      "column_names": [
+        "Date",
+        "Institutional Holdings"
+      ],
+      "description": "Number of shares held by mutual funds, pension funds and trusts as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5561779,
+      "name": "Veritas DGC Inc ( VTS ) - Institutional Holdings",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:28:41Z",
+      "urlize_name": "Veritas-DGC-Inc-VTS-Institutional-Holdings"
+    },
+    {
+      "code": "VECO_DIV_YLD",
+      "column_names": [
+        "Date",
+        "Dividend Yield"
+      ],
+      "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5357518,
+      "name": "Veeco Instruments ( VECO ) - Dividend Yield",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:29:02Z",
+      "urlize_name": "Veeco-Instruments-VECO-Dividend-Yield"
+    },
+    {
+      "code": "CRDN_EFF_TAX",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4278411,
+      "name": "Ceradyne ( CRDN ) - Effective Tax Rate",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:29:02Z",
+      "urlize_name": "Ceradyne-CRDN-Effective-Tax-Rate"
+    },
+    {
+      "code": "VECO_EV_SALES",
+      "column_names": [
+        "Date",
+        "EV To Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5357529,
+      "name": "Veeco Instruments ( VECO ) - EV To Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:29:02Z",
+      "urlize_name": "Veeco-Instruments-VECO-EV-To-Sales-Ratio"
+    },
+    {
+      "code": "CRZO_BV_ASSETS",
+      "column_names": [
+        "Date",
+        "Book Value of Assets"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4299732,
+      "name": "Carrizo Oil & Gas ( CRZO ) - Book Value of Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:28:43Z",
+      "urlize_name": "Carrizo-Oil-Gas-CRZO-Book-Value-of-Assets"
+    },
+    {
+      "code": "CPC_BOOK_DC",
+      "column_names": [
+        "Date",
+        "Book Debt to Capital Ratio"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4257032,
+      "name": "Cen. Parking ( CPC ) - Book Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:28:43Z",
+      "urlize_name": "Cen-Parking-CPC-Book-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "DMD_ROC",
+      "column_names": [
+        "Date",
+        "Return on Capital"
+      ],
+      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 4216113,
+      "name": "Demand Media Inc. ( DMD ) - Return on Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:29:03Z",
+      "urlize_name": "Demand-Media-Inc-DMD-Return-on-Capital"
+    },
+    {
+      "code": "UPHN_BETA",
+      "column_names": [
+        "Date",
+        "3-Year Regression Beta"
+      ],
+      "description": "Estimated by regressing weekly returns on stock against NYSE composite. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-09-02",
+      "id": 5479131,
+      "name": "Uphonia Inc ( UPHN ) - 3-Year Regression Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-09-02",
+      "type": null,
+      "updated_at": "2014-03-22T08:29:04Z",
+      "urlize_name": "Uphonia-Inc-UPHN-3-Year-Regression-Beta"
+    },
+    {
+      "code": "EDEN_REV_GRO",
+      "column_names": [
+        "Date",
+        "Previous Year Growth in Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 6006129,
+      "name": "Denmark Capped Investable Mkt Idx Fd MSCI Ishare ( EDEN ) - Previous Year Growth in Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:28:44Z",
+      "urlize_name": "Denmark-Capped-Investable-Mkt-Idx-Fd-MSCI-Ishare-EDEN-Previous-Year-Growth-in-Revenues"
+    },
+    {
+      "code": "KG_FIRM_VAL",
+      "column_names": [
+        "Date",
+        "Firm Value"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 6041610,
+      "name": "King Pharmac. ( KG ) - Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:28:44Z",
+      "urlize_name": "King-Pharmac-KG-Firm-Value"
+    },
+    {
+      "code": "CRYQ_ROC",
+      "column_names": [
+        "Date",
+        "Return on Capital"
+      ],
+      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-03-31",
+      "id": 4298588,
+      "name": "Cryocon Inc ( CRYQ ) - Return on Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-03-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:29:04Z",
+      "urlize_name": "Cryocon-Inc-CRYQ-Return-on-Capital"
+    },
+    {
+      "code": "KNDL_EFF_TAX",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 6063270,
+      "name": "Kendle Intl Inc ( KNDL ) - Effective Tax Rate",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:29:04Z",
+      "urlize_name": "Kendle-Intl-Inc-KNDL-Effective-Tax-Rate"
+    },
+    {
+      "code": "MAYS_REV_12M",
+      "column_names": [
+        "Date",
+        "Trailing 12-month Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-07-31",
+      "id": 6041407,
+      "name": "J. W. Mays ( MAYS ) - Trailing 12-month Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-07-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:29:05Z",
+      "urlize_name": "J-W-Mays-MAYS-Trailing-12-month-Revenues"
+    },
+    {
+      "code": "BAM_EBIT",
+      "column_names": [
+        "Date",
+        "Earnings Before Interest and Taxes"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 3941928,
+      "name": "Brookfield Asset Management Inc ( BAM ) - Earnings Before Interest and Taxes",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:28:45Z",
+      "urlize_name": "Brookfield-Asset-Management-Inc-BAM-Earnings-Before-Interest-and-Taxes"
+    },
+    {
+      "code": "TNS_PAYOUT",
+      "column_names": [
+        "Date",
+        "Payout Ratio"
+      ],
+      "description": "Units: . Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 5488856,
+      "name": "TNS Inc ( TNS ) - Payout Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:28:45Z",
+      "urlize_name": "TNS-Inc-TNS-Payout-Ratio"
+    },
+    {
+      "code": "TRGL_PAYOUT",
+      "column_names": [
+        "Date",
+        "Payout Ratio"
+      ],
+      "description": "Units: . Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5505493,
+      "name": "Toreador Res Corp. ( TRGL ) - Payout Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:29:05Z",
+      "urlize_name": "Toreador-Res-Corp-TRGL-Payout-Ratio"
+    },
+    {
+      "code": "ICO_INV_CAP",
+      "column_names": [
+        "Date",
+        "Invested Capital"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4570938,
+      "name": "International Coal Group Inc ( ICO ) - Invested Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:28:45Z",
+      "urlize_name": "International-Coal-Group-Inc-ICO-Invested-Capital"
+    },
+    {
+      "code": "TRR_REV_LAST",
+      "column_names": [
+        "Date",
+        "Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-06-30",
+      "id": 5511419,
+      "name": "TRC Cos. ( TRR ) - Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T08:28:46Z",
+      "urlize_name": "TRC-Cos-TRR-Revenues"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
+  }],
+  "total_count": 10006019
+}

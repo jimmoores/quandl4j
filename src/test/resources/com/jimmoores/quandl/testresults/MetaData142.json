@@ -1,0 +1,485 @@
+{
+  "current_page": 278062,
+  "docs": [
+    {
+      "code": "FAO_121LEBANON391PASTEOFTOMATOES",
+      "column_names": [
+        "Year",
+        "Import Quantity (tonnes)",
+        "Import Value (1000 US$)",
+        "Export Quantity (tonnes)",
+        "Export Value (1000 US$)"
+      ],
+      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_Asia_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7705990,
+      "name": "Trade Crops Livestock: Paste of Tomatoes - Lebanon",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-07-26T08:45:35Z",
+      "urlize_name": "Trade-Crops-Livestock-Paste-of-Tomatoes-Lebanon"
+    },
+    {
+      "code": "FAO_149NEPAL1219HAIRCOARSENES",
+      "column_names": [
+        "Year",
+        "Import Quantity (tonnes)",
+        "Import Value (1000 US$)",
+        "Export Value (1000 US$)"
+      ],
+      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_Asia_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7707806,
+      "name": "Trade Crops Livestock: Hair Coarse Nes - Nepal",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-07-26T07:09:06Z",
+      "urlize_name": "Trade-Crops-Livestock-Hair-Coarse-Nes-Nepal"
+    },
+    {
+      "code": "COMM_12_CEREALFLOUREXCEPTWHEATMESLINRYEMAIZERICE_EXPORT_TCA",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 2921199,
+      "name": "Commodity Exports - Milling Products, Malt, Starches, Inulin, Wheat Glute / Cereal flour except wheat, meslin, rye, maize, rice - Turks and Caicos Islands",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2013-09-10T04:01:04Z",
+      "urlize_name": "Commodity-Exports-Milling-Products-Malt-Starches-Inulin-Wheat-Glute-Cereal-flour-except-wheat-meslin-rye-maize-rice-Turks-and-Caicos-Islands"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_EG_BTU_56649_WND_ALL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.56649-WND-ALL.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.56649-WND-ALL.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2008-04-30",
+      "id": 5078053,
+      "name": "Electric Fuel Consumption Mmbtus : South Trent Wind Farm : Wind : All Primemovers : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-01-10T00:00:15Z",
+      "urlize_name": "Electric-Fuel-Consumption-Mmbtus-South-Trent-Wind-Farm-Wind-All-Primemovers-Quarterly"
+    },
+    {
+      "code": "COMM_77_FOILALUMINIUMNOTBACKEDAND02MMTHICKWORKED_EXPORT_BHS",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4329301,
+      "name": "Commodity Exports - Aluminium And Articles Thereof / Foil, aluminium, not backed and < 0.2mm thick, worked - Bahamas",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T12:11:44Z",
+      "urlize_name": "Commodity-Exports-Aluminium-And-Articles-Thereof-Foil-aluminium-not-backed-and-0-2mm-thick-worked-Bahamas"
+    },
+    {
+      "code": "ELEC_PLANT_GEN_2316_DFO_ALL_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.2316-DFO-ALL.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.2316-DFO-ALL.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4858380,
+      "name": "Net Generation : Wisner : Distillate Fuel Oil : All Primemovers : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T01:39:16Z",
+      "urlize_name": "Net-Generation-Wisner-Distillate-Fuel-Oil-All-Primemovers-Annual"
+    },
+    {
+      "code": "PPM01_UF_MATO_GROSSO_DO_SUL_COELHOS_ABS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PPM01_UF_ABS.csv&categorias=%22Coelhos%22&localidade=Mato%20Grosso%20do%20Sul",
+      "frequency": "annual",
+      "from_date": "1978-12-31",
+      "id": 6317545,
+      "name": "Agricultural: And livestock herds (Annual data) - Effective herds by type of flock - Rabbits Federation Units - UF: Mato Grosso do Sul. Datatype: Absolute",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T20:25:46Z",
+      "urlize_name": "Agricultural-And-livestock-herds-Annual-data-Effective-herds-by-type-of-flock-Rabbits-Federation-Units-UF-Mato-Grosso-do-Sul-Datatype-Absolute"
+    },
+    {
+      "code": "IIUMFG32222363100",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Number of injury and illness cases (thousands); Case type: Cases involving days away from work; Industry: Coated paper bag and pouch manufacturing; Supersector: Manufacturing; Area: Private industry, All U.S.; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUMFG32222363100",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 9465354,
+      "name": "Number of injury and illness cases (thousands) for Coated paper bag and pouch manufacturing, Private industry, All U.S.",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-11-28T12:57:54Z",
+      "urlize_name": "Number-of-injury-and-illness-cases-thousands-for-Coated-paper-bag-and-pouch-manufacturing-Private-industry-All-U-S"
+    },
+    {
+      "code": "COMM_84_ENGINESSPARKIGNITIONTYPENES_IMPORT_MDG",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1996-12-31",
+      "id": 4734500,
+      "name": "Commodity Imports - Nuclear Reactors, Boilers, Machinery, Etc / Engines, spark-ignition type nes - Madagascar",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-05-15T10:37:07Z",
+      "urlize_name": "Commodity-Imports-Nuclear-Reactors-Boilers-Machinery-Etc-Engines-spark-ignition-type-nes-Madagascar"
+    },
+    {
+      "code": "SLV_UIS_XGDP_56_FSPR_FDINST_FFD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Total expenditure on educational institutions and administration as a % of GDP. Private sources. Tertiary is the expenditure coming from private sources spent on tertiary education expressed as a % of GDP.\nTotal expenditure on educational institutions and administration as a % of GDP. Private sources. Tertiary",
+      "display_url": "http://api.worldbank.org/countries/SLV/indicators/UIS.XGDP.56.FSpr.FDinst.FFd?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 2234185,
+      "name": "El Salvador: Total expenditure on educational institutions and administration as a % of GDP. Private sources. Tertiary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T11:41:24Z",
+      "urlize_name": "El-Salvador-Total-expenditure-on-educational-institutions-and-administration-as-a-of-GDP-Private-sources-Tertiary"
+    },
+    {
+      "code": "COMM_29_COLLOIDALPRECIOUSMETALS_IMPORT_BTN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 3105925,
+      "name": "Commodity Imports - Inorganic Chemicals, Precious Metal Compound, Isotope / Colloidal precious metals - Bhutan",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-12-29T01:45:37Z",
+      "urlize_name": "Commodity-Imports-Inorganic-Chemicals-Precious-Metal-Compound-Isotope-Colloidal-precious-metals-Bhutan"
+    },
+    {
+      "code": "COMM_12_WHEATGLUTEN_IMPORT_GHA",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 2913814,
+      "name": "Commodity Imports - Milling Products, Malt, Starches, Inulin, Wheat Glute / Wheat gluten - Ghana",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-15T01:54:55Z",
+      "urlize_name": "Commodity-Imports-Milling-Products-Malt-Starches-Inulin-Wheat-Glute-Wheat-gluten-Ghana"
+    },
+    {
+      "code": "IND_JETFUELS_THOUSANDMETRICTONS_SY",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 3342629,
+      "name": "Industrial Commodities / Jet Fuels / Thousand Metric Tons - Syrian Arab Republic",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T03:44:54Z",
+      "urlize_name": "Industrial-Commodities-Jet-Fuels-Thousand-Metric-Tons-Syrian-Arab-Republic"
+    },
+    {
+      "code": "COMM_29_OXYGEN_REEXPORT_MDG",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 3187299,
+      "name": "Commodity Re-Exports - Inorganic Chemicals, Precious Metal Compound, Isotope / Oxygen - Madagascar",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T09:57:28Z",
+      "urlize_name": "Commodity-Re-Exports-Inorganic-Chemicals-Precious-Metal-Compound-Isotope-Oxygen-Madagascar"
+    },
+    {
+      "code": "COMM_17_CAVIARANDCAVIARSUBSTITUTESPREPAREDFROMFISHEGGS_EXPORT_SGP",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1989-12-31",
+      "id": 2968973,
+      "name": "Commodity Exports - Meat, Fish And Seafood Food Preparations Nes / Caviar and caviar substitutes prepared from fish eggs - Singapore",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T02:16:20Z",
+      "urlize_name": "Commodity-Exports-Meat-Fish-And-Seafood-Food-Preparations-Nes-Caviar-and-caviar-substitutes-prepared-from-fish-eggs-Singapore"
+    },
+    {
+      "code": "PD206_UF_SANTA_CATARINA_APARTAMENTO_ABS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PD206_UF_ABS.csv&categorias=%22Apartamento%22&localidade=Santa%20Catarina",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6338270,
+      "name": "Families and Households: Characteristics of Households - Type of home - house, apartment, room - Federation of Apartment Units - UF: Santa Catarina. Datatype: Absolute",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T04:37:30Z",
+      "urlize_name": "Families-and-Households-Characteristics-of-Households-Type-of-home-house-apartment-room-Federation-of-Apartment-Units-UF-Santa-Catarina-Datatype-Absolute"
+    },
+    {
+      "code": "POP_22_PNG_BTH_RUR_25",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "1980-12-31",
+      "id": 2746380,
+      "name": "Population - Both Sexes / Age 25 / Rural Areas - Papua New Guinea",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2013-09-10T08:55:12Z",
+      "urlize_name": "Population-Both-Sexes-Age-25-Rural-Areas-Papua-New-Guinea"
+    },
+    {
+      "code": "COMM_49_FILTERBLOCKSSLABSANDPLATESOFPAPERPULP_EXPORT_MNG",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 3715537,
+      "name": "Commodity Exports - Paper & Paperboard, Articles Of Pulp, Paper And Board / Filter blocks, slabs and plates, of paper pulp - Mongolia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T09:44:36Z",
+      "urlize_name": "Commodity-Exports-Paper-Paperboard-Articles-Of-Pulp-Paper-And-Board-Filter-blocks-slabs-and-plates-of-paper-pulp-Mongolia"
+    },
+    {
+      "code": "PPM01_UF_BAHIA_GALOS_FRANGAS_FRANGOS_E_PINTOS_ABS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PPM01_UF_ABS.csv&categorias=%22Galos.%20frangas.%20frangos%20e%20pintos%22&localidade=Bahia",
+      "frequency": "annual",
+      "from_date": "1974-12-31",
+      "id": 6317436,
+      "name": "Agricultural: And livestock herds (Annual data) - Effective herds by type of flock - Roosters. pullets. chickens and chicks Federation Units - UF: Bahia. Datatype: Absolute",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T08:14:28Z",
+      "urlize_name": "Agricultural-And-livestock-herds-Annual-data-Effective-herds-by-type-of-flock-Roosters-pullets-chickens-and-chicks-Federation-Units-UF-Bahia-Datatype-Absolute"
+    },
+    {
+      "code": "UNE_XYTH_SEX_RT_SEX_F_NOR",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 6266157,
+      "name": "Youth Unemployment Rate By Sex, Female - Norway",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-21T01:08:50Z",
+      "urlize_name": "Youth-Unemployment-Rate-By-Sex-Female-Norway"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ILO",
+      "datasets_count": 228980,
+      "description": "No description for this source yet",
+      "host": "www.ilo.org",
+      "id": 686,
+      "name": "International Labour Organization"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "The World Bank's mission is to fight poverty with passion and professionalism for lasting results.\r\n\r\nFree and open access to data about development in countries around the globe.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    },
+    {
+      "code": "IBGE",
+      "datasets_count": 110418,
+      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
+      "host": "seriesestatisticas.ibge.gov.br",
+      "id": 725,
+      "name": "Brazilian Institute of Geography and Statistics"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    }
+  ],
+  "total_count": 10006019
+}

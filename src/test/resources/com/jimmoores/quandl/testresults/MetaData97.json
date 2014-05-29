@@ -1,0 +1,425 @@
+{
+  "current_page": 410940,
+  "docs": [
+    {
+      "code": "ARG_LONGTERMDEBTMATURITIESREPAYMENTSOFPRINCIPALAFTERYEARFIVE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10497636,
+      "name": "AIRGAS INC  (ARG): Annual Long Term Debt Maturities Repayments Of Principal After Year Five",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:18Z",
+      "urlize_name": "AIRGAS-INC-ARG-Annual-Long-Term-Debt-Maturities-Repayments-Of-Principal-After-Year-Five"
+    },
+    {
+      "code": "ARG_LONGTERMDEBTMATURITIESREPAYMENTSOFPRINCIPALINNEXTTWELVEMONTHS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10497641,
+      "name": "AIRGAS INC  (ARG): Quarterly Long Term Debt Maturities Repayments Of Principal In Next Twelve Months",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:19Z",
+      "urlize_name": "AIRGAS-INC-ARG-Quarterly-Long-Term-Debt-Maturities-Repayments-Of-Principal-In-Next-Twelve-Months"
+    },
+    {
+      "code": "SMU36935616056100001A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU36935616056100001A.csv",
+      "frequency": "annual",
+      "from_date": "1990-01-01",
+      "id": 10960945,
+      "name": "All Employees: Administrative and Support Services in New York City, NY",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:20Z",
+      "urlize_name": "All-Employees-Administrative-and-Support-Services-in-New-York-City-NY"
+    },
+    {
+      "code": "ARG_LONGTERMDEBTMATURITIESREPAYMENTSOFPRINCIPALINNEXTTWELVEMONTHS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10497646,
+      "name": "AIRGAS INC  (ARG): Annual Long Term Debt Maturities Repayments Of Principal In Next Twelve Months",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:02Z",
+      "urlize_name": "AIRGAS-INC-ARG-Annual-Long-Term-Debt-Maturities-Repayments-Of-Principal-In-Next-Twelve-Months"
+    },
+    {
+      "code": "SMU36935616056100001SA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The Federal Reserve Bank of St. Louis seasonally adjusts this series by using the 'x12' package from R with default parameter settings. The package uses the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on the 'x12' package can be found at http://cran.r-project.org/web/packages/x12/x12.pdf. More information on X-12-ARIMA can be found at http://www.census.gov/srd/www/x12a/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU36935616056100001SA.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 10960949,
+      "name": "All Employees: Administrative and Support Services in New York City, NY",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2013-12-01",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:02Z",
+      "urlize_name": "All-Employees-Administrative-and-Support-Services-in-New-York-City-NY"
+    },
+    {
+      "code": "ARG_LONGTERMDEBTMATURITIESREPAYMENTSOFPRINCIPALINYEARFIVE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10496246,
+      "name": "AIRGAS INC  (ARG): Quarterly Long Term Debt Maturities Repayments Of Principal In Year Five",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:21Z",
+      "urlize_name": "AIRGAS-INC-ARG-Quarterly-Long-Term-Debt-Maturities-Repayments-Of-Principal-In-Year-Five"
+    },
+    {
+      "code": "SMU36356446056100001A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU36356446056100001A.csv",
+      "frequency": "annual",
+      "from_date": "2003-01-01",
+      "id": 10960952,
+      "name": "All Employees: Administrative and Support Services in New York-White Plains-Wayne, NY-NJ (MD)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:22Z",
+      "urlize_name": "All-Employees-Administrative-and-Support-Services-in-New-York-White-Plains-Wayne-NY-NJ-MD"
+    },
+    {
+      "code": "ARG_LONGTERMDEBTMATURITIESREPAYMENTSOFPRINCIPALINYEARFIVE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10497654,
+      "name": "AIRGAS INC  (ARG): Annual Long Term Debt Maturities Repayments Of Principal In Year Five",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:22Z",
+      "urlize_name": "AIRGAS-INC-ARG-Annual-Long-Term-Debt-Maturities-Repayments-Of-Principal-In-Year-Five"
+    },
+    {
+      "code": "SMU06360846056100001A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU06360846056100001A.csv",
+      "frequency": "annual",
+      "from_date": "1990-01-01",
+      "id": 10960958,
+      "name": "All Employees: Administrative and Support Services in Oakland-Fremont-Hayward, CA (MD)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:23Z",
+      "urlize_name": "All-Employees-Administrative-and-Support-Services-in-Oakland-Fremont-Hayward-CA-MD"
+    },
+    {
+      "code": "ARG_LONGTERMDEBTMATURITIESREPAYMENTSOFPRINCIPALINYEARFOUR_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10496250,
+      "name": "AIRGAS INC  (ARG): Quarterly Long Term Debt Maturities Repayments Of Principal In Year Four",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:23Z",
+      "urlize_name": "AIRGAS-INC-ARG-Quarterly-Long-Term-Debt-Maturities-Repayments-Of-Principal-In-Year-Four"
+    },
+    {
+      "code": "ARG_LONGTERMDEBTMATURITIESREPAYMENTSOFPRINCIPALINYEARFOUR_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10497655,
+      "name": "AIRGAS INC  (ARG): Annual Long Term Debt Maturities Repayments Of Principal In Year Four",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:24Z",
+      "urlize_name": "AIRGAS-INC-ARG-Annual-Long-Term-Debt-Maturities-Repayments-Of-Principal-In-Year-Four"
+    },
+    {
+      "code": "SMU39000006056100001A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU39000006056100001A.csv",
+      "frequency": "annual",
+      "from_date": "1990-01-01",
+      "id": 10960962,
+      "name": "All Employees: Administrative and Support Services in Ohio",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:25Z",
+      "urlize_name": "All-Employees-Administrative-and-Support-Services-in-Ohio"
+    },
+    {
+      "code": "ARG_LONGTERMDEBTMATURITIESREPAYMENTSOFPRINCIPALINYEARTHREE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10496251,
+      "name": "AIRGAS INC  (ARG): Quarterly Long Term Debt Maturities Repayments Of Principal In Year Three",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:25Z",
+      "urlize_name": "AIRGAS-INC-ARG-Quarterly-Long-Term-Debt-Maturities-Repayments-Of-Principal-In-Year-Three"
+    },
+    {
+      "code": "ARG_LONGTERMDEBTMATURITIESREPAYMENTSOFPRINCIPALINYEARTHREE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10497656,
+      "name": "AIRGAS INC  (ARG): Annual Long Term Debt Maturities Repayments Of Principal In Year Three",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:26Z",
+      "urlize_name": "AIRGAS-INC-ARG-Annual-Long-Term-Debt-Maturities-Repayments-Of-Principal-In-Year-Three"
+    },
+    {
+      "code": "SMU31365406056100001A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU31365406056100001A.csv",
+      "frequency": "annual",
+      "from_date": "2003-01-01",
+      "id": 10960966,
+      "name": "All Employees: Administrative and Support Services in Omaha-Council Bluffs, NE-IA (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:27Z",
+      "urlize_name": "All-Employees-Administrative-and-Support-Services-in-Omaha-Council-Bluffs-NE-IA-MSA"
+    },
+    {
+      "code": "ARG_LONGTERMDEBTMATURITIESREPAYMENTSOFPRINCIPALINYEARTWO_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10496253,
+      "name": "AIRGAS INC  (ARG): Quarterly Long Term Debt Maturities Repayments Of Principal In Year Two",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:27Z",
+      "urlize_name": "AIRGAS-INC-ARG-Quarterly-Long-Term-Debt-Maturities-Repayments-Of-Principal-In-Year-Two"
+    },
+    {
+      "code": "ARG_LONGTERMDEBTMATURITIESREPAYMENTSOFPRINCIPALINYEARTWO_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10497700,
+      "name": "AIRGAS INC  (ARG): Annual Long Term Debt Maturities Repayments Of Principal In Year Two",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:28Z",
+      "urlize_name": "AIRGAS-INC-ARG-Annual-Long-Term-Debt-Maturities-Repayments-Of-Principal-In-Year-Two"
+    },
+    {
+      "code": "SMU41000006056100001A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU41000006056100001A.csv",
+      "frequency": "annual",
+      "from_date": "1990-01-01",
+      "id": 10960973,
+      "name": "All Employees: Administrative and Support Services in Oregon",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:10Z",
+      "urlize_name": "All-Employees-Administrative-and-Support-Services-in-Oregon"
+    },
+    {
+      "code": "SMU41000006056100001SA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The Federal Reserve Bank of St. Louis seasonally adjusts this series by using the 'x12' package from R with default parameter settings. The package uses the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on the 'x12' package can be found at http://cran.r-project.org/web/packages/x12/x12.pdf. More information on X-12-ARIMA can be found at http://www.census.gov/srd/www/x12a/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU41000006056100001SA.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 10960975,
+      "name": "All Employees: Administrative and Support Services in Oregon",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2013-12-01",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:11Z",
+      "urlize_name": "All-Employees-Administrative-and-Support-Services-in-Oregon"
+    },
+    {
+      "code": "SMU06371006056100001A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU06371006056100001A.csv",
+      "frequency": "annual",
+      "from_date": "1990-01-01",
+      "id": 10960978,
+      "name": "All Employees: Administrative and Support Services in Oxnard-Thousand Oaks-Ventura, CA (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-11T21:07:12Z",
+      "urlize_name": "All-Employees-Administrative-and-Support-Services-in-Oxnard-Thousand-Oaks-Ventura-CA-MSA"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "FRED",
+      "datasets_count": 60949,
+      "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
+      "host": "www.research.stlouisfed.org",
+      "id": 118,
+      "name": "Federal Reserve Economic Data"
+    }
+  ],
+  "total_count": 10006019
+}

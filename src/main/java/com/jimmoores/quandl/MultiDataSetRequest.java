@@ -83,7 +83,7 @@ public final class MultiDataSetRequest {
      * @return a Builder instance, not null
      */
     public static Builder of(final List<QuandlCodeRequest> quandlCodeRequests) {
-      ArgumentChecker.notNull(quandlCodeRequests, "quandlCodeRequests");
+      ArgumentChecker.notNullOrEmpty(quandlCodeRequests, "quandlCodeRequests");
       return new Builder(quandlCodeRequests);
     }
     
@@ -93,7 +93,7 @@ public final class MultiDataSetRequest {
      * @return a Builder instance, not null
      */
     public static Builder of(final QuandlCodeRequest... quandlCodeRequests) {
-      ArgumentChecker.notNull(quandlCodeRequests, "quandlCodeRequests");
+      ArgumentChecker.notNullOrEmpty(quandlCodeRequests, "quandlCodeRequests");
       return new Builder(Arrays.asList(quandlCodeRequests));
     }
 

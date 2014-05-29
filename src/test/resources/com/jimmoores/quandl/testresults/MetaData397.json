@@ -1,0 +1,21 @@
+{
+  "code": "ELEC_PLANT_GEN_50858_MSN_ALL_M",
+  "column_names": [
+    "Date",
+    "Value"
+  ],
+  "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.50858-MSN-ALL.M",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.50858-MSN-ALL.M&out=xml",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "2006-01-31",
+  "id": 4833553,
+  "name": "Net Generation : Hillsborough County Resource Recovery : Non-biogenic Municipal Solid Waste : All Primemovers : Monthly",
+  "private": false,
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2012-12-31",
+  "type": null,
+  "updated_at": "2014-01-10T02:04:29Z",
+  "urlize_name": "Net-Generation-Hillsborough-County-Resource-Recovery-Non-biogenic-Municipal-Solid-Waste-All-Primemovers-Monthly"
+}

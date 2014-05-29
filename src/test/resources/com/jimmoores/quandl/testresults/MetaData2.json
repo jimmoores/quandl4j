@@ -1,0 +1,417 @@
+{
+  "current_page": 61690,
+  "docs": [
+    {
+      "code": "HOT_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4570416,
+      "name": "Starwood Hotels & Resorts Worldwide ( HOT ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:21Z",
+      "urlize_name": "Starwood-Hotels-Resorts-Worldwide-HOT-Correlation-with-the-Market"
+    },
+    {
+      "code": "AKAM_EPS_GRO_EXP",
+      "column_names": [
+        "Date",
+        "Expected Growth in Earnings Per Share"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 3914736,
+      "name": "Akamai Technologies ( AKAM ) - Expected Growth in Earnings Per Share",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:21Z",
+      "urlize_name": "Akamai-Technologies-AKAM-Expected-Growth-in-Earnings-Per-Share"
+    },
+    {
+      "code": "PTC_EPS_GRO_EXP",
+      "column_names": [
+        "Date",
+        "Expected Growth in Earnings Per Share"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-09-30",
+      "id": 5421159,
+      "name": "PAR Technology ( PTC ) - Expected Growth in Earnings Per Share",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:42Z",
+      "urlize_name": "PAR-Technology-PTC-Expected-Growth-in-Earnings-Per-Share"
+    },
+    {
+      "code": "CPE_EV_SALESTR",
+      "column_names": [
+        "Date",
+        "EV to Trailing Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4258769,
+      "name": "Callon Petroleum Company ( CPE ) - EV to Trailing Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:22Z",
+      "urlize_name": "Callon-Petroleum-Company-CPE-EV-to-Trailing-Sales-Ratio"
+    },
+    {
+      "code": "KGHI_DIV",
+      "column_names": [
+        "Date",
+        "Dividends"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 6042188,
+      "name": "Kaiser Group Holdings Inc. ( KGHI ) - Dividends",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:22Z",
+      "urlize_name": "Kaiser-Group-Holdings-Inc-KGHI-Dividends"
+    },
+    {
+      "code": "KGHI_EV_EBIT",
+      "column_names": [
+        "Date",
+        "EV to EBIT Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6042207,
+      "name": "Kaiser Group Holdings Inc. ( KGHI ) - EV to EBIT Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:23Z",
+      "urlize_name": "Kaiser-Group-Holdings-Inc-KGHI-EV-to-EBIT-Ratio"
+    },
+    {
+      "code": "VIFL_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5534820,
+      "name": "Food Technology Service Inc. ( VIFL ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:43Z",
+      "urlize_name": "Food-Technology-Service-Inc-VIFL-Correlation-with-the-Market"
+    },
+    {
+      "code": "FLIR_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4448802,
+      "name": "Flir Systems ( FLIR ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:23Z",
+      "urlize_name": "Flir-Systems-FLIR-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "AHGP_FIXED_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Fixed Assets to Total Assets"
+      ],
+      "description": "Estimated by dividing the cumulated book value of fixed assets, for the sector, by the cumulated total assets, for the sector. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 3908600,
+      "name": "Alliance Holdings Gp L.P. ( AHGP ) - Ratio of Fixed Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:43Z",
+      "urlize_name": "Alliance-Holdings-Gp-L-P-AHGP-Ratio-of-Fixed-Assets-to-Total-Assets"
+    },
+    {
+      "code": "CHMG_P_BV",
+      "column_names": [
+        "Date",
+        "Price to Book Value Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5986324,
+      "name": "Chemung Financial Corp ( CHMG ) - Price to Book Value Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:23Z",
+      "urlize_name": "Chemung-Financial-Corp-CHMG-Price-to-Book-Value-Ratio"
+    },
+    {
+      "code": "VIFL_REV_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5534870,
+      "name": "Food Technology Service Inc. ( VIFL ) - Trailing Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:43Z",
+      "urlize_name": "Food-Technology-Service-Inc-VIFL-Trailing-Revenues"
+    },
+    {
+      "code": "CHMG_EV_CAP",
+      "column_names": [
+        "Date",
+        "EV to Invested Capital Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5986302,
+      "name": "Chemung Financial Corp ( CHMG ) - EV to Invested Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:23Z",
+      "urlize_name": "Chemung-Financial-Corp-CHMG-EV-to-Invested-Capital-Ratio"
+    },
+    {
+      "code": "NEOL_EV_EBIT",
+      "column_names": [
+        "Date",
+        "EV to EBIT Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-09-07",
+      "id": 4680862,
+      "name": "Neopharm Inc ( NEOL ) - EV to EBIT Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2000-09-07",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:44Z",
+      "urlize_name": "Neopharm-Inc-NEOL-EV-to-EBIT-Ratio"
+    },
+    {
+      "code": "MEDQ_EFF_TAX_INC",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate on Income"
+      ],
+      "description": "This is the effective tax rate, obtained by dividing the taxes paid by the taxable income as reported to the stockholders. We would rather have used marginal tax rates, but these are not reported. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 6096228,
+      "name": "MedQuist Inc ( MEDQ ) - Effective Tax Rate on Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:45Z",
+      "urlize_name": "MedQuist-Inc-MEDQ-Effective-Tax-Rate-on-Income"
+    },
+    {
+      "code": "PTC_ROE",
+      "column_names": [
+        "Date",
+        "Return on Equity"
+      ],
+      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-09-30",
+      "id": 5421213,
+      "name": "PAR Technology ( PTC ) - Return on Equity",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:24Z",
+      "urlize_name": "PAR-Technology-PTC-Return-on-Equity"
+    },
+    {
+      "code": "VIFL_TOT_DEBT",
+      "column_names": [
+        "Date",
+        "Total Debt"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5534865,
+      "name": "Food Technology Service Inc. ( VIFL ) - Total Debt",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:25Z",
+      "urlize_name": "Food-Technology-Service-Inc-VIFL-Total-Debt"
+    },
+    {
+      "code": "AVZA_REINV",
+      "column_names": [
+        "Date",
+        "Reinvestment Amount"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 5982591,
+      "name": "Aviza Technology Inc ( AVZA ) - Reinvestment Amount",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:45Z",
+      "urlize_name": "Aviza-Technology-Inc-AVZA-Reinvestment-Amount"
+    },
+    {
+      "code": "CHMG_PAYOUT",
+      "column_names": [
+        "Date",
+        "Payout Ratio"
+      ],
+      "description": "Units: . Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5986323,
+      "name": "Chemung Financial Corp ( CHMG ) - Payout Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:25Z",
+      "urlize_name": "Chemung-Financial-Corp-CHMG-Payout-Ratio"
+    },
+    {
+      "code": "DDS_TO_EV",
+      "column_names": [
+        "Date",
+        "Enterprise Value"
+      ],
+      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2007-02-01",
+      "id": 6001571,
+      "name": "Labopharm Inc ( DDS.TO ) - Enterprise Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-02-01",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:25Z",
+      "urlize_name": "Labopharm-Inc-DDS-TO-Enterprise-Value"
+    },
+    {
+      "code": "NDAQ_BETA_VL",
+      "column_names": [
+        "Date",
+        "Value Line Beta"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 6050513,
+      "name": "The Nasdaq Omx Group ( NDAQ ) - Value Line Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:54:45Z",
+      "urlize_name": "The-Nasdaq-Omx-Group-NDAQ-Value-Line-Beta"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "DMDRN",
+    "concurrency": 20,
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data",
+    "use_proxy": false
+  }],
+  "total_count": 9990700
+}

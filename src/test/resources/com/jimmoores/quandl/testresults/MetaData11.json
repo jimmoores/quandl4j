@@ -1,0 +1,417 @@
+{
+  "current_page": 28158,
+  "docs": [
+    {
+      "code": "ATAH_P_S",
+      "column_names": [
+        "Date",
+        "Price to Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5969357,
+      "name": "ATA Holdings Corp ( ATAH ) - Price to Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:49Z",
+      "urlize_name": "ATA-Holdings-Corp-ATAH-Price-to-Sales-Ratio"
+    },
+    {
+      "code": "ATAH_OP_MARG",
+      "column_names": [
+        "Date",
+        "Pre-Tax Operating Margin"
+      ],
+      "description": "Estimated by dividing the pre-tax operating income by the total revenues. This is a pre-tax measure of operating profitability: Pre-tax Operating Margin = EBIT / Sales. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5969356,
+      "name": "ATA Holdings Corp ( ATAH ) - Pre-Tax Operating Margin",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:31Z",
+      "urlize_name": "ATA-Holdings-Corp-ATAH-Pre-Tax-Operating-Margin"
+    },
+    {
+      "code": "ATAH_REINV",
+      "column_names": [
+        "Date",
+        "Reinvestment Amount"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5969358,
+      "name": "ATA Holdings Corp ( ATAH ) - Reinvestment Amount",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:50Z",
+      "urlize_name": "ATA-Holdings-Corp-ATAH-Reinvestment-Amount"
+    },
+    {
+      "code": "EXM_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4412922,
+      "name": "Excel Maritime Carriers ( EXM ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:50Z",
+      "urlize_name": "Excel-Maritime-Carriers-EXM-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "SMNS_EPS_GRO_EXP",
+      "column_names": [
+        "Date",
+        "Expected Growth in Earnings Per Share"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5442491,
+      "name": "Seminis Inc ( SMNS ) - Expected Growth in Earnings Per Share",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:33Z",
+      "urlize_name": "Seminis-Inc-SMNS-Expected-Growth-in-Earnings-Per-Share"
+    },
+    {
+      "code": "ATAH_DIV_YLD",
+      "column_names": [
+        "Date",
+        "Dividend Yield"
+      ],
+      "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5969329,
+      "name": "ATA Holdings Corp ( ATAH ) - Dividend Yield",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:52Z",
+      "urlize_name": "ATA-Holdings-Corp-ATAH-Dividend-Yield"
+    },
+    {
+      "code": "ATAH_REV_LAST",
+      "column_names": [
+        "Date",
+        "Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5969360,
+      "name": "ATA Holdings Corp ( ATAH ) - Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:53Z",
+      "urlize_name": "ATA-Holdings-Corp-ATAH-Revenues"
+    },
+    {
+      "code": "AWIN_CAPEX",
+      "column_names": [
+        "Date",
+        "Capital Expenditures"
+      ],
+      "description": "This is the cumulated capital spending, as reported in the statement of cash flows, for the sector. It generally does not include acquisitions. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 5983440,
+      "name": "Atlantic Wine Agencies Inc ( AWIN ) - Capital Expenditures",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:53Z",
+      "urlize_name": "Atlantic-Wine-Agencies-Inc-AWIN-Capital-Expenditures"
+    },
+    {
+      "code": "ATAH_REINV_RATE",
+      "column_names": [
+        "Date",
+        "Reinvestment Rate"
+      ],
+      "description": "Reinvestment Rate = (Net Capital Expenditures + Change in WC) / EBIT(1-t). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5969359,
+      "name": "ATA Holdings Corp ( ATAH ) - Reinvestment Rate",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:54Z",
+      "urlize_name": "ATA-Holdings-Corp-ATAH-Reinvestment-Rate"
+    },
+    {
+      "code": "PAOS_EV_EBITDA",
+      "column_names": [
+        "Date",
+        "EV to EBITDA Ratio"
+      ],
+      "description": "Estimated by dividing the market value of debt and equity by the EBITDA.  Value/EBITDA = (Market Value of Equity + Value of Debt-Cash) / EBITDA.  We use the book value of debt as a proxy for the market value. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 5298247,
+      "name": "Precision Aerospace Component ( PAOS ) - EV to EBITDA Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:54Z",
+      "urlize_name": "Precision-Aerospace-Component-PAOS-EV-to-EBITDA-Ratio"
+    },
+    {
+      "code": "VISI_INTANG_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Intangible Assets to Total Assets"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5542040,
+      "name": "Volt Info. Sciences ( VISI ) - Ratio of Intangible Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:55Z",
+      "urlize_name": "Volt-Info-Sciences-VISI-Ratio-of-Intangible-Assets-to-Total-Assets"
+    },
+    {
+      "code": "VISI_CASH_ASSETS",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Total Assets"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5542012,
+      "name": "Volt Info. Sciences ( VISI ) - Cash as Percentage of Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:37Z",
+      "urlize_name": "Volt-Info-Sciences-VISI-Cash-as-Percentage-of-Total-Assets"
+    },
+    {
+      "code": "VISI_BV_ASSETS",
+      "column_names": [
+        "Date",
+        "Book Value of Assets"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5542007,
+      "name": "Volt Info. Sciences ( VISI ) - Book Value of Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:56Z",
+      "urlize_name": "Volt-Info-Sciences-VISI-Book-Value-of-Assets"
+    },
+    {
+      "code": "ATAH_ROE",
+      "column_names": [
+        "Date",
+        "Return on Equity"
+      ],
+      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5969362,
+      "name": "ATA Holdings Corp ( ATAH ) - Return on Equity",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:38Z",
+      "urlize_name": "ATA-Holdings-Corp-ATAH-Return-on-Equity"
+    },
+    {
+      "code": "WEEEF_DIV_YLD",
+      "column_names": [
+        "Date",
+        "Dividend Yield"
+      ],
+      "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5564634,
+      "name": "Western Energy Services Corp ( WEEEF ) - Dividend Yield",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:56Z",
+      "urlize_name": "Western-Energy-Services-Corp-WEEEF-Dividend-Yield"
+    },
+    {
+      "code": "ZMBA_FLOAT",
+      "column_names": [
+        "Date",
+        "Number of Shares Outstanding"
+      ],
+      "description": "Units: million shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5363488,
+      "name": "Zamba Corp ( ZMBA ) - Number of Shares Outstanding",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:39Z",
+      "urlize_name": "Zamba-Corp-ZMBA-Number-of-Shares-Outstanding"
+    },
+    {
+      "code": "TEU_EFF_TAX_INC",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate on Income"
+      ],
+      "description": "This is the effective tax rate, obtained by dividing the taxes paid by the taxable income as reported to the stockholders. We would rather have used marginal tax rates, but these are not reported. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5450113,
+      "name": "CP Ships Ltd. ( TEU ) - Effective Tax Rate on Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:39Z",
+      "urlize_name": "CP-Ships-Ltd-TEU-Effective-Tax-Rate-on-Income"
+    },
+    {
+      "code": "VISI_CAPEX",
+      "column_names": [
+        "Date",
+        "Capital Expenditures"
+      ],
+      "description": "This is the cumulated capital spending, as reported in the statement of cash flows, for the sector. It generally does not include acquisitions. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5542008,
+      "name": "Volt Info. Sciences ( VISI ) - Capital Expenditures",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:59Z",
+      "urlize_name": "Volt-Info-Sciences-VISI-Capital-Expenditures"
+    },
+    {
+      "code": "ATAH_SGA",
+      "column_names": [
+        "Date",
+        "Sales General and Administration Expenses"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5969363,
+      "name": "ATA Holdings Corp ( ATAH ) - Sales General and Administration Expenses",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:54:59Z",
+      "urlize_name": "ATA-Holdings-Corp-ATAH-Sales-General-and-Administration-Expenses"
+    },
+    {
+      "code": "THK_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5457317,
+      "name": "Thackeray Corp. ( THK ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:55:00Z",
+      "urlize_name": "Thackeray-Corp-THK-Correlation-with-the-Market"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "DMDRN",
+    "concurrency": 20,
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data",
+    "use_proxy": false
+  }],
+  "total_count": 9990700
+}

@@ -28,7 +28,9 @@ import au.com.bytecode.opencsv.CSVReader;
 public final class DefaultRESTDataProvider implements RESTDataProvider {
   /**
    * Invoke a GET call on the web target and return the result as a parsed JSON object.
-   * Throws a QuandlRuntimeException if there was a CSV parsing problem or response code was not OK
+   * Throws a QuandlUnprocessableEntityException if Quandl returned a response code that indicates a nonsensical request
+   * Throws a QuandlTooManyRequestsException if Quandl returned a response code indicating the client had made too many requests
+   * Throws a QuandlRuntimeException if there was a CSV parsing problem or response code was unusual
    * @param target the WebTarget describing the call to make, not null
    * @return the parsed JSON object
    */
@@ -52,7 +54,9 @@ public final class DefaultRESTDataProvider implements RESTDataProvider {
   
   /**
    * Invoke a GET call on the web target and return the result as a TabularResult (parsed CSV).
-   * Throws a QuandlRuntimeException if there was a JSON parsing problem, network issue or response code was not OK
+   * Throws a QuandlUnprocessableEntityException if Quandl returned a response code that indicates a nonsensical request
+   * Throws a QuandlTooManyRequestsException if Quandl returned a response code indicating the client had made too many requests
+   * Throws a QuandlRuntimeException if there was a JSON parsing problem, network issue or response code was unusual
    * @param target the WebTarget describing the call to make, not null
    * @return the parsed TabularResult
    */
@@ -83,6 +87,10 @@ public final class DefaultRESTDataProvider implements RESTDataProvider {
       } catch (IOException ex) {
         throw new QuandlRuntimeException("Problem reading result stream", ex);
       }
+    }  else if (response.getStatus() == UNPROCESSABLE_ENTITY) {
+      throw new QuandlUnprocessableEntityException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
+    } else if (response.getStatus() == TOO_MANY_REQUESTS) {
+      throw new QuandlTooManyRequestsException("Response code to " + target.getUri() + " was " + response.getStatusInfo());      
     } else {
       throw new QuandlRuntimeException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
     }

@@ -1,0 +1,439 @@
+{
+  "current_page": 395387,
+  "docs": [
+    {
+      "code": "CYBE_EMPLOYEERELATEDLIABILITIESCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EmployeeRelatedLiabilitiesCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10390134,
+      "name": "CYBEROPTICS CORP  (CYBE): Quarterly Employee Related Liabilities Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:02:55Z",
+      "urlize_name": "CYBEROPTICS-CORP-CYBE-Quarterly-Employee-Related-Liabilities-Current"
+    },
+    {
+      "code": "V4343752",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "{\"Geography\"=>\"Lakeland Regional Health Authority, Alberta\", \"Age group\"=>\"65-69 years\", \"Sex\"=>\"Both sexes\"}",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 9802077,
+      "name": "109-5005: Population, by age group and sex, Canada, provinces, territories and health regions, *Terminated*",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "1998-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:02:55Z",
+      "urlize_name": "109-5005-Population-by-age-group-and-sex-Canada-provinces-territories-and-health-regions-Terminated"
+    },
+    {
+      "code": "CYBE_EMPLOYEERELATEDLIABILITIESCURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EmployeeRelatedLiabilitiesCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10390135,
+      "name": "CYBEROPTICS CORP  (CYBE): Annual Employee Related Liabilities Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:02:56Z",
+      "urlize_name": "CYBEROPTICS-CORP-CYBE-Annual-Employee-Related-Liabilities-Current"
+    },
+    {
+      "code": "CYBE_EMPLOYEESERVICESHAREBASEDCOMPENSATIONNONVESTEDAWARDSTOTALCOMPENSATIONCOSTNOTYETRECOGNIZED_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10390136,
+      "name": "CYBEROPTICS CORP  (CYBE): Annual Employee Service Share Based Compensation Nonvested Awards Total Compensation Cost Not Yet Recognized",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:02:56Z",
+      "urlize_name": "CYBEROPTICS-CORP-CYBE-Annual-Employee-Service-Share-Based-Compensation-Nonvested-Awards-Total-Compensation-Cost-Not-Yet-Recognized"
+    },
+    {
+      "code": "CYBE_EMPLOYEESERVICESHAREBASEDCOMPENSATIONNONVESTEDAWARDSTOTALCOMPENSATIONCOSTNOTYETRECOGNIZEDPERIODFORRECOGNITION1_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedPeriodForRecognition1",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10390137,
+      "name": "CYBEROPTICS CORP  (CYBE): Annual Employee Service Share Based Compensation Nonvested Awards Total Compensation Cost Not Yet Recognized Period For Recognition1",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:03:13Z",
+      "urlize_name": "CYBEROPTICS-CORP-CYBE-Annual-Employee-Service-Share-Based-Compensation-Nonvested-Awards-Total-Compensation-Cost-Not-Yet-Recognized-Period-For-Recognition1"
+    },
+    {
+      "code": "CYBE_EMPLOYEESERVICESHAREBASEDCOMPENSATIONTAXBENEFITFROMCOMPENSATIONEXPENSE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10390138,
+      "name": "CYBEROPTICS CORP  (CYBE): Annual Employee Service Share Based Compensation Tax Benefit From Compensation Expense",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:03:14Z",
+      "urlize_name": "CYBEROPTICS-CORP-CYBE-Annual-Employee-Service-Share-Based-Compensation-Tax-Benefit-From-Compensation-Expense"
+    },
+    {
+      "code": "EN_FW_AVAIL_VCT",
+      "column_names": [
+        "Date",
+        "Gross inland availability (cubic metres; thousand)",
+        "Net inland availability (cubic metres; thousand)"
+      ],
+      "description": "Fuelwood Inland Availability - Saint Vincent and the Grenadines. The Energy Statistics Database provides a wide variety of data on multiple aspects of the numerous sources of energy. The data here covers the period from 1990 onwards. Data prior to 1990, would be available at <a href=http://unstats.un.org/unsd/energy/edbase.htm>http://unstats.un.org/unsd/energy/edbase.htm<\/a>. For more information, please see <a href=http://unstats.un.org/unsd/energy/default.htm>http://unstats.un.org/unsd/energy/default.htm<\/a>",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 10904679,
+      "name": "Fuelwood Inland Availability - Saint Vincent and the Grenadines",
+      "private": false,
+      "source_code": "UNDATA",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:02:56Z",
+      "urlize_name": "Fuelwood-Inland-Availability-Saint-Vincent-and-the-Grenadines"
+    },
+    {
+      "code": "EN_FW_AVAIL_LCA",
+      "column_names": [
+        "Date",
+        "Gross inland availability (cubic metres; thousand)"
+      ],
+      "description": "Fuelwood Inland Availability - Saint Lucia. The Energy Statistics Database provides a wide variety of data on multiple aspects of the numerous sources of energy. The data here covers the period from 1990 onwards. Data prior to 1990, would be available at <a href=http://unstats.un.org/unsd/energy/edbase.htm>http://unstats.un.org/unsd/energy/edbase.htm<\/a>. For more information, please see <a href=http://unstats.un.org/unsd/energy/default.htm>http://unstats.un.org/unsd/energy/default.htm<\/a>",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 10904681,
+      "name": "Fuelwood Inland Availability - Saint Lucia",
+      "private": false,
+      "source_code": "UNDATA",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:02:56Z",
+      "urlize_name": "Fuelwood-Inland-Availability-Saint-Lucia"
+    },
+    {
+      "code": "EN_FW_AVAIL_WSM",
+      "column_names": [
+        "Date",
+        "Gross inland availability (cubic metres; thousand)",
+        "Net inland availability (cubic metres; thousand)"
+      ],
+      "description": "Fuelwood Inland Availability - Samoa. The Energy Statistics Database provides a wide variety of data on multiple aspects of the numerous sources of energy. The data here covers the period from 1990 onwards. Data prior to 1990, would be available at <a href=http://unstats.un.org/unsd/energy/edbase.htm>http://unstats.un.org/unsd/energy/edbase.htm<\/a>. For more information, please see <a href=http://unstats.un.org/unsd/energy/default.htm>http://unstats.un.org/unsd/energy/default.htm<\/a>",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 10904680,
+      "name": "Fuelwood Inland Availability - Samoa",
+      "private": false,
+      "source_code": "UNDATA",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:03:14Z",
+      "urlize_name": "Fuelwood-Inland-Availability-Samoa"
+    },
+    {
+      "code": "CYBE_ENTITYWIDEDISCLOSUREONGEOGRAPHICAREASREVENUEFROMEXTERNALCUSTOMERSATTRIBUTEDTOFOREIGNCOUNTRIES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EntityWideDisclosureOnGeographicAreasRevenueFromExternalCustomersAttributedToForeignCountries",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10390150,
+      "name": "CYBEROPTICS CORP  (CYBE): Annual Entity Wide Disclosure On Geographic Areas Revenue From External Customers Attributed To Foreign Countries",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:02:56Z",
+      "urlize_name": "CYBEROPTICS-CORP-CYBE-Annual-Entity-Wide-Disclosure-On-Geographic-Areas-Revenue-From-External-Customers-Attributed-To-Foreign-Countries"
+    },
+    {
+      "code": "V4343753",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "{\"Geography\"=>\"Lakeland Regional Health Authority, Alberta\", \"Age group\"=>\"65-69 years\", \"Sex\"=>\"Males\"}",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 9802078,
+      "name": "109-5005: Population, by age group and sex, Canada, provinces, territories and health regions, *Terminated*",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "1998-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:03:14Z",
+      "urlize_name": "109-5005-Population-by-age-group-and-sex-Canada-provinces-territories-and-health-regions-Terminated"
+    },
+    {
+      "code": "EN_FW_AVAIL_STP",
+      "column_names": [
+        "Date",
+        "Gross inland availability (cubic metres; thousand)",
+        "Net inland availability (cubic metres; thousand)"
+      ],
+      "description": "Fuelwood Inland Availability - Sao Tome and Principe. The Energy Statistics Database provides a wide variety of data on multiple aspects of the numerous sources of energy. The data here covers the period from 1990 onwards. Data prior to 1990, would be available at <a href=http://unstats.un.org/unsd/energy/edbase.htm>http://unstats.un.org/unsd/energy/edbase.htm<\/a>. For more information, please see <a href=http://unstats.un.org/unsd/energy/default.htm>http://unstats.un.org/unsd/energy/default.htm<\/a>",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 10904682,
+      "name": "Fuelwood Inland Availability - Sao Tome and Principe",
+      "private": false,
+      "source_code": "UNDATA",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:03:14Z",
+      "urlize_name": "Fuelwood-Inland-Availability-Sao-Tome-and-Principe"
+    },
+    {
+      "code": "CYBE_EXTENDEDPRODUCTWARRANTYACCRUALCURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ExtendedProductWarrantyAccrualCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10390154,
+      "name": "CYBEROPTICS CORP  (CYBE): Annual Extended Product Warranty Accrual Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:02:57Z",
+      "urlize_name": "CYBEROPTICS-CORP-CYBE-Annual-Extended-Product-Warranty-Accrual-Current"
+    },
+    {
+      "code": "CYBE_EXTENDEDPRODUCTWARRANTYACCRUAL_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ExtendedProductWarrantyAccrual",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10390153,
+      "name": "CYBEROPTICS CORP  (CYBE): Annual Extended Product Warranty Accrual",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:03:15Z",
+      "urlize_name": "CYBEROPTICS-CORP-CYBE-Annual-Extended-Product-Warranty-Accrual"
+    },
+    {
+      "code": "CYBE_EXTENDEDPRODUCTWARRANTYACCRUALPERIODINCREASEDECREASE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ExtendedProductWarrantyAccrualPeriodIncreaseDecrease",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10390170,
+      "name": "CYBEROPTICS CORP  (CYBE): Annual Extended Product Warranty Accrual Period Increase Decrease",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:03:15Z",
+      "urlize_name": "CYBEROPTICS-CORP-CYBE-Annual-Extended-Product-Warranty-Accrual-Period-Increase-Decrease"
+    },
+    {
+      "code": "CYBE_FINITELIVEDINTANGIBLEASSETSACCUMULATEDAMORTIZATION_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: FiniteLivedIntangibleAssetsAccumulatedAmortization",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10390168,
+      "name": "CYBEROPTICS CORP  (CYBE): Annual Finite Lived Intangible Assets Accumulated Amortization",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:02:57Z",
+      "urlize_name": "CYBEROPTICS-CORP-CYBE-Annual-Finite-Lived-Intangible-Assets-Accumulated-Amortization"
+    },
+    {
+      "code": "CYBE_FINITELIVEDINTANGIBLEASSETSAMORTIZATIONEXPENSENEXTTWELVEMONTHS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: FiniteLivedIntangibleAssetsAmortizationExpenseNextTwelveMonths",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10390169,
+      "name": "CYBEROPTICS CORP  (CYBE): Quarterly Finite Lived Intangible Assets Amortization Expense Next Twelve Months",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:02:57Z",
+      "urlize_name": "CYBEROPTICS-CORP-CYBE-Quarterly-Finite-Lived-Intangible-Assets-Amortization-Expense-Next-Twelve-Months"
+    },
+    {
+      "code": "EN_FW_AVAIL_SRB",
+      "column_names": [
+        "Date",
+        "Gross inland availability (cubic metres; thousand)",
+        "Net inland availability (cubic metres; thousand)"
+      ],
+      "description": "Fuelwood Inland Availability - Serbia. The Energy Statistics Database provides a wide variety of data on multiple aspects of the numerous sources of energy. The data here covers the period from 1990 onwards. Data prior to 1990, would be available at <a href=http://unstats.un.org/unsd/energy/edbase.htm>http://unstats.un.org/unsd/energy/edbase.htm<\/a>. For more information, please see <a href=http://unstats.un.org/unsd/energy/default.htm>http://unstats.un.org/unsd/energy/default.htm<\/a>",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 10904684,
+      "name": "Fuelwood Inland Availability - Serbia",
+      "private": false,
+      "source_code": "UNDATA",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:03:17Z",
+      "urlize_name": "Fuelwood-Inland-Availability-Serbia"
+    },
+    {
+      "code": "EN_FW_AVAIL_SAU",
+      "column_names": [
+        "Date",
+        "Gross inland availability (cubic metres; thousand)",
+        "Net inland availability (cubic metres; thousand)"
+      ],
+      "description": "Fuelwood Inland Availability - Saudi Arabia. The Energy Statistics Database provides a wide variety of data on multiple aspects of the numerous sources of energy. The data here covers the period from 1990 onwards. Data prior to 1990, would be available at <a href=http://unstats.un.org/unsd/energy/edbase.htm>http://unstats.un.org/unsd/energy/edbase.htm<\/a>. For more information, please see <a href=http://unstats.un.org/unsd/energy/default.htm>http://unstats.un.org/unsd/energy/default.htm<\/a>",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 10904683,
+      "name": "Fuelwood Inland Availability - Saudi Arabia",
+      "private": false,
+      "source_code": "UNDATA",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:02:59Z",
+      "urlize_name": "Fuelwood-Inland-Availability-Saudi-Arabia"
+    },
+    {
+      "code": "EN_FW_AVAIL_SEN",
+      "column_names": [
+        "Date",
+        "Gross inland availability (cubic metres; thousand)",
+        "Net inland availability (cubic metres; thousand)"
+      ],
+      "description": "Fuelwood Inland Availability - Senegal. The Energy Statistics Database provides a wide variety of data on multiple aspects of the numerous sources of energy. The data here covers the period from 1990 onwards. Data prior to 1990, would be available at <a href=http://unstats.un.org/unsd/energy/edbase.htm>http://unstats.un.org/unsd/energy/edbase.htm<\/a>. For more information, please see <a href=http://unstats.un.org/unsd/energy/default.htm>http://unstats.un.org/unsd/energy/default.htm<\/a>",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 10904685,
+      "name": "Fuelwood Inland Availability - Senegal",
+      "private": false,
+      "source_code": "UNDATA",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T23:03:17Z",
+      "urlize_name": "Fuelwood-Inland-Availability-Senegal"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "UNDATA",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "un.org",
+      "id": 5449,
+      "name": "United Nations"
+    },
+    {
+      "code": "CANSIM",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "www20.statcan.gc.ca",
+      "id": 1199,
+      "name": "Statistics Canada"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    }
+  ],
+  "total_count": 10006019
+}

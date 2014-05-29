@@ -1,0 +1,21 @@
+{
+  "code": "ONT_BV_EQTY",
+  "column_names": [
+    "Date",
+    "Book Value of Equity"
+  ],
+  "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "2005-12-31",
+  "id": 5285575,
+  "name": "On2.com ( ONT ) - Book Value of Equity",
+  "private": false,
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2008-12-31",
+  "type": null,
+  "updated_at": "2014-03-21T22:40:09Z",
+  "urlize_name": "On2-com-ONT-Book-Value-of-Equity"
+}

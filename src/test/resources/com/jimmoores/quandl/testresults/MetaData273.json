@@ -1,0 +1,21 @@
+{
+  "code": "RZIP_ZRI_ALLHOMES_38122",
+  "column_names": [
+    "Date",
+    "Value"
+  ],
+  "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the zip code of 38122, Memphis, TN. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zri_AllHomes.csv",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "2010-11-30",
+  "id": 6856151,
+  "name": "Zillow Rent Index (Zip Codes): Rentals All Homes - 38122,Memphis,TN",
+  "private": false,
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
+  "type": null,
+  "updated_at": "2014-05-08T06:59:18Z",
+  "urlize_name": "Zillow-Rent-Index-Zip-Codes-Rentals-All-Homes-38122-Memphis-TN"
+}

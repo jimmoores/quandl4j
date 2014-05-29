@@ -1,0 +1,29 @@
+{
+  "code": "FAO_234URUGUAY2804RICEPADDYEQUIVALENT",
+  "column_names": [
+    "Year",
+    "Production Quantity (tonnes)",
+    "Import Quantity (tonnes)",
+    "Stock Variation (tonnes)",
+    "Export Quantity (tonnes)",
+    "Domestic supply quantity (tonnes)",
+    "Seed (tonnes)",
+    "Waste (tonnes)",
+    "Food (tonnes)",
+    "Other Util (tonnes)"
+  ],
+  "description": "Commodity balances show balances of food and agricultural commodities in a standardized form. The scope of standardization is to present these data in a less detailed form for a selected number of commodities without causing any significant loss of the basic variables monitoring the agricultural sector. The selected commodities include the equivalents of their derived products falling in the same commodity group, but exclude the equivalents of by-products and derived commodities, which through processing, change their nature and become part of different commodity groups. The commodity list in this domain has been generally confined to primary commodities - except for sugar, oils and fats and beverages. Whenever possible trade in processed commodities is expressed in the originating primary commodity equivalent. Rice is expressed in milled equivalent.",
+  "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/CommodityBalances_Crops_E_Americas_1.zip",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "1961-12-31",
+  "id": 7779716,
+  "name": "Commodity Balances Crops: Rice (Paddy Equivalent) - Uruguay",
+  "private": false,
+  "source_code": "FAO",
+  "source_name": "Food and Agriculture Organization of the United Nations",
+  "to_date": "2009-12-31",
+  "type": null,
+  "updated_at": "2014-01-11T18:49:07Z",
+  "urlize_name": "Commodity-Balances-Crops-Rice-Paddy-Equivalent-Uruguay"
+}

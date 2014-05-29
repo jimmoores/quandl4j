@@ -1,0 +1,21 @@
+{
+  "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_94588",
+  "column_names": [
+    "Date",
+    "Value"
+  ],
+  "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "2008-10-31",
+  "id": 7394318,
+  "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 94588,Pleasanton,CA",
+  "private": false,
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2013-11-30",
+  "type": null,
+  "updated_at": "2014-01-09T02:45:49Z",
+  "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-94588-Pleasanton-CA"
+}

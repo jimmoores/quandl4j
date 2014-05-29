@@ -1,0 +1,417 @@
+{
+  "current_page": 59107,
+  "docs": [
+    {
+      "code": "ONT_BV_EQTY",
+      "column_names": [
+        "Date",
+        "Book Value of Equity"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 5285575,
+      "name": "On2.com ( ONT ) - Book Value of Equity",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:09Z",
+      "urlize_name": "On2-com-ONT-Book-Value-of-Equity"
+    },
+    {
+      "code": "VVDB_DEPREC",
+      "column_names": [
+        "Date",
+        "Depreciation"
+      ],
+      "description": "Includes both depreciation and amortization, as reported in the statement of cash flows. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5562193,
+      "name": "Viavid Broadcasting Inc ( VVDB ) - Depreciation",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:09Z",
+      "urlize_name": "Viavid-Broadcasting-Inc-VVDB-Depreciation"
+    },
+    {
+      "code": "BIRT_REV_LAST",
+      "column_names": [
+        "Date",
+        "Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 4072505,
+      "name": "Actuate Corp. ( BIRT ) - Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:10Z",
+      "urlize_name": "Actuate-Corp-BIRT-Revenues"
+    },
+    {
+      "code": "PAG_PE_CURR",
+      "column_names": [
+        "Date",
+        "Current PE Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 5293838,
+      "name": "Pacific Gulf Pptys ( PAG ) - Current PE Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:39:50Z",
+      "urlize_name": "Pacific-Gulf-Pptys-PAG-Current-PE-Ratio"
+    },
+    {
+      "code": "USBU_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-09-30",
+      "id": 5485715,
+      "name": "USA Broadband Inc ( USBU ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-09-30",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:10Z",
+      "urlize_name": "USA-Broadband-Inc-USBU-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "BYHL_NCWC_REV",
+      "column_names": [
+        "Date",
+        "Non-Cash Working Capital as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-03-05",
+      "id": 5968263,
+      "name": "BayHill Capital Corp. ( BYHL ) - Non-Cash Working Capital as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-03-05",
+      "type": null,
+      "updated_at": "2014-03-21T22:39:50Z",
+      "urlize_name": "BayHill-Capital-Corp-BYHL-Non-Cash-Working-Capital-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "PAG_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5293833,
+      "name": "Pacific Gulf Pptys ( PAG ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:11Z",
+      "urlize_name": "Pacific-Gulf-Pptys-PAG-Correlation-with-the-Market"
+    },
+    {
+      "code": "PFGC_NET_INC",
+      "column_names": [
+        "Date",
+        "Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5359214,
+      "name": "Performance Food ( PFGC ) - Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:11Z",
+      "urlize_name": "Performance-Food-PFGC-Net-Income"
+    },
+    {
+      "code": "CMNT_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-01-31",
+      "id": 4209300,
+      "name": "Computer Ntwrk Tech ( CMNT ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-01-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:11Z",
+      "urlize_name": "Computer-Ntwrk-Tech-CMNT-Correlation-with-the-Market"
+    },
+    {
+      "code": "CMNT_PE_CURR",
+      "column_names": [
+        "Date",
+        "Current PE Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-01-31",
+      "id": 4209302,
+      "name": "Computer Ntwrk Tech ( CMNT ) - Current PE Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-01-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:39:51Z",
+      "urlize_name": "Computer-Ntwrk-Tech-CMNT-Current-PE-Ratio"
+    },
+    {
+      "code": "ABNJ_BETA_VL",
+      "column_names": [
+        "Date",
+        "Value Line Beta"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-09-30",
+      "id": 3869118,
+      "name": "American Bancorp of N.J. ( ABNJ ) - Value Line Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-09-30",
+      "type": null,
+      "updated_at": "2014-03-21T22:39:51Z",
+      "urlize_name": "American-Bancorp-of-N-J-ABNJ-Value-Line-Beta"
+    },
+    {
+      "code": "IGT_EBIT_1T",
+      "column_names": [
+        "Date",
+        "EBIT for Previous Period"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-09-28",
+      "id": 4591351,
+      "name": "International Game Technology ( IGT ) - EBIT for Previous Period",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-09-28",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:12Z",
+      "urlize_name": "International-Game-Technology-IGT-EBIT-for-Previous-Period"
+    },
+    {
+      "code": "HTLD_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4585236,
+      "name": "Heartland Express ( HTLD ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:12Z",
+      "urlize_name": "Heartland-Express-HTLD-Trailing-Net-Income"
+    },
+    {
+      "code": "USBU_CHG_NCWC",
+      "column_names": [
+        "Date",
+        "Change in Non-Cash Working Capital"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-09-30",
+      "id": 5485721,
+      "name": "USA Broadband Inc ( USBU ) - Change in Non-Cash Working Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-09-30",
+      "type": null,
+      "updated_at": "2014-03-21T22:39:52Z",
+      "urlize_name": "USA-Broadband-Inc-USBU-Change-in-Non-Cash-Working-Capital"
+    },
+    {
+      "code": "THKY_FLOAT",
+      "column_names": [
+        "Date",
+        "Number of Shares Outstanding"
+      ],
+      "description": "Units: million shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5457487,
+      "name": "Thackeray Corp. ( THKY ) - Number of Shares Outstanding",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:13Z",
+      "urlize_name": "Thackeray-Corp-THKY-Number-of-Shares-Outstanding"
+    },
+    {
+      "code": "PTNT_NET_INC",
+      "column_names": [
+        "Date",
+        "Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5423380,
+      "name": "Internet Patents Corp ( PTNT ) - Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:39:53Z",
+      "urlize_name": "Internet-Patents-Corp-PTNT-Net-Income"
+    },
+    {
+      "code": "GPI_HILO",
+      "column_names": [
+        "Date",
+        "Hi-Lo Risk"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4493024,
+      "name": "Group 1 Automotive ( GPI ) - Hi-Lo Risk",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:13Z",
+      "urlize_name": "Group-1-Automotive-GPI-Hi-Lo-Risk"
+    },
+    {
+      "code": "PAG_BETA",
+      "column_names": [
+        "Date",
+        "3-Year Regression Beta"
+      ],
+      "description": "Estimated by regressing weekly returns on stock against NYSE composite. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5293800,
+      "name": "Pacific Gulf Pptys ( PAG ) - 3-Year Regression Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:13Z",
+      "urlize_name": "Pacific-Gulf-Pptys-PAG-3-Year-Regression-Beta"
+    },
+    {
+      "code": "SAH_MKT_DC",
+      "column_names": [
+        "Date",
+        "Market Debt to Capital Ratio"
+      ],
+      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-02-07",
+      "id": 5294855,
+      "name": "Sonic Automotive ( SAH ) - Market Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-02-07",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:13Z",
+      "urlize_name": "Sonic-Automotive-SAH-Market-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "GVSS_EBITDA",
+      "column_names": [
+        "Date",
+        "Earnings Before Interest Taxes Depreciation and Amortization"
+      ],
+      "description": "Estimated by adding depreciation and amortization back to operating income (EBIT). Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 4536444,
+      "name": "GVI Security Solutions Inc ( GVSS ) - Earnings Before Interest Taxes Depreciation and Amortization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:40:14Z",
+      "urlize_name": "GVI-Security-Solutions-Inc-GVSS-Earnings-Before-Interest-Taxes-Depreciation-and-Amortization"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "DMDRN",
+    "concurrency": 20,
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data",
+    "use_proxy": false
+  }],
+  "total_count": 10006019
+}

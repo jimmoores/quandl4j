@@ -1,0 +1,23 @@
+{
+  "code": "CBMXW_SI",
+  "column_names": [
+    "Settlement Date",
+    "Short Interest",
+    "Avg Daily Share Volume",
+    "Days to Cover"
+  ],
+  "description": "Short interest, Average Volume, and Days to Cover for CBMXW",
+  "display_url": "http://www.nasdaq.com/symbol/CBMXW/short-interest",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "2012-06-15",
+  "id": 4907411,
+  "name": "CombiMatrix Corp Short Interest",
+  "private": false,
+  "source_code": "NASDAQ",
+  "source_name": "NASDAQ",
+  "to_date": "2014-03-31",
+  "type": null,
+  "updated_at": "2014-04-14T15:40:52Z",
+  "urlize_name": "CombiMatrix-Corp-Short-Interest"
+}

@@ -1,0 +1,21 @@
+{
+  "code": "TCD_DB_PRIORITY_REDUNDANCIES",
+  "column_names": [
+    "Date",
+    "Value"
+  ],
+  "description": "Are there priority rules for redundancies? (Yes=1; No=0)\nPriority rules for redundancies?",
+  "display_url": "http://api.worldbank.org/countries/TCD/indicators/db_priority_redundancies?per_page=1000",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "2010-12-31",
+  "id": 2108899,
+  "name": "Chad: Priority rules for redundancies?",
+  "private": false,
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank",
+  "to_date": "2010-12-31",
+  "type": null,
+  "updated_at": "2014-01-11T20:31:16Z",
+  "urlize_name": "Chad-Priority-rules-for-redundancies"
+}

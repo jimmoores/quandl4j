@@ -1,0 +1,480 @@
+{
+  "current_page": 334505,
+  "docs": [
+    {
+      "code": "COMM_41_PNEUMATICTYRESNEWOFRUBBERNESHERRINGBONETREAD_EXPORT_ETH",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1997-12-31",
+      "id": 3623413,
+      "name": "Commodity Exports - Rubber And Articles Thereof / Pneumatic tyres new of rubber nes, herring-bone tread - Ethiopia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T01:57:58Z",
+      "urlize_name": "Commodity-Exports-Rubber-And-Articles-Thereof-Pneumatic-tyres-new-of-rubber-nes-herring-bone-tread-Ethiopia"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_EG_BTU_3988_WAT_ALL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.3988-WAT-ALL.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.3988-WAT-ALL.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2001-01-31",
+      "id": 5053309,
+      "name": "Electric Fuel Consumption Mmbtus : Thornapple : Conventional Hydroelectric : All Primemovers : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T04:10:44Z",
+      "urlize_name": "Electric-Fuel-Consumption-Mmbtus-Thornapple-Conventional-Hydroelectric-All-Primemovers-Quarterly"
+    },
+    {
+      "code": "COMM_85_TURNTABLESWITHOUTRECORDCHANGERS_IMPORT_MOZ",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5610392,
+      "name": "Commodity Imports - Electrical, Electronic Equipment / Turntables, without record changers - Mozambique",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-12-28T06:44:11Z",
+      "urlize_name": "Commodity-Imports-Electrical-Electronic-Equipment-Turntables-without-record-changers-Mozambique"
+    },
+    {
+      "code": "TSC00002_141",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This collection provides users with data concerning R&D expenditure and R&D personnel broken down by following institutional sectors: business enterprise (BES), government (GOV), higher education (HES), private non-profit (PNP) and total of sectors.\r\nAll data are broken down by the above mentioned sectors of performance. The R&D expenditure is further broken down by source of funds, by type of costs, by type of economic activity (NACE), by size class, by type of R&D, by fields of science, by socio-economic objectives and by regions (NUTS 2).\r\nBesides R&D expenditures in basic unit National currency (MIO_NAC) the following units are available: Euro (MIO_EUR), Euro per inhabitant (EUR_HAB) Purchasing Power Standard (MIO_PPS), Purchasing Power Standard at 2000 prices (MIO_PPS_KP00), Purchasing Power Standard per inhabitant at constant 2000 prices (PPS_KP00_HAB), Percentage of GDP (PC_GDP).\r\nR&D personnel data is available in full-time equivalent (FTE), in head count (HC), as a % of employment and as a % of labour force. The data is further broken down by occupation, by qualification, by gender, by size class, by citizenship, by age groups, by fields of science, by economic activity (NACE) and by regions (NUTS 2).\r\nMore details on breakdowns, derivations and different units available are found in the Eurostat indicators on R&D (See annex at the bottom of the page).\r\nR&D data are available for following countries and country groups:\r\n- All EU Member States, plus Candidate Countries, EFTA Countries, the Russian Federation, China, Japan, the United States and South Korea.- Country groups: EU-27, EU-15 and EA-16.\r\nR&D data are compiled in accordance to the guidelines laid down in the Proposed standard practice for surveys of research and experimental development - Frascati Manual (FM), OECD, 2002 (See annex at the bottom of the page).\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/rd_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftsc00002.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 821373,
+      "name": "Research and development personnel by sectors of performance  : Percentage of active population - numerator in full time equivalents : All sectors : Spain",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T04:10:48Z",
+      "urlize_name": "Research-and-development-personnel-by-sectors-of-performance-Percentage-of-active-population-numerator-in-full-time-equivalents-All-sectors-Spain"
+    },
+    {
+      "code": "COMM_54_YARNOFJUTETEXTILEBASTFIBRENESMULTIPLECABLE_EXPORT_QAT",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 3747567,
+      "name": "Commodity Exports - Vegetable Textile Fibres Nes, Paper Yarn, Woven Fabri / Yarn of jute, textile bast fibre nes, multiple, cable - Qatar",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T20:03:00Z",
+      "urlize_name": "Commodity-Exports-Vegetable-Textile-Fibres-Nes-Paper-Yarn-Woven-Fabri-Yarn-of-jute-textile-bast-fibre-nes-multiple-cable-Qatar"
+    },
+    {
+      "code": "TSDTR430_43",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftsdtr430.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 813751,
+      "name": "Emissions of nitrogen oxides NOx from transport  : Tonnes : Road transport (NFR 1A3b) : Greece",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T06:20:47Z",
+      "urlize_name": "Emissions-of-nitrogen-oxides-NOx-from-transport-Tonnes-Road-transport-NFR-1A3b-Greece"
+    },
+    {
+      "code": "PD276_UF_PIAUI_FOGAO_NAO_TINHAM_ABS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PD276_UF_ABS.csv&categorias=%22Fogao%20-%20nao%20tinham%22&localidade=Piaui",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6331375,
+      "name": "Families and Households: Durable Goods Existing In Domicile - Permanent households, for possession of stove - Stove - had not Federative Units - UF: Piaui. Datatype: Absolute",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T04:10:44Z",
+      "urlize_name": "Families-and-Households-Durable-Goods-Existing-In-Domicile-Permanent-households-for-possession-of-stove-Stove-had-not-Federative-Units-UF-Piaui-Datatype-Absolute"
+    },
+    {
+      "code": "COMM_71_GLASSBALLSEXCEPTMICROSPHERES1MMDIAMETER_EXPORT_MDG",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 4097313,
+      "name": "Commodity Exports - Glass And Glassware / Glass balls except microspheres < 1mm diameter - Madagascar",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T04:13:26Z",
+      "urlize_name": "Commodity-Exports-Glass-And-Glassware-Glass-balls-except-microspheres-1mm-diameter-Madagascar"
+    },
+    {
+      "code": "POP_22_GMB_FEM_RUR_15TO19",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 2678447,
+      "name": "Population - Female / Age 15 to 19 / Rural Areas - Gambia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "1993-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T18:22:51Z",
+      "urlize_name": "Population-Female-Age-15-to-19-Rural-Areas-Gambia"
+    },
+    {
+      "code": "COMM_88_PARACHUTESPARTSANDACCESSORIESTHEREOF_IMPORT_ZWE",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 5745843,
+      "name": "Commodity Imports - Aircraft, Spacecraft, And Parts Thereof / Parachutes, parts and accessories thereof - Zimbabwe",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T01:00:25Z",
+      "urlize_name": "Commodity-Imports-Aircraft-Spacecraft-And-Parts-Thereof-Parachutes-parts-and-accessories-thereof-Zimbabwe"
+    },
+    {
+      "code": "COMM_41_PNEUMATICTYRESNEWOFRUBBERFORMOTORCYCLES_IMPORT_COG",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 3621464,
+      "name": "Commodity Imports - Rubber And Articles Thereof / Pneumatic tyres new of rubber for motorcycles - Congo",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T01:27:37Z",
+      "urlize_name": "Commodity-Imports-Rubber-And-Articles-Thereof-Pneumatic-tyres-new-of-rubber-for-motorcycles-Congo"
+    },
+    {
+      "code": "COMM_40_PLASTICCARBOYSBOTTLESANDFLASKSETC_REEXPORT_PSE",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 3601354,
+      "name": "Commodity Re-Exports - Plastics And Articles Thereof / Plastic carboys, bottles and flasks, etc - Occupied Palestinian Territory",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T18:25:45Z",
+      "urlize_name": "Commodity-Re-Exports-Plastics-And-Articles-Thereof-Plastic-carboys-bottles-and-flasks-etc-Occupied-Palestinian-Territory"
+    },
+    {
+      "code": "SEDS_WSEIB_MI_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Billion Btu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.WSEIB.MI.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.WSEIB.MI.A&out=xml",
+      "frequency": "annual",
+      "from_date": "1960-12-31",
+      "id": 4811765,
+      "name": "Waste Consumed By The Electric Power Sector, Michigan",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T04:10:44Z",
+      "urlize_name": "Waste-Consumed-By-The-Electric-Power-Sector-Michigan"
+    },
+    {
+      "code": "COMM_54_TRUEHEMPFIBREOTHERWISEPROCESSEDBUTNOTSPUN_EXPORT_ESP",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1989-12-31",
+      "id": 3749004,
+      "name": "Commodity Exports - Vegetable Textile Fibres Nes, Paper Yarn, Woven Fabri / True hemp fibre otherwise processed but not spun - Spain",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T01:43:16Z",
+      "urlize_name": "Commodity-Exports-Vegetable-Textile-Fibres-Nes-Paper-Yarn-Woven-Fabri-True-hemp-fibre-otherwise-processed-but-not-spun-Spain"
+    },
+    {
+      "code": "EMP_SEX_AGE_EDU_NB_SEX_F_AGE_10YEARSBAND_15_24_EDU_ISCED97_2_KAZ",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5745847,
+      "name": "Employment By Sex, Age And Education, Female, 15-24, Lower Secondary Or Second Stage Of Basic Education - Kazakhstan",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-19T12:05:40Z",
+      "urlize_name": "Employment-By-Sex-Age-And-Education-Female-15-24-Lower-Secondary-Or-Second-Stage-Of-Basic-Education-Kazakhstan"
+    },
+    {
+      "code": "COMM_90_PARTSANDACCESSORIESFORNONOPTICALMICROSCOPESET_REEXPORT_SWZ",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 5820735,
+      "name": "Commodity Re-Exports - Optical, Photo, Technical, Medical, Etc Apparatus / Parts and accessories for non-optical microscopes, et - Swaziland",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T18:22:51Z",
+      "urlize_name": "Commodity-Re-Exports-Optical-Photo-Technical-Medical-Etc-Apparatus-Parts-and-accessories-for-non-optical-microscopes-et-Swaziland"
+    },
+    {
+      "code": "COMM_89_SAILBOATSWITHORWITHOUTAUXILIARYMOTOR_EXPORT_ALB",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1997-12-31",
+      "id": 5745878,
+      "name": "Commodity Exports - Ships, Boats And Other Floating Structures / Sailboats, with or without auxiliary motor - Albania",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T03:14:56Z",
+      "urlize_name": "Commodity-Exports-Ships-Boats-And-Other-Floating-Structures-Sailboats-with-or-without-auxiliary-motor-Albania"
+    },
+    {
+      "code": "COMM_69_PREFABRICATEDSTRUCTURALITEMSOFCEMENTORCONCRETE_IMPORT_PAN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 4057339,
+      "name": "Commodity Imports - Stone, Plaster, Cement, Asbestos, Mica, Etc Articles / Prefabricated structural items of cement or concrete - Panama",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T04:54:44Z",
+      "urlize_name": "Commodity-Imports-Stone-Plaster-Cement-Asbestos-Mica-Etc-Articles-Prefabricated-structural-items-of-cement-or-concrete-Panama"
+    },
+    {
+      "code": "COMM_89_SAILBOATSWITHORWITHOUTAUXILIARYMOTOR_IMPORT_ALB",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1996-12-31",
+      "id": 5745877,
+      "name": "Commodity Imports - Ships, Boats And Other Floating Structures / Sailboats, with or without auxiliary motor - Albania",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T02:30:17Z",
+      "urlize_name": "Commodity-Imports-Ships-Boats-And-Other-Floating-Structures-Sailboats-with-or-without-auxiliary-motor-Albania"
+    },
+    {
+      "code": "1289_001586702_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=%, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1289",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 8058655,
+      "name": "Quarterly economic outlook survey in industry - Manufacturing industry - Past trend in stocks of finished products (balance of opinion) - Raw series",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T07:17:05Z",
+      "urlize_name": "Quarterly-economic-outlook-survey-in-industry-Manufacturing-industry-Past-trend-in-stocks-of-finished-products-balance-of-opinion-Raw-series"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ILO",
+      "datasets_count": 228980,
+      "description": "No description for this source yet",
+      "host": "www.ilo.org",
+      "id": 686,
+      "name": "International Labour Organization"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
+      "code": "IBGE",
+      "datasets_count": 110418,
+      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
+      "host": "seriesestatisticas.ibge.gov.br",
+      "id": 725,
+      "name": "Brazilian Institute of Geography and Statistics"
+    }
+  ],
+  "total_count": 10006019
+}

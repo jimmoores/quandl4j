@@ -70,7 +70,9 @@ public final class QuandlSession {
   public static QuandlSession create() {
     try {
       String authToken = System.getProperty(QUANDL_AUTH_TOKEN_PROPERTY_NAME);
-      return new QuandlSession(SessionOptions.Builder.withAuthToken(authToken).build());
+      if (authToken != null) {
+        return new QuandlSession(SessionOptions.Builder.withAuthToken(authToken).build());
+      }
     } catch (SecurityException se) {
       s_logger.debug("Error accessing system property " + QUANDL_AUTH_TOKEN_PROPERTY_NAME + ", falling back to not using an auth token", se);
     }
@@ -189,7 +191,7 @@ public final class QuandlSession {
     }
     // we assume no particular ordering here, seems safer, if slightly more costly in memory allocations
     // we use a list of string here because HeaderDefinition is immutable, so we only want to build once.
-    Map<String, List<String>> rawResults = new LinkedHashMap<>();
+    Map<String, List<String>> rawResults = new LinkedHashMap<String, List<String>>();
     while (iter.hasNext()) {
       // get raw column name of form 'QUANDL/CODE - Column Name'
       String column = iter.next();
@@ -206,7 +208,7 @@ public final class QuandlSession {
         rawResults.get(quandlCode).add(columnName);
       } else {
         // haven't seen this code before, so put an list in.
-        List<String> columns = new ArrayList<>();
+        List<String> columns = new ArrayList<String>();
         // give each set a Date column as it's first column
         // we're doing this so we can use these headers for the getMultipleDataSets() call.
         columns.add(DATE_COLUMN); 
@@ -214,7 +216,7 @@ public final class QuandlSession {
         rawResults.put(quandlCode, columns);
       }
     }
-    Map<String, HeaderDefinition> results = new LinkedHashMap<>();
+    Map<String, HeaderDefinition> results = new LinkedHashMap<String, HeaderDefinition>();
     for (String key : rawResults.keySet()) {
       List<String> columnList = rawResults.get(key);
       results.put(key, HeaderDefinition.of(columnList));

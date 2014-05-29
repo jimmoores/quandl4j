@@ -1,0 +1,21 @@
+{
+  "code": "LRN_CAPEX",
+  "column_names": [
+    "Date",
+    "Capital Expenditures"
+  ],
+  "description": "This is the cumulated capital spending, as reported in the statement of cash flows, for the sector. It generally does not include acquisitions. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "2007-06-30",
+  "id": 6108065,
+  "name": "K12 Inc ( LRN ) - Capital Expenditures",
+  "private": false,
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2012-06-30",
+  "type": null,
+  "updated_at": "2014-03-22T20:46:56Z",
+  "urlize_name": "K12-Inc-LRN-Capital-Expenditures"
+}

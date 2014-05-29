@@ -1,0 +1,21 @@
+{
+  "code": "ELEC_CONS_TOT_PEL_MT_7_Q",
+  "column_names": [
+    "Date",
+    "Value"
+  ],
+  "description": "Units=Thousand Barrels. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.CONS_TOT.PEL-MT-7.Q",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.CONS_TOT.PEL-MT-7.Q&out=xml",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "2004-01-31",
+  "id": 5212982,
+  "name": "Total Consumption : Petroleum Liquids : Montana : Industrial Cogen : Quarterly",
+  "private": false,
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2010-12-31",
+  "type": null,
+  "updated_at": "2014-01-10T00:21:23Z",
+  "urlize_name": "Total-Consumption-Petroleum-Liquids-Montana-Industrial-Cogen-Quarterly"
+}

@@ -1,0 +1,497 @@
+{
+  "current_page": 291545,
+  "docs": [
+    {
+      "code": "COMM_16_PALMOILCRUDE_EXPORT_PNG",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1998-12-31",
+      "id": 2953934,
+      "name": "Commodity Exports - Animal,vegetable Fats And Oils, Cleavage Products, Et / Palm oil, crude - Papua New Guinea",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2013-09-10T10:51:07Z",
+      "urlize_name": "Commodity-Exports-Animal-vegetable-Fats-And-Oils-Cleavage-Products-Et-Palm-oil-crude-Papua-New-Guinea"
+    },
+    {
+      "code": "ELEC_COST_BTU_COW_MN_98_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Dollars Per Million Btu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.COST_BTU.COW-MN-98.M",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.COST_BTU.COW-MN-98.M&out=xml",
+      "frequency": "monthly",
+      "from_date": "2008-07-31",
+      "id": 5238054,
+      "name": "Average Cost Of Fossil Fuels (per Btu) : Coal : Minnesota : Electric Power : Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2014-01-10T01:46:22Z",
+      "urlize_name": "Average-Cost-Of-Fossil-Fuels-per-Btu-Coal-Minnesota-Electric-Power-Monthly"
+    },
+    {
+      "code": "OEUN000000053310041904101",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Statistic: Employment; Occupation: Telemarketers; Industry: Lessors of Nonfinancial Intangible Assets (except Copyrighted Works); Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000053310041904101",
+      "frequency": "annual",
+      "from_date": "2012-06-30",
+      "id": 9129483,
+      "name": "Employment for Telemarketers in Lessors of Nonfinancial Intangible Assets (except Copyrighted Works) in National",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2013-11-16T23:22:28Z",
+      "urlize_name": "Employment-for-Telemarketers-in-Lessors-of-Nonfinancial-Intangible-Assets-except-Copyrighted-Works-in-National"
+    },
+    {
+      "code": "ELEC_COST_BTU_COW_MA_98_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Dollars Per Million Btu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.COST_BTU.COW-MA-98.M",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.COST_BTU.COW-MA-98.M&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2008-01-31",
+      "id": 5238055,
+      "name": "Average Cost Of Fossil Fuels (per Btu) : Coal : Massachusetts : Electric Power : Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T00:21:37Z",
+      "urlize_name": "Average-Cost-Of-Fossil-Fuels-per-Btu-Coal-Massachusetts-Electric-Power-Monthly"
+    },
+    {
+      "code": "COMM_40_POLYMERSOFSTYRENEEXCEPTSANORABSINPRIMARYFORM_EXPORT_CYP",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1989-12-31",
+      "id": 3495769,
+      "name": "Commodity Exports - Plastics And Articles Thereof / Polymers of styrene except SAN or ABS in primary form - Cyprus",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2013-05-16T18:19:00Z",
+      "urlize_name": "Commodity-Exports-Plastics-And-Articles-Thereof-Polymers-of-styrene-except-SAN-or-ABS-in-primary-form-Cyprus"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_BTU_54561_NG_CT_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.54561-NG-CT.M",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.54561-NG-CT.M&out=xml",
+      "frequency": "monthly",
+      "from_date": "2003-01-31",
+      "id": 5033701,
+      "name": "Fuel Consumption Mmbtus : Jefferson Smurfit Santa Clara Mill : Natural Gas : Combined-cycle Combustion Turbine Part : Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T01:12:30Z",
+      "urlize_name": "Fuel-Consumption-Mmbtus-Jefferson-Smurfit-Santa-Clara-Mill-Natural-Gas-Combined-cycle-Combustion-Turbine-Part-Monthly"
+    },
+    {
+      "code": "428_001001386_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=428",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1980-12-31",
+      "id": 8050657,
+      "name": "Quarterly accounts (base 2000) - GFCF of all sectors in agricultural - Volumes chained at previous year prices - SA-WDA series - Stopped series",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T04:42:24Z",
+      "urlize_name": "Quarterly-accounts-base-2000-GFCF-of-all-sectors-in-agricultural-Volumes-chained-at-previous-year-prices-SA-WDA-series-Stopped-series"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_EG_BTU_55409_NG_ALL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.55409-NG-ALL.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.55409-NG-ALL.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2003-02-28",
+      "id": 5084530,
+      "name": "Electric Fuel Consumption Mmbtus : Calhoun Energy Center : Natural Gas : All Primemovers : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-01-09T19:39:42Z",
+      "urlize_name": "Electric-Fuel-Consumption-Mmbtus-Calhoun-Energy-Center-Natural-Gas-All-Primemovers-Quarterly"
+    },
+    {
+      "code": "IIUCON23620061156",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Number of injury and illness cases (thousands); Case type: Total recordable cases; Industry: Nonresidential building construction; Supersector: Construction; Area: Private industry, Wyoming; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUCON23620061156",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 9003408,
+      "name": "Number of injury and illness cases (thousands) for Nonresidential building construction, Private industry, Wyoming",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-11-15T02:10:00Z",
+      "urlize_name": "Number-of-injury-and-illness-cases-thousands-for-Nonresidential-building-construction-Private-industry-Wyoming"
+    },
+    {
+      "code": "153_0057_GREAT_SLAVE_LAKE_PLAIN_TAIGA_PLAINS_ECOZONE",
+      "column_names": [
+        "Date",
+        "Population per private dwelling",
+        "Population per rural private dwelling",
+        "Population per urban private dwelling",
+        "Private dwelling density (number per square kilometre)",
+        "Rural population",
+        "Rural population as a share of total population (percent)",
+        "Rural private dwellings",
+        "Total population",
+        "Total population density (number per square kilometre)",
+        "Total private dwellings",
+        "Urban population",
+        "Urban population as a share of total population (percent)",
+        "Urban private dwellings"
+      ],
+      "description": "Selected population characteristics, Canada, ecozones and ecoregions with population, every 5 years (Number) [Geography: Great Slave Lake Plain, Taiga Plains ecozone]",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a26?lang=eng&retrLang=eng&id=1530057&tabMode=dataTable&srchLan=-1&p1=-1&p2=9",
+      "frequency": "annual",
+      "from_date": "1971-12-31",
+      "id": 8335183,
+      "name": "Selected population characteristics, Canada, ecozones and ecoregions with population, every 5 years (Number) [Geography: Great Slave Lake Plain, Taiga Plains ecozone]",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T12:26:27Z",
+      "urlize_name": "Selected-population-characteristics-Canada-ecozones-and-ecoregions-with-population-every-5-years-Number-Geography-Great-Slave-Lake-Plain-Taiga-Plains-ecozone"
+    },
+    {
+      "code": "1293_001589643_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Without object, Power=1. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1293",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 8042085,
+      "name": "Household and NPISH final consumption expenditure - Estonia - Percentage of EU27 total (based on millions PPS)",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-08-27T12:40:29Z",
+      "urlize_name": "Household-and-NPISH-final-consumption-expenditure-Estonia-Percentage-of-EU27-total-based-on-millions-PPS"
+    },
+    {
+      "code": "RC86_UF_RIO_GRANDE_DO_SUL_MENOS_DE_22_SEMANAS_PERC",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RC86_UF_PERC.csv&categorias=%22Menos%20de%2022%20semanas%22&localidade=Rio%20Grande%20do%20Sul",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 6382978,
+      "name": "Population and Demographics: Births and deaths - Fetal deaths occurred and registered in the year by length of gestation the mother - Less than 22 weeks Federative Units - UF: Rio Grande do Sul. Datatype: Relative",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T04:43:00Z",
+      "urlize_name": "Population-and-Demographics-Births-and-deaths-Fetal-deaths-occurred-and-registered-in-the-year-by-length-of-gestation-the-mother-Less-than-22-weeks-Federative-Units-UF-Rio-Grande-do-Sul-Datatype-Relative"
+    },
+    {
+      "code": "BSTAMON_MB_AKTIVENI_M3_10363",
+      "column_names": [
+        "Month",
+        "Million CHF"
+      ],
+      "description": "Monthly balance sheets, 1C Domestic assets, Cantonal banks (monthly). More detailed information at http://www.snb.ch/ext/stats/bstamon/pdf/deen/Aktiven_I.pdf",
+      "display_url": "http://www.snb.ch/ext/stats/bstamon/xls/en/bstamon_MB_AktivenI_M3.xls",
+      "frequency": "monthly",
+      "from_date": "1996-12-31",
+      "id": 4535217,
+      "name": "Monthly balance sheets, 1C Domestic assets: Total",
+      "private": false,
+      "source_code": "SNB",
+      "source_name": "Swiss National Bank",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2014-01-09T21:09:24Z",
+      "urlize_name": "Monthly-balance-sheets-1C-Domestic-assets-Total"
+    },
+    {
+      "code": "PA7_UF_SANTA_CATARINA_NOZ_FRUTO_SECO_ABS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PA7_UF_ABS.csv&categorias=%22Noz%20(fruto%20seco)%22&localidade=Santa%20Catarina",
+      "frequency": "annual",
+      "from_date": "1992-12-31",
+      "id": 6312651,
+      "name": "Agricultural: Municipal Agricultural Production (pam) - Permanent crops - planted area - Walnut (nut) Federative Units - UF: Santa Catarina. Datatype: Absolute",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T04:42:24Z",
+      "urlize_name": "Agricultural-Municipal-Agricultural-Production-pam-Permanent-crops-planted-area-Walnut-nut-Federative-Units-UF-Santa-Catarina-Datatype-Absolute"
+    },
+    {
+      "code": "1238_001525012_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1238",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1978-12-31",
+      "id": 8317463,
+      "name": "Annual national accounts (base 2000) - Other buildings and constructions - Sector: Households, including sole proprietorships - End-period outstanding amounts (market value) - Volumes at 2000 prices, chain-linked - Stopped series",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T16:16:21Z",
+      "urlize_name": "Annual-national-accounts-base-2000-Other-buildings-and-constructions-Sector-Households-including-sole-proprietorships-End-period-outstanding-amounts-market-value-Volumes-at-2000-prices-chain-linked-Stopped-series"
+    },
+    {
+      "code": "COMM_84_CENTRIFUGESNES_IMPORT_SYR",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 5168005,
+      "name": "Commodity Imports - Nuclear Reactors, Boilers, Machinery, Etc / Centrifuges nes - Syrian Arab Republic",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-06-22T13:20:53Z",
+      "urlize_name": "Commodity-Imports-Nuclear-Reactors-Boilers-Machinery-Etc-Centrifuges-nes-Syrian-Arab-Republic"
+    },
+    {
+      "code": "PINK_ASPR",
+      "column_names": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "description": "No Description Available",
+      "display_url": "http://www.google.com/finance/historical?q=PINK%3AASPR&startdate=Jan+1%2C+1990&output=csv",
+      "frequency": "daily",
+      "from_date": "2007-05-24",
+      "id": 5639726,
+      "name": "Adsouth Partners Inc (ASPR)",
+      "private": false,
+      "source_code": "GOOG",
+      "source_name": "Google Finance",
+      "to_date": "2010-12-27",
+      "type": null,
+      "updated_at": "2013-08-27T12:40:29Z",
+      "urlize_name": "Adsouth-Partners-Inc-ASPR"
+    },
+    {
+      "code": "COMM_30_TOLUENE_REEXPORT_SAU",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 3368855,
+      "name": "Commodity Re-Exports - Organic Chemicals / Toluene - Saudi Arabia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T14:58:09Z",
+      "urlize_name": "Commodity-Re-Exports-Organic-Chemicals-Toluene-Saudi-Arabia"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_BTU_56348_DFO_ALL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.56348-DFO-ALL.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.56348-DFO-ALL.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2006-01-31",
+      "id": 5032066,
+      "name": "Fuel Consumption Mmbtus : Laverne Diesel Generating Plant : Distillate Fuel Oil : All Primemovers : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T23:28:25Z",
+      "urlize_name": "Fuel-Consumption-Mmbtus-Laverne-Diesel-Generating-Plant-Distillate-Fuel-Oil-All-Primemovers-Quarterly"
+    },
+    {
+      "code": "OUT_MACHINETOOLS_MKD",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 3294352,
+      "name": "Output (Local Currency) / Machine tools - TFYR of Macedonia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T17:37:22Z",
+      "urlize_name": "Output-Local-Currency-Machine-tools-TFYR-of-Macedonia"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "CANSIM",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "www20.statcan.gc.ca",
+      "id": 1199,
+      "name": "Statistics Canada"
+    },
+    {
+      "code": "SNB",
+      "datasets_count": 39406,
+      "description": "No description for this source yet",
+      "host": "www.snb.ch",
+      "id": 615,
+      "name": "Swiss National Bank"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
+      "code": "IBGE",
+      "datasets_count": 110418,
+      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
+      "host": "seriesestatisticas.ibge.gov.br",
+      "id": 725,
+      "name": "Brazilian Institute of Geography and Statistics"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "GOOG",
+      "datasets_count": 43144,
+      "description": "This data is NOT sourced directly from Google.  It is however verified against their numbers.\r\n\r\nwww.quandl.com/WIKI is a better source.",
+      "host": "www.google.com",
+      "id": 393,
+      "name": "Google Finance"
+    }
+  ],
+  "total_count": 9990700
+}

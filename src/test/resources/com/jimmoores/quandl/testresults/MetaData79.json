@@ -1,0 +1,415 @@
+{
+  "current_page": 91746,
+  "docs": [
+    {
+      "code": "CITY_ALLHOMES_ROCKWOODMI",
+      "column_names": [
+        "Date",
+        "Rockwood"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the city of Rockwood, MI. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-03-31",
+      "id": 6980918,
+      "name": "Zillow Home Value Index (Cities): All Homes - Rockwood, MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:38Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-All-Homes-Rockwood-MI"
+    },
+    {
+      "code": "CITY_ALLHOMES_HOOSICKFALLSNY",
+      "column_names": [
+        "Date",
+        "Hoosick Falls"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the city of Hoosick Falls, NY. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 6980584,
+      "name": "Zillow Home Value Index (Cities): All Homes - Hoosick Falls, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:38Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-All-Homes-Hoosick-Falls-NY"
+    },
+    {
+      "code": "CITY_4BEDROOM_GARDNERMA",
+      "column_names": [
+        "Date",
+        "Gardner"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of four bedroom homes within the city of Gardner, MA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_4bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7024277,
+      "name": "Zillow Home Value Index (Cities): Four Bedroom Homes - Gardner, MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:38Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Four-Bedroom-Homes-Gardner-MA"
+    },
+    {
+      "code": "CITY_ALLHOMES_WESTYORKPA",
+      "column_names": [
+        "Date",
+        "West York"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the city of West York, PA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 6978910,
+      "name": "Zillow Home Value Index (Cities): All Homes - West York, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:38Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-All-Homes-West-York-PA"
+    },
+    {
+      "code": "MZIP_MEDIANLISTINGPRICEPERSQFT_ALLHOMES_97463",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of list prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianListingPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7265106,
+      "name": "Zillow Metrics (Zip Codes): Median List Price per Sq. Ft. - 97463, Oakridge, OR",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:38Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-List-Price-per-Sq-Ft-97463-Oakridge-OR"
+    },
+    {
+      "code": "ZIP_MEDIANVALUEPERSQFT_ALLHOMES_86314",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the zip code of 86314, Prescott Valley, AZ. This number is derived by taking the estimated home value for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianValuePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6839666,
+      "name": "Zillow Home Value Index (Zip Codes): Median Value Per Sq. Ft. (All Homes) - 86314,Prescott Valley,AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:39Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Median-Value-Per-Sq-Ft-All-Homes-86314-Prescott-Valley-AZ"
+    },
+    {
+      "code": "ZIP_MEDIANVALUEPERSQFT_ALLHOMES_94596",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the zip code of 94596, Walnut Creek, CA. This number is derived by taking the estimated home value for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianValuePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6840923,
+      "name": "Zillow Home Value Index (Zip Codes): Median Value Per Sq. Ft. (All Homes) - 94596,Walnut Creek,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:39Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Median-Value-Per-Sq-Ft-All-Homes-94596-Walnut-Creek-CA"
+    },
+    {
+      "code": "ZIP_MEDIANVALUEPERSQFT_ALLHOMES_62062",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the zip code of 62062, Maryville, IL. This number is derived by taking the estimated home value for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianValuePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6844054,
+      "name": "Zillow Home Value Index (Zip Codes): Median Value Per Sq. Ft. (All Homes) - 62062,Maryville,IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:39Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Median-Value-Per-Sq-Ft-All-Homes-62062-Maryville-IL"
+    },
+    {
+      "code": "MCITY_MEDIANLISTINGPRICEPERSQFT_ALLHOMES_SINKINGSPRINGPA",
+      "column_names": [
+        "Date",
+        "Sinking Spring"
+      ],
+      "description": "Median of list prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianListingPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7081693,
+      "name": "Zillow Metrics (Cities): Median List Price per Sq. Ft. - Sinking Spring, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:39Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-List-Price-per-Sq-Ft-Sinking-Spring-PA"
+    },
+    {
+      "code": "CITY_ALLHOMES_UPPERDUBLINPA",
+      "column_names": [
+        "Date",
+        "Upper Dublin"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the city of Upper Dublin, PA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 6969896,
+      "name": "Zillow Home Value Index (Cities): All Homes - Upper Dublin, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:39Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-All-Homes-Upper-Dublin-PA"
+    },
+    {
+      "code": "ZIP_MEDIANVALUEPERSQFT_ALLHOMES_01085",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the zip code of 01085, Westfield, MA. This number is derived by taking the estimated home value for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianValuePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7454030,
+      "name": "Zillow Home Value Index (Zip Codes): Median Value Per Sq. Ft. (All Homes) - 01085,Westfield,MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:39Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Median-Value-Per-Sq-Ft-All-Homes-01085-Westfield-MA"
+    },
+    {
+      "code": "CITY_4BEDROOM_SEEKONKMA",
+      "column_names": [
+        "Date",
+        "Seekonk"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of four bedroom homes within the city of Seekonk, MA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_4bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7025330,
+      "name": "Zillow Home Value Index (Cities): Four Bedroom Homes - Seekonk, MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:39Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Four-Bedroom-Homes-Seekonk-MA"
+    },
+    {
+      "code": "MCITY_MEDIANLISTINGPRICEPERSQFT_ALLHOMES_LINDSTROMMN",
+      "column_names": [
+        "Date",
+        "Lindstrom"
+      ],
+      "description": "Median of list prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianListingPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7074184,
+      "name": "Zillow Metrics (Cities): Median List Price per Sq. Ft. - Lindstrom, MN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:39Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-List-Price-per-Sq-Ft-Lindstrom-MN"
+    },
+    {
+      "code": "CITY_ALLHOMES_JORDANMN",
+      "column_names": [
+        "Date",
+        "Jordan"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the city of Jordan, MN. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 6971630,
+      "name": "Zillow Home Value Index (Cities): All Homes - Jordan, MN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:39Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-All-Homes-Jordan-MN"
+    },
+    {
+      "code": "MCITY_MEDIANLISTINGPRICEPERSQFT_ALLHOMES_PAPILLIONNE",
+      "column_names": [
+        "Date",
+        "Papillion"
+      ],
+      "description": "Median of list prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianListingPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7066368,
+      "name": "Zillow Metrics (Cities): Median List Price per Sq. Ft. - Papillion, NE",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:39Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-List-Price-per-Sq-Ft-Papillion-NE"
+    },
+    {
+      "code": "ZIP_MEDIANVALUEPERSQFT_ALLHOMES_21409",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the zip code of 21409, Annapolis, MD. This number is derived by taking the estimated home value for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianValuePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6842303,
+      "name": "Zillow Home Value Index (Zip Codes): Median Value Per Sq. Ft. (All Homes) - 21409,Annapolis,MD",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:40Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Median-Value-Per-Sq-Ft-All-Homes-21409-Annapolis-MD"
+    },
+    {
+      "code": "CITY_SINGLEFAMILYRESIDENCE_LIMAPA",
+      "column_names": [
+        "Date",
+        "Lima"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the city of Lima, PA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7086252,
+      "name": "Zillow Home Value Index (Cities): Single Family Residence - Lima, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:40Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Single-Family-Residence-Lima-PA"
+    },
+    {
+      "code": "ZIP_MEDIANVALUEPERSQFT_ALLHOMES_60423",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the zip code of 60423, Frankfort, IL. This number is derived by taking the estimated home value for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianValuePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6840882,
+      "name": "Zillow Home Value Index (Zip Codes): Median Value Per Sq. Ft. (All Homes) - 60423,Frankfort,IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:40Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Median-Value-Per-Sq-Ft-All-Homes-60423-Frankfort-IL"
+    },
+    {
+      "code": "ZIP_MEDIANVALUEPERSQFT_ALLHOMES_21756",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the zip code of 21756, Keedysville, MD. This number is derived by taking the estimated home value for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianValuePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6845465,
+      "name": "Zillow Home Value Index (Zip Codes): Median Value Per Sq. Ft. (All Homes) - 21756,Keedysville,MD",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:40Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Median-Value-Per-Sq-Ft-All-Homes-21756-Keedysville-MD"
+    },
+    {
+      "code": "MCITY_MEDIANLISTINGPRICEPERSQFT_ALLHOMES_ADAOK",
+      "column_names": [
+        "Date",
+        "Ada"
+      ],
+      "description": "Median of list prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianListingPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-12-31",
+      "id": 7067166,
+      "name": "Zillow Metrics (Cities): Median List Price per Sq. Ft. - Ada, OK",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:15:40Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-List-Price-per-Sq-Ft-Ada-OK"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "ZILLOW",
+    "datasets_count": 216313,
+    "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+    "host": "files.zillowstatic.com",
+    "id": 797,
+    "name": "Zillow Real Estate Research"
+  }],
+  "total_count": 10006019
+}

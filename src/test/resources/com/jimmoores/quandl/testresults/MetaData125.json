@@ -1,0 +1,453 @@
+{
+  "current_page": 454629,
+  "docs": [
+    {
+      "code": "COAL_SHIPMENT_HEAT_1102408_2107_TOT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Btu/lb. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1102408-2107-TOT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1102408-2107-TOT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_HEAT.1102408-2107-TOT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 11884399,
+      "name": "Coal Shipment Heat Content : Gateway Mine To Sioux : All : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T11:27:33Z",
+      "urlize_name": "Coal-Shipment-Heat-Content-Gateway-Mine-To-Sioux-All-Annual"
+    },
+    {
+      "code": "1176_90211900_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7891949,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=none) Orthopaedic appliances and fracture appliances (excl. artificial joints) - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:21Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Orthopaedic-appliances-and-fracture-appliances-excl-artificial-joints-Imports"
+    },
+    {
+      "code": "1176_90171001_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7891924,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=number) Subgroup of: 901710 Drafting tables and machines, whether or not automatic (excl. units for automatic data-processing equipment) - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:21Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Subgroup-of-901710-Drafting-tables-and-machines-whether-or-not-automatic-excl-units-for-automatic-data-processing-equipment-Imports"
+    },
+    {
+      "code": "PET_MO1EX_NUS_NBE_2_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MO1EX_NUS-NBE_2.M>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MO1EX_NUS-NBE_2.M<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MO1EX_NUS-NBE_2.M&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-01-31",
+      "id": 12036631,
+      "name": "U.s. Exports To Belgium Of Reformulated Gasoline Blending Components, Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2010-11-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:27:34Z",
+      "urlize_name": "U-s-Exports-To-Belgium-Of-Reformulated-Gasoline-Blending-Components-Monthly"
+    },
+    {
+      "code": "1176_91109000_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7892103,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=number) Complete, unassembled or partly assembled clock movements movement sets; incomplete clock movements, assembled (excl. rough clock movements and watc - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:21Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Complete-unassembled-or-partly-assembled-clock-movements-movement-sets-incomplete-clock-movements-assembled-excl-rough-clock-movements-and-watc-Imports"
+    },
+    {
+      "code": "1176_92092000_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7892146,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=none) Mechanisms for musical boxes - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:22Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Mechanisms-for-musical-boxes-Imports"
+    },
+    {
+      "code": "1176_90083009_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7891866,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=number) Subgroup of: 900830 Image projectors (excl. slide projectors and microfilm, microfiche or other microform readers) - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:22Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Subgroup-of-900830-Image-projectors-excl-slide-projectors-and-microfilm-microfiche-or-other-microform-readers-Imports"
+    },
+    {
+      "code": "COAL_SHIPMENT_HEAT_1102408_2107_TOT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Btu/lb. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1102408-2107-TOT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1102408-2107-TOT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_HEAT.1102408-2107-TOT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2009-03-31",
+      "id": 11884400,
+      "name": "Coal Shipment Heat Content : Gateway Mine To Sioux : All : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-05-16T11:28:06Z",
+      "urlize_name": "Coal-Shipment-Heat-Content-Gateway-Mine-To-Sioux-All-Quarterly"
+    },
+    {
+      "code": "PET_MD1EX_NUS_NBE_1_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MD1EX_NUS-NBE_1.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MD1EX_NUS-NBE_1.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MD1EX_NUS-NBE_1.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 12038336,
+      "name": "U.s. Exports To Belgium Of Distillate Fuel Oil, Greater Than 15 To 500 Ppm Sulfur, Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T11:27:34Z",
+      "urlize_name": "U-s-Exports-To-Belgium-Of-Distillate-Fuel-Oil-Greater-Than-15-To-500-Ppm-Sulfur-Annual"
+    },
+    {
+      "code": "1176_90241000_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7891973,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=number) Machines and appliances for testing metals - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:22Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Machines-and-appliances-for-testing-metals-Imports"
+    },
+    {
+      "code": "1176_90059000_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7891829,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=none) Parts and accessories, incl. mountings, for binoculars, monoculars, astronomical and other optical telescopes, and other astronomical instruments, n.e - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:22Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Parts-and-accessories-incl-mountings-for-binoculars-monoculars-astronomical-and-other-optical-telescopes-and-other-astronomical-instruments-n-e-Imports"
+    },
+    {
+      "code": "1176_90151090_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7891910,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=number) Subgroup of: 901510 Rangefinders - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:22Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Subgroup-of-901510-Rangefinders-Imports"
+    },
+    {
+      "code": "1176_91062000_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7892085,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=number) Parking meters - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:22Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Parking-meters-Imports"
+    },
+    {
+      "code": "1176_90230000_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7891970,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=none) Instruments, apparatus and models designed for demonstrational purposes, e.g. in education or exhibitions, unsuitable for other uses (excl. ground flying traine - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:22Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Instruments-apparatus-and-models-designed-for-demonstrational-purposes-e-g-in-education-or-exhibitions-unsuitable-for-other-uses-excl-ground-flying-traine-Imports"
+    },
+    {
+      "code": "1176_90303200_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7892022,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=number) Multimeters with recording device - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:22Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Multimeters-with-recording-device-Imports"
+    },
+    {
+      "code": "1176_91069000_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7892086,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=number) Time of day recording apparatus and apparatus for measuring, recording or otherwise indicating intervals of time, with clock or watch movement or with - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:22Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Time-of-day-recording-apparatus-and-apparatus-for-measuring-recording-or-otherwise-indicating-intervals-of-time-with-clock-or-watch-movement-or-with-Imports"
+    },
+    {
+      "code": "COAL_SHIPMENT_HEAT_1518826_2107_BIT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Btu/lb. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1518826-2107-BIT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_HEAT.1518826-2107-BIT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_HEAT.1518826-2107-BIT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 11968777,
+      "name": "Coal Shipment Heat Content : Elk Creek Mine To Sioux : Bituminous : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T11:27:35Z",
+      "urlize_name": "Coal-Shipment-Heat-Content-Elk-Creek-Mine-To-Sioux-Bituminous-Annual"
+    },
+    {
+      "code": "PET_MOOEX_NUS_NBE_2_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MOOEX_NUS-NBE_2.M>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MOOEX_NUS-NBE_2.M<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MOOEX_NUS-NBE_2.M&out=xml",
+      "frequency": "monthly",
+      "from_date": "2004-01-31",
+      "id": 12045594,
+      "name": "U.s. Exports To Belgium Of Other Oxygenates, Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T11:28:07Z",
+      "urlize_name": "U-s-Exports-To-Belgium-Of-Other-Oxygenates-Monthly"
+    },
+    {
+      "code": "1176_91131030_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7892114,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg, q2=none) Subgroup of: 911310 Watch straps, watch bands and watch bracelets, and parts thereof, of precious metal or of metal clad with precious metal, n.e.s. - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:22Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Subgroup-of-911310-Watch-straps-watch-bands-and-watch-bracelets-and-parts-thereof-of-precious-metal-or-of-metal-clad-with-precious-metal-n-e-s-Imports"
+    },
+    {
+      "code": "1176_91091000_1",
+      "column_names": [
+        "Date",
+        "Quantity 1 (Q1)",
+        "Value (NOK)",
+        "Quantity 2 (Q2)"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1176.csv?lang=en",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 7892096,
+      "name": "Import of goods, HS 90-92 Optical, photographic, cinematographic and instruments. Value and Quantity, latest 13 months - (q1=kg,q2=number) Clock movements, complete and assembled, electrically operated (excl. watch movements) - Imports",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-16T11:32:23Z",
+      "urlize_name": "Import-of-goods-HS-90-92-Optical-photographic-cinematographic-and-instruments-Value-and-Quantity-latest-13-months-q1-kg-q2-number-Clock-movements-complete-and-assembled-electrically-operated-excl-watch-movements-Imports"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "STATNOR",
+      "datasets_count": 0,
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "host": "data.ssb.no",
+      "id": 912,
+      "name": "Statistics Norway"
+    }
+  ],
+  "total_count": 10006019
+}

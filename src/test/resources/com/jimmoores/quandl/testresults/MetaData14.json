@@ -1,0 +1,475 @@
+{
+  "current_page": 345162,
+  "docs": [
+    {
+      "code": "COMM_30_AROMATICPOLYAMINESNESDERIVATIVESSALTSTHEREOF_EXPORT_AUS",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 3229199,
+      "name": "Commodity Exports - Organic Chemicals / Aromatic polyamines nes, derivatives, salts thereof - Australia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-05-13T14:31:25Z",
+      "urlize_name": "Commodity-Exports-Organic-Chemicals-Aromatic-polyamines-nes-derivatives-salts-thereof-Australia"
+    },
+    {
+      "code": "BSTAMON_MB_SEKBG_M50_13527",
+      "column_names": [
+        "Month",
+        "Million CHF"
+      ],
+      "description": "Monthly balance sheets, 1Ja Sectoral breakdown of balance sheet items and fiduciary business (domestic) - by bank group, Cantonal banks:In percent:Assets:Securities and precious metals trading portfolios (monthly). More detailed information at http://www.snb.ch/ext/stats/bstamon/pdf/deen/Sektorale_Gliederung_Internet.pdf",
+      "display_url": "http://www.snb.ch/ext/stats/bstamon/xls/en/bstamon_MB_SekBG_M50.xls",
+      "frequency": "monthly",
+      "from_date": "2008-08-31",
+      "id": 4542656,
+      "name": "Monthly balance sheets, 1Ja Sectoral breakdown of balance sheet items and fiduciary business (domestic) - by bank group: Other",
+      "private": false,
+      "source_code": "SNB",
+      "source_name": "Swiss National Bank",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2014-01-09T22:07:16Z",
+      "urlize_name": "Monthly-balance-sheets-1Ja-Sectoral-breakdown-of-balance-sheet-items-and-fiduciary-business-domestic-by-bank-group-Other"
+    },
+    {
+      "code": "NAT_GLOBALINDICATORSINDUSTRIALPRODUCTIONGDPBYTYPEOFEXPENDITUREATCURRENTPRICESNATIONALCURRENCY_GROSSDOMESTICPRODUCTGDP_KNA",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The Environment Statistics Database contains selected water and waste statistics by country. Statistics on water and waste are based on official statistics supplied by national statistical offices and/or ministries of environment (or equivalent institutions) in countries in response to the biennial UNSD/UNEP Questionnaire on Environment Statistics. They were complemented by data on EU and OECD member and partner countries from OECD and Eurostat. Environment statistics is still in an early stage of development in many countries, and data are often sparse. The statistics selected here are those of relatively good quality and geographic coverage. The online database currently covers the years 1990, 1995 to 2009. For information on definitions, data quality and other important metadata, please check UNSD Environmental Indicator tables.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 3212308,
+      "name": "Global Indicators / Industrial Production / Gdp By Type Of Expenditure At Current Prices - National Currency / Gross Domestic Product (GDP) - Saint Kitts and Nevis",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T15:19:27Z",
+      "urlize_name": "Global-Indicators-Industrial-Production-Gdp-By-Type-Of-Expenditure-At-Current-Prices-National-Currency-Gross-Domestic-Product-GDP-Saint-Kitts-and-Nevis"
+    },
+    {
+      "code": "OEUN000000062300043503201",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Statistic: Employment; Occupation: Dispatchers, Except Police, Fire, and Ambulance; Industry: Nursing and Residential Care Facilities; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000062300043503201",
+      "frequency": "annual",
+      "from_date": "2012-06-30",
+      "id": 9173609,
+      "name": "Employment for Dispatchers, Except Police, Fire, and Ambulance in Nursing and Residential Care Facilities in National",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2013-11-17T10:33:53Z",
+      "urlize_name": "Employment-for-Dispatchers-Except-Police-Fire-and-Ambulance-in-Nursing-and-Residential-Care-Facilities-in-National"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_BTU_54427_BIT_ST_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.54427-BIT-ST.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.54427-BIT-ST.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2005-01-31",
+      "id": 5017601,
+      "name": "Fuel Consumption Mmbtus : Gaylord Container Bogalusa : Bituminous Coal : Steam Turbine : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-01-10T01:30:39Z",
+      "urlize_name": "Fuel-Consumption-Mmbtus-Gaylord-Container-Bogalusa-Bituminous-Coal-Steam-Turbine-Quarterly"
+    },
+    {
+      "code": "ELEC_RECEIPTS_BIT_SAT_1_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Thousand Tons. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.RECEIPTS.BIT-SAT-1.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.RECEIPTS.BIT-SAT-1.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2008-01-31",
+      "id": 5225868,
+      "name": "Receipts Of Fossil Fuels : Bituminous Coal : South Atlantic : Electric Utility : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-01-10T04:16:28Z",
+      "urlize_name": "Receipts-Of-Fossil-Fuels-Bituminous-Coal-South-Atlantic-Electric-Utility-Quarterly"
+    },
+    {
+      "code": "COMM_30_DGLUCITOLSORBITOL_EXPORT_SGP",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1989-12-31",
+      "id": 3370976,
+      "name": "Commodity Exports - Organic Chemicals / D-glucitol (sorbitol) - Singapore",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-07-10T23:14:48Z",
+      "urlize_name": "Commodity-Exports-Organic-Chemicals-D-glucitol-sorbitol-Singapore"
+    },
+    {
+      "code": "COMM_14_MUCILAGESANDTHICKENERSNES_REEXPORT_PAN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 2939371,
+      "name": "Commodity Re-Exports - Lac, Gums, Resins, Vegetable Saps And Extracts Nes / Mucilages and thickeners nes - Panama",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T05:23:29Z",
+      "urlize_name": "Commodity-Re-Exports-Lac-Gums-Resins-Vegetable-Saps-And-Extracts-Nes-Mucilages-and-thickeners-nes-Panama"
+    },
+    {
+      "code": "1293_001591317_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Without object, Power=1. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1293",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 8042425,
+      "name": "Household and NPISH final consumption expenditure - Portugal - Purchasing Power Standard per inhabitant",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-08-27T12:49:13Z",
+      "urlize_name": "Household-and-NPISH-final-consumption-expenditure-Portugal-Purchasing-Power-Standard-per-inhabitant"
+    },
+    {
+      "code": "COMM_76_BARSRODSANDPROFILESNICKELALLOY_IMPORT_ETH",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 4325320,
+      "name": "Commodity Imports - Nickel And Articles Thereof / Bars, rods and profiles, nickel alloy - Ethiopia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T15:19:27Z",
+      "urlize_name": "Commodity-Imports-Nickel-And-Articles-Thereof-Bars-rods-and-profiles-nickel-alloy-Ethiopia"
+    },
+    {
+      "code": "COMM_53_WOVENCOTTONNES85200GM2YARNDYEDNES_IMPORT_PAK",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 3726454,
+      "name": "Commodity Imports - Cotton / Woven cotton nes, >85% >200g/m2, yarn dyed, nes - Pakistan",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T17:08:01Z",
+      "urlize_name": "Commodity-Imports-Cotton-Woven-cotton-nes-85-200g-m2-yarn-dyed-nes-Pakistan"
+    },
+    {
+      "code": "TRNG_CVTS3_59_56",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "CVTS2 and CVTS3 data were collected with reference year 1 1999 and 2005 and published by Eurostat in order to:\r\nProvide the Commission with harmonised, reliable and relevant statistical information needed to define, implement, monitor and evaluate Commission policies in the continuing vocational training in enterprises sector.\r\nProvide the EU institutions, national administrations, enterprises, professional associations and EU citizens with high quality statistical services and products in the field of training.\r\nCVTS3 provides comparable statistics on training enterprises, the participation to training, the volume of CVT courses and its costs, and moreover information on Initial vocational training (IVT) courses.\r\nCVTS2 provides comparable statistical results on training and non-training enterprises, the supply of and the demand for vocational skills, the need for CVT and the forms, content and volume of CVT, the use of enterprises' own training resources and of external providers, and the cost of CVT courses.\r\nThe CVTS1 was the first survey on continuing vocational training in enterprises carried out on the EU level in a co-ordinated form (outline questionnaire, common definitions, and common recommendations with the respect to the fieldwork). The survey therefore was of pioneering nature, and is not any longer disseminated.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_cvts_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_cvts3_59.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 557341,
+      "name": "Structure of costs of CVT courses per employee in enterprises with CVT courses PPS  : Purchasing Power Standard (PPS) : European Union : Contributions to collective funding arrangements",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2012-11-16T00:42:25Z",
+      "urlize_name": "Structure-of-costs-of-CVT-courses-per-employee-in-enterprises-with-CVT-courses-PPS-Purchasing-Power-Standard-PPS-European-Union-Contributions-to-collective-funding-arrangements"
+    },
+    {
+      "code": "172_000801455_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=172",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 8312365,
+      "name": "Annual accounts, base 1995 - TFO - Net incurrence of liabilities incurred - F792 - Accounts adjustments - Credited sector: S121 - Central bank - Value in current euros - Stopped series",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T15:19:27Z",
+      "urlize_name": "Annual-accounts-base-1995-TFO-Net-incurrence-of-liabilities-incurred-F792-Accounts-adjustments-Credited-sector-S121-Central-bank-Value-in-current-euros-Stopped-series"
+    },
+    {
+      "code": "POP_46_ESP_BTH_TOT_65TO69",
+      "column_names": [
+        "Year",
+        "Total",
+        "Housing units",
+        "Collective living quarters"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 2578866,
+      "name": "Population by Living Arrangements - Both Sexes / Age 65 to 69 / Total Areas - Spain",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T16:16:44Z",
+      "urlize_name": "Population-by-Living-Arrangements-Both-Sexes-Age-65-to-69-Total-Areas-Spain"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_EG_BTU_58023_NG_ST_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.58023-NG-ST.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.58023-NG-ST.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2012-12-31",
+      "id": 5100953,
+      "name": "Electric Fuel Consumption Mmbtus : Evergreen Community Power : Natural Gas : Steam Turbine : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T19:31:51Z",
+      "urlize_name": "Electric-Fuel-Consumption-Mmbtus-Evergreen-Community-Power-Natural-Gas-Steam-Turbine-Annual"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_EG_BTU_6088_NG_GT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.6088-NG-GT.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.6088-NG-GT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5100969,
+      "name": "Electric Fuel Consumption Mmbtus : North Loop : Natural Gas : Combustion (gas) Turbine (including Jet Engine Design) : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T00:31:08Z",
+      "urlize_name": "Electric-Fuel-Consumption-Mmbtus-North-Loop-Natural-Gas-Combustion-gas-Turbine-including-Jet-Engine-Design-Annual"
+    },
+    {
+      "code": "COMM_29_HYPOCHLORITESNESCHLORITESHYPOBROMITESOFMETALS_EXPORT_GEO",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 3154158,
+      "name": "Commodity Exports - Inorganic Chemicals, Precious Metal Compound, Isotope / Hypochlorites nes, chlorites & hypobromites of metals - Georgia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T17:00:47Z",
+      "urlize_name": "Commodity-Exports-Inorganic-Chemicals-Precious-Metal-Compound-Isotope-Hypochlorites-nes-chlorites-hypobromites-of-metals-Georgia"
+    },
+    {
+      "code": "COMM_4_AQUATICINVERTEBRATESNESFRESHORCHILLEDLIVE_IMPORT_KIR",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 2791538,
+      "name": "Commodity Imports - Fish, Crustaceans, Molluscs, Aquatic Invertebrates Ne / Aquatic invertebrates nes, fresh or chilled, live - Kiribati",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "1996-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T15:19:27Z",
+      "urlize_name": "Commodity-Imports-Fish-Crustaceans-Molluscs-Aquatic-Invertebrates-Ne-Aquatic-invertebrates-nes-fresh-or-chilled-live-Kiribati"
+    },
+    {
+      "code": "COMM_63_WOMENSGIRLSBLOUSESSHIRTSMATERIALNESNOTKNI_IMPORT_CHL",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 3901287,
+      "name": "Commodity Imports - Articles Of Apparel, Accessories, Not Knit Or Crochet / Womens, girls blouses & shirts, material nes, not kni - Chile",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-04-15T03:28:02Z",
+      "urlize_name": "Commodity-Imports-Articles-Of-Apparel-Accessories-Not-Knit-Or-Crochet-Womens-girls-blouses-shirts-material-nes-not-kni-Chile"
+    },
+    {
+      "code": "HSW_AW_WE2_123",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The harmonised data on accidents at work are collected in the framework of the European Statistics on Accidents at Work (ESAW), on the basis of a methodology developed in 1990.\r\nThe data refer to accidents at work resulting in more than 3 days' absence from work (serious accidents) and fatal accidents. A fatal accident is defined as an accident which leads to the death of a victim within one year of the accident.\r\nThe indicators used are the number and incidence rate of serious and fatal accidents at work.\r\nThe incidence rate of serious accidents at work is the number of persons involved in accidents at work with more than 3 days' absence per 100,000 persons in employment.\r\nThe incidence rate of fatal accidents at work is the number of persons with fatal accidents at work per 100,000 persons in employment.\r\nThe national ESAW sources are the declarations of accidents at work, either to the public (Social Security) or private specific insurance for accidents at work, or to other relevant national authority (Labour Inspection, etc.) for countries having a \"universal\" Social Security system. For the Netherlands only survey data are available for the non-fatal accidents at work (a special module in the national labour force survey).\r\nSector coverage:\r\nIn general the private sector is covered by all national reporting systems. However some important sectors are not covered by all Member States. The specification of sectors is given according to the NACE classification (NACE = Nomenclature statistique des activités économiques dans la Communauté européenne).\r\nThe incidence rate is calculated for the total of the so-called 9 common branches (See point 3.6).\r\nFor a structured metadata overview on variables, coverage of sectors and professional status please see also the annex Metadata_overview_2007.\r\nStatistical adjustments:\r\nBecause the frequency of work accidents is higher in some branches (high-risk sectors), an adjustment is performed to get more standardised incidence rates. For more details, please see the summary methodology (link at the bottom of the page).\r\nGeographical coverage:\r\nFor accidents at work, data are available for all old EU-Member States (EU 15) and Norway. The methodology has also been implemented in the New Member States and Switzerland with first data being available for the reference year 2004.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/hsw_acc7_work_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fhsw_aw_we2.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 720027,
+      "name": "Incidence rate of accidents at work by working environment economic activity sex age and severity  : European Union : Fatal accident : Total : Total : Total : Health establishment",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T05:23:29Z",
+      "urlize_name": "Incidence-rate-of-accidents-at-work-by-working-environment-economic-activity-sex-age-and-severity-European-Union-Fatal-accident-Total-Total-Total-Health-establishment"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "SNB",
+      "datasets_count": 39406,
+      "description": "No description for this source yet",
+      "host": "www.snb.ch",
+      "id": 615,
+      "name": "Swiss National Bank"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    }
+  ],
+  "total_count": 9990700
+}

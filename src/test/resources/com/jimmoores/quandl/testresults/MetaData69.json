@@ -1,0 +1,415 @@
+{
+  "current_page": 66084,
+  "docs": [
+    {
+      "code": "MCOUNTY_MEDIANLISTINGPRICE_ALLHOMES_VEGABAJAPR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7478618,
+      "name": "Zillow Metrics (Counties): Median List Price - Vega Baja, PR",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Metrics-Counties-Median-List-Price-Vega-Baja-PR"
+    },
+    {
+      "code": "MHOOD_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_SIERRASPRINGSSANANTONIOTX",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7528811,
+      "name": "Zillow Metrics (Neighborhoods): Listings with Price Cuts (%) - Sierra Springs,San Antonio,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Listings-with-Price-Cuts-Sierra-Springs-San-Antonio-TX"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESINCREASINGINVALUES_ALLHOMES_NORTHEASTTOWNSHIPPA",
+      "column_names": [
+        "Date",
+        "North East Township"
+      ],
+      "description": "The percentage of homes whose values have increased in the past year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesIncreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-03-31",
+      "id": 7137750,
+      "name": "Zillow Metrics (Cities): Increasing Values (%) - North East Township, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Metrics-Cities-Increasing-Values-North-East-Township-PA"
+    },
+    {
+      "code": "ZIP_MIDDLETIER_76093",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the zip code of 76093, Rio Vista, TX. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6818058,
+      "name": "Zillow Home Value Index (Zip Codes): Middle Tier Homes - 76093,Rio Vista,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Middle-Tier-Homes-76093-Rio-Vista-TX"
+    },
+    {
+      "code": "RHOOD_ZRI_ALLHOMES_MITCHELLBOULEVARDFORTWORTHTX",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the neighborhood of Mitchell Boulevard, Fort Worth, TX. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-11-30",
+      "id": 7492513,
+      "name": "Zillow Rent Index (Neighborhoods): Rentals All Homes - Mitchell Boulevard,Fort Worth,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Rent-Index-Neighborhoods-Rentals-All-Homes-Mitchell-Boulevard-Fort-Worth-TX"
+    },
+    {
+      "code": "ZIP_MIDDLETIER_96779",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the zip code of 96779, Paia, HI. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6816983,
+      "name": "Zillow Home Value Index (Zip Codes): Middle Tier Homes - 96779,Paia,HI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Middle-Tier-Homes-96779-Paia-HI"
+    },
+    {
+      "code": "COUNTY_2BEDROOM_TAZEWELLIL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of two bedroom homes within the county of Tazewell, IL. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_Zhvi_2bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7114616,
+      "name": "Zillow Home Value Index (Counties): Two Bedroom Homes - Tazewell, IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Home-Value-Index-Counties-Two-Bedroom-Homes-Tazewell-IL"
+    },
+    {
+      "code": "HOOD_SINGLEFAMILYRESIDENCE_THORPEWESTWOODSPOKANEWA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the neighborhood of Thorpe-Westwood, Spokane, WA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6785402,
+      "name": "Zillow Home Value Index (Neighborhoods): Single Family Residences - Thorpe-Westwood,Spokane,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Single-Family-Residences-Thorpe-Westwood-Spokane-WA"
+    },
+    {
+      "code": "CITY_CONDOMINUM_LIBERTYLAKEWA",
+      "column_names": [
+        "Date",
+        "Liberty Lake"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of condominiums within the city of Liberty Lake, WA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_Condominum.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7073160,
+      "name": "Zillow Home Value Index (Cities): Condominiums - Liberty Lake, WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Condominiums-Liberty-Lake-WA"
+    },
+    {
+      "code": "MHOOD_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_LINKHORNPARKVIRGINIABEACHVA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2002-08-31",
+      "id": 6920776,
+      "name": "Zillow Metrics (Neighborhoods): Decreasing Values (%) - Linkhorn Park,Virginia Beach,VA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Decreasing-Values-Linkhorn-Park-Virginia-Beach-VA"
+    },
+    {
+      "code": "MHOOD_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_EASTLAKECOLUMBIASC",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7531386,
+      "name": "Zillow Metrics (Neighborhoods): Listings with Price Cuts (%) - East Lake,Columbia,SC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Listings-with-Price-Cuts-East-Lake-Columbia-SC"
+    },
+    {
+      "code": "ZIP_MIDDLETIER_34681",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the zip code of 34681, Palm Harbor, FL. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6818188,
+      "name": "Zillow Home Value Index (Zip Codes): Middle Tier Homes - 34681,Palm Harbor,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Middle-Tier-Homes-34681-Palm-Harbor-FL"
+    },
+    {
+      "code": "RHOOD_ZRIPERSQFT_ALLHOMES_HIGHLANDSJACKSONVILLEFL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the neighborhood of Highlands, Jacksonville, FL. This is derived by taking the estimated rent price for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_ZriPerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-11-30",
+      "id": 6857543,
+      "name": "Zillow Rent Index (Neighborhoods): Rentals ZRI Per Sq. Ft. (All Homes) - Highlands,Jacksonville,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Rent-Index-Neighborhoods-Rentals-ZRI-Per-Sq-Ft-All-Homes-Highlands-Jacksonville-FL"
+    },
+    {
+      "code": "CITY_5BEDROOMORMORE_JOHNSCREEKGA",
+      "column_names": [
+        "Date",
+        "Johns Creek"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of five or more bedroom homes within the city of Johns Creek, GA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_5BedroomOrMore.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7030907,
+      "name": "Zillow Home Value Index (Cities): Five or More Bedroom Homes - Johns Creek, GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Five-or-More-Bedroom-Homes-Johns-Creek-GA"
+    },
+    {
+      "code": "MCOUNTY_MEDIANLISTINGPRICE_ALLHOMES_CHISAGOMN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 6880996,
+      "name": "Zillow Metrics (Counties): Median List Price - Chisago, MN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:50Z",
+      "urlize_name": "Zillow-Metrics-Counties-Median-List-Price-Chisago-MN"
+    },
+    {
+      "code": "MHOOD_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_INTERLAKEBELLEVUEWA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 6925201,
+      "name": "Zillow Metrics (Neighborhoods): Listings with Price Cuts (%) - Interlake,Bellevue,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Listings-with-Price-Cuts-Interlake-Bellevue-WA"
+    },
+    {
+      "code": "HOOD_ALLHOMES_WESTMEADENASHVILLETN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the neighborhood of West Meade, Nashville, TN. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6739261,
+      "name": "Zillow Home Value Index (Neighborhoods): All Homes - West Meade,Nashville,TN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:49Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-All-Homes-West-Meade-Nashville-TN"
+    },
+    {
+      "code": "RHOOD_ZRIPERSQFT_ALLHOMES_OLDETORRANCETORRANCECA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the neighborhood of Olde Torrance, Torrance, CA. This is derived by taking the estimated rent price for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_ZriPerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-11-30",
+      "id": 6857413,
+      "name": "Zillow Rent Index (Neighborhoods): Rentals ZRI Per Sq. Ft. (All Homes) - Olde Torrance,Torrance,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:50Z",
+      "urlize_name": "Zillow-Rent-Index-Neighborhoods-Rentals-ZRI-Per-Sq-Ft-All-Homes-Olde-Torrance-Torrance-CA"
+    },
+    {
+      "code": "RHOOD_MEDIANRENTALPRICE_ALLHOMES_PARKMANORCHICAGOIL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the rental price for homes listed for rent on Zillow within the neighborhood of Park Manor, Chicago, IL. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_MedianRentalPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 7500409,
+      "name": "Zillow Rent Index (Neighborhoods): Rentals Median Price (All Homes) - Park Manor,Chicago,IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:50Z",
+      "urlize_name": "Zillow-Rent-Index-Neighborhoods-Rentals-Median-Price-All-Homes-Park-Manor-Chicago-IL"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESINCREASINGINVALUES_ALLHOMES_BETHELTOWNSHIPPA",
+      "column_names": [
+        "Date",
+        "Bethel Township"
+      ],
+      "description": "The percentage of homes whose values have increased in the past year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesIncreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2002-08-31",
+      "id": 7140720,
+      "name": "Zillow Metrics (Cities): Increasing Values (%) - Bethel Township, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:25:50Z",
+      "urlize_name": "Zillow-Metrics-Cities-Increasing-Values-Bethel-Township-PA"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "ZILLOW",
+    "datasets_count": 216313,
+    "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+    "host": "files.zillowstatic.com",
+    "id": 797,
+    "name": "Zillow Real Estate Research"
+  }],
+  "total_count": 10006019
+}

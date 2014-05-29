@@ -1,0 +1,415 @@
+{
+  "current_page": 86454,
+  "docs": [
+    {
+      "code": "CITY_MIDDLETIER_SWANSEAMA",
+      "column_names": [
+        "Date",
+        "Swansea"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the city of Swansea, MA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7045967,
+      "name": "Zillow Home Value Index (Cities): Middle Tier - Swansea, MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:10Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Middle-Tier-Swansea-MA"
+    },
+    {
+      "code": "CITY_MIDDLETIER_DENNISONTOWNSHIPPA",
+      "column_names": [
+        "Date",
+        "Dennison Township"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the city of Dennison Township, PA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-06-30",
+      "id": 7054638,
+      "name": "Zillow Home Value Index (Cities): Middle Tier - Dennison Township, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:10Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Middle-Tier-Dennison-Township-PA"
+    },
+    {
+      "code": "CITY_MIDDLETIER_WYOMINGMI",
+      "column_names": [
+        "Date",
+        "Wyoming"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the city of Wyoming, MI. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7043271,
+      "name": "Zillow Home Value Index (Cities): Middle Tier - Wyoming, MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:10Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Middle-Tier-Wyoming-MI"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_TEQUESTAFL",
+      "column_names": [
+        "Date",
+        "Tequesta"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Tequesta, FL. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6972952,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Tequesta, FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:10Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Tequesta-FL"
+    },
+    {
+      "code": "ZIP_5BEDROOMORMORE_19074",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of five or more bedroom homes within the zip code of 19074, Norwood, PA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_5BedroomOrMore.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6803868,
+      "name": "Zillow Home Value Index (Zip Codes): Five or More Bedroom Homes - 19074,Norwood,PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:10Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Five-or-More-Bedroom-Homes-19074-Norwood-PA"
+    },
+    {
+      "code": "ZIP_5BEDROOMORMORE_73162",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of five or more bedroom homes within the zip code of 73162, Oklahoma City, OK. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_5BedroomOrMore.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6801585,
+      "name": "Zillow Home Value Index (Zip Codes): Five or More Bedroom Homes - 73162,Oklahoma City,OK",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:10Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Five-or-More-Bedroom-Homes-73162-Oklahoma-City-OK"
+    },
+    {
+      "code": "CITY_MIDDLETIER_GREENWOODLAKENY",
+      "column_names": [
+        "Date",
+        "Greenwood Lake"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the city of Greenwood Lake, NY. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7052102,
+      "name": "Zillow Home Value Index (Cities): Middle Tier - Greenwood Lake, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Middle-Tier-Greenwood-Lake-NY"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_OLIVAREZTX",
+      "column_names": [
+        "Date",
+        "Olivarez"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Olivarez, TX. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6981579,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Olivarez, TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Olivarez-TX"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_AMERICANCANYONCA",
+      "column_names": [
+        "Date",
+        "American Canyon"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of American Canyon, CA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6966194,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - American Canyon, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-American-Canyon-CA"
+    },
+    {
+      "code": "ZIP_5BEDROOMORMORE_23324",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of five or more bedroom homes within the zip code of 23324, Chesapeake, VA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_5BedroomOrMore.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6802315,
+      "name": "Zillow Home Value Index (Zip Codes): Five or More Bedroom Homes - 23324,Chesapeake,VA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Five-or-More-Bedroom-Homes-23324-Chesapeake-VA"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_SALINASCA",
+      "column_names": [
+        "Date",
+        "Salinas"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Salinas, CA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6959680,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Salinas, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Salinas-CA"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_MISSIONKS",
+      "column_names": [
+        "Date",
+        "Mission"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Mission, KS. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6971259,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Mission, KS",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Mission-KS"
+    },
+    {
+      "code": "CITY_MIDDLETIER_LAKESIDEAZ",
+      "column_names": [
+        "Date",
+        "Lakeside"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the city of Lakeside, AZ. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7048611,
+      "name": "Zillow Home Value Index (Cities): Middle Tier - Lakeside, AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Middle-Tier-Lakeside-AZ"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_SAINTLEONARDMD",
+      "column_names": [
+        "Date",
+        "Saint Leonard"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Saint Leonard, MD. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6973564,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Saint Leonard, MD",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Saint-Leonard-MD"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_BURLINGTONWA",
+      "column_names": [
+        "Date",
+        "Burlington"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Burlington, WA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6969168,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Burlington, WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Burlington-WA"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_CUMMINGGA",
+      "column_names": [
+        "Date",
+        "Cumming"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Cumming, GA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6959834,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Cumming, GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Cumming-GA"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_MULGAAL",
+      "column_names": [
+        "Date",
+        "Mulga"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Mulga, AL. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6988340,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Mulga, AL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Mulga-AL"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_GRAYSVILLEAL",
+      "column_names": [
+        "Date",
+        "Graysville"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Graysville, AL. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6981875,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Graysville, AL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Graysville-AL"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_SOMERSETMD",
+      "column_names": [
+        "Date",
+        "Somerset"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Somerset, MD. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6984490,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Somerset, MD",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Somerset-MD"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_BENDOR",
+      "column_names": [
+        "Date",
+        "Bend"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Bend, OR. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6960080,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Bend, OR",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:24:11Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Bend-OR"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "ZILLOW",
+    "datasets_count": 216313,
+    "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+    "host": "files.zillowstatic.com",
+    "id": 797,
+    "name": "Zillow Real Estate Research"
+  }],
+  "total_count": 10006019
+}

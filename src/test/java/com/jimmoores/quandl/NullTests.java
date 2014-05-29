@@ -133,7 +133,7 @@ public class NullTests {
 
   @Test(expectedExceptions = QuandlRuntimeException.class)
   public final void testSearchRequest() {
-    SearchRequest.of(null);
+    SearchRequest.Builder.of(null).build();
   }
   
   @Test(expectedExceptions = QuandlRuntimeException.class)

@@ -1,0 +1,493 @@
+{
+  "current_page": 349749,
+  "docs": [
+    {
+      "code": "COMM_9_CHERRIESPROVISIONALLYPRESERVED_IMPORT_BHS",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1997-12-31",
+      "id": 2873024,
+      "name": "Commodity Imports - Edible Fruit, Nuts, Peel Of Citrus Fruit, Melons / Cherries provisionally preserved - Bahamas",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-09-10T02:14:37Z",
+      "urlize_name": "Commodity-Imports-Edible-Fruit-Nuts-Peel-Of-Citrus-Fruit-Melons-Cherries-provisionally-preserved-Bahamas"
+    },
+    {
+      "code": "COMM_62_MENSBOYSTROUSERSSHORTSOFMATERIALNESKNIT_IMPORT_LCA",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 3864825,
+      "name": "Commodity Imports - Articles Of Apparel, Accessories, Knit Or Crochet / Mens, boys trousers & shorts, of material nes, knit - Saint Lucia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T03:55:47Z",
+      "urlize_name": "Commodity-Imports-Articles-Of-Apparel-Accessories-Knit-Or-Crochet-Mens-boys-trousers-shorts-of-material-nes-knit-Saint-Lucia"
+    },
+    {
+      "code": "OEUN000000011520043305101",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Statistic: Employment; Occupation: Payroll and Timekeeping Clerks; Industry: Support Activities for Animal Production; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000011520043305101",
+      "frequency": "monthly",
+      "from_date": "2012-06-30",
+      "id": 8950131,
+      "name": "Employment for Payroll and Timekeeping Clerks in Support Activities for Animal Production in National",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2013-11-15T15:49:27Z",
+      "urlize_name": "Employment-for-Payroll-and-Timekeeping-Clerks-in-Support-Activities-for-Animal-Production-in-National"
+    },
+    {
+      "code": "COMM_82_HANDSAWS_EXPORT_DMA",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 4374192,
+      "name": "Commodity Exports - Tools, Implements, Cutlery, Etc Of Base Metal / Hand saws - Dominica",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T15:27:16Z",
+      "urlize_name": "Commodity-Exports-Tools-Implements-Cutlery-Etc-Of-Base-Metal-Hand-saws-Dominica"
+    },
+    {
+      "code": "NCU7599692002311",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Accountants and auditors; Skills: Level 11 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU7599692002311",
+      "frequency": "annual",
+      "from_date": "2003-07-31",
+      "id": 9232083,
+      "name": "Compensation for Accountants and auditors in Level 11",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-07-31",
+      "type": null,
+      "updated_at": "2013-11-18T19:46:07Z",
+      "urlize_name": "Compensation-for-Accountants-and-auditors-in-Level-11"
+    },
+    {
+      "code": "192_000656257_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=192",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 8018443,
+      "name": "Effective households' consumption, base 1995 - Value in current euro of 1995 - Product: F55.M - Metal items n.e.c. - Stopped series",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T12:05:29Z",
+      "urlize_name": "Effective-households-consumption-base-1995-Value-in-current-euro-of-1995-Product-F55-M-Metal-items-n-e-c-Stopped-series"
+    },
+    {
+      "code": "POP_22_SWZ_BTH_URB_51",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "1981-12-31",
+      "id": 2924124,
+      "name": "Population - Both Sexes / Age 51 / Urban Areas - Swaziland",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T16:21:01Z",
+      "urlize_name": "Population-Both-Sexes-Age-51-Urban-Areas-Swaziland"
+    },
+    {
+      "code": "UNE_SEX_AGE_DUR_NB_SEX_F_AGE_10YEARSBAND_25_34_DUR_UNE_0_5_CRI",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 6232657,
+      "name": "Unemployment By Sex, Age And Duration, Female, 25-34, Less Than 6 Months - Costa Rica",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-20T07:14:05Z",
+      "urlize_name": "Unemployment-By-Sex-Age-And-Duration-Female-25-34-Less-Than-6-Months-Costa-Rica"
+    },
+    {
+      "code": "NCU0406122237804",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Bill and account collectors; Skills: Level 04 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU0406122237804",
+      "frequency": "monthly",
+      "from_date": "2002-09-30",
+      "id": 9017287,
+      "name": "Compensation for Bill and account collectors in Level 04",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2002-09-30",
+      "type": null,
+      "updated_at": "2013-11-15T03:57:23Z",
+      "urlize_name": "Compensation-for-Bill-and-account-collectors-in-Level-04"
+    },
+    {
+      "code": "172_000813897_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=172",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 8310895,
+      "name": "Annual accounts, base 1995 - TFO - Other volume changes and adjustments - F7 - Other accounts receivable and payable - Debited sector: S1 - All resident sectors - Value in current euros - Stopped series",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T19:44:51Z",
+      "urlize_name": "Annual-accounts-base-1995-TFO-Other-volume-changes-and-adjustments-F7-Other-accounts-receivable-and-payable-Debited-sector-S1-All-resident-sectors-Value-in-current-euros-Stopped-series"
+    },
+    {
+      "code": "DDSM01KEA066NWDB",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Index Not Seasonally Adjusted, Volatility of stock price index is the 360-day standard deviation of the return on the national stock market index. (Bloomberg)  Source Code: GFDD.SM.01 ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/DDSM01KEA066NWDB.csv",
+      "frequency": "annual",
+      "from_date": "1992-01-01",
+      "id": 8519304,
+      "name": "Volatility of Stock Price Index for Kenya",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2011-01-01",
+      "type": null,
+      "updated_at": "2014-01-11T14:08:47Z",
+      "urlize_name": "Volatility-of-Stock-Price-Index-for-Kenya"
+    },
+    {
+      "code": "OEUN000000052200043405101",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Statistic: Employment; Occupation: Customer Service Representatives; Industry: Credit Intermediation and Related Activities; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000052200043405101",
+      "frequency": "annual",
+      "from_date": "2012-06-30",
+      "id": 9121224,
+      "name": "Employment for Customer Service Representatives in Credit Intermediation and Related Activities in National",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2013-11-16T20:38:01Z",
+      "urlize_name": "Employment-for-Customer-Service-Representatives-in-Credit-Intermediation-and-Related-Activities-in-National"
+    },
+    {
+      "code": "IIUINF51100062125",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Number of injury and illness cases (thousands); Case type: Cases involving days away from work, job restriction, or transfer; Industry: Publishing industries (except Internet); Supersector: Information; Area: Private industry, Massachusetts; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUINF51100062125",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 9254385,
+      "name": "Number of injury and illness cases (thousands) for Publishing industries (except Internet), Private industry, Massachusetts",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-11-20T11:18:53Z",
+      "urlize_name": "Number-of-injury-and-illness-cases-thousands-for-Publishing-industries-except-Internet-Private-industry-Massachusetts"
+    },
+    {
+      "code": "1342_001642104_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Euros, Power=9. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1342",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 8007986,
+      "name": "Annual national accounts (base 2005) - Taxes less subsidies on products - Total institutional sectors - Forestry and logging - Current price",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T11:58:30Z",
+      "urlize_name": "Annual-national-accounts-base-2005-Taxes-less-subsidies-on-products-Total-institutional-sectors-Forestry-and-logging-Current-price"
+    },
+    {
+      "code": "FAO_5500OCEANIATOTAL2535YAMS",
+      "column_names": [
+        "Year",
+        "Production Quantity (1000 tonnes)",
+        "Import Quantity (1000 tonnes)",
+        "Export Quantity (1000 tonnes)",
+        "Domestic supply quantity (1000 tonnes)",
+        "Feed (1000 tonnes)",
+        "Waste (1000 tonnes)",
+        "Food (1000 tonnes)",
+        "Food supply quantity (kg/capita/yr) (Kg)",
+        "Food supply (kcal/capita/day) (kcal/capita/day)",
+        "Protein supply quantity (g/capita/day) (g/capita/day)",
+        "Fat supply quantity (g/capita/day) (g/capita/day)"
+      ],
+      "description": "A food balance sheet presents a comprehensive picture of the pattern of a country's food supply during a specified reference period. The food balance sheet shows for each food item i.e. each primary commodity availablity for human consumption which corresponds to the sources of supply and its utilisation. The total quantity of foodstuffs produced in a country added to the total quantity imported and adjusted to any change in stocks that may have occurred since the beginning of the reference period gives the supply available during that period. On the utilisation side a distinction is made between the quantities exported, fed to livestock + used for seed, losses during storage and transportation, and food supplies available for human consumption. The per capita supply of each such food item available for human consumption is then obtained by dividing the respective quantity by the related data on the population actually partaking in it. Data on per capita food supplies are expressed in terms of quantity and by applying appropriate food composition factors for all primary and processed products also in terms of dietary energy value, protein and fat content.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/FoodBalanceSheets_E_All_Area_Groups_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7788787,
+      "name": "Food Balance Sheets: Yams - Oceania + (Total)",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T03:58:31Z",
+      "urlize_name": "Food-Balance-Sheets-Yams-Oceania-Total"
+    },
+    {
+      "code": "COMM_93_SHOTGUNSSHOTGUNRIFLESFORSPORTHUNTINGORTARGET_IMPORT_GUY",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5865367,
+      "name": "Commodity Imports - Arms And Ammunition, Parts And Accessories Thereof / Shotguns, shotgun-rifles for sport, hunting or target - Guyana",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T03:55:47Z",
+      "urlize_name": "Commodity-Imports-Arms-And-Ammunition-Parts-And-Accessories-Thereof-Shotguns-shotgun-rifles-for-sport-hunting-or-target-Guyana"
+    },
+    {
+      "code": "1342_001617617_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Euros of 2005, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1342",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 8006668,
+      "name": "Annual national accounts (base 2005) - Total use of goods (S/U balances) - Total instit. sect. - Woodwork - Manufacture of wood, products of wood and cork (except furniture), basketware and wickerwork - Chained base year price (unbalanced)",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T11:58:30Z",
+      "urlize_name": "Annual-national-accounts-base-2005-Total-use-of-goods-S-U-balances-Total-instit-sect-Woodwork-Manufacture-of-wood-products-of-wood-and-cork-except-furniture-basketware-and-wickerwork-Chained-base-year-price-unbalanced"
+    },
+    {
+      "code": "COMM_41_FLOORCOVERINGSMATSOFRUBBEREXCEPTCELLULARHARD_EXPORT_PAN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 3631480,
+      "name": "Commodity Exports - Rubber And Articles Thereof / Floor coverings, mats of rubber except cellular, hard - Panama",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T03:58:31Z",
+      "urlize_name": "Commodity-Exports-Rubber-And-Articles-Thereof-Floor-coverings-mats-of-rubber-except-cellular-hard-Panama"
+    },
+    {
+      "code": "HEALTH_STAT_PLYLHARM_ANNTOTTX_FIN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The database includes key indicators covering Health status, Health resources and utilisation: Life expectancy, Maternal and infant mortality, Health employment, In-patient beds, Medical technology, Immunisation, Average length of stay, Discharges, Surgical procedures, and Transplants and dialyses. Indicators on Health expenditure include Total expenditure on health, Prevention and public health, Expenditure on in-patient care, Expenditure on out-patient care, Expenditure on home care, Pharmaceuticals and other medical non-durables, Therapeutic appliances and other medical durables, Current health expenditure by provider, along with data on Health expenditure by financing agent/scheme. More info at http://stats.oecd.org/wbos/fileview2.aspx?IDFile=9dc6e690-fa1d-40fa-a279-b726e2616433.",
+      "display_url": "http://stats.oecd.org/restsdmx/sdmx.ashx/GetData/HEALTH_STAT/PLYLHARM.ANNTOTTX.FIN/OECD?startTime=1986&endTime=2020",
+      "frequency": "annual",
+      "from_date": "1986-12-31",
+      "id": 1976617,
+      "name": "Finland Potential Years Of Life Lost - Intentional Self-harm Years Lost /100 000 Population Aged 0-69 Years Old",
+      "private": false,
+      "source_code": "OECD",
+      "source_name": "Organisation for Economic Co-operation and Development",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-09-06T21:31:17Z",
+      "urlize_name": "Finland-Potential-Years-Of-Life-Lost-Intentional-Self-harm-Years-Lost-100-000-Population-Aged-0-69-Years-Old"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_BTU_7130_DFO_GT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.7130-DFO-GT.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.7130-DFO-GT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4995389,
+      "name": "Fuel Consumption Mmbtus : Puna : Distillate Fuel Oil : Combustion (gas) Turbine (including Jet Engine Design) : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T22:07:10Z",
+      "urlize_name": "Fuel-Consumption-Mmbtus-Puna-Distillate-Fuel-Oil-Combustion-gas-Turbine-including-Jet-Engine-Design-Annual"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ILO",
+      "datasets_count": 228980,
+      "description": "No description for this source yet",
+      "host": "www.ilo.org",
+      "id": 686,
+      "name": "International Labour Organization"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
+    },
+    {
+      "code": "OECD",
+      "datasets_count": 28293,
+      "description": "No description for this source yet",
+      "host": "stats.oecd.org",
+      "id": 240,
+      "name": "Organisation for Economic Co-operation and Development"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "FRED",
+      "datasets_count": 60949,
+      "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
+      "host": "www.research.stlouisfed.org",
+      "id": 118,
+      "name": "Federal Reserve Economic Data"
+    }
+  ],
+  "total_count": 10006019
+}

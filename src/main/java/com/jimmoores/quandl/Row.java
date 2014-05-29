@@ -8,6 +8,7 @@ import org.threeten.bp.LocalDate;
 import org.threeten.bp.format.DateTimeFormatter;
 
 import com.jimmoores.quandl.util.ArgumentChecker;
+import com.jimmoores.quandl.util.QuandlRuntimeException;
 
 
 /**
@@ -23,7 +24,7 @@ public final class Row {
   private Row(final HeaderDefinition headerDefinition, final String[] values) {
     if (headerDefinition.size() != values.length) {
       s_logger.error("Attempt to create a Row with a header definition containing {} columns and a values array containing {} values", headerDefinition.size(), values.length);
-      throw new IllegalArgumentException("headerDefinition and values array are of differing length");
+      throw new QuandlRuntimeException("headerDefinition and values array are of differing length");
     }
     _headerDefinition = headerDefinition;
     _values = values;

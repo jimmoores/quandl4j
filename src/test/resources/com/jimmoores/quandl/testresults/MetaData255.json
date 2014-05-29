@@ -1,0 +1,24 @@
+{
+  "code": "USDA_LM_PK602_BONELESS_SIRLOIN",
+  "column_names": [
+    "Date",
+    "LBS",
+    "$ Low",
+    "$ High",
+    "$ WgtAvg"
+  ],
+  "description": "Daily total pounds, low price, high price and weighted average price from the USDA LM_PK602 report published by the USDA Agricultural Marketing Service (AMS). This dataset covers Loin Cuts - Boneless Sirloin. Historical figures from USDA can be verified using the LMR datamart located at http://mpr.datamart.ams.usda.gov.",
+  "display_url": "http://www.ams.usda.gov/mnreports/lm_pk602.txt",
+  "errors": {},
+  "frequency": "daily",
+  "from_date": "2013-01-07",
+  "id": 12210848,
+  "name": "Pork Loin Cuts - Boneless Sirloin",
+  "private": false,
+  "source_code": "BCARY",
+  "source_name": "Bill-Cary",
+  "to_date": "2014-05-28",
+  "type": null,
+  "updated_at": "2014-05-29T00:58:12Z",
+  "urlize_name": "Pork-Loin-Cuts-Boneless-Sirloin"
+}

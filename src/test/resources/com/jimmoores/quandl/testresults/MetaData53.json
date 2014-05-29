@@ -1,0 +1,415 @@
+{
+  "current_page": 80037,
+  "docs": [
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_11356",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7355199,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 11356,New York,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:33Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-11356-New-York-NY"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_99159",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7582163,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 99159,Odessa,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:33Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-99159-Odessa-WA"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_29838",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7584172,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 29838,Modoc,SC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:33Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-29838-Modoc-SC"
+    },
+    {
+      "code": "MZIP_MEDIANSOLDPRICE_ALLHOMES_33946",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7244490,
+      "name": "Zillow Metrics (Zip Codes): Median Sale Price - 33946, Port Charlotte, FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:33Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-33946-Port-Charlotte-FL"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_62613",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7578329,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 62613,Athens,IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:33Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-62613-Athens-IL"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_33413",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesSellingForGain_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-01-31",
+      "id": 7301801,
+      "name": "Zillow Metrics (Zip Codes): Sold for Gain (%) - 33413,Greenacres,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:33Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-for-Gain-33413-Greenacres-FL"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_54230",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7358207,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 54230,Reedsville,WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:33Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-54230-Reedsville-WI"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_95014",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7323414,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 95014,Cupertino,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:33Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-95014-Cupertino-CA"
+    },
+    {
+      "code": "MZIP_MEDIANSOLDPRICE_ALLHOMES_40207",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7234567,
+      "name": "Zillow Metrics (Zip Codes): Median Sale Price - 40207, Saint Matthews, KY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:33Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-40207-Saint-Matthews-KY"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_33014",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesSellingForGain_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-01-31",
+      "id": 7295383,
+      "name": "Zillow Metrics (Zip Codes): Sold for Gain (%) - 33014,Hialeah,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:33Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-for-Gain-33014-Hialeah-FL"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_63304",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7350062,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 63304,Weldon Spring,MO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:33Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-63304-Weldon-Spring-MO"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_70056",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesSellingForGain_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2004-01-31",
+      "id": 7295461,
+      "name": "Zillow Metrics (Zip Codes): Sold for Gain (%) - 70056,Gretna,LA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:34Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-for-Gain-70056-Gretna-LA"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_48122",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7356178,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 48122,Melvindale,MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:34Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-48122-Melvindale-MI"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_80017",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7351184,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 80017,Aurora,CO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:34Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-80017-Aurora-CO"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_40219",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesSellingForGain_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-01-31",
+      "id": 7295265,
+      "name": "Zillow Metrics (Zip Codes): Sold for Gain (%) - 40219,Okolona,KY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:34Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-for-Gain-40219-Okolona-KY"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_54175",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7581535,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 54175,Townsend,WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:34Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-54175-Townsend-WI"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_07605",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7460657,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 07605,Leonia,NJ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:34Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-07605-Leonia-NJ"
+    },
+    {
+      "code": "MZIP_MEDIANSOLDPRICE_ALLHOMES_54956",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2004-01-31",
+      "id": 7233346,
+      "name": "Zillow Metrics (Zip Codes): Median Sale Price - 54956, Town of Neenah, WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:34Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-54956-Town-of-Neenah-WI"
+    },
+    {
+      "code": "MZIP_MEDIANSOLDPRICE_ALLHOMES_30161",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2009-07-31",
+      "id": 7235255,
+      "name": "Zillow Metrics (Zip Codes): Median Sale Price - 30161, Rome, GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-02-28",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:34Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-30161-Rome-GA"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_45247",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7353582,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 45247,White Oak,OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:09:34Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-45247-White-Oak-OH"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "ZILLOW",
+    "datasets_count": 216313,
+    "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+    "host": "files.zillowstatic.com",
+    "id": 797,
+    "name": "Zillow Real Estate Research"
+  }],
+  "total_count": 10006019
+}

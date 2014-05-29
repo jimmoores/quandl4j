@@ -1,0 +1,437 @@
+{
+  "current_page": 414880,
+  "docs": [
+    {
+      "code": "CDXS_RESTRUCTURINGRESERVE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: RestructuringReserve",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2012-03-31",
+      "id": 11002883,
+      "name": "CODEXIS INC  (CDXS): Quarterly Restructuring Reserve",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:37Z",
+      "urlize_name": "CODEXIS-INC-CDXS-Quarterly-Restructuring-Reserve"
+    },
+    {
+      "code": "DISCB_OTHERCOMPREHENSIVEINCOMELOSSDERIVATIVESQUALIFYINGASHEDGESNETOFTAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossDerivativesQualifyingAsHedgesNetOfTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-12-31",
+      "id": 10699905,
+      "name": "Discovery Communications, Inc.  (DISCB): Annual Other Comprehensive Income Loss Derivatives Qualifying As Hedges Net Of Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:56Z",
+      "urlize_name": "Discovery-Communications-Inc-DISCB-Annual-Other-Comprehensive-Income-Loss-Derivatives-Qualifying-As-Hedges-Net-Of-Tax"
+    },
+    {
+      "code": "CDXS_RESTRUCTURINGRESERVEACCRUALADJUSTMENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: RestructuringReserveAccrualAdjustment",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-06-30",
+      "id": 11002887,
+      "name": "CODEXIS INC  (CDXS): Quarterly Restructuring Reserve Accrual Adjustment",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:39Z",
+      "urlize_name": "CODEXIS-INC-CDXS-Quarterly-Restructuring-Reserve-Accrual-Adjustment"
+    },
+    {
+      "code": "DISCB_OTHERCOMPREHENSIVEINCOMELOSSFOREIGNCURRENCYTRANSACTIONANDTRANSLATIONADJUSTMENTNETOFTAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-12-31",
+      "id": 10699907,
+      "name": "Discovery Communications, Inc.  (DISCB): Annual Other Comprehensive Income Loss Foreign Currency Transaction And Translation Adjustment Net Of Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:58Z",
+      "urlize_name": "Discovery-Communications-Inc-DISCB-Annual-Other-Comprehensive-Income-Loss-Foreign-Currency-Transaction-And-Translation-Adjustment-Net-Of-Tax"
+    },
+    {
+      "code": "SMU18000004244600001A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU18000004244600001A.csv",
+      "frequency": "annual",
+      "from_date": "1990-01-01",
+      "id": 11002891,
+      "name": "All Employees: Retail Trade: Health and Personal Care Stores in Indiana",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:58Z",
+      "urlize_name": "All-Employees-Retail-Trade-Health-and-Personal-Care-Stores-in-Indiana"
+    },
+    {
+      "code": "CDXS_RESTRUCTURINGRESERVESETTLEDWITHCASH_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: RestructuringReserveSettledWithCash",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-06-30",
+      "id": 11002890,
+      "name": "CODEXIS INC  (CDXS): Quarterly Restructuring Reserve Settled With Cash",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:40Z",
+      "urlize_name": "CODEXIS-INC-CDXS-Quarterly-Restructuring-Reserve-Settled-With-Cash"
+    },
+    {
+      "code": "SMU18000004244600001SA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Seasonally Adjusted, The Federal Reserve Bank of St. Louis seasonally adjusts this series by using the 'x12' package from R with default parameter settings. The package uses the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on the 'x12' package can be found at http://cran.r-project.org/web/packages/x12/x12.pdf. More information on X-12-ARIMA can be found at http://www.census.gov/srd/www/x12a/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU18000004244600001SA.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 11002892,
+      "name": "All Employees: Retail Trade: Health and Personal Care Stores in Indiana",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2013-12-01",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:59Z",
+      "urlize_name": "All-Employees-Retail-Trade-Health-and-Personal-Care-Stores-in-Indiana"
+    },
+    {
+      "code": "DISCB_OTHERCOMPREHENSIVEINCOMELOSSFOREIGNCURRENCYTRANSACTIONANDTRANSLATIONRECLASSIFICATIONADJUSTMENTREALIZEDUPONSALEORLIQUIDATIONBEFORETAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationReclassificationAdjustmentRealizedUponSaleOrLiquidationBeforeTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-12-31",
+      "id": 10699913,
+      "name": "Discovery Communications, Inc.  (DISCB): Annual Other Comprehensive Income Loss Foreign Currency Transaction And Translation Reclassification Adjustment Realized Upon Sale Or Liquidation Before Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:59Z",
+      "urlize_name": "Discovery-Communications-Inc-DISCB-Annual-Other-Comprehensive-Income-Loss-Foreign-Currency-Transaction-And-Translation-Reclassification-Adjustment-Realized-Upon-Sale-Or-Liquidation-Before-Tax"
+    },
+    {
+      "code": "SMU21000004244600001A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU21000004244600001A.csv",
+      "frequency": "annual",
+      "from_date": "2003-01-01",
+      "id": 11002896,
+      "name": "All Employees: Retail Trade: Health and Personal Care Stores in Kentucky",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-12T03:29:00Z",
+      "urlize_name": "All-Employees-Retail-Trade-Health-and-Personal-Care-Stores-in-Kentucky"
+    },
+    {
+      "code": "DISCB_OTHERCOMPREHENSIVEINCOMELOSSFOREIGNCURRENCYTRANSACTIONANDTRANSLATIONRECLASSIFICATIONADJUSTMENTREALIZEDUPONSALEORLIQUIDATIONNETOFTAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationReclassificationAdjustmentRealizedUponSaleOrLiquidationNetOfTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-12-31",
+      "id": 10699924,
+      "name": "Discovery Communications, Inc.  (DISCB): Annual Other Comprehensive Income Loss Foreign Currency Transaction And Translation Reclassification Adjustment Realized Upon Sale Or Liquidation Net Of Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:42Z",
+      "urlize_name": "Discovery-Communications-Inc-DISCB-Annual-Other-Comprehensive-Income-Loss-Foreign-Currency-Transaction-And-Translation-Reclassification-Adjustment-Realized-Upon-Sale-Or-Liquidation-Net-Of-Tax"
+    },
+    {
+      "code": "DISCB_OTHERCOMPREHENSIVEINCOMELOSSFOREIGNCURRENCYTRANSLATIONRECLASSIFICATIONADJUSTMENTREALIZEDUPONSALEORLIQUIDATIONTAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossForeignCurrencyTranslationReclassificationAdjustmentRealizedUponSaleOrLiquidationTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-12-31",
+      "id": 10699916,
+      "name": "Discovery Communications, Inc.  (DISCB): Annual Other Comprehensive Income Loss Foreign Currency Translation Reclassification Adjustment Realized Upon Sale Or Liquidation Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:44Z",
+      "urlize_name": "Discovery-Communications-Inc-DISCB-Annual-Other-Comprehensive-Income-Loss-Foreign-Currency-Translation-Reclassification-Adjustment-Realized-Upon-Sale-Or-Liquidation-Tax"
+    },
+    {
+      "code": "SMU32298204244600001A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU32298204244600001A.csv",
+      "frequency": "annual",
+      "from_date": "1990-01-01",
+      "id": 11002900,
+      "name": "All Employees: Retail Trade: Health and Personal Care Stores in Las Vegas-Paradise, NV (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:44Z",
+      "urlize_name": "All-Employees-Retail-Trade-Health-and-Personal-Care-Stores-in-Las-Vegas-Paradise-NV-MSA"
+    },
+    {
+      "code": "CDXS_REVENUERECOGNITIONMILESTONEMETHODREVENUERECOGNIZED_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: RevenueRecognitionMilestoneMethodRevenueRecognized",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-06-30",
+      "id": 11002629,
+      "name": "CODEXIS INC  (CDXS): Quarterly Revenue Recognition Milestone Method Revenue Recognized",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-09-30",
+      "type": null,
+      "updated_at": "2014-03-12T03:29:02Z",
+      "urlize_name": "CODEXIS-INC-CDXS-Quarterly-Revenue-Recognition-Milestone-Method-Revenue-Recognized"
+    },
+    {
+      "code": "DISCB_OTHERCOMPREHENSIVEINCOMELOSSNETOFTAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossNetOfTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-12-31",
+      "id": 10699917,
+      "name": "Discovery Communications, Inc.  (DISCB): Annual Other Comprehensive Income Loss Net Of Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-12T03:29:03Z",
+      "urlize_name": "Discovery-Communications-Inc-DISCB-Annual-Other-Comprehensive-Income-Loss-Net-Of-Tax"
+    },
+    {
+      "code": "SMU06310844244600001A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU06310844244600001A.csv",
+      "frequency": "annual",
+      "from_date": "1990-01-01",
+      "id": 11002904,
+      "name": "All Employees: Retail Trade: Health and Personal Care Stores in Los Angeles-Long Beach-Glendale, CA (MD)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-12T03:29:04Z",
+      "urlize_name": "All-Employees-Retail-Trade-Health-and-Personal-Care-Stores-in-Los-Angeles-Long-Beach-Glendale-CA-MD"
+    },
+    {
+      "code": "EPA_MLWIN",
+      "column_names": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "description": "China Mowin Holding Ltd is a Hong Kong-based holding company, which controls activities of Shenzhen Winhi Technology, a Chinese company engaged in the field of mobile telephony. Through its Software as a Service (SaaS) platform, Winhi Technology offers a range of tools and such services as the development and management of Wireless Application Protocol (WAP) portals and clients' databases. It is also authorized to register domain names and keywords in the Central Domain Name Data Base. In addition, Winhi technology promotes 12580 hotline Chinese number, a telephone directory of businesses.",
+      "display_url": "https://www.google.com/finance/historical?q=EPA%3AMLWIN&ei=VHF6UoCyGYW4rQGEHw&start=GOINDEX&num=30",
+      "frequency": "daily",
+      "from_date": "2014-02-14",
+      "id": 10938017,
+      "name": "China Mowin Holding Ltd (MLWIN)",
+      "private": false,
+      "source_code": "GOOG",
+      "source_name": "Google Finance",
+      "to_date": "2014-02-14",
+      "type": null,
+      "updated_at": "2014-05-15T17:27:03Z",
+      "urlize_name": "China-Mowin-Holding-Ltd-MLWIN"
+    },
+    {
+      "code": "DISCB_OTHERCOMPREHENSIVEINCOMELOSSRECLASSIFICATIONADJUSTMENTONDERIVATIVESINCLUDEDINNETINCOMEBEFORETAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossReclassificationAdjustmentOnDerivativesIncludedInNetIncomeBeforeTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-12-31",
+      "id": 10699918,
+      "name": "Discovery Communications, Inc.  (DISCB): Annual Other Comprehensive Income Loss Reclassification Adjustment On Derivatives Included In Net Income Before Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:46Z",
+      "urlize_name": "Discovery-Communications-Inc-DISCB-Annual-Other-Comprehensive-Income-Loss-Reclassification-Adjustment-On-Derivatives-Included-In-Net-Income-Before-Tax"
+    },
+    {
+      "code": "SMU06311004244600001",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU06311004244600001.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 11002907,
+      "name": "All Employees: Retail Trade: Health and Personal Care Stores in Los Angeles-Long Beach-Santa Ana, CA (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2013-12-01",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:46Z",
+      "urlize_name": "All-Employees-Retail-Trade-Health-and-Personal-Care-Stores-in-Los-Angeles-Long-Beach-Santa-Ana-CA-MSA"
+    },
+    {
+      "code": "SMU06311004244600001A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU06311004244600001A.csv",
+      "frequency": "annual",
+      "from_date": "1990-01-01",
+      "id": 11002908,
+      "name": "All Employees: Retail Trade: Health and Personal Care Stores in Los Angeles-Long Beach-Santa Ana, CA (MSA)",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:47Z",
+      "urlize_name": "All-Employees-Retail-Trade-Health-and-Personal-Care-Stores-in-Los-Angeles-Long-Beach-Santa-Ana-CA-MSA"
+    },
+    {
+      "code": "DISCB_OTHERCOMPREHENSIVEINCOMELOSSRECLASSIFICATIONADJUSTMENTONDERIVATIVESINCLUDEDINNETINCOMENETOFTAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossReclassificationAdjustmentOnDerivativesIncludedInNetIncomeNetOfTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-12-31",
+      "id": 10699930,
+      "name": "Discovery Communications, Inc.  (DISCB): Annual Other Comprehensive Income Loss Reclassification Adjustment On Derivatives Included In Net Income Net Of Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-12T03:28:47Z",
+      "urlize_name": "Discovery-Communications-Inc-DISCB-Annual-Other-Comprehensive-Income-Loss-Reclassification-Adjustment-On-Derivatives-Included-In-Net-Income-Net-Of-Tax"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "GOOG",
+      "datasets_count": 43144,
+      "description": "This data is NOT sourced directly from Google.  It is however verified against their numbers.\r\n\r\nwww.quandl.com/WIKI is a better source.",
+      "host": "www.google.com",
+      "id": 393,
+      "name": "Google Finance"
+    },
+    {
+      "code": "FRED",
+      "datasets_count": 60949,
+      "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
+      "host": "www.research.stlouisfed.org",
+      "id": 118,
+      "name": "Federal Reserve Economic Data"
+    }
+  ],
+  "total_count": 10006019
+}

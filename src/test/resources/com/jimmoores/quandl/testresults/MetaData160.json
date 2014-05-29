@@ -1,0 +1,415 @@
+{
+  "current_page": 421265,
+  "docs": [
+    {
+      "code": "GIS_OPERATINGINCOMELOSS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OperatingIncomeLoss",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-08-30",
+      "id": 11090450,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Operating Income Loss",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:43Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Operating-Income-Loss"
+    },
+    {
+      "code": "GIS_INCOMELOSSFROMCONTINUINGOPERATIONSBEFOREINCOMETAXESMINORITYINTERESTANDINCOMELOSSFROMEQUITYMETHODINVESTMENTS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-08-30",
+      "id": 11090451,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Income Loss From Continuing Operations Before Income Taxes Minority Interest And Income Loss From Equity Method Investments",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:30:02Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Income-Loss-From-Continuing-Operations-Before-Income-Taxes-Minority-Interest-And-Income-Loss-From-Equity-Method-Investments"
+    },
+    {
+      "code": "GIS_INCOMELOSSFROMEQUITYMETHODINVESTMENTS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeLossFromEquityMethodInvestments",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-08-30",
+      "id": 11090453,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Income Loss From Equity Method Investments",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:43Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Income-Loss-From-Equity-Method-Investments"
+    },
+    {
+      "code": "GIS_NETINCOMELOSS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: NetIncomeLoss",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-08-30",
+      "id": 11090454,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Net Income Loss",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:43Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Net-Income-Loss"
+    },
+    {
+      "code": "GIS_EARNINGSPERSHAREDILUTED_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EarningsPerShareDiluted",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-08-30",
+      "id": 11090458,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Earnings Per Share Diluted",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:30:02Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Earnings-Per-Share-Diluted"
+    },
+    {
+      "code": "GIS_RECEIVABLESNETCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ReceivablesNetCurrent",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-05-31",
+      "id": 11090459,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Receivables Net Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:44Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Receivables-Net-Current"
+    },
+    {
+      "code": "GIS_INVENTORYNET_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: InventoryNet",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-05-31",
+      "id": 11090461,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Inventory Net",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:44Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Inventory-Net"
+    },
+    {
+      "code": "GIS_ASSETSCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AssetsCurrent",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-05-31",
+      "id": 11090463,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Assets Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:30:03Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Assets-Current"
+    },
+    {
+      "code": "GIS_GOODWILL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: Goodwill",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2008-05-25",
+      "id": 11090465,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Goodwill",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:44Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Goodwill"
+    },
+    {
+      "code": "GIS_CASHANDCASHEQUIVALENTSATCARRYINGVALUE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CashAndCashEquivalentsAtCarryingValue",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2007-05-27",
+      "id": 11090531,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Cash And Cash Equivalents At Carrying Value",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-05-26",
+      "type": null,
+      "updated_at": "2014-03-18T00:30:03Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Cash-And-Cash-Equivalents-At-Carrying-Value"
+    },
+    {
+      "code": "GIS_LONGTERMDEBTANDCAPITALLEASEOBLIGATIONS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LongTermDebtAndCapitalLeaseObligations",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2009-05-31",
+      "id": 11090520,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Long Term Debt And Capital Lease Obligations",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-05-26",
+      "type": null,
+      "updated_at": "2014-03-18T00:30:03Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Long-Term-Debt-And-Capital-Lease-Obligations"
+    },
+    {
+      "code": "GIS_SHORTTERMBORROWINGS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ShortTermBorrowings",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-05-31",
+      "id": 11090466,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Short Term Borrowings",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:44Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Short-Term-Borrowings"
+    },
+    {
+      "code": "GIS_ACCOUNTSPAYABLECURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AccountsPayableCurrent",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-05-31",
+      "id": 11090467,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Accounts Payable Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:44Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Accounts-Payable-Current"
+    },
+    {
+      "code": "GIS_DEFERREDTAXLIABILITIESNONCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DeferredTaxLiabilitiesNoncurrent",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-05-31",
+      "id": 11090471,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Deferred Tax Liabilities Noncurrent",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:44Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Deferred-Tax-Liabilities-Noncurrent"
+    },
+    {
+      "code": "GIS_LIABILITIESCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LiabilitiesCurrent",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-05-31",
+      "id": 11090472,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Liabilities Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:44Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Liabilities-Current"
+    },
+    {
+      "code": "GIS_COMMONSTOCKVALUE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CommonStockValue",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-05-31",
+      "id": 11090482,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Common Stock Value",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:30:04Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Common-Stock-Value"
+    },
+    {
+      "code": "GIS_ADDITIONALPAIDINCAPITALCOMMONSTOCK_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AdditionalPaidInCapitalCommonStock",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-05-31",
+      "id": 11090474,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Additional Paid In Capital Common Stock",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:45Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Additional-Paid-In-Capital-Common-Stock"
+    },
+    {
+      "code": "GIS_RETAINEDEARNINGSACCUMULATEDDEFICIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: RetainedEarningsAccumulatedDeficit",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-05-31",
+      "id": 11090473,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Retained Earnings Accumulated Deficit",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:45Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Retained-Earnings-Accumulated-Deficit"
+    },
+    {
+      "code": "GIS_MINORITYINTEREST_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: MinorityInterest",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-05-31",
+      "id": 11090477,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Minority Interest",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:30:04Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Minority-Interest"
+    },
+    {
+      "code": "GIS_STOCKHOLDERSEQUITY_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: StockholdersEquity",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-05-31",
+      "id": 11090475,
+      "name": "GENERAL MILLS INC  (GIS): Quarterly Stockholders Equity",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-24",
+      "type": null,
+      "updated_at": "2014-03-18T00:29:45Z",
+      "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Stockholders-Equity"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "SEC",
+    "datasets_count": 4867,
+    "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+    "host": "www.sec.gov",
+    "id": 651,
+    "name": "U.S. Securities and Exchange Commission"
+  }],
+  "total_count": 10006019
+}

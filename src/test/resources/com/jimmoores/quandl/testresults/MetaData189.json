@@ -1,0 +1,415 @@
+{
+  "current_page": 78929,
+  "docs": [
+    {
+      "code": "HOOD_MIDDLETIER_OTAYMESASANDIEGOCA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of Otay Mesa, San Diego, CA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6768283,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - Otay Mesa,San Diego,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:28Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-Otay-Mesa-San-Diego-CA"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_POWERRANCHGILBERTAZ",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of Power Ranch, Gilbert, AZ. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6766255,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - Power Ranch,Gilbert,AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:28Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-Power-Ranch-Gilbert-AZ"
+    },
+    {
+      "code": "MZIP_MEDIANLISTINGPRICE_ALLHOMES_94595",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7212599,
+      "name": "Zillow Metrics (Zip Codes): Median List Price - 94595, Walnut Creek, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:28Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-List-Price-94595-Walnut-Creek-CA"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_CENTRALCITYCORPUSCHRISTITX",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of Central City, Corpus Christi, TX. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1997-07-31",
+      "id": 6764993,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - Central City,Corpus Christi,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:28Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-Central-City-Corpus-Christi-TX"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_RIVERSIDEJACKSONVILLEFL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of Riverside, Jacksonville, FL. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6766585,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - Riverside,Jacksonville,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:28Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-Riverside-Jacksonville-FL"
+    },
+    {
+      "code": "STATE_MEDIANVALUEPERSQFT_ALLHOMES_RHODEISLAND",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is the median Zestimate valuation for a given geographic area on a given day. A Zestimate is Zillow's estimate of the current market value for a home. We have tens of millions of Zestimates - one for most homes. Our data is refreshed regularly to reflect real estate transactions that could affect you - even if you're not buying or selling a house.",
+      "display_url": "http://files.zillowstatic.com/research/public/State/State_MedianValuePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7434647,
+      "name": "Zillow Home Value Index: Median Value Per Sq. Ft. (All Homes) - Rhode Island",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:28Z",
+      "urlize_name": "Zillow-Home-Value-Index-Median-Value-Per-Sq-Ft-All-Homes-Rhode-Island"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_WESTHILLSLOSANGELESCA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of West Hills, Los Angeles, CA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6765272,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - West Hills,Los Angeles,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:28Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-West-Hills-Los-Angeles-CA"
+    },
+    {
+      "code": "COUNTY_CONDOMINUM_NEWYORKNY",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of condominiums within the county of New York, NY. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_Zhvi_Condominum.csv",
+      "frequency": "monthly",
+      "from_date": "1996-06-30",
+      "id": 7121099,
+      "name": "Zillow Home Value Index (Counties): Condominiums - New York, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Home-Value-Index-Counties-Condominiums-New-York-NY"
+    },
+    {
+      "code": "COUNTY_CONDOMINUM_BERGENNJ",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of condominiums within the county of Bergen, NJ. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_Zhvi_Condominum.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7121145,
+      "name": "Zillow Home Value Index (Counties): Condominiums - Bergen, NJ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Home-Value-Index-Counties-Condominiums-Bergen-NJ"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_KELVINPARKCHICAGOIL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of Kelvin Park, Chicago, IL. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6767864,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - Kelvin Park,Chicago,IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-Kelvin-Park-Chicago-IL"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_SUNSETROADCHARLOTTENC",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of Sunset Road, Charlotte, NC. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6768634,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - Sunset Road,Charlotte,NC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-Sunset-Road-Charlotte-NC"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_SOUTHSIDECORPUSCHRISTITX",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of South Side, Corpus Christi, TX. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6764989,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - South Side,Corpus Christi,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-South-Side-Corpus-Christi-TX"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_SOUTHEASTCOLORADOSPRINGSCOLORADOSPRINGSCO",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of Southeast Colorado Springs, Colorado Springs, CO. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6765071,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - Southeast Colorado Springs,Colorado Springs,CO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-Southeast-Colorado-Springs-Colorado-Springs-CO"
+    },
+    {
+      "code": "MZIP_MEDIANLISTINGPRICE_ALLHOMES_28582",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7231723,
+      "name": "Zillow Metrics (Zip Codes): Median List Price - 28582, Stella, NC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-List-Price-28582-Stella-NC"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_LAKEVIEWKIRKLANDWA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of Lake View, Kirkland, WA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 6769377,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - Lake View,Kirkland,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-Lake-View-Kirkland-WA"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_ARCHERHEIGHTSCHICAGOIL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of Archer Heights, Chicago, IL. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6765085,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - Archer Heights,Chicago,IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-Archer-Heights-Chicago-IL"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_HARBORVIEWSEAHURSTGLENHAVENEVERETTWA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of Harborview-Seahurst-Glenhaven, Everett, WA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6768384,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - Harborview-Seahurst-Glenhaven,Everett,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-Harborview-Seahurst-Glenhaven-Everett-WA"
+    },
+    {
+      "code": "MZIP_MEDIANLISTINGPRICE_ALLHOMES_18347",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7228889,
+      "name": "Zillow Metrics (Zip Codes): Median List Price - 18347, Pocono Lake, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-List-Price-18347-Pocono-Lake-PA"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_RIVERVIEWSANBERNARDINOCA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of Riverview, San Bernardino, CA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1999-03-31",
+      "id": 6768235,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - Riverview,San Bernardino,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-Riverview-San-Bernardino-CA"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_NORKIRKKIRKLANDWA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of Norkirk, Kirkland, WA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1997-08-31",
+      "id": 6768069,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - Norkirk,Kirkland,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:29Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-Norkirk-Kirkland-WA"
+    }
+  ],
+  "per_page": 20,
+  "sources": [{
+    "code": "ZILLOW",
+    "datasets_count": 216313,
+    "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+    "host": "files.zillowstatic.com",
+    "id": 797,
+    "name": "Zillow Real Estate Research"
+  }],
+  "total_count": 10006019
+}
