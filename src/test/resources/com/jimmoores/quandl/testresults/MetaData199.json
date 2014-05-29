@@ -1,499 +1,415 @@
 {
-  "current_page": 324344,
+  "current_page": 386533,
   "docs": [
     {
-      "code": "APRO_MK_STRCH_576",
+      "code": "HOFT_SHAREBASEDCOMPENSATIONARRANGEMENTBYSHAREBASEDPAYMENTAWARDRESTRICTEDSTOCKUNITSNONVESTEDNUMBER_Q",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Milk statistics are organised in accordance with a well-defined structure:\r\nMilk statistics are covered by the following Tables (by alphabetic order):\r\nA) Monthly statistics on the collected of cows' milk and products derived therefrom.\r\nB) Annual a production and use of milk (all types) in dairies - availability and use.\r\nC) Annual a production and use of milk (all types) in agricultural holdings.\r\nD) Breakdown of undertakings according to annual amount of milk collection.\r\nE) Breakdown of collection centres according to annual amount of milk collection.\r\nF) Breakdown of undertakings according to amount of milk processed.\r\nG) Breakdown of undertakings according to amount of annual production of certain groups of milk products:\r\n- fresh products,\r\n- drinking milk,\r\n- powdered milk products,\r\n- butter,\r\n- cheese.\r\nH) Protein content of milk products.\r\nI) Regional data on production of cows' milk.\r\n- in addition, methodological information by Member State is provided. \nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/apro_mk_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fapro_mk_strch.sdmx.zip",
+      "description": "SEC Name: ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockUnitsNonvestedNumber",
+      "display_url": null,
       "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 874969,
-      "name": "Cheese  Distribution of enterprises by volume of annual production  : Annual production (1000 t) : Total : Austria",
+      "from_date": "2011-01-30",
+      "id": 10338010,
+      "name": "HOOKER FURNITURE CORP  (HOFT): Quarterly Share Based Compensation Arrangement By Share Based Payment Award Restricted Stock Units Nonvested Number",
       "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-03",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:20Z",
+      "urlize_name": "HOOKER-FURNITURE-CORP-HOFT-Quarterly-Share-Based-Compensation-Arrangement-By-Share-Based-Payment-Award-Restricted-Stock-Units-Nonvested-Number"
+    },
+    {
+      "code": "HOFT_SHAREBASEDCOMPENSATIONARRANGEMENTBYSHAREBASEDPAYMENTAWARDRESTRICTEDSTOCKUNITSNONVESTEDNUMBER_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ShareBasedCompensationArrangementByShareBasedPaymentAwardRestrictedStockUnitsNonvestedNumber",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-01-30",
+      "id": 10339033,
+      "name": "HOOKER FURNITURE CORP  (HOFT): Annual Share Based Compensation Arrangement By Share Based Payment Award Restricted Stock Units Nonvested Number",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-02-03",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:37Z",
+      "urlize_name": "HOOKER-FURNITURE-CORP-HOFT-Annual-Share-Based-Compensation-Arrangement-By-Share-Based-Payment-Award-Restricted-Stock-Units-Nonvested-Number"
+    },
+    {
+      "code": "HOFT_SHAREBASEDCOMPENSATIONARRANGEMENTBYSHAREBASEDPAYMENTAWARDEQUITYRESTRICTEDSTOCKAWARDSNONVESTEDNUMBER_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityRestrictedStockAwardsNonvestedNumber",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-01-30",
+      "id": 10338011,
+      "name": "HOOKER FURNITURE CORP  (HOFT): Quarterly Share Based Compensation Arrangement By Share Based Payment Award Equity Restricted Stock Awards Nonvested Number",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-03",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:37Z",
+      "urlize_name": "HOOKER-FURNITURE-CORP-HOFT-Quarterly-Share-Based-Compensation-Arrangement-By-Share-Based-Payment-Award-Equity-Restricted-Stock-Awards-Nonvested-Number"
+    },
+    {
+      "code": "HOFT_SHAREBASEDCOMPENSATIONARRANGEMENTBYSHAREBASEDPAYMENTAWARDEQUITYRESTRICTEDSTOCKAWARDSNONVESTEDNUMBER_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityRestrictedStockAwardsNonvestedNumber",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-01-30",
+      "id": 10339035,
+      "name": "HOOKER FURNITURE CORP  (HOFT): Annual Share Based Compensation Arrangement By Share Based Payment Award Equity Restricted Stock Awards Nonvested Number",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-02-03",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:20Z",
+      "urlize_name": "HOOKER-FURNITURE-CORP-HOFT-Annual-Share-Based-Compensation-Arrangement-By-Share-Based-Payment-Award-Equity-Restricted-Stock-Awards-Nonvested-Number"
+    },
+    {
+      "code": "FDO_PAYMENTSOFDIVIDENDSCOMMONSTOCK_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PaymentsOfDividendsCommonStock",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-11-26",
+      "id": 10335821,
+      "name": "FAMILY DOLLAR STORES INC  (FDO): Quarterly Payments Of Dividends Common Stock",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:20Z",
+      "urlize_name": "FAMILY-DOLLAR-STORES-INC-FDO-Quarterly-Payments-Of-Dividends-Common-Stock"
+    },
+    {
+      "code": "HOFT_UNDISTRIBUTEDEARNINGSALLOCATEDTOPARTICIPATINGSECURITIES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: UndistributedEarningsAllocatedToParticipatingSecurities",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-02-03",
+      "id": 10339043,
+      "name": "HOOKER FURNITURE CORP  (HOFT): Annual Undistributed Earnings Allocated To Participating Securities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-02-03",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:38Z",
+      "urlize_name": "HOOKER-FURNITURE-CORP-HOFT-Annual-Undistributed-Earnings-Allocated-To-Participating-Securities"
+    },
+    {
+      "code": "FDO_PAYMENTSTOACQUIREAVAILABLEFORSALESECURITIESDEBT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PaymentsToAcquireAvailableForSaleSecuritiesDebt",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-11-26",
+      "id": 10335818,
+      "name": "FAMILY DOLLAR STORES INC  (FDO): Quarterly Payments To Acquire Available For Sale Securities Debt",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:38Z",
+      "urlize_name": "FAMILY-DOLLAR-STORES-INC-FDO-Quarterly-Payments-To-Acquire-Available-For-Sale-Securities-Debt"
+    },
+    {
+      "code": "HOFT_INCOMETAXEXPENSEBENEFITCONTINUINGOPERATIONS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeTaxExpenseBenefitContinuingOperations",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-02-03",
+      "id": 10339052,
+      "name": "HOOKER FURNITURE CORP  (HOFT): Annual Income Tax Expense Benefit Continuing Operations",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-02-03",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:38Z",
+      "urlize_name": "HOOKER-FURNITURE-CORP-HOFT-Annual-Income-Tax-Expense-Benefit-Continuing-Operations"
+    },
+    {
+      "code": "HOFT_OTHERCOMPREHENSIVEINCOMELOSSRECLASSIFICATIONPENSIONANDOTHERPOSTRETIREMENTBENEFITPLANSNETGAINLOSSRECOGNIZEDINNETPERIODICBENEFITCOSTTAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossReclassificationPensionAndOtherPostretirementBenefitPlansNetGainLossRecognizedInNetPeriodicBenefitCostTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-02-03",
+      "id": 10339056,
+      "name": "HOOKER FURNITURE CORP  (HOFT): Annual Other Comprehensive Income Loss Reclassification Pension And Other Postretirement Benefit Plans Net Gain Loss Recognized In Net Periodic Benefit Cost Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-02-03",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:38Z",
+      "urlize_name": "HOOKER-FURNITURE-CORP-HOFT-Annual-Other-Comprehensive-Income-Loss-Reclassification-Pension-And-Other-Postretirement-Benefit-Plans-Net-Gain-Loss-Recognized-In-Net-Periodic-Benefit-Cost-Tax"
+    },
+    {
+      "code": "PRGS_DISCONTINUEDOPERATIONGAINLOSSFROMDISPOSALOFDISCONTINUEDOPERATIONBEFOREINCOMETAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DiscontinuedOperationGainLossFromDisposalOfDiscontinuedOperationBeforeIncomeTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-11-30",
+      "id": 10337171,
+      "name": "PROGRESS SOFTWARE CORP /MA  (PRGS): Annual Discontinued Operation Gain Loss From Disposal Of Discontinued Operation Before Income Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:21Z",
+      "urlize_name": "PROGRESS-SOFTWARE-CORP-MA-PRGS-Annual-Discontinued-Operation-Gain-Loss-From-Disposal-Of-Discontinued-Operation-Before-Income-Tax"
+    },
+    {
+      "code": "FDO_PROCEEDSFROMSALEOFAVAILABLEFORSALESECURITIESDEBT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-11-26",
+      "id": 10335848,
+      "name": "FAMILY DOLLAR STORES INC  (FDO): Quarterly Proceeds From Sale Of Available For Sale Securities Debt",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:23Z",
+      "urlize_name": "FAMILY-DOLLAR-STORES-INC-FDO-Quarterly-Proceeds-From-Sale-Of-Available-For-Sale-Securities-Debt"
+    },
+    {
+      "code": "LIME_ACCUMULATEDAMORTIZATIONOFNONCURRENTDEFERREDFINANCECOSTS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AccumulatedAmortizationOfNoncurrentDeferredFinanceCosts",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10337684,
+      "name": "LIME ENERGY CO.  (LIME): Quarterly Accumulated Amortization Of Noncurrent Deferred Finance Costs",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-11T07:18:39Z",
-      "urlize_name": "Cheese-Distribution-of-enterprises-by-volume-of-annual-production-Annual-production-1000-t-Total-Austria"
+      "updated_at": "2014-03-06T21:32:23Z",
+      "urlize_name": "LIME-ENERGY-CO-LIME-Quarterly-Accumulated-Amortization-Of-Noncurrent-Deferred-Finance-Costs"
     },
     {
-      "code": "KYGEPOP",
+      "code": "LIME_ACCUMULATEDAMORTIZATIONOFNONCURRENTDEFERREDFINANCECOSTS_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Thousands of Persons Not Seasonally Adjusted, All observations are July 1 estimates of each year. ",
-      "display_url": "http://research.stlouisfed.org/fred2/data/KYGEPOP.csv",
+      "description": "SEC Name: AccumulatedAmortizationOfNoncurrentDeferredFinanceCosts",
+      "display_url": null,
       "frequency": "annual",
-      "from_date": "1970-01-01",
-      "id": 150155,
-      "name": "Resident Population in Green County, KY",
+      "from_date": "2011-12-31",
+      "id": 10337688,
+      "name": "LIME ENERGY CO.  (LIME): Annual Accumulated Amortization Of Noncurrent Deferred Finance Costs",
       "private": false,
-      "source_code": "FRED",
-      "source_name": "Federal Reserve Economic Data",
-      "to_date": "2012-01-01",
-      "type": null,
-      "updated_at": "2014-01-14T00:34:24Z",
-      "urlize_name": "Resident-Population-in-Green-County-KY"
-    },
-    {
-      "code": "ELEC_PLANT_CONS_TOT_BTU_57071_LFG_IC_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.57071-LFG-IC.Q",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.57071-LFG-IC.Q&out=xml",
-      "frequency": "monthly",
-      "from_date": "2009-01-31",
-      "id": 5021698,
-      "name": "Fuel Consumption Mmbtus : Denton Power Llc : Landfill Gas : Internal Combustion (diesel, Piston) Engine : Quarterly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T02:02:52Z",
-      "urlize_name": "Fuel-Consumption-Mmbtus-Denton-Power-Llc-Landfill-Gas-Internal-Combustion-diesel-Piston-Engine-Quarterly"
+      "updated_at": "2014-03-06T21:32:40Z",
+      "urlize_name": "LIME-ENERGY-CO-LIME-Annual-Accumulated-Amortization-Of-Noncurrent-Deferred-Finance-Costs"
     },
     {
-      "code": "PAT_GRANTS_VANUATU",
+      "code": "LIME_ACCUMULATEDDEPRECIATIONDEPLETIONANDAMORTIZATIONPROPERTYPLANTANDEQUIPMENT_Q",
       "column_names": [
-        "Year",
+        "Date",
         "Value"
       ],
-      "description": "This report displays the number of U.S. patents distributed by U.S. state/territory and country of origin and by calendar year of grant. The origin of a patent is determined by the residence of the first-named inventor. This extended annual data report displays annual counts for each year of the period. This report counts documents of the following type(s): utility patents (i.e., patents for invention) granted by the U.S. Patent and Trademark Office",
-      "display_url": "http://www.uspto.gov/web/offices/ac/ido/oeip/taf/cst_utlh.htm",
+      "description": "SEC Name: AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment",
+      "display_url": null,
       "frequency": "annual",
-      "from_date": "1963-12-31",
-      "id": 4580943,
-      "name": "U.S. Utility Patents Distributed by U.S. State/Territory and Country of Origin - VANUATU",
+      "from_date": "2010-12-31",
+      "id": 10337682,
+      "name": "LIME ENERGY CO.  (LIME): Quarterly Accumulated Depreciation Depletion And Amortization Property Plant And Equipment",
       "private": false,
-      "source_code": "USPTO",
-      "source_name": "U.S. Patent and Trademark Office",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T12:25:30Z",
-      "urlize_name": "U-S-Utility-Patents-Distributed-by-U-S-State-Territory-and-Country-of-Origin-VANUATU"
+      "updated_at": "2014-03-06T21:32:40Z",
+      "urlize_name": "LIME-ENERGY-CO-LIME-Quarterly-Accumulated-Depreciation-Depletion-And-Amortization-Property-Plant-And-Equipment"
     },
     {
-      "code": "COMM_85_GENERATINGSETSWITHSPARKIGNITIONENGINES_REEXPORT_TCA",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 5657690,
-      "name": "Commodity Re-Exports - Electrical, Electronic Equipment / Generating sets, with spark ignition engines - Turks and Caicos Islands",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2002-12-31",
-      "type": null,
-      "updated_at": "2013-05-07T08:04:11Z",
-      "urlize_name": "Commodity-Re-Exports-Electrical-Electronic-Equipment-Generating-sets-with-spark-ignition-engines-Turks-and-Caicos-Islands"
-    },
-    {
-      "code": "COMM_29_NATURALURANIUMITSCOMPOUNDSMIXTURES_IMPORT_BGD",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1993-12-31",
-      "id": 3099317,
-      "name": "Commodity Imports - Inorganic Chemicals, Precious Metal Compound, Isotope / Natural uranium, its compounds, mixtures - Bangladesh",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2007-12-31",
-      "type": null,
-      "updated_at": "2013-05-13T10:48:22Z",
-      "urlize_name": "Commodity-Imports-Inorganic-Chemicals-Precious-Metal-Compound-Isotope-Natural-uranium-its-compounds-mixtures-Bangladesh"
-    },
-    {
-      "code": "CSHRCPAZA156NRUG",
+      "code": "LIME_ACCUMULATEDDEPRECIATIONDEPLETIONANDAMORTIZATIONPROPERTYPLANTANDEQUIPMENT_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Percent Not Seasonally Adjusted, Source ID: csh_r  When using these data in your research, please make the following reference: Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2013), \"The Next Generation of the Penn World Table\" available for download at www.ggdc.net/pwt  For more information, see http://www.rug.nl/research/ggdc/data/penn-world-table. ",
-      "display_url": "http://research.stlouisfed.org/fred2/data/CSHRCPAZA156NRUG.csv",
+      "description": "SEC Name: AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment",
+      "display_url": null,
       "frequency": "annual",
-      "from_date": "1990-01-01",
-      "id": 8530302,
-      "name": "Share of Residual Trade and GDP Statistical Discrepancy at Current Purchasing Power Parities for Azerbaijan",
+      "from_date": "2010-12-31",
+      "id": 10337683,
+      "name": "LIME ENERGY CO.  (LIME): Annual Accumulated Depreciation Depletion And Amortization Property Plant And Equipment",
       "private": false,
-      "source_code": "FRED",
-      "source_name": "Federal Reserve Economic Data",
-      "to_date": "2011-01-01",
-      "type": null,
-      "updated_at": "2014-01-12T15:25:09Z",
-      "urlize_name": "Share-of-Residual-Trade-and-GDP-Statistical-Discrepancy-at-Current-Purchasing-Power-Parities-for-Azerbaijan"
-    },
-    {
-      "code": "JAM_IC_FRM_INFR_WAT_DUR_",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "To help gauge infrastructure challenges, this indicator records the average duration of water shortages, if there were any, in hours.  The results are based on surveys of more than 100,000 firms in 125 countries--except in 2006 and 2007, when this indicator was computed for the Manufacturing module only. Source: World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/ExploreTopics/?topicid=8).\nDuration of water shortages (hours)",
-      "display_url": "http://api.worldbank.org/countries/JAM/indicators/IC.FRM.INFR.WAT.DUR?per_page=1000",
-      "frequency": "annual",
-      "from_date": null,
-      "id": 396515,
-      "name": "Jamaica: Duration of water shortages",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": null,
-      "type": null,
-      "updated_at": "2012-03-05T06:46:22Z",
-      "urlize_name": "Jamaica-Duration-of-water-shortages"
-    },
-    {
-      "code": "ELEC_GEN_PEL_OH_7_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Thousand Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.GEN.PEL-OH-7.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.GEN.PEL-OH-7.A&out=xml",
-      "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 5193488,
-      "name": "Net Generation : Petroleum Liquids : Ohio : Industrial Cogen : Annual",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T01:52:02Z",
-      "urlize_name": "Net-Generation-Petroleum-Liquids-Ohio-Industrial-Cogen-Annual"
+      "updated_at": "2014-03-06T21:32:41Z",
+      "urlize_name": "LIME-ENERGY-CO-LIME-Annual-Accumulated-Depreciation-Depletion-And-Amortization-Property-Plant-And-Equipment"
     },
     {
-      "code": "JAM_IC_FRM_CRM_SECCOST_",
+      "code": "LIME_ALLOWANCEFORDOUBTFULACCOUNTSRECEIVABLECURRENT_Q",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "To help gauge the impact of crime, this indicator records the average security costs of firms as a percentage of annual sales. The data are based on survey responses from more than 100,000 firms in 125 countries.  Source: World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/ExploreTopics/?topicid=4). \nSecurity costs (% of sales)",
-      "display_url": "http://api.worldbank.org/countries/JAM/indicators/IC.FRM.CRM.SECCOST?per_page=1000",
+      "description": "SEC Name: AllowanceForDoubtfulAccountsReceivableCurrent",
+      "display_url": null,
       "frequency": "annual",
-      "from_date": null,
-      "id": 396466,
-      "name": "Jamaica: Security costs",
+      "from_date": "2010-12-31",
+      "id": 10337626,
+      "name": "LIME ENERGY CO.  (LIME): Quarterly Allowance For Doubtful Accounts Receivable Current",
       "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": null,
-      "type": null,
-      "updated_at": "2012-03-05T06:46:19Z",
-      "urlize_name": "Jamaica-Security-costs"
-    },
-    {
-      "code": "RC62_UF_SAO_PAULO_39_ANOS_PERC",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
-      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RC62_UF_PERC.csv&categorias=%2239%20anos%22&localidade=Sao%20Paulo",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 6394210,
-      "name": "Population and Demographics: Marriage (marriages, separations, divorces) - Marriage - by age of men - 39 years Federative Units - UF: Sao Paulo. Datatype: Relative",
-      "private": false,
-      "source_code": "IBGE",
-      "source_name": "Brazilian Institute of Geography and Statistics",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T07:18:40Z",
-      "urlize_name": "Population-and-Demographics-Marriage-marriages-separations-divorces-Marriage-by-age-of-men-39-years-Federative-Units-UF-Sao-Paulo-Datatype-Relative"
-    },
-    {
-      "code": "ELEC_PLANT_GEN_981_SUB_ALL_M",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.981-SUB-ALL.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.981-SUB-ALL.M&out=xml",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 4850267,
-      "name": "Net Generation : State Line Energy : Subbituminous Coal : All Primemovers : Monthly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-01-31",
-      "type": null,
-      "updated_at": "2014-01-10T01:52:03Z",
-      "urlize_name": "Net-Generation-State-Line-Energy-Subbituminous-Coal-All-Primemovers-Monthly"
-    },
-    {
-      "code": "COMM_73_BARRODIRONORNONALLOYSTEELCOLDFORMEDFINISHED025C_EXPORT_ZAF",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 4198210,
-      "name": "Commodity Exports - Iron And Steel / Bar/rod, iron or non-alloy steel, cold formed/finished, <0.25%C - South Africa",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T07:21:13Z",
-      "urlize_name": "Commodity-Exports-Iron-And-Steel-Bar-rod-iron-or-non-alloy-steel-cold-formed-finished-0-25-C-South-Africa"
-    },
-    {
-      "code": "EQDERCURR_73",
-      "column_names": [
-        "Half Year",
-        "USD Millions"
-      ],
-      "description": "Equity derivatives by instrument, counterparty and currency. Semi-annual data. Notional amounts outstanding in millions of USD.",
-      "display_url": "http://www.bis.org/statistics/otcder/dt13.csv",
-      "frequency": "monthly",
-      "from_date": "1998-06-30",
-      "id": 2287933,
-      "name": "Equity Derivatives Outstandings: Other Asian Equities, Forwards and swaps, Other financial institutions",
-      "private": false,
-      "source_code": "BIS",
-      "source_name": "Bank for International Settlements",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2013-06-20T18:55:15Z",
-      "urlize_name": "Equity-Derivatives-Outstandings-Other-Asian-Equities-Forwards-and-swaps-Other-financial-institutions"
-    },
-    {
-      "code": "ELEC_RECEIPTS_BTU_SUB_SD_1_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Billion Btu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.RECEIPTS_BTU.SUB-SD-1.Q",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.RECEIPTS_BTU.SUB-SD-1.Q&out=xml",
-      "frequency": "monthly",
-      "from_date": "2008-01-31",
-      "id": 5231653,
-      "name": "Receipts Of Fossil Fuels (btus) : Subbituminous Coal : South Dakota : Electric Utility : Quarterly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-09-30",
-      "type": null,
-      "updated_at": "2014-01-10T01:52:23Z",
-      "urlize_name": "Receipts-Of-Fossil-Fuels-btus-Subbituminous-Coal-South-Dakota-Electric-Utility-Quarterly"
-    },
-    {
-      "code": "1342_001618303_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Unit of measurement=Euros of the previous year, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1342",
-      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 8006908,
-      "name": "Annual national accounts (base 2005) - Total use of goods (S/U balances) - Total institutional sectors - Education - Price of previous year (volume)",
-      "private": false,
-      "source_code": "INSEE",
-      "source_name": "National Institute of Statistics and Economic Studies (France)",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T11:59:30Z",
-      "urlize_name": "Annual-national-accounts-base-2005-Total-use-of-goods-S-U-balances-Total-institutional-sectors-Education-Price-of-previous-year-volume"
-    },
-    {
-      "code": "COMM_4_FISHFILLETSFROZEN_IMPORT_MLI",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1996-12-31",
-      "id": 2794278,
-      "name": "Commodity Imports - Fish, Crustaceans, Molluscs, Aquatic Invertebrates Ne / Fish fillets, frozen - Mali",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-11T07:18:40Z",
-      "urlize_name": "Commodity-Imports-Fish-Crustaceans-Molluscs-Aquatic-Invertebrates-Ne-Fish-fillets-frozen-Mali"
+      "updated_at": "2014-03-06T21:32:41Z",
+      "urlize_name": "LIME-ENERGY-CO-LIME-Quarterly-Allowance-For-Doubtful-Accounts-Receivable-Current"
     },
     {
-      "code": "ELEC_PLANT_AVG_HEAT_50030_PC_ALL_A",
+      "code": "LIME_WEIGHTEDAVERAGENUMBEROFSHARESOUTSTANDINGBASIC_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Units=Mmbtu Per Tons. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.AVG_HEAT.50030-PC-ALL.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.AVG_HEAT.50030-PC-ALL.A&out=xml",
-      "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 5115114,
-      "name": "Mmbtu Per Unit : Nelson Industrial Steam : Petroleum Coke : All Primemovers : Annual",
+      "description": "SEC Name: WeightedAverageNumberOfSharesOutstandingBasic",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10339077,
+      "name": "LIME ENERGY CO.  (LIME): Annual Weighted Average Number Of Shares Outstanding Basic",
       "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2003-12-31",
-      "type": null,
-      "updated_at": "2014-01-09T19:25:20Z",
-      "urlize_name": "Mmbtu-Per-Unit-Nelson-Industrial-Steam-Petroleum-Coke-All-Primemovers-Annual"
-    },
-    {
-      "code": "HEALTH_PROC_DICDA400_NOMBRENB_IRL",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The database includes key indicators covering Health status, Health resources and utilisation: Life expectancy, Maternal and infant mortality, Health employment, In-patient beds, Medical technology, Immunisation, Average length of stay, Discharges, Surgical procedures, and Transplants and dialyses. Indicators on Health expenditure include Total expenditure on health, Prevention and public health, Expenditure on in-patient care, Expenditure on out-patient care, Expenditure on home care, Pharmaceuticals and other medical non-durables, Therapeutic appliances and other medical durables, Current health expenditure by provider, along with data on Health expenditure by financing agent/scheme. More info at http://stats.oecd.org/wbos/fileview2.aspx?IDFile=839106ea-625f-4ff4-87a8-1201a8647af5.",
-      "display_url": "http://stats.oecd.org/restsdmx/sdmx.ashx/GetData/HEALTH_PROC/DICDA400.NOMBRENB.IRL/OECD?startTime=1986&endTime=2020",
-      "frequency": "annual",
-      "from_date": "1995-12-31",
-      "id": 1985875,
-      "name": "Ireland Discharge Rates By Diagnostic Categories Endocrine Nutritional And Metabolic Diseases Number",
-      "private": false,
-      "source_code": "OECD",
-      "source_name": "Organisation for Economic Co-operation and Development",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2013-09-05T14:46:59Z",
-      "urlize_name": "Ireland-Discharge-Rates-By-Diagnostic-Categories-Endocrine-Nutritional-And-Metabolic-Diseases-Number"
+      "updated_at": "2014-03-06T21:32:41Z",
+      "urlize_name": "LIME-ENERGY-CO-LIME-Annual-Weighted-Average-Number-Of-Shares-Outstanding-Basic"
     },
     {
-      "code": "COMM_93_MUNITIONSOFWARAMMUNITIONPROJECTILESANDPARTS_IMPORT_MYT",
+      "code": "PRGS_FAIRVALUEMEASUREMENTWITHUNOBSERVABLEINPUTSRECONCILIATIONRECURRINGBASISASSETGAINLOSSINCLUDEDINEARNINGS_A",
       "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
+        "Date",
+        "Value"
       ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5866185,
-      "name": "Commodity Imports - Arms And Ammunition, Parts And Accessories Thereof / Munitions of war, ammunition/projectiles and parts - Mayotte",
+      "description": "SEC Name: FairValueMeasurementWithUnobservableInputsReconciliationRecurringBasisAssetGainLossIncludedInEarnings",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-11-30",
+      "id": 10339076,
+      "name": "PROGRESS SOFTWARE CORP /MA  (PRGS): Annual Fair Value Measurement With Unobservable Inputs Reconciliation Recurring Basis Asset Gain Loss Included In Earnings",
       "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2009-12-31",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-11-30",
       "type": null,
-      "updated_at": "2014-01-11T07:21:13Z",
-      "urlize_name": "Commodity-Imports-Arms-And-Ammunition-Parts-And-Accessories-Thereof-Munitions-of-war-ammunition-projectiles-and-parts-Mayotte"
+      "updated_at": "2014-03-06T21:32:41Z",
+      "urlize_name": "PROGRESS-SOFTWARE-CORP-MA-PRGS-Annual-Fair-Value-Measurement-With-Unobservable-Inputs-Reconciliation-Recurring-Basis-Asset-Gain-Loss-Included-In-Earnings"
+    },
+    {
+      "code": "LIME_ALLOWANCEFORDOUBTFULACCOUNTSRECEIVABLECURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AllowanceForDoubtfulAccountsReceivableCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10337685,
+      "name": "LIME ENERGY CO.  (LIME): Annual Allowance For Doubtful Accounts Receivable Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:41Z",
+      "urlize_name": "LIME-ENERGY-CO-LIME-Annual-Allowance-For-Doubtful-Accounts-Receivable-Current"
+    },
+    {
+      "code": "LIME_DEFERREDFINANCECOSTSNONCURRENTNET_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DeferredFinanceCostsNoncurrentNet",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10337575,
+      "name": "LIME ENERGY CO.  (LIME): Annual Deferred Finance Costs Noncurrent Net",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T21:32:24Z",
+      "urlize_name": "LIME-ENERGY-CO-LIME-Annual-Deferred-Finance-Costs-Noncurrent-Net"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "EIA",
-      "datasets_count": 427809,
-      "description": "No description for this source yet",
-      "host": "www.api.eia.gov",
-      "id": 661,
-      "name": "U.S. Energy Information Administration"
-    },
-    {
-      "code": "OECD",
-      "datasets_count": 28293,
-      "description": "No description for this source yet",
-      "host": "stats.oecd.org",
-      "id": 240,
-      "name": "Organisation for Economic Co-operation and Development"
-    },
-    {
-      "code": "UN",
-      "datasets_count": 2100274,
-      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
-      "host": "data.un.org",
-      "id": 488,
-      "name": "United Nations"
-    },
-    {
-      "code": "WORLDBANK",
-      "datasets_count": 792087,
-      "description": "The World Bank's mission is to fight poverty with passion and professionalism for lasting results.\r\n\r\nFree and open access to data about development in countries around the globe.",
-      "host": "api.worldbank.org",
-      "id": 66,
-      "name": "World Bank"
-    },
-    {
-      "code": "EUROSTAT",
-      "datasets_count": 320722,
-      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
-      "host": "epp.eurostat.ec.europa.eu",
-      "id": 194,
-      "name": "EuroStat"
-    },
-    {
-      "code": "BIS",
-      "datasets_count": 3417,
-      "description": "The mission of the Bank for International Settlements (BIS) is to serve central banks in their pursuit of monetary and financial stability, to foster international cooperation in those areas and to act as a bank for central banks.",
-      "host": "www.bis.org",
-      "id": 379,
-      "name": "Bank for International Settlements"
-    },
-    {
-      "code": "INSEE",
-      "datasets_count": 0,
-      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
-      "host": "www.insee.fr",
-      "id": 1097,
-      "name": "National Institute of Statistics and Economic Studies (France)"
-    },
-    {
-      "code": "IBGE",
-      "datasets_count": 110418,
-      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
-      "host": "seriesestatisticas.ibge.gov.br",
-      "id": 725,
-      "name": "Brazilian Institute of Geography and Statistics"
-    },
-    {
-      "code": "USPTO",
-      "datasets_count": 2107,
-      "description": "U.S. Patent and Trademark Office is the federal agency for granting U.S. patents and registering trademarks, leading the nation and the world in intellectual property protection and policy.\r\n",
-      "host": "uspto.gov",
-      "id": 634,
-      "name": "U.S. Patent and Trademark Office"
-    },
-    {
-      "code": "FRED",
-      "datasets_count": 60949,
-      "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
-      "host": "www.research.stlouisfed.org",
-      "id": 118,
-      "name": "Federal Reserve Economic Data"
-    }
-  ],
-  "total_count": 10006019
+  "sources": [{
+    "code": "SEC",
+    "datasets_count": 4867,
+    "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+    "host": "www.sec.gov",
+    "id": 651,
+    "name": "U.S. Securities and Exchange Commission"
+  }],
+  "total_count": 10053489
 }

@@ -1,21 +1,21 @@
 {
-  "code": "IPUEN31161_L010",
+  "code": "BAGASSENETINLANDAVAILABILITY_MMR",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Metric tons - thousand"
   ],
-  "description": "Measure: Hours (2002=100); Sector: Manufacturing; Industry: Animal slaughtering and processing; Units: indexes and values; Not Seasonally Adjusted; Source: BLS Industry Productivity program. For more information see <a href=\"http://www.bls.gov/lpc/lpcover.htm\">http://www.bls.gov/lpc/lpcover.htm.<\/a>",
-  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IPUEN31161_L010",
+  "description": "The Energy Statistics Database contains comprehensive energy statistics on the production, trade, conversion and final consumption of primary and secondary; conventional and non-conventional; and new and renewable sources of energy. The Energy Statistics dataset, covering the period from 1990 onwards, is available at UNdata. For data prior to 1990, please refer to http://unstats.un.org/unsd/energy/edbase.htm.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2009-12-31",
-  "id": 9004380,
-  "name": "Hours (2002=100) for Manufacturing sector - Animal slaughtering and processing, indexes and values",
+  "from_date": "1990-12-31",
+  "id": 3090536,
+  "name": "Bagasse - Net Inland Availability - Myanmar",
   "private": false,
-  "source_code": "BLS",
-  "source_name": "Bureau of Labor Statistics",
-  "to_date": "2011-12-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2013-11-15T02:17:30Z",
-  "urlize_name": "Hours-2002-100-for-Manufacturing-sector-Animal-slaughtering-and-processing-indexes-and-values"
+  "updated_at": "2014-01-13T02:27:54Z",
+  "urlize_name": "Bagasse-Net-Inland-Availability-Myanmar"
 }

@@ -1,21 +1,23 @@
 {
-  "code": "MZIP_PCTTRANSACTIONSTHATAREPREVIOUSLYFORECLOSUREDHOMES_ALLHOMES_93514",
+  "code": "COMM_29_LITHIUMOXIDEANDHYDROXIDE_REEXPORT_ARE",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "The percentage of home sales in a given month where the home was foreclosed upon within the previous 12 months (e.g. sales of bank-owned homes after the bank repossessed a home during a foreclosure). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctTransactionsThatArePreviouslyForeclosuredHomes_AllHomes.csv",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "quarterly",
-  "from_date": "1999-04-30",
-  "id": 7417364,
-  "name": "Zillow Metrics (Zip Codes): Foreclosure Resales (%) - 93514,Bishop,CA",
+  "frequency": "annual",
+  "from_date": "2005-12-31",
+  "id": 3222745,
+  "name": "Commodity Re-Exports - Inorganic Chemicals, Precious Metal Compound, Isotope / Lithium oxide and hydroxide - United Arab Emirates",
   "private": false,
-  "source_code": "ZILLOW",
-  "source_name": "Zillow Real Estate Research",
-  "to_date": "2013-08-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2005-12-31",
   "type": null,
-  "updated_at": "2014-05-15T17:49:51Z",
-  "urlize_name": "Zillow-Metrics-Zip-Codes-Foreclosure-Resales-93514-Bishop-CA"
+  "updated_at": "2013-12-29T02:11:07Z",
+  "urlize_name": "Commodity-Re-Exports-Inorganic-Chemicals-Precious-Metal-Compound-Isotope-Lithium-oxide-and-hydroxide-United-Arab-Emirates"
 }

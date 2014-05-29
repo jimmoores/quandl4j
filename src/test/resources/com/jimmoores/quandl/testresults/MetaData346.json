@@ -1,21 +1,21 @@
 {
-  "code": "FHN_EFF_TAX_INC",
+  "code": "ELEC_PLANT_CONS_EG_BTU_50271_MSB_ALL_M",
   "column_names": [
     "Date",
-    "Effective Tax Rate on Income"
+    "Value"
   ],
-  "description": "This is the effective tax rate, obtained by dividing the taxes paid by the taxable income as reported to the stockholders. We would rather have used marginal tax rates, but these are not reported. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.50271-MSB-ALL.M",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.50271-MSB-ALL.M&out=xml",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2010-12-31",
-  "id": 6079255,
-  "name": "First Tennessee National Corp. ( FHN ) - Effective Tax Rate on Income",
+  "frequency": "monthly",
+  "from_date": "2006-01-31",
+  "id": 5097868,
+  "name": "Electric Fuel Consumption Mmbtus : New Hanover County Wastec : Biogenic Municipal Solid Waste : All Primemovers : Monthly",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2011-12-31",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2012-04-30",
   "type": null,
-  "updated_at": "2014-03-20T18:48:34Z",
-  "urlize_name": "First-Tennessee-National-Corp-FHN-Effective-Tax-Rate-on-Income"
+  "updated_at": "2014-01-09T03:59:43Z",
+  "urlize_name": "Electric-Fuel-Consumption-Mmbtus-New-Hanover-County-Wastec-Biogenic-Municipal-Solid-Waste-All-Primemovers-Monthly"
 }

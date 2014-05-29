@@ -1,23 +1,21 @@
 {
-  "code": "CBMXW_SI",
+  "code": "ZIP_ALLHOMES_98310",
   "column_names": [
-    "Settlement Date",
-    "Short Interest",
-    "Avg Daily Share Volume",
-    "Days to Cover"
+    "Date",
+    "Value"
   ],
-  "description": "Short interest, Average Volume, and Days to Cover for CBMXW",
-  "display_url": "http://www.nasdaq.com/symbol/CBMXW/short-interest",
+  "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the zip code of 98310, Bremerton, WA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_AllHomes.csv",
   "errors": {},
   "frequency": "monthly",
-  "from_date": "2012-06-15",
-  "id": 4907411,
-  "name": "CombiMatrix Corp Short Interest",
+  "from_date": "1996-04-30",
+  "id": 6745902,
+  "name": "Zillow Home Value Index (Zip Codes): All Homes - 98310,Bremerton,WA",
   "private": false,
-  "source_code": "NASDAQ",
-  "source_name": "NASDAQ",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
   "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2014-04-14T15:40:52Z",
-  "urlize_name": "CombiMatrix-Corp-Short-Interest"
+  "updated_at": "2014-05-08T07:30:16Z",
+  "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-All-Homes-98310-Bremerton-WA"
 }

@@ -1,21 +1,23 @@
 {
-  "code": "ELEC_PLANT_CONS_TOT_3809_NG_ST_A",
+  "code": "COMM_74_RESERVOIRSTANKSVATSETCIRONSTEELCAPACITY300L_IMPORT_SEN",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Units=Mcf. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.3809-NG-ST.A",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.3809-NG-ST.A&out=xml",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2003-12-31",
-  "id": 4886935,
-  "name": "Fuel Consumption Quantity : Yorktown : Natural Gas : Steam Turbine : Annual",
+  "from_date": "1996-12-31",
+  "id": 4284086,
+  "name": "Commodity Imports - Articles Of Iron Or Steel / Reservoirs/tanks/vats/etc, iron/steel capacity >300l - Senegal",
   "private": false,
-  "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
+  "source_code": "UN",
+  "source_name": "United Nations",
   "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-09T11:22:40Z",
-  "urlize_name": "Fuel-Consumption-Quantity-Yorktown-Natural-Gas-Steam-Turbine-Annual"
+  "updated_at": "2014-01-13T07:02:00Z",
+  "urlize_name": "Commodity-Imports-Articles-Of-Iron-Or-Steel-Reservoirs-tanks-vats-etc-iron-steel-capacity-300l-Senegal"
 }

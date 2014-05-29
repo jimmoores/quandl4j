@@ -1,21 +1,21 @@
 {
-  "code": "GMP34820_REAL_SOCIALASSISTANCE_MYRTLEBEACHNORTHMYRTLEBEACHCONWAYSC",
+  "code": "PET_EMA_EPMPU_PTA_SWI_DPG_M",
   "column_names": [
-    "Year",
-    "Social Assistance"
+    "Date",
+    "Value"
   ],
-  "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
-  "display_url": "http://bea.gov/regional",
+  "description": "Units = Dollars Per Gallon. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.EMA_EPMPU_PTA_SWI_DPG.M>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.EMA_EPMPU_PTA_SWI_DPG.M<\/a>",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.EMA_EPMPU_PTA_SWI_DPG.M&out=xml",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2008-12-31",
-  "id": 6671707,
-  "name": "Real GDP: Social assistance - Myrtle Beach-North Myrtle Beach-Conway, SC",
+  "frequency": "monthly",
+  "from_date": "1994-01-31",
+  "id": 12072656,
+  "name": "Wisconsin Conventional Gasoline Premium Retail Sales By All Sellers, Monthly",
   "private": false,
-  "source_code": "BEA",
-  "source_name": "Bureau of Economic Analysis",
-  "to_date": "2010-12-31",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2011-02-28",
   "type": null,
-  "updated_at": "2014-01-12T18:28:19Z",
-  "urlize_name": "Real-GDP-Social-assistance-Myrtle-Beach-North-Myrtle-Beach-Conway-SC"
+  "updated_at": "2014-05-17T10:23:23Z",
+  "urlize_name": "Wisconsin-Conventional-Gasoline-Premium-Retail-Sales-By-All-Sellers-Monthly"
 }

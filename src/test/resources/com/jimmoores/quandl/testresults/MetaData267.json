@@ -1,23 +1,21 @@
 {
-  "code": "COMM_49_LETTERORCORRESPONDENCECARDSPLAINPOSTCARDS_REEXPORT_MAC",
+  "code": "RCITY_ZRIPERSQFT_ALLHOMES_PANHANDLETX",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Panhandle"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Panhandle, TX. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2002-12-31",
-  "id": 3706954,
-  "name": "Commodity Re-Exports - Paper & Paperboard, Articles Of Pulp, Paper And Board / Letter or correspondence cards, plain postcards - China, Macao SAR",
+  "frequency": "monthly",
+  "from_date": "2011-04-30",
+  "id": 7006239,
+  "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Panhandle, TX",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2009-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2014-01-10T23:30:20Z",
-  "urlize_name": "Commodity-Re-Exports-Paper-Paperboard-Articles-Of-Pulp-Paper-And-Board-Letter-or-correspondence-cards-plain-postcards-China-Macao-SAR"
+  "updated_at": "2014-05-08T00:05:40Z",
+  "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Panhandle-TX"
 }

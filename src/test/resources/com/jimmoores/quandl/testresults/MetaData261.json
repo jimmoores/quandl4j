@@ -1,21 +1,21 @@
 {
-  "code": "UFEN_CASH",
+  "code": "HCEN_EBITDA",
   "column_names": [
     "Date",
-    "Cash"
+    "Earnings Before Interest Taxes Depreciation and Amortization"
   ],
-  "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "Estimated by adding depreciation and amortization back to operating income (EBIT). Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2005-12-31",
-  "id": 5461936,
-  "name": "United Fuel & Energy Crop ( UFEN ) - Cash",
+  "from_date": "2000-12-31",
+  "id": 4510871,
+  "name": "HealthCentral.com ( HCEN ) - Earnings Before Interest Taxes Depreciation and Amortization",
   "private": false,
   "source_code": "DMDRN",
   "source_name": "Damodaran Financial Data",
-  "to_date": "2009-12-31",
+  "to_date": "2000-12-31",
   "type": null,
-  "updated_at": "2014-03-14T09:25:51Z",
-  "urlize_name": "United-Fuel-Energy-Crop-UFEN-Cash"
+  "updated_at": "2014-03-14T05:32:14Z",
+  "urlize_name": "HealthCentral-com-HCEN-Earnings-Before-Interest-Taxes-Depreciation-and-Amortization"
 }

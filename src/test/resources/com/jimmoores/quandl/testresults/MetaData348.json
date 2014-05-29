@@ -1,21 +1,21 @@
 {
-  "code": "EES_DEMP_RT_SEX_F_ECO_ISIC3_P_CZE",
+  "code": "MCOUNTY_NUMBEROFHOMESFORSALE_ALLHOMES_BAXTERAR",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/County/County_NumberOfHomesForSale_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2002-12-31",
-  "id": 12441842,
-  "name": "Share Of Employees In Total Employment Women In P. Private Households With Domestic - Annual - Czech Republic",
+  "frequency": "monthly",
+  "from_date": "2008-10-31",
+  "id": 7495822,
+  "name": "Zillow Metrics (Counties): Homes for Sale (Beta) - Baxter, AR",
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2007-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-01-31",
   "type": null,
-  "updated_at": "2014-05-28T22:22:56Z",
-  "urlize_name": "Share-Of-Employees-In-Total-Employment-Women-In-P-Private-Households-With-Domestic-Annual-Czech-Republic"
+  "updated_at": "2014-03-11T06:44:12Z",
+  "urlize_name": "Zillow-Metrics-Counties-Homes-for-Sale-Beta-Baxter-AR"
 }

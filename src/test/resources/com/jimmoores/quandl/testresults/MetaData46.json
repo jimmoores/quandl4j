@@ -1,417 +1,433 @@
 {
-  "current_page": 29464,
+  "current_page": 450038,
   "docs": [
     {
-      "code": "UFEN_CASH",
+      "code": "IQ214",
       "column_names": [
         "Date",
-        "Cash"
+        "Value"
       ],
-      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 5461936,
-      "name": "United Fuel & Energy Crop ( UFEN ) - Cash",
+      "description": "Index 2000=100 Not Seasonally Adjusted, For more information, please see the Import/Export Price Indexes frequently asked questions site at http://www.bls.gov/mxp/ippfaq.htm. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/IQ214.csv",
+      "frequency": "monthly",
+      "from_date": "1980-12-01",
+      "id": 134429,
+      "name": "Export (End Use): Telecommunications equipment",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2009-12-31",
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
       "type": null,
-      "updated_at": "2014-03-14T09:25:51Z",
-      "urlize_name": "United-Fuel-Energy-Crop-UFEN-Cash"
+      "updated_at": "2014-05-23T12:10:26Z",
+      "urlize_name": "Export-End-Use-Telecommunications-equipment"
     },
     {
-      "code": "PWT_TO_NCWC_REV",
+      "code": "RESBALNSW",
       "column_names": [
         "Date",
-        "Non-Cash Working Capital as Percentage of Revenues"
+        "Value"
       ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5432338,
-      "name": "Penn West Petroleum Ltd. ( PWT.TO ) - Non-Cash Working Capital as Percentage of Revenues",
+      "description": "Millions of Dollars Not Seasonally Adjusted, Total reserve balances maintained is the amount of balances institutions hold in accounts at Federal Reserve Banks that are available to satisfy reserve requirements. Historically, this series excluded balances held in a reserve account for contractual clearing purposes (contractual clearing balances program has been discontinued on July 12, 2012).  Effective February 2, 1984, reserve computation and maintenance periods have been changed from weekly to bi-weekly. Series with data prior to February 2, 1984 have different values reported from one week to the next. After February 2, 1984, the value repeats for 2 consecutive weeks. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/RESBALNSW.csv",
+      "frequency": "weekly",
+      "from_date": "1975-01-08",
+      "id": 8525998,
+      "name": "Total Reserve Balances Maintained",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2004-12-31",
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-30",
       "type": null,
-      "updated_at": "2014-03-14T09:25:33Z",
-      "urlize_name": "Penn-West-Petroleum-Ltd-PWT-TO-Non-Cash-Working-Capital-as-Percentage-of-Revenues"
+      "updated_at": "2014-05-13T21:49:20Z",
+      "urlize_name": "Total-Reserve-Balances-Maintained"
     },
     {
-      "code": "GFI_TO_EV_BV",
+      "code": "IES_6_33_10_SEN",
       "column_names": [
-        "Date",
-        "EV to Book Value Ratio"
+        "Year",
+        "Btu Per Kilowatthour"
       ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 4458355,
-      "name": "Greyvest Capital, Inc. ( GFI.TO ) - EV to Book Value Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2001-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:34Z",
-      "urlize_name": "Greyvest-Capital-Inc-GFI-TO-EV-to-Book-Value-Ratio"
-    },
-    {
-      "code": "SPGLQ_NCWC_REV",
-      "column_names": [
-        "Date",
-        "Non-Cash Working Capital as Percentage of Revenues"
-      ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 5467345,
-      "name": "Spiegel Inc. 'A' ( SPGLQ ) - Non-Cash Working Capital as Percentage of Revenues",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2003-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:34Z",
-      "urlize_name": "Spiegel-Inc-A-SPGLQ-Non-Cash-Working-Capital-as-Percentage-of-Revenues"
-    },
-    {
-      "code": "SPGLQ_OP_MARG",
-      "column_names": [
-        "Date",
-        "Pre-Tax Operating Margin"
-      ],
-      "description": "Estimated by dividing the pre-tax operating income by the total revenues. This is a pre-tax measure of operating profitability: Pre-tax Operating Margin = EBIT / Sales. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 5467349,
-      "name": "Spiegel Inc. 'A' ( SPGLQ ) - Pre-Tax Operating Margin",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2003-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:53Z",
-      "urlize_name": "Spiegel-Inc-A-SPGLQ-Pre-Tax-Operating-Margin"
-    },
-    {
-      "code": "NLXI_REV_LAST",
-      "column_names": [
-        "Date",
-        "Revenues"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 4708720,
-      "name": "NELX Inc ( NLXI ) - Revenues",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2006-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:53Z",
-      "urlize_name": "NELX-Inc-NLXI-Revenues"
-    },
-    {
-      "code": "RUIZ_I_SGA",
-      "column_names": [
-        "Date",
-        "Sales General and Administration Expenses"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5389352,
-      "name": "Index-Russell 1000 ( RUIZ.I ) - Sales General and Administration Expenses",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2000-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:34Z",
-      "urlize_name": "Index-Russell-1000-RUIZ-I-Sales-General-and-Administration-Expenses"
-    },
-    {
-      "code": "AII_BV_ASSETS",
-      "column_names": [
-        "Date",
-        "Book Value of Assets"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 3911400,
-      "name": "Aldabra 2 Acq. Corp ( AII ) - Book Value of Assets",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2007-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:34Z",
-      "urlize_name": "Aldabra-2-Acq-Corp-AII-Book-Value-of-Assets"
-    },
-    {
-      "code": "PWF_TO_EPS_GRO",
-      "column_names": [
-        "Date",
-        "Growth in Earnings Per Share"
-      ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 5430841,
-      "name": "Power Financial Corp. ( PWF.TO ) - Growth in Earnings Per Share",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:53Z",
-      "urlize_name": "Power-Financial-Corp-PWF-TO-Growth-in-Earnings-Per-Share"
-    },
-    {
-      "code": "SPGLQ_REINV",
-      "column_names": [
-        "Date",
-        "Reinvestment Amount"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 5467353,
-      "name": "Spiegel Inc. 'A' ( SPGLQ ) - Reinvestment Amount",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2003-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:36Z",
-      "urlize_name": "Spiegel-Inc-A-SPGLQ-Reinvestment-Amount"
-    },
-    {
-      "code": "FCBI_INTANG_TOT",
-      "column_names": [
-        "Date",
-        "Ratio of Intangible Assets to Total Assets"
-      ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 4420568,
-      "name": "Frederick County bancorp Inc ( FCBI ) - Ratio of Intangible Assets to Total Assets",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:55Z",
-      "urlize_name": "Frederick-County-bancorp-Inc-FCBI-Ratio-of-Intangible-Assets-to-Total-Assets"
-    },
-    {
-      "code": "INTM_ROC",
-      "column_names": [
-        "Date",
-        "Return on Capital"
-      ],
-      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 4621174,
-      "name": "internet.com ( INTM ) - Return on Capital",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2001-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:37Z",
-      "urlize_name": "internet-com-INTM-Return-on-Capital"
-    },
-    {
-      "code": "NXGNF_MKT_DE",
-      "column_names": [
-        "Date",
-        "Market Debt to Equity Ratio"
-      ],
-      "description": "Debt is defined as including both short term and long term debt (but not accounts payable or non-interest bearing liabilities), and the book value of debt is used as a proxy for market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 5284240,
-      "name": "Nexgen Biofuels Ltd ( NXGNF ) - Market Debt to Equity Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:56Z",
-      "urlize_name": "Nexgen-Biofuels-Ltd-NXGNF-Market-Debt-to-Equity-Ratio"
-    },
-    {
-      "code": "USVO_BETA_VL",
-      "column_names": [
-        "Date",
-        "Value Line Beta"
-      ],
-      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 5493974,
-      "name": "USA Video Interactive Corp ( USVO ) - Value Line Beta",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:56Z",
-      "urlize_name": "USA-Video-Interactive-Corp-USVO-Value-Line-Beta"
-    },
-    {
-      "code": "SPGLQ_TOT_DEBT",
-      "column_names": [
-        "Date",
-        "Total Debt"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 5467364,
-      "name": "Spiegel Inc. 'A' ( SPGLQ ) - Total Debt",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2003-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:57Z",
-      "urlize_name": "Spiegel-Inc-A-SPGLQ-Total-Debt"
-    },
-    {
-      "code": "TRQ_TO_INTANG_TOT",
-      "column_names": [
-        "Date",
-        "Ratio of Intangible Assets to Total Assets"
-      ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2012-12-31",
-      "id": 5511247,
-      "name": "Turquoise Hill Resources Ltd. ( TRQ.TO ) - Ratio of Intangible Assets to Total Assets",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:57Z",
-      "urlize_name": "Turquoise-Hill-Resources-Ltd-TRQ-TO-Ratio-of-Intangible-Assets-to-Total-Assets"
-    },
-    {
-      "code": "SPGLQ_REV_12M",
-      "column_names": [
-        "Date",
-        "Trailing 12-month Revenues"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 5467367,
-      "name": "Spiegel Inc. 'A' ( SPGLQ ) - Trailing 12-month Revenues",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2003-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:57Z",
-      "urlize_name": "Spiegel-Inc-A-SPGLQ-Trailing-12-month-Revenues"
-    },
-    {
-      "code": "AII_CASH",
-      "column_names": [
-        "Date",
-        "Cash"
-      ],
-      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 3911402,
-      "name": "Aldabra 2 Acq. Corp ( AII ) - Cash",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2007-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T09:25:57Z",
-      "urlize_name": "Aldabra-2-Acq-Corp-AII-Cash"
-    },
-    {
-      "code": "DHC_BETA_VL",
-      "column_names": [
-        "Date",
-        "Value Line Beta"
-      ],
-      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Units=Btu Per Kilowatthour. The U.S. Energy Information Administration (EIA) collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA provides a wide range of information and data products covering energy production, stocks, demand, imports, exports, and prices; and prepares analyses and special reports on topics of current interest.",
+      "display_url": "http://www.eia.gov/cfapps/ipdbproject/XMLinclude_3.cfm?tid=6&pid=33&pdid=33,35,36,37,38,116,117&aid=10&cid=regions&syid=1980&eyid=2012&form=&defaultid=3&typeOfUnit=STDUNIT&unit=BTUPKWH&products=",
       "frequency": "annual",
       "from_date": "2002-12-31",
-      "id": 4195369,
-      "name": "Danielson Holding ( DHC ) - Value Line Beta",
+      "id": 11833590,
+      "name": "Gross Heat Content of Hydroelectric Power - Senegal",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2004-12-31",
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-14T09:25:39Z",
-      "urlize_name": "Danielson-Holding-DHC-Value-Line-Beta"
+      "updated_at": "2014-05-13T21:45:08Z",
+      "urlize_name": "Gross-Heat-Content-of-Hydroelectric-Power-Senegal"
     },
     {
-      "code": "NETX_FCFF",
+      "code": "IES_6_33_10_SLE",
+      "column_names": [
+        "Year",
+        "Btu Per Kilowatthour"
+      ],
+      "description": "Units=Btu Per Kilowatthour. The U.S. Energy Information Administration (EIA) collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA provides a wide range of information and data products covering energy production, stocks, demand, imports, exports, and prices; and prepares analyses and special reports on topics of current interest.",
+      "display_url": "http://www.eia.gov/cfapps/ipdbproject/XMLinclude_3.cfm?tid=6&pid=33&pdid=33,35,36,37,38,116,117&aid=10&cid=regions&syid=1980&eyid=2012&form=&defaultid=3&typeOfUnit=STDUNIT&unit=BTUPKWH&products=",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 11833591,
+      "name": "Gross Heat Content of Hydroelectric Power - Sierra Leone",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-13T21:44:39Z",
+      "urlize_name": "Gross-Heat-Content-of-Hydroelectric-Power-Sierra-Leone"
+    },
+    {
+      "code": "SMU06418604340008901SA",
       "column_names": [
         "Date",
-        "Free Cash Flow to Firm"
+        "Value"
       ],
-      "description": "FCFF = EBIT(1-t) - (Capital Expenditures - Depreciation) - Change in Non-Cash Working Capital. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 4685952,
-      "name": "Netlojix Communications Inc ( NETX ) - Free Cash Flow to Firm",
+      "description": "Thousands of Persons Seasonally Adjusted, The Federal Reserve Bank of St. Louis seasonally adjusts this series by using the 'x12' package from R with default parameter settings. The package uses the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on the 'x12' package can be found at http://cran.r-project.org/web/packages/x12/x12.pdf. More information on X-12-ARIMA can be found at http://www.census.gov/srd/www/x12a/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/SMU06418604340008901SA.csv",
+      "frequency": "monthly",
+      "from_date": "1990-01-01",
+      "id": 11017571,
+      "name": "All Employees: Transportation and Warehousing in San Francisco-Oakland-Fremont, CA (MSA)",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2002-12-31",
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-03-01",
       "type": null,
-      "updated_at": "2014-03-14T09:25:58Z",
-      "urlize_name": "Netlojix-Communications-Inc-NETX-Free-Cash-Flow-to-Firm"
+      "updated_at": "2014-05-28T21:56:33Z",
+      "urlize_name": "All-Employees-Transportation-and-Warehousing-in-San-Francisco-Oakland-Fremont-CA-MSA"
+    },
+    {
+      "code": "BSI_Q_SK_N_A_A20_A_1_U2_2000_Z04_E",
+      "column_names": [
+        "Date",
+        "Millions of Euro"
+      ],
+      "description": " Slovakia, Outstanding amounts at the end of the period (stocks), MFIs excluding ESCB reporting sector - Loans, Total maturity, Other currencies than EU combined - Euro area (changing composition) counterpart, Non-MFIs sector, denominated in Euro, data Neither seasonally nor working day adjusted , :, Dataset:BSI : Balance Sheet Items Explanation page (Series and Dataset Level Information), Reference area:Slovakia (SK), Decimals:Zero (0), Collection indicator:End of period (E)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2019173&SERIES_KEY=117.BSI.Q.SK.N.A.A20.A.1.U2.2000.Z04.E&exportType=sdmx",
+      "frequency": "quarterly",
+      "from_date": "2006-03-31",
+      "id": 11378775,
+      "name": "Slovakia, Outstanding amounts at the end of the period , MFIs excluding ESCB reporting sector Loans, Total maturity, Other currencies than EU combined Euro area counterpart, Non-MFIs sector, denominated in Euro, data",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-23T23:37:01Z",
+      "urlize_name": "Slovakia-Outstanding-amounts-at-the-end-of-the-period-MFIs-excluding-ESCB-reporting-sector-Loans-Total-maturity-Other-currencies-than-EU-combined-Euro-area-counterpart-Non-MFIs-sector-denominated-in-Euro-data"
+    },
+    {
+      "code": "GST_Q_RO_N_D0000_TOR_D1300_CU_G",
+      "column_names": [
+        "Date",
+        "Percent"
+      ],
+      "description": " Romania - Total revenue - General government (ESA95)-EUR - All sectors/ unspecified/ not applicable (ESA95) - EUR - Non-financial flows current prices - Percentage points, series(t)/GDP(t) - Neither seasonally nor working day adjusted , :, Dataset:GST : Government Statistics Explanation page (Series and Dataset Level Information), Reference area:Romania (RO), Decimals:Six (6), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9485563&SERIES_KEY=121.GST.Q.RO.N.D0000.TOR.D1300.CU.G&exportType=sdmx",
+      "frequency": "quarterly",
+      "from_date": "1999-03-31",
+      "id": 11360298,
+      "name": "Romania Total revenue General government -EUR All sectors/ unspecified/ not applicable EUR Non-financial flows current prices Percentage points, series/GDP",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-23T23:37:01Z",
+      "urlize_name": "Romania-Total-revenue-General-government-EUR-All-sectors-unspecified-not-applicable-EUR-Non-financial-flows-current-prices-Percentage-points-series-GDP"
+    },
+    {
+      "code": "PCECC96",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Billions of Chained 2005 Dollars Seasonally Adjusted Annual Rate, A Guide to the National Income and Product Accounts of the United States (NIPA) - (http://www.bea.gov/national/pdf/nipaguid.pdf) ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/PCECC96.csv",
+      "frequency": "quarterly",
+      "from_date": "1947-01-01",
+      "id": 121639,
+      "name": "Real Personal Consumption Expenditures",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-01-01",
+      "type": null,
+      "updated_at": "2014-05-20T20:40:54Z",
+      "urlize_name": "Real-Personal-Consumption-Expenditures"
+    },
+    {
+      "code": "GST_Q_CY_N_B0X13_BBM_B1300_FB_E",
+      "column_names": [
+        "Date",
+        "Millions of Euro"
+      ],
+      "description": " Cyprus - Long-term securities other than shares - General government (ESA95)-NCBs - All sectors without general government (consolidation) (ESA95) - NCBs - Financial flows at market value - Euro, irrevocable conversion rate - Neither seasonally nor working day adjusted , :, Dataset:GST : Government Statistics Explanation page (Series and Dataset Level Information), Reference area:Cyprus (CY), Decimals:Six (6), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9485652&SERIES_KEY=121.GST.Q.CY.N.B0X13.BBM.B1300.FB.E&exportType=sdmx",
+      "frequency": "quarterly",
+      "from_date": "1999-03-31",
+      "id": 11371653,
+      "name": "Cyprus Long-term securities other than shares General government -NCBs All sectors without general government NCBs Financial flows at market value Euro, irrevocable conversion rate",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-23T23:37:02Z",
+      "urlize_name": "Cyprus-Long-term-securities-other-than-shares-General-government-NCBs-All-sectors-without-general-government-NCBs-Financial-flows-at-market-value-Euro-irrevocable-conversion-rate"
+    },
+    {
+      "code": "IES_6_33_10_SOM",
+      "column_names": [
+        "Year",
+        "Btu Per Kilowatthour"
+      ],
+      "description": "Units=Btu Per Kilowatthour. The U.S. Energy Information Administration (EIA) collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA provides a wide range of information and data products covering energy production, stocks, demand, imports, exports, and prices; and prepares analyses and special reports on topics of current interest.",
+      "display_url": "http://www.eia.gov/cfapps/ipdbproject/XMLinclude_3.cfm?tid=6&pid=33&pdid=33,35,36,37,38,116,117&aid=10&cid=regions&syid=1980&eyid=2012&form=&defaultid=3&typeOfUnit=STDUNIT&unit=BTUPKWH&products=",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 11833592,
+      "name": "Gross Heat Content of Hydroelectric Power - Somalia",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-13T21:44:42Z",
+      "urlize_name": "Gross-Heat-Content-of-Hydroelectric-Power-Somalia"
+    },
+    {
+      "code": "IES_6_33_10_ZAF",
+      "column_names": [
+        "Year",
+        "Btu Per Kilowatthour"
+      ],
+      "description": "Units=Btu Per Kilowatthour. The U.S. Energy Information Administration (EIA) collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA provides a wide range of information and data products covering energy production, stocks, demand, imports, exports, and prices; and prepares analyses and special reports on topics of current interest.",
+      "display_url": "http://www.eia.gov/cfapps/ipdbproject/XMLinclude_3.cfm?tid=6&pid=33&pdid=33,35,36,37,38,116,117&aid=10&cid=regions&syid=1980&eyid=2012&form=&defaultid=3&typeOfUnit=STDUNIT&unit=BTUPKWH&products=",
+      "frequency": "annual",
+      "from_date": "1980-12-31",
+      "id": 11833593,
+      "name": "Gross Heat Content of Hydroelectric Power - South Africa",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-13T21:45:16Z",
+      "urlize_name": "Gross-Heat-Content-of-Hydroelectric-Power-South-Africa"
+    },
+    {
+      "code": "IES_6_33_10_SSD",
+      "column_names": [
+        "Year",
+        "Btu Per Kilowatthour"
+      ],
+      "description": "Units=Btu Per Kilowatthour. The U.S. Energy Information Administration (EIA) collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA provides a wide range of information and data products covering energy production, stocks, demand, imports, exports, and prices; and prepares analyses and special reports on topics of current interest.",
+      "display_url": "http://www.eia.gov/cfapps/ipdbproject/XMLinclude_3.cfm?tid=6&pid=33&pdid=33,35,36,37,38,116,117&aid=10&cid=regions&syid=1980&eyid=2012&form=&defaultid=3&typeOfUnit=STDUNIT&unit=BTUPKWH&products=",
+      "frequency": "annual",
+      "from_date": "1980-12-31",
+      "id": 11833594,
+      "name": "Gross Heat Content of Hydroelectric Power - Sudan and South Sudan",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-13T21:45:18Z",
+      "urlize_name": "Gross-Heat-Content-of-Hydroelectric-Power-Sudan-and-South-Sudan"
+    },
+    {
+      "code": "ESA_Q_DK_N_0000_LABPHW_1000_2C_C_L_N_I",
+      "column_names": [
+        "Date",
+        "2005"
+      ],
+      "description": " Denmark - Hourly labour productivity: Manufacturing, Chain linked, National currency, Neither seasonally nor working day adjusted, Index , :, Dataset:ESA : ESA95 National Accounts Explanation page (Series and Dataset Level Information), Reference area:Denmark (DK), Decimals:Two (2), Collection indicator:Average of observations through period (A), Compilation:$REBASE(ESA.A.DK.N.0000.LABPHW.1000.2C_C.L.N.A,2005)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2120804&SERIES_KEY=119.ESA.Q.DK.N.0000.LABPHW.1000.2C_C.L.N.I&exportType=sdmx",
+      "frequency": "quarterly",
+      "from_date": "1990-03-31",
+      "id": 11510649,
+      "name": "Denmark Hourly labour productivity: Manufacturing, Chain linked, National currency, Index",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-23T21:29:23Z",
+      "urlize_name": "Denmark-Hourly-labour-productivity-Manufacturing-Chain-linked-National-currency-Index"
+    },
+    {
+      "code": "GST_Q_SI_N_B1300_BBM_B0X13_FB_G",
+      "column_names": [
+        "Date",
+        "Percent"
+      ],
+      "description": " Slovenia - Long-term securities other than shares - All sectors without general government (consolidation) (ESA95) - NCBs - General government (ESA95)-NCBs - Financial flows at market value - Percentage points, series(t)/GDP(t) - Neither seasonally nor working day adjusted , :, Dataset:GST : Government Statistics Explanation page (Series and Dataset Level Information), Reference area:Slovenia (SI), Decimals:Six (6), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9485649&SERIES_KEY=121.GST.Q.SI.N.B1300.BBM.B0X13.FB.G&exportType=sdmx",
+      "frequency": "quarterly",
+      "from_date": "2004-03-31",
+      "id": 11369950,
+      "name": "Slovenia Long-term securities other than shares All sectors without general government NCBs General government -NCBs Financial flows at market value Percentage points, series/GDP",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-23T21:29:22Z",
+      "urlize_name": "Slovenia-Long-term-securities-other-than-shares-All-sectors-without-general-government-NCBs-General-government-NCBs-Financial-flows-at-market-value-Percentage-points-series-GDP"
+    },
+    {
+      "code": "JTS4000QUR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Rate Seasonally Adjusted,  ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/JTS4000QUR.csv",
+      "frequency": "monthly",
+      "from_date": "2000-12-01",
+      "id": 133843,
+      "name": "Quits: Trade, Transportation and Utilities",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-03-01",
+      "type": null,
+      "updated_at": "2014-05-28T11:15:57Z",
+      "urlize_name": "Quits-Trade-Transportation-and-Utilities"
+    },
+    {
+      "code": "IES_6_33_10_SWZ",
+      "column_names": [
+        "Year",
+        "Btu Per Kilowatthour"
+      ],
+      "description": "Units=Btu Per Kilowatthour. The U.S. Energy Information Administration (EIA) collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA provides a wide range of information and data products covering energy production, stocks, demand, imports, exports, and prices; and prepares analyses and special reports on topics of current interest.",
+      "display_url": "http://www.eia.gov/cfapps/ipdbproject/XMLinclude_3.cfm?tid=6&pid=33&pdid=33,35,36,37,38,116,117&aid=10&cid=regions&syid=1980&eyid=2012&form=&defaultid=3&typeOfUnit=STDUNIT&unit=BTUPKWH&products=",
+      "frequency": "annual",
+      "from_date": "1980-12-31",
+      "id": 11833595,
+      "name": "Gross Heat Content of Hydroelectric Power - Swaziland",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-13T21:45:21Z",
+      "urlize_name": "Gross-Heat-Content-of-Hydroelectric-Power-Swaziland"
+    },
+    {
+      "code": "IES_6_33_10_TZA",
+      "column_names": [
+        "Year",
+        "Btu Per Kilowatthour"
+      ],
+      "description": "Units=Btu Per Kilowatthour. The U.S. Energy Information Administration (EIA) collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA provides a wide range of information and data products covering energy production, stocks, demand, imports, exports, and prices; and prepares analyses and special reports on topics of current interest.",
+      "display_url": "http://www.eia.gov/cfapps/ipdbproject/XMLinclude_3.cfm?tid=6&pid=33&pdid=33,35,36,37,38,116,117&aid=10&cid=regions&syid=1980&eyid=2012&form=&defaultid=3&typeOfUnit=STDUNIT&unit=BTUPKWH&products=",
+      "frequency": "annual",
+      "from_date": "1980-12-31",
+      "id": 11833596,
+      "name": "Gross Heat Content of Hydroelectric Power - Tanzania",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-13T21:45:24Z",
+      "urlize_name": "Gross-Heat-Content-of-Hydroelectric-Power-Tanzania"
+    },
+    {
+      "code": "JTU6000HIR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Rate Not Seasonally Adjusted,  ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/JTU6000HIR.csv",
+      "frequency": "monthly",
+      "from_date": "2000-12-01",
+      "id": 123255,
+      "name": "Hires: Education and Health Services",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-03-01",
+      "type": null,
+      "updated_at": "2014-05-23T12:00:14Z",
+      "urlize_name": "Hires-Education-and-Health-Services"
+    },
+    {
+      "code": "NYINSUREDUR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percent Not Seasonally Adjusted,  ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/NYINSUREDUR.csv",
+      "frequency": "weekly",
+      "from_date": "1986-12-27",
+      "id": 139796,
+      "name": "Insured Unemployment Rate in New York",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-19",
+      "type": null,
+      "updated_at": "2014-05-13T21:49:37Z",
+      "urlize_name": "Insured-Unemployment-Rate-in-New-York"
+    },
+    {
+      "code": "ODSACBW027SBOG",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Billions of U.S. Dollars Seasonally Adjusted, For further information, please refer to the Board of Governors of the Federal Reserve System's H.8 release, online at http://www.federalreserve.gov/releases/h8/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/ODSACBW027SBOG.csv",
+      "frequency": "weekly",
+      "from_date": "2009-07-01",
+      "id": 2361821,
+      "name": "Other Deposits, All Commercial Banks",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-05-13T21:49:38Z",
+      "urlize_name": "Other-Deposits-All-Commercial-Banks"
     }
   ],
   "per_page": 20,
-  "sources": [{
-    "code": "DMDRN",
-    "concurrency": 20,
-    "datasets_count": 0,
-    "description": "",
-    "host": "pages.stern.nyu.edu/~adamodar/",
-    "id": 6946,
-    "name": "Damodaran Financial Data",
-    "use_proxy": false
-  }],
-  "total_count": 9990700
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ECB",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "sdw.ecb.europa.eu",
+      "id": 8917,
+      "name": "European Central Bank"
+    },
+    {
+      "code": "FRED",
+      "datasets_count": 60949,
+      "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
+      "host": "www.research.stlouisfed.org",
+      "id": 118,
+      "name": "Federal Reserve Economic Data"
+    }
+  ],
+  "total_count": 10036987
 }

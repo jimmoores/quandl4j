@@ -1,23 +1,21 @@
 {
-  "code": "COMM_84_PARTSACCESSORIESOFLOOMSAUXILIARYMACHINERYNES_EXPORT_TUN",
+  "code": "MZIP_NUMBEROFHOMESFORRENT_ALLHOMES_48045",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForRent_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1997-12-31",
-  "id": 5186131,
-  "name": "Commodity Exports - Nuclear Reactors, Boilers, Machinery, Etc / Parts & accessories of looms, auxiliary machinery nes - Tunisia",
+  "frequency": "monthly",
+  "from_date": "2010-02-28",
+  "id": 7403773,
+  "name": "Zillow Metrics (Zip Codes): Homes for Rent (Beta) - 48045,Harrison Township,MI",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2011-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2013-05-15T04:21:48Z",
-  "urlize_name": "Commodity-Exports-Nuclear-Reactors-Boilers-Machinery-Etc-Parts-accessories-of-looms-auxiliary-machinery-nes-Tunisia"
+  "updated_at": "2014-05-07T14:52:07Z",
+  "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Rent-Beta-48045-Harrison-Township-MI"
 }

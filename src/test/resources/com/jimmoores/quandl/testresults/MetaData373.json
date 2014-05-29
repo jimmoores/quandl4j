@@ -1,21 +1,21 @@
 {
-  "code": "SYR_MYS_POP_6064_PRI_MF",
+  "code": "GST_A_LT_N_B1300_SOE_B11U2_FB_N",
   "column_names": [
     "Date",
-    "Value"
+    "Millions of Lithuanian litas"
   ],
-  "description": "Population in thousand, 60-64, total, primary is the total number of people age 60-64 (in thousands) with primary education.\npopulation in thousand, 60-64, total, primary",
-  "display_url": "http://api.worldbank.org/countries/SYR/indicators/MYS.POP.6064.PRI.MF?per_page=1000",
+  "description": " Lithuania - Shares and Other equity - Corporations (ESA95)-NCBs - General government (ESA95)-NCBs - Financial flows at market value - National currency - Neither seasonally nor working day adjusted , :, Dataset:GST : Government Statistics Explanation page (Series and Dataset Level Information), Reference area:Lithuania (LT), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+  "display_url": "http://sdw.ecb.europa.eu/export.do?node=9485649&SERIES_KEY=121.GST.A.LT.N.B1300.SOE.B11U2.FB.N&exportType=sdmx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1970-12-31",
-  "id": 6461446,
-  "name": "Syrian Arab Republic: population in thousand, 60-64, total, primary",
+  "from_date": "1995-12-31",
+  "id": 11369228,
+  "name": "Lithuania Shares and Other equity Corporations -NCBs General government -NCBs Financial flows at market value National currency",
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
-  "to_date": "2050-12-31",
+  "source_code": "ECB",
+  "source_name": "European Central Bank",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-13T04:32:57Z",
-  "urlize_name": "Syrian-Arab-Republic-population-in-thousand-60-64-total-primary"
+  "updated_at": "2014-04-26T00:30:58Z",
+  "urlize_name": "Lithuania-Shares-and-Other-equity-Corporations-NCBs-General-government-NCBs-Financial-flows-at-market-value-National-currency"
 }

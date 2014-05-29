@@ -1,21 +1,21 @@
 {
-  "code": "GGXY_STOCK_PX",
+  "code": "INTT_DEFERREDRENTCREDIT_A",
   "column_names": [
     "Date",
-    "Stock Price"
+    "Value"
   ],
-  "description": "Units: dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "SEC Name: DeferredRentCredit",
+  "display_url": null,
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2005-12-31",
-  "id": 4462697,
-  "name": "Golf Galaxy Inc ( GGXY ) - Stock Price",
+  "frequency": "daily",
+  "from_date": "2010-12-31",
+  "id": 10886771,
+  "name": "INTEST CORP  (INTT): Annual Deferred Rent Credit",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2006-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-03-14T10:38:23Z",
-  "urlize_name": "Golf-Galaxy-Inc-GGXY-Stock-Price"
+  "updated_at": "2014-03-07T18:01:09Z",
+  "urlize_name": "INTEST-CORP-INTT-Annual-Deferred-Rent-Credit"
 }

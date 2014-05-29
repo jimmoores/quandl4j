@@ -1,21 +1,21 @@
 {
-  "code": "425_AZE",
+  "code": "543907_A2193141A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEX: Female.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2377",
-  "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/SA_0000001423&filter=SEX:FMLE;COUNTRY:AZE;\n",
+  "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
+  "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&543907.xls&5439.0&Time%20Series%20Spreadsheet&0AE6A565552617EBCA257B8E0014A1F5&0&May%202013&19.06.2013&Latest",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2004-12-31",
-  "id": 9538198,
-  "name": "Age-standardized DALYs, falls, per 100,000 Female - Azerbaijan",
+  "frequency": "monthly",
+  "from_date": "1989-07-31",
+  "id": 7864720,
+  "name": "Balance of Payments Broad Economic Categories (1 and 2 digit), Customs Value: Other goods ; ($ Millions)",
   "private": false,
-  "source_code": "WHO",
-  "source_name": "World Health Organization",
-  "to_date": "2004-12-31",
+  "source_code": "AUSBS",
+  "source_name": "Australian Bureau of Statistics",
+  "to_date": "2014-04-30",
   "type": null,
-  "updated_at": "2014-01-10T10:15:26Z",
-  "urlize_name": "Age-standardized-DALYs-falls-per-100-000-Female-Azerbaijan"
+  "updated_at": "2014-05-19T22:51:25Z",
+  "urlize_name": "Balance-of-Payments-Broad-Economic-Categories-1-and-2-digit-Customs-Value-Other-goods-Millions"
 }

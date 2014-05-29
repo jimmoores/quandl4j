@@ -1,23 +1,21 @@
 {
-  "code": "COMM_85_DOMESTICFOODGRINDERSMIXERSJUICEEXTRACTORS_EXPORT_NCL",
+  "code": "BR_Q_M_G_C_A_FR_MV",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Qtr",
+    "Mill USD"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "The Bank of France monitors the banking activity of French banks with non-residents in the framework of its contribution to the international banking statistics drawn up by the Bank for International Settlements. These quarterly statistical series provide a geographical breakdown of the assets and liabilities of French banks vis-a-vis non-residents. They show outstanding amounts and are expressed in USD equivalent. These statistics are consistent with the residency principle of national accounts, balance of payments and external debt statistics.. They gather data on international financial claims and liabilities of bank offices in France. The available CSV files contain the historical series on claims and liabilities, the breakdown between the euro and foreign currencies and the share of outstanding operations vis-a-vis clients.",
+  "display_url": "http://www.banque-france.fr/fileadmin/user_upload/banque_de_france/Economie_et_Statistiques/eng_eur.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2001-12-31",
-  "id": 5612519,
-  "name": "Commodity Exports - Electrical, Electronic Equipment / Domestic food grinders, mixers, juice extractors - New Caledonia",
+  "frequency": "quarterly",
+  "from_date": "1999-03-31",
+  "id": 552618,
+  "name": "Bank of France International Banking: Total liabilities (euro) with  Maldives",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2010-12-31",
+  "source_code": "BOF",
+  "source_name": "Bank of France",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-01-10T14:36:27Z",
-  "urlize_name": "Commodity-Exports-Electrical-Electronic-Equipment-Domestic-food-grinders-mixers-juice-extractors-New-Caledonia"
+  "updated_at": "2014-01-08T06:55:56Z",
+  "urlize_name": "Bank-of-France-International-Banking-Total-liabilities-euro-with-Maldives"
 }

@@ -1,25 +1,21 @@
 {
-  "code": "BOM_505693",
+  "code": "ALYS_DIV_YLD",
   "column_names": [
     "Date",
-    "Open",
-    "High",
-    "Low",
-    "Close",
-    "Volume"
+    "Dividend Yield"
   ],
-  "description": "No Description Available",
-  "display_url": "https://www.google.com/finance/historical?q=BOM%3A505693&ei=VHF6UoCyGYW4rQGEHw&start=GOINDEX&num=30",
+  "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2012-11-27",
-  "id": 9404351,
-  "name": "DRILLCO MET. (505693)",
+  "frequency": "annual",
+  "from_date": "2000-12-31",
+  "id": 3934283,
+  "name": "Alysis Technologies ( ALYS ) - Dividend Yield",
   "private": false,
-  "source_code": "GOOG",
-  "source_name": "Google Finance",
-  "to_date": "2014-05-28",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2000-12-31",
   "type": null,
-  "updated_at": "2014-05-29T04:23:51Z",
-  "urlize_name": "DRILLCO-MET-505693"
+  "updated_at": "2014-03-14T14:17:51Z",
+  "urlize_name": "Alysis-Technologies-ALYS-Dividend-Yield"
 }

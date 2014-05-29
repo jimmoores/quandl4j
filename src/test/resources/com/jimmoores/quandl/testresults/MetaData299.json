@@ -1,21 +1,21 @@
 {
-  "code": "V31238426",
+  "code": "SYPR_EV_BV",
   "column_names": [
     "Date",
-    "Value"
+    "EV to Book Value Ratio"
   ],
-  "description": "{\"Geography\"=>\"Canada\", \"Companies\"=>\"Vitamin C\", \"Employees and employee compensation\"=>\"Nutrients available\", \"Major occupational group\"=>\"Brussels sprouts\"}",
-  "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+  "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1976-12-31",
-  "id": 9856857,
-  "name": "003-0080: Railway transport survey, employees and employee compensation, by major occupational group",
+  "from_date": "1999-12-31",
+  "id": 5528269,
+  "name": "Sypris Solutions ( SYPR ) - EV to Book Value Ratio",
   "private": false,
-  "source_code": "CANSIM",
-  "source_name": "Statistics Canada",
-  "to_date": "2009-12-31",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-02-18T22:05:01Z",
-  "urlize_name": "003-0080-Railway-transport-survey-employees-and-employee-compensation-by-major-occupational-group"
+  "updated_at": "2014-03-21T20:20:47Z",
+  "urlize_name": "Sypris-Solutions-SYPR-EV-to-Book-Value-Ratio"
 }

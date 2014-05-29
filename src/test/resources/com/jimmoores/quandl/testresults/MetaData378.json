@@ -1,21 +1,21 @@
 {
-  "code": "ORCH_TOTAL_180",
+  "code": "UBNK_INTERESTINCOMEEXPENSEAFTERPROVISIONFORLOANLOSS_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "The domain FRUCTUS contains the results of surveys of areas under certain species of fruit trees (apples, pear, peach, apricot, orange, lemon, small-fruited citrus).\r\nThe statistical surveys on orchards are carried out by the Member States in order to determine the production potential of plantations of certain species of fruit trees.\r\nThe results presented in the data abse  give areas (in hectares) by variety and age and density classes\r\nData are grouped by \"fruit tree species\". The database is therefore structured around this parameter. Data on a particular \"species\" constitute a table.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/orch_esms.htm",
-  "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Forch_total.sdmx.zip",
+  "description": "SEC Name: InterestIncomeExpenseAfterProvisionForLoanLoss",
+  "display_url": null,
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1982-12-31",
-  "id": 692545,
-  "name": "Total by species since 1977 area in hectares  : All varieties of unspecified flesh peaches : Germany (including  former GDR from 1991)",
+  "frequency": "daily",
+  "from_date": "2011-12-31",
+  "id": 10360390,
+  "name": "United Financial Bancorp, Inc.  (UBNK): Annual Interest Income Expense After Provision For Loan Loss",
   "private": false,
-  "source_code": "EUROSTAT",
-  "source_name": "EuroStat",
-  "to_date": "2007-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-13T19:17:20Z",
-  "urlize_name": "Total-by-species-since-1977-area-in-hectares-All-varieties-of-unspecified-flesh-peaches-Germany-including-former-GDR-from-1991"
+  "updated_at": "2014-03-06T22:06:10Z",
+  "urlize_name": "United-Financial-Bancorp-Inc-UBNK-Annual-Interest-Income-Expense-After-Provision-For-Loan-Loss"
 }

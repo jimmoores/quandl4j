@@ -1,21 +1,21 @@
 {
-  "code": "HARR442PBSV",
+  "code": "BLR_TICPI_SCR_QUO",
   "column_names": [
     "Date",
-    "Value"
+    "Column 1"
   ],
-  "description": "Thousands of Persons Seasonally Adjusted, The data services of the Federal Reserve Bank of St. Louis include series that are seasonally adjusted. To make these adjustments, we use the X-12 Procedure of SAS to remove the seasonal component of the series so that non-seasonal trends can be analyzed. This procedure is based on the U.S. Bureau of the Census X-12-ARIMA Seasonal Adjustment Program. More information on this program can be found at http://www.census.gov/srd/www/x12a/. The seasonal moving average function used is that of the Census Bureau\u2019s X-11-ARIMA program. This includes a 3x3 moving average for the initial seasonal factors and a 3x5 moving average to calculate the final seasonal factors. The D11 function is also used to output the entire seasonally adjusted series that is displayed. For specific information on the SAS X-12 procedure, please visit their website: http://support.sas.com/documentation/cdl/en/etsug/60372/HTML/default/viewer.htm#etsug_x12_sect001.htm. ",
-  "display_url": "http://research.stlouisfed.org/fred2/data/HARR442PBSV.csv",
+  "description": "Transparency International's CPI score for Belarus divided by the maximum score in the year's survey. A quotient is taken to increase consistency acoss years as CPI scaling and coverage have varied over time.",
+  "display_url": "http://www.transparency.org/research/cpi/",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1990-01-01",
-  "id": 2366099,
-  "name": "Professional and Business Services Employment in Harrisburg-Carlisle, PA (MSA)",
+  "frequency": "annual",
+  "from_date": "1995-12-31",
+  "id": 10072572,
+  "name": "Corruption Perception Index Quotient for Belarus",
   "private": false,
-  "source_code": "FRED",
-  "source_name": "Federal Reserve Economic Data",
-  "to_date": "2014-04-01",
+  "source_code": "JOFFEMD",
+  "source_name": "Marc-Joffe",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-05-28T23:59:02Z",
-  "urlize_name": "Professional-and-Business-Services-Employment-in-Harrisburg-Carlisle-PA-MSA"
+  "updated_at": "2014-02-24T13:28:37Z",
+  "urlize_name": "Corruption-Perception-Index-Quotient-for-Belarus"
 }

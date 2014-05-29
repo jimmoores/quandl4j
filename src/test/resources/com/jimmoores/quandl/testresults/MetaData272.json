@@ -1,21 +1,23 @@
 {
-  "code": "COAL_SHIPMENT_QTY_3303288_2840_BIT_Q",
+  "code": "COMM_74_PIPELINESUBMERGEDARCWELDEDSTEELDIAMETER406MM_EXPORT_TUR",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303288-2840-BIT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3303288-2840-BIT.Q<\/a>",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3303288-2840-BIT.Q&out=xml",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "quarterly",
-  "from_date": "2010-06-30",
-  "id": 11936856,
-  "name": "Coal Shipment Quantity : Rice #7 (strip) To Conesville : Bituminous : Quarterly",
+  "frequency": "annual",
+  "from_date": "1989-12-31",
+  "id": 4292874,
+  "name": "Commodity Exports - Articles Of Iron Or Steel / Pipe-line submerged arc welded steel diameter >406mm - Turkey",
   "private": false,
-  "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
-  "to_date": "2013-12-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-05-16T14:39:20Z",
-  "urlize_name": "Coal-Shipment-Quantity-Rice-7-strip-To-Conesville-Bituminous-Quarterly"
+  "updated_at": "2014-01-11T04:56:03Z",
+  "urlize_name": "Commodity-Exports-Articles-Of-Iron-Or-Steel-Pipe-line-submerged-arc-welded-steel-diameter-406mm-Turkey"
 }

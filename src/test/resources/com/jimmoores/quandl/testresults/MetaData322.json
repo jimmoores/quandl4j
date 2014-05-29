@@ -1,21 +1,24 @@
 {
-  "code": "LRN_CAPEX",
+  "code": "FAO_107COTEDIVOIRE898MILKSKIMMEDDRY",
   "column_names": [
-    "Date",
-    "Capital Expenditures"
+    "Year",
+    "Import Quantity (tonnes)",
+    "Import Value (1000 US$)",
+    "Export Quantity (tonnes)",
+    "Export Value (1000 US$)"
   ],
-  "description": "This is the cumulated capital spending, as reported in the statement of cash flows, for the sector. It generally does not include acquisitions. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+  "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_Africa_1.zip",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2007-06-30",
-  "id": 6108065,
-  "name": "K12 Inc ( LRN ) - Capital Expenditures",
+  "from_date": "1961-12-31",
+  "id": 7671254,
+  "name": "Trade Crops Livestock: Milk Skimmed Dry - Cote d'Ivoire",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2012-06-30",
+  "source_code": "FAO",
+  "source_name": "Food and Agriculture Organization of the United Nations",
+  "to_date": "2009-12-31",
   "type": null,
-  "updated_at": "2014-03-22T20:46:56Z",
-  "urlize_name": "K12-Inc-LRN-Capital-Expenditures"
+  "updated_at": "2013-08-30T12:27:07Z",
+  "urlize_name": "Trade-Crops-Livestock-Milk-Skimmed-Dry-Cote-d-Ivoire"
 }

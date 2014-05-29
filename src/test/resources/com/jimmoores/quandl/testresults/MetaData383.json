@@ -1,23 +1,21 @@
 {
-  "code": "COMM_90_REVOLUTIONCOUNTERSTAXIMETERSMILEOMETERSPEDOMETERS_REEXPORT_BHS",
+  "code": "UIS_GROSSOUTBOUNDENROLMENTRATIO__ALLGENDERS_SYR",
   "column_names": [
     "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Number"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
   "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
   "from_date": "1998-12-31",
-  "id": 5758476,
-  "name": "Commodity Re-Exports - Optical, Photo, Technical, Medical, Etc Apparatus / Revolution counters/taximeters/mileometers/pedometers - Bahamas",
+  "id": 3583825,
+  "name": "Gross outbound enrolment ratio / All genders - Syrian Arab Republic",
   "private": false,
   "source_code": "UN",
   "source_name": "United Nations",
-  "to_date": "2010-12-31",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-01-27T20:24:47Z",
-  "urlize_name": "Commodity-Re-Exports-Optical-Photo-Technical-Medical-Etc-Apparatus-Revolution-counters-taximeters-mileometers-pedometers-Bahamas"
+  "updated_at": "2014-01-11T01:38:40Z",
+  "urlize_name": "Gross-outbound-enrolment-ratio-All-genders-Syrian-Arab-Republic"
 }

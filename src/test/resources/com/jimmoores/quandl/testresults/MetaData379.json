@@ -1,22 +1,21 @@
 {
-  "code": "FAO_37CENTRALAFRICANREPUBLIC1397FERTILIZERSMANUFACTUREDNES",
+  "code": "DDDC_CAPITALLEASEDASSETSGROSS_A",
   "column_names": [
-    "Year",
-    "Import Value (1000 US$)",
-    "Export Value (1000 US$)"
+    "Date",
+    "Value"
   ],
-  "description": "Some of the most interesting data for economists is found in this domain. The national distribution of land, among arable land, pastures and other lands, as well as the importance of irrigation are just some of the interesting data sets. The Agricultural Resources domain covers: Investment, Land and irrigation, Labour, Machinery, Fertilizers, Pesticides, Population. The Resources domain considers factors of production for the agricultural sector. Broadly speaking, this section details how countries differ in endowments of the three classic inputs: labour, land and capital. Qualitative differences are important for each but are particularly difficult to summarise in a single indicator for land, the productivity of which depends heavily on water and soil conditions.",
-  "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Resources_FertilizersTradeValues_E_Africa_1.zip",
+  "description": "SEC Name: CapitalLeasedAssetsGross",
+  "display_url": null,
   "errors": {},
   "frequency": "annual",
-  "from_date": "1961-12-31",
-  "id": 7820473,
-  "name": "Resources Fertilizers Trade Values: Fertilizers Manufactured, nes - Central African Republic",
+  "from_date": "2011-12-31",
+  "id": 10580754,
+  "name": "DELTATHREE INC  (DDDC): Annual Capital Leased Assets Gross",
   "private": false,
-  "source_code": "FAO",
-  "source_name": "Food and Agriculture Organization of the United Nations",
-  "to_date": "2011-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-11T18:46:37Z",
-  "urlize_name": "Resources-Fertilizers-Trade-Values-Fertilizers-Manufactured-nes-Central-African-Republic"
+  "updated_at": "2014-03-10T22:14:14Z",
+  "urlize_name": "DELTATHREE-INC-DDDC-Annual-Capital-Leased-Assets-Gross"
 }

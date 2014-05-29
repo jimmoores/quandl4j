@@ -1,21 +1,23 @@
 {
-  "code": "V4353946",
+  "code": "COMM_84_TULLELACEEMBROIDERYTRIMMINGSETCMAKINGMACHINE_EXPORT_DNK",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "{\"Geography\"=>\"Region de l'Outaouais, Quebec\", \"Sex\"=>\"Males\", \"Selected causes of death (ICD-9)\"=>\"Circulatory diseases\", \"Characteristics\"=>\"Potential years of life lost\"}",
-  "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "1996-12-31",
-  "id": 9872506,
-  "name": "102-0011: Potential years of life lost, by selected causes of death and sex, population aged 0 to 74, Canada, provinces, territories and health regions, *Terminated*",
+  "frequency": "annual",
+  "from_date": "1998-12-31",
+  "id": 4642547,
+  "name": "Commodity Exports - Nuclear Reactors, Boilers, Machinery, Etc / Tulle, lace, embroidery, trimmings etc making machine - Denmark",
   "private": false,
-  "source_code": "CANSIM",
-  "source_name": "Statistics Canada",
-  "to_date": "1996-12-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-02-18T22:44:20Z",
-  "urlize_name": "102-0011-Potential-years-of-life-lost-by-selected-causes-of-death-and-sex-population-aged-0-to-74-Canada-provinces-territories-and-health-regions-Terminated"
+  "updated_at": "2013-04-14T15:49:58Z",
+  "urlize_name": "Commodity-Exports-Nuclear-Reactors-Boilers-Machinery-Etc-Tulle-lace-embroidery-trimmings-etc-making-machine-Denmark"
 }

@@ -1,21 +1,23 @@
 {
-  "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_13460",
+  "code": "COMM_76_NICKELWASTEORSCRAP_EXPORT_CZE",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1997-02-28",
-  "id": 7568561,
-  "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 13460,Town of Sherburne,NY",
+  "frequency": "annual",
+  "from_date": "1993-12-31",
+  "id": 4325114,
+  "name": "Commodity Exports - Nickel And Articles Thereof / Nickel waste or scrap - Czech Republic",
   "private": false,
-  "source_code": "ZILLOW",
-  "source_name": "Zillow Real Estate Research",
-  "to_date": "2014-03-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-05-07T21:21:21Z",
-  "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-13460-Town-of-Sherburne-NY"
+  "updated_at": "2014-01-11T08:06:41Z",
+  "urlize_name": "Commodity-Exports-Nickel-And-Articles-Thereof-Nickel-waste-or-scrap-Czech-Republic"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "BBSF2_M_1_S_I0124_GEF01_I_F_NAV_DE_00000_000000_Z01_00",
+  "code": "OEUN000000000000019309301",
   "column_names": [
-    "Month",
+    "Date",
     "Value"
   ],
-  "description": "Units:Euro, Multiplier:million",
-  "display_url": "http://www.bundesbank.de/cae/servlet/StatisticDownload?tsId=BBSF2.M.1.S.I0124.GEF01.I.F.NAV.DE.00000.000000.Z01.00&its_csvFormat=en&its_fileFormat=csv&mode=its",
+  "description": "Statistic: Employment; Occupation: Historians; Industry: Cross-industry, private, federal, state, and local; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000000000019309301",
   "errors": {},
   "frequency": "monthly",
-  "from_date": "2009-09-30",
-  "id": 9963093,
-  "name": "Special investors funds / Mixed funds / Net asset value / Financial auxiliaries / Distribution and cumulative funds",
+  "from_date": "2012-06-30",
+  "id": 8906693,
+  "name": "Employment for Historians in Cross-industry, private, federal, state, and local in National",
   "private": false,
-  "source_code": "BUNDESBANK",
-  "source_name": "Bundesbank",
-  "to_date": "2014-03-31",
+  "source_code": "BLS",
+  "source_name": "Bureau of Labor Statistics",
+  "to_date": "2012-06-30",
   "type": null,
-  "updated_at": "2014-05-29T11:53:05Z",
-  "urlize_name": "Special-investors-funds-Mixed-funds-Net-asset-value-Financial-auxiliaries-Distribution-and-cumulative-funds"
+  "updated_at": "2013-11-15T14:54:45Z",
+  "urlize_name": "Employment-for-Historians-in-Cross-industry-private-federal-state-and-local-in-National"
 }

@@ -1,21 +1,23 @@
 {
-  "code": "ARG_LONGTERMDEBTMATURITIESREPAYMENTSOFPRINCIPALAFTERYEARFIVE_A",
+  "code": "COMM_17_FISHNESPREPAREDORPRESERVEDNOTMINCED_IMPORT_SWZ",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "SEC Name: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-  "display_url": null,
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2011-03-31",
-  "id": 10497636,
-  "name": "AIRGAS INC  (ARG): Annual Long Term Debt Maturities Repayments Of Principal After Year Five",
+  "frequency": "annual",
+  "from_date": "2000-12-31",
+  "id": 2969508,
+  "name": "Commodity Imports - Meat, Fish And Seafood Food Preparations Nes / Fish nes, prepared or preserved, not minced - Swaziland",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-03-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2007-12-31",
   "type": null,
-  "updated_at": "2014-03-11T21:07:18Z",
-  "urlize_name": "AIRGAS-INC-ARG-Annual-Long-Term-Debt-Maturities-Repayments-Of-Principal-After-Year-Five"
+  "updated_at": "2014-01-11T07:51:01Z",
+  "urlize_name": "Commodity-Imports-Meat-Fish-And-Seafood-Food-Preparations-Nes-Fish-nes-prepared-or-preserved-not-minced-Swaziland"
 }

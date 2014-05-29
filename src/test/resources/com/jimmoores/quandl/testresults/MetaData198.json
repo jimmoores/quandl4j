@@ -1,437 +1,415 @@
 {
-  "current_page": 446322,
+  "current_page": 30382,
   "docs": [
     {
-      "code": "ESA_Q_MT_Y_0000_B1QG00_1000_TTTT_L_U_A",
+      "code": "SRO_ROE",
       "column_names": [
         "Date",
-        "2005"
+        "Return on Equity"
       ],
-      "description": " Malta - Gross domestic product at market price, Chain linked volumes, reference year 2005, ECU/euro, Working day and seasonally adjusted, , :, Dataset:ESA : ESA95 National Accounts Explanation page (Series and Dataset Level Information), Reference area:Malta (MT), Decimals:Two (2), Collection indicator:Summed through period (S), Adjustment detail:Seasonally and working day adjusted, adjustment by TRAMO/SEATS",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484571&SERIES_KEY=119.ESA.Q.MT.Y.0000.B1QG00.1000.TTTT.L.U.A&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "2000-03-31",
-      "id": 11497701,
-      "name": "Malta Gross domestic product at market price, Chain linked volumes, reference year 2005, ECU/euro",
+      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5483639,
+      "name": "Spigadoro Inc ( SRO ) - Return on Equity",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:44:26Z",
+      "urlize_name": "Spigadoro-Inc-SRO-Return-on-Equity"
+    },
+    {
+      "code": "SRO_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5483644,
+      "name": "Spigadoro Inc ( SRO ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:44:26Z",
+      "urlize_name": "Spigadoro-Inc-SRO-Trailing-Net-Income"
+    },
+    {
+      "code": "SRO_REV_12M",
+      "column_names": [
+        "Date",
+        "Trailing 12-month Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5483643,
+      "name": "Spigadoro Inc ( SRO ) - Trailing 12-month Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:44:26Z",
+      "urlize_name": "Spigadoro-Inc-SRO-Trailing-12-month-Revenues"
+    },
+    {
+      "code": "AIX_FIRM_VAL",
+      "column_names": [
+        "Date",
+        "Firm Value"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 3914096,
+      "name": "Access Integrated Tech. Inc ( AIX ) - Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:44:08Z",
+      "urlize_name": "Access-Integrated-Tech-Inc-AIX-Firm-Value"
+    },
+    {
+      "code": "SRO_PE_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing PE Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5483645,
+      "name": "Spigadoro Inc ( SRO ) - Trailing PE Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:44:08Z",
+      "urlize_name": "Spigadoro-Inc-SRO-Trailing-PE-Ratio"
+    },
+    {
+      "code": "SRO_REV_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5483646,
+      "name": "Spigadoro Inc ( SRO ) - Trailing Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:44:26Z",
+      "urlize_name": "Spigadoro-Inc-SRO-Trailing-Revenues"
+    },
+    {
+      "code": "FHCC_EV_SALES",
+      "column_names": [
+        "Date",
+        "EV To Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 6078290,
+      "name": "First Health Group ( FHCC ) - EV To Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:44:08Z",
+      "urlize_name": "First-Health-Group-FHCC-EV-To-Sales-Ratio"
+    },
+    {
+      "code": "FHCC_REV_GRO_EXP",
+      "column_names": [
+        "Date",
+        "Expected Growth in Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 6078300,
+      "name": "First Health Group ( FHCC ) - Expected Growth in Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:44:27Z",
+      "urlize_name": "First-Health-Group-FHCC-Expected-Growth-in-Revenues"
+    },
+    {
+      "code": "SRO_EV_BV",
+      "column_names": [
+        "Date",
+        "EV to Book Value Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5483647,
+      "name": "Spigadoro Inc ( SRO ) - EV to Book Value Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:44:27Z",
+      "urlize_name": "Spigadoro-Inc-SRO-EV-to-Book-Value-Ratio"
+    },
+    {
+      "code": "CIPH_TRAD_VOL",
+      "column_names": [
+        "Date",
+        "Trading Volume"
+      ],
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5989913,
+      "name": "Ciphergen Biosystems Inc ( CIPH ) - Trading Volume",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:44:27Z",
+      "urlize_name": "Ciphergen-Biosystems-Inc-CIPH-Trading-Volume"
+    },
+    {
+      "code": "CNRD_EV_SALES",
+      "column_names": [
+        "Date",
+        "EV To Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4227689,
+      "name": "Conrad Inds Inc ( CNRD ) - EV To Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-05-28T23:42:56Z",
-      "urlize_name": "Malta-Gross-domestic-product-at-market-price-Chain-linked-volumes-reference-year-2005-ECU-euro"
+      "updated_at": "2014-03-14T10:44:09Z",
+      "urlize_name": "Conrad-Inds-Inc-CNRD-EV-To-Sales-Ratio"
     },
     {
-      "code": "BSI_Q_CY_N_A_L20_A_I_U4_00BK_Z01_A",
+      "code": "FHCC_EV_CAP",
       "column_names": [
         "Date",
-        "Percentage change"
+        "EV to Invested Capital Ratio"
       ],
-      "description": " Cyprus, Index of Notional Stocks, MFIs excluding ESCB reporting sector - Deposit liabilities, Total maturity, All currencies combined - Extra Euro area counterpart, Non-resident banks sector, Annual growth rate, data Neither seasonally nor working day adjusted , :, Dataset:BSI : Balance Sheet Items Explanation page (Series and Dataset Level Information), Reference area:Cyprus (CY), Decimals:One (1), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2019191&SERIES_KEY=117.BSI.Q.CY.N.A.L20.A.I.U4.00BK.Z01.A&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "2006-12-31",
-      "id": 11386489,
-      "name": "Cyprus, Index of Notional Stocks, MFIs excluding ESCB reporting sector Deposit liabilities, Total maturity, All currencies combined Extra Euro area counterpart, Non-resident banks sector, Annual growth rate, data",
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 6078279,
+      "name": "First Health Group ( FHCC ) - EV to Invested Capital Ratio",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-12-31",
       "type": null,
-      "updated_at": "2014-05-23T22:43:56Z",
-      "urlize_name": "Cyprus-Index-of-Notional-Stocks-MFIs-excluding-ESCB-reporting-sector-Deposit-liabilities-Total-maturity-All-currencies-combined-Extra-Euro-area-counterpart-Non-resident-banks-sector-Annual-growth-rate-data"
+      "updated_at": "2014-03-14T10:44:28Z",
+      "urlize_name": "First-Health-Group-FHCC-EV-to-Invested-Capital-Ratio"
     },
     {
-      "code": "IVF_Q_MT_N_T0_LT1_A_4_Z5_0000_Z01_E",
+      "code": "AIX_FIXED_TOT",
       "column_names": [
         "Date",
-        "Millions of Euro"
+        "Ratio of Fixed Assets to Total Assets"
       ],
-      "description": " Malta, Financial transactions (flows), Total investment funds reporting sector - Remaining liabilities and financial derivatives, Total maturity, All currencies combined - World not allocated (geographically) counterpart, Unspecified counterpart sector sector, denominated in Euro, data Neither seasonally nor working day adjusted , :, Dataset:IVF : Investment Funds Balance Sheet Statistics Explanation page (Series and Dataset Level Information), Reference area:Malta (MT), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=17154&SERIES_KEY=225.IVF.Q.MT.N.T0.LT1.A.4.Z5.0000.Z01.E&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "2009-03-31",
-      "id": 11395510,
-      "name": "Malta, Financial transactions , Total investment funds reporting sector Remaining liabilities and financial derivatives, Total maturity, All currencies combined World not allocated counterpart, Unspecified counterpart sector sector, denominated in Euro, data",
+      "description": "Estimated by dividing the cumulated book value of fixed assets, for the sector, by the cumulated total assets, for the sector. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 3914097,
+      "name": "Access Integrated Tech. Inc ( AIX ) - Ratio of Fixed Assets to Total Assets",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
       "type": null,
-      "updated_at": "2014-05-20T18:23:37Z",
-      "urlize_name": "Malta-Financial-transactions-Total-investment-funds-reporting-sector-Remaining-liabilities-and-financial-derivatives-Total-maturity-All-currencies-combined-World-not-allocated-counterpart-Unspecified-counterpart-sector-sector-denominated-in-Euro-data"
+      "updated_at": "2014-03-14T10:44:28Z",
+      "urlize_name": "Access-Integrated-Tech-Inc-AIX-Ratio-of-Fixed-Assets-to-Total-Assets"
     },
     {
-      "code": "BSI_Q_FI_N_A_L20_A_1_U2_1000_Z03_E",
+      "code": "BBA_BV_ASSETS",
       "column_names": [
         "Date",
-        "Millions of Euro"
+        "Book Value of Assets"
       ],
-      "description": " Finland, Outstanding amounts at the end of the period (stocks), MFIs excluding ESCB reporting sector - Deposit liabilities, Total maturity, Other EU currencies combined - Euro area (changing composition) counterpart, MFIs sector, denominated in Euro, data Neither seasonally nor working day adjusted , :, Dataset:BSI : Balance Sheet Items Explanation page (Series and Dataset Level Information), Reference area:Finland (FI), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2019191&SERIES_KEY=117.BSI.Q.FI.N.A.L20.A.1.U2.1000.Z03.E&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "1997-09-30",
-      "id": 11387405,
-      "name": "Finland, Outstanding amounts at the end of the period , MFIs excluding ESCB reporting sector Deposit liabilities, Total maturity, Other EU currencies combined Euro area counterpart, MFIs sector, denominated in Euro, data",
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3948258,
+      "name": "Bombay Co. ( BBA ) - Book Value of Assets",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
       "type": null,
-      "updated_at": "2014-05-23T21:39:57Z",
-      "urlize_name": "Finland-Outstanding-amounts-at-the-end-of-the-period-MFIs-excluding-ESCB-reporting-sector-Deposit-liabilities-Total-maturity-Other-EU-currencies-combined-Euro-area-counterpart-MFIs-sector-denominated-in-Euro-data"
+      "updated_at": "2014-03-14T10:44:09Z",
+      "urlize_name": "Bombay-Co-BBA-Book-Value-of-Assets"
     },
     {
-      "code": "IEAQ_Q_SE_N_V_LE_F62_S11_A1_S_1_N_N_Z",
+      "code": "FHCC_EV_SALESTR",
       "column_names": [
         "Date",
-        "Millions of Swedish krona"
+        "EV to Trailing Sales Ratio"
       ],
-      "description": " Sweden, reporting institutional sector Non-financial corporations - Closing balance sheet - Prepayments of insurance premiums and reserves for outstanding claims - counterpart area World (all entities), counterpart institutional sector Total economy including Rest of the World (all sectors) - Debit (uses/assets) - Non-consolidated, Current prices - National currency, Neither seasonally nor working day adjusted - ESA95 TP table Not applicable , :, Dataset:IEAQ : Quarterly Euro Area Accounts Explanation page (Series and Dataset Level Information), Reference area:Sweden (SE), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2019184&SERIES_KEY=158.IEAQ.Q.SE.N.V.LE.F62.S11.A1.S.1.N.N.Z&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "1999-03-31",
-      "id": 11345336,
-      "name": "Sweden, reporting institutional sector Non-financial corporations Closing balance sheet Prepayments of insurance premiums and reserves for outstanding claims counterpart area World , counterpart institutional sector Total economy including Rest of the World Debit Non-consolidated, Current prices National currency, ESA95 TP table Not applicable",
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 6078280,
+      "name": "First Health Group ( FHCC ) - EV to Trailing Sales Ratio",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-12-31",
       "type": null,
-      "updated_at": "2014-05-23T21:39:58Z",
-      "urlize_name": "Sweden-reporting-institutional-sector-Non-financial-corporations-Closing-balance-sheet-Prepayments-of-insurance-premiums-and-reserves-for-outstanding-claims-counterpart-area-World-counterpart-institutional-sector-Total-economy-including-Rest-of-the-World-Debit-Non-consolidated-Current-prices-National-currency-ESA95-TP-table-Not-applicable"
+      "updated_at": "2014-03-14T10:44:28Z",
+      "urlize_name": "First-Health-Group-FHCC-EV-to-Trailing-Sales-Ratio"
     },
     {
-      "code": "PORT723UR",
+      "code": "AIX_REV_GRO",
       "column_names": [
         "Date",
-        "Value"
+        "Previous Year Growth in Revenues"
       ],
-      "description": "Percent Smoothed Seasonally Adjusted,  ",
-      "display_url": "http://research.stlouisfed.org/fred2/data/PORT723UR.csv",
-      "frequency": "monthly",
-      "from_date": "2000-01-01",
-      "id": 150860,
-      "name": "Unemployment Rate in Portland-South Portland-Biddeford, ME (NECTA)",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 3914099,
+      "name": "Access Integrated Tech. Inc ( AIX ) - Previous Year Growth in Revenues",
       "private": false,
-      "source_code": "FRED",
-      "source_name": "Federal Reserve Economic Data",
-      "to_date": "2014-03-01",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
       "type": null,
-      "updated_at": "2014-05-28T21:00:37Z",
-      "urlize_name": "Unemployment-Rate-in-Portland-South-Portland-Biddeford-ME-NECTA"
+      "updated_at": "2014-03-14T10:44:28Z",
+      "urlize_name": "Access-Integrated-Tech-Inc-AIX-Previous-Year-Growth-in-Revenues"
     },
     {
-      "code": "ESA_Q_FI_N_0000_LABPHW_1000_2M_N_L_N_A",
+      "code": "CUCO_CASH",
       "column_names": [
         "Date",
-        "2005"
+        "Cash"
       ],
-      "description": " Finland - Hourly labour productivity: Professional, scientific and technical activities; administrative and support service activities, Chain linked volumes, reference year 2005, National currency, Neither seasonally nor working day adjusted, , :, Dataset:ESA : ESA95 National Accounts Explanation page (Series and Dataset Level Information), Reference area:Finland (FI), Decimals:Two (2), Collection indicator:Summed through period (S), Compilation:$EXTEND_BACK(CONVERT($GES_FILTER_NCS_NAS(ESA.Q.FI.N.0000.B1G000.1000.2M_N.L.N.A),A,DISC,SUMMED), PCT($GES_FILTER_NCS_NAS(ESA.A.FI.N.0000.B1G000.1000.2M_N.L.N.A))) / $EXTEND_BACK(CONVERT($GES_FILTER_NCS_NAS(ESA.Q.FI.N.1000.TOTEMP.0000.2M_N.N.H.A),A,DISC,SUMMED), PCT($GES_FILTER_NCS_NAS(ESA.A.FI.N.1000.TOTEMP.0000.2M_N.N.H.A))) * 1000",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2120804&SERIES_KEY=119.ESA.Q.FI.N.0000.LABPHW.1000.2M_N.L.N.A&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "1990-03-31",
-      "id": 11512793,
-      "name": "Finland Hourly labour productivity: Professional, scientific and technical activities; administrative and support service activities, Chain linked volumes, reference year 2005, National currency",
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4381074,
+      "name": "Cucos Inc ( CUCO ) - Cash",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
       "type": null,
-      "updated_at": "2014-05-20T23:56:05Z",
-      "urlize_name": "Finland-Hourly-labour-productivity-Professional-scientific-and-technical-activities-administrative-and-support-service-activities-Chain-linked-volumes-reference-year-2005-National-currency"
+      "updated_at": "2014-03-14T10:44:10Z",
+      "urlize_name": "Cucos-Inc-CUCO-Cash"
     },
     {
-      "code": "ESA_Q_CY_S_1000_UNLAHW_0000_2M_N_D_N_I",
+      "code": "CUCO_BV_ASSETS",
       "column_names": [
         "Date",
-        "2005"
+        "Book Value of Assets"
       ],
-      "description": " Cyprus - Hourly unit labour costs: Professional, scientific and technical activities; administrative and support service activities, Deflator, National currency, Seasonally adjusted, not working day adjusted, Index , :, Dataset:ESA : ESA95 National Accounts Explanation page (Series and Dataset Level Information), Reference area:Cyprus (CY), Decimals:Two (2), Collection indicator:Average of observations through period (A), Compilation:$REBASE(ESA.Q.CY.S.1000.UNLAHW.0000.2M_N.D.N.A,2005)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2120786&SERIES_KEY=119.ESA.Q.CY.S.1000.UNLAHW.0000.2M_N.D.N.I&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "1995-03-31",
-      "id": 11483133,
-      "name": "Cyprus Hourly unit labour costs: Professional, scientific and technical activities; administrative and support service activities, Deflator, National currency, Seasonally adjusted, not working day adjusted, Index",
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4381062,
+      "name": "Cucos Inc ( CUCO ) - Book Value of Assets",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
       "type": null,
-      "updated_at": "2014-05-20T23:55:17Z",
-      "urlize_name": "Cyprus-Hourly-unit-labour-costs-Professional-scientific-and-technical-activities-administrative-and-support-service-activities-Deflator-National-currency-Seasonally-adjusted-not-working-day-adjusted-Index"
+      "updated_at": "2014-03-14T10:44:28Z",
+      "urlize_name": "Cucos-Inc-CUCO-Book-Value-of-Assets"
     },
     {
-      "code": "GST_Q_IT_N_B1300_GLD_B0X13_FB_G",
+      "code": "CUCO_CASH_FV",
       "column_names": [
         "Date",
-        "Percent"
+        "Cash as Percentage of Firm Value"
       ],
-      "description": " Italy - Monetary gold - All sectors without general government (consolidation) (ESA95) - NCBs - General government (ESA95)-NCBs - Financial flows at market value - Percentage points, series(t)/GDP(t) - Neither seasonally nor working day adjusted , :, Dataset:GST : Government Statistics Explanation page (Series and Dataset Level Information), Reference area:Italy (IT), Decimals:Six (6), Collection indicator:Summed through period (S)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9485649&SERIES_KEY=121.GST.Q.IT.N.B1300.GLD.B0X13.FB.G&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "1999-03-31",
-      "id": 11373150,
-      "name": "Italy Monetary gold All sectors without general government NCBs General government -NCBs Financial flows at market value Percentage points, series/GDP",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4381081,
+      "name": "Cucos Inc ( CUCO ) - Cash as Percentage of Firm Value",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
       "type": null,
-      "updated_at": "2014-05-20T23:52:28Z",
-      "urlize_name": "Italy-Monetary-gold-All-sectors-without-general-government-NCBs-General-government-NCBs-Financial-flows-at-market-value-Percentage-points-series-GDP"
+      "updated_at": "2014-03-14T10:44:28Z",
+      "urlize_name": "Cucos-Inc-CUCO-Cash-as-Percentage-of-Firm-Value"
     },
     {
-      "code": "ESA_Q_FI_N_1000_COMPHW_0000_2L_L_V_N_I",
+      "code": "CUCO_CASH_REV",
       "column_names": [
         "Date",
-        "No base reference"
+        "Cash as Percentage of Revenues"
       ],
-      "description": " Finland - Hourly compensation: Real estate activities, Current prices, National currency, Neither seasonally nor working day adjusted, Index , :, Dataset:ESA : ESA95 National Accounts Explanation page (Series and Dataset Level Information), Reference area:Finland (FI), Decimals:Two (2), Collection indicator:Average of observations through period (A), Compilation:$REBASE(ESA.A.FI.N.1000.COMPHW.0000.2L_L.V.N.A,2005)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2120785&SERIES_KEY=119.ESA.Q.FI.N.1000.COMPHW.0000.2L_L.V.N.I&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "1990-03-31",
-      "id": 11477893,
-      "name": "Finland Hourly compensation: Real estate activities, Current prices, National currency, Index",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4381088,
+      "name": "Cucos Inc ( CUCO ) - Cash as Percentage of Revenues",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
       "type": null,
-      "updated_at": "2014-05-20T23:52:41Z",
-      "urlize_name": "Finland-Hourly-compensation-Real-estate-activities-Current-prices-National-currency-Index"
-    },
-    {
-      "code": "BSI_Q_RO_N_A_A30_A_1_U8_00NB_Z01_E",
-      "column_names": [
-        "Date",
-        "Millions of Euro"
-      ],
-      "description": " Romania, Outstanding amounts at the end of the period (stocks), MFIs excluding ESCB reporting sector - Securities other than shares, Total maturity, All currencies combined - All areas other than Euro area and ref./home area counterpart, Non-resident non-banks sector, denominated in Euro, data Neither seasonally nor working day adjusted , :, Dataset:BSI : Balance Sheet Items Explanation page (Series and Dataset Level Information), Reference area:Romania (RO), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2019174&SERIES_KEY=117.BSI.Q.RO.N.A.A30.A.1.U8.00NB.Z01.E&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "2007-03-31",
-      "id": 11381954,
-      "name": "Romania, Outstanding amounts at the end of the period , MFIs excluding ESCB reporting sector Securities other than shares, Total maturity, All currencies combined All areas other than Euro area and ref./home area counterpart, Non-resident non-banks sector, denominated in Euro, data",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-05-20T23:56:03Z",
-      "urlize_name": "Romania-Outstanding-amounts-at-the-end-of-the-period-MFIs-excluding-ESCB-reporting-sector-Securities-other-than-shares-Total-maturity-All-currencies-combined-All-areas-other-than-Euro-area-and-ref-home-area-counterpart-Non-resident-non-banks-sector-denominated-in-Euro-data"
-    },
-    {
-      "code": "FVC_Q_U2_N_F_L60_A_I_A1_0000_ZZ_Z01_E",
-      "column_names": [
-        "Date",
-        "Dec09 = 100"
-      ],
-      "description": " Euro area (changing composition), Index of Notional Stocks, Total FVCs reporting sector - Liabilities - Capital and reserves, Total maturity, All currencies combined - World (all entities) counterpart, Unspecified counterpart sector sector, Not applicable, denominated in Euro, data Neither seasonally nor working day adjusted , :, Dataset:FVC : Financial Vehicle Corporation Explanation page (Series and Dataset Level Information), Reference area:Euro area (changing composition) (U2), Decimals:Five (5), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484283&SERIES_KEY=239.FVC.Q.U2.N.F.L60.A.I.A1.0000.ZZ.Z01.E&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "2009-12-31",
-      "id": 11436953,
-      "name": "Euro area , Index of Notional Stocks, Total FVCs reporting sector Liabilities Capital and reserves, Total maturity, All currencies combined World counterpart, Unspecified counterpart sector sector, Not applicable, denominated in Euro, data",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-05-20T23:56:00Z",
-      "urlize_name": "Euro-area-Index-of-Notional-Stocks-Total-FVCs-reporting-sector-Liabilities-Capital-and-reserves-Total-maturity-All-currencies-combined-World-counterpart-Unspecified-counterpart-sector-sector-Not-applicable-denominated-in-Euro-data"
-    },
-    {
-      "code": "GST_Q_CZ_N_D1300_CRT_D0X13_CU_R",
-      "column_names": [
-        "Date",
-        "Unit described in title"
-      ],
-      "description": " Czech Republic - Current transfers, other (D.7) - All sectors without general government (consolidation) (ESA95) - EUR - General government (ESA95)-EUR - Non-financial flows current prices - Percentage points, sum(ser(t),ser(t-1),ser(t-2),ser(t-3))/ sum(GDP(t),GDP(t-1),GDP(t-2),GDP(t-3)) - Neither seasonally nor working day adjusted , :, Dataset:GST : Government Statistics Explanation page (Series and Dataset Level Information), Reference area:Czech Republic (CZ), Decimals:Six (6), Collection indicator:Summed through period (S)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9485577&SERIES_KEY=121.GST.Q.CZ.N.D1300.CRT.D0X13.CU.R&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "1999-12-31",
-      "id": 11362955,
-      "name": "Czech Republic Current transfers, other All sectors without general government EUR General government -EUR Non-financial flows current prices Percentage points, sum,ser,ser,ser)/ sum,GDP,GDP,GDP)",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-05-20T23:54:58Z",
-      "urlize_name": "Czech-Republic-Current-transfers-other-All-sectors-without-general-government-EUR-General-government-EUR-Non-financial-flows-current-prices-Percentage-points-sum-ser-ser-ser-sum-GDP-GDP-GDP"
-    },
-    {
-      "code": "ICPF_Q_U2_N_V_LE_F4_S125_U5_S12P_1_N_E_Z",
-      "column_names": [
-        "Date",
-        "Millions of Euro"
-      ],
-      "description": " Euro area (changing composition), reporting institutional sector Insurance corporations and pension funds - Closing balance sheet - Loans - counterpart area Other Euro area member states (all countries except the reference area), counterpart institutional sector Other financial intermediaries, including financial auxiliaries - Debit (uses/assets) - Non-consolidated, Current prices - Euro, Neither seasonally nor working day adjusted - ESA95 TP table Not applicable , :, Dataset:ICPF : Insurance Corporations & Pension Funds Statistics Explanation page (Series and Dataset Level Information), Reference area:Euro area (changing composition) (U2), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484291&SERIES_KEY=240.ICPF.Q.U2.N.V.LE.F4.S125.U5.S12P.1.N.E.Z&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "2008-03-31",
-      "id": 11435147,
-      "name": "Euro area except the reference area), counterpart institutional sector Other financial intermediaries, including financial auxiliaries Debit Non-consolidated, Current prices Euro, ESA95 TP table Not applicable",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-05-23T21:39:49Z",
-      "urlize_name": "Euro-area-except-the-reference-area-counterpart-institutional-sector-Other-financial-intermediaries-including-financial-auxiliaries-Debit-Non-consolidated-Current-prices-Euro-ESA95-TP-table-Not-applicable"
-    },
-    {
-      "code": "BVMF_AFLU5",
-      "column_names": [
-        "Date",
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Volume"
-      ],
-      "description": "No Description Available",
-      "display_url": "http://www.google.com/finance/historical?q=BVMF%3AAFLU5&startdate=Jan+1%2C+1990&output=csv",
-      "frequency": "daily",
-      "from_date": "2006-07-31",
-      "id": 9267956,
-      "name": "AFLUENTE -PNA ED (AFLU5)",
-      "private": false,
-      "source_code": "GOOG",
-      "source_name": "Google Finance",
-      "to_date": "2013-06-20",
-      "type": null,
-      "updated_at": "2014-05-09T23:30:47Z",
-      "urlize_name": "AFLUENTE-PNA-ED-AFLU5"
-    },
-    {
-      "code": "IEAQ_Q_PT_N_V_LE_F41_S13_A1_S_2_N_N_Z",
-      "column_names": [
-        "Date",
-        "Millions of Euro"
-      ],
-      "description": " Portugal, reporting institutional sector General government - Closing balance sheet - Short-term - Loans - counterpart area World (all entities), counterpart institutional sector Total economy including Rest of the World (all sectors) - Credit (resources/liabilities) - Non-consolidated, Current prices - National currency, Neither seasonally nor working day adjusted - ESA95 TP table Not applicable , :, Dataset:IEAQ : Quarterly Euro Area Accounts Explanation page (Series and Dataset Level Information), Reference area:Portugal (PT), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2019184&SERIES_KEY=158.IEAQ.Q.PT.N.V.LE.F41.S13.A1.S.2.N.N.Z&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "1999-03-31",
-      "id": 11343690,
-      "name": "Portugal, reporting institutional sector General government Closing balance sheet Short-term Loans counterpart area World , counterpart institutional sector Total economy including Rest of the World Credit Non-consolidated, Current prices National currency, ESA95 TP table Not applicable",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-05-20T23:56:03Z",
-      "urlize_name": "Portugal-reporting-institutional-sector-General-government-Closing-balance-sheet-Short-term-Loans-counterpart-area-World-counterpart-institutional-sector-Total-economy-including-Rest-of-the-World-Credit-Non-consolidated-Current-prices-National-currency-ESA95-TP-table-Not-applicable"
-    },
-    {
-      "code": "IEAQ_Q_FR_N_V_LE_F7_34_S12P_A1_S_1_N_N_Z",
-      "column_names": [
-        "Date",
-        "Millions of Euro"
-      ],
-      "description": " France, reporting institutional sector Other financial intermediaries, including financial auxiliaries - Closing balance sheet - Other accounts receivable/payable plus financial derivatives - counterpart area World (all entities), counterpart institutional sector Total economy including Rest of the World (all sectors) - Debit (uses/assets) - Non-consolidated, Current prices - National currency, Neither seasonally nor working day adjusted - ESA95 TP table Not applicable , :, Dataset:IEAQ : Quarterly Euro Area Accounts Explanation page (Series and Dataset Level Information), Reference area:France (FR), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2019184&SERIES_KEY=158.IEAQ.Q.FR.N.V.LE.F7_34.S12P.A1.S.1.N.N.Z&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "1999-03-31",
-      "id": 11339527,
-      "name": "France, reporting institutional sector Other financial intermediaries, including financial auxiliaries Closing balance sheet Other accounts receivable/payable plus financial derivatives counterpart area World , counterpart institutional sector Total economy including Rest of the World Debit Non-consolidated, Current prices National currency, ESA95 TP table Not applicable",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-05-23T21:39:58Z",
-      "urlize_name": "France-reporting-institutional-sector-Other-financial-intermediaries-including-financial-auxiliaries-Closing-balance-sheet-Other-accounts-receivable-payable-plus-financial-derivatives-counterpart-area-World-counterpart-institutional-sector-Total-economy-including-Rest-of-the-World-Debit-Non-consolidated-Current-prices-National-currency-ESA95-TP-table-Not-applicable"
-    },
-    {
-      "code": "GST_Q_IT_N_B0X13_PIP_B1300_FB_G",
-      "column_names": [
-        "Date",
-        "Percent"
-      ],
-      "description": " Italy - Prepayments of insurance premiums and reserves of outstanding claims - General government (ESA95)-NCBs - All sectors without general government (consolidation) (ESA95) - NCBs - Financial flows at market value - Percentage points, series(t)/GDP(t) - Neither seasonally nor working day adjusted , :, Dataset:GST : Government Statistics Explanation page (Series and Dataset Level Information), Reference area:Italy (IT), Decimals:Six (6), Collection indicator:Summed through period (S)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9485652&SERIES_KEY=121.GST.Q.IT.N.B0X13.PIP.B1300.FB.G&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "2005-03-31",
-      "id": 11371032,
-      "name": "Italy Prepayments of insurance premiums and reserves of outstanding claims General government -NCBs All sectors without general government NCBs Financial flows at market value Percentage points, series/GDP",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-05-23T22:06:21Z",
-      "urlize_name": "Italy-Prepayments-of-insurance-premiums-and-reserves-of-outstanding-claims-General-government-NCBs-All-sectors-without-general-government-NCBs-Financial-flows-at-market-value-Percentage-points-series-GDP"
-    },
-    {
-      "code": "ESA_Q_LV_Y_1000_UNLAHW_0000_2K_K_D_N_I",
-      "column_names": [
-        "Date",
-        "2005"
-      ],
-      "description": " Latvia - Hourly unit labour costs: Financial and insurance activities, Deflator, National currency, Working day and seasonally adjusted, Index , :, Dataset:ESA : ESA95 National Accounts Explanation page (Series and Dataset Level Information), Reference area:Latvia (LV), Decimals:Two (2), Collection indicator:Average of observations through period (A), Compilation:$REBASE(ESA.Q.LV.Y.1000.UNLAHW.0000.2K_K.D.N.A,2005)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2120786&SERIES_KEY=119.ESA.Q.LV.Y.1000.UNLAHW.0000.2K_K.D.N.I&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "2000-03-31",
-      "id": 11491104,
-      "name": "Latvia Hourly unit labour costs: Financial and insurance activities, Deflator, National currency, Index",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-05-28T23:31:22Z",
-      "urlize_name": "Latvia-Hourly-unit-labour-costs-Financial-and-insurance-activities-Deflator-National-currency-Index"
-    },
-    {
-      "code": "BSI_Q_LV_N_A_A50_A_4_U6_2220_Z01_E",
-      "column_names": [
-        "Date",
-        "Millions of Euro"
-      ],
-      "description": " Latvia, Financial transactions (flows), MFIs excluding ESCB reporting sector - Shares and other equities, Total maturity, All currencies combined - Domestic (home or reference area) counterpart, Insurance corporations and pension funds (S.125) sector, denominated in Euro, data Neither seasonally nor working day adjusted , :, Dataset:BSI : Balance Sheet Items Explanation page (Series and Dataset Level Information), Reference area:Latvia (LV), Decimals:Zero (0), Collection indicator:Summed through period (S)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2116080&SERIES_KEY=117.BSI.Q.LV.N.A.A50.A.4.U6.2220.Z01.E&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "2010-12-31",
-      "id": 11383422,
-      "name": "Latvia, Financial transactions , MFIs excluding ESCB reporting sector Shares and other equities, Total maturity, All currencies combined Domestic counterpart, Insurance corporations and pension funds sector, denominated in Euro, data",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-05-23T22:06:21Z",
-      "urlize_name": "Latvia-Financial-transactions-MFIs-excluding-ESCB-reporting-sector-Shares-and-other-equities-Total-maturity-All-currencies-combined-Domestic-counterpart-Insurance-corporations-and-pension-funds-sector-denominated-in-Euro-data"
+      "updated_at": "2014-03-14T10:44:10Z",
+      "urlize_name": "Cucos-Inc-CUCO-Cash-as-Percentage-of-Revenues"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "ECB",
-      "datasets_count": 0,
-      "description": "No description for this source yet",
-      "host": "sdw.ecb.europa.eu",
-      "id": 8917,
-      "name": "European Central Bank"
-    },
-    {
-      "code": "GOOG",
-      "datasets_count": 43144,
-      "description": "This data is NOT sourced directly from Google.  It is however verified against their numbers.\r\n\r\nwww.quandl.com/WIKI is a better source.",
-      "host": "www.google.com",
-      "id": 393,
-      "name": "Google Finance"
-    },
-    {
-      "code": "FRED",
-      "datasets_count": 60949,
-      "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
-      "host": "www.research.stlouisfed.org",
-      "id": 118,
-      "name": "Federal Reserve Economic Data"
-    }
-  ],
-  "total_count": 10006019
+  "sources": [{
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
+  }],
+  "total_count": 10053489
 }

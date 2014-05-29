@@ -1,27 +1,21 @@
 {
-  "code": "INDSTAT_VAL_MCGE_BEL",
+  "code": "STFBQCF_STFBAILF_MA_N_Q",
   "column_names": [
     "Date",
-    "General purpose machinery (Value added at factor values/Euros)",
-    "Engines & turbines (not for transport equipment) (Value added at factor values/Euros)",
-    "Pumps; compressors; taps and valves (Value added at factor values/Euros)",
-    "Bearings; gears; gearing & driving elements (Value added at factor values/Euros)",
-    "Ovens; furnaces and furnace burners (Value added at factor values/Euros)",
-    "Lifting and handling equipment (Value added at factor values/Euros)",
-    "Other general purpose machinery (Value added at factor values/Euros)"
+    "Value"
   ],
-  "description": "Value Added in Machinery - Belgium. Source: UNIDO, which specializes in and promotes industrial development for reduction of poverty, inclusive globalization and sustainability of the environmental. For more information, please see <a href=http://www.unido.org/>http://www.unido.org/<\/a>",
-  "display_url": null,
+  "description": "Units: Percentage\nMultiplier: 1\nClassification: CHGDEL",
+  "display_url": "http://www.federalreserve.gov/datadownload/Output.aspx?rel=CHGDEL&series=929faaa8d5e6bf375839d7fc2b7760fe&lastObs=&from=&to=&filetype=csv&label=include&layout=seriescolumn&type=package",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2006-12-31",
-  "id": 11137317,
-  "name": "Value Added in Machinery - Belgium",
+  "frequency": "quarterly",
+  "from_date": "1985-03-31",
+  "id": 84161,
+  "name": "Charge-off rate on loans to finance agricultural production; All commercial banks",
   "private": false,
-  "source_code": "UNDATA",
-  "source_name": "United Nations",
-  "to_date": "2009-12-31",
+  "source_code": "FED",
+  "source_name": "US Federal Reserve",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2014-03-19T05:33:36Z",
-  "urlize_name": "Value-Added-in-Machinery-Belgium"
+  "updated_at": "2014-05-24T13:07:47Z",
+  "urlize_name": "Charge-off-rate-on-loans-to-finance-agricultural-production-All-commercial-banks"
 }

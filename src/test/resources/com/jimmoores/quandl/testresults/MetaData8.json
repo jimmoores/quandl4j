@@ -1,415 +1,417 @@
 {
-  "current_page": 412969,
+  "current_page": 63848,
   "docs": [
     {
-      "code": "APC_DEFERREDTAXASSETSLIABILITIESNET_A",
+      "code": "PRGS_EV",
       "column_names": [
         "Date",
-        "Value"
+        "Enterprise Value"
       ],
-      "description": "SEC Name: DeferredTaxAssetsLiabilitiesNet",
-      "display_url": null,
+      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 10352244,
-      "name": "ANADARKO PETROLEUM CORP  (APC): Annual Deferred Tax Assets Liabilities Net",
+      "from_date": "1999-11-30",
+      "id": 5405493,
+      "name": "Progress Software ( PRGS ) - Enterprise Value",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-11-30",
+      "type": null,
+      "updated_at": "2014-03-22T17:56:39Z",
+      "urlize_name": "Progress-Software-PRGS-Enterprise-Value"
+    },
+    {
+      "code": "TSYS_REV_LAST",
+      "column_names": [
+        "Date",
+        "Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5520255,
+      "name": "Telecommunication Sys Inc ( TSYS ) - Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T17:56:40Z",
+      "urlize_name": "Telecommunication-Sys-Inc-TSYS-Revenues"
+    },
+    {
+      "code": "AIMM_CASH_REV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3911742,
+      "name": "AutoImmune Inc. ( AIMM ) - Cash as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-03-11T03:10:27Z",
-      "urlize_name": "ANADARKO-PETROLEUM-CORP-APC-Annual-Deferred-Tax-Assets-Liabilities-Net"
+      "updated_at": "2014-03-22T17:57:00Z",
+      "urlize_name": "AutoImmune-Inc-AIMM-Cash-as-Percentage-of-Revenues"
     },
     {
-      "code": "DEER_COMMITMENTSANDCONTINGENCIES_A",
+      "code": "TTC_EV_BV",
       "column_names": [
         "Date",
-        "Value"
+        "EV to Book Value Ratio"
       ],
-      "description": "SEC Name: CommitmentsAndContingencies",
-      "display_url": null,
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 10603159,
-      "name": "Deer Consumer Products, Inc.  (DEER): Annual Commitments And Contingencies",
+      "from_date": "1999-10-31",
+      "id": 5520656,
+      "name": "Toro Co. ( TTC ) - EV to Book Value Ratio",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-10-31",
+      "type": null,
+      "updated_at": "2014-03-22T17:56:40Z",
+      "urlize_name": "Toro-Co-TTC-EV-to-Book-Value-Ratio"
+    },
+    {
+      "code": "TSYS_EBIT_1T",
+      "column_names": [
+        "Date",
+        "EBIT for Previous Period"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5520203,
+      "name": "Telecommunication Sys Inc ( TSYS ) - EBIT for Previous Period",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T17:56:41Z",
+      "urlize_name": "Telecommunication-Sys-Inc-TSYS-EBIT-for-Previous-Period"
+    },
+    {
+      "code": "FFHL_OP_MARG",
+      "column_names": [
+        "Date",
+        "Pre-Tax Operating Margin"
+      ],
+      "description": "Estimated by dividing the pre-tax operating income by the total revenues. This is a pre-tax measure of operating profitability: Pre-tax Operating Margin = EBIT / Sales. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 4444448,
+      "name": "Fuwei Films Co. ( FFHL ) - Pre-Tax Operating Margin",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-03-11T03:10:09Z",
-      "urlize_name": "Deer-Consumer-Products-Inc-DEER-Annual-Commitments-And-Contingencies"
+      "updated_at": "2014-03-22T17:57:01Z",
+      "urlize_name": "Fuwei-Films-Co-FFHL-Pre-Tax-Operating-Margin"
     },
     {
-      "code": "APC_DEFERREDTAXASSETSNETCURRENT_Q",
+      "code": "TSYS_DIV",
       "column_names": [
         "Date",
-        "Value"
+        "Dividends"
       ],
-      "description": "SEC Name: DeferredTaxAssetsNetCurrent",
-      "display_url": null,
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 10346632,
-      "name": "ANADARKO PETROLEUM CORP  (APC): Quarterly Deferred Tax Assets Net Current",
+      "from_date": "1999-12-31",
+      "id": 5520197,
+      "name": "Telecommunication Sys Inc ( TSYS ) - Dividends",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-11T03:10:10Z",
-      "urlize_name": "ANADARKO-PETROLEUM-CORP-APC-Quarterly-Deferred-Tax-Assets-Net-Current"
+      "updated_at": "2014-03-22T17:56:41Z",
+      "urlize_name": "Telecommunication-Sys-Inc-TSYS-Dividends"
     },
     {
-      "code": "CBRL_RESTRUCTURINGANDRELATEDCOSTNUMBEROFPOSITIONSELIMINATED_Q",
+      "code": "NEWS_CASH_REV",
       "column_names": [
         "Date",
-        "Value"
+        "Cash as Percentage of Revenues"
       ],
-      "description": "SEC Name: RestructuringAndRelatedCostNumberOfPositionsEliminated",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-04-27",
-      "id": 10545235,
-      "name": "CRACKER BARREL OLD COUNTRY STORE, INC  (CBRL): Quarterly Restructuring And Related Cost Number Of Positions Eliminated",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2012-04-27",
-      "type": null,
-      "updated_at": "2014-03-11T03:10:29Z",
-      "urlize_name": "CRACKER-BARREL-OLD-COUNTRY-STORE-INC-CBRL-Quarterly-Restructuring-And-Related-Cost-Number-Of-Positions-Eliminated"
-    },
-    {
-      "code": "APC_DEFERREDTAXASSETSNETCURRENT_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: DeferredTaxAssetsNetCurrent",
-      "display_url": null,
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 10346640,
-      "name": "ANADARKO PETROLEUM CORP  (APC): Annual Deferred Tax Assets Net Current",
+      "from_date": "2005-12-31",
+      "id": 4687559,
+      "name": "Newstar Financial ( NEWS ) - Cash as Percentage of Revenues",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-03-11T03:10:11Z",
-      "urlize_name": "ANADARKO-PETROLEUM-CORP-APC-Annual-Deferred-Tax-Assets-Net-Current"
-    },
-    {
-      "code": "DEER_COMMONSTOCKVALUE_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CommonStockValue",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 10603164,
-      "name": "Deer Consumer Products, Inc.  (DEER): Annual Common Stock Value",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-03-11T03:10:11Z",
-      "urlize_name": "Deer-Consumer-Products-Inc-DEER-Annual-Common-Stock-Value"
+      "updated_at": "2014-03-22T17:56:41Z",
+      "urlize_name": "Newstar-Financial-NEWS-Cash-as-Percentage-of-Revenues"
     },
     {
-      "code": "CBRL_RESTRUCTURINGRESERVESETTLEDWITHCASH_A",
+      "code": "PRGS_CASH_FV",
       "column_names": [
         "Date",
-        "Value"
+        "Cash as Percentage of Firm Value"
       ],
-      "description": "SEC Name: RestructuringReserveSettledWithCash",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-08-03",
-      "id": 10545238,
-      "name": "CRACKER BARREL OLD COUNTRY STORE, INC  (CBRL): Annual Restructuring Reserve Settled With Cash",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2012-08-03",
-      "type": null,
-      "updated_at": "2014-03-11T03:10:11Z",
-      "urlize_name": "CRACKER-BARREL-OLD-COUNTRY-STORE-INC-CBRL-Annual-Restructuring-Reserve-Settled-With-Cash"
-    },
-    {
-      "code": "APC_DEFERREDTAXLIABILITIESOILANDGASEXPLORATIONANDDEVELOPMENTOPERATIONS_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: DeferredTaxLiabilitiesOilAndGasExplorationAndDevelopmentOperations",
-      "display_url": null,
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 10353580,
-      "name": "ANADARKO PETROLEUM CORP  (APC): Quarterly Deferred Tax Liabilities Oil And Gas Exploration And Development Operations",
+      "from_date": "1999-11-30",
+      "id": 5405465,
+      "name": "Progress Software ( PRGS ) - Cash as Percentage of Firm Value",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-11-30",
       "type": null,
-      "updated_at": "2014-03-11T03:10:30Z",
-      "urlize_name": "ANADARKO-PETROLEUM-CORP-APC-Quarterly-Deferred-Tax-Liabilities-Oil-And-Gas-Exploration-And-Development-Operations"
+      "updated_at": "2014-03-22T17:56:42Z",
+      "urlize_name": "Progress-Software-PRGS-Cash-as-Percentage-of-Firm-Value"
     },
     {
-      "code": "CBRL_RESTRUCTURINGRESERVEACCRUALADJUSTMENT_A",
+      "code": "PRGS_MKT_DC",
       "column_names": [
         "Date",
-        "Value"
+        "Market Debt to Capital Ratio"
       ],
-      "description": "SEC Name: RestructuringReserveAccrualAdjustment",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-08-03",
-      "id": 10545239,
-      "name": "CRACKER BARREL OLD COUNTRY STORE, INC  (CBRL): Annual Restructuring Reserve Accrual Adjustment",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2012-08-03",
-      "type": null,
-      "updated_at": "2014-03-11T03:10:13Z",
-      "urlize_name": "CRACKER-BARREL-OLD-COUNTRY-STORE-INC-CBRL-Annual-Restructuring-Reserve-Accrual-Adjustment"
-    },
-    {
-      "code": "APC_DEFERREDTAXLIABILITIESOILANDGASEXPLORATIONANDDEVELOPMENTOPERATIONS_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: DeferredTaxLiabilitiesOilAndGasExplorationAndDevelopmentOperations",
-      "display_url": null,
+      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 10353581,
-      "name": "ANADARKO PETROLEUM CORP  (APC): Annual Deferred Tax Liabilities Oil And Gas Exploration And Development Operations",
+      "from_date": "1999-11-30",
+      "id": 5405536,
+      "name": "Progress Software ( PRGS ) - Market Debt to Capital Ratio",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-11-30",
       "type": null,
-      "updated_at": "2014-03-11T03:10:14Z",
-      "urlize_name": "ANADARKO-PETROLEUM-CORP-APC-Annual-Deferred-Tax-Liabilities-Oil-And-Gas-Exploration-And-Development-Operations"
+      "updated_at": "2014-03-22T17:57:02Z",
+      "urlize_name": "Progress-Software-PRGS-Market-Debt-to-Capital-Ratio"
     },
     {
-      "code": "DEER_COMMONSTOCKPARORSTATEDVALUEPERSHARE_A",
+      "code": "PRGS_BOOK_DC",
       "column_names": [
         "Date",
-        "Value"
+        "Book Debt to Capital Ratio"
       ],
-      "description": "SEC Name: CommonStockParOrStatedValuePerShare",
-      "display_url": null,
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 10603165,
-      "name": "Deer Consumer Products, Inc.  (DEER): Annual Common Stock Par Or Stated Value Per Share",
+      "from_date": "1999-11-30",
+      "id": 5405456,
+      "name": "Progress Software ( PRGS ) - Book Debt to Capital Ratio",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-11-30",
+      "type": null,
+      "updated_at": "2014-03-22T17:57:02Z",
+      "urlize_name": "Progress-Software-PRGS-Book-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "PRGS_BETA",
+      "column_names": [
+        "Date",
+        "3-Year Regression Beta"
+      ],
+      "description": "Estimated by regressing weekly returns on stock against NYSE composite. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-11-30",
+      "id": 5405454,
+      "name": "Progress Software ( PRGS ) - 3-Year Regression Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-11-30",
+      "type": null,
+      "updated_at": "2014-03-22T17:57:02Z",
+      "urlize_name": "Progress-Software-PRGS-3-Year-Regression-Beta"
+    },
+    {
+      "code": "PRGS_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-11-30",
+      "id": 5405472,
+      "name": "Progress Software ( PRGS ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-11-30",
+      "type": null,
+      "updated_at": "2014-03-22T17:57:02Z",
+      "urlize_name": "Progress-Software-PRGS-Correlation-with-the-Market"
+    },
+    {
+      "code": "PRGS_CASH",
+      "column_names": [
+        "Date",
+        "Cash"
+      ],
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-11-30",
+      "id": 5405462,
+      "name": "Progress Software ( PRGS ) - Cash",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-11-30",
+      "type": null,
+      "updated_at": "2014-03-22T17:56:43Z",
+      "urlize_name": "Progress-Software-PRGS-Cash"
+    },
+    {
+      "code": "FFHL_P_S",
+      "column_names": [
+        "Date",
+        "Price to Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 4444451,
+      "name": "Fuwei Films Co. ( FFHL ) - Price to Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-03-11T03:10:32Z",
-      "urlize_name": "Deer-Consumer-Products-Inc-DEER-Annual-Common-Stock-Par-Or-Stated-Value-Per-Share"
+      "updated_at": "2014-03-22T17:57:03Z",
+      "urlize_name": "Fuwei-Films-Co-FFHL-Price-to-Sales-Ratio"
     },
     {
-      "code": "APC_DEFERREDTAXLIABILITIESMINERALOPERATIONS_Q",
+      "code": "PRGS_PE_TRAIL",
       "column_names": [
         "Date",
-        "Value"
+        "Trailing PE Ratio"
       ],
-      "description": "SEC Name: DeferredTaxLiabilitiesMineralOperations",
-      "display_url": null,
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 10353582,
-      "name": "ANADARKO PETROLEUM CORP  (APC): Quarterly Deferred Tax Liabilities Mineral Operations",
+      "from_date": "1999-11-30",
+      "id": 5405570,
+      "name": "Progress Software ( PRGS ) - Trailing PE Ratio",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-11-30",
       "type": null,
-      "updated_at": "2014-03-11T03:10:33Z",
-      "urlize_name": "ANADARKO-PETROLEUM-CORP-APC-Quarterly-Deferred-Tax-Liabilities-Mineral-Operations"
+      "updated_at": "2014-03-22T17:57:03Z",
+      "urlize_name": "Progress-Software-PRGS-Trailing-PE-Ratio"
     },
     {
-      "code": "CBRL_RESTRUCTURINGRESERVE_A",
+      "code": "PRGS_EV_EBITDA",
       "column_names": [
         "Date",
-        "Value"
+        "EV to EBITDA Ratio"
       ],
-      "description": "SEC Name: RestructuringReserve",
-      "display_url": null,
+      "description": "Estimated by dividing the market value of debt and equity by the EBITDA.  Value/EBITDA = (Market Value of Equity + Value of Debt-Cash) / EBITDA.  We use the book value of debt as a proxy for the market value. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2010-07-30",
-      "id": 10545244,
-      "name": "CRACKER BARREL OLD COUNTRY STORE, INC  (CBRL): Annual Restructuring Reserve",
+      "from_date": "1999-11-30",
+      "id": 5405498,
+      "name": "Progress Software ( PRGS ) - EV to EBITDA Ratio",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2012-08-03",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-11-30",
       "type": null,
-      "updated_at": "2014-03-11T03:10:33Z",
-      "urlize_name": "CRACKER-BARREL-OLD-COUNTRY-STORE-INC-CBRL-Annual-Restructuring-Reserve"
+      "updated_at": "2014-03-22T17:56:44Z",
+      "urlize_name": "Progress-Software-PRGS-EV-to-EBITDA-Ratio"
     },
     {
-      "code": "DEER_COMMONSTOCKSHARESAUTHORIZED_A",
+      "code": "PRGS_EV_SALES",
       "column_names": [
         "Date",
-        "Value"
+        "EV To Sales Ratio"
       ],
-      "description": "SEC Name: CommonStockSharesAuthorized",
-      "display_url": null,
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 10603173,
-      "name": "Deer Consumer Products, Inc.  (DEER): Annual Common Stock Shares Authorized",
+      "from_date": "1999-11-30",
+      "id": 5405501,
+      "name": "Progress Software ( PRGS ) - EV To Sales Ratio",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2011-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-11-30",
       "type": null,
-      "updated_at": "2014-03-11T03:10:16Z",
-      "urlize_name": "Deer-Consumer-Products-Inc-DEER-Annual-Common-Stock-Shares-Authorized"
+      "updated_at": "2014-03-22T17:57:04Z",
+      "urlize_name": "Progress-Software-PRGS-EV-To-Sales-Ratio"
     },
     {
-      "code": "APC_DEFERREDTAXLIABILITIESMINERALOPERATIONS_A",
+      "code": "PRGS_DIV",
       "column_names": [
         "Date",
-        "Value"
+        "Dividends"
       ],
-      "description": "SEC Name: DeferredTaxLiabilitiesMineralOperations",
-      "display_url": null,
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 10353584,
-      "name": "ANADARKO PETROLEUM CORP  (APC): Annual Deferred Tax Liabilities Mineral Operations",
+      "from_date": "1999-11-30",
+      "id": 5405478,
+      "name": "Progress Software ( PRGS ) - Dividends",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-11-30",
       "type": null,
-      "updated_at": "2014-03-11T03:10:34Z",
-      "urlize_name": "ANADARKO-PETROLEUM-CORP-APC-Annual-Deferred-Tax-Liabilities-Mineral-Operations"
+      "updated_at": "2014-03-22T17:56:44Z",
+      "urlize_name": "Progress-Software-PRGS-Dividends"
     },
     {
-      "code": "APC_DEFERREDTAXLIABILITIESMIDSTREAMANDOTHERDEPRECIABLEPROPERTIES_Q",
+      "code": "PRGS_PE_CURR",
       "column_names": [
         "Date",
-        "Value"
+        "Current PE Ratio"
       ],
-      "description": "SEC Name: DeferredTaxLiabilitiesMidstreamAndOtherDepreciableProperties",
-      "display_url": null,
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 10353585,
-      "name": "ANADARKO PETROLEUM CORP  (APC): Quarterly Deferred Tax Liabilities Midstream And Other Depreciable Properties",
+      "from_date": "1999-11-30",
+      "id": 5405474,
+      "name": "Progress Software ( PRGS ) - Current PE Ratio",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-11-30",
       "type": null,
-      "updated_at": "2014-03-11T03:10:17Z",
-      "urlize_name": "ANADARKO-PETROLEUM-CORP-APC-Quarterly-Deferred-Tax-Liabilities-Midstream-And-Other-Depreciable-Properties"
-    },
-    {
-      "code": "DEER_COMMONSTOCKSHARESISSUED_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CommonStockSharesIssued",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 10603171,
-      "name": "Deer Consumer Products, Inc.  (DEER): Annual Common Stock Shares Issued",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-03-11T03:10:36Z",
-      "urlize_name": "Deer-Consumer-Products-Inc-DEER-Annual-Common-Stock-Shares-Issued"
-    },
-    {
-      "code": "APC_DEFERREDTAXLIABILITIESMIDSTREAMANDOTHERDEPRECIABLEPROPERTIES_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: DeferredTaxLiabilitiesMidstreamAndOtherDepreciableProperties",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 10353586,
-      "name": "ANADARKO PETROLEUM CORP  (APC): Annual Deferred Tax Liabilities Midstream And Other Depreciable Properties",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-03-11T03:10:36Z",
-      "urlize_name": "ANADARKO-PETROLEUM-CORP-APC-Annual-Deferred-Tax-Liabilities-Midstream-And-Other-Depreciable-Properties"
-    },
-    {
-      "code": "APC_DEFERREDTAXLIABILITIESOTHER_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: DeferredTaxLiabilitiesOther",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 10346771,
-      "name": "ANADARKO PETROLEUM CORP  (APC): Quarterly Deferred Tax Liabilities Other",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-03-11T03:10:19Z",
-      "urlize_name": "ANADARKO-PETROLEUM-CORP-APC-Quarterly-Deferred-Tax-Liabilities-Other"
-    },
-    {
-      "code": "DEER_COMMONSTOCKSHARESOUTSTANDING_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CommonStockSharesOutstanding",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 10603191,
-      "name": "Deer Consumer Products, Inc.  (DEER): Annual Common Stock Shares Outstanding",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-03-11T03:10:38Z",
-      "urlize_name": "Deer-Consumer-Products-Inc-DEER-Annual-Common-Stock-Shares-Outstanding"
+      "updated_at": "2014-03-22T17:56:44Z",
+      "urlize_name": "Progress-Software-PRGS-Current-PE-Ratio"
     }
   ],
   "per_page": 20,
   "sources": [{
-    "code": "SEC",
-    "datasets_count": 4867,
-    "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
-    "host": "www.sec.gov",
-    "id": 651,
-    "name": "U.S. Securities and Exchange Commission"
+    "code": "DMDRN",
+    "concurrency": 20,
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data",
+    "use_proxy": false
   }],
-  "total_count": 9990700
+  "total_count": 10036987
 }

@@ -1,415 +1,415 @@
 {
-  "current_page": 385131,
+  "current_page": 38031,
   "docs": [
     {
-      "code": "UCFC_INCOMETAXRECONCILIATIONOTHERADJUSTMENTS_A",
+      "code": "DINIQ_FIRM_VAL",
       "column_names": [
         "Date",
-        "Value"
+        "Firm Value"
       ],
-      "description": "SEC Name: IncomeTaxReconciliationOtherAdjustments",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10400363,
-      "name": "UNITED COMMUNITY FINANCIAL CORP  (UCFC): Annual Income Tax Reconciliation Other Adjustments",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T22:55:05Z",
-      "urlize_name": "UNITED-COMMUNITY-FINANCIAL-CORP-UCFC-Annual-Income-Tax-Reconciliation-Other-Adjustments"
-    },
-    {
-      "code": "UCFC_INCOMETAXRECONCILIATIONNONDEDUCTIBLEEXPENSELIFEINSURANCE_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: IncomeTaxReconciliationNondeductibleExpenseLifeInsurance",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10400365,
-      "name": "UNITED COMMUNITY FINANCIAL CORP  (UCFC): Annual Income Tax Reconciliation Nondeductible Expense Life Insurance",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T22:55:05Z",
-      "urlize_name": "UNITED-COMMUNITY-FINANCIAL-CORP-UCFC-Annual-Income-Tax-Reconciliation-Nondeductible-Expense-Life-Insurance"
-    },
-    {
-      "code": "PRTS_CASHDOMINIONPERIODTRIGGERMINIMUMEXCESSAVAILABILITYPERIOD_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CashDominionPeriodTriggerMinimumExcessAvailabilityPeriod",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-03-30",
-      "id": 10400375,
-      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Cash Dominion Period Trigger Minimum Excess Availability Period",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-30",
-      "type": null,
-      "updated_at": "2014-03-06T22:55:05Z",
-      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Cash-Dominion-Period-Trigger-Minimum-Excess-Availability-Period"
-    },
-    {
-      "code": "PRTS_CASHDOMINIONPERIODTRIGGERMAXIMUMEXCESSAVAILABILITYAMOUNT_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CashDominionPeriodTriggerMaximumExcessAvailabilityAmount",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-03-30",
-      "id": 10400369,
-      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Cash Dominion Period Trigger Maximum Excess Availability Amount",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-30",
-      "type": null,
-      "updated_at": "2014-03-06T22:54:48Z",
-      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Cash-Dominion-Period-Trigger-Maximum-Excess-Availability-Amount"
-    },
-    {
-      "code": "PRTS_CAPITALSTOCKPERCENTAGE_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CapitalStockPercentage",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-03-30",
-      "id": 10400376,
-      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Capital Stock Percentage",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-30",
-      "type": null,
-      "updated_at": "2014-03-06T22:55:05Z",
-      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Capital-Stock-Percentage"
-    },
-    {
-      "code": "UCFC_INCOMETAXRECONCILIATIONTAXEXEMPTINCOME_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: IncomeTaxReconciliationTaxExemptIncome",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": null,
-      "id": 10400378,
-      "name": "UNITED COMMUNITY FINANCIAL CORP  (UCFC): Annual Income Tax Reconciliation Tax Exempt Income",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": null,
-      "type": null,
-      "updated_at": "2014-03-06T22:55:06Z",
-      "urlize_name": "UNITED-COMMUNITY-FINANCIAL-CORP-UCFC-Annual-Income-Tax-Reconciliation-Tax-Exempt-Income"
-    },
-    {
-      "code": "PRTS_CASHDOMINIONTRIGGEREDCONSECUTIVEPERIOD_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CashDominionTriggeredConsecutivePeriod",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-03-30",
-      "id": 10400380,
-      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Cash Dominion Triggered Consecutive Period",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-30",
-      "type": null,
-      "updated_at": "2014-03-06T22:54:48Z",
-      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Cash-Dominion-Triggered-Consecutive-Period"
-    },
-    {
-      "code": "PRTS_AGGREGATEAMOUNTOFDIRECTORFEES_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: AggregateAmountOfDirectorFees",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-03-30",
-      "id": 10399813,
-      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Aggregate Amount Of Director Fees",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-09-28",
-      "type": null,
-      "updated_at": "2014-03-06T22:55:06Z",
-      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Aggregate-Amount-Of-Director-Fees"
-    },
-    {
-      "code": "UCFC_INCOMETAXRECONCILIATIONINCOMETAXEXPENSEBENEFITATFEDERALSTATUTORYINCOMETAXRATE_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10400393,
-      "name": "UNITED COMMUNITY FINANCIAL CORP  (UCFC): Annual Income Tax Reconciliation Income Tax Expense Benefit At Federal Statutory Income Tax Rate",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T22:54:49Z",
-      "urlize_name": "UNITED-COMMUNITY-FINANCIAL-CORP-UCFC-Annual-Income-Tax-Reconciliation-Income-Tax-Expense-Benefit-At-Federal-Statutory-Income-Tax-Rate"
-    },
-    {
-      "code": "UCFC_INCREMENTALCOMMONSHARESATTRIBUTABLETOSHAREBASEDPAYMENTARRANGEMENTS_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: IncrementalCommonSharesAttributableToShareBasedPaymentArrangements",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": null,
-      "id": 10400404,
-      "name": "UNITED COMMUNITY FINANCIAL CORP  (UCFC): Annual Incremental Common Shares Attributable To Share Based Payment Arrangements",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": null,
-      "type": null,
-      "updated_at": "2014-03-06T22:55:06Z",
-      "urlize_name": "UNITED-COMMUNITY-FINANCIAL-CORP-UCFC-Annual-Incremental-Common-Shares-Attributable-To-Share-Based-Payment-Arrangements"
-    },
-    {
-      "code": "PRTS_CASHEQUIVALENTSMONEYMARKETFUNDSANDSHORTTERMINVESTMENTSMATURITYPERIOD_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CashEquivalentsMoneyMarketFundsAndShortTermInvestmentsMaturityPeriod",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-03-30",
-      "id": 10400397,
-      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Cash Equivalents Money Market Funds And Short Term Investments Maturity Period",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-30",
-      "type": null,
-      "updated_at": "2014-03-06T22:55:07Z",
-      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Cash-Equivalents-Money-Market-Funds-And-Short-Term-Investments-Maturity-Period"
-    },
-    {
-      "code": "PRTS_CASHDOMINIONPERIODTRIGGERMINIMUMEXCESSAVAILABILITYAMOUNT_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CashDominionPeriodTriggerMinimumExcessAvailabilityAmount",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-03-30",
-      "id": 10400392,
-      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Cash Dominion Period Trigger Minimum Excess Availability Amount",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-30",
-      "type": null,
-      "updated_at": "2014-03-06T22:54:49Z",
-      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Cash-Dominion-Period-Trigger-Minimum-Excess-Availability-Amount"
-    },
-    {
-      "code": "HON_ASSETSOFDISPOSALGROUPINCLUDINGDISCONTINUEDOPERATIONCURRENT_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: AssetsOfDisposalGroupIncludingDiscontinuedOperationCurrent",
-      "display_url": null,
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 10397764,
-      "name": "HONEYWELL INTERNATIONAL INC  (HON): Quarterly Assets Of Disposal Group Including Discontinued Operation Current",
+      "from_date": "2011-12-31",
+      "id": 4203036,
+      "name": "Decorator Inds Inc. ( DINIQ ) - Firm Value",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2011-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-06T22:55:07Z",
-      "urlize_name": "HONEYWELL-INTERNATIONAL-INC-HON-Quarterly-Assets-Of-Disposal-Group-Including-Discontinued-Operation-Current"
+      "updated_at": "2014-03-14T16:25:57Z",
+      "urlize_name": "Decorator-Inds-Inc-DINIQ-Firm-Value"
     },
     {
-      "code": "PRTS_COMMONSTOCKISSUANCECOSTS_Q",
+      "code": "TMYE_REV_LAST",
       "column_names": [
         "Date",
-        "Value"
+        "Revenues"
       ],
-      "description": "SEC Name: CommonStockIssuanceCosts",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-03-30",
-      "id": 10400420,
-      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Quarterly Common Stock Issuance Costs",
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 5484525,
+      "name": "Transmeridian Exploration Inc ( TMYE ) - Revenues",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-30",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
       "type": null,
-      "updated_at": "2014-03-06T22:54:50Z",
-      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Quarterly-Common-Stock-Issuance-Costs"
+      "updated_at": "2014-03-14T16:26:16Z",
+      "urlize_name": "Transmeridian-Exploration-Inc-TMYE-Revenues"
     },
     {
-      "code": "SNMX_AMORTIZATIONOFLEASEHOLDINCENTIVEOBLIGATION_Q",
+      "code": "VVI_INST_HOLD",
       "column_names": [
         "Date",
-        "Value"
+        "Institutional Holdings"
       ],
-      "description": "SEC Name: AmortizationOfLeaseholdIncentiveObligation",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-03-31",
-      "id": 10398849,
-      "name": "SENOMYX INC  (SNMX): Quarterly Amortization Of Leasehold Incentive Obligation",
+      "description": "Number of shares held by mutual funds, pension funds and trusts as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5592966,
+      "name": "Viad Corp. ( VVI ) - Institutional Holdings",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-06T22:55:07Z",
-      "urlize_name": "SENOMYX-INC-SNMX-Quarterly-Amortization-Of-Leasehold-Incentive-Obligation"
+      "updated_at": "2014-03-14T16:25:58Z",
+      "urlize_name": "Viad-Corp-VVI-Institutional-Holdings"
     },
     {
-      "code": "SNMX_ACCRETIONAMORTIZATIONOFDISCOUNTSANDPREMIUMSINVESTMENTS_Q",
+      "code": "FRAN_FIXED_TOT",
       "column_names": [
         "Date",
-        "Value"
+        "Ratio of Fixed Assets to Total Assets"
       ],
-      "description": "SEC Name: AccretionAmortizationOfDiscountsAndPremiumsInvestments",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-03-31",
-      "id": 10398843,
-      "name": "SENOMYX INC  (SNMX): Quarterly Accretion Amortization Of Discounts And Premiums Investments",
+      "description": "Estimated by dividing the cumulated book value of fixed assets, for the sector, by the cumulated total assets, for the sector. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6124996,
+      "name": "Francesca's Holdings Corporatio ( FRAN ) - Ratio of Fixed Assets to Total Assets",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-06T22:55:07Z",
-      "urlize_name": "SENOMYX-INC-SNMX-Quarterly-Accretion-Amortization-Of-Discounts-And-Premiums-Investments"
+      "updated_at": "2014-03-14T16:25:58Z",
+      "urlize_name": "Francesca-s-Holdings-Corporatio-FRAN-Ratio-of-Fixed-Assets-to-Total-Assets"
     },
     {
-      "code": "SNMX_ENTITYREGISTRANTNAME_Q",
+      "code": "RCF_FLOAT",
       "column_names": [
         "Date",
-        "Value"
+        "Number of Shares Outstanding"
       ],
-      "description": "SEC Name: EntityRegistrantName",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": null,
-      "id": 10398569,
-      "name": "SENOMYX INC  (SNMX): Quarterly Entity Registrant Name",
+      "description": "Units: million shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5309267,
+      "name": "Rica Foods Inc ( RCF ) - Number of Shares Outstanding",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": null,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
       "type": null,
-      "updated_at": "2014-03-06T22:55:07Z",
-      "urlize_name": "SENOMYX-INC-SNMX-Quarterly-Entity-Registrant-Name"
+      "updated_at": "2014-03-14T16:26:16Z",
+      "urlize_name": "Rica-Foods-Inc-RCF-Number-of-Shares-Outstanding"
     },
     {
-      "code": "SNMX_ENTITYCENTRALINDEXKEY_Q",
+      "code": "RCF_STDEV",
       "column_names": [
         "Date",
-        "Value"
+        "3-year Standard Deviation of Stock Price"
       ],
-      "description": "SEC Name: EntityCentralIndexKey",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-03-31",
-      "id": 10398577,
-      "name": "SENOMYX INC  (SNMX): Quarterly Entity Central Index Key",
+      "description": "The standard deviation in monthly stock prices, annualized. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5309195,
+      "name": "Rica Foods Inc ( RCF ) - 3-year Standard Deviation of Stock Price",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
       "type": null,
-      "updated_at": "2014-03-06T22:55:07Z",
-      "urlize_name": "SENOMYX-INC-SNMX-Quarterly-Entity-Central-Index-Key"
+      "updated_at": "2014-03-14T16:26:17Z",
+      "urlize_name": "Rica-Foods-Inc-RCF-3-year-Standard-Deviation-of-Stock-Price"
     },
     {
-      "code": "SNMX_AMENDMENTFLAG_Q",
+      "code": "CGN_EFF_TAX",
       "column_names": [
         "Date",
-        "Value"
+        "Effective Tax Rate"
       ],
-      "description": "SEC Name: AmendmentFlag",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": null,
-      "id": 10398593,
-      "name": "SENOMYX INC  (SNMX): Quarterly Amendment Flag",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5979495,
+      "name": "Cognitronics Corp. ( CGN ) - Effective Tax Rate",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": null,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
       "type": null,
-      "updated_at": "2014-03-06T22:55:07Z",
-      "urlize_name": "SENOMYX-INC-SNMX-Quarterly-Amendment-Flag"
+      "updated_at": "2014-03-14T16:26:17Z",
+      "urlize_name": "Cognitronics-Corp-CGN-Effective-Tax-Rate"
     },
     {
-      "code": "SNMX_CURRENTFISCALYEARENDDATE_Q",
+      "code": "RCF_BOOK_DC",
       "column_names": [
         "Date",
-        "Value"
+        "Book Debt to Capital Ratio"
       ],
-      "description": "SEC Name: CurrentFiscalYearEndDate",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-03-31",
-      "id": 10398595,
-      "name": "SENOMYX INC  (SNMX): Quarterly Current Fiscal Year End Date",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5309196,
+      "name": "Rica Foods Inc ( RCF ) - Book Debt to Capital Ratio",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
       "type": null,
-      "updated_at": "2014-03-06T22:54:50Z",
-      "urlize_name": "SENOMYX-INC-SNMX-Quarterly-Current-Fiscal-Year-End-Date"
+      "updated_at": "2014-03-14T16:26:17Z",
+      "urlize_name": "Rica-Foods-Inc-RCF-Book-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "AMZ_FIXED_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Fixed Assets to Total Assets"
+      ],
+      "description": "Estimated by dividing the cumulated book value of fixed assets, for the sector, by the cumulated total assets, for the sector. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3962406,
+      "name": "American Med Sec Group Inc ( AMZ ) - Ratio of Fixed Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:25:58Z",
+      "urlize_name": "American-Med-Sec-Group-Inc-AMZ-Ratio-of-Fixed-Assets-to-Total-Assets"
+    },
+    {
+      "code": "SAOSA_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 5301165,
+      "name": "Smith (A.O.) 'A' ( SAOSA ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:26:17Z",
+      "urlize_name": "Smith-A-O-A-SAOSA-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "RCF_BETA",
+      "column_names": [
+        "Date",
+        "3-Year Regression Beta"
+      ],
+      "description": "Estimated by regressing weekly returns on stock against NYSE composite. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5309193,
+      "name": "Rica Foods Inc ( RCF ) - 3-Year Regression Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:26:17Z",
+      "urlize_name": "Rica-Foods-Inc-RCF-3-Year-Regression-Beta"
+    },
+    {
+      "code": "RCF_CAPEX",
+      "column_names": [
+        "Date",
+        "Capital Expenditures"
+      ],
+      "description": "This is the cumulated capital spending, as reported in the statement of cash flows, for the sector. It generally does not include acquisitions. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5309199,
+      "name": "Rica Foods Inc ( RCF ) - Capital Expenditures",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:25:58Z",
+      "urlize_name": "Rica-Foods-Inc-RCF-Capital-Expenditures"
+    },
+    {
+      "code": "RCF_BV_EQTY",
+      "column_names": [
+        "Date",
+        "Book Value of Equity"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 5309197,
+      "name": "Rica Foods Inc ( RCF ) - Book Value of Equity",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:26:17Z",
+      "urlize_name": "Rica-Foods-Inc-RCF-Book-Value-of-Equity"
+    },
+    {
+      "code": "RCGI_SGA",
+      "column_names": [
+        "Date",
+        "Sales General and Administration Expenses"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5309833,
+      "name": "Renal Care Group ( RCGI ) - Sales General and Administration Expenses",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:25:58Z",
+      "urlize_name": "Renal-Care-Group-RCGI-Sales-General-and-Administration-Expenses"
+    },
+    {
+      "code": "RCF_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5309201,
+      "name": "Rica Foods Inc ( RCF ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:25:59Z",
+      "urlize_name": "Rica-Foods-Inc-RCF-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "CGN_EV",
+      "column_names": [
+        "Date",
+        "Enterprise Value"
+      ],
+      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5979497,
+      "name": "Cognitronics Corp. ( CGN ) - Enterprise Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:26:18Z",
+      "urlize_name": "Cognitronics-Corp-CGN-Enterprise-Value"
+    },
+    {
+      "code": "RCF_BV_ASSETS",
+      "column_names": [
+        "Date",
+        "Book Value of Assets"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5309198,
+      "name": "Rica Foods Inc ( RCF ) - Book Value of Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:26:18Z",
+      "urlize_name": "Rica-Foods-Inc-RCF-Book-Value-of-Assets"
+    },
+    {
+      "code": "RCF_CASH",
+      "column_names": [
+        "Date",
+        "Cash"
+      ],
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5309200,
+      "name": "Rica Foods Inc ( RCF ) - Cash",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:26:18Z",
+      "urlize_name": "Rica-Foods-Inc-RCF-Cash"
+    },
+    {
+      "code": "RCF_CASH_ASSETS",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Total Assets"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 5309203,
+      "name": "Rica Foods Inc ( RCF ) - Cash as Percentage of Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:26:18Z",
+      "urlize_name": "Rica-Foods-Inc-RCF-Cash-as-Percentage-of-Total-Assets"
+    },
+    {
+      "code": "FRAN_REINV",
+      "column_names": [
+        "Date",
+        "Reinvestment Amount"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6125043,
+      "name": "Francesca's Holdings Corporatio ( FRAN ) - Reinvestment Amount",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:25:59Z",
+      "urlize_name": "Francesca-s-Holdings-Corporatio-FRAN-Reinvestment-Amount"
     }
   ],
   "per_page": 20,
   "sources": [{
-    "code": "SEC",
-    "datasets_count": 4867,
-    "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
-    "host": "www.sec.gov",
-    "id": 651,
-    "name": "U.S. Securities and Exchange Commission"
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
   }],
-  "total_count": 9990700
+  "total_count": 10036987
 }

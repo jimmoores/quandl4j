@@ -1,23 +1,21 @@
 {
-  "code": "COMM_29_SODIUMTRIPHOSPHATE_EXPORT_DMA",
+  "code": "PA10_UF_PERNAMBUCO_LIMAO_PERC",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+  "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PA10_UF_PERC.csv&categorias=%22Limao%22&localidade=Pernambuco",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2003-12-31",
-  "id": 3141990,
-  "name": "Commodity Exports - Inorganic Chemicals, Precious Metal Compound, Isotope / Sodium triphosphate - Dominica",
+  "from_date": "1990-12-31",
+  "id": 6315853,
+  "name": "Agricultural: Municipal Agricultural Production (pam) - Permanent crops - value of production - Limao Federation Units - UF: Pernambuco. Datatype: Relative",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
+  "source_code": "IBGE",
+  "source_name": "Brazilian Institute of Geography and Statistics",
   "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-01-12T21:56:38Z",
-  "urlize_name": "Commodity-Exports-Inorganic-Chemicals-Precious-Metal-Compound-Isotope-Sodium-triphosphate-Dominica"
+  "updated_at": "2014-01-11T16:59:41Z",
+  "urlize_name": "Agricultural-Municipal-Agricultural-Production-pam-Permanent-crops-value-of-production-Limao-Federation-Units-UF-Pernambuco-Datatype-Relative"
 }

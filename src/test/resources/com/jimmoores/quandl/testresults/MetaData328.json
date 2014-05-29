@@ -1,23 +1,21 @@
 {
-  "code": "COMM_10_COFFEEROASTEDDECAFFEINATED_REEXPORT_GRD",
+  "code": "CITY_DEMBENIDEMMAYOTTE",
   "column_names": [
     "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Population"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "City populations from previous censuses. Latest row may be an estimate.",
+  "display_url": "http://www.citypopulation.de/Mayotte.html",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2003-12-31",
-  "id": 2895877,
-  "name": "Commodity Re-Exports - Coffee, Tea, Mate And Spices / Coffee, roasted, decaffeinated - Grenada",
+  "from_date": "2002-08-01",
+  "id": 7997444,
+  "name": "Population of Dembeni, DEM, Mayotte",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2003-12-31",
+  "source_code": "CITYPOP",
+  "source_name": "Thomas Brinkhoff: City Populations",
+  "to_date": "2012-08-21",
   "type": null,
-  "updated_at": "2014-01-12T04:41:41Z",
-  "urlize_name": "Commodity-Re-Exports-Coffee-Tea-Mate-And-Spices-Coffee-roasted-decaffeinated-Grenada"
+  "updated_at": "2014-01-11T09:01:42Z",
+  "urlize_name": "Population-of-Dembeni-DEM-Mayotte"
 }

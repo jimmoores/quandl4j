@@ -1,459 +1,415 @@
 {
-  "current_page": 317086,
+  "current_page": 29865,
   "docs": [
     {
-      "code": "ELEC_GEN_NG_LA_6_Q",
+      "code": "CBY_TO_EFF_TAX_INC",
       "column_names": [
         "Date",
-        "Value"
+        "Effective Tax Rate on Income"
       ],
-      "description": "Units=Thousand Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.GEN.NG-LA-6.Q",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.GEN.NG-LA-6.Q&out=xml",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 5192965,
-      "name": "Net Generation : Natural Gas : Louisiana : Industrial Non-cogen : Quarterly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-09-30",
-      "type": null,
-      "updated_at": "2014-01-10T01:10:36Z",
-      "urlize_name": "Net-Generation-Natural-Gas-Louisiana-Industrial-Non-cogen-Quarterly"
-    },
-    {
-      "code": "POP_SEX_AGE_EDU_NB_SEX_M_AGE_10YEARSBANDPLUSCHILD_12_14_EDU_ISCED97_1_MLI",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "description": "This is the effective tax rate, obtained by dividing the taxes paid by the taxable income as reported to the stockholders. We would rather have used marginal tax rates, but these are not reported. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
       "from_date": "2010-12-31",
-      "id": 6212046,
-      "name": "Population By Sex, Age And Education, Male, 12-14, Primary Education Or First Stage Of Basic Education - Mali",
+      "id": 4010681,
+      "name": "Canada Bread Ltd ( CBY.TO ) - Effective Tax Rate on Income",
       "private": false,
-      "source_code": "ILO",
-      "source_name": "International Labour Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2013-04-20T01:48:50Z",
-      "urlize_name": "Population-By-Sex-Age-And-Education-Male-12-14-Primary-Education-Or-First-Stage-Of-Basic-Education-Mali"
-    },
-    {
-      "code": "TRNG_AES_159_4",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The Adult Education Survey is part of the EU Statistics on lifelong learning. The surveys have been carried out by countries in the EU, EFTA and candidate countries between 2005 and 2008. The EU AES is a pilot exercise which for the first time proposed a common EU framework including a standard questionnaire, tools and quality reporting.\r\nAES data from approximately half of the participating countries will be disseminated in autumn 2008 and the second part in mid 2009\r\nThe survey covers participation in education and lifelong learning activities (formal, non-formal and informal learning) including job-related activities, characteristics of learning activities, self-reported skills as well as modules on social and cultural participation, foreign language skills, IT skills and background variables related to main characteristics of the respondents.\r\nParameters and main variables\r\nThe AES in all the participating countries focused on the following parameters:\r\nParticipation in formal, non-formal and informal education (FED, NFE, INF)\r\nNon-participation and obstacles to participation in training\r\nParticipation in FED, NFE and INF activities by field of education/learning\r\nShare of the job related NFE\r\nVolume of instruction hours in FED and NFE\r\nEmployer financing and costs of learning in FED and NFE\r\nModule on language and ICT skills of the population\r\nModule on social and cultural participation of the population\r\n\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_aes_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_aes_159.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 588296,
-      "name": "Mean amount of money spent by participant on education and training by labour status  : Euro (from 1.1.1999)/ECU (up to 31.12.1998) : Employed persons : Formal education and training : Cyprus",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2007-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T06:34:51Z",
-      "urlize_name": "Mean-amount-of-money-spent-by-participant-on-education-and-training-by-labour-status-Euro-from-1-1-1999-ECU-up-to-31-12-1998-Employed-persons-Formal-education-and-training-Cyprus"
-    },
-    {
-      "code": "BS_BS11_04_262",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The bus serv collection contains harmonised statistics on business services. The statistics on enterprise turnover by product permits analyses on each product's relative importance in the turnover, consistency of product level statistics and product specialisation. On the other hand, information on enterprise turnover by client enables analyses on type and location of client and client specialisation. The economic variables make it possible to extend the analysis to productivity and personnel cost issues.\r\nThe bus serv collection includes the following variables:\r\nnumber of enterprises \r\nturnover or gross premium written\r\nnumber of employees \r\npersonnel costs\r\nvalue added at factor costs\r\nThe turnover variable is broken down by product and type and residence of client. In addition, there is information on the turnover shares of product and client specialised enterprises.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/bs_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fbs_bs11_04.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 907988,
-      "name": "Number of enterprises carrying out cross border trade by reasons for cross border trade and economic activity  : Number of enterprises : Publishing of software : Cutting edge products or specialised niche services : Romania",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2004-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T06:35:12Z",
-      "urlize_name": "Number-of-enterprises-carrying-out-cross-border-trade-by-reasons-for-cross-border-trade-and-economic-activity-Number-of-enterprises-Publishing-of-software-Cutting-edge-products-or-specialised-niche-services-Romania"
-    },
-    {
-      "code": "SEDS_WDRXB_KY_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Billion Btu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.WDRXB.KY.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.WDRXB.KY.A&out=xml",
-      "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 4775857,
-      "name": "Wood Consumed In The Residential Sector At No Cost, Kentucky",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-09T22:54:03Z",
-      "urlize_name": "Wood-Consumed-In-The-Residential-Sector-At-No-Cost-Kentucky"
-    },
-    {
-      "code": "POP_22_ESP_FEM_SMU_25",
-      "column_names": [
-        "Year",
-        "Number"
-      ],
-      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
-      "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 2914125,
-      "name": "Population - Female / Age 25 / Semi-urban Areas - Spain",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "1970-12-31",
-      "type": null,
-      "updated_at": "2013-05-17T13:36:46Z",
-      "urlize_name": "Population-Female-Age-25-Semi-urban-Areas-Spain"
-    },
-    {
-      "code": "ELEC_PLANT_CONS_EG_1383_DFO_ST_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Barrels. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG.1383-DFO-ST.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG.1383-DFO-ST.A&out=xml",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 4952927,
-      "name": "Electric Fuel Consumption Quantity : Robert A Reid : Distillate Fuel Oil : Steam Turbine : Annual",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-09T22:54:44Z",
-      "urlize_name": "Electric-Fuel-Consumption-Quantity-Robert-A-Reid-Distillate-Fuel-Oil-Steam-Turbine-Annual"
+      "updated_at": "2014-03-14T10:10:23Z",
+      "urlize_name": "Canada-Bread-Ltd-CBY-TO-Effective-Tax-Rate-on-Income"
     },
     {
-      "code": "ELEC_PLANT_GEN_54587_SLW_ST_Q",
+      "code": "BCRL_EV_BV",
       "column_names": [
         "Date",
-        "Value"
+        "EV to Book Value Ratio"
       ],
-      "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.54587-SLW-ST.Q",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.54587-SLW-ST.Q&out=xml",
-      "frequency": "monthly",
-      "from_date": "2004-01-31",
-      "id": 4834784,
-      "name": "Net Generation : Lincoln Paper & Tissue : Sludge Waste : Steam Turbine : Quarterly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-09T22:54:03Z",
-      "urlize_name": "Net-Generation-Lincoln-Paper-Tissue-Sludge-Waste-Steam-Turbine-Quarterly"
-    },
-    {
-      "code": "POP_SEX_AGE_EDU_NB_SEX_M_AGE_10YEARSBANDPLUSCHILD_15_24_EDU_ISCED97_3_LTU",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 6212495,
-      "name": "Population By Sex, Age And Education, Male, 15-24, Upper Secondary Education - Lithuania",
-      "private": false,
-      "source_code": "ILO",
-      "source_name": "International Labour Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2013-04-20T01:57:52Z",
-      "urlize_name": "Population-By-Sex-Age-And-Education-Male-15-24-Upper-Secondary-Education-Lithuania"
-    },
-    {
-      "code": "BSTAMON_MB_SEKBG_M229_14987",
-      "column_names": [
-        "Month",
-        "Million CHF"
-      ],
-      "description": "Monthly balance sheets, 1Ja Sectoral breakdown of balance sheet items and fiduciary business (domestic) - by bank group, Raiffeisen banks:In percent:Assets:Fiduciary assets (monthly). More detailed information at http://www.snb.ch/ext/stats/bstamon/pdf/deen/Sektorale_Gliederung_Internet.pdf",
-      "display_url": "http://www.snb.ch/ext/stats/bstamon/xls/en/bstamon_MB_SekBG_M229.xls",
-      "frequency": "monthly",
-      "from_date": "2008-08-31",
-      "id": 4544993,
-      "name": "Monthly balance sheets, 1Ja Sectoral breakdown of balance sheet items and fiduciary business (domestic) - by bank group: Commercial banks",
-      "private": false,
-      "source_code": "SNB",
-      "source_name": "Swiss National Bank",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2014-01-09T22:54:22Z",
-      "urlize_name": "Monthly-balance-sheets-1Ja-Sectoral-breakdown-of-balance-sheet-items-and-fiduciary-business-domestic-by-bank-group-Commercial-banks"
-    },
-    {
-      "code": "POP_22_ESP_FEM_SMU_34",
-      "column_names": [
-        "Year",
-        "Number"
-      ],
-      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
-      "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 2914182,
-      "name": "Population - Female / Age 34 / Semi-urban Areas - Spain",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "1970-12-31",
-      "type": null,
-      "updated_at": "2013-03-21T05:19:59Z",
-      "urlize_name": "Population-Female-Age-34-Semi-urban-Areas-Spain"
-    },
-    {
-      "code": "AIDSDEATHS_HONDURAS",
-      "column_names": [
-        "Year",
-        "Number of Deaths"
-      ],
-      "description": "From UNAIDS online database. http://www.aidsinfoonline.org.",
-      "display_url": "http://spreadsheets.google.com/pub?key=0ArfEDsV3bBwCdHZJdFBhYVlvck43d1R6ZFYzUWpiLWc&output=xls",
-      "frequency": "annual",
-      "from_date": "1990-12-31",
-      "id": 1994320,
-      "name": "Number of Deaths from AIDS in Honduras",
-      "private": false,
-      "source_code": "GAPM",
-      "source_name": "Gapminder",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2012-07-17T15:40:06Z",
-      "urlize_name": "Number-of-Deaths-from-AIDS-in-Honduras"
-    },
-    {
-      "code": "EMP_XEES_SEX_ECO1_NB_SEX_F_ECO_ISIC4_P_CYP",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 5903913,
-      "name": "Paid Employment By Sex And Economic Activity, Female, Education - Cyprus",
-      "private": false,
-      "source_code": "ILO",
-      "source_name": "International Labour Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2013-04-21T13:24:53Z",
-      "urlize_name": "Paid-Employment-By-Sex-And-Economic-Activity-Female-Education-Cyprus"
-    },
-    {
-      "code": "TSIIR050_29",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The aim of the education statistics domain is to provide comparable statistics and indicators on key aspects of the education systems across Europe. The data cover participation and completion of education programmes by pupils and students, personnel in education and the cost and type of resources dedicated to education.\r\nThe standards on international statistics on education and training systems are set by the three international organisations jointly administering the UOE data collection:\r\nthe United Nations Educational, Scientific, and Cultural Organisation Institute for Statistics (UNESCO-UIS),\r\nthe Organisation for Economic Co-operation and Development (OECD) and,\r\nthe Statistical Office of the European Union (EUROSTAT).\r\nThe following topics are covered:\r\nContext - School-aged population, overall participation rates in education\r\nDistribution of pupils/students by level\r\nParticipation/enrolment in education (ISCED 0-4)\r\nTertiary education participation\r\nTertiary education graduates\r\nTeaching staff (ISCED 1-3)\r\nPupil/students-teacher ratio and average class size (ISCED 1-3)\r\nLanguage learning (ISCED 1-3)\r\nRegional enrolments\r\nExpenditure on education in current prices \r\nExpenditure on education in constant prices\r\nExpenditure on education as % of GDP or public expenditure\r\nExpenditure on public and private educational institutions\r\nFinancial aid to students\r\nFunding of education\r\nOther tables, used to measure progress towards the Lisbon objectives in education and training, are gathered in the Thematic indicators tables. They contain the following indicators:\r\n- Teachers and trainers\r\n- Mathematics, science and technology enrolments and graduates\r\n- Investments in education and training\r\n- Participation rates in education by age and sex\r\n- Foreign language learning\r\n- Student mobility\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/educ_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftsiir050.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "1998-12-31",
-      "id": 749268,
-      "name": "Science and technology graduates by sex  : Graduates (ISCED 5-6) in mathematics, science and technology per 1 000 of population aged 20-29, since 1993 : Norway",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2012-05-11T22:24:32Z",
-      "urlize_name": "Science-and-technology-graduates-by-sex-Graduates-ISCED-5-6-in-mathematics-science-and-technology-per-1-000-of-population-aged-20-29-since-1993-Norway"
-    },
-    {
-      "code": "COMM_84_INSTANTANEOUSSTORAGEWATERHEATERSNOTELECTRICNES_IMPORT_TUR",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1989-12-31",
-      "id": 5195075,
-      "name": "Commodity Imports - Nuclear Reactors, Boilers, Machinery, Etc / Instantaneous/storage water heaters, not electric nes - Turkey",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2013-05-15T01:26:32Z",
-      "urlize_name": "Commodity-Imports-Nuclear-Reactors-Boilers-Machinery-Etc-Instantaneous-storage-water-heaters-not-electric-nes-Turkey"
-    },
-    {
-      "code": "ELEC_PLANT_CONS_EG_BTU_56829_WND_ALL_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.56829-WND-ALL.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.56829-WND-ALL.A&out=xml",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 5080983,
-      "name": "Electric Fuel Consumption Mmbtus : Kibby Wind Power Project : Wind : All Primemovers : Annual",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-09T22:54:03Z",
-      "urlize_name": "Electric-Fuel-Consumption-Mmbtus-Kibby-Wind-Power-Project-Wind-All-Primemovers-Annual"
-    },
-    {
-      "code": "ELEC_PLANT_CONS_EG_BTU_196_WAT_ALL_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.196-WAT-ALL.Q",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.196-WAT-ALL.Q&out=xml",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 5111644,
-      "name": "Electric Fuel Consumption Mmbtus : Norfork : Conventional Hydroelectric : All Primemovers : Quarterly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-09-30",
-      "type": null,
-      "updated_at": "2014-01-09T22:54:22Z",
-      "urlize_name": "Electric-Fuel-Consumption-Mmbtus-Norfork-Conventional-Hydroelectric-All-Primemovers-Quarterly"
-    },
-    {
-      "code": "ELEC_PLANT_GEN_1822_NG_ALL_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.1822-NG-ALL.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.1822-NG-ALL.A&out=xml",
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
       "from_date": "2001-12-31",
-      "id": 4864320,
-      "name": "Net Generation : Mistersky : Natural Gas : All Primemovers : Annual",
+      "id": 3968936,
+      "name": "BioCoral Inc ( BCRL ) - EV to Book Value Ratio",
       "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2012-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
       "type": null,
-      "updated_at": "2014-01-09T22:54:44Z",
-      "urlize_name": "Net-Generation-Mistersky-Natural-Gas-All-Primemovers-Annual"
+      "updated_at": "2014-03-14T10:10:05Z",
+      "urlize_name": "BioCoral-Inc-BCRL-EV-to-Book-Value-Ratio"
     },
     {
-      "code": "APRO_MT_SLOTH_408",
+      "code": "MCVI_DIV_YLD",
       "column_names": [
         "Date",
-        "Value"
+        "Dividend Yield"
       ],
-      "description": "Meat results cover the number and carcass weight of bovine animals, pigs, sheep, goats and poultry. The data refer not only to animals slaughtered in approved slaughterhouses but also estimates, of the extent of domestic slaughterings.\r\nProduction forecasts are expressed as the gross indigenous production (GIP), which corresponds to the number of bovine animals, pigs, sheep and goats slaughtered plus the balance of trade in these animals.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/apro_mt_p_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fapro_mt_sloth.sdmx.zip",
+      "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 904976,
-      "name": "Estimates of slaughtering other than in slaughterhouses annual data  : Slaughterings, other than in slaughterhouses : Young Cattle : Thousands of tonnes : Czech Republic",
+      "from_date": "2006-12-31",
+      "id": 6067594,
+      "name": "MedicalCV Inc. ( MCVI ) - Dividend Yield",
       "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:05Z",
+      "urlize_name": "MedicalCV-Inc-MCVI-Dividend-Yield"
+    },
+    {
+      "code": "LIV_TRAD_VOL",
+      "column_names": [
+        "Date",
+        "Trading Volume"
+      ],
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 6075857,
+      "name": "Samaritan Pharmaceuticals ( LIV ) - Trading Volume",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:05Z",
+      "urlize_name": "Samaritan-Pharmaceuticals-LIV-Trading-Volume"
+    },
+    {
+      "code": "BFFC_NCWC",
+      "column_names": [
+        "Date",
+        "Non-Cash Working Capital"
+      ],
+      "description": "Non-Cash Working Capital = Inventory + Other Current Assets + Accounts Receivable - Accounts Payable - Other Current Liabilities.  Current Assets excludes cash.  Current Liabilities excludes interest bearing debt. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4012399,
+      "name": "Big Foot Finl ( BFFC ) - Non-Cash Working Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:06Z",
+      "urlize_name": "Big-Foot-Finl-BFFC-Non-Cash-Working-Capital"
+    },
+    {
+      "code": "BESV_TOT_DEBT",
+      "column_names": [
+        "Date",
+        "Total Debt"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4000107,
+      "name": "Blast Energy Services Inc ( BESV ) - Total Debt",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2012-05-12T12:11:55Z",
-      "urlize_name": "Estimates-of-slaughtering-other-than-in-slaughterhouses-annual-data-Slaughterings-other-than-in-slaughterhouses-Young-Cattle-Thousands-of-tonnes-Czech-Republic"
+      "updated_at": "2014-03-14T10:10:06Z",
+      "urlize_name": "Blast-Energy-Services-Inc-BESV-Total-Debt"
     },
     {
-      "code": "ELEC_GEN_NG_MI_6_Q",
+      "code": "BESV_TRAD_VOL",
       "column_names": [
         "Date",
-        "Value"
+        "Trading Volume"
       ],
-      "description": "Units=Thousand Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.GEN.NG-MI-6.Q",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.GEN.NG-MI-6.Q&out=xml",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 5192975,
-      "name": "Net Generation : Natural Gas : Michigan : Industrial Non-cogen : Quarterly",
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4000111,
+      "name": "Blast Energy Services Inc ( BESV ) - Trading Volume",
       "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-09-30",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-01-09T22:08:51Z",
-      "urlize_name": "Net-Generation-Natural-Gas-Michigan-Industrial-Non-cogen-Quarterly"
+      "updated_at": "2014-03-14T10:10:24Z",
+      "urlize_name": "Blast-Energy-Services-Inc-BESV-Trading-Volume"
+    },
+    {
+      "code": "TU_NCWC_REV",
+      "column_names": [
+        "Date",
+        "Non-Cash Working Capital as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 5524493,
+      "name": "Telus Corporation ( TU ) - Non-Cash Working Capital as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:25Z",
+      "urlize_name": "Telus-Corporation-TU-Non-Cash-Working-Capital-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "LIV_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 6075865,
+      "name": "Samaritan Pharmaceuticals ( LIV ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:07Z",
+      "urlize_name": "Samaritan-Pharmaceuticals-LIV-Trailing-Net-Income"
+    },
+    {
+      "code": "LIV_REV_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 6075869,
+      "name": "Samaritan Pharmaceuticals ( LIV ) - Trailing Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:08Z",
+      "urlize_name": "Samaritan-Pharmaceuticals-LIV-Trailing-Revenues"
+    },
+    {
+      "code": "LASE_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4649149,
+      "name": "LaserSight Inc. ( LASE ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:09Z",
+      "urlize_name": "LaserSight-Inc-LASE-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "CBY_TO_EV_EBITDA",
+      "column_names": [
+        "Date",
+        "EV to EBITDA Ratio"
+      ],
+      "description": "Estimated by dividing the market value of debt and equity by the EBITDA.  Value/EBITDA = (Market Value of Equity + Value of Debt-Cash) / EBITDA.  We use the book value of debt as a proxy for the market value. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4010710,
+      "name": "Canada Bread Ltd ( CBY.TO ) - EV to EBITDA Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:28Z",
+      "urlize_name": "Canada-Bread-Ltd-CBY-TO-EV-to-EBITDA-Ratio"
+    },
+    {
+      "code": "CBY_TO_EV_SALES",
+      "column_names": [
+        "Date",
+        "EV To Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4010728,
+      "name": "Canada Bread Ltd ( CBY.TO ) - EV To Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:28Z",
+      "urlize_name": "Canada-Bread-Ltd-CBY-TO-EV-To-Sales-Ratio"
+    },
+    {
+      "code": "BESV_REV_12M",
+      "column_names": [
+        "Date",
+        "Trailing 12-month Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4000116,
+      "name": "Blast Energy Services Inc ( BESV ) - Trailing 12-month Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:28Z",
+      "urlize_name": "Blast-Energy-Services-Inc-BESV-Trailing-12-month-Revenues"
+    },
+    {
+      "code": "CTGX_BETA",
+      "column_names": [
+        "Date",
+        "3-Year Regression Beta"
+      ],
+      "description": "Estimated by regressing weekly returns on stock against NYSE composite. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 4361079,
+      "name": "Computer Task Group Inc. ( CTGX ) - 3-Year Regression Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:29Z",
+      "urlize_name": "Computer-Task-Group-Inc-CTGX-3-Year-Regression-Beta"
+    },
+    {
+      "code": "BESV_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4000122,
+      "name": "Blast Energy Services Inc ( BESV ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:29Z",
+      "urlize_name": "Blast-Energy-Services-Inc-BESV-Trailing-Net-Income"
+    },
+    {
+      "code": "CBY_TO_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "FCFF = EBIT(1-t) - (Capital Expenditures - Depreciation) - Change in Non-Cash Working Capital. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4010745,
+      "name": "Canada Bread Ltd ( CBY.TO ) - Free Cash Flow to Firm",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:29Z",
+      "urlize_name": "Canada-Bread-Ltd-CBY-TO-Free-Cash-Flow-to-Firm"
+    },
+    {
+      "code": "MTWD_BOOK_DC",
+      "column_names": [
+        "Date",
+        "Book Debt to Capital Ratio"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4712310,
+      "name": "Metwood Inc ( MTWD ) - Book Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:30Z",
+      "urlize_name": "Metwood-Inc-MTWD-Book-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "ARTI_CASH",
+      "column_names": [
+        "Date",
+        "Cash"
+      ],
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4093920,
+      "name": "Artisan Components ( ARTI ) - Cash",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:12Z",
+      "urlize_name": "Artisan-Components-ARTI-Cash"
+    },
+    {
+      "code": "BESV_BETA_VL",
+      "column_names": [
+        "Date",
+        "Value Line Beta"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4000139,
+      "name": "Blast Energy Services Inc ( BESV ) - Value Line Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:10:12Z",
+      "urlize_name": "Blast-Energy-Services-Inc-BESV-Value-Line-Beta"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "GAPM",
-      "datasets_count": 1858,
-      "description": "No description for this source yet",
-      "host": "spreadsheets.google.com",
-      "id": 249,
-      "name": "Gapminder"
-    },
-    {
-      "code": "EIA",
-      "datasets_count": 427809,
-      "description": "No description for this source yet",
-      "host": "www.api.eia.gov",
-      "id": 661,
-      "name": "U.S. Energy Information Administration"
-    },
-    {
-      "code": "ILO",
-      "datasets_count": 228980,
-      "description": "No description for this source yet",
-      "host": "www.ilo.org",
-      "id": 686,
-      "name": "International Labour Organization"
-    },
-    {
-      "code": "SNB",
-      "datasets_count": 39406,
-      "description": "No description for this source yet",
-      "host": "www.snb.ch",
-      "id": 615,
-      "name": "Swiss National Bank"
-    },
-    {
-      "code": "UN",
-      "datasets_count": 2100274,
-      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
-      "host": "data.un.org",
-      "id": 488,
-      "name": "United Nations"
-    },
-    {
-      "code": "EUROSTAT",
-      "datasets_count": 320722,
-      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
-      "host": "epp.eurostat.ec.europa.eu",
-      "id": 194,
-      "name": "EuroStat"
-    }
-  ],
-  "total_count": 10006019
+  "sources": [{
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
+  }],
+  "total_count": 10036987
 }

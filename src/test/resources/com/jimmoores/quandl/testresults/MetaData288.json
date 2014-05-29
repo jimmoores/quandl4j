@@ -1,21 +1,21 @@
 {
-  "code": "CITY_MIDDLETIER_SWANSEAMA",
+  "code": "BLS_Q_LU_ALL_MFC_E_SME_B3_ST_S_FNET",
   "column_names": [
     "Date",
-    "Swansea"
+    "Unit described in title"
   ],
-  "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the city of Swansea, MA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-  "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_MiddleTier.csv",
+  "description": " Luxembourg - All banks - Question on Impact of market financing competition - contract counterpart Enterprise, motivation Small and medium-sized enterprises - Backward looking three months - domain of Credit standards - Loan supply - Net percentage (frequency of tightened minus that of eased or reverse) , :, Dataset:BLS : Bank Lending Survey Statistics Explanation page (Series and Dataset Level Information), Reference area:Luxembourg (LU), Decimals:Two (2), Collection indicator:Beginning of period (B)",
+  "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484584&SERIES_KEY=258.BLS.Q.LU.ALL.MFC.E.SME.B3.ST.S.FNET&exportType=sdmx",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1996-05-31",
-  "id": 7045967,
-  "name": "Zillow Home Value Index (Cities): Middle Tier - Swansea, MA",
+  "frequency": "quarterly",
+  "from_date": "2008-06-30",
+  "id": 11437586,
+  "name": "Luxembourg All banks Question on Impact of market financing competition contract counterpart Enterprise, motivation Small and medium-sized enterprises Backward looking three months domain of Credit standards Loan supply Net percentage",
   "private": false,
-  "source_code": "ZILLOW",
-  "source_name": "Zillow Real Estate Research",
+  "source_code": "ECB",
+  "source_name": "European Central Bank",
   "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2014-05-08T07:24:10Z",
-  "urlize_name": "Zillow-Home-Value-Index-Cities-Middle-Tier-Swansea-MA"
+  "updated_at": "2014-04-30T01:22:11Z",
+  "urlize_name": "Luxembourg-All-banks-Question-on-Impact-of-market-financing-competition-contract-counterpart-Enterprise-motivation-Small-and-medium-sized-enterprises-Backward-looking-three-months-domain-of-Credit-standards-Loan-supply-Net-percentage"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "POP_22_CPV_FEM_TOT_UNKNOWN",
+  "code": "GASDIESELOILSCONSUMPTIONBYIRONANDSTEELINDUSTRY_BRA",
   "column_names": [
     "Year",
-    "Number"
+    "Metric tons - thousand"
   ],
-  "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-  "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+  "description": "The Energy Statistics Database contains comprehensive energy statistics on the production, trade, conversion and final consumption of primary and secondary; conventional and non-conventional; and new and renewable sources of energy. The Energy Statistics dataset, covering the period from 1990 onwards, is available at UNdata. For data prior to 1990, please refer to http://unstats.un.org/unsd/energy/edbase.htm.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1950-12-31",
-  "id": 2642305,
-  "name": "Population - Female / Age Unknown / Total Areas - Cape Verde",
+  "from_date": "1990-12-31",
+  "id": 3105046,
+  "name": "Gas-diesel Oils - Consumption By Iron And Steel Industry - Brazil",
   "private": false,
   "source_code": "UN",
   "source_name": "United Nations",
   "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-01-12T17:29:46Z",
-  "urlize_name": "Population-Female-Age-Unknown-Total-Areas-Cape-Verde"
+  "updated_at": "2014-01-13T09:50:21Z",
+  "urlize_name": "Gas-diesel-Oils-Consumption-By-Iron-And-Steel-Industry-Brazil"
 }

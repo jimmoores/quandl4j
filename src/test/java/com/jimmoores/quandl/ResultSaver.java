@@ -78,7 +78,9 @@ public class ResultSaver implements ResultProcessor {
    */
   private void processResult(final JSONObject jsonObject) {
     File file = new File(_baseDir, METADATA + _fileNumber.getAndIncrement() + JSON);
-    writeFile(file, PrettyPrinter.toPrettyPrintedString(jsonObject));
+    // subtlety alert! The JSON object pretty printer adds a line separator at the end of the string to match the tabular result pretty printer.
+    // This means when these are read back from a file, every line is terminated with a line separator.
+    writeFile(file, PrettyPrinter.toPrettyPrintedString(jsonObject)); 
   }
   
   private void writeFile(final File file, final String contents) {

@@ -1,21 +1,21 @@
 {
-  "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_11356",
+  "code": "6291002_A85637T",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+  "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
+  "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&6291002.xls&6291.0.55.001&Time%20Series%20Spreadsheet&6B09BD84F317FBD3CA257B8F0012D3B3&0&May%202013&20.06.2013&Latest",
   "errors": {},
   "frequency": "monthly",
-  "from_date": "2010-05-31",
-  "id": 7355199,
-  "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 11356,New York,NY",
+  "from_date": "1978-02-28",
+  "id": 7915040,
+  "name": "Labour force status by State, Capital city / Balance of state and Sex: Unemployment rate - looking for full-time work ;  Balance of New South Wales ;  Persons ; (Percent)",
   "private": false,
-  "source_code": "ZILLOW",
-  "source_name": "Zillow Real Estate Research",
-  "to_date": "2014-03-31",
+  "source_code": "AUSBS",
+  "source_name": "Australian Bureau of Statistics",
+  "to_date": "2014-04-30",
   "type": null,
-  "updated_at": "2014-05-07T21:09:33Z",
-  "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-11356-New-York-NY"
+  "updated_at": "2014-05-15T13:21:07Z",
+  "urlize_name": "Labour-force-status-by-State-Capital-city-Balance-of-state-and-Sex-Unemployment-rate-looking-for-full-time-work-Balance-of-New-South-Wales-Persons-Percent"
 }

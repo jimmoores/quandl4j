@@ -1,21 +1,21 @@
 {
-  "code": "POP_22_TAA_BTH_TOT_18",
+  "code": "ELEC_SULFUR_CONTENT_PEL_LA_2_Q",
   "column_names": [
-    "Year",
-    "Number"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-  "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+  "description": "Units=Percent. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.SULFUR_CONTENT.PEL-LA-2.Q",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.SULFUR_CONTENT.PEL-LA-2.Q&out=xml",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1963-12-31",
-  "id": 2824872,
-  "name": "Population - Both Sexes / Age 18 / Total Areas - Saint Helena: Tristan da Cunha",
+  "frequency": "monthly",
+  "from_date": "2008-01-31",
+  "id": 5242299,
+  "name": "Quality Of Fossil Fuels : Sulfur Content : Petroleum Liquids : Louisiana : Electric Utility Non-cogen : Quarterly",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2009-12-31",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2013-09-30",
   "type": null,
-  "updated_at": "2014-01-13T00:19:00Z",
-  "urlize_name": "Population-Both-Sexes-Age-18-Total-Areas-Saint-Helena-Tristan-da-Cunha"
+  "updated_at": "2014-01-10T00:10:32Z",
+  "urlize_name": "Quality-Of-Fossil-Fuels-Sulfur-Content-Petroleum-Liquids-Louisiana-Electric-Utility-Non-cogen-Quarterly"
 }

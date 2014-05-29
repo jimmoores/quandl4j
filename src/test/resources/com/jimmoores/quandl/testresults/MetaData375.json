@@ -1,21 +1,21 @@
 {
-  "code": "GIS_OPERATINGINCOMELOSS_Q",
+  "code": "POP_SEX_AGE_EDU_NB_SEX_F_AGE_10YEARSBANDPLUSCHILD_15_24_EDU_ISCED97_0_GRC",
   "column_names": [
-    "Date",
+    "Year",
     "Value"
   ],
-  "description": "SEC Name: OperatingIncomeLoss",
-  "display_url": null,
+  "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+  "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2009-08-30",
-  "id": 11090450,
-  "name": "GENERAL MILLS INC  (GIS): Quarterly Operating Income Loss",
+  "frequency": "annual",
+  "from_date": "2009-12-31",
+  "id": 6208434,
+  "name": "Population By Sex, Age And Education, Female, 15-24, Pre-primary Education - Greece",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-11-24",
+  "source_code": "ILO",
+  "source_name": "International Labour Organization",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-03-18T00:29:43Z",
-  "urlize_name": "GENERAL-MILLS-INC-GIS-Quarterly-Operating-Income-Loss"
+  "updated_at": "2013-04-20T00:36:20Z",
+  "urlize_name": "Population-By-Sex-Age-And-Education-Female-15-24-Pre-primary-Education-Greece"
 }

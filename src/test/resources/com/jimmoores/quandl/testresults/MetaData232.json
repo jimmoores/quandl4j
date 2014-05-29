@@ -1,21 +1,21 @@
 {
-  "code": "CCA_TO_PE_TRAIL",
+  "code": "MCITY_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_TOWNOFNEWTOWNCT",
   "column_names": [
     "Date",
-    "Trailing PE Ratio"
+    "Town of Newtown"
   ],
-  "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesDecreasingInValues_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2005-12-31",
-  "id": 4013091,
-  "name": "Cogeco Cable Inc. ( CCA.TO ) - Trailing PE Ratio",
+  "frequency": "monthly",
+  "from_date": "1997-03-31",
+  "id": 7150140,
+  "name": "Zillow Metrics (Cities): Decreasing Values (%) - Town of Newtown, CT",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2012-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2014-03-14T10:16:10Z",
-  "urlize_name": "Cogeco-Cable-Inc-CCA-TO-Trailing-PE-Ratio"
+  "updated_at": "2014-05-08T04:27:14Z",
+  "urlize_name": "Zillow-Metrics-Cities-Decreasing-Values-Town-of-Newtown-CT"
 }

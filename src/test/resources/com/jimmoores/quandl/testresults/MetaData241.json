@@ -1,21 +1,21 @@
 {
-  "code": "DJI_DC_DAC_NZLL_CD",
+  "code": "SKVI_CHG_NCWC",
   "column_names": [
     "Date",
-    "Value"
+    "Change in Non-Cash Working Capital"
   ],
-  "description": "Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.\nNet bilateral aid flows from DAC donors, New Zealand (current US$)",
-  "display_url": "http://api.worldbank.org/countries/DJI/indicators/DC.DAC.NZLL.CD?per_page=1000",
+  "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2005-12-31",
-  "id": 289527,
-  "name": "Djibouti: Net bilateral aid flows from DAC donors, New Zealand (current US$)",
+  "from_date": "2002-12-31",
+  "id": 5429952,
+  "name": "Skinvisible Inc ( SKVI ) - Change in Non-Cash Working Capital",
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
-  "to_date": "2011-12-31",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-05-19T21:23:52Z",
-  "urlize_name": "Djibouti-Net-bilateral-aid-flows-from-DAC-donors-New-Zealand-current-US"
+  "updated_at": "2014-03-22T04:35:39Z",
+  "urlize_name": "Skinvisible-Inc-SKVI-Change-in-Non-Cash-Working-Capital"
 }

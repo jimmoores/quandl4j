@@ -1,21 +1,23 @@
 {
-  "code": "PLOINVLKA624NUPN",
+  "code": "COMM_69_ARTICLESNESOFASBESTOSOORCELLULOSEFIBRECEMENT_IMPORT_SUR",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "PPP of Investment over Exchange Rate Not Seasonally Adjusted, Price Level of GDP is the PPP over GDP divided by the exchange rate times 100. The PPP of GDP or any component is the national currency value divided by the real value in international dollars. The PPP and the exchange rate are both expressed as national currency units per US dollar.The value of price level of GDP for the United States is made equal to 100. Price Levels of the components Consumption, Investment, and Government are derived in the same way as the price level of GDP. While the U.S. = 100 over GDP, this is not true for the component shares. The purchasing power parity in domestic currency per $US for GDP or any component, may be obtained by dividing the price level by 100 and multiplying by the Exchange Rate. More information is available at http://pwt.econ.upenn.edu/Documentation/append61.pdf.  For proper citation, see http://pwt.econ.upenn.edu/php_site/pwt_index.php  Source Indicator: pi ",
-  "display_url": "http://research.stlouisfed.org/fred2/data/PLOINVLKA624NUPN.csv",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1950-01-01",
-  "id": 2400331,
-  "name": "Price Level of Investment for Sri Lanka",
+  "from_date": "1994-12-31",
+  "id": 4061828,
+  "name": "Commodity Imports - Stone, Plaster, Cement, Asbestos, Mica, Etc Articles / Articles nes, of asbestoso or cellulose fibre cement - Suriname",
   "private": false,
-  "source_code": "FRED",
-  "source_name": "Federal Reserve Economic Data",
-  "to_date": "2010-01-01",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-01-12T09:32:45Z",
-  "urlize_name": "Price-Level-of-Investment-for-Sri-Lanka"
+  "updated_at": "2014-01-11T04:18:47Z",
+  "urlize_name": "Commodity-Imports-Stone-Plaster-Cement-Asbestos-Mica-Etc-Articles-Articles-nes-of-asbestoso-or-cellulose-fibre-cement-Suriname"
 }

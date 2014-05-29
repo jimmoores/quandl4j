@@ -1,443 +1,415 @@
 {
-  "current_page": 478147,
+  "current_page": 55265,
   "docs": [
     {
-      "code": "EIP_DWAP_RT_SEX_T_AGE_10YRBANDS_TOTAL_PRT",
+      "code": "SKVI_CHG_NCWC",
       "column_names": [
         "Date",
-        "Value"
+        "Change in Non-Cash Working Capital"
       ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5429952,
+      "name": "Skinvisible Inc ( SKVI ) - Change in Non-Cash Working Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:35:39Z",
+      "urlize_name": "Skinvisible-Inc-SKVI-Change-in-Non-Cash-Working-Capital"
+    },
+    {
+      "code": "AEZ_TO_CASH_REV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 3899422,
+      "name": "AEterna Zentaris Inc ( AEZ.TO ) - Cash as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:35:40Z",
+      "urlize_name": "AEterna-Zentaris-Inc-AEZ-TO-Cash-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "ZCOI_EV_CAP",
+      "column_names": [
+        "Date",
+        "EV to Invested Capital Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5353891,
+      "name": "Ziegler Companies Inc. ( ZCOI ) - EV to Invested Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:35:40Z",
+      "urlize_name": "Ziegler-Companies-Inc-ZCOI-EV-to-Invested-Capital-Ratio"
+    },
+    {
+      "code": "SLM_ROE",
+      "column_names": [
+        "Date",
+        "Return on Equity"
+      ],
+      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5434780,
+      "name": "USA Education ( SLM ) - Return on Equity",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:35:20Z",
+      "urlize_name": "USA-Education-SLM-Return-on-Equity"
+    },
+    {
+      "code": "WLSE_REV_GRO",
+      "column_names": [
+        "Date",
+        "Previous Year Growth in Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5572801,
+      "name": "Wilshire Enterprises ( WLSE ) - Previous Year Growth in Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:35:20Z",
+      "urlize_name": "Wilshire-Enterprises-WLSE-Previous-Year-Growth-in-Revenues"
+    },
+    {
+      "code": "IBXG_REV_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4567195,
+      "name": "iBX Group Inc. ( IBXG ) - Trailing Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:35:20Z",
+      "urlize_name": "iBX-Group-Inc-IBXG-Trailing-Revenues"
+    },
+    {
+      "code": "ACE_P_BV",
+      "column_names": [
+        "Date",
+        "Price to Book Value Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3875064,
+      "name": "Ace Limited ( ACE ) - Price to Book Value Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:35:40Z",
+      "urlize_name": "Ace-Limited-ACE-Price-to-Book-Value-Ratio"
+    },
+    {
+      "code": "MANU_MKT_DE",
+      "column_names": [
+        "Date",
+        "Market Debt to Equity Ratio"
+      ],
+      "description": "Debt is defined as including both short term and long term debt (but not accounts payable or non-interest bearing liabilities), and the book value of debt is used as a proxy for market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-02-28",
+      "id": 4652323,
+      "name": "Manchester United Ltd. ( MANU ) - Market Debt to Equity Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-02-28",
+      "type": null,
+      "updated_at": "2014-03-22T04:35:41Z",
+      "urlize_name": "Manchester-United-Ltd-MANU-Market-Debt-to-Equity-Ratio"
+    },
+    {
+      "code": "ISTO_TRAD_VOL",
+      "column_names": [
+        "Date",
+        "Trading Volume"
+      ],
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
       "from_date": "2001-12-31",
-      "id": 12498719,
-      "name": "Inactivity Rate - Annual - Portugal",
+      "id": 6148571,
+      "name": "Internet Studios.Com Inc ( ISTO ) - Trading Volume",
       "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
       "type": null,
-      "updated_at": "2014-05-29T02:16:29Z",
-      "urlize_name": "Inactivity-Rate-Annual-Portugal"
+      "updated_at": "2014-03-22T04:35:20Z",
+      "urlize_name": "Internet-Studios-Com-Inc-ISTO-Trading-Volume"
     },
     {
-      "code": "EIP_DWAP_RT_SEX_T_AGE_10YRBANDS_Y15_24_Q_PRT",
+      "code": "JLL_REV_LAST",
       "column_names": [
         "Date",
-        "Value"
+        "Revenues"
       ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 12498722,
-      "name": "Inactivity Rate Ages 15-24 - Quarterly - Portugal",
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4615605,
+      "name": "Jones Lang Lasalle Inc. ( JLL ) - Revenues",
       "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2013-04-30",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-05-29T02:16:29Z",
-      "urlize_name": "Inactivity-Rate-Ages-15-24-Quarterly-Portugal"
+      "updated_at": "2014-03-22T04:35:21Z",
+      "urlize_name": "Jones-Lang-Lasalle-Inc-JLL-Revenues"
     },
     {
-      "code": "FNYX_MOS",
+      "code": "SLM_ROC",
       "column_names": [
         "Date",
-        "ShortVolume",
-        "ShortExemptVolume",
-        "TotalVolume"
+        "Return on Capital"
       ],
-      "description": "This dataset has no description.",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-04-01",
-      "id": 11189847,
-      "name": "FINRA/NYSE TRF Short Interest: MOS",
+      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5434778,
+      "name": "USA Education ( SLM ) - Return on Capital",
       "private": false,
-      "source_code": "FINRA",
-      "source_name": "Financial Industry Regulatory Authority",
-      "to_date": "2014-05-28",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-05-29T02:16:29Z",
-      "urlize_name": "FINRA-NYSE-TRF-Short-Interest-MOS"
+      "updated_at": "2014-03-22T04:35:22Z",
+      "urlize_name": "USA-Education-SLM-Return-on-Capital"
     },
     {
-      "code": "FNYX_MOSY",
+      "code": "OCR_SGA",
       "column_names": [
         "Date",
-        "ShortVolume",
-        "ShortExemptVolume",
-        "TotalVolume"
+        "Sales General and Administration Expenses"
       ],
-      "description": "This dataset has no description.",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-04-01",
-      "id": 11189848,
-      "name": "FINRA/NYSE TRF Short Interest: MOSY",
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 6030313,
+      "name": "Omnicare, Inc. ( OCR ) - Sales General and Administration Expenses",
       "private": false,
-      "source_code": "FINRA",
-      "source_name": "Financial Industry Regulatory Authority",
-      "to_date": "2014-05-28",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-05-29T02:16:30Z",
-      "urlize_name": "FINRA-NYSE-TRF-Short-Interest-MOSY"
+      "updated_at": "2014-03-22T04:35:43Z",
+      "urlize_name": "Omnicare-Inc-OCR-Sales-General-and-Administration-Expenses"
     },
     {
-      "code": "EIP_DWAP_RT_SEX_T_AGE_10YRBANDS_Y15_24_M_PRT",
+      "code": "MSM_INST_HOLD",
       "column_names": [
         "Date",
-        "Value"
+        "Institutional Holdings"
       ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
-      "frequency": "monthly",
-      "from_date": "2002-02-28",
-      "id": 12498723,
-      "name": "Inactivity Rate Ages 15-24 - Monthly - Portugal",
+      "description": "Number of shares held by mutual funds, pension funds and trusts as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-08-27",
+      "id": 4705115,
+      "name": "MSC Indl Direct ( MSM ) - Institutional Holdings",
       "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2013-11-30",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-08-27",
       "type": null,
-      "updated_at": "2014-05-29T02:11:20Z",
-      "urlize_name": "Inactivity-Rate-Ages-15-24-Monthly-Portugal"
+      "updated_at": "2014-03-22T04:35:23Z",
+      "urlize_name": "MSC-Indl-Direct-MSM-Institutional-Holdings"
     },
     {
-      "code": "FNYX_MOVE",
+      "code": "LBAI_SGA",
       "column_names": [
         "Date",
-        "ShortVolume",
-        "ShortExemptVolume",
-        "TotalVolume"
+        "Sales General and Administration Expenses"
       ],
-      "description": "This dataset has no description.",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-04-01",
-      "id": 11189850,
-      "name": "FINRA/NYSE TRF Short Interest: MOVE",
-      "private": false,
-      "source_code": "FINRA",
-      "source_name": "Financial Industry Regulatory Authority",
-      "to_date": "2014-05-28",
-      "type": null,
-      "updated_at": "2014-05-29T02:11:55Z",
-      "urlize_name": "FINRA-NYSE-TRF-Short-Interest-MOVE"
-    },
-    {
-      "code": "FNYX_MOV",
-      "column_names": [
-        "Date",
-        "ShortVolume",
-        "ShortExemptVolume",
-        "TotalVolume"
-      ],
-      "description": "This dataset has no description.",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-04-01",
-      "id": 11189849,
-      "name": "FINRA/NYSE TRF Short Interest: MOV",
-      "private": false,
-      "source_code": "FINRA",
-      "source_name": "Financial Industry Regulatory Authority",
-      "to_date": "2014-05-28",
-      "type": null,
-      "updated_at": "2014-05-29T02:16:30Z",
-      "urlize_name": "FINRA-NYSE-TRF-Short-Interest-MOV"
-    },
-    {
-      "code": "EIP_DWAP_RT_SEX_T_AGE_10YRBANDS_Y25_34_M_PRT",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
-      "frequency": "monthly",
-      "from_date": "2002-02-28",
-      "id": 12498726,
-      "name": "Inactivity Rate Ages 25-34 - Monthly - Portugal",
-      "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2013-11-30",
-      "type": null,
-      "updated_at": "2014-05-29T02:11:56Z",
-      "urlize_name": "Inactivity-Rate-Ages-25-34-Monthly-Portugal"
-    },
-    {
-      "code": "EIP_DWAP_RT_SEX_T_AGE_10YRBANDS_Y25_34_PRT",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
       "from_date": "2001-12-31",
-      "id": 12498724,
-      "name": "Inactivity Rate Ages 25-34 - Annual - Portugal",
+      "id": 4651836,
+      "name": "Lakeland Bancorp ( LBAI ) - Sales General and Administration Expenses",
       "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-05-29T02:11:56Z",
-      "urlize_name": "Inactivity-Rate-Ages-25-34-Annual-Portugal"
+      "updated_at": "2014-03-22T04:35:43Z",
+      "urlize_name": "Lakeland-Bancorp-LBAI-Sales-General-and-Administration-Expenses"
     },
     {
-      "code": "FNYX_MPAA",
+      "code": "RPRS_ROE",
       "column_names": [
         "Date",
-        "ShortVolume",
-        "ShortExemptVolume",
-        "TotalVolume"
+        "Return on Equity"
       ],
-      "description": "This dataset has no description.",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-04-01",
-      "id": 11189851,
-      "name": "FINRA/NYSE TRF Short Interest: MPAA",
-      "private": false,
-      "source_code": "FINRA",
-      "source_name": "Financial Industry Regulatory Authority",
-      "to_date": "2014-05-28",
-      "type": null,
-      "updated_at": "2014-05-29T02:16:30Z",
-      "urlize_name": "FINRA-NYSE-TRF-Short-Interest-MPAA"
-    },
-    {
-      "code": "EIP_DWAP_RT_SEX_T_AGE_10YRBANDS_Y25_34_Q_PRT",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 12498725,
-      "name": "Inactivity Rate Ages 25-34 - Quarterly - Portugal",
-      "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2013-04-30",
-      "type": null,
-      "updated_at": "2014-05-29T02:16:30Z",
-      "urlize_name": "Inactivity-Rate-Ages-25-34-Quarterly-Portugal"
-    },
-    {
-      "code": "FNYX_MPC",
-      "column_names": [
-        "Date",
-        "ShortVolume",
-        "ShortExemptVolume",
-        "TotalVolume"
-      ],
-      "description": "This dataset has no description.",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-04-01",
-      "id": 11189852,
-      "name": "FINRA/NYSE TRF Short Interest: MPC",
-      "private": false,
-      "source_code": "FINRA",
-      "source_name": "Financial Industry Regulatory Authority",
-      "to_date": "2014-05-28",
-      "type": null,
-      "updated_at": "2014-05-29T02:11:21Z",
-      "urlize_name": "FINRA-NYSE-TRF-Short-Interest-MPC"
-    },
-    {
-      "code": "FNYX_MPEL",
-      "column_names": [
-        "Date",
-        "ShortVolume",
-        "ShortExemptVolume",
-        "TotalVolume"
-      ],
-      "description": "This dataset has no description.",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-04-01",
-      "id": 11189853,
-      "name": "FINRA/NYSE TRF Short Interest: MPEL",
-      "private": false,
-      "source_code": "FINRA",
-      "source_name": "Financial Industry Regulatory Authority",
-      "to_date": "2014-05-28",
-      "type": null,
-      "updated_at": "2014-05-29T02:16:30Z",
-      "urlize_name": "FINRA-NYSE-TRF-Short-Interest-MPEL"
-    },
-    {
-      "code": "EIP_DWAP_RT_SEX_T_AGE_10YRBANDS_Y35_44_PRT",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 12498727,
-      "name": "Inactivity Rate Ages 35-44 - Annual - Portugal",
+      "from_date": "2003-12-31",
+      "id": 5380755,
+      "name": "Republic Resources Inc ( RPRS ) - Return on Equity",
       "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
       "type": null,
-      "updated_at": "2014-05-29T02:11:21Z",
-      "urlize_name": "Inactivity-Rate-Ages-35-44-Annual-Portugal"
+      "updated_at": "2014-03-22T04:35:23Z",
+      "urlize_name": "Republic-Resources-Inc-RPRS-Return-on-Equity"
     },
     {
-      "code": "FNYX_MPET",
+      "code": "AMTD_ROC",
       "column_names": [
         "Date",
-        "ShortVolume",
-        "ShortExemptVolume",
-        "TotalVolume"
+        "Return on Capital"
       ],
-      "description": "This dataset has no description.",
-      "display_url": null,
-      "frequency": "weekly",
-      "from_date": "2013-04-01",
-      "id": 11191984,
-      "name": "FINRA/NYSE TRF Short Interest: MPET",
-      "private": false,
-      "source_code": "FINRA",
-      "source_name": "Financial Industry Regulatory Authority",
-      "to_date": "2014-05-28",
-      "type": null,
-      "updated_at": "2014-05-29T02:16:30Z",
-      "urlize_name": "FINRA-NYSE-TRF-Short-Interest-MPET"
-    },
-    {
-      "code": "EIP_DWAP_RT_SEX_T_AGE_10YRBANDS_Y35_44_Q_PRT",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 12498728,
-      "name": "Inactivity Rate Ages 35-44 - Quarterly - Portugal",
-      "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2013-04-30",
-      "type": null,
-      "updated_at": "2014-05-29T02:11:21Z",
-      "urlize_name": "Inactivity-Rate-Ages-35-44-Quarterly-Portugal"
-    },
-    {
-      "code": "EIP_DWAP_RT_SEX_T_AGE_10YRBANDS_Y35_44_M_PRT",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
-      "frequency": "monthly",
-      "from_date": "2002-02-28",
-      "id": 12498729,
-      "name": "Inactivity Rate Ages 35-44 - Monthly - Portugal",
-      "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2013-11-30",
-      "type": null,
-      "updated_at": "2014-05-29T02:11:21Z",
-      "urlize_name": "Inactivity-Rate-Ages-35-44-Monthly-Portugal"
-    },
-    {
-      "code": "EIP_DWAP_RT_SEX_T_AGE_10YRBANDS_Y45_54_Q_PRT",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 12498731,
-      "name": "Inactivity Rate Ages 45-54 - Quarterly - Portugal",
-      "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2013-04-30",
-      "type": null,
-      "updated_at": "2014-05-29T02:11:57Z",
-      "urlize_name": "Inactivity-Rate-Ages-45-54-Quarterly-Portugal"
-    },
-    {
-      "code": "FNYX_MPLX",
-      "column_names": [
-        "Date",
-        "ShortVolume",
-        "ShortExemptVolume",
-        "TotalVolume"
-      ],
-      "description": "This dataset has no description.",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-04-01",
-      "id": 11189854,
-      "name": "FINRA/NYSE TRF Short Interest: MPLX",
-      "private": false,
-      "source_code": "FINRA",
-      "source_name": "Financial Industry Regulatory Authority",
-      "to_date": "2014-05-28",
-      "type": null,
-      "updated_at": "2014-05-29T02:16:31Z",
-      "urlize_name": "FINRA-NYSE-TRF-Short-Interest-MPLX"
-    },
-    {
-      "code": "EIP_DWAP_RT_SEX_T_AGE_10YRBANDS_Y45_54_PRT",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 12498730,
-      "name": "Inactivity Rate Ages 45-54 - Annual - Portugal",
+      "from_date": "2001-09-30",
+      "id": 3959149,
+      "name": "TD Ameritrade Holding Corp. ( AMTD ) - Return on Capital",
       "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-09-30",
       "type": null,
-      "updated_at": "2014-05-29T02:16:32Z",
-      "urlize_name": "Inactivity-Rate-Ages-45-54-Annual-Portugal"
+      "updated_at": "2014-03-22T04:35:43Z",
+      "urlize_name": "TD-Ameritrade-Holding-Corp-AMTD-Return-on-Capital"
+    },
+    {
+      "code": "AEA_TRAD_VOL",
+      "column_names": [
+        "Date",
+        "Trading Volume"
+      ],
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 3894986,
+      "name": "Advance Amer Cash Advance Ctrs ( AEA ) - Trading Volume",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:35:43Z",
+      "urlize_name": "Advance-Amer-Cash-Advance-Ctrs-AEA-Trading-Volume"
+    },
+    {
+      "code": "SLM_NET_INC",
+      "column_names": [
+        "Date",
+        "Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5434762,
+      "name": "USA Education ( SLM ) - Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:35:23Z",
+      "urlize_name": "USA-Education-SLM-Net-Income"
+    },
+    {
+      "code": "IBXG_BETA_VL",
+      "column_names": [
+        "Date",
+        "Value Line Beta"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 4567197,
+      "name": "iBX Group Inc. ( IBXG ) - Value Line Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:35:44Z",
+      "urlize_name": "iBX-Group-Inc-IBXG-Value-Line-Beta"
+    },
+    {
+      "code": "WLSE_INTANG_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Intangible Assets to Total Assets"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5572803,
+      "name": "Wilshire Enterprises ( WLSE ) - Ratio of Intangible Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:35:44Z",
+      "urlize_name": "Wilshire-Enterprises-WLSE-Ratio-of-Intangible-Assets-to-Total-Assets"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "FINRA",
-      "datasets_count": 0,
-      "description": "",
-      "host": "regsho.finra.org",
-      "id": 7370,
-      "name": "Financial Industry Regulatory Authority"
-    },
-    {
-      "code": "ILOSTAT",
-      "datasets_count": 0,
-      "description": "No description for this source yet",
-      "host": "ilo.org2",
-      "id": 10437,
-      "name": "ILOSTAT Database"
-    }
-  ],
-  "total_count": 9990700
+  "sources": [{
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
+  }],
+  "total_count": 10036987
 }

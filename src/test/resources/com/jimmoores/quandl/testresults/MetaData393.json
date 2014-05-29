@@ -1,21 +1,21 @@
 {
-  "code": "HLSH_NET_INC_TRAIL",
+  "code": "EMP_PRINTING_GBR",
   "column_names": [
-    "Date",
-    "Trailing Net Income"
+    "Year",
+    "Number"
   ],
-  "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2004-12-31",
-  "id": 4554368,
-  "name": "HEALTHSOUTH Corp. ( HLSH ) - Trailing Net Income",
+  "from_date": "2005-12-31",
+  "id": 3268879,
+  "name": "Employees / Printing - United Kingdom of Great Britain and Northern Ireland",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2005-12-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2009-12-31",
   "type": null,
-  "updated_at": "2014-03-14T11:44:03Z",
-  "urlize_name": "HEALTHSOUTH-Corp-HLSH-Trailing-Net-Income"
+  "updated_at": "2014-01-11T15:16:14Z",
+  "urlize_name": "Employees-Printing-United-Kingdom-of-Great-Britain-and-Northern-Ireland"
 }

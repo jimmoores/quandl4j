@@ -1,21 +1,23 @@
 {
-  "code": "SMS41000004300000001",
+  "code": "COMM_9_CRANBERRIESBILBERRIESSIMILARFRUITSFRESH_EXPORT_BIH",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Thousands of Persons Seasonally Adjusted, This series is seasonally adjusted by the U.S. Bureau of Labor Statistics. ",
-  "display_url": "http://research.stlouisfed.org/fred2/data/SMS41000004300000001.csv",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1990-01-01",
-  "id": 11016802,
-  "name": "All Employees: Transportation and Utilities in Oregon",
+  "frequency": "annual",
+  "from_date": "2003-12-31",
+  "id": 2874130,
+  "name": "Commodity Exports - Edible Fruit, Nuts, Peel Of Citrus Fruit, Melons / Cranberries, bilberries, similar fruits, fresh - Bosnia and Herzegovina",
   "private": false,
-  "source_code": "FRED",
-  "source_name": "Federal Reserve Economic Data",
-  "to_date": "2013-12-01",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-03-20T23:01:22Z",
-  "urlize_name": "All-Employees-Transportation-and-Utilities-in-Oregon"
+  "updated_at": "2014-01-10T07:13:19Z",
+  "urlize_name": "Commodity-Exports-Edible-Fruit-Nuts-Peel-Of-Citrus-Fruit-Melons-Cranberries-bilberries-similar-fruits-fresh-Bosnia-and-Herzegovina"
 }

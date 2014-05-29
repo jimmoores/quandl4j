@@ -1,21 +1,24 @@
 {
-  "code": "HTBK_INCREMENTALCOMMONSHARESATTRIBUTABLETOSHAREBASEDPAYMENTARRANGEMENTS_Q",
+  "code": "FAO_238ETHIOPIA235PREPAREDNUTSEXCGROUNDNUTS",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Import Quantity (tonnes)",
+    "Import Value (1000 US$)",
+    "Export Quantity (tonnes)",
+    "Export Value (1000 US$)"
   ],
-  "description": "SEC Name: IncrementalCommonSharesAttributableToShareBasedPaymentArrangements",
-  "display_url": null,
+  "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+  "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_Africa_1.zip",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2012-06-30",
-  "id": 10609814,
-  "name": "HERITAGE COMMERCE CORP  (HTBK): Quarterly Incremental Common Shares Attributable To Share Based Payment Arrangements",
+  "frequency": "annual",
+  "from_date": "1993-12-31",
+  "id": 7672435,
+  "name": "Trade Crops Livestock: Prepared Nuts (Exc.Groundnuts) - Ethiopia",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-09-30",
+  "source_code": "FAO",
+  "source_name": "Food and Agriculture Organization of the United Nations",
+  "to_date": "2009-12-31",
   "type": null,
-  "updated_at": "2014-03-07T04:48:32Z",
-  "urlize_name": "HERITAGE-COMMERCE-CORP-HTBK-Quarterly-Incremental-Common-Shares-Attributable-To-Share-Based-Payment-Arrangements"
+  "updated_at": "2013-08-30T11:52:40Z",
+  "urlize_name": "Trade-Crops-Livestock-Prepared-Nuts-Exc-Groundnuts-Ethiopia"
 }

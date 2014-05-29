@@ -1,21 +1,23 @@
 {
-  "code": "ELEC_PLANT_CONS_EG_50476_NG_ST_M",
+  "code": "COMM_4_MUSSELSSHELLEDORNOTLIVEFRESHORCHILLED_EXPORT_JAM",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Units=Mcf. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG.50476-NG-ST.M",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG.50476-NG-ST.M&out=xml",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2003-01-31",
-  "id": 4936932,
-  "name": "Electric Fuel Consumption Quantity : Packaging Of America Tomahawk Mill : Natural Gas : Steam Turbine : Monthly",
+  "frequency": "annual",
+  "from_date": "2009-12-31",
+  "id": 2790740,
+  "name": "Commodity Exports - Fish, Crustaceans, Molluscs, Aquatic Invertebrates Ne / Mussels, shelled or not, live, fresh or chilled - Jamaica",
   "private": false,
-  "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
-  "to_date": "2012-12-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-01-09T23:16:19Z",
-  "urlize_name": "Electric-Fuel-Consumption-Quantity-Packaging-Of-America-Tomahawk-Mill-Natural-Gas-Steam-Turbine-Monthly"
+  "updated_at": "2013-09-10T02:14:43Z",
+  "urlize_name": "Commodity-Exports-Fish-Crustaceans-Molluscs-Aquatic-Invertebrates-Ne-Mussels-shelled-or-not-live-fresh-or-chilled-Jamaica"
 }

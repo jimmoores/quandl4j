@@ -1,23 +1,21 @@
 {
-  "code": "COMM_30_22OXYDIETHANOLDIETHYLENEGLYCOL_IMPORT_LBN",
+  "code": "MZIP_SALEPRICETOLISTRATIO_ALLHOMES_44224",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_SalePriceToListRatio_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1998-12-31",
-  "id": 3259863,
-  "name": "Commodity Imports - Organic Chemicals / 2,2'-oxydiethanol(diethylene glycol) - Lebanon",
+  "frequency": "monthly",
+  "from_date": "2008-10-31",
+  "id": 7420114,
+  "name": "Zillow Metrics (Zip Codes): Sale-to-List Price Ratio - 44224,Stow,OH",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2012-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2013-07-03T19:25:59Z",
-  "urlize_name": "Commodity-Imports-Organic-Chemicals-2-2-oxydiethanol-diethylene-glycol-Lebanon"
+  "updated_at": "2014-05-07T17:46:27Z",
+  "urlize_name": "Zillow-Metrics-Zip-Codes-Sale-to-List-Price-Ratio-44224-Stow-OH"
 }

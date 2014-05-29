@@ -21,11 +21,13 @@ import com.jimmoores.quandl.util.QuandlRuntimeException;
  */
 public class ResultChecker implements ResultProcessor {
   private static Logger s_logger = LoggerFactory.getLogger(ResultChecker.class);
+  
+  private static final String LINE_SEPARATOR = String.format("%n");
 
   private File _baseDir;
 
   private AtomicLong _fileNumber = new AtomicLong();
-  
+
   /**
    * Create a ResultChecker using the resource folder 'testresults' with it's filename counter set to zero.
    */
@@ -81,9 +83,25 @@ public class ResultChecker implements ResultProcessor {
   private void processResult(final JSONObject jsonObject) {
     File file = new File(_baseDir, METADATA + _fileNumber.getAndIncrement() + JSON);
     if (file.exists()) {
-      Assert.assertEquals(PrettyPrinter.toPrettyPrintedString(jsonObject), readFile(file));
+      String value = PrettyPrinter.toPrettyPrintedString(jsonObject);
+      String expected = readFile(file);
+      outputDiff(value, expected);
+      Assert.assertEquals(value, expected);
     } else {
       Assert.fail("File " + file + " does not exist");
+    }
+  }
+  
+  private void outputDiff(final String value, final String expected) {
+    int i = 0;
+    while (i < value.length() && i < expected.length() && value.charAt(i) == expected.charAt(i)) {
+      i++;
+    }
+    if (value.length() != expected.length()) {
+      s_logger.debug("lengths differ: value = {}, expected = {}", value.length(), expected.length());
+    }
+    if (i < value.length() && i < expected.length()) {
+      s_logger.debug("Difference is at position " + i + " which contains character " + Character.getNumericValue(value.charAt(i)));
     }
   }
   
@@ -94,7 +112,7 @@ public class ResultChecker implements ResultProcessor {
       StringBuilder sb = new StringBuilder();
       while ((line = reader.readLine()) != null) {
         sb.append(line);
-        sb.append("\n");
+        sb.append(LINE_SEPARATOR);
       }
       reader.close();
       return sb.toString();
@@ -103,4 +121,6 @@ public class ResultChecker implements ResultProcessor {
       return null; // unreachable, but compiler can't tell.
     }
   }
+  
+  
 }

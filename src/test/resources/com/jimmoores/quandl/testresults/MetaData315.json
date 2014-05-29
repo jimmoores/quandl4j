@@ -1,21 +1,21 @@
 {
-  "code": "AGCO_PAYMENTSTOACQUIREEQUITYMETHODINVESTMENTS_Q",
+  "code": "CBY_TO_EFF_TAX_INC",
   "column_names": [
     "Date",
-    "Value"
+    "Effective Tax Rate on Income"
   ],
-  "description": "SEC Name: PaymentsToAcquireEquityMethodInvestments",
-  "display_url": null,
+  "description": "This is the effective tax rate, obtained by dividing the taxes paid by the taxable income as reported to the stockholders. We would rather have used marginal tax rates, but these are not reported. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2013-03-31",
-  "id": 9993065,
-  "name": "AGCO CORP /DE  (AGCO): Quarterly Payments To Acquire Equity Method Investments",
+  "frequency": "annual",
+  "from_date": "2010-12-31",
+  "id": 4010681,
+  "name": "Canada Bread Ltd ( CBY.TO ) - Effective Tax Rate on Income",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-03-31",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-02-19T20:15:01Z",
-  "urlize_name": "AGCO-CORP-DE-AGCO-Quarterly-Payments-To-Acquire-Equity-Method-Investments"
+  "updated_at": "2014-03-14T10:10:23Z",
+  "urlize_name": "Canada-Bread-Ltd-CBY-TO-Effective-Tax-Rate-on-Income"
 }

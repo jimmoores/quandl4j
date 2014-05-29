@@ -1,21 +1,21 @@
 {
-  "code": "98_SDN",
+  "code": "NCU2301050900011",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=130",
-  "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/WHOSIS_000006&filter=COUNTRY:SDN;\n",
+  "description": "Occupation: Health related occupations; Skills: Level 11 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301050900011",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2006-12-31",
-  "id": 9503530,
-  "name": "Infants exclusively breastfed for the first six months of life (%) - Sudan",
+  "from_date": "2003-09-30",
+  "id": 9111436,
+  "name": "Compensation for Health related occupations in Level 11",
   "private": false,
-  "source_code": "WHO",
-  "source_name": "World Health Organization",
-  "to_date": "2010-12-31",
+  "source_code": "BLS",
+  "source_name": "Bureau of Labor Statistics",
+  "to_date": "2005-10-31",
   "type": null,
-  "updated_at": "2014-01-13T04:24:20Z",
-  "urlize_name": "Infants-exclusively-breastfed-for-the-first-six-months-of-life-Sudan"
+  "updated_at": "2013-11-16T12:58:08Z",
+  "urlize_name": "Compensation-for-Health-related-occupations-in-Level-11"
 }

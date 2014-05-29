@@ -20,6 +20,7 @@ public final class PrettyPrinter {
   private static final String NULL = "null";
   private static final int NULL_SIZE = NULL.length();
   private static final int JSON_INDENT = 2;
+  private static final String LINE_SEPARATOR = String.format("%n");
 
   private PrettyPrinter() {
   }
@@ -33,7 +34,7 @@ public final class PrettyPrinter {
   public static String toPrettyPrintedString(final JSONObject jsonObject) {
     ArgumentChecker.notNull(jsonObject, "jsonObject");
     try {
-      return jsonObject.toString(JSON_INDENT);
+      return jsonObject.toString(JSON_INDENT) + LINE_SEPARATOR;
     } catch (JSONException ex) {
       s_logger.error("Problem converting JSONObject to String", ex);
       throw new QuandlRuntimeException("Problem converting JSONObject to String", ex);

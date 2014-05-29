@@ -1,21 +1,21 @@
 {
-  "code": "SAL_STARCHESANDSTARCHPRODUCTS_GRC",
+  "code": "LAN_LCS_RIC_60",
   "column_names": [
-    "Year",
-    "Number"
+    "Date",
+    "Value"
   ],
-  "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "The domain  (land cover and land use, soil  and landscape) contains statistical tables on land cover and land use in general. In addition there are tables on visible animal grazing, irrigation, forest species and landscape features. The data have been collected throug the LUCAS survey in spring-autums 2009. The statistics are presented at NUTS0, NUTS1 and NUTS 2 levels.\r\nLUCAS Survey 2009 -  Informative content\r\nLUCAS is the acronim of Land Use and Cover Area frame Survey.  In the LUCAS survey  235 000 points were visited by 500 field surveyors on the spot. Those spots were selected from a standard 2 km grid with in total around 1 million points all over the EU. The land cover and the visible land use were classified according to the harmonized LUCAS land cover and land use nomenclatures. The aim of the LUCAS survey is to gather harmonised information on land use/cover and their changes over time. In addition the survey provides territorial information facilitating the analysis of the interactions between agriculture, environment and countryside (such as irrigation, land management ect.).\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/lan_esms.htm",
+  "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Flan_lcs_ric.sdmx.zip",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2005-12-31",
-  "id": 3312149,
-  "name": "Wages and Salaries (Local Currency) / Starches and starch products - Greece",
+  "from_date": "2009-12-31",
+  "id": 545532,
+  "name": "Landscape richness  : 3 land covers : Lithuania",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2007-12-31",
+  "source_code": "EUROSTAT",
+  "source_name": "EuroStat",
+  "to_date": "2009-12-31",
   "type": null,
-  "updated_at": "2014-01-13T03:19:39Z",
-  "urlize_name": "Wages-and-Salaries-Local-Currency-Starches-and-starch-products-Greece"
+  "updated_at": "2013-05-08T06:45:13Z",
+  "urlize_name": "Landscape-richness-3-land-covers-Lithuania"
 }

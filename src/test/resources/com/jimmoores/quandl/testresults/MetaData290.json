@@ -1,26 +1,21 @@
 {
-  "code": "FUTURE_G2BYF2015",
+  "code": "957_FJI",
   "column_names": [
     "Date",
-    "Open",
-    "High",
-    "Low",
-    "Settle",
-    "Volume",
-    "Open Interest"
+    "Value"
   ],
-  "description": "Historical Futures Prices: GPL Natural Gas Year  Futures, January 2015, G2BYF2015, Eurex. Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
-  "display_url": "http://www.ofdp.org/futures/17183",
+  "description": "SEX: Male.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
+  "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:MLE;COUNTRY:FJI;\n",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2012-08-15",
-  "id": 2311223,
-  "name": "GPL Natural Gas Year  Futures, January 2015, G2BYF2015, Eurex",
+  "frequency": "annual",
+  "from_date": "2008-12-31",
+  "id": 9591501,
+  "name": "Exposure to smoke outside home Male - Fiji",
   "private": false,
-  "source_code": "OFDP",
-  "source_name": "Open Financial Data Project",
-  "to_date": "2012-08-24",
+  "source_code": "WHO",
+  "source_name": "World Health Organization",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-02-26T02:19:20Z",
-  "urlize_name": "GPL-Natural-Gas-Year-Futures-January-2015-G2BYF2015-Eurex"
+  "updated_at": "2014-01-10T10:17:08Z",
+  "urlize_name": "Exposure-to-smoke-outside-home-Male-Fiji"
 }

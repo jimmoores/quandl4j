@@ -1,21 +1,21 @@
 {
-  "code": "MGT_WEIGHTEDAVERAGENUMBEROFSHAREOUTSTANDINGBASICANDDILUTED_A",
+  "code": "CEU8081300010",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEC Name: WeightedAverageNumberOfShareOutstandingBasicAndDiluted",
-  "display_url": null,
+  "description": "Statistic: Women employees, thousands; Industry: Membership associations and organizations; Super-Sector: Other services; Not Seasonally Adjusted; Source: Current Employment Statistics (CES); For more information see <a href=\"http://www.bls.gov/ces/cesprog.htm\">http://www.bls.gov/ces/cesprog.htm.",
+  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/CEU8081300010",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2012-12-31",
-  "id": 11110099,
-  "name": "MGT CAPITAL INVESTMENTS INC  (MGT): Annual Weighted Average Number Of Share Outstanding Basic And Diluted",
+  "frequency": "monthly",
+  "from_date": "1990-01-31",
+  "id": 8456980,
+  "name": "Women employees, thousands; Membership associations and organizations industry",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2012-12-31",
+  "source_code": "BLS",
+  "source_name": "Bureau of Labor Statistics",
+  "to_date": "2013-10-31",
   "type": null,
-  "updated_at": "2014-03-18T20:29:36Z",
-  "urlize_name": "MGT-CAPITAL-INVESTMENTS-INC-MGT-Annual-Weighted-Average-Number-Of-Share-Outstanding-Basic-And-Diluted"
+  "updated_at": "2013-12-11T23:11:22Z",
+  "urlize_name": "Women-employees-thousands-Membership-associations-and-organizations-industry"
 }

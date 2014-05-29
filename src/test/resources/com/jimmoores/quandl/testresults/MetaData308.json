@@ -1,21 +1,21 @@
 {
-  "code": "DNK_UIS_XGDP_FDINSTADM_FFD",
+  "code": "IIUFIA52200032100",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Total expenditure on educational institutions and administration as a % of GDP. All sources. All levels is the expenditure coming from public, private and international sources spent on education expressed as a % of GDP.\nTotal expenditure on educational institutions and administration as a % of GDP. All sources. All levels",
-  "display_url": "http://api.worldbank.org/countries/DNK/indicators/UIS.XGDP.FDINSTADM.FFD?per_page=1000",
+  "description": "Measure: Rate of injury and illness cases per 100 full-time workers; Case type: Cases involving days away from work, job restriction, or transfer; Industry: Credit intermediation and related activities; Supersector: Financial activities; Area: Private industry, All U.S.; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUFIA52200032100",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2000-12-31",
-  "id": 6508879,
-  "name": "Denmark: Total expenditure on educational institutions and administration as a % of GDP. All sources. All levels",
+  "from_date": "2010-12-31",
+  "id": 9215557,
+  "name": "Rate of injury and illness cases per 100 full-time workers for Credit intermediation and related activities, Private industry, All U.S.",
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
-  "to_date": "2009-12-31",
+  "source_code": "BLS",
+  "source_name": "Bureau of Labor Statistics",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-05-19T21:39:12Z",
-  "urlize_name": "Denmark-Total-expenditure-on-educational-institutions-and-administration-as-a-of-GDP-All-sources-All-levels"
+  "updated_at": "2013-11-18T04:49:49Z",
+  "urlize_name": "Rate-of-injury-and-illness-cases-per-100-full-time-workers-for-Credit-intermediation-and-related-activities-Private-industry-All-U-S"
 }

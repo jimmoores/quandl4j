@@ -1,23 +1,21 @@
 {
-  "code": "COMM_22_FOODPREPARATIONSNES_IMPORT_NER",
+  "code": "PNC_REV_TRAIL",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Trailing Revenues"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1995-12-31",
-  "id": 3015654,
-  "name": "Commodity Imports - Miscellaneous Edible Preparations / Food preparations nes - Niger",
+  "from_date": "1999-12-31",
+  "id": 5390954,
+  "name": "PNC Financial Serv. ( PNC ) - Trailing Revenues",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
   "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-11T10:47:02Z",
-  "urlize_name": "Commodity-Imports-Miscellaneous-Edible-Preparations-Food-preparations-nes-Niger"
+  "updated_at": "2014-03-22T04:54:42Z",
+  "urlize_name": "PNC-Financial-Serv-PNC-Trailing-Revenues"
 }

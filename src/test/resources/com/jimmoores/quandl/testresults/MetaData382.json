@@ -1,21 +1,21 @@
 {
-  "code": "COMM_7_PLANTSLIVEINCLUDINGTHEIRROOTSNES_EXPORT_GMB",
+  "code": "POP_22_SVK_BTH_URB_60",
   "column_names": [
     "Year",
-    "Trade (USD)"
+    "Number"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+  "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2007-12-31",
-  "id": 2843832,
-  "name": "Commodity Exports - Live Trees, Plants, Bulbs, Roots, Cut Flowers Etc / Plants, live (including their roots),nes - Gambia",
+  "from_date": "2001-12-31",
+  "id": 2875158,
+  "name": "Population - Both Sexes / Age 60 / Urban Areas - Slovakia",
   "private": false,
   "source_code": "UN",
   "source_name": "United Nations",
-  "to_date": "2008-12-31",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-01-13T22:37:30Z",
-  "urlize_name": "Commodity-Exports-Live-Trees-Plants-Bulbs-Roots-Cut-Flowers-Etc-Plants-live-including-their-roots-nes-Gambia"
+  "updated_at": "2014-01-11T10:58:11Z",
+  "urlize_name": "Population-Both-Sexes-Age-60-Urban-Areas-Slovakia"
 }

@@ -1,23 +1,23 @@
 {
-  "code": "COMM_3_TURKEYCUTSOFFALEXCEPTLIVERSFROZEN_REEXPORT_VCT",
+  "code": "1214_34049090_2",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Quantity 1 (Q1)",
+    "Value (NOK)",
+    "Quantity 2 (Q2)"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+  "display_url": "http://data.ssb.no/api/v0/dataset/1214.csv?lang=en",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1993-12-31",
-  "id": 2771104,
-  "name": "Commodity Re-Exports - Meat And Edible Meat Offal / Turkey cuts & offal, except livers, frozen - Saint Vincent and the Grenadines",
+  "frequency": "monthly",
+  "from_date": "2011-12-31",
+  "id": 7876046,
+  "name": "Export of goods, HS 30-38 Chemical products, others. Value and Quantity, latest 13 months - (q1=kg, q2=none) Subgroup of: 340490 Artificial waxes and prepared waxes (excl. polyoxyethylene [polyethylene glycol] waxes) - Exports",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2005-12-31",
+  "source_code": "STATNOR",
+  "source_name": "Statistics Norway",
+  "to_date": "2014-04-30",
   "type": null,
-  "updated_at": "2014-01-11T10:32:43Z",
-  "urlize_name": "Commodity-Re-Exports-Meat-And-Edible-Meat-Offal-Turkey-cuts-offal-except-livers-frozen-Saint-Vincent-and-the-Grenadines"
+  "updated_at": "2014-05-16T12:23:47Z",
+  "urlize_name": "Export-of-goods-HS-30-38-Chemical-products-others-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Subgroup-of-340490-Artificial-waxes-and-prepared-waxes-excl-polyoxyethylene-polyethylene-glycol-waxes-Exports"
 }

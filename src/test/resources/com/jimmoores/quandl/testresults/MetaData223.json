@@ -1,21 +1,21 @@
 {
-  "code": "APC_DEFERREDTAXASSETSLIABILITIESNET_A",
+  "code": "PET_EMA_EPMR_PWG_SAL_DPG_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEC Name: DeferredTaxAssetsLiabilitiesNet",
-  "display_url": null,
+  "description": "Units=Dollars Per Gallon. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.EMA_EPMR_PWG_SAL_DPG.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.EMA_EPMR_PWG_SAL_DPG.A<\/a>",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.EMA_EPMR_PWG_SAL_DPG.A&out=xml",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2009-12-31",
-  "id": 10352244,
-  "name": "ANADARKO PETROLEUM CORP  (APC): Annual Deferred Tax Assets Liabilities Net",
+  "from_date": "1983-12-31",
+  "id": 11951805,
+  "name": "Alabama Regular Gasoline Wholesale/resale Price By Refiners, Annual",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2011-12-31",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-03-11T03:10:27Z",
-  "urlize_name": "ANADARKO-PETROLEUM-CORP-APC-Annual-Deferred-Tax-Assets-Liabilities-Net"
+  "updated_at": "2014-05-15T10:34:18Z",
+  "urlize_name": "Alabama-Regular-Gasoline-Wholesale-resale-Price-By-Refiners-Annual"
 }

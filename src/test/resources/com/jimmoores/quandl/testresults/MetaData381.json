@@ -1,21 +1,21 @@
 {
-  "code": "IND_BLANKETSANDTRAVELINGRUGSEXCEPTELECTRICBLANKETS_MILUSD_PL",
+  "code": "NCU0099572463905",
   "column_names": [
-    "Year",
+    "Date",
     "Value"
   ],
-  "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Occupation: Machinist apprentices; Skills: Level 05 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU0099572463905",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2000-12-31",
-  "id": 3334981,
-  "name": "Industrial Commodities / Blankets And Traveling Rugs (except Electric Blankets) / Mil. Usd - Poland",
+  "frequency": "monthly",
+  "from_date": "1998-12-31",
+  "id": 8980773,
+  "name": "Compensation for Machinist apprentices in Level 05",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2009-12-31",
+  "source_code": "BLS",
+  "source_name": "Bureau of Labor Statistics",
+  "to_date": "1998-12-31",
   "type": null,
-  "updated_at": "2014-01-13T02:07:22Z",
-  "urlize_name": "Industrial-Commodities-Blankets-And-Traveling-Rugs-except-Electric-Blankets-Mil-Usd-Poland"
+  "updated_at": "2013-11-14T21:27:01Z",
+  "urlize_name": "Compensation-for-Machinist-apprentices-in-Level-05"
 }

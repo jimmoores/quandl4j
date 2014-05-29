@@ -1,30 +1,21 @@
 {
-  "code": "WAJ2014C1",
+  "code": "V467775",
   "column_names": [
     "Date",
-    "Open",
-    "High",
-    "Low",
-    "Last",
-    "Settle",
-    "Change",
-    "Volume",
-    "Prev. Day Open Interest",
-    "Prev. Day Settle",
-    "Prev. Day Volume"
+    "Value"
   ],
-  "description": "Historical CME Options data: April 2014 Wti Calendar Spread Option - 1 Month Call, with a strike price of 1.0",
-  "display_url": null,
+  "description": "{\"Geography\"=>\"Nova Scotia\", \"Sex\"=>\"Both sexes\", \"Age group\"=>\"43 years\"}",
+  "display_url": "http://www5.statcan.gc.ca/cansim/a08",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2014-02-11",
-  "id": 12173366,
-  "name": "April 2014 Wti Calendar Spread Option - 1 Month Call Strike 1.0 (WAJ2014C1)",
+  "frequency": "annual",
+  "from_date": "1971-12-31",
+  "id": 9666458,
+  "name": "051-0001: Estimates of population, by age group and sex for July 1, Canada, provinces and territories",
   "private": false,
-  "source_code": "CME",
-  "source_name": "Chigaco Mercantile Exchange",
-  "to_date": "2014-03-19",
+  "source_code": "CANSIM",
+  "source_name": "Statistics Canada",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-05-21T16:19:21Z",
-  "urlize_name": "April-2014-Wti-Calendar-Spread-Option-1-Month-Call-Strike-1-0-WAJ2014C1"
+  "updated_at": "2014-01-18T00:43:35Z",
+  "urlize_name": "051-0001-Estimates-of-population-by-age-group-and-sex-for-July-1-Canada-provinces-and-territories"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "EMP_XEMP_ECO1_OCU1_NB_ECO_ISIC3_K_OCU_ISCO08_0_MAC",
+  "code": "1417_001656826_M",
   "column_names": [
-    "Year",
+    "Date",
     "Value"
   ],
-  "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-  "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+  "description": "Unit of measurement=Without object, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1417",
+  "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2009-12-31",
-  "id": 5949165,
-  "name": "Employment By Economic Activity And Occupation, Real Estate, Renting And Business Activities, Armed Forces Occupations - Macau, China",
+  "frequency": "monthly",
+  "from_date": "2005-01-31",
+  "id": 8262605,
+  "name": "Raw industrial production index (base 100 in 2010) - Metal packaging",
   "private": false,
-  "source_code": "ILO",
-  "source_name": "International Labour Organization",
-  "to_date": "2010-12-31",
+  "source_code": "INSEE",
+  "source_name": "National Institute of Statistics and Economic Studies (France)",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2013-04-22T11:15:28Z",
-  "urlize_name": "Employment-By-Economic-Activity-And-Occupation-Real-Estate-Renting-And-Business-Activities-Armed-Forces-Occupations-Macau-China"
+  "updated_at": "2014-05-29T11:36:48Z",
+  "urlize_name": "Raw-industrial-production-index-base-100-in-2010-Metal-packaging"
 }

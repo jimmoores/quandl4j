@@ -1,21 +1,21 @@
 {
-  "code": "EMP_TEMP_NB_SEX_F_AGE_5YRBANDS_Y50_54_Q_BEL",
+  "code": "DINIQ_FIRM_VAL",
   "column_names": [
     "Date",
-    "Value"
+    "Firm Value"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2001-01-31",
-  "id": 12578404,
-  "name": "Employment Women Ages 50-54 - Quarterly - Belgium",
+  "frequency": "annual",
+  "from_date": "2011-12-31",
+  "id": 4203036,
+  "name": "Decorator Inds Inc. ( DINIQ ) - Firm Value",
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2013-04-30",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-05-29T07:24:22Z",
-  "urlize_name": "Employment-Women-Ages-50-54-Quarterly-Belgium"
+  "updated_at": "2014-03-14T16:25:57Z",
+  "urlize_name": "Decorator-Inds-Inc-DINIQ-Firm-Value"
 }

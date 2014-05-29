@@ -1,21 +1,21 @@
 {
-  "code": "ELEC_CONS_TOT_PEL_MT_7_Q",
+  "code": "IMUC_BOOK_DC",
   "column_names": [
     "Date",
-    "Value"
+    "Book Debt to Capital Ratio"
   ],
-  "description": "Units=Thousand Barrels. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.CONS_TOT.PEL-MT-7.Q",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.CONS_TOT.PEL-MT-7.Q&out=xml",
+  "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2004-01-31",
-  "id": 5212982,
-  "name": "Total Consumption : Petroleum Liquids : Montana : Industrial Cogen : Quarterly",
+  "frequency": "annual",
+  "from_date": "2011-12-31",
+  "id": 4605421,
+  "name": "Immunocellular Thera ( IMUC ) - Book Debt to Capital Ratio",
   "private": false,
-  "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
-  "to_date": "2010-12-31",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-01-10T00:21:23Z",
-  "urlize_name": "Total-Consumption-Petroleum-Liquids-Montana-Industrial-Cogen-Quarterly"
+  "updated_at": "2014-03-14T14:42:27Z",
+  "urlize_name": "Immunocellular-Thera-IMUC-Book-Debt-to-Capital-Ratio"
 }

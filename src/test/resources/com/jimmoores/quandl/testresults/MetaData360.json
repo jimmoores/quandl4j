@@ -1,23 +1,21 @@
 {
-  "code": "COMM_30_PROPYLENEGLYCOLPROPANE12DIOL_REEXPORT_MUS",
+  "code": "ELEC_CONS_EG_NG_KY_2_A",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Units=Thousand Mcf. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.CONS_EG.NG-KY-2.A",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.CONS_EG.NG-KY-2.A&out=xml",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2005-12-31",
-  "id": 3264352,
-  "name": "Commodity Re-Exports - Organic Chemicals / Propylene glycol (propane-1,2-diol) - Mauritius",
+  "from_date": "2001-12-31",
+  "id": 5216567,
+  "name": "Consumption For Electricty Generation : Natural Gas : Kentucky : Electric Utility Non-cogen : Annual",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
   "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-25T12:58:44Z",
-  "urlize_name": "Commodity-Re-Exports-Organic-Chemicals-Propylene-glycol-propane-1-2-diol-Mauritius"
+  "updated_at": "2014-01-09T23:15:45Z",
+  "urlize_name": "Consumption-For-Electricty-Generation-Natural-Gas-Kentucky-Electric-Utility-Non-cogen-Annual"
 }

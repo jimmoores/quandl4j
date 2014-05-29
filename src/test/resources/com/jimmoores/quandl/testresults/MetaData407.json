@@ -1,23 +1,21 @@
 {
-  "code": "COMM_84_HOUSEHOLDORLAUNDRYTYPEWASHINGMACHINESCAP10KG_REEXPORT_BHS",
+  "code": "APRO_MK_STRMT_38",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Milk statistics are organised in accordance with a well-defined structure:\r\nMilk statistics are covered by the following Tables (by alphabetic order):\r\nA) Monthly statistics on the collected of cows' milk and products derived therefrom.\r\nB) Annual a production and use of milk (all types) in dairies - availability and use.\r\nC) Annual a production and use of milk (all types) in agricultural holdings.\r\nD) Breakdown of undertakings according to annual amount of milk collection.\r\nE) Breakdown of collection centres according to annual amount of milk collection.\r\nF) Breakdown of undertakings according to amount of milk processed.\r\nG) Breakdown of undertakings according to amount of annual production of certain groups of milk products:\r\n- fresh products,\r\n- drinking milk,\r\n- powdered milk products,\r\n- butter,\r\n- cheese.\r\nH) Protein content of milk products.\r\nI) Regional data on production of cows' milk.\r\n- in addition, methodological information by Member State is provided. \nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/apro_mk_esms.htm",
+  "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fapro_mk_strmt.sdmx.zip",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2010-12-31",
-  "id": 4511214,
-  "name": "Commodity Re-Exports - Nuclear Reactors, Boilers, Machinery, Etc / Household or laundry-type washing machines, cap >10kg - Bahamas",
+  "from_date": "1994-12-31",
+  "id": 900970,
+  "name": "Milk treated  Distribution of enterprises by volume of annual production  : Number of enterprises : From 20 001 to 50 000 t : Germany (including  former GDR from 1991)",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2010-12-31",
+  "source_code": "EUROSTAT",
+  "source_name": "EuroStat",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2013-05-10T08:32:05Z",
-  "urlize_name": "Commodity-Re-Exports-Nuclear-Reactors-Boilers-Machinery-Etc-Household-or-laundry-type-washing-machines-cap-10kg-Bahamas"
+  "updated_at": "2014-01-12T20:21:53Z",
+  "urlize_name": "Milk-treated-Distribution-of-enterprises-by-volume-of-annual-production-Number-of-enterprises-From-20-001-to-50-000-t-Germany-including-former-GDR-from-1991"
 }

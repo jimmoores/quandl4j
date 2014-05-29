@@ -1,21 +1,23 @@
 {
-  "code": "ELEC_PLANT_CONS_TOT_1904_SUB_ALL_A",
+  "code": "COMM_3_FOWLCUTSOFFALDOMESTICEXCEPTLIVERSFROZEN_IMPORT_COM",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Units=Tons. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.1904-SUB-ALL.A",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.1904-SUB-ALL.A&out=xml",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2001-12-31",
-  "id": 4907600,
-  "name": "Fuel Consumption Quantity : Black Dog : Subbituminous Coal : All Primemovers : Annual",
+  "from_date": "1995-12-31",
+  "id": 2762912,
+  "name": "Commodity Imports - Meat And Edible Meat Offal / Fowl cuts & offal, domestic, except livers, frozen - Comoros",
   "private": false,
-  "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
-  "to_date": "2012-12-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2009-12-31",
   "type": null,
-  "updated_at": "2014-01-09T23:48:08Z",
-  "urlize_name": "Fuel-Consumption-Quantity-Black-Dog-Subbituminous-Coal-All-Primemovers-Annual"
+  "updated_at": "2014-01-10T06:50:31Z",
+  "urlize_name": "Commodity-Imports-Meat-And-Edible-Meat-Offal-Fowl-cuts-offal-domestic-except-livers-frozen-Comoros"
 }

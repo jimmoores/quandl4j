@@ -1,23 +1,21 @@
 {
-  "code": "COMM_40_POLYSTYRENEEXPANSIBLEINPRIMARYFORMS_IMPORT_JPN",
+  "code": "SAVB_CHG_NCWC",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Change in Non-Cash Working Capital"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2004-12-31",
-  "id": 3561013,
-  "name": "Commodity Imports - Plastics And Articles Thereof / Polystyrene, expansible in primary forms - Japan",
+  "from_date": "2001-12-31",
+  "id": 5304680,
+  "name": "Savannah BanCorp. Inc. ( SAVB ) - Change in Non-Cash Working Capital",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2012-12-31",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2004-12-31",
   "type": null,
-  "updated_at": "2013-12-28T21:13:26Z",
-  "urlize_name": "Commodity-Imports-Plastics-And-Articles-Thereof-Polystyrene-expansible-in-primary-forms-Japan"
+  "updated_at": "2014-03-23T02:07:46Z",
+  "urlize_name": "Savannah-BanCorp-Inc-SAVB-Change-in-Non-Cash-Working-Capital"
 }

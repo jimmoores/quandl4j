@@ -1,415 +1,415 @@
 {
-  "current_page": 41849,
+  "current_page": 376805,
   "docs": [
     {
-      "code": "FHN_EFF_TAX_INC",
+      "code": "POPE_COMPREHENSIVEINCOMENETOFTAXINCLUDINGPORTIONATTRIBUTABLETONONCONTROLLINGINTEREST_A",
       "column_names": [
         "Date",
-        "Effective Tax Rate on Income"
+        "Value"
       ],
-      "description": "This is the effective tax rate, obtained by dividing the taxes paid by the taxable income as reported to the stockholders. We would rather have used marginal tax rates, but these are not reported. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 6079255,
-      "name": "First Tennessee National Corp. ( FHN ) - Effective Tax Rate on Income",
+      "description": "SEC Name: ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10177030,
+      "name": "POPE RESOURCES LTD PARTNERSHIP  (POPE): Annual Comprehensive Income Net Of Tax Including Portion Attributable To Noncontrolling Interest",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-12-31",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-03-20T18:48:34Z",
-      "urlize_name": "First-Tennessee-National-Corp-FHN-Effective-Tax-Rate-on-Income"
+      "updated_at": "2014-03-06T17:05:34Z",
+      "urlize_name": "POPE-RESOURCES-LTD-PARTNERSHIP-POPE-Annual-Comprehensive-Income-Net-Of-Tax-Including-Portion-Attributable-To-Noncontrolling-Interest"
     },
     {
-      "code": "APSG_INSIDER",
+      "code": "TWP_DEFERREDTAXASSETSTAXDEFERREDEXPENSECOMPENSATIONANDBENEFITSSHAREBASEDCOMPENSATIONCOST_Q",
       "column_names": [
         "Date",
-        "Insider Holdings"
+        "Value"
       ],
-      "description": "Number of shares held by insiders (as defined by the SEC to include corporate officers, directors and those holding more than 5% of the outstanding stock) as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "SEC Name: DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsShareBasedCompensationCost",
+      "display_url": null,
       "frequency": "annual",
-      "from_date": "2001-10-31",
-      "id": 4035952,
-      "name": "Applied Signal Tech ( APSG ) - Insider Holdings",
+      "from_date": "2011-12-31",
+      "id": 10176812,
+      "name": "TREX CO INC  (TWP): Quarterly Deferred Tax Assets Tax Deferred Expense Compensation And Benefits Share Based Compensation Cost",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2009-10-31",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-03-20T18:48:37Z",
-      "urlize_name": "Applied-Signal-Tech-APSG-Insider-Holdings"
+      "updated_at": "2014-03-06T17:05:51Z",
+      "urlize_name": "TREX-CO-INC-TWP-Quarterly-Deferred-Tax-Assets-Tax-Deferred-Expense-Compensation-And-Benefits-Share-Based-Compensation-Cost"
     },
     {
-      "code": "PNTV_REV_LAST",
+      "code": "TWP_DEFERREDTAXASSETSTAXCREDITCARRYFORWARDSOTHER_A",
       "column_names": [
         "Date",
-        "Revenues"
+        "Value"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "SEC Name: DeferredTaxAssetsTaxCreditCarryforwardsOther",
+      "display_url": null,
       "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 5394870,
-      "name": "Players Network Inc ( PNTV ) - Revenues",
+      "from_date": "2011-12-31",
+      "id": 10176998,
+      "name": "TREX CO INC  (TWP): Annual Deferred Tax Assets Tax Credit Carryforwards Other",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T17:05:34Z",
+      "urlize_name": "TREX-CO-INC-TWP-Annual-Deferred-Tax-Assets-Tax-Credit-Carryforwards-Other"
+    },
+    {
+      "code": "SLB_INCOMELOSSFROMCONTINUINGOPERATIONSBEFOREINCOMETAXESMINORITYINTERESTANDINCOMELOSSFROMEQUITYMETHODINVESTMENTS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-03-31",
+      "id": 10169507,
+      "name": "SCHLUMBERGER LTD /NV/  (SLB): Quarterly Income Loss From Continuing Operations Before Income Taxes Minority Interest And Income Loss From Equity Method Investments",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-06T17:05:52Z",
+      "urlize_name": "SCHLUMBERGER-LTD-NV-SLB-Quarterly-Income-Loss-From-Continuing-Operations-Before-Income-Taxes-Minority-Interest-And-Income-Loss-From-Equity-Method-Investments"
+    },
+    {
+      "code": "FBMS_BUSINESSACQUISITIONPURCHASEPRICEALLOCATIONASSETSACQUIRED_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: BusinessAcquisitionPurchasePriceAllocationAssetsAcquired",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10179012,
+      "name": "FIRST BANCSHARES INC /MS/  (FBMS): Annual Business Acquisition Purchase Price Allocation Assets Acquired",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-20T18:48:40Z",
-      "urlize_name": "Players-Network-Inc-PNTV-Revenues"
+      "updated_at": "2014-03-06T17:05:35Z",
+      "urlize_name": "FIRST-BANCSHARES-INC-MS-FBMS-Annual-Business-Acquisition-Purchase-Price-Allocation-Assets-Acquired"
     },
     {
-      "code": "SWWI_BETA",
+      "code": "FBMS_BUSINESSACQUISITIONPURCHASEPRICEALLOCATIONOTHERASSETS_A",
       "column_names": [
         "Date",
-        "3-Year Regression Beta"
+        "Value"
       ],
-      "description": "Estimated by regressing weekly returns on stock against NYSE composite. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5521674,
-      "name": "Simon Worldwide Inc ( SWWI ) - 3-Year Regression Beta",
+      "description": "SEC Name: BusinessAcquisitionPurchasePriceAllocationOtherAssets",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10179014,
+      "name": "FIRST BANCSHARES INC /MS/  (FBMS): Annual Business Acquisition Purchase Price Allocation Other Assets",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-20T18:48:42Z",
-      "urlize_name": "Simon-Worldwide-Inc-SWWI-3-Year-Regression-Beta"
+      "updated_at": "2014-03-06T17:05:35Z",
+      "urlize_name": "FIRST-BANCSHARES-INC-MS-FBMS-Annual-Business-Acquisition-Purchase-Price-Allocation-Other-Assets"
     },
     {
-      "code": "SWWI_NET_MARG",
+      "code": "TWP_DEFERREDTAXASSETSTAXDEFERREDEXPENSEOTHER_A",
       "column_names": [
         "Date",
-        "Net Margin"
+        "Value"
       ],
-      "description": "Estimated by dividing the net income by the total revenues. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "SEC Name: DeferredTaxAssetsTaxDeferredExpenseOther",
+      "display_url": null,
       "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5521710,
-      "name": "Simon Worldwide Inc ( SWWI ) - Net Margin",
+      "from_date": "2011-12-31",
+      "id": 10179017,
+      "name": "TREX CO INC  (TWP): Annual Deferred Tax Assets Tax Deferred Expense Other",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-20T18:48:46Z",
-      "urlize_name": "Simon-Worldwide-Inc-SWWI-Net-Margin"
+      "updated_at": "2014-03-06T17:05:52Z",
+      "urlize_name": "TREX-CO-INC-TWP-Annual-Deferred-Tax-Assets-Tax-Deferred-Expense-Other"
     },
     {
-      "code": "UBP_MKT_CAP",
+      "code": "TWP_DEFERREDTAXASSETSTAXDEFERREDEXPENSERESERVESANDACCRUALSWARRANTYRESERVES_A",
       "column_names": [
         "Date",
-        "Market Capitalization"
+        "Value"
       ],
-      "description": "Estimated market value of equity, obtained by multiplying the number of shares outstanding by the share price. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "SEC Name: DeferredTaxAssetsTaxDeferredExpenseReservesAndAccrualsWarrantyReserves",
+      "display_url": null,
       "frequency": "annual",
-      "from_date": "1999-10-31",
-      "id": 5351225,
-      "name": "Urstadt Biddle Pptys ( UBP ) - Market Capitalization",
+      "from_date": "2011-12-31",
+      "id": 10176854,
+      "name": "TREX CO INC  (TWP): Annual Deferred Tax Assets Tax Deferred Expense Reserves And Accruals Warranty Reserves",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-10-31",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-03-20T18:48:48Z",
-      "urlize_name": "Urstadt-Biddle-Pptys-UBP-Market-Capitalization"
+      "updated_at": "2014-03-06T17:05:52Z",
+      "urlize_name": "TREX-CO-INC-TWP-Annual-Deferred-Tax-Assets-Tax-Deferred-Expense-Reserves-And-Accruals-Warranty-Reserves"
     },
     {
-      "code": "PNTV_MKT_DE",
+      "code": "TWP_DEFERREDTAXASSETSTAXDEFERREDEXPENSEOTHER_Q",
       "column_names": [
         "Date",
-        "Market Debt to Equity Ratio"
+        "Value"
       ],
-      "description": "Debt is defined as including both short term and long term debt (but not accounts payable or non-interest bearing liabilities), and the book value of debt is used as a proxy for market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "SEC Name: DeferredTaxAssetsTaxDeferredExpenseOther",
+      "display_url": null,
       "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5394847,
-      "name": "Players Network Inc ( PNTV ) - Market Debt to Equity Ratio",
+      "from_date": "2011-12-31",
+      "id": 10179011,
+      "name": "TREX CO INC  (TWP): Quarterly Deferred Tax Assets Tax Deferred Expense Other",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-20T18:48:52Z",
-      "urlize_name": "Players-Network-Inc-PNTV-Market-Debt-to-Equity-Ratio"
+      "updated_at": "2014-03-06T17:05:35Z",
+      "urlize_name": "TREX-CO-INC-TWP-Quarterly-Deferred-Tax-Assets-Tax-Deferred-Expense-Other"
     },
     {
-      "code": "PNTV_CORREL",
+      "code": "SLB_INCREASEDECREASEINACCRUEDINCOMETAXESPAYABLE_Q",
       "column_names": [
         "Date",
-        "Correlation with the Market"
+        "Value"
       ],
-      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 5394803,
-      "name": "Players Network Inc ( PNTV ) - Correlation with the Market",
+      "description": "SEC Name: IncreaseDecreaseInAccruedIncomeTaxesPayable",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-03-31",
+      "id": 10170180,
+      "name": "SCHLUMBERGER LTD /NV/  (SLB): Quarterly Increase Decrease In Accrued Income Taxes Payable",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-06T17:05:52Z",
+      "urlize_name": "SCHLUMBERGER-LTD-NV-SLB-Quarterly-Increase-Decrease-In-Accrued-Income-Taxes-Payable"
+    },
+    {
+      "code": "TWP_DEFERREDTAXASSETSTAXDEFERREDEXPENSERESERVESANDACCRUALSWARRANTYRESERVES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DeferredTaxAssetsTaxDeferredExpenseReservesAndAccrualsWarrantyReserves",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10176848,
+      "name": "TREX CO INC  (TWP): Quarterly Deferred Tax Assets Tax Deferred Expense Reserves And Accruals Warranty Reserves",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T17:05:35Z",
+      "urlize_name": "TREX-CO-INC-TWP-Quarterly-Deferred-Tax-Assets-Tax-Deferred-Expense-Reserves-And-Accruals-Warranty-Reserves"
+    },
+    {
+      "code": "TWP_DEFERREDTAXASSETSVALUATIONALLOWANCE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DeferredTaxAssetsValuationAllowance",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10176654,
+      "name": "TREX CO INC  (TWP): Quarterly Deferred Tax Assets Valuation Allowance",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T17:05:35Z",
+      "urlize_name": "TREX-CO-INC-TWP-Quarterly-Deferred-Tax-Assets-Valuation-Allowance"
+    },
+    {
+      "code": "SLB_INCOMELOSSFROMEQUITYMETHODINVESTMENTSNETOFDIVIDENDSORDISTRIBUTIONS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-03-31",
+      "id": 10170053,
+      "name": "SCHLUMBERGER LTD /NV/  (SLB): Quarterly Income Loss From Equity Method Investments Net Of Dividends Or Distributions",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-06T17:05:35Z",
+      "urlize_name": "SCHLUMBERGER-LTD-NV-SLB-Quarterly-Income-Loss-From-Equity-Method-Investments-Net-Of-Dividends-Or-Distributions"
+    },
+    {
+      "code": "SLB_INCREASEDECREASEINACCOUNTSPAYABLEANDACCRUEDLIABILITIES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-03-31",
+      "id": 10170144,
+      "name": "SCHLUMBERGER LTD /NV/  (SLB): Quarterly Increase Decrease In Accounts Payable And Accrued Liabilities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-06T17:05:35Z",
+      "urlize_name": "SCHLUMBERGER-LTD-NV-SLB-Quarterly-Increase-Decrease-In-Accounts-Payable-And-Accrued-Liabilities"
+    },
+    {
+      "code": "FBMS_BUSINESSACQUISITIONPURCHASEPRICEALLOCATIONASSETSACQUIREDLIABILITIESASSUMEDNET_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: BusinessAcquisitionPurchasePriceAllocationAssetsAcquiredLiabilitiesAssumedNet",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10179026,
+      "name": "FIRST BANCSHARES INC /MS/  (FBMS): Annual Business Acquisition Purchase Price Allocation Assets Acquired Liabilities Assumed Net",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-20T18:48:54Z",
-      "urlize_name": "Players-Network-Inc-PNTV-Correlation-with-the-Market"
+      "updated_at": "2014-03-06T17:05:53Z",
+      "urlize_name": "FIRST-BANCSHARES-INC-MS-FBMS-Annual-Business-Acquisition-Purchase-Price-Allocation-Assets-Acquired-Liabilities-Assumed-Net"
     },
     {
-      "code": "EFIR_DIV",
+      "code": "SLB_INCREASEDECREASEININVENTORIES_Q",
       "column_names": [
         "Date",
-        "Dividends"
+        "Value"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 6011152,
-      "name": "EGPI Firecreek Inc ( EFIR ) - Dividends",
+      "description": "SEC Name: IncreaseDecreaseInInventories",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-03-31",
+      "id": 10170084,
+      "name": "SCHLUMBERGER LTD /NV/  (SLB): Quarterly Increase Decrease In Inventories",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-06T17:05:53Z",
+      "urlize_name": "SCHLUMBERGER-LTD-NV-SLB-Quarterly-Increase-Decrease-In-Inventories"
+    },
+    {
+      "code": "TWP_DEFERREDTAXLIABILITIES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DeferredTaxLiabilities",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10176704,
+      "name": "TREX CO INC  (TWP): Annual Deferred Tax Liabilities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T17:05:35Z",
+      "urlize_name": "TREX-CO-INC-TWP-Annual-Deferred-Tax-Liabilities"
+    },
+    {
+      "code": "TWP_DEFERREDTAXLIABILITIES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DeferredTaxLiabilities",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10176712,
+      "name": "TREX CO INC  (TWP): Quarterly Deferred Tax Liabilities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T17:05:35Z",
+      "urlize_name": "TREX-CO-INC-TWP-Quarterly-Deferred-Tax-Liabilities"
+    },
+    {
+      "code": "FBMS_BUSINESSACQUISITIONPURCHASEPRICEALLOCATIONOTHERLIABILITIES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: BusinessAcquisitionPurchasePriceAllocationOtherLiabilities",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10179023,
+      "name": "FIRST BANCSHARES INC /MS/  (FBMS): Annual Business Acquisition Purchase Price Allocation Other Liabilities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-20T18:48:56Z",
-      "urlize_name": "EGPI-Firecreek-Inc-EFIR-Dividends"
+      "updated_at": "2014-03-06T17:05:36Z",
+      "urlize_name": "FIRST-BANCSHARES-INC-MS-FBMS-Annual-Business-Acquisition-Purchase-Price-Allocation-Other-Liabilities"
     },
     {
-      "code": "PNTV_DIV_YLD",
+      "code": "TWP_DEFERREDTAXASSETSVALUATIONALLOWANCE_A",
       "column_names": [
         "Date",
-        "Dividend Yield"
+        "Value"
       ],
-      "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "SEC Name: DeferredTaxAssetsValuationAllowance",
+      "display_url": null,
       "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5394809,
-      "name": "Players Network Inc ( PNTV ) - Dividend Yield",
+      "from_date": "2011-12-31",
+      "id": 10176669,
+      "name": "TREX CO INC  (TWP): Annual Deferred Tax Assets Valuation Allowance",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-03-20T18:49:19Z",
-      "urlize_name": "Players-Network-Inc-PNTV-Dividend-Yield"
-    },
-    {
-      "code": "PNTV_OP_MARG",
-      "column_names": [
-        "Date",
-        "Pre-Tax Operating Margin"
-      ],
-      "description": "Estimated by dividing the pre-tax operating income by the total revenues. This is a pre-tax measure of operating profitability: Pre-tax Operating Margin = EBIT / Sales. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5394863,
-      "name": "Players Network Inc ( PNTV ) - Pre-Tax Operating Margin",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-20T18:49:01Z",
-      "urlize_name": "Players-Network-Inc-PNTV-Pre-Tax-Operating-Margin"
-    },
-    {
-      "code": "UBP_MKT_DC",
-      "column_names": [
-        "Date",
-        "Market Debt to Capital Ratio"
-      ],
-      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-10-31",
-      "id": 5351234,
-      "name": "Urstadt Biddle Pptys ( UBP ) - Market Debt to Capital Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "1999-10-31",
-      "type": null,
-      "updated_at": "2014-03-20T18:49:24Z",
-      "urlize_name": "Urstadt-Biddle-Pptys-UBP-Market-Debt-to-Capital-Ratio"
-    },
-    {
-      "code": "SWWI_NET_INC_TRAIL",
-      "column_names": [
-        "Date",
-        "Trailing Net Income"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5521726,
-      "name": "Simon Worldwide Inc ( SWWI ) - Trailing Net Income",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-20T18:49:27Z",
-      "urlize_name": "Simon-Worldwide-Inc-SWWI-Trailing-Net-Income"
-    },
-    {
-      "code": "AMK_DIV_YLD",
-      "column_names": [
-        "Date",
-        "Dividend Yield"
-      ],
-      "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-12-31",
-      "id": 3944965,
-      "name": "Amer Tech Ceramics ( AMK ) - Dividend Yield",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-03-20T18:49:10Z",
-      "urlize_name": "Amer-Tech-Ceramics-AMK-Dividend-Yield"
-    },
-    {
-      "code": "UBP_NET_INC",
-      "column_names": [
-        "Date",
-        "Net Income"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-10-31",
-      "id": 5351237,
-      "name": "Urstadt Biddle Pptys ( UBP ) - Net Income",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-10-31",
-      "type": null,
-      "updated_at": "2014-03-20T18:49:32Z",
-      "urlize_name": "Urstadt-Biddle-Pptys-UBP-Net-Income"
-    },
-    {
-      "code": "ACUS_FIRM_VAL",
-      "column_names": [
-        "Date",
-        "Firm Value"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 3885178,
-      "name": "Acusphere Inc ( ACUS ) - Firm Value",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-20T18:49:34Z",
-      "urlize_name": "Acusphere-Inc-ACUS-Firm-Value"
-    },
-    {
-      "code": "PNTV_INV_CAP",
-      "column_names": [
-        "Date",
-        "Invested Capital"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5394843,
-      "name": "Players Network Inc ( PNTV ) - Invested Capital",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-20T18:49:17Z",
-      "urlize_name": "Players-Network-Inc-PNTV-Invested-Capital"
-    },
-    {
-      "code": "APSG_MKT_DC",
-      "column_names": [
-        "Date",
-        "Market Debt to Capital Ratio"
-      ],
-      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-10-31",
-      "id": 4036043,
-      "name": "Applied Signal Tech ( APSG ) - Market Debt to Capital Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2009-10-31",
-      "type": null,
-      "updated_at": "2014-03-20T18:49:39Z",
-      "urlize_name": "Applied-Signal-Tech-APSG-Market-Debt-to-Capital-Ratio"
-    },
-    {
-      "code": "MOLX_FLOAT",
-      "column_names": [
-        "Date",
-        "Number of Shares Outstanding"
-      ],
-      "description": "Units: million shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-06-30",
-      "id": 4683234,
-      "name": "Molex Inc. ( MOLX ) - Number of Shares Outstanding",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-06-30",
-      "type": null,
-      "updated_at": "2014-03-20T18:49:22Z",
-      "urlize_name": "Molex-Inc-MOLX-Number-of-Shares-Outstanding"
-    },
-    {
-      "code": "UBP_NCWC",
-      "column_names": [
-        "Date",
-        "Non-Cash Working Capital"
-      ],
-      "description": "Non-Cash Working Capital = Inventory + Other Current Assets + Accounts Receivable - Accounts Payable - Other Current Liabilities.  Current Assets excludes cash.  Current Liabilities excludes interest bearing debt. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-10-31",
-      "id": 5351248,
-      "name": "Urstadt Biddle Pptys ( UBP ) - Non-Cash Working Capital",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-10-31",
-      "type": null,
-      "updated_at": "2014-03-20T18:49:25Z",
-      "urlize_name": "Urstadt-Biddle-Pptys-UBP-Non-Cash-Working-Capital"
+      "updated_at": "2014-03-06T17:05:36Z",
+      "urlize_name": "TREX-CO-INC-TWP-Annual-Deferred-Tax-Assets-Valuation-Allowance"
     }
   ],
   "per_page": 20,
   "sources": [{
-    "code": "DMDRN",
-    "datasets_count": 0,
-    "description": "",
-    "host": "pages.stern.nyu.edu/~adamodar/",
-    "id": 6946,
-    "name": "Damodaran Financial Data"
+    "code": "SEC",
+    "datasets_count": 4867,
+    "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+    "host": "www.sec.gov",
+    "id": 651,
+    "name": "U.S. Securities and Exchange Commission"
   }],
-  "total_count": 10006019
+  "total_count": 10053489
 }

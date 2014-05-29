@@ -1,403 +1,368 @@
 {
-  "current_page": 295292,
+  "current_page": 268975,
   "docs": [
     {
-      "code": "390_KIR",
+      "code": "NCU2301050900011",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "SEX: Female.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=456",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/SA_0000001411&filter=SEX:FMLE;COUNTRY:KIR;\n",
+      "description": "Occupation: Health related occupations; Skills: Level 11 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301050900011",
       "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 9532991,
-      "name": "Abstainers, past 12 months (%) Female - Kiribati",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2004-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T04:27:51Z",
-      "urlize_name": "Abstainers-past-12-months-Female-Kiribati"
-    },
-    {
-      "code": "UIS_TOTALSECONDARYNETENROLMENTRATEGPI__DOM",
-      "column_names": [
-        "Year",
-        "Number"
-      ],
-      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1999-12-31",
-      "id": 3536216,
-      "name": "Total Secondary Net enrolment rate GPI - Dominican Republic",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T15:06:14Z",
-      "urlize_name": "Total-Secondary-Net-enrolment-rate-GPI-Dominican-Republic"
-    },
-    {
-      "code": "IND_PARTICLEBOARDANDSIMILARBOARDOFWOODOROTHERLIGNEOUSMATERIALS_THOUSANDCUBICMETRES_BD",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1995-12-31",
-      "id": 3340044,
-      "name": "Industrial Commodities / Particle Board And Similar Board Of Wood Or Other Ligneous Materials / Thousand Cubic Metres - Bangladesh",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T17:43:04Z",
-      "urlize_name": "Industrial-Commodities-Particle-Board-And-Similar-Board-Of-Wood-Or-Other-Ligneous-Materials-Thousand-Cubic-Metres-Bangladesh"
-    },
-    {
-      "code": "122_KIR",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2465",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/SA_0000001688&filter=COUNTRY:KIR;\n",
-      "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9507122,
-      "name": "Total (recorded + unrecorded) adult (15+ years) per capita consumption, projected estimates for 2008 - Kiribati",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2008-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T04:24:55Z",
-      "urlize_name": "Total-recorded-unrecorded-adult-15-years-per-capita-consumption-projected-estimates-for-2008-Kiribati"
-    },
-    {
-      "code": "463_NAM",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEX: Both sexes.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2377",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/SA_0000001436&filter=SEX:BTSX;COUNTRY:NAM;\n",
-      "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 9545676,
-      "name": "Age-standardized DALYs, violence, per 100,000 - Namibia",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2004-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T04:27:48Z",
-      "urlize_name": "Age-standardized-DALYs-violence-per-100-000-Namibia"
-    },
-    {
-      "code": "FAO_115CAMBODIA2911PULSESTOTAL",
-      "column_names": [
-        "Year",
-        "Production Quantity (1000 tonnes)",
-        "Import Quantity (1000 tonnes)",
-        "Stock Variation (1000 tonnes)",
-        "Export Quantity (1000 tonnes)",
-        "Domestic supply quantity (1000 tonnes)",
-        "Seed (1000 tonnes)",
-        "Waste (1000 tonnes)",
-        "Food (1000 tonnes)",
-        "Food supply quantity (kg/capita/yr) (Kg)",
-        "Food supply (kcal/capita/day) (kcal/capita/day)",
-        "Protein supply quantity (g/capita/day) (g/capita/day)",
-        "Fat supply quantity (g/capita/day) (g/capita/day)"
-      ],
-      "description": "A food balance sheet presents a comprehensive picture of the pattern of a country's food supply during a specified reference period. The food balance sheet shows for each food item i.e. each primary commodity availablity for human consumption which corresponds to the sources of supply and its utilisation. The total quantity of foodstuffs produced in a country added to the total quantity imported and adjusted to any change in stocks that may have occurred since the beginning of the reference period gives the supply available during that period. On the utilisation side a distinction is made between the quantities exported, fed to livestock + used for seed, losses during storage and transportation, and food supplies available for human consumption. The per capita supply of each such food item available for human consumption is then obtained by dividing the respective quantity by the related data on the population actually partaking in it. Data on per capita food supplies are expressed in terms of quantity and by applying appropriate food composition factors for all primary and processed products also in terms of dietary energy value, protein and fat content.",
-      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/FoodBalanceSheets_E_Asia_1.zip",
-      "frequency": "annual",
-      "from_date": "1961-12-31",
-      "id": 7780203,
-      "name": "Food Balance Sheets: Pulses + (Total) - Cambodia",
-      "private": false,
-      "source_code": "FAO",
-      "source_name": "Food and Agriculture Organization of the United Nations",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T19:09:12Z",
-      "urlize_name": "Food-Balance-Sheets-Pulses-Total-Cambodia"
-    },
-    {
-      "code": "IIUGP1GP1AAA38727",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Measure: Rate of injury and illness cases per 100 full-time workers; Case type: Other recordable cases; Industry: Goods-producing; Supersector: Goods producing; Area: State government, Minnesota; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUGP1GP1AAA38727",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 9252542,
-      "name": "Rate of injury and illness cases per 100 full-time workers for Goods-producing, State government, Minnesota",
+      "from_date": "2003-09-30",
+      "id": 9111436,
+      "name": "Compensation for Health related occupations in Level 11",
       "private": false,
       "source_code": "BLS",
       "source_name": "Bureau of Labor Statistics",
-      "to_date": "2011-12-31",
+      "to_date": "2005-10-31",
       "type": null,
-      "updated_at": "2013-11-20T10:21:10Z",
-      "urlize_name": "Rate-of-injury-and-illness-cases-per-100-full-time-workers-for-Goods-producing-State-government-Minnesota"
+      "updated_at": "2013-11-16T12:58:08Z",
+      "urlize_name": "Compensation-for-Health-related-occupations-in-Level-11"
     },
     {
-      "code": "COMM_75_POWDERSCOPPEROFLAMELLARSTRUCTUREANDFLAKES_EXPORT_HRV",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 4305694,
-      "name": "Commodity Exports - Copper And Articles Thereof / Powders, copper, of lamellar structure and flakes - Croatia",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2007-12-31",
-      "type": null,
-      "updated_at": "2013-04-14T08:01:07Z",
-      "urlize_name": "Commodity-Exports-Copper-And-Articles-Thereof-Powders-copper-of-lamellar-structure-and-flakes-Croatia"
-    },
-    {
-      "code": "ELEC_PLANT_CONS_TOT_BTU_50973_NG_ST_M",
+      "code": "DDDI01NZA156NWDB",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.50973-NG-ST.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.50973-NG-ST.M&out=xml",
-      "frequency": "monthly",
-      "from_date": "2010-01-31",
-      "id": 4988741,
-      "name": "Fuel Consumption Mmbtus : Motiva Enterprises Port Arthur Refinery : Natural Gas : Steam Turbine : Monthly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2011-08-31",
-      "type": null,
-      "updated_at": "2014-01-10T02:07:04Z",
-      "urlize_name": "Fuel-Consumption-Mmbtus-Motiva-Enterprises-Port-Arthur-Refinery-Natural-Gas-Steam-Turbine-Monthly"
-    },
-    {
-      "code": "POP_22_SPM_MAL_TOT_3",
-      "column_names": [
-        "Year",
-        "Number"
-      ],
-      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "description": "Percent Not Seasonally Adjusted, The financial resources provided to the private sector by domestic money banks as a share of GDP. Domestic money banks comprise commercial banks and other financial institutions that accept transferable deposits, such as demand deposits.  Private credit by deposit money banks and other financial institutions to GDP, calculated using the following deflation method: {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is credit to the private sector, P_e is end-of period CPI, and P_a is average annual CPI. Raw data are from the electronic version of the IMF's International Financial Statistics. Private credit by deposit money banks (IFS line 22d); GDP in local currency (IFS line 99B..ZF or, if not available, line 99B.CZF); end-of period CPI (IFS line 64M..ZF or, if not available, 64Q..ZF); and annual CPI (IFS line 64..ZF). (International Monetary Fund, International Financial Statistics, and World Bank GDP estimates)  Source Code: GFDD.DI.01 ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/DDDI01NZA156NWDB.csv",
       "frequency": "annual",
-      "from_date": "1957-12-31",
-      "id": 2841299,
-      "name": "Population - Male / Age 3 / Total Areas - Saint Pierre and Miquelon",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "1999-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T18:02:07Z",
-      "urlize_name": "Population-Male-Age-3-Total-Areas-Saint-Pierre-and-Miquelon"
-    },
-    {
-      "code": "ELEC_RECEIPTS_BTU_NG_AK_98_M",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Billion Btu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.RECEIPTS_BTU.NG-AK-98.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.RECEIPTS_BTU.NG-AK-98.M&out=xml",
-      "frequency": "monthly",
-      "from_date": "2008-01-31",
-      "id": 5231192,
-      "name": "Receipts Of Fossil Fuels (btus) : Natural Gas : Alaska : Electric Power : Monthly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2014-01-09T22:13:51Z",
-      "urlize_name": "Receipts-Of-Fossil-Fuels-btus-Natural-Gas-Alaska-Electric-Power-Monthly"
-    },
-    {
-      "code": "121_COD",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=462",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/WHOSIS_000011&filter=COUNTRY:COD;\n",
-      "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 9506885,
-      "name": "Alcohol consumption among adults aged ?15 years (litres of pure alcohol per person per year) - Democratic Republic of the Congo",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T04:24:55Z",
-      "urlize_name": "Alcohol-consumption-among-adults-aged-15-years-litres-of-pure-alcohol-per-person-per-year-Democratic-Republic-of-the-Congo"
-    },
-    {
-      "code": "INN_C512_959",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The Community Innovation Survey (CIS) is a survey on innovation activity in enterprises covering EU Member States, EU Candidate Countries, Iceland and Norway.\r\nThe CIS data collection has been carried out on a four-yearly basis. The first data collection (CIS light) was launched in 1993 as a pilot exercise and the second survey (CIS2) was carried out in 1997/1998 for most of the countries except for Greece and Ireland where it was launched in 1999. The third survey (CIS3) was implemented in 2000/2001 for most of the participating countries with the exception of Norway, Iceland, Luxembourg and Greece where the survey was launched in 2002.\r\nFrom 2004 onwards, the frequency of the CIS survey has increased with a full survey carried out every four years and a reduced survey every two years after the main one.\r\nThe CIS4 was carried out in 25 Member States, Candidate Countries, Iceland and Norway; was launched in 2005, based on the reference period 2004, with the observation period 2002 to 2004.\r\nThe fifth survey CIS 2006 was carried out in 27 Member States, Candidate Countries and Norway; was launched in 2007, based on the reference period 2006, with the observation period 2004 to 2006.\r\nThe last survey CIS 2008 was carried out in 27 Member States, Candidate Countries, Norway and Iceland; was launched in 2009, based on the reference period 2008, with the observation period 2006 to 2008.\r\nIn order to ensure comparability across countries, Eurostat, in close cooperation with the EU Member States, developed a standard core questionnaire starting with CIS3 data collection, with an accompanying set of definitions and methodological recommendations. The responsibility for the survey at a national level is in most cases, with the National Statistical Office or a national Ministry.\r\nThe CIS is designed to obtain information on innovation activities within enterprises, as well as various aspects of the process such as the effects of innovation, sources of information used, costs etc.\r\nThe CIS is based on the Oslo Manual - Second edition from 1997 and third edition from 2005 - (See annex at the bottom of the page) which gives methodological guidelines and defines the innovation concept.\r\nThe changes to the CIS 2008 questionnaire were based on the requirement to meet the third revision of the Oslo Manual, 2005 edition. This was achieved by giving greater weight to organisational and marketing innovation. However, the question on innovation expenditures is still limited to product and process innovation in order to maintain continuity with earlier versions of the CIS. Furthermore, fewer questions are asked of organisational and marketing innovation than for product and process innovation.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/inn_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Finn_c512.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "1996-12-31",
-      "id": 912146,
-      "name": "Type of innovating firms engagement in RD by size class  : Engaged occasionally in R&D : 250 employees or more : Manufacturing : Relative value, relating to innovating enterprises : Luxembourg",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "1996-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T16:31:42Z",
-      "urlize_name": "Type-of-innovating-firms-engagement-in-RD-by-size-class-Engaged-occasionally-in-R-D-250-employees-or-more-Manufacturing-Relative-value-relating-to-innovating-enterprises-Luxembourg"
-    },
-    {
-      "code": "COMM_73_BARRODIRONORNONALLOYSTEELHOTFORMED02506CNES_EXPORT_TUR",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1989-12-31",
-      "id": 4207619,
-      "name": "Commodity Exports - Iron And Steel / Bar/rod, iron or non-alloy steel, hot formed 0.25-0.6%C, nes - Turkey",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "1995-12-31",
-      "type": null,
-      "updated_at": "2013-04-14T07:47:28Z",
-      "urlize_name": "Commodity-Exports-Iron-And-Steel-Bar-rod-iron-or-non-alloy-steel-hot-formed-0-25-0-6-C-nes-Turkey"
-    },
-    {
-      "code": "STATMON_S1_2A_M1_6366",
-      "column_names": [
-        "Year",
-        "Rate"
-      ],
-      "description": "Direct investment, S1_2a Swiss direct investment abroad - capital stock - by country, Total (all companies) (annually). More detailed information at http://www.snb.ch/ext/stats/statmon/pdf/deen/S1_2_a_Kapitalbestand.pdf",
-      "display_url": "http://www.snb.ch/ext/stats/statmon/xls/en/statmon_S1_2a_M1.xls",
-      "frequency": "annual",
-      "from_date": "1993-12-31",
-      "id": 4528199,
-      "name": "Direct investment, S1_2a Swiss direct investment abroad - capital stock - by country: Czech Republic",
-      "private": false,
-      "source_code": "SNB",
-      "source_name": "Swiss National Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-09T22:54:50Z",
-      "urlize_name": "Direct-investment-S1_2a-Swiss-direct-investment-abroad-capital-stock-by-country-Czech-Republic"
-    },
-    {
-      "code": "696_001526757_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=696",
-      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
-      "frequency": "monthly",
-      "from_date": "2002-03-31",
-      "id": 8250599,
-      "name": "Quarterly accounts - Compensation of employees - NACE F - Current prices - Millions of euro - Seasonally adjusted - Euro area (15 countries) - Stopped series",
-      "private": false,
-      "source_code": "INSEE",
-      "source_name": "National Institute of Statistics and Economic Studies (France)",
-      "to_date": "2008-03-31",
-      "type": null,
-      "updated_at": "2014-01-08T21:25:36Z",
-      "urlize_name": "Quarterly-accounts-Compensation-of-employees-NACE-F-Current-prices-Millions-of-euro-Seasonally-adjusted-Euro-area-15-countries-Stopped-series"
-    },
-    {
-      "code": "EDUC_BO_AC_ENT2_469",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The Bologna declaration was signed in 1999 by 29 European ministers responsible for higher education. Today, 46 signatory countries are engaged in the process towards a European Higher Education Area (EHEA). The Bologna Process is an intergovernmental initiative which also involves the European Commission, the Council of Europe and UNESCO-CEPES, as well as representatives of higher education institutions, students, staff, employers and quality assurance agencies. It aims to create a European Higher Education Area by 2010, and to promote the European system of higher education worldwide. More information on the Bologna process is available on http://ec.europa.eu/education/higher-education/doc1290_en.htm.\r\nMany indicators on social dimension and mobility in the Bologna process come from the UOE data collection in the education statistics domain. The aim of the education statistics domain is to provide comparable statistics and indicators on key aspects of the education systems across Europe. The data cover participation and completion of education programmes, personnel in education and the cost and type of resources dedicated to education.\r\nThe main source of data is the joint UIS (UNESCO Institute of Statistics)/OECD/Eurostat (UOE) questionnaires on education statistics, which constitute the core database on education. Data on regional enrolments and foreign language learning are collected additionally by Eurostat. Countries provide data, coming from administrative records, on the basis of commonly agreed definitions.\r\nFrom the UOE data collection, the following datasets on the Bologna Process are available:\r\nA. Widening access\r\neduc_bo_ac_ent2: Net entry rate (ISCED 5A) by age and sex\r\neduc_bo_ac_ent3: Female entrants by field of education (ISCED 5A)\r\neduc_bo_ac_gent: Entrants at ISCED 5A and qualifying graduates of secondary schooling (ISCED 3A - 4A)\r\neduc_bo_ac_el1t: Students (ISCED 5A) studying part-time, by age \r\nB. Study framework\r\neduc_bo_fi_fgdp: Public expenditure on tertiary education (ISCED 5-6), as % of GDP or total public expenditure\r\neduc_bo_fi_ftot: Annual total expenditure on educational institutions (ISCED 5-6) per full-time equivalent student with and without expenditure on research and ancillary services\r\neduc_bo_fi_ffun: Tertiary education institutions' income from private sources (households and other private entities) as % of all public and private sources\r\neduc_bo_fi_fiaid: Public financial aid to tertiary students (ISCED 5-6), by type of aid, as % of public expenditure on tertiary education\r\nC. Student and staff mobility\r\neduc_bo_mo_el8o: Students (ISCED 5A and 6) who are nationals of a given country, studying in another country (EU-27, EFTA and CC) as % of the total enrolment in that country\r\neduc_bo_mo_el8i: Number of foreign students (world and Bologna Area) studying in a given country, as % of the total enrolment in that country, ISCED 5A and 6\r\neduc_bo_mo_gr4: Graduates (ISCED 5A and 6) from abroad (non-citizens, permanent residence and prior education outside the country)\r\nD. Effective outcomes and employability\r\neduc_bo_ou_gren: Gross graduation rate and net entry rate, ISCED 5A\r\n \r\nThe data for some countries which do not participate in the UOE data collection were provided to Eurostat specifically for the monitoring of the Bologna Process. Not being fully integrated in the UOE, the data sometimes might not be as comparable as the data for the remaining countries, due to differences in the underlying data sources and definitions. These data were provided by the following entities:\r\nAndorra (AD): data provided by the University of Andorra (indicators educ_bo_ac_ent3, educ_bo_fi_ffun, educ_bo_mo_el8i, educ_bo_mo_gr4)\r\nArmenia (AM): data provided by the Ministry of Education and Science (educ_bo_ac_gent, educ_bo_ac_el1t, educ_bo_mo_gr4, educ_bo_ou_gren)\r\nGeorgia (GE): data provided by the NSI, Statistics Georgia (educ_bo_ac_ent3, educ_bo_ac_el1t, educ_bo_fi_fgdp, educ_bo_mo_gr4)\r\nSerbia (RS): data provided by the NSI, Statistical Office of the Republic of Serbia (educ_bo_mo_el8i)\r\nUkraine (UA): data provided by the NSI, State Statistics Committee for Ukraine (educ_bo_ou_gren, educ_bo_ac_el1t, educ_bo_mo_el8i, educ_bo_mo_gr4, educ_bo_ou_gren)\r\n\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/educ_bo_ac_ent2_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Feduc_bo_ac_ent2.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 920279,
-      "name": "Net entry rate ISCED 5A by age and sex  : Females : From 30 to 34 years : Germany (including  former GDR from 1991)",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2006-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T15:33:40Z",
-      "urlize_name": "Net-entry-rate-ISCED-5A-by-age-and-sex-Females-From-30-to-34-years-Germany-including-former-GDR-from-1991"
-    },
-    {
-      "code": "MED_NRG107A_428",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The focus of this domain is on the following countries:\r\nAlgeria, Egypt, Israel, Jordan, Lebanon, Morocco, Palestinian Authority, Syria, Tunisia.\r\nData are provided for 200 to 300 indicators depending on the country.\r\n \r\nThe data for the Mediterranean partner countries are supplied by and under the responsibility of the national statistical authorities  of each of the countries or territories. The data and their denomination in no way constitute the  expression of an opinion by the European Commission on the  legal status of a country or territory or on the delimitation of its frontiers.\r\n \nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/med_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fmed_nrg107a.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 873454,
-      "name": "Supply transformation consumption  renewables biomass and wastes  annual data  : Output from coke-oven plants : Geothermal Energy : Tunisia",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2006-12-31",
-      "type": null,
-      "updated_at": "2013-05-08T10:08:09Z",
-      "urlize_name": "Supply-transformation-consumption-renewables-biomass-and-wastes-annual-data-Output-from-coke-oven-plants-Geothermal-Energy-Tunisia"
-    },
-    {
-      "code": "DDAI03TOA156NWDB",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Percent Not Seasonally Adjusted, Firms in the formal sector with a line of credit or a loan from a financial institution. Data are shown as a percentage of total firms in the formal sector .  Survey question K8. Firm observations are aggregated to country level using firm-specific weights. \u201cStandardized data 2006-2011\u201d was used to ensure comparability, which however results in lower coverage. World Bank - Enterprise Survey  Source Code: GFDD.AI.03 ",
-      "display_url": "http://research.stlouisfed.org/fred2/data/DDAI03TOA156NWDB.csv",
-      "frequency": "annual",
-      "from_date": "2009-01-01",
-      "id": 8522458,
-      "name": "Firms with Line of Credit to Total Firms (All Firms) for Tonga",
+      "from_date": "1961-01-01",
+      "id": 8517102,
+      "name": "Bank Private Credit to GDP for New Zealand",
       "private": false,
       "source_code": "FRED",
       "source_name": "Federal Reserve Economic Data",
-      "to_date": "2009-01-01",
+      "to_date": "2010-01-01",
       "type": null,
-      "updated_at": "2014-01-12T15:27:47Z",
-      "urlize_name": "Firms-with-Line-of-Credit-to-Total-Firms-All-Firms-for-Tonga"
+      "updated_at": "2014-01-12T20:22:25Z",
+      "urlize_name": "Bank-Private-Credit-to-GDP-for-New-Zealand"
     },
     {
-      "code": "COMM_84_SINKERSNEEDLESETCFORKNITTINGETCMACHINES_IMPORT_HKG",
+      "code": "NCU3606723242600",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Guards and police, exc. public service; Skills: Overall occupation average (no work level) (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU3606723242600",
+      "frequency": "annual",
+      "from_date": "2000-03-31",
+      "id": 9168679,
+      "name": "Compensation for Guards and police, exc. public service in Overall occupation average (no work level)",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2002-03-31",
+      "type": null,
+      "updated_at": "2013-11-17T09:23:12Z",
+      "urlize_name": "Compensation-for-Guards-and-police-exc-public-service-in-Overall-occupation-average-no-work-level"
+    },
+    {
+      "code": "OEUN000000062220213107001",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Statistic: Employment; Occupation: Human Resources Workers; Industry: Psychiatric and Substance Abuse Hospitals - State government owned; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000062220213107001",
+      "frequency": "annual",
+      "from_date": "2012-06-30",
+      "id": 9171734,
+      "name": "Employment for Human Resources Workers in Psychiatric and Substance Abuse Hospitals - State government owned in National",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2013-11-17T10:05:52Z",
+      "urlize_name": "Employment-for-Human-Resources-Workers-in-Psychiatric-and-Substance-Abuse-Hospitals-State-government-owned-in-National"
+    },
+    {
+      "code": "NCU2301050900099",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Health related occupations; Skills: Not able to be leveled (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301050900099",
+      "frequency": "annual",
+      "from_date": "2003-09-30",
+      "id": 9111439,
+      "name": "Compensation for Health related occupations in Not able to be leveled",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-10-31",
+      "type": null,
+      "updated_at": "2013-11-16T12:58:09Z",
+      "urlize_name": "Compensation-for-Health-related-occupations-in-Not-able-to-be-leveled"
+    },
+    {
+      "code": "NCU2301050909508",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Registered nurses; Skills: Level 08 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301050909508",
+      "frequency": "annual",
+      "from_date": "2003-09-30",
+      "id": 9111473,
+      "name": "Compensation for Registered nurses in Level 08",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-10-31",
+      "type": null,
+      "updated_at": "2013-11-16T12:58:28Z",
+      "urlize_name": "Compensation-for-Registered-nurses-in-Level-08"
+    },
+    {
+      "code": "NCU2301051012700",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Engineering teachers, postsecondary; Skills: Overall occupation average (no work level) (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301051012700",
+      "frequency": "annual",
+      "from_date": "1999-10-31",
+      "id": 9111550,
+      "name": "Compensation for Engineering teachers, postsecondary in Overall occupation average (no work level)",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "1999-10-31",
+      "type": null,
+      "updated_at": "2013-11-16T12:59:23Z",
+      "urlize_name": "Compensation-for-Engineering-teachers-postsecondary-in-Overall-occupation-average-no-work-level"
+    },
+    {
+      "code": "NCU2301050909599",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Registered nurses; Skills: Not able to be leveled (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301050909599",
+      "frequency": "annual",
+      "from_date": "2002-09-30",
+      "id": 9111481,
+      "name": "Compensation for Registered nurses in Not able to be leveled",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2002-09-30",
+      "type": null,
+      "updated_at": "2013-11-16T12:58:27Z",
+      "urlize_name": "Compensation-for-Registered-nurses-in-Not-able-to-be-leveled"
+    },
+    {
+      "code": "NCU2301051000010",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Teachers, college and university; Skills: Level 10 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301051000010",
+      "frequency": "annual",
+      "from_date": "2004-09-30",
+      "id": 9111513,
+      "name": "Compensation for Teachers, college and university in Level 10",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-10-31",
+      "type": null,
+      "updated_at": "2013-11-16T12:58:55Z",
+      "urlize_name": "Compensation-for-Teachers-college-and-university-in-Level-10"
+    },
+    {
+      "code": "NCU2301051100007",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Teachers, except college and universities; Skills: Level 07 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301051100007",
+      "frequency": "annual",
+      "from_date": "2003-09-30",
+      "id": 9111615,
+      "name": "Compensation for Teachers, except college and universities in Level 07",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-10-31",
+      "type": null,
+      "updated_at": "2013-11-16T13:00:24Z",
+      "urlize_name": "Compensation-for-Teachers-except-college-and-universities-in-Level-07"
+    },
+    {
+      "code": "NCU2301050909506",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Registered nurses; Skills: Level 06 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301050909506",
+      "frequency": "annual",
+      "from_date": "2004-09-30",
+      "id": 9111469,
+      "name": "Compensation for Registered nurses in Level 06",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2004-09-30",
+      "type": null,
+      "updated_at": "2013-11-16T12:58:27Z",
+      "urlize_name": "Compensation-for-Registered-nurses-in-Level-06"
+    },
+    {
+      "code": "NCU3606723242603",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Guards and police, exc. public service; Skills: Level 03 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU3606723242603",
+      "frequency": "annual",
+      "from_date": "1999-07-31",
+      "id": 9168681,
+      "name": "Compensation for Guards and police, exc. public service in Level 03",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2001-03-31",
+      "type": null,
+      "updated_at": "2013-11-17T09:23:15Z",
+      "urlize_name": "Compensation-for-Guards-and-police-exc-public-service-in-Level-03"
+    },
+    {
+      "code": "NCU2301051000011",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Teachers, college and university; Skills: Level 11 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301051000011",
+      "frequency": "annual",
+      "from_date": "2003-09-30",
+      "id": 9111514,
+      "name": "Compensation for Teachers, college and university in Level 11",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-10-31",
+      "type": null,
+      "updated_at": "2013-11-16T12:58:53Z",
+      "urlize_name": "Compensation-for-Teachers-college-and-university-in-Level-11"
+    },
+    {
+      "code": "NCU2301051015300",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Teachers, postsecondary, n.e.c.; Skills: Overall occupation average (no work level) (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301051015300",
+      "frequency": "annual",
+      "from_date": null,
+      "id": 9111599,
+      "name": "Compensation for Teachers, postsecondary, n.e.c. in Overall occupation average (no work level)",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "1998-10-31",
+      "type": null,
+      "updated_at": "2013-11-16T13:00:12Z",
+      "urlize_name": "Compensation-for-Teachers-postsecondary-n-e-c-in-Overall-occupation-average-no-work-level"
+    },
+    {
+      "code": "NCU2301051100006",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Teachers, except college and universities; Skills: Level 06 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301051100006",
+      "frequency": "annual",
+      "from_date": "1997-08-31",
+      "id": 9111613,
+      "name": "Compensation for Teachers, except college and universities in Level 06",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "1997-08-31",
+      "type": null,
+      "updated_at": "2013-11-16T13:00:21Z",
+      "urlize_name": "Compensation-for-Teachers-except-college-and-universities-in-Level-06"
+    },
+    {
+      "code": "NCU2301051000012",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Teachers, college and university; Skills: Level 12 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301051000012",
+      "frequency": "annual",
+      "from_date": "2003-09-30",
+      "id": 9111515,
+      "name": "Compensation for Teachers, college and university in Level 12",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-10-31",
+      "type": null,
+      "updated_at": "2013-11-16T12:58:56Z",
+      "urlize_name": "Compensation-for-Teachers-college-and-university-in-Level-12"
+    },
+    {
+      "code": "NCU2301051000013",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Teachers, college and university; Skills: Level 13 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301051000013",
+      "frequency": "annual",
+      "from_date": "2003-09-30",
+      "id": 9111516,
+      "name": "Compensation for Teachers, college and university in Level 13",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-10-31",
+      "type": null,
+      "updated_at": "2013-11-16T12:58:54Z",
+      "urlize_name": "Compensation-for-Teachers-college-and-university-in-Level-13"
+    },
+    {
+      "code": "NCU2301051013300",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Medical science teachers, postsecondary; Skills: Overall occupation average (no work level) (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301051013300",
+      "frequency": "annual",
+      "from_date": "2003-09-30",
+      "id": 9111566,
+      "name": "Compensation for Medical science teachers, postsecondary in Overall occupation average (no work level)",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-10-31",
+      "type": null,
+      "updated_at": "2013-11-16T12:59:31Z",
+      "urlize_name": "Compensation-for-Medical-science-teachers-postsecondary-in-Overall-occupation-average-no-work-level"
+    },
+    {
+      "code": "COMM_65_FOOTWEARNES_EXPORT_MKD",
       "column_names": [
         "Year",
         "Trade (USD)",
@@ -408,109 +373,63 @@
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
       "from_date": "1994-12-31",
-      "id": 4613268,
-      "name": "Commodity Imports - Nuclear Reactors, Boilers, Machinery, Etc / Sinkers, needles etc for knitting, etc machines - China, Hong Kong SAR",
+      "id": 4026889,
+      "name": "Commodity Exports - Footwear, Gaiters And The Like, Parts Thereof / Footwear, nes - TFYR of Macedonia",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2013-05-17T10:28:22Z",
-      "urlize_name": "Commodity-Imports-Nuclear-Reactors-Boilers-Machinery-Etc-Sinkers-needles-etc-for-knitting-etc-machines-China-Hong-Kong-SAR"
+      "updated_at": "2014-01-13T19:55:06Z",
+      "urlize_name": "Commodity-Exports-Footwear-Gaiters-And-The-Like-Parts-Thereof-Footwear-nes-TFYR-of-Macedonia"
+    },
+    {
+      "code": "IIULEHSP1LEH4W129",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Number of illness cases (thousands); Case type: Total recordable cases of respiratory illnesses; Industry: Leisure and hospitality; Supersector: Leisure and hospitality; Area: Private industry, Missouri; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIULEHSP1LEH4W129",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 9388530,
+      "name": "Number of illness cases (thousands) for Leisure and hospitality, Private industry, Missouri",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-11-22T16:07:47Z",
+      "urlize_name": "Number-of-illness-cases-thousands-for-Leisure-and-hospitality-Private-industry-Missouri"
     }
   ],
   "per_page": 20,
   "sources": [
     {
-      "code": "EIA",
-      "concurrency": 20,
-      "datasets_count": 427809,
-      "description": "No description for this source yet",
-      "host": "www.api.eia.gov",
-      "id": 661,
-      "name": "U.S. Energy Information Administration",
-      "use_proxy": false
-    },
-    {
-      "code": "FAO",
-      "concurrency": 20,
-      "datasets_count": 0,
-      "description": "No description for this source yet",
-      "host": "faostat3.fao.org",
-      "id": 863,
-      "name": "Food and Agriculture Organization of the United Nations",
-      "use_proxy": false
-    },
-    {
-      "code": "WHO",
-      "concurrency": 20,
-      "datasets_count": 21456,
-      "description": "",
-      "host": "apps.who.int",
-      "id": 525,
-      "name": "World Health Organization",
-      "use_proxy": false
-    },
-    {
-      "code": "SNB",
-      "concurrency": 20,
-      "datasets_count": 39406,
-      "description": "No description for this source yet",
-      "host": "www.snb.ch",
-      "id": 615,
-      "name": "Swiss National Bank",
-      "use_proxy": false
-    },
-    {
       "code": "UN",
-      "concurrency": 10000,
       "datasets_count": 2100274,
       "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
       "host": "data.un.org",
       "id": 488,
-      "name": "United Nations",
-      "use_proxy": false
-    },
-    {
-      "code": "EUROSTAT",
-      "concurrency": 100,
-      "datasets_count": 320722,
-      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
-      "host": "epp.eurostat.ec.europa.eu",
-      "id": 194,
-      "name": "EuroStat",
-      "use_proxy": false
-    },
-    {
-      "code": "INSEE",
-      "concurrency": 20,
-      "datasets_count": 0,
-      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
-      "host": "www.insee.fr",
-      "id": 1097,
-      "name": "National Institute of Statistics and Economic Studies (France)",
-      "use_proxy": false
+      "name": "United Nations"
     },
     {
       "code": "BLS",
-      "concurrency": 10,
       "datasets_count": 5888,
       "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
       "host": "www.bls.gov",
       "id": 162,
-      "name": "Bureau of Labor Statistics",
-      "use_proxy": false
+      "name": "Bureau of Labor Statistics"
     },
     {
       "code": "FRED",
-      "concurrency": 8,
       "datasets_count": 60949,
       "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
       "host": "www.research.stlouisfed.org",
       "id": 118,
-      "name": "Federal Reserve Economic Data",
-      "use_proxy": false
+      "name": "Federal Reserve Economic Data"
     }
   ],
-  "total_count": 9990700
+  "total_count": 10036987
 }

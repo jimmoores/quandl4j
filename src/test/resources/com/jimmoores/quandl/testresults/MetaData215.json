@@ -1,21 +1,23 @@
 {
-  "code": "AMRB_OTHERCOMPREHENSIVEINCOMEUNREALIZEDHOLDINGGAINLOSSONSECURITIESARISINGDURINGPERIODNETOFTAX_Q",
+  "code": "COMM_84_DRYINGMACHINESNES_IMPORT_PNG",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "SEC Name: OtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesArisingDuringPeriodNetOfTax",
-  "display_url": null,
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2012-03-31",
-  "id": 10084800,
-  "name": "AMERICAN RIVER BANKSHARES  (AMRB): Quarterly Other Comprehensive Income Unrealized Holding Gain Loss On Securities Arising During Period Net Of Tax",
+  "frequency": "annual",
+  "from_date": "1998-12-31",
+  "id": 4766243,
+  "name": "Commodity Imports - Nuclear Reactors, Boilers, Machinery, Etc / Drying machines, nes - Papua New Guinea",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-09-30",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2004-12-31",
   "type": null,
-  "updated_at": "2014-02-25T21:35:52Z",
-  "urlize_name": "AMERICAN-RIVER-BANKSHARES-AMRB-Quarterly-Other-Comprehensive-Income-Unrealized-Holding-Gain-Loss-On-Securities-Arising-During-Period-Net-Of-Tax"
+  "updated_at": "2013-12-29T06:57:23Z",
+  "urlize_name": "Commodity-Imports-Nuclear-Reactors-Boilers-Machinery-Etc-Drying-machines-nes-Papua-New-Guinea"
 }

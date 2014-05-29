@@ -1,21 +1,21 @@
 {
-  "code": "ZOMX_BETA",
+  "code": "V61621024",
   "column_names": [
     "Date",
-    "3-Year Regression Beta"
+    "Value"
   ],
-  "description": "Estimated by regressing weekly returns on stock against NYSE composite. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "{\"Geography\"=>\"Vernon, British Columbia\", \"North American Industry Classification System (NAICS)\"=>\"All families\", \"Type of client\"=>\"Families with 2 children\", nil=>\"Older parent aged 45 to 54 years\"}",
+  "display_url": "http://www5.statcan.gc.ca/cansim/a08",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1999-12-31",
-  "id": 5590007,
-  "name": "Zomax Inc. ( ZOMX ) - 3-Year Regression Beta",
+  "from_date": "2008-12-31",
+  "id": 9896239,
+  "name": "111-0011: Commercial and industrial machinery and equipment rental and leasing, sales, by type of client based on the North American Industry Classification System (NAICS)",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2004-12-31",
+  "source_code": "CANSIM",
+  "source_name": "Statistics Canada",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-03-22T00:34:05Z",
-  "urlize_name": "Zomax-Inc-ZOMX-3-Year-Regression-Beta"
+  "updated_at": "2014-02-18T23:39:53Z",
+  "urlize_name": "111-0011-Commercial-and-industrial-machinery-and-equipment-rental-and-leasing-sales-by-type-of-client-based-on-the-North-American-Industry-Classification-System-NAICS"
 }

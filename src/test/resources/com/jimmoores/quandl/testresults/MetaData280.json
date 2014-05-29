@@ -1,21 +1,21 @@
 {
-  "code": "SMU09000005552410001",
+  "code": "EAP_DWAP_RT_SEX_F_AGE_TOTAL_YGE25_EDU_AGGREGATE_X_M_CZE",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Statistic: All Employees, In Thousands; Industry: Insurance Carriers; Super-Sector: Financial Activities; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU09000005552410001",
+  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
   "errors": {},
   "frequency": "monthly",
-  "from_date": "1995-01-31",
-  "id": 8458559,
-  "name": "All Employees, In Thousands; Insurance Carriers industry; Connecticut statewide",
+  "from_date": "2002-05-31",
+  "id": 12382729,
+  "name": "Labour Force Participation Rate Women Ages 25+ - Monthly - Czech Republic",
   "private": false,
-  "source_code": "BLS",
-  "source_name": "Bureau of Labor Statistics",
-  "to_date": "2013-10-31",
+  "source_code": "ILOSTAT",
+  "source_name": "ILOSTAT Database",
+  "to_date": "2010-11-30",
   "type": null,
-  "updated_at": "2013-12-13T01:10:13Z",
-  "urlize_name": "All-Employees-In-Thousands-Insurance-Carriers-industry-Connecticut-statewide"
+  "updated_at": "2014-05-28T18:32:31Z",
+  "urlize_name": "Labour-Force-Participation-Rate-Women-Ages-25-Monthly-Czech-Republic"
 }

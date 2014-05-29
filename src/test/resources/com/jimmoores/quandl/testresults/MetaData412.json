@@ -1,21 +1,21 @@
 {
-  "code": "Q08348",
+  "code": "SRO_ROE",
   "column_names": [
-    "Quarter",
-    "1957-1959=100"
+    "Date",
+    "Return on Equity"
   ],
-  "description": "AREA COVERED:  U.S.  | UNITS:  1957-1959=100  | ANNUAL COVERAGE:  NONE  | QUARTERLY COVERAGE:  FIRST, 1947 - THIRD, 1969  | MONTHLY COVERAGE:  NONE  | SEASONAL ADJUSTMENT:  SEASONALLY ADJUSTED BY BLS  | SOURCE:  BUREAU OF LABOR STATISTICS, 1947-1965 DATA ARE FROM UNPUBLISHED TABULATIONS FURNISHED BY EDGAR R. FIEDLER, CONFIDENTIAL; 1966-1969 DATA ARE FROM BLS QUARTERLY RELEASE, \"PRODUCTIVITY, WAGES, AND PRICES\", TABLE 1, BEGINNING WITH SECOND QUARTER ISSUE, 1969.  CHECKED MANUALLY; CORRECTED 2/20/94.",
-  "display_url": "http://www.nber.org/databases/macrohistory/rectdata/08/q08348.dat",
+  "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
-  "frequency": "quarterly",
-  "from_date": "1947-03-31",
-  "id": 2001976,
-  "name": "U.S. Total Labor Compensation Per Work Hour, Private Economy, Seasonally Adjusted FIRST, 1947 - THIRD, 1969",
+  "frequency": "annual",
+  "from_date": "2000-12-31",
+  "id": 5483639,
+  "name": "Spigadoro Inc ( SRO ) - Return on Equity",
   "private": false,
-  "source_code": "NBER",
-  "source_name": "National Bureau of Economic Research",
-  "to_date": "1969-12-31",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2001-12-31",
   "type": null,
-  "updated_at": "2014-01-08T10:06:25Z",
-  "urlize_name": "U-S-Total-Labor-Compensation-Per-Work-Hour-Private-Economy-Seasonally-Adjusted-FIRST-1947-THIRD-1969"
+  "updated_at": "2014-03-14T10:44:26Z",
+  "urlize_name": "Spigadoro-Inc-SRO-Return-on-Equity"
 }

@@ -1,21 +1,18 @@
 {
-  "code": "IILG_INTERESTEXPENSE_Q",
-  "column_names": [
-    "Date",
-    "Value"
-  ],
-  "description": "SEC Name: InterestExpense",
-  "display_url": null,
+  "code": "GMP47260_GDP_RENTALANDLEASINGSERVICESANDLESSORSOFINTANGIBLEASSETS_VIRGINIABEACHNORFOLKNEWPORTNEWSVANC",
+  "column_names": [],
+  "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+  "display_url": "http://bea.gov/regional",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2011-06-30",
-  "id": 10798648,
-  "name": "Interval Leisure Group, Inc.  (IILG): Quarterly Interest Expense",
+  "frequency": null,
+  "from_date": null,
+  "id": 8218516,
+  "name": "GDP: Rental and leasing services and lessors of intangible assets - Virginia Beach-Norfolk-Newport News, VA-NC",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-09-30",
+  "source_code": "BEA",
+  "source_name": "Bureau of Economic Analysis",
+  "to_date": null,
   "type": null,
-  "updated_at": "2014-03-07T13:46:24Z",
-  "urlize_name": "Interval-Leisure-Group-Inc-IILG-Quarterly-Interest-Expense"
+  "updated_at": "2013-09-13T08:34:34Z",
+  "urlize_name": "GDP-Rental-and-leasing-services-and-lessors-of-intangible-assets-Virginia-Beach-Norfolk-Newport-News-VA-NC"
 }

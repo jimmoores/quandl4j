@@ -1,21 +1,21 @@
 {
-  "code": "ZIP_2BEDROOM_48313",
+  "code": "ELEC_PLANT_CONS_TOT_6741_DFO_ALL_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of two bedroom homes within the zip code of 48313, Sterling Heights, MI. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_2bedroom.csv",
+  "description": "Units=Barrels. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.6741-DFO-ALL.A",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.6741-DFO-ALL.A&out=xml",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1996-04-30",
-  "id": 6766413,
-  "name": "Zillow Home Value Index (Zip Codes): Two Bedroom Homes - 48313,Sterling Heights,MI",
+  "frequency": "annual",
+  "from_date": "2001-12-31",
+  "id": 4918642,
+  "name": "Fuel Consumption Quantity : Rock Lake Ct : Distillate Fuel Oil : All Primemovers : Annual",
   "private": false,
-  "source_code": "ZILLOW",
-  "source_name": "Zillow Real Estate Research",
-  "to_date": "2014-03-31",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-05-07T14:53:49Z",
-  "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Two-Bedroom-Homes-48313-Sterling-Heights-MI"
+  "updated_at": "2014-01-09T23:19:54Z",
+  "urlize_name": "Fuel-Consumption-Quantity-Rock-Lake-Ct-Distillate-Fuel-Oil-All-Primemovers-Annual"
 }

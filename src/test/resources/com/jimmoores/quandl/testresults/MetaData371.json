@@ -1,21 +1,21 @@
 {
-  "code": "CARV_WEIGHTEDAVERAGERATEDOMESTICDEPOSITMONEYMARKET_Q",
+  "code": "RHOOD_ZRIPERSQFT_ALLHOMES_NEIGHBORSSOUTHWESTBEAVERTONOR",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEC Name: WeightedAverageRateDomesticDepositMoneyMarket",
-  "display_url": null,
+  "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the neighborhood of Neighbors Southwest, Beaverton, OR. This is derived by taking the estimated rent price for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_ZriPerSqft_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2012-03-31",
-  "id": 10295407,
-  "name": "CARVER BANCORP INC  (CARV): Quarterly Weighted Average Rate Domestic Deposit Money Market",
+  "frequency": "monthly",
+  "from_date": "2010-11-30",
+  "id": 6857585,
+  "name": "Zillow Rent Index (Neighborhoods): Rentals ZRI Per Sq. Ft. (All Homes) - Neighbors Southwest,Beaverton,OR",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-03-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2014-03-07T21:35:52Z",
-  "urlize_name": "CARVER-BANCORP-INC-CARV-Quarterly-Weighted-Average-Rate-Domestic-Deposit-Money-Market"
+  "updated_at": "2014-05-08T05:18:43Z",
+  "urlize_name": "Zillow-Rent-Index-Neighborhoods-Rentals-ZRI-Per-Sq-Ft-All-Homes-Neighbors-Southwest-Beaverton-OR"
 }

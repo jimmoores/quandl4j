@@ -1,21 +1,21 @@
 {
-  "code": "CRI_ROC",
+  "code": "SMS48000003200000001",
   "column_names": [
     "Date",
-    "Return on Capital"
+    "Value"
   ],
-  "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "Thousands of Persons Seasonally Adjusted, This series is seasonally adjusted by the U.S. Bureau of Labor Statistics. ",
+  "display_url": "http://research.stlouisfed.org/fred2/data/SMS48000003200000001.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2002-12-31",
-  "id": 4283045,
-  "name": "Carter's ( CRI ) - Return on Capital",
+  "frequency": "monthly",
+  "from_date": "1990-01-01",
+  "id": 10990021,
+  "name": "All Employees: Manufacturing: Non-Durable Goods in Texas",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2012-12-31",
+  "source_code": "FRED",
+  "source_name": "Federal Reserve Economic Data",
+  "to_date": "2013-12-01",
   "type": null,
-  "updated_at": "2014-03-21T23:20:20Z",
-  "urlize_name": "Carter-s-CRI-Return-on-Capital"
+  "updated_at": "2014-03-20T23:06:14Z",
+  "urlize_name": "All-Employees-Manufacturing-Non-Durable-Goods-in-Texas"
 }

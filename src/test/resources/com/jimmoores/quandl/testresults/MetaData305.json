@@ -1,21 +1,21 @@
 {
-  "code": "UNE_SEX_ECO1_NB_SEX_M_ECO_ISIC4_P_FIN",
+  "code": "SMU49000006562200001",
   "column_names": [
-    "Year",
+    "Date",
     "Value"
   ],
-  "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-  "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+  "description": "Thousands of Persons Not Seasonally Adjusted ",
+  "display_url": "http://research.stlouisfed.org/fred2/data/SMU49000006562200001.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2009-12-31",
-  "id": 6259271,
-  "name": "Unemployment By Sex And Former Economic Activity, Male, Education - Finland",
+  "frequency": "monthly",
+  "from_date": "1990-01-01",
+  "id": 10979791,
+  "name": "All Employees: Health Care: Hospitals in Utah",
   "private": false,
-  "source_code": "ILO",
-  "source_name": "International Labour Organization",
-  "to_date": "2010-12-31",
+  "source_code": "FRED",
+  "source_name": "Federal Reserve Economic Data",
+  "to_date": "2013-12-01",
   "type": null,
-  "updated_at": "2013-04-20T21:27:36Z",
-  "urlize_name": "Unemployment-By-Sex-And-Former-Economic-Activity-Male-Education-Finland"
+  "updated_at": "2014-03-11T23:43:11Z",
+  "urlize_name": "All-Employees-Health-Care-Hospitals-in-Utah"
 }

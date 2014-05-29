@@ -1,415 +1,415 @@
 {
-  "current_page": 24835,
+  "current_page": 121736,
   "docs": [
     {
-      "code": "BVB_REINV",
+      "code": "ZWE_EN_ATM_NOXE_EI_ZS",
       "column_names": [
         "Date",
-        "Reinvestment Amount"
+        "Value"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Industrial nitrous oxide emissions are emissions produced during the manufacturing of adipic acid and nitric acid. Nitrous oxide emissions from energy processes are emissions produced by the combustion of fossil fuels and biofuels.\nNitrous oxide emissions in industrial and energy processes (% of total nitrous oxide emissions)",
+      "display_url": "http://api.worldbank.org/countries/ZWE/indicators/EN.ATM.NOXE.EI.ZS?per_page=1000",
       "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 5964983,
-      "name": "Bridge View Bancorp ( BVB ) - Reinvestment Amount",
+      "from_date": "1990-12-31",
+      "id": 2164831,
+      "name": "Zimbabwe: Nitrous oxide emissions in industrial and energy processes (% of total nitrous oxide emissions)",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2002-12-31",
-      "type": null,
-      "updated_at": "2014-03-13T22:18:38Z",
-      "urlize_name": "Bridge-View-Bancorp-BVB-Reinvestment-Amount"
-    },
-    {
-      "code": "FFBZ_TRAD_VOL",
-      "column_names": [
-        "Date",
-        "Trading Volume"
-      ],
-      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 4441771,
-      "name": "1ST FEDL BANCORP OHIO ( FFBZ ) - Trading Volume",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2003-12-31",
-      "type": null,
-      "updated_at": "2014-03-13T22:18:38Z",
-      "urlize_name": "1ST-FEDL-BANCORP-OHIO-FFBZ-Trading-Volume"
-    },
-    {
-      "code": "AC_DEPREC",
-      "column_names": [
-        "Date",
-        "Depreciation"
-      ],
-      "description": "Includes both depreciation and amortization, as reported in the statement of cash flows. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 3872509,
-      "name": "Alliance Capital Mgmt. ( AC ) - Depreciation",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-03-13T22:18:38Z",
-      "urlize_name": "Alliance-Capital-Mgmt-AC-Depreciation"
-    },
-    {
-      "code": "EYDY_DIV_YLD",
-      "column_names": [
-        "Date",
-        "Dividend Yield"
-      ],
-      "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 4416078,
-      "name": "Eye Dynamics Inc ( EYDY ) - Dividend Yield",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-03-13T22:18:57Z",
-      "urlize_name": "Eye-Dynamics-Inc-EYDY-Dividend-Yield"
-    },
-    {
-      "code": "RLTI_INSIDER",
-      "column_names": [
-        "Date",
-        "Insider Holdings"
-      ],
-      "description": "Number of shares held by insiders (as defined by the SEC to include corporate officers, directors and those holding more than 5% of the outstanding stock) as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 5367133,
-      "name": "Reality Interactive Inc ( RLTI ) - Insider Holdings",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2002-12-31",
-      "type": null,
-      "updated_at": "2014-03-13T22:18:38Z",
-      "urlize_name": "Reality-Interactive-Inc-RLTI-Insider-Holdings"
-    },
-    {
-      "code": "RLTI_INST_HOLD",
-      "column_names": [
-        "Date",
-        "Institutional Holdings"
-      ],
-      "description": "Number of shares held by mutual funds, pension funds and trusts as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 5367134,
-      "name": "Reality Interactive Inc ( RLTI ) - Institutional Holdings",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2002-12-31",
-      "type": null,
-      "updated_at": "2014-03-13T22:18:58Z",
-      "urlize_name": "Reality-Interactive-Inc-RLTI-Institutional-Holdings"
-    },
-    {
-      "code": "RLP_TO_PE_TRAIL",
-      "column_names": [
-        "Date",
-        "Trailing PE Ratio"
-      ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5366922,
-      "name": "Richland Petroleum Corp. ( RLP.TO ) - Trailing PE Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2001-12-31",
-      "type": null,
-      "updated_at": "2014-03-13T22:18:39Z",
-      "urlize_name": "Richland-Petroleum-Corp-RLP-TO-Trailing-PE-Ratio"
-    },
-    {
-      "code": "ARM_REV_GRO",
-      "column_names": [
-        "Date",
-        "Previous Year Growth in Revenues"
-      ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 4079707,
-      "name": "ArvinMeritor ( ARM ) - Previous Year Growth in Revenues",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
       "to_date": "2010-12-31",
       "type": null,
-      "updated_at": "2014-03-13T22:18:39Z",
-      "urlize_name": "ArvinMeritor-ARM-Previous-Year-Growth-in-Revenues"
+      "updated_at": "2014-05-20T12:24:44Z",
+      "urlize_name": "Zimbabwe-Nitrous-oxide-emissions-in-industrial-and-energy-processes-of-total-nitrous-oxide-emissions"
     },
     {
-      "code": "PROI_NCWC_REV",
+      "code": "UGA_UIS_AIRE_1_GLAST_GPI",
       "column_names": [
         "Date",
-        "Non-Cash Working Capital as Percentage of Revenues"
+        "Value"
       ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 5408400,
-      "name": "Proterion Corp ( PROI ) - Non-Cash Working Capital as Percentage of Revenues",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-03-13T22:18:39Z",
-      "urlize_name": "Proterion-Corp-PROI-Non-Cash-Working-Capital-as-Percentage-of-Revenues"
-    },
-    {
-      "code": "SGTI_MKT_CAP",
-      "column_names": [
-        "Date",
-        "Market Capitalization"
-      ],
-      "description": "Estimated market value of equity, obtained by multiplying the number of shares outstanding by the share price. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 5412128,
-      "name": "Shengtai Pharmaceutical Inc. ( SGTI ) - Market Capitalization",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-13T22:18:58Z",
-      "urlize_name": "Shengtai-Pharmaceutical-Inc-SGTI-Market-Capitalization"
-    },
-    {
-      "code": "EYDY_DIV",
-      "column_names": [
-        "Date",
-        "Dividends"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 4416075,
-      "name": "Eye Dynamics Inc ( EYDY ) - Dividends",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-03-13T22:18:58Z",
-      "urlize_name": "Eye-Dynamics-Inc-EYDY-Dividends"
-    },
-    {
-      "code": "HMSR_CASH",
-      "column_names": [
-        "Date",
-        "Cash"
-      ],
-      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Gender parity index for expected primary completion rate is the ratio of female expected primary completion rate to the male expected primary completion rate. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between females and males. In general, a value less than 1 indicates disparity in favor of males and a value greater than 1 indicates disparity in favor of females. This indicator is also known as \"Gender parity index for expected gross intake ratio to the last grade of primary.\"\nGender parity index for expected primary completion rate",
+      "display_url": "http://api.worldbank.org/countries/UGA/indicators/UIS.AIRE.1.GLAST.GPI?per_page=1000",
       "frequency": "annual",
       "from_date": "2001-12-31",
-      "id": 4563521,
-      "name": "Hemasure Inc ( HMSR ) - Cash",
+      "id": 6491988,
+      "name": "Uganda: Gender parity index for expected primary completion rate",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2001-12-31",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-03-13T22:18:40Z",
-      "urlize_name": "Hemasure-Inc-HMSR-Cash"
+      "updated_at": "2014-05-20T12:24:44Z",
+      "urlize_name": "Uganda-Gender-parity-index-for-expected-primary-completion-rate"
     },
     {
-      "code": "EYDY_EBIT",
+      "code": "UGA_WP11671_6",
       "column_names": [
         "Date",
-        "Earnings Before Interest and Taxes"
+        "Value"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Adults who currently have a loan they took out for funerals or weddings (% with a primary education or less, age 15+)\nOutstanding loan for funerals or weddings, primary education or less (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/UGA/indicators/WP11671.6?per_page=1000",
       "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 4416081,
-      "name": "Eye Dynamics Inc ( EYDY ) - Earnings Before Interest and Taxes",
+      "from_date": "2011-12-31",
+      "id": 6492938,
+      "name": "Uganda: Outstanding loan for funerals or weddings, primary education or less (% age 15+)",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-03-13T22:18:59Z",
-      "urlize_name": "Eye-Dynamics-Inc-EYDY-Earnings-Before-Interest-and-Taxes"
+      "updated_at": "2014-05-20T12:24:44Z",
+      "urlize_name": "Uganda-Outstanding-loan-for-funerals-or-weddings-primary-education-or-less-age-15"
     },
     {
-      "code": "RLTI_INV_CAP",
+      "code": "OMN_SH_STA_MMRT",
       "column_names": [
         "Date",
-        "Invested Capital"
+        "Value"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Maternal mortality ratio is the number of women who die during pregnancy and childbirth, per 100,000 live births. The data are estimated with a regression model using information on fertility, birth attendants, and HIV prevalence.\nMaternal mortality ratio (modeled estimate, per 100,000 live births)",
+      "display_url": "http://api.worldbank.org/countries/OMN/indicators/SH.STA.MMRT?per_page=1000",
       "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 5367135,
-      "name": "Reality Interactive Inc ( RLTI ) - Invested Capital",
+      "from_date": "1990-12-31",
+      "id": 2170350,
+      "name": "Oman: Maternal mortality ratio (modeled estimate, per 100,000 live births)",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2002-12-31",
-      "type": null,
-      "updated_at": "2014-03-13T22:18:40Z",
-      "urlize_name": "Reality-Interactive-Inc-RLTI-Invested-Capital"
-    },
-    {
-      "code": "CTBK_EV",
-      "column_names": [
-        "Date",
-        "Enterprise Value"
-      ],
-      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 4348657,
-      "name": "CityBank Wash. ( CTBK ) - Enterprise Value",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
       "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-03-13T22:18:40Z",
-      "urlize_name": "CityBank-Wash-CTBK-Enterprise-Value"
+      "updated_at": "2014-05-20T12:24:44Z",
+      "urlize_name": "Oman-Maternal-mortality-ratio-modeled-estimate-per-100-000-live-births"
     },
     {
-      "code": "RLTI_MKT_CAP",
+      "code": "LBR_SP_POP_AG01_MA_IN",
       "column_names": [
         "Date",
-        "Market Capitalization"
+        "Value"
       ],
-      "description": "Estimated market value of equity, obtained by multiplying the number of shares outstanding by the share price. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Age population, age 01, male, interpolated\nAge population, age 01, male, interpolated",
+      "display_url": "http://api.worldbank.org/countries/LBR/indicators/SP.POP.AG01.MA.IN?per_page=1000",
       "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 5367137,
-      "name": "Reality Interactive Inc ( RLTI ) - Market Capitalization",
+      "from_date": "1960-12-31",
+      "id": 429822,
+      "name": "Liberia: Age population, age 01, male, interpolated",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2002-12-31",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-03-13T22:18:59Z",
-      "urlize_name": "Reality-Interactive-Inc-RLTI-Market-Capitalization"
+      "updated_at": "2014-05-20T12:24:44Z",
+      "urlize_name": "Liberia-Age-population-age-01-male-interpolated"
     },
     {
-      "code": "CSTE_SGA",
+      "code": "LAO_WP11625_1",
       "column_names": [
         "Date",
-        "Sales General and Administration Expenses"
+        "Value"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Adults who use their account at a financial institution for business purposes or for both business purposes and personal transactions (% age 15+)\nAccount used for business purposes (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/LAO/indicators/WP11625.1?per_page=1000",
       "frequency": "annual",
-      "from_date": "2012-12-31",
-      "id": 4330778,
-      "name": "Caesarstone Sdot-Yam Ltd. ( CSTE ) - Sales General and Administration Expenses",
+      "from_date": "2011-12-31",
+      "id": 2098646,
+      "name": "Lao PDR: Account used for business purposes (% age 15+)",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:24:44Z",
+      "urlize_name": "Lao-PDR-Account-used-for-business-purposes-age-15"
+    },
+    {
+      "code": "IDN_DT_NFL_DSTC_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Net flows (or net lending or net disbursements) received by the borrower during the year are disbursements minus principal repayments. Short-term external debt is defined as debt that has an original maturity of one year or less. Available data permit no distinction between public and private nonguaranteed short-term debt. Data are in current U.S. dollars.\nNet flows on external debt, short-term (NFL, current US$)",
+      "display_url": "http://api.worldbank.org/countries/IDN/indicators/DT.NFL.DSTC.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 377187,
+      "name": "Indonesia: Net flows on external debt, short-term (NFL, current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-13T22:18:41Z",
-      "urlize_name": "Caesarstone-Sdot-Yam-Ltd-CSTE-Sales-General-and-Administration-Expenses"
+      "updated_at": "2014-05-20T12:24:44Z",
+      "urlize_name": "Indonesia-Net-flows-on-external-debt-short-term-NFL-current-US"
     },
     {
-      "code": "GAB_NCWC",
+      "code": "NZL_EN_CO2_ETOT_ZS",
       "column_names": [
         "Date",
-        "Non-Cash Working Capital"
+        "Value"
       ],
-      "description": "Non-Cash Working Capital = Inventory + Other Current Assets + Accounts Receivable - Accounts Payable - Other Current Liabilities.  Current Assets excludes cash.  Current Liabilities excludes interest bearing debt. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "CO2 emissions from electricity and heat production is the sum of three IEA categories of CO2 emissions: (1) Main Activity Producer Electricity and Heat which contains the sum of emissions from main activity producer electricity generation, combined heat and power generation and heat plants. Main activity producers  (formerly known as public utilities) are defined as those undertakings whose primary activity is to supply the public. They may be publicly or privately owned. This corresponds to IPCC Source/Sink Category 1 A 1 a. For the CO2 emissions from fuel combustion (summary) file, emissions from own on-site use of fuel in power plants (EPOWERPLT) are also included. (2) Unallocated Autoproducers which contains the emissions from the generation of electricity and/or heat by autoproducers. Autoproducers are defined as undertakings that generate electricity and/or heat, wholly or partly for their own use as an activity which supports their primary activity. They may be privately or publicly owned. In the 1996 IPCC Guidelines, these emissions would normally be distributed between industry, transport and \"other\" sectors. (3) Other Energy Industries contains emissions from fuel combusted in petroleum refineries, for the manufacture of solid fuels, coal mining, oil and gas extraction and other energy-producing industries. This corresponds to the IPCC Source/Sink Categories 1 A 1 b and 1 A 1 c. According to the 1996 IPCC Guidelines, emissions from coke inputs to blast furnaces can either be counted here or in the Industrial Processes source/sink category. Within detailed sectoral calculations, certain non-energy processes can be distinguished. In the reduction of iron in a blast furnace through the combustion of coke, the primary purpose of the coke oxidation is to produce pig iron and the emissions can be considered as an industrial process. Care must be taken not to double count these emissions in both Energy and Industrial Processes. In the IEA estimations, these emissions have been included in this category.\nCO2 emissions from electricity and heat production, total (% of total fuel combustion)",
+      "display_url": "http://api.worldbank.org/countries/NZL/indicators/EN.CO2.ETOT.ZS?per_page=1000",
       "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 4426151,
-      "name": "Gabelli Equity Trust ( GAB ) - Non-Cash Working Capital",
+      "from_date": "1960-12-31",
+      "id": 6587840,
+      "name": "New Zealand: CO2 emissions from electricity and heat production, total (% of total fuel combustion)",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:24:44Z",
+      "urlize_name": "New-Zealand-CO2-emissions-from-electricity-and-heat-production-total-of-total-fuel-combustion"
+    },
+    {
+      "code": "RWA_TM_VAL_MRCH_R5_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Merchandise imports from developing economies in South Asia are the sum of merchandise imports by the reporting economy from developing economies in the South Asia region according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.\nMerchandise imports from developing economies in South Asia (% of total merchandise imports)",
+      "display_url": "http://api.worldbank.org/countries/RWA/indicators/TM.VAL.MRCH.R5.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1964-12-31",
+      "id": 6617001,
+      "name": "Rwanda: Merchandise imports from developing economies in South Asia (% of total merchandise imports)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-13T22:18:59Z",
-      "urlize_name": "Gabelli-Equity-Trust-GAB-Non-Cash-Working-Capital"
+      "updated_at": "2014-05-20T12:24:45Z",
+      "urlize_name": "Rwanda-Merchandise-imports-from-developing-economies-in-South-Asia-of-total-merchandise-imports"
     },
     {
-      "code": "BVB_SGA",
+      "code": "MEX_BAR_NOED_6569_FE_ZS",
       "column_names": [
         "Date",
-        "Sales General and Administration Expenses"
+        "Value"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Percentage of population, 65-69 female, no education is the percentage of the female population age 65-69 with no education.\npercentage of population (15+), 65-69, female, no education",
+      "display_url": "http://api.worldbank.org/countries/MEX/indicators/BAR.NOED.6569.FE.ZS?per_page=1000",
       "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5964987,
-      "name": "Bridge View Bancorp ( BVB ) - Sales General and Administration Expenses",
+      "from_date": "1970-12-31",
+      "id": 473807,
+      "name": "Mexico: percentage of population (15+), 65-69, female, no education",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2002-12-31",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
       "type": null,
-      "updated_at": "2014-03-13T22:19:00Z",
-      "urlize_name": "Bridge-View-Bancorp-BVB-Sales-General-and-Administration-Expenses"
+      "updated_at": "2014-05-20T12:24:45Z",
+      "urlize_name": "Mexico-percentage-of-population-15-65-69-female-no-education"
     },
     {
-      "code": "EYDY_EFF_TAX",
+      "code": "URY_UIS_REPP_1_G2",
       "column_names": [
         "Date",
-        "Effective Tax Rate"
+        "Value"
       ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Percentage of repeaters in primary. Grade 2. Total is the total number of pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total enrollment in the specified grade. It is calculated by dividing the number of pupils repeating a given grade in a given school year by the number of pupils enrolled in the same grade in the same school year and multiplying by 100. \nPercentage of repeaters in primary. Grade 2. Total",
+      "display_url": "http://api.worldbank.org/countries/URY/indicators/UIS.REPP.1.G2?per_page=1000",
       "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 4416092,
-      "name": "Eye Dynamics Inc ( EYDY ) - Effective Tax Rate",
+      "from_date": "1970-12-31",
+      "id": 2138166,
+      "name": "Uruguay: Percentage of repeaters in primary. Grade 2. Total",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
       "type": null,
-      "updated_at": "2014-03-13T22:19:00Z",
-      "urlize_name": "Eye-Dynamics-Inc-EYDY-Effective-Tax-Rate"
+      "updated_at": "2014-05-20T12:24:45Z",
+      "urlize_name": "Uruguay-Percentage-of-repeaters-in-primary-Grade-2-Total"
+    },
+    {
+      "code": "JPN_UIS_E_1_G4",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Enrolment in primary. Grade 4. Total is the total number of students enrolled in Grade 4 of primary education.\nEnrolment in primary. Grade 4.  Total",
+      "display_url": "http://api.worldbank.org/countries/JPN/indicators/UIS.E.1.G4?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1971-12-31",
+      "id": 2029325,
+      "name": "Japan: Enrolment in primary. Grade 4.  Total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:24:45Z",
+      "urlize_name": "Japan-Enrolment-in-primary-Grade-4-Total"
+    },
+    {
+      "code": "MDA_NY_ADJ_NNAT_GN_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Net national savings are equal to gross national savings less the value of consumption of fixed capital.\nAdjusted savings: net national savings (% of GNI)",
+      "display_url": "http://api.worldbank.org/countries/MDA/indicators/NY.ADJ.NNAT.GN.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 470221,
+      "name": "Moldova: Adjusted savings: net national savings (% of GNI)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:24:45Z",
+      "urlize_name": "Moldova-Adjusted-savings-net-national-savings-of-GNI"
+    },
+    {
+      "code": "SMR_SE_PRM_REPT_MA_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage of repeaters in primary. All grades. Male is the number of male students enrolled in the same grade as in the previous year, as a percentage of all male students enrolled in primary school. It is calculated by dividing the sum of male repeaters in all grades of primary education by the total male enrolment of primary education and multiplying the result by 100.\nRepeaters, primary, male (% of male enrollment)",
+      "display_url": "http://api.worldbank.org/countries/SMR/indicators/SE.PRM.REPT.MA.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1992-12-31",
+      "id": 2247691,
+      "name": "San Marino: Repeaters, primary, male (% of male enrollment)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:24:45Z",
+      "urlize_name": "San-Marino-Repeaters-primary-male-of-male-enrollment"
+    },
+    {
+      "code": "NZL_NV_IND_MANF_CN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Manufacturing refers to industries belonging to ISIC divisions 15-37. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources. The origin of value added is determined by the International Standard Industrial Classification (ISIC), revision 3. Data are in current local currency.\nManufacturing, value added (current LCU)",
+      "display_url": "http://api.worldbank.org/countries/NZL/indicators/NV.IND.MANF.CN?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1971-12-31",
+      "id": 6589187,
+      "name": "New Zealand: Manufacturing, value added (current LCU)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:24:45Z",
+      "urlize_name": "New-Zealand-Manufacturing-value-added-current-LCU"
+    },
+    {
+      "code": "MWI_WP11647_3",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who saved for emergencies or a time when they expect to have less income in the past 12 months (% female, age 15+)\nSaved for emergencies in the past year, female (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/MWI/indicators/WP11647.3?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2166774,
+      "name": "Malawi: Saved for emergencies in the past year, female (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:24:45Z",
+      "urlize_name": "Malawi-Saved-for-emergencies-in-the-past-year-female-age-15"
+    },
+    {
+      "code": "VNM_BAR_PRM_ICMP_4044_FE_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage of population, 40-44, female, incomplete primary is the percentage of the female population age 40-44 who did not complete primary education.\npercentage of population (15+), 40-44, female, incomplete primary",
+      "display_url": "http://api.worldbank.org/countries/VNM/indicators/BAR.PRM.ICMP.4044.FE.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 2235858,
+      "name": "Vietnam: percentage of population (15+), 40-44, female, incomplete primary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:24:45Z",
+      "urlize_name": "Vietnam-percentage-of-population-15-40-44-female-incomplete-primary"
+    },
+    {
+      "code": "TTO_BAR_SEC_CMPT_7074_FE_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage of population, 70-74, female, completed secondary is the percentage of females age 70-74 who have completed secondary education.\npercentage of population (15+), 70-74, female, completed secondary",
+      "display_url": "http://api.worldbank.org/countries/TTO/indicators/BAR.SEC.CMPT.7074.FE.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 2259562,
+      "name": "Trinidad and Tobago: percentage of population (15+), 70-74, female, completed secondary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:24:45Z",
+      "urlize_name": "Trinidad-and-Tobago-percentage-of-population-15-70-74-female-completed-secondary"
+    },
+    {
+      "code": "ROU_SE_PRE_TCHR_FE_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage female teachers. Pre-primary is the number of female teachers at the pre-primary level expressed as a percentage of the total number of teachers (male and female) at the pre-primary level in a given school year. Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of pupils and students, irrespective of their qualifications or the delivery mechanism, i.e. face-to-face and/or at a distance. This definition excludes educational personnel who have no active teaching duties (e.g. headmasters, headmistresses or principals who do not teach) and persons who work occasionally or in a voluntary capacity in educational institutions.\nPercentage female teachers.  Pre-primary",
+      "display_url": "http://api.worldbank.org/countries/ROU/indicators/SE.PRE.TCHR.FE.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1971-12-31",
+      "id": 2191199,
+      "name": "Romania: Percentage female teachers.  Pre-primary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:24:45Z",
+      "urlize_name": "Romania-Percentage-female-teachers-Pre-primary"
+    },
+    {
+      "code": "ROU_DT_AMT_DECT_CD_MA_1924",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Member Country\n182_T3_Debt-Service Payment Schedule, Monetary.Authorities, Principal (MA) (19-24 months)",
+      "display_url": "http://api.worldbank.org/countries/ROU/indicators/DT.AMT.DECT.CD.MA.1924?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2009-03-31",
+      "id": 2196263,
+      "name": "Romania: 182_T3_Debt-Service Payment Schedule, Monetary.Authorities, Principal (MA) (19-24 months)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:24:45Z",
+      "urlize_name": "Romania-182_T3_Debt-Service-Payment-Schedule-Monetary-Authorities-Principal-MA-19-24-months"
     }
   ],
   "per_page": 20,
   "sources": [{
-    "code": "DMDRN",
-    "datasets_count": 0,
-    "description": "",
-    "host": "pages.stern.nyu.edu/~adamodar/",
-    "id": 6946,
-    "name": "Damodaran Financial Data"
+    "code": "WORLDBANK",
+    "datasets_count": 792087,
+    "description": "The World Bank's mission is to fight poverty with passion and professionalism for lasting results.\r\n\r\nFree and open access to data about development in countries around the globe.",
+    "host": "api.worldbank.org",
+    "id": 66,
+    "name": "World Bank"
   }],
-  "total_count": 10006019
+  "total_count": 10036987
 }

@@ -1,405 +1,405 @@
 {
-  "current_page": 80037,
+  "current_page": 82066,
   "docs": [
     {
-      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_11356",
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_PANHANDLETX",
       "column_names": [
         "Date",
-        "Value"
+        "Panhandle"
       ],
-      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Panhandle, TX. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
       "frequency": "monthly",
-      "from_date": "2010-05-31",
-      "id": 7355199,
-      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 11356,New York,NY",
+      "from_date": "2011-04-30",
+      "id": 7006239,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Panhandle, TX",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:33Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-11356-New-York-NY"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Panhandle-TX"
     },
     {
-      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_99159",
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_LEWESDE",
       "column_names": [
         "Date",
-        "Value"
+        "Lewes"
       ],
-      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Lewes, DE. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
       "frequency": "monthly",
-      "from_date": "2010-05-31",
-      "id": 7582163,
-      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 99159,Odessa,WA",
+      "from_date": "2010-12-31",
+      "id": 6995617,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Lewes, DE",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:33Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-99159-Odessa-WA"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Lewes-DE"
     },
     {
-      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_29838",
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_MANCHESTERTOWNSHIPPA",
       "column_names": [
         "Date",
-        "Value"
+        "Manchester Township"
       ],
-      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Manchester Township, PA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
       "frequency": "monthly",
-      "from_date": "2010-05-31",
-      "id": 7584172,
-      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 29838,Modoc,SC",
+      "from_date": "2010-12-31",
+      "id": 6995294,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Manchester Township, PA",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:33Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-29838-Modoc-SC"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Manchester-Township-PA"
     },
     {
-      "code": "MZIP_MEDIANSOLDPRICE_ALLHOMES_33946",
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_TURPINHILLSOH",
+      "column_names": [
+        "Date",
+        "Turpin Hills"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Turpin Hills, OH. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 7004984,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Turpin Hills, OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Turpin-Hills-OH"
+    },
+    {
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_MERTZONTX",
+      "column_names": [
+        "Date",
+        "Mertzon"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Mertzon, TX. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 7012109,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Mertzon, TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Mertzon-TX"
+    },
+    {
+      "code": "MHOOD_MEDIANLISTINGPRICEPERSQFT_ALLHOMES_UNIONSTATIONDENVERCO",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPrice_AllHomes.csv",
+      "description": "Median of list prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_MedianListingPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 6904627,
+      "name": "Zillow Metrics (Neighborhoods): Median List Price per Sq. Ft. - Union Station,Denver,CO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Median-List-Price-per-Sq-Ft-Union-Station-Denver-CO"
+    },
+    {
+      "code": "ZIP_TOPTIER_49544",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of top tier homes within the zip code of 49544, Walker, MI. Top tier homes are homes that fall into the top third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_TopTier.csv",
       "frequency": "monthly",
       "from_date": "1996-04-30",
-      "id": 7244490,
-      "name": "Zillow Metrics (Zip Codes): Median Sale Price - 33946, Port Charlotte, FL",
-      "private": false,
-      "source_code": "ZILLOW",
-      "source_name": "Zillow Real Estate Research",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-05-07T21:09:33Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-33946-Port-Charlotte-FL"
-    },
-    {
-      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_62613",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
-      "frequency": "monthly",
-      "from_date": "2010-05-31",
-      "id": 7578329,
-      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 62613,Athens,IL",
+      "id": 6823807,
+      "name": "Zillow Home Value Index (Zip Codes): Top Tier Homes - 49544,Walker,MI",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:33Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-62613-Athens-IL"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Top-Tier-Homes-49544-Walker-MI"
     },
     {
-      "code": "MZIP_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_33413",
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_BIXBYOK",
       "column_names": [
         "Date",
-        "Value"
+        "Bixby"
       ],
-      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesSellingForGain_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Bixby, OK. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
       "frequency": "monthly",
-      "from_date": "1998-01-31",
-      "id": 7301801,
-      "name": "Zillow Metrics (Zip Codes): Sold for Gain (%) - 33413,Greenacres,FL",
+      "from_date": "2010-12-31",
+      "id": 6994125,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Bixby, OK",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:33Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-for-Gain-33413-Greenacres-FL"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Bixby-OK"
     },
     {
-      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_54230",
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_PLUMSTEADTOWNSHIPPA",
       "column_names": [
         "Date",
-        "Value"
+        "Plumstead Township"
       ],
-      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Plumstead Township, PA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
       "frequency": "monthly",
-      "from_date": "2010-05-31",
-      "id": 7358207,
-      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 54230,Reedsville,WI",
+      "from_date": "2010-12-31",
+      "id": 6998056,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Plumstead Township, PA",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:33Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-54230-Reedsville-WI"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Plumstead-Township-PA"
     },
     {
-      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_95014",
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_MERRIMACKNH",
       "column_names": [
         "Date",
-        "Value"
+        "Merrimack"
       ],
-      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Merrimack, NH. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
       "frequency": "monthly",
-      "from_date": "1997-02-28",
-      "id": 7323414,
-      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 95014,Cupertino,CA",
+      "from_date": "2010-12-31",
+      "id": 6994243,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Merrimack, NH",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:33Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-95014-Cupertino-CA"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Merrimack-NH"
     },
     {
-      "code": "MZIP_MEDIANSOLDPRICE_ALLHOMES_40207",
+      "code": "MHOOD_MEDIANLISTINGPRICEPERSQFT_ALLHOMES_NEWFIELDSTAMFORDCT",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPrice_AllHomes.csv",
+      "description": "Median of list prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_MedianListingPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 6904943,
+      "name": "Zillow Metrics (Neighborhoods): Median List Price per Sq. Ft. - Newfield,Stamford,CT",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Median-List-Price-per-Sq-Ft-Newfield-Stamford-CT"
+    },
+    {
+      "code": "ZIP_TOPTIER_33149",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of top tier homes within the zip code of 33149, Key Biscayne, FL. Top tier homes are homes that fall into the top third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_TopTier.csv",
       "frequency": "monthly",
       "from_date": "1996-04-30",
-      "id": 7234567,
-      "name": "Zillow Metrics (Zip Codes): Median Sale Price - 40207, Saint Matthews, KY",
+      "id": 6822624,
+      "name": "Zillow Home Value Index (Zip Codes): Top Tier Homes - 33149,Key Biscayne,FL",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:33Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-40207-Saint-Matthews-KY"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Top-Tier-Homes-33149-Key-Biscayne-FL"
     },
     {
-      "code": "MZIP_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_33014",
+      "code": "ZIP_TOPTIER_33565",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesSellingForGain_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of top tier homes within the zip code of 33565, Plant City, FL. Top tier homes are homes that fall into the top third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_TopTier.csv",
       "frequency": "monthly",
-      "from_date": "1998-01-31",
-      "id": 7295383,
-      "name": "Zillow Metrics (Zip Codes): Sold for Gain (%) - 33014,Hialeah,FL",
+      "from_date": "1996-04-30",
+      "id": 6822621,
+      "name": "Zillow Home Value Index (Zip Codes): Top Tier Homes - 33565,Plant City,FL",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:33Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-for-Gain-33014-Hialeah-FL"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Top-Tier-Homes-33565-Plant-City-FL"
     },
     {
-      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_63304",
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_POUNDRIDGENY",
       "column_names": [
         "Date",
-        "Value"
+        "Pound Ridge"
       ],
-      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Pound Ridge, NY. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
       "frequency": "monthly",
-      "from_date": "2010-05-31",
-      "id": 7350062,
-      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 63304,Weldon Spring,MO",
+      "from_date": "2011-12-31",
+      "id": 7004388,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Pound Ridge, NY",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:33Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-63304-Weldon-Spring-MO"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Pound-Ridge-NY"
     },
     {
-      "code": "MZIP_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_70056",
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_PASSCHRISTIANMS",
       "column_names": [
         "Date",
-        "Value"
+        "Pass Christian"
       ],
-      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesSellingForGain_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Pass Christian, MS. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
       "frequency": "monthly",
-      "from_date": "2004-01-31",
-      "id": 7295461,
-      "name": "Zillow Metrics (Zip Codes): Sold for Gain (%) - 70056,Gretna,LA",
+      "from_date": "2010-12-31",
+      "id": 6996788,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Pass Christian, MS",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:34Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-for-Gain-70056-Gretna-LA"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Pass-Christian-MS"
     },
     {
-      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_48122",
+      "code": "ZIP_TOPTIER_43205",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of top tier homes within the zip code of 43205, Columbus, OH. Top tier homes are homes that fall into the top third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_TopTier.csv",
       "frequency": "monthly",
-      "from_date": "2010-05-31",
-      "id": 7356178,
-      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 48122,Melvindale,MI",
+      "from_date": "1996-04-30",
+      "id": 6823115,
+      "name": "Zillow Home Value Index (Zip Codes): Top Tier Homes - 43205,Columbus,OH",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:34Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-48122-Melvindale-MI"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Top-Tier-Homes-43205-Columbus-OH"
     },
     {
-      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_80017",
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_DEERFIELDMI",
       "column_names": [
         "Date",
-        "Value"
+        "Deerfield"
       ],
-      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Deerfield, MI. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
       "frequency": "monthly",
-      "from_date": "2010-05-31",
-      "id": 7351184,
-      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 80017,Aurora,CO",
+      "from_date": "2010-12-31",
+      "id": 7012184,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Deerfield, MI",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:34Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-80017-Aurora-CO"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Deerfield-MI"
     },
     {
-      "code": "MZIP_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_40219",
+      "code": "ZIP_TOPTIER_37188",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesSellingForGain_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of top tier homes within the zip code of 37188, White House, TN. Top tier homes are homes that fall into the top third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_TopTier.csv",
       "frequency": "monthly",
-      "from_date": "1998-01-31",
-      "id": 7295265,
-      "name": "Zillow Metrics (Zip Codes): Sold for Gain (%) - 40219,Okolona,KY",
+      "from_date": "1996-04-30",
+      "id": 6823081,
+      "name": "Zillow Home Value Index (Zip Codes): Top Tier Homes - 37188,White House,TN",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:34Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-for-Gain-40219-Okolona-KY"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Top-Tier-Homes-37188-White-House-TN"
     },
     {
-      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_54175",
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_WESTLAKESTEVENSWA",
       "column_names": [
         "Date",
-        "Value"
+        "West Lake Stevens"
       ],
-      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of West Lake Stevens, WA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
       "frequency": "monthly",
-      "from_date": "2010-05-31",
-      "id": 7581535,
-      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 54175,Townsend,WI",
+      "from_date": "2010-12-31",
+      "id": 6999070,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - West Lake Stevens, WA",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:34Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-54175-Townsend-WI"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-West-Lake-Stevens-WA"
     },
     {
-      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_07605",
+      "code": "RCITY_ZRIPERSQFT_ALLHOMES_BRICESCREEKNC",
       "column_names": [
         "Date",
-        "Value"
+        "Brices Creek"
       ],
-      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Brices Creek, NC. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
       "frequency": "monthly",
-      "from_date": "2010-05-31",
-      "id": 7460657,
-      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 07605,Leonia,NJ",
+      "from_date": "2010-12-31",
+      "id": 7013275,
+      "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Brices Creek, NC",
       "private": false,
       "source_code": "ZILLOW",
       "source_name": "Zillow Real Estate Research",
       "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-05-07T21:09:34Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-07605-Leonia-NJ"
-    },
-    {
-      "code": "MZIP_MEDIANSOLDPRICE_ALLHOMES_54956",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPrice_AllHomes.csv",
-      "frequency": "monthly",
-      "from_date": "2004-01-31",
-      "id": 7233346,
-      "name": "Zillow Metrics (Zip Codes): Median Sale Price - 54956, Town of Neenah, WI",
-      "private": false,
-      "source_code": "ZILLOW",
-      "source_name": "Zillow Real Estate Research",
-      "to_date": "2014-03-31",
-      "type": null,
-      "updated_at": "2014-05-07T21:09:34Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-54956-Town-of-Neenah-WI"
-    },
-    {
-      "code": "MZIP_MEDIANSOLDPRICE_ALLHOMES_30161",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPrice_AllHomes.csv",
-      "frequency": "monthly",
-      "from_date": "2009-07-31",
-      "id": 7235255,
-      "name": "Zillow Metrics (Zip Codes): Median Sale Price - 30161, Rome, GA",
-      "private": false,
-      "source_code": "ZILLOW",
-      "source_name": "Zillow Real Estate Research",
-      "to_date": "2014-02-28",
-      "type": null,
-      "updated_at": "2014-05-07T21:09:34Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-30161-Rome-GA"
-    },
-    {
-      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_45247",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
-      "frequency": "monthly",
-      "from_date": "2010-05-31",
-      "id": 7353582,
-      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 45247,White Oak,OH",
-      "private": false,
-      "source_code": "ZILLOW",
-      "source_name": "Zillow Real Estate Research",
-      "to_date": "2014-03-31",
-      "type": null,
-      "updated_at": "2014-05-07T21:09:34Z",
-      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-45247-White-Oak-OH"
+      "updated_at": "2014-05-08T00:05:40Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Brices-Creek-NC"
     }
   ],
   "per_page": 20,
@@ -411,5 +411,5 @@
     "id": 797,
     "name": "Zillow Real Estate Research"
   }],
-  "total_count": 10006019
+  "total_count": 10036987
 }

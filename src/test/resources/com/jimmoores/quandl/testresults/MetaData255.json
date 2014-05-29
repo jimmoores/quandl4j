@@ -1,24 +1,21 @@
 {
-  "code": "USDA_LM_PK602_BONELESS_SIRLOIN",
+  "code": "POP_22_CZE_FEM_TOT_52",
   "column_names": [
-    "Date",
-    "LBS",
-    "$ Low",
-    "$ High",
-    "$ WgtAvg"
+    "Year",
+    "Number"
   ],
-  "description": "Daily total pounds, low price, high price and weighted average price from the USDA LM_PK602 report published by the USDA Agricultural Marketing Service (AMS). This dataset covers Loin Cuts - Boneless Sirloin. Historical figures from USDA can be verified using the LMR datamart located at http://mpr.datamart.ams.usda.gov.",
-  "display_url": "http://www.ams.usda.gov/mnreports/lm_pk602.txt",
+  "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+  "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2013-01-07",
-  "id": 12210848,
-  "name": "Pork Loin Cuts - Boneless Sirloin",
+  "frequency": "annual",
+  "from_date": "1978-12-31",
+  "id": 2662297,
+  "name": "Population - Female / Age 52 / Total Areas - Czech Republic",
   "private": false,
-  "source_code": "BCARY",
-  "source_name": "Bill-Cary",
-  "to_date": "2014-05-28",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-05-29T00:58:12Z",
-  "urlize_name": "Pork-Loin-Cuts-Boneless-Sirloin"
+  "updated_at": "2014-01-27T23:48:44Z",
+  "urlize_name": "Population-Female-Age-52-Total-Areas-Czech-Republic"
 }

@@ -1,272 +1,267 @@
 {
-  "current_page": 200593,
+  "current_page": 193944,
   "docs": [
     {
-      "code": "POP_22_CPV_FEM_TOT_UNKNOWN",
+      "code": "COMM_24_RICEBRANSHARPSOTHERRESIDUES_IMPORT_BTN",
       "column_names": [
         "Year",
-        "Number"
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 3027433,
+      "name": "Commodity Imports - Residues, Wastes Of Food Industry, Animal Fodder / Rice bran, sharps, other residues - Bhutan",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T04:14:04Z",
+      "urlize_name": "Commodity-Imports-Residues-Wastes-Of-Food-Industry-Animal-Fodder-Rice-bran-sharps-other-residues-Bhutan"
+    },
+    {
+      "code": "COMM_96_PARTSOFLIGHTERSOTHERTHANFLINTSWICKS_IMPORT_KHM",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5914924,
+      "name": "Commodity Imports - Miscellaneous Manufactured Articles / Parts of lighters, other than flints/wicks - Cambodia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-04-14T10:30:19Z",
+      "urlize_name": "Commodity-Imports-Miscellaneous-Manufactured-Articles-Parts-of-lighters-other-than-flints-wicks-Cambodia"
+    },
+    {
+      "code": "NCL_SP_POP_65UP_TO_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population ages 65 and above as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship--except for refugees not permanently settled in the country of asylum, who are generally considered part of the population of the country of origin.\nPopulation ages 65 and above (% of total)",
+      "display_url": "http://api.worldbank.org/countries/NCL/indicators/SP.POP.65UP.TO.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1960-12-31",
+      "id": 521052,
+      "name": "New Caledonia: Population ages 65 and above (% of total)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-14T16:59:00Z",
+      "urlize_name": "New-Caledonia-Population-ages-65-and-above-of-total"
+    },
+    {
+      "code": "EIP_SEX_AGE_RT_SEX_F_AGE_5YEARSBAND_45_49_SWE",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5738095,
+      "name": "Inactivity Rate By Sex And Age, Female, 45-49 - Sweden",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-19T10:22:50Z",
+      "urlize_name": "Inactivity-Rate-By-Sex-And-Age-Female-45-49-Sweden"
+    },
+    {
+      "code": "LAN_LU_HEA_173",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The domain  (land cover and land use, soil  and landscape) contains statistical tables on land cover and land use in general. In addition there are tables on visible animal grazing, irrigation, forest species and landscape features. The data have been collected throug the LUCAS survey in spring-autums 2009. The statistics are presented at NUTS0, NUTS1 and NUTS 2 levels.\r\nLUCAS Survey 2009 -  Informative content\r\nLUCAS is the acronim of Land Use and Cover Area frame Survey.  In the LUCAS survey  235 000 points were visited by 500 field surveyors on the spot. Those spots were selected from a standard 2 km grid with in total around 1 million points all over the EU. The land cover and the visible land use were classified according to the harmonized LUCAS land cover and land use nomenclatures. The aim of the LUCAS survey is to gather harmonised information on land use/cover and their changes over time. In addition the survey provides territorial information facilitating the analysis of the interactions between agriculture, environment and countryside (such as irrigation, land management ect.).\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/lan_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Flan_lu_hea.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 559619,
+      "name": "Land use with heavy environmental impact by NUTS 0 regions  : Square kilometre : TRANSPORT, COMMUNICATION NETWORKS, STORAGE, PROTECTIVE WORKS : Ireland",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-05-08T06:16:04Z",
+      "urlize_name": "Land-use-with-heavy-environmental-impact-by-NUTS-0-regions-Square-kilometre-TRANSPORT-COMMUNICATION-NETWORKS-STORAGE-PROTECTIVE-WORKS-Ireland"
+    },
+    {
+      "code": "COMM_81_CHROMIUMARTICLESTHEREOFWASTEORSCRAPPOWDERS_EXPORT_ARE",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 4363399,
+      "name": "Commodity Exports - Other Base Metals, Cermets, Articles Thereof / Chromium, articles thereof, waste or scrap/powders - United Arab Emirates",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T04:03:22Z",
+      "urlize_name": "Commodity-Exports-Other-Base-Metals-Cermets-Articles-Thereof-Chromium-articles-thereof-waste-or-scrap-powders-United-Arab-Emirates"
+    },
+    {
+      "code": "EMP_SEX_AGE_EDU_NB_SEX_M_AGE_10YEARSBAND_65P_EDU_ISCED97_3_BEN",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 5782172,
+      "name": "Employment By Sex, Age And Education, Male, 65+, Upper Secondary Education - Benin",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-19T21:24:00Z",
+      "urlize_name": "Employment-By-Sex-Age-And-Education-Male-65-Upper-Secondary-Education-Benin"
+    },
+    {
+      "code": "MED_NRG104A_88",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The focus of this domain is on the following countries:\r\nAlgeria, Egypt, Israel, Jordan, Lebanon, Morocco, Palestinian Authority, Syria, Tunisia.\r\nData are provided for 200 to 300 indicators depending on the country.\r\n \r\nThe data for the Mediterranean partner countries are supplied by and under the responsibility of the national statistical authorities  of each of the countries or territories. The data and their denomination in no way constitute the  expression of an opinion by the European Commission on the  legal status of a country or territory or on the delimitation of its frontiers.\r\n \nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/med_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fmed_nrg104a.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 575471,
+      "name": "Supply transformation  nuclear energy  annual data  : Nuclear heat : Products transferred : Jordan",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2013-05-08T05:17:07Z",
+      "urlize_name": "Supply-transformation-nuclear-energy-annual-data-Nuclear-heat-Products-transferred-Jordan"
+    },
+    {
+      "code": "103_0004_CANADA",
+      "column_names": [
+        "Date",
+        "Both sexes-All malignant neoplasms (cancers) [140-208]",
+        "Both sexes-Colorectal cancer [153-154]",
+        "Both sexes-Lung cancer [162]",
+        "Females-All malignant neoplasms (cancers) [140-208]",
+        "Females-Colorectal cancer [153-154]",
+        "Females-Female breast cancer [174]",
+        "Females-Lung cancer [162]",
+        "Males-All malignant neoplasms (cancers) [140-208]",
+        "Males-Colorectal cancer [153-154]",
+        "Males-Lung cancer [162]",
+        "Males-Prostate cancer [185]"
+      ],
+      "description": "Cancer incidence (February 2002 CCR file), by selected sites of cancer and sex, Canada, provinces and territories, annual      (Age-standardized rate per 100,000 population)           *Terminated* [Geography: Canada]",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a26?lang=eng&retrLang=eng&id=1030004&tabMode=dataTable&srchLan=-1&p1=-1&p2=9",
+      "frequency": "annual",
+      "from_date": "1976-12-31",
+      "id": 8384942,
+      "name": "Cancer incidence (February 2002 CCR file), by selected sites of cancer and sex, Canada, provinces and territories, annual      (Age-standardized rate per 100,000 population)           *Terminated* [Geography: Canada]",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2013-09-27T12:39:20Z",
+      "urlize_name": "Cancer-incidence-February-2002-CCR-file-by-selected-sites-of-cancer-and-sex-Canada-provinces-and-territories-annual-Age-standardized-rate-per-100-000-population-Terminated-Geography-Canada"
+    },
+    {
+      "code": "CPI_GOATSKIN",
+      "column_names": [
+        "Date",
+        "Goatskin"
+      ],
+      "description": "CPI for Norway products 1819-1871 (1850=100)",
+      "display_url": "http://www.norges-bank.no/Upload/HMS/consumer_price_index/p1_c3_table_11.htm",
+      "frequency": "annual",
+      "from_date": "1819-12-31",
+      "id": 1997408,
+      "name": "Norwegian CPI Clothing: goatskin",
+      "private": false,
+      "source_code": "NORGES",
+      "source_name": "Norges Bank",
+      "to_date": "1871-12-31",
+      "type": null,
+      "updated_at": "2013-08-27T20:42:35Z",
+      "urlize_name": "Norwegian-CPI-Clothing-goatskin"
+    },
+    {
+      "code": "MS33_CAP_MANAUS_PERC",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=MS33_CAP_PERC.csv&categorias=%22Leitos%20por%20mil%20habitantes%22&localidade=Manaus",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 6417055,
+      "name": "Health - Resources and Vaccination Coverage And Mortality: Indicators Resources - Beds per thousand inhabitants Capital: Manaus. Datatype: Relative",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T10:47:30Z",
+      "urlize_name": "Health-Resources-and-Vaccination-Coverage-And-Mortality-Indicators-Resources-Beds-per-thousand-inhabitants-Capital-Manaus-Datatype-Relative"
+    },
+    {
+      "code": "POP_31_IDN_BTH_TOT_70TO74",
+      "column_names": [
+        "Year",
+        "Total",
+        "Literate",
+        "Illiterate",
+        "Unknown"
       ],
       "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
       "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
       "frequency": "annual",
-      "from_date": "1950-12-31",
-      "id": 2642305,
-      "name": "Population - Female / Age Unknown / Total Areas - Cape Verde",
+      "from_date": "2005-12-31",
+      "id": 2541541,
+      "name": "Population by Literacy - Both Sexes / Age 70 to 74 / Total Areas - Indonesia",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-12T17:29:46Z",
-      "urlize_name": "Population-Female-Age-Unknown-Total-Areas-Cape-Verde"
-    },
-    {
-      "code": "V468883",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "{\"Geography\"=>\"Manitoba\", \"Sex\"=>\"Males\", \"Age group\"=>\"18 years and over\"}",
-      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
-      "frequency": "annual",
-      "from_date": "1971-12-31",
-      "id": 9668328,
-      "name": "051-0001: Estimates of population, by age group and sex for July 1, Canada, provinces and territories",
-      "private": false,
-      "source_code": "CANSIM",
-      "source_name": "Statistics Canada",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-01-18T01:18:39Z",
-      "urlize_name": "051-0001-Estimates-of-population-by-age-group-and-sex-for-July-1-Canada-provinces-and-territories"
-    },
-    {
-      "code": "143_000640175_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Unit of measurement=Without object, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=143",
-      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
-      "frequency": "annual",
-      "from_date": "1990-12-31",
-      "id": 8325248,
-      "name": "Consumer price index (annual, all households, France, base 1998) - COICOP classification: 11.2.1.2.1 - Boarding school fees, university housing, homes",
-      "private": false,
-      "source_code": "INSEE",
-      "source_name": "National Institute of Statistics and Economic Studies (France)",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-12T22:53:50Z",
-      "urlize_name": "Consumer-price-index-annual-all-households-France-base-1998-COICOP-classification-11-2-1-2-1-Boarding-school-fees-university-housing-homes"
-    },
-    {
-      "code": "COMM_13_LOCUSTBEANSLOCUSTSEEDS_IMPORT_BEL",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1999-12-31",
-      "id": 2924249,
-      "name": "Commodity Imports - Oil Seed, Oleagic Fruits, Grain, Seed, Fruit, Etc, Ne / Locust beans, locust seeds - Belgium",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-12T17:13:48Z",
-      "urlize_name": "Commodity-Imports-Oil-Seed-Oleagic-Fruits-Grain-Seed-Fruit-Etc-Ne-Locust-beans-locust-seeds-Belgium"
-    },
-    {
-      "code": "OEUN000000061100053103101",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: Employment; Occupation: First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators; Industry: Educational Services; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000061100053103101",
-      "frequency": "annual",
-      "from_date": "2012-06-30",
-      "id": 9146893,
-      "name": "Employment for First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators in Educational Services in National",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
-      "type": null,
-      "updated_at": "2013-11-17T04:31:36Z",
-      "urlize_name": "Employment-for-First-Line-Supervisors-of-Transportation-and-Material-Moving-Machine-and-Vehicle-Operators-in-Educational-Services-in-National"
-    },
-    {
-      "code": "ELEC_PLANT_CONS_EG_BTU_56595_WND_WT_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.56595-WND-WT.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.56595-WND-WT.A&out=xml",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 5086737,
-      "name": "Electric Fuel Consumption Mmbtus : Breezy Bucks I Llc : Wind : Wind Turbine, Onshore : Annual",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-09T07:38:53Z",
-      "urlize_name": "Electric-Fuel-Consumption-Mmbtus-Breezy-Bucks-I-Llc-Wind-Wind-Turbine-Onshore-Annual"
-    },
-    {
-      "code": "OEUN000000044500041309901",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: Employment; Occupation: Sales Representatives, Services, All Other; Industry: Food and Beverage Stores; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000044500041309901",
-      "frequency": "annual",
-      "from_date": "2012-06-30",
-      "id": 9040186,
-      "name": "Employment for Sales Representatives, Services, All Other in Food and Beverage Stores in National",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
-      "type": null,
-      "updated_at": "2013-11-16T12:56:55Z",
-      "urlize_name": "Employment-for-Sales-Representatives-Services-All-Other-in-Food-and-Beverage-Stores-in-National"
-    },
-    {
-      "code": "T10A109A02L0R10043A_INDUSTRIALTRACTORS",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Number of vehicles\n",
-      "display_url": "http://www.ine.es/pcaxisdl//t10/a109/a02/l1/r10043a.px",
-      "frequency": "annual",
-      "from_date": "1990-12-31",
-      "id": 7967084,
-      "name": "Vehicles registered, by type of vehicle, indicator, origin and period - INDUSTRIAL TRACTORS",
-      "private": false,
-      "source_code": "NSIS",
-      "source_name": "National Statistics Institute of Spain",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-01-12T22:57:39Z",
-      "urlize_name": "Vehicles-registered-by-type-of-vehicle-indicator-origin-and-period-INDUSTRIAL-TRACTORS"
+      "updated_at": "2014-01-10T04:56:18Z",
+      "urlize_name": "Population-by-Literacy-Both-Sexes-Age-70-to-74-Total-Areas-Indonesia"
     },
     {
-      "code": "V468880",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "{\"Geography\"=>\"Manitoba\", \"Sex\"=>\"Males\", \"Age group\"=>\"18 to 64 years\"}",
-      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
-      "frequency": "annual",
-      "from_date": "1971-12-31",
-      "id": 9668329,
-      "name": "051-0001: Estimates of population, by age group and sex for July 1, Canada, provinces and territories",
-      "private": false,
-      "source_code": "CANSIM",
-      "source_name": "Statistics Canada",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-01-18T01:18:40Z",
-      "urlize_name": "051-0001-Estimates-of-population-by-age-group-and-sex-for-July-1-Canada-provinces-and-territories"
-    },
-    {
-      "code": "COMM_41_RUBBERSOLUTIONSDISPERSIONSNES_IMPORT_PRT",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1999-12-31",
-      "id": 3632149,
-      "name": "Commodity Imports - Rubber And Articles Thereof / Rubber solutions, dispersions nes - Portugal",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-12T05:36:04Z",
-      "urlize_name": "Commodity-Imports-Rubber-And-Articles-Thereof-Rubber-solutions-dispersions-nes-Portugal"
-    },
-    {
-      "code": "ELEC_PLANT_CONS_TOT_BTU_55584_LFG_ALL_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.55584-LFG-ALL.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.55584-LFG-ALL.A&out=xml",
-      "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 5025471,
-      "name": "Fuel Consumption Mmbtus : East Bridgewater : Landfill Gas : All Primemovers : Annual",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T01:10:36Z",
-      "urlize_name": "Fuel-Consumption-Mmbtus-East-Bridgewater-Landfill-Gas-All-Primemovers-Annual"
-    },
-    {
-      "code": "SEDS_MGICV_NJ_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Million Dollars. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.MGICV.NJ.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.MGICV.NJ.A&out=xml",
-      "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 4782061,
-      "name": "Motor Gasoline Expenditures In The Industrial Sector, New Jersey",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T01:33:59Z",
-      "urlize_name": "Motor-Gasoline-Expenditures-In-The-Industrial-Sector-New-Jersey"
-    },
-    {
-      "code": "SEDS_MGICV_IA_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Million Dollars. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.MGICV.IA.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.MGICV.IA.A&out=xml",
-      "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 4782062,
-      "name": "Motor Gasoline Expenditures In The Industrial Sector, Iowa",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T01:40:26Z",
-      "urlize_name": "Motor-Gasoline-Expenditures-In-The-Industrial-Sector-Iowa"
-    },
-    {
-      "code": "COMM_4_TROUTLIVE_IMPORT_MDV",
+      "code": "COMM_25_TOBACCOREFUSE_EXPORT_BRA",
       "column_names": [
         "Year",
         "Trade (USD)",
@@ -277,18 +272,60 @@
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
       "from_date": "1989-12-31",
-      "id": 2794065,
-      "name": "Commodity Imports - Fish, Crustaceans, Molluscs, Aquatic Invertebrates Ne / Trout, live - Maldives",
+      "id": 3035257,
+      "name": "Commodity Exports - Tobacco And Manufactured Tobacco Substitutes / Tobacco refuse - Brazil",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
-      "to_date": "2010-12-31",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-12T22:44:05Z",
-      "urlize_name": "Commodity-Imports-Fish-Crustaceans-Molluscs-Aquatic-Invertebrates-Ne-Trout-live-Maldives"
+      "updated_at": "2014-01-13T03:17:07Z",
+      "urlize_name": "Commodity-Exports-Tobacco-And-Manufactured-Tobacco-Substitutes-Tobacco-refuse-Brazil"
     },
     {
-      "code": "COMM_84_MOULDSFORRUBBERORPLASTICNES_EXPORT_CUB",
+      "code": "TRNG_CVTS3_12_199",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "CVTS2 and CVTS3 data were collected with reference year 1 1999 and 2005 and published by Eurostat in order to:\r\nProvide the Commission with harmonised, reliable and relevant statistical information needed to define, implement, monitor and evaluate Commission policies in the continuing vocational training in enterprises sector.\r\nProvide the EU institutions, national administrations, enterprises, professional associations and EU citizens with high quality statistical services and products in the field of training.\r\nCVTS3 provides comparable statistics on training enterprises, the participation to training, the volume of CVT courses and its costs, and moreover information on Initial vocational training (IVT) courses.\r\nCVTS2 provides comparable statistical results on training and non-training enterprises, the supply of and the demand for vocational skills, the need for CVT and the forms, content and volume of CVT, the use of enterprises' own training resources and of external providers, and the cost of CVT courses.\r\nThe CVTS1 was the first survey on continuing vocational training in enterprises carried out on the EU level in a co-ordinated form (outline questionnaire, common definitions, and common recommendations with the respect to the fieldwork). The survey therefore was of pioneering nature, and is not any longer disseminated.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_cvts_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_cvts3_12.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 586919,
+      "name": "Enterprises with a training budget including provision for CVT as  of training enterprises by SIZE  : Percentage of total : Any type of vocational training : Netherlands : 250 employees or more",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T16:59:07Z",
+      "urlize_name": "Enterprises-with-a-training-budget-including-provision-for-CVT-as-of-training-enterprises-by-SIZE-Percentage-of-total-Any-type-of-vocational-training-Netherlands-250-employees-or-more"
+    },
+    {
+      "code": "COMM_90_PARTSANDACCESSORIESFORTHERMOMETERSETC_IMPORT_VEN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 5832393,
+      "name": "Commodity Imports - Optical, Photo, Technical, Medical, Etc Apparatus / Parts and accessories for thermometers, etc - Venezuela (Bolivarian Republic of)",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T04:06:34Z",
+      "urlize_name": "Commodity-Imports-Optical-Photo-Technical-Medical-Etc-Apparatus-Parts-and-accessories-for-thermometers-etc-Venezuela-Bolivarian-Republic-of"
+    },
+    {
+      "code": "COMM_69_TILESFLAGSTONESOFCEMENTCONCRETEARTIFICIALSTON_IMPORT_MSR",
       "column_names": [
         "Year",
         "Trade (USD)",
@@ -299,132 +336,121 @@
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
       "from_date": "2000-12-31",
-      "id": 4636919,
-      "name": "Commodity Exports - Nuclear Reactors, Boilers, Machinery, Etc / Moulds for rubber or plastic, nes - Cuba",
+      "id": 4055240,
+      "name": "Commodity Imports - Stone, Plaster, Cement, Asbestos, Mica, Etc Articles / Tiles & flagstones of cement,concrete,artificial ston - Montserrat",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
-      "to_date": "2004-12-31",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2013-05-15T03:38:00Z",
-      "urlize_name": "Commodity-Exports-Nuclear-Reactors-Boilers-Machinery-Etc-Moulds-for-rubber-or-plastic-nes-Cuba"
+      "updated_at": "2014-01-13T02:58:46Z",
+      "urlize_name": "Commodity-Imports-Stone-Plaster-Cement-Asbestos-Mica-Etc-Articles-Tiles-flagstones-of-cement-concrete-artificial-ston-Montserrat"
     },
     {
-      "code": "COMM_69_WORKEDSLATEARTICLESOFSLATEORAGGLOMERATEDSLATE_REEXPORT_HKG",
+      "code": "FAO_234URUGUAY666CHOCOLATEPRSNES",
       "column_names": [
         "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
+        "Import Quantity (tonnes)",
+        "Import Value (1000 US$)",
+        "Export Quantity (tonnes)",
+        "Export Value (1000 US$)"
       ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
+      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_Americas_1.zip",
       "frequency": "annual",
-      "from_date": "1993-12-31",
-      "id": 4045182,
-      "name": "Commodity Re-Exports - Stone, Plaster, Cement, Asbestos, Mica, Etc Articles / Worked slate, articles of slate or agglomerated slate - China, Hong Kong SAR",
+      "from_date": "1961-12-31",
+      "id": 7696436,
+      "name": "Trade Crops Livestock: Chocolate Prsnes - Uruguay",
       "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
       "type": null,
-      "updated_at": "2014-01-11T06:53:53Z",
-      "urlize_name": "Commodity-Re-Exports-Stone-Plaster-Cement-Asbestos-Mica-Etc-Articles-Worked-slate-articles-of-slate-or-agglomerated-slate-China-Hong-Kong-SAR"
+      "updated_at": "2013-07-26T04:03:49Z",
+      "urlize_name": "Trade-Crops-Livestock-Chocolate-Prsnes-Uruguay"
     },
     {
-      "code": "COMM_33_PIGMENTSANDPREPARATIONSBASEDONCHROMIUMCOMPOUNDS_REEXPORT_KEN",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 3447206,
-      "name": "Commodity Re-Exports - Tanning, Dyeing Extracts, Tannins, Derivs,pigments Et / Pigments and preparations based on chromium compounds - Kenya",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2008-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T12:39:22Z",
-      "urlize_name": "Commodity-Re-Exports-Tanning-Dyeing-Extracts-Tannins-Derivs-pigments-Et-Pigments-and-preparations-based-on-chromium-compounds-Kenya"
-    },
-    {
-      "code": "NBSN",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "seasonal_adjustment='NSA', base_period='-', price='CURR', index_period='-'. The Blue Book is a key annual publication of National Accounts statistics and the essential data source for anyone concerned with macro-economic policies and studies. These National Statistics are produced to high professional standards and released according to the arrangements approved by the UK Statistics Authority.",
-      "display_url": "http://www.ons.gov.uk/ons/datasets-and-tables/downloads/csv.csv?dataset=bb",
-      "frequency": "annual",
-      "from_date": "1987-12-31",
-      "id": 3735349,
-      "name": "IP:AS:FLOW:Deposits with RW Monetary Financial Institutions: CP NSA",
-      "private": false,
-      "source_code": "UKONS",
-      "source_name": "United Kingdom Office of National Statistics",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T14:08:35Z",
-      "urlize_name": "IP-AS-FLOW-Deposits-with-RW-Monetary-Financial-Institutions-CP-NSA"
-    },
-    {
-      "code": "COMM_83_LOCKSOFBASEMETALNES_IMPORT_LBN",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1997-12-31",
-      "id": 4430318,
-      "name": "Commodity Imports - Miscellaneous Articles Of Base Metal / Locks of base metal, nes - Lebanon",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-12T18:52:58Z",
-      "urlize_name": "Commodity-Imports-Miscellaneous-Articles-Of-Base-Metal-Locks-of-base-metal-nes-Lebanon"
-    },
-    {
-      "code": "OEUN000000048__5043500001",
+      "code": "CEU1000000034",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Statistic: Employment; Occupation: Material Recording, Scheduling, Dispatching, and Distributing Workers; Industry: Sectors 48 and 49 - Transportation and Warehousing; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000048--5043500001",
-      "frequency": "annual",
-      "from_date": "2012-06-30",
-      "id": 9049024,
-      "name": "Employment for Material Recording, Scheduling, Dispatching, and Distributing Workers in Sectors 48 and 49 - Transportation and Warehousing in National",
+      "description": "Statistic: Indexes of aggregate weekly hours of production and nonsupervisory employees, 2002=100; Industry: Mining and logging; Super-Sector: Mining and logging; Not Seasonally Adjusted; Source: Current Employment Statistics (CES); For more information see <a href=\"http://www.bls.gov/ces/cesprog.htm\">http://www.bls.gov/ces/cesprog.htm.",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/CEU1000000034",
+      "frequency": "monthly",
+      "from_date": "1947-01-31",
+      "id": 8442587,
+      "name": "Indexes of aggregate weekly hours of production and nonsupervisory employees, 2002=100; Mining and logging industry",
       "private": false,
       "source_code": "BLS",
       "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
+      "to_date": "2013-11-30",
       "type": null,
-      "updated_at": "2013-11-16T15:00:13Z",
-      "urlize_name": "Employment-for-Material-Recording-Scheduling-Dispatching-and-Distributing-Workers-in-Sectors-48-and-49-Transportation-and-Warehousing-in-National"
+      "updated_at": "2013-12-11T20:27:32Z",
+      "urlize_name": "Indexes-of-aggregate-weekly-hours-of-production-and-nonsupervisory-employees-2002-100-Mining-and-logging-industry"
+    },
+    {
+      "code": "COMM_81_TUNGSTENWOLFRAMANDARTICLESTHEREOFNES_REEXPORT_ARE",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4363411,
+      "name": "Commodity Re-Exports - Other Base Metals, Cermets, Articles Thereof / Tungsten (wolfram) and articles thereof nes - United Arab Emirates",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2013-04-14T04:41:42Z",
+      "urlize_name": "Commodity-Re-Exports-Other-Base-Metals-Cermets-Articles-Thereof-Tungsten-wolfram-and-articles-thereof-nes-United-Arab-Emirates"
+    },
+    {
+      "code": "COMM_82_SAFETYRAZORBLADESINCLUDINGBLANKSINSTRIPS_EXPORT_CAN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 4370490,
+      "name": "Commodity Exports - Tools, Implements, Cutlery, Etc Of Base Metal / Safety razor blades, including blanks in strips - Canada",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-04-15T18:58:47Z",
+      "urlize_name": "Commodity-Exports-Tools-Implements-Cutlery-Etc-Of-Base-Metal-Safety-razor-blades-including-blanks-in-strips-Canada"
     }
   ],
   "per_page": 20,
   "sources": [
     {
-      "code": "EIA",
-      "datasets_count": 427809,
+      "code": "ILO",
+      "datasets_count": 228980,
       "description": "No description for this source yet",
-      "host": "www.api.eia.gov",
-      "id": 661,
-      "name": "U.S. Energy Information Administration"
+      "host": "www.ilo.org",
+      "id": 686,
+      "name": "International Labour Organization"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
     },
     {
       "code": "CANSIM",
@@ -443,28 +469,36 @@
       "name": "United Nations"
     },
     {
-      "code": "INSEE",
-      "datasets_count": 0,
-      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
-      "host": "www.insee.fr",
-      "id": 1097,
-      "name": "National Institute of Statistics and Economic Studies (France)"
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "The World Bank's mission is to fight poverty with passion and professionalism for lasting results.\r\n\r\nFree and open access to data about development in countries around the globe.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
     },
     {
-      "code": "UKONS",
-      "datasets_count": 3566,
-      "description": "\r\nThe UK National Statistics Publication Hub is the gateway to the latest statistics release each day by government departments in the UK.",
-      "host": "www.ons.gov.uk",
-      "id": 491,
-      "name": "United Kingdom Office of National Statistics"
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
     },
     {
-      "code": "NSIS",
-      "datasets_count": 0,
-      "description": "The official organisation in Spain that collects statistics about demography, economy, and Spanish society. It is an autonomous organization in Spain responsible for overall coordination of statistical services of the General State Administration in monitoring, control and supervision of technical procedures. (Wikipedia)",
-      "host": "www.ine.es",
-      "id": 964,
-      "name": "National Statistics Institute of Spain"
+      "code": "NORGES",
+      "datasets_count": 91,
+      "description": "Norges Bank is Norway\u2019s central bank. The Bank shall promote economic stability in Norway. Norges Bank has executive and advisory responsibilities in the area of monetary policy and is responsible for promoting robust and efficient payment systems and financial markets. Norges Bank manages Norway\u2019s foreign exchange reserves and the Government Pension Fund Global.",
+      "host": "www.norges-bank.no",
+      "id": 252,
+      "name": "Norges Bank"
+    },
+    {
+      "code": "IBGE",
+      "datasets_count": 110418,
+      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
+      "host": "seriesestatisticas.ibge.gov.br",
+      "id": 725,
+      "name": "Brazilian Institute of Geography and Statistics"
     },
     {
       "code": "BLS",
@@ -475,5 +509,5 @@
       "name": "Bureau of Labor Statistics"
     }
   ],
-  "total_count": 10006019
+  "total_count": 10036987
 }

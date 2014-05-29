@@ -1,22 +1,21 @@
 {
-  "code": "INDSTAT_EST_MBAS_DNK",
+  "code": "ACDT_BV_ASSETS",
   "column_names": [
     "Date",
-    "Basic iron and steel",
-    "Basic precious and non-ferrous metals"
+    "Book Value of Assets"
   ],
-  "description": "Establishments in Basic Metals - Denmark. Source: UNIDO, which specializes in and promotes industrial development for reduction of poverty, inclusive globalization and sustainability of the environmental. For more information, please see <a href=http://www.unido.org/>http://www.unido.org/<\/a>",
-  "display_url": null,
+  "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2006-12-31",
-  "id": 11125438,
-  "name": "Establishments in Basic Metals - Denmark",
+  "from_date": "2001-12-31",
+  "id": 3874935,
+  "name": "Accident Prevention Plus Inc ( ACDT ) - Book Value of Assets",
   "private": false,
-  "source_code": "UNDATA",
-  "source_name": "United Nations",
-  "to_date": "2009-12-31",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2001-12-31",
   "type": null,
-  "updated_at": "2014-03-19T03:58:51Z",
-  "urlize_name": "Establishments-in-Basic-Metals-Denmark"
+  "updated_at": "2014-03-14T10:48:23Z",
+  "urlize_name": "Accident-Prevention-Plus-Inc-ACDT-Book-Value-of-Assets"
 }

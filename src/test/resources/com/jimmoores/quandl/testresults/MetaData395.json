@@ -1,21 +1,21 @@
 {
-  "code": "DEV_GNIPERCAPITAATLASMETHODCURRENTUS_SVN",
+  "code": "GCG_A_TO_CASH",
   "column_names": [
-    "Year",
-    "Value"
+    "Date",
+    "Cash"
   ],
-  "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1992-12-31",
-  "id": 3698314,
-  "name": "Gni Per Capita, Atlas Method (current Us$) - Slovenia",
+  "from_date": "2002-12-31",
+  "id": 4448020,
+  "name": "Guardian Capital Group 'A' ( GCG/A.TO ) - Cash",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
   "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-11T17:39:41Z",
-  "urlize_name": "Gni-Per-Capita-Atlas-Method-current-Us-Slovenia"
+  "updated_at": "2014-03-14T06:21:14Z",
+  "urlize_name": "Guardian-Capital-Group-A-GCG-A-TO-Cash"
 }
