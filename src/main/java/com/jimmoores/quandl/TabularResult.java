@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import com.jimmoores.quandl.util.ArgumentChecker;
+import com.jimmoores.quandl.util.PrettyPrinter;
 
 /**
  * Represents a result in tabular form.
@@ -102,5 +103,13 @@ public final class TabularResult {
     builder.append(_rows);
     builder.append("]");
     return builder.toString();
+  }
+  
+  /**
+   * Print a nicely formatted representation of this object.  Currently prints a nicely formatted ACSII table.
+   * @return a string containing a multi-line description of this object
+   */
+  public String toPrettyPrintedString() {
+    return PrettyPrinter.toPrettyPrintedString(this);
   }
 }

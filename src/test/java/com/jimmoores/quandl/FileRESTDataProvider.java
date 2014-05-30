@@ -31,7 +31,6 @@ import com.jimmoores.quandl.util.RESTDataProvider;
  * and keeps an index.  Files are created in the current working directory.
  */
 public final class FileRESTDataProvider implements RESTDataProvider {
-  @SuppressWarnings("unused")
   private static Logger s_logger = LoggerFactory.getLogger(FileRESTDataProvider.class);
   
   private Map<String, String> _urlFileNameMap = new HashMap<String, String>();

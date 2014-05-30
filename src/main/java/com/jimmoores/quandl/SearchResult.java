@@ -11,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.jimmoores.quandl.util.ArgumentChecker;
+import com.jimmoores.quandl.util.PrettyPrinter;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 
 /**
@@ -33,6 +34,48 @@ public final class SearchResult {
   public static SearchResult of(final JSONObject jsonObject) {
     ArgumentChecker.notNull(jsonObject, "jsonObject");
     return new SearchResult(jsonObject);
+  }
+  
+  /**
+   * Get the total number of documents in this result set.
+   * Throws a QuandlRuntimeException if Quandl response doesn't contain this field, although it should.
+   * @return the total number of documents in this result set
+   */
+  public int getTotalDocuments() {
+    try {
+      final int totalDocs = _jsonObject.getInt("total_count");
+      return totalDocs;
+    } catch (JSONException ex) {
+      throw new QuandlRuntimeException("Could not find total_count field in results from Quandl", ex);
+    }
+  }
+  
+  /**
+   * Get the number of documents per page in this result set.
+   * Throws a QuandlRuntimeException if Quandl response doesn't contain this field, although it should.
+   * @return the number of documents per page in this result set
+   */
+  public int getDocumentsPerPage() {
+    try {
+      final int totalDocs = _jsonObject.getInt("total_count");
+      return totalDocs;
+    } catch (JSONException ex) {
+      throw new QuandlRuntimeException("Could not find total_count field in results from Quandl", ex);
+    }
+  }
+  
+  /**
+   * Get the current page of this result set.  You can specify the page number in the request.
+   * Throws a QuandlRuntimeException if Quandl response doesn't contain this field, although it should.
+   * @return the page number of this result set
+   */
+  public int getCurrentPage() {
+    try {
+      final int totalDocs = _jsonObject.getInt("current_page");
+      return totalDocs;
+    } catch (JSONException ex) {
+      throw new QuandlRuntimeException("Could not find total_count field in results from Quandl", ex);
+    }
   }
   
   /**
@@ -79,6 +122,14 @@ public final class SearchResult {
    */
   public String toString() {
     return _jsonObject.toString();
+  }
+  
+  /**
+   * Print a nicely formatted representation of this object.  Currently prints a nicely formatted JSON representation.
+   * @return a string containing a multi-line description of this object
+   */
+  public String toPrettyPrintedString() {
+    return PrettyPrinter.toPrettyPrintedString(this);
   }
   
   @Override

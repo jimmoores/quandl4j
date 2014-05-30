@@ -14,6 +14,7 @@ import org.threeten.bp.OffsetDateTime;
 import org.threeten.bp.format.DateTimeFormatter;
 
 import com.jimmoores.quandl.util.ArgumentChecker;
+import com.jimmoores.quandl.util.PrettyPrinter;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 
 /**
@@ -175,11 +176,19 @@ public final class MetaDataResult {
   /**
    * Use the underlying JSON toString() to show full data structure.
    * This means data can be seen even if it isn't in a flat structure.
-   * To get a pretty printed version, use getRawJSON().toString(indent)
+   * To get a pretty printed version, use toPrettyPrintedString()
    * @return a string representation of the meta-data laid out as a JSON message (single line).
    */
   public String toString() {
     return _jsonObject.toString();
+  }
+  
+  /**
+   * Print a nicely formatted representation of this object.  Currently prints a nicely formatted JSON representation.
+   * @return a string containing a multi-line description of this object
+   */
+  public String toPrettyPrintedString() {
+    return PrettyPrinter.toPrettyPrintedString(this);
   }
   
   @Override

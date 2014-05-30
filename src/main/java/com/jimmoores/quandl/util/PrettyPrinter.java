@@ -9,7 +9,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.jimmoores.quandl.HeaderDefinition;
+import com.jimmoores.quandl.MetaDataResult;
 import com.jimmoores.quandl.Row;
+import com.jimmoores.quandl.SearchResult;
 import com.jimmoores.quandl.TabularResult;
 
 /**
@@ -23,6 +25,26 @@ public final class PrettyPrinter {
   private static final String LINE_SEPARATOR = String.format("%n");
 
   private PrettyPrinter() {
+  }
+
+  /**
+   * Pretty print a SearchResult as an indented piece of JSON code.
+   * Throws a QuandlRuntimeException if it can't render the nested JSONObject to a String.
+   * @param searchResult the searchResult, not null
+   * @return a String representation of the object, probably multi-line.
+   */  
+  public static String toPrettyPrintedString(final SearchResult searchResult) {
+    return toPrettyPrintedString(searchResult.getRawJSON());
+  }
+  
+  /**
+   * Pretty print a MetaDataResult as an indented piece of JSON code.
+   * Throws a QuandlRuntimeException if it can't render the nested JSONObject to a String.
+   * @param metaDataResult the metaDataResult, not null
+   * @return a String representation of the object, probably multi-line.
+   */  
+  public static String toPrettyPrintedString(final MetaDataResult metaDataResult) {
+    return toPrettyPrintedString(metaDataResult.getRawJSON());
   }
   
   /**

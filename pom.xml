@@ -10,6 +10,12 @@
   <name>quandl</name>
   <url>http://github.com/jimmoores/quandl4j</url>
 
+  <scm>
+    <connection>scm:git:git://github.com/jimmoores/quandl-java</connection>
+    <developerConnection>scm:git:git://github.com/jimmoores/quandl-java</developerConnection>
+    <url>http://github.com/jimmoores/quandl-java</url>
+  </scm>
+   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- Properties for maven-javadoc-plugin -->

@@ -15,9 +15,9 @@ import org.apache.commons.cli.OptionGroup;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.apache.commons.cli.Parser;
-import org.json.JSONException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.annotations.Test;
 import org.threeten.bp.LocalDate;
 
 import com.jimmoores.quandl.util.DefaultRESTDataProvider;
@@ -26,10 +26,34 @@ import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.RESTDataProvider;
 
 /**
- * Grab test data from quandl by having a look through the search results and pulling out result sets.
+ * Grab test data from quandl by having a look through the search results and pulling out pseudo-randomized result sets.  These 
+ * 'random' results are produced using a fixed seed, which means it produces the same sequence of test requests each time it is run.
+ * This allows us to re-run tests and provide pre-recorded responses we got before very easily without indexing all the results.
+ * One it has built a results list it can either save both the raw(ish) responses and parsed objects and then replay those results 
+ * as a regression test.  Following the patterns followed in this class, it is possible to easily regression test your system that 
+ * relies on Quandl data without hitting their servers.  This is both faster and more community friendly.
+ * 
+ * This class can be run as a TestNG test in which case it will run tests using the data in 
+ * 
+ *   src/test/resources/com/jimmoores/quandl/testdata
+ * 
+ * and 
+ * 
+ *   src/test/resources/com/jimmoores/quandl/testresults
+ *   
+ * If run on the command line, there are a number of options available (see command line help):
+ *   --record        this will save responses and result objects for later 'replay', typically these will appear in
+ *                   target/test-classes/com/jimmoores/quandl/test[data|results].
+ *   --file-tests    run the tests using previously saved reponses and compare the resulting objects against previously saved
+ *                   result objects.
+ *   --direct-tests  run tests against Quandl directly and don't record anything, but check results against previously saved
+ *                   result objects.  This may well legitimately fail due to changing fields like last updated.
+ *   --api-key       pass in your API key.  Pretty much required as anonymous access has small request limit.
+ *   --requests      override the number of randomized requests to run.  Default is 200
+ *   --seed          override the default seed to produce a different sequence of results.  This will require re-recording 
+ *                   results if used as the sequences of requests and reponses will no longer match.
  */
 public final class RegressionTester {
-  @SuppressWarnings("unused")
   private static Logger s_logger = LoggerFactory.getLogger(RegressionTester.class);
   private static final String API_KEY = "U4c8PuHYsa61ECEorSGC";
   private static final int DAYS_PER_YEAR = 365;
@@ -73,12 +97,23 @@ public final class RegressionTester {
     _random = new Random(randomSeed);
     _numRequests = numRequests;
   }
+  
+  /** for TestNG. */
+  private RegressionTester() {
+    _apiKey = null;
+    _random = new Random(SEED);
+    _numRequests = DEFAULT_NUM_REQUESTS;
+  }
 
   private void runRecording() {
     runTests(new RecordingRESTDataProvider(), new ResultSaver());
   }
 
-  private void runFileBasedTests() {
+  /**
+   * Run tests using previously collected Quandl response data and compare with previously collected results.
+   */
+  @Test
+  public void runFileBasedTests() {
     runTests(new FileRESTDataProvider(), new ResultChecker());
   }
 
@@ -111,35 +146,55 @@ public final class RegressionTester {
     }
   }
 
+  /**
+   * Run a set of data set requests using the provided quandl codes.
+   * @param session the Quandl session
+   * @param resultProcessor a result processor to ether record or check the results
+   * @param quandlCodes a random set of Quandl codes to construct the requests from
+   */
   private void fuzzDataSetRequests(final QuandlSession session, final ResultProcessor resultProcessor, final Set<String> quandlCodes) {
     for (String quandlCode : quandlCodes) {
       DataSetRequest req = fuzz(DataSetRequest.Builder.of(quandlCode)).build();
       try {
         TabularResult dataSet = session.getDataSet(req);
-        System.out.println(req);
-        System.out.println(PrettyPrinter.toPrettyPrintedString(dataSet));
+        s_logger.info(req.toString());
+        s_logger.info(PrettyPrinter.toPrettyPrintedString(dataSet));
       } catch (QuandlRuntimeException qre) {
-        System.err.println("Caught" + qre);
-        System.err.println("Continuing...");
+        s_logger.warn("Caught" + qre);
+        s_logger.info("Continuing...");
       }
     }
   }
 
+  /**
+   * Run a set of Meta data requests using the provided quandl codes.
+   * @param session the Quandl session
+   * @param resultProcessor a result processor to ether record or check the results
+   * @param quandlCodes a random set of Quandl codes to construct the requests from
+   */
   private void runMetaDataRequests(final QuandlSession session, final ResultProcessor resultProcessor, final Set<String> quandlCodes) {
     for (String quandlCode : quandlCodes) {
       MetaDataRequest req = MetaDataRequest.of(quandlCode);
       try {
         MetaDataResult dataSet = session.getMetaData(req);
         resultProcessor.processResult(dataSet);
-        System.out.println(req);
-        System.out.println(PrettyPrinter.toPrettyPrintedString(dataSet.getRawJSON()));
+        s_logger.info(req.toString());
+        s_logger.info(PrettyPrinter.toPrettyPrintedString(dataSet.getRawJSON()));
       } catch (QuandlRuntimeException qre) {
-        System.err.println("Caught" + qre);
-        System.err.println("Continuing...");
+        s_logger.warn("Caught" + qre);
+        s_logger.info("Continuing...");
       }
     }
   }
 
+  /**
+   * Run a set of randomized Multi data set requests, of varying size between 1 and MAX_CODES_PER_MULTI_REQ.
+   * It will contains a randomized mixture of single and all column requests, according to PROBABILITY_SINGLE_COLUMN_REQ
+   * The idea here is to stress test all the possible combinations of request types.
+   * @param session the Quandl session
+   * @param resultProcessor a result processor to either record or check the results
+   * @param quandlCodes a random set of Quandl codes to construct requests from
+   */
   private void fuzzDataSetsRequests(final QuandlSession session, final ResultProcessor resultProcessor, final Set<String> quandlCodes) {
     Iterator<String> iter = quandlCodes.iterator();
     while (iter.hasNext()) {
@@ -157,15 +212,21 @@ public final class RegressionTester {
       try {
         TabularResult dataSet = session.getDataSets(req);
         resultProcessor.processResult(dataSet);
-        System.out.println(req);
-        System.out.println(PrettyPrinter.toPrettyPrintedString(dataSet));
+        s_logger.info(req.toString());
+        s_logger.info(PrettyPrinter.toPrettyPrintedString(dataSet));
       } catch (QuandlRuntimeException qre) {
-        System.err.println("Caught" + qre);
-        System.err.println("Continuing...");
+        s_logger.warn("Caught exception", qre);
+        s_logger.info("Continuing...");
       }
     }
   }
 
+  /**
+   * Run a set of randomized Multi meta data requests, of varying size between 1 and MAX_CODES_PER_MULTI_REQ.
+   * @param session the Quandl session
+   * @param resultProcessor a result processor to either record or check the results
+   * @param quandlCodes a random set of Quandl codes to construct requests from
+   */
   private void runMultiMetaDataRequests(final QuandlSession session, final ResultProcessor resultProcessor, final Set<String> quandlCodes) {
     Iterator<String> iter = quandlCodes.iterator();
     while (iter.hasNext()) {
@@ -179,35 +240,39 @@ public final class RegressionTester {
       try {
         MetaDataResult metaData = session.getMetaData(req);
         resultProcessor.processResult(metaData);
-        System.out.println(req);
-        System.out.println(PrettyPrinter.toPrettyPrintedString(metaData.getRawJSON()));
+        s_logger.info(req.toString());
+        s_logger.info(PrettyPrinter.toPrettyPrintedString(metaData.getRawJSON()));
       } catch (QuandlRuntimeException qre) {
-        System.err.println("Caught" + qre);
-        System.err.println("Continuing...");
+        s_logger.warn("Caught exception", qre);
+        s_logger.info("Continuing...");
       }
     }
   }
 
+  /**
+   * Perform a search to find how many documents there are in total and then choose random pages
+   * and return a set of the quandl codes containing the first code in each page.  The idea here is to
+   * give us a representative sample of the datasets available.
+   * @param session the quandll session
+   * @param resultProcessor a result processor to either save the results or check them
+   * @return a randmly sampled set of quandl codes.
+   */
   private Set<String> sampleSearch(final QuandlSession session, final ResultProcessor resultProcessor) {
-    SearchResult result = session.search(SearchRequest.Builder.of("").build());
-    try {
-      final int totalDocs = result.getRawJSON().getInt("total_count");
-      final int docsPerPage = result.getRawJSON().getInt("per_page");
-      final int totalPages = totalDocs / docsPerPage;
-      Set<String> quandlCodes = new LinkedHashSet<String>();
-      for (int i = 0; i < _numRequests; i++) {
-        int pageRequired = _random.nextInt(totalPages);
-        SearchRequest req = SearchRequest.Builder.of("").withPageNumber(pageRequired).build();
-        System.out.println("About to run " + req);
-        SearchResult searchResult = session.search(req);
-        resultProcessor.processResult(searchResult);
-        MetaDataResult metaDataResult = searchResult.getMetaDataResultList().get(0);
-        quandlCodes.add(metaDataResult.getQuandlCode());
-      }
-      return quandlCodes;
-    } catch (JSONException ex) {
-      throw new RuntimeException(ex);
+    SearchResult result = session.search(SearchRequest.Builder.of("").build()); // return all available data sets.
+    final int totalDocs = result.getTotalDocuments();
+    final int docsPerPage = result.getDocumentsPerPage();
+    final int totalPages = totalDocs / docsPerPage;
+    Set<String> quandlCodes = new LinkedHashSet<String>();
+    for (int i = 0; i < _numRequests; i++) {
+      int pageRequired = _random.nextInt(totalPages);
+      SearchRequest req = SearchRequest.Builder.of("").withPageNumber(pageRequired).build();
+      System.out.println("About to run " + req);
+      SearchResult searchResult = session.search(req);
+      resultProcessor.processResult(searchResult);
+      MetaDataResult metaDataResult = searchResult.getMetaDataResultList().get(0);
+      quandlCodes.add(metaDataResult.getQuandlCode());
     }
+    return quandlCodes;
   }
 
   private DataSetRequest.Builder fuzz(final DataSetRequest.Builder reqBuilder) {

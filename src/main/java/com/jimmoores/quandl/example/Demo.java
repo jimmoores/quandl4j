@@ -10,6 +10,8 @@ import com.jimmoores.quandl.MultiDataSetRequest;
 import com.jimmoores.quandl.MultiMetaDataRequest;
 import com.jimmoores.quandl.QuandlCodeRequest;
 import com.jimmoores.quandl.QuandlSession;
+import com.jimmoores.quandl.SearchRequest;
+import com.jimmoores.quandl.SearchResult;
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.Transform;
 import com.jimmoores.quandl.util.PrettyPrinter;
@@ -32,6 +34,11 @@ public final class Demo {
    */
   private void run() {
     QuandlSession quandl = QuandlSession.create();
+    SearchResult searchResult = quandl.search(SearchRequest.Builder.of("Apple").withMaxPerPage(2).build());
+    System.out.println(searchResult.toPrettyPrintedString());
+    for (MetaDataResult metaData : searchResult.getMetaDataResultList()) {
+      System.out.println(PrettyPrinter.toPrettyPrintedString(metaData.getRawJSON()));
+    }
     TabularResult tabularResult = quandl.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL").withFrequency(Frequency.QUARTERLY)
                                                                           .withColumn(CLOSE_COLUMN).withTransform(Transform.NORMALIZE).build());
     System.out.println(PrettyPrinter.toPrettyPrintedString(tabularResult));
