@@ -1,21 +1,21 @@
 {
-  "code": "HCEN_EBITDA",
+  "code": "LTU_WP11672_3",
   "column_names": [
     "Date",
-    "Earnings Before Interest Taxes Depreciation and Amortization"
+    "Value"
   ],
-  "description": "Estimated by adding depreciation and amortization back to operating income (EBIT). Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "Adults who used a mobile phone to pay bills in the past 12 months (% female, age 15+)\nMobile phone used to pay bills, female (% age 15+)",
+  "display_url": "http://api.worldbank.org/countries/LTU/indicators/WP11672.3?per_page=1000",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2000-12-31",
-  "id": 4510871,
-  "name": "HealthCentral.com ( HCEN ) - Earnings Before Interest Taxes Depreciation and Amortization",
+  "from_date": "2011-12-31",
+  "id": 2208003,
+  "name": "Lithuania: Mobile phone used to pay bills, female (% age 15+)",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2000-12-31",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-03-14T05:32:14Z",
-  "urlize_name": "HealthCentral-com-HCEN-Earnings-Before-Interest-Taxes-Depreciation-and-Amortization"
+  "updated_at": "2014-05-16T19:55:20Z",
+  "urlize_name": "Lithuania-Mobile-phone-used-to-pay-bills-female-age-15"
 }

@@ -1,21 +1,23 @@
 {
-  "code": "MCITY_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_EVANSCO",
+  "code": "COMM_30_MULTIHALOGENDERIVATIVESOFACYCLICHYDROCARBONS_EXPORT_CUB",
   "column_names": [
-    "Date",
-    "Evans"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-  "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfListingsWithPriceReductions_AllHomes.csv",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2010-06-30",
-  "id": 7164150,
-  "name": "Zillow Metrics (Cities): Listings with Price Cuts (%) - Evans, CO",
+  "frequency": "annual",
+  "from_date": "2001-12-31",
+  "id": 3244500,
+  "name": "Commodity Exports - Organic Chemicals / Multi-halogen derivatives of acyclic hydrocarbons - Cuba",
   "private": false,
-  "source_code": "ZILLOW",
-  "source_name": "Zillow Real Estate Research",
-  "to_date": "2014-03-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2004-12-31",
   "type": null,
-  "updated_at": "2014-05-07T18:44:02Z",
-  "urlize_name": "Zillow-Metrics-Cities-Listings-with-Price-Cuts-Evans-CO"
+  "updated_at": "2013-05-16T16:33:55Z",
+  "urlize_name": "Commodity-Exports-Organic-Chemicals-Multi-halogen-derivatives-of-acyclic-hydrocarbons-Cuba"
 }

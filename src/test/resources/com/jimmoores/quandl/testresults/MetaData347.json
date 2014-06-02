@@ -1,23 +1,21 @@
 {
-  "code": "COMM_26_NATURALSANDSNESEXCEPTSANDFORMINERALEXTRACTION_EXPORT_BLR",
+  "code": "FMBM_EFF_TAX_INC",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Effective Tax Rate on Income"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "This is the effective tax rate, obtained by dividing the taxes paid by the taxable income as reported to the stockholders. We would rather have used marginal tax rates, but these are not reported. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1998-12-31",
-  "id": 3042632,
-  "name": "Commodity Exports - Salt, Sulphur, Earth, Stone, Plaster, Lime And Cement / Natural sands nes, except sand for mineral extraction - Belarus",
+  "from_date": "2009-12-31",
+  "id": 4452890,
+  "name": "F&M Bank Corp ( FMBM ) - Effective Tax Rate on Income",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2012-12-31",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-01-12T16:59:55Z",
-  "urlize_name": "Commodity-Exports-Salt-Sulphur-Earth-Stone-Plaster-Lime-And-Cement-Natural-sands-nes-except-sand-for-mineral-extraction-Belarus"
+  "updated_at": "2014-03-22T22:19:31Z",
+  "urlize_name": "F-M-Bank-Corp-FMBM-Effective-Tax-Rate-on-Income"
 }

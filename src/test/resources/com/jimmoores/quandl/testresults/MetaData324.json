@@ -1,21 +1,23 @@
 {
-  "code": "NAM_SL_TLF_CACT_3554_ZS",
+  "code": "COMM_53_PLAINWEAVECOTTON85200GM2DYED_EXPORT_MWI",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Labor force participation rate is the proportion of the population ages 35-54 that is economically active: all people who supply labor for the production of goods and services during a specified period.  The participation rates are harmonized to account for differences in national data collection and tabulation methodologies as well as for other country-specific factors such as military service requirements. The series includes both nationally reported and imputed data and only estimates that are national, meaning there are no geographic limitations in coverage.\nLabor participation rate, total (% of total population ages 35-54)",
-  "display_url": "http://api.worldbank.org/countries/NAM/indicators/SL.TLF.CACT.3554.ZS?per_page=1000",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1990-12-31",
-  "id": 518923,
-  "name": "Namibia: Labor participation rate, total (% of total population ages 35-54)",
+  "from_date": "1991-12-31",
+  "id": 3722864,
+  "name": "Commodity Exports - Cotton / Plain weave cotton, >85% >200g/m2, dyed - Malawi",
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
+  "source_code": "UN",
+  "source_name": "United Nations",
   "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-01-12T00:22:08Z",
-  "urlize_name": "Namibia-Labor-participation-rate-total-of-total-population-ages-35-54"
+  "updated_at": "2014-01-12T17:46:04Z",
+  "urlize_name": "Commodity-Exports-Cotton-Plain-weave-cotton-85-200g-m2-dyed-Malawi"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "929_AND",
+  "code": "ELEC_PLANT_AVG_HEAT_54535_NG_GT_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEX: Female.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=356",
-  "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000195&filter=SEX:FMLE;COUNTRY:AND;\n",
+  "description": "Units=Mmbtu Per Mcf. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.AVG_HEAT.54535-NG-GT.A",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.AVG_HEAT.54535-NG-GT.A&out=xml",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2006-12-31",
-  "id": 9586670,
-  "name": "Daily smoking of cigarettes (age-standardized rate) Female - Andorra",
+  "from_date": "2004-12-31",
+  "id": 5140226,
+  "name": "Mmbtu Per Unit : St Vincents Medical Center : Natural Gas : Combustion (gas) Turbine (including Jet Engine Design) : Annual",
   "private": false,
-  "source_code": "WHO",
-  "source_name": "World Health Organization",
-  "to_date": "2009-12-31",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-01-13T20:19:05Z",
-  "urlize_name": "Daily-smoking-of-cigarettes-age-standardized-rate-Female-Andorra"
+  "updated_at": "2014-01-10T01:08:20Z",
+  "urlize_name": "Mmbtu-Per-Unit-St-Vincents-Medical-Center-Natural-Gas-Combustion-gas-Turbine-including-Jet-Engine-Design-Annual"
 }

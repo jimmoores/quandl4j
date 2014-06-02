@@ -1,21 +1,21 @@
 {
-  "code": "GSP_NAICS_ALL_T_WAREHOUSINGANDSTORAGE_ARIZONA",
+  "code": "NETL_TOTALSOFTWARELICENSESANDOTHEROBLIGATIONSANDOPERATINGLEASES_Q",
   "column_names": [
-    "Year",
-    "Warehousing And Storage"
+    "Date",
+    "Value"
   ],
-  "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
-  "display_url": "http://bea.gov/regional",
+  "description": "SEC Name: TotalSoftwareLicensesAndOtherObligationsAndOperatingLeases",
+  "display_url": null,
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1997-12-31",
-  "id": 6706552,
-  "name": "TOPI (NAICS): Warehousing and storage - Arizona",
+  "frequency": "daily",
+  "from_date": "2011-06-30",
+  "id": 10283930,
+  "name": "NETLOGIC MICROSYSTEMS INC  (NETL): Quarterly Total Software Licenses And Other Obligations And Operating Leases",
   "private": false,
-  "source_code": "BEA",
-  "source_name": "Bureau of Economic Analysis",
-  "to_date": "2011-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2011-09-30",
   "type": null,
-  "updated_at": "2014-01-11T14:18:29Z",
-  "urlize_name": "TOPI-NAICS-Warehousing-and-storage-Arizona"
+  "updated_at": "2014-03-06T20:11:11Z",
+  "urlize_name": "NETLOGIC-MICROSYSTEMS-INC-NETL-Quarterly-Total-Software-Licenses-And-Other-Obligations-And-Operating-Leases"
 }

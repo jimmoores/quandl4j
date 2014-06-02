@@ -1,21 +1,21 @@
 {
-  "code": "POP_22_CZE_FEM_TOT_52",
+  "code": "OFI_Q_I3_N_15_T00_X_1_A1_0000_Z01_E",
   "column_names": [
-    "Year",
-    "Number"
+    "Date",
+    "Millions of Euro"
   ],
-  "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-  "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+  "description": " Euro area 13 (fixed composition), Outstanding amounts at the end of the period (stocks), Investment funds o/w Other funds reporting sector - Total assets/liabilities, All currencies combined - World (all entities) counterpart, Unspecified counterpart sector sector, denominated in Euro, data Neither seasonally nor working day adjusted , :, Dataset:OFI : Other Financial Intermediaries Explanation page (Series and Dataset Level Information), Reference area:Euro area 13 (fixed composition) (I3), Decimals:Three (3), Collection indicator:End of period (E)",
+  "display_url": "http://sdw.ecb.europa.eu/export.do?node=17787&SERIES_KEY=126.OFI.Q.I3.N.15.T00.X.1.A1.0000.Z01.E&exportType=sdmx",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1978-12-31",
-  "id": 2662297,
-  "name": "Population - Female / Age 52 / Total Areas - Czech Republic",
+  "frequency": "quarterly",
+  "from_date": "1998-12-31",
+  "id": 11396741,
+  "name": "Euro area 13 , Outstanding amounts at the end of the period , Investment funds o/w Other funds reporting sector Total assets/liabilities, All currencies combined World counterpart, Unspecified counterpart sector sector, denominated in Euro, data",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2012-12-31",
+  "source_code": "ECB",
+  "source_name": "European Central Bank",
+  "to_date": "2009-06-30",
   "type": null,
-  "updated_at": "2014-01-27T23:48:44Z",
-  "urlize_name": "Population-Female-Age-52-Total-Areas-Czech-Republic"
+  "updated_at": "2014-04-28T23:22:44Z",
+  "urlize_name": "Euro-area-13-Outstanding-amounts-at-the-end-of-the-period-Investment-funds-o-w-Other-funds-reporting-sector-Total-assets-liabilities-All-currencies-combined-World-counterpart-Unspecified-counterpart-sector-sector-denominated-in-Euro-data"
 }

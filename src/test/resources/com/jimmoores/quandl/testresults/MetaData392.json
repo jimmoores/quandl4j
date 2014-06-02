@@ -1,23 +1,25 @@
 {
-  "code": "COMM_13_SEEDSUGARBEETFORSOWING_IMPORT_NER",
+  "code": "OTC_ACUC",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "American Uranium Corporation (American Uranium) is an exploration-stage company engaged in the acquisition and exploration of mineral property interests in the United States. The Company has an option and LLC agreement with Strathmore Resources (US) Ltd. Pursuant to the agreement, the Company has an option to earn-in a 60% interest in Strathmore's Pinetree-Reno Creek uranium property. The Pinetree-Reno Creek Property is located in the central Powder River Basin, within the Pumpkin Buttes Uranium District, and encompasses approximately 16,000 acres. On March 9, 2009, the Company dissolved its wholly owned subsidiary, American Uranium Corporation.",
+  "display_url": "http://www.google.com/finance/historical?q=OTC%3AACUC&startdate=Jan+1%2C+1990&output=csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1997-12-31",
-  "id": 2932121,
-  "name": "Commodity Imports - Oil Seed, Oleagic Fruits, Grain, Seed, Fruit, Etc, Ne / Seed, sugar beet, for sowing - Niger",
+  "frequency": "daily",
+  "from_date": "2007-05-17",
+  "id": 5634082,
+  "name": "American Uranium Cp (ACUC)",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2010-12-31",
+  "source_code": "GOOG",
+  "source_name": "Google Finance",
+  "to_date": "2014-05-30",
   "type": null,
-  "updated_at": "2014-01-13T00:42:57Z",
-  "urlize_name": "Commodity-Imports-Oil-Seed-Oleagic-Fruits-Grain-Seed-Fruit-Etc-Ne-Seed-sugar-beet-for-sowing-Niger"
+  "updated_at": "2014-06-02T08:19:56Z",
+  "urlize_name": "American-Uranium-Cp-ACUC"
 }

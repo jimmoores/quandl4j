@@ -1,21 +1,21 @@
 {
-  "code": "TUR_SE_PRM_UNER",
+  "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_VINELANDNJ",
   "column_names": [
     "Date",
-    "Value"
+    "Vineland"
   ],
-  "description": "Out-of-school children of primary school age. Total is the total number of primary-school-age children who are not enrolled in either primary or secondary schools.\nChildren out of school, primary",
-  "display_url": "http://api.worldbank.org/countries/TUR/indicators/SE.PRM.UNER?per_page=1000",
+  "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1974-12-31",
-  "id": 2084187,
-  "name": "Turkey: Children out of school, primary",
+  "frequency": "monthly",
+  "from_date": "1998-05-31",
+  "id": 7110305,
+  "name": "Zillow Metrics (Cities): Sold for Loss (%) - Vineland, NJ",
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
-  "to_date": "2011-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2014-05-18T23:56:53Z",
-  "urlize_name": "Turkey-Children-out-of-school-primary"
+  "updated_at": "2014-05-08T12:47:57Z",
+  "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Vineland-NJ"
 }

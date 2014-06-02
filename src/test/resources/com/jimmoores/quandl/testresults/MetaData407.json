@@ -1,21 +1,21 @@
 {
-  "code": "APRO_MK_STRMT_38",
+  "code": "ICPT_LICENSESREVENUE_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Milk statistics are organised in accordance with a well-defined structure:\r\nMilk statistics are covered by the following Tables (by alphabetic order):\r\nA) Monthly statistics on the collected of cows' milk and products derived therefrom.\r\nB) Annual a production and use of milk (all types) in dairies - availability and use.\r\nC) Annual a production and use of milk (all types) in agricultural holdings.\r\nD) Breakdown of undertakings according to annual amount of milk collection.\r\nE) Breakdown of collection centres according to annual amount of milk collection.\r\nF) Breakdown of undertakings according to amount of milk processed.\r\nG) Breakdown of undertakings according to amount of annual production of certain groups of milk products:\r\n- fresh products,\r\n- drinking milk,\r\n- powdered milk products,\r\n- butter,\r\n- cheese.\r\nH) Protein content of milk products.\r\nI) Regional data on production of cows' milk.\r\n- in addition, methodological information by Member State is provided. \nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/apro_mk_esms.htm",
-  "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fapro_mk_strmt.sdmx.zip",
+  "description": "SEC Name: LicensesRevenue",
+  "display_url": null,
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1994-12-31",
-  "id": 900970,
-  "name": "Milk treated  Distribution of enterprises by volume of annual production  : Number of enterprises : From 20 001 to 50 000 t : Germany (including  former GDR from 1991)",
+  "frequency": "daily",
+  "from_date": "2012-12-31",
+  "id": 10731401,
+  "name": "INTERCEPT PHARMACEUTICALS INC  (ICPT): Annual Licenses Revenue",
   "private": false,
-  "source_code": "EUROSTAT",
-  "source_name": "EuroStat",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
   "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-12T20:21:53Z",
-  "urlize_name": "Milk-treated-Distribution-of-enterprises-by-volume-of-annual-production-Number-of-enterprises-From-20-001-to-50-000-t-Germany-including-former-GDR-from-1991"
+  "updated_at": "2014-03-07T10:51:14Z",
+  "urlize_name": "INTERCEPT-PHARMACEUTICALS-INC-ICPT-Annual-Licenses-Revenue"
 }

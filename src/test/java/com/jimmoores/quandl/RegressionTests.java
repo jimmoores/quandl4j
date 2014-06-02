@@ -53,9 +53,9 @@ import com.jimmoores.quandl.util.RESTDataProvider;
  *   --seed          override the default seed to produce a different sequence of results.  This will require re-recording 
  *                   results if used as the sequences of requests and reponses will no longer match.
  */
-public final class RegressionTester {
-  private static Logger s_logger = LoggerFactory.getLogger(RegressionTester.class);
-  private static final String API_KEY = "U4c8PuHYsa61ECEorSGC";
+@Test(groups = { "unit" })
+public final class RegressionTests {
+  private static Logger s_logger = LoggerFactory.getLogger(RegressionTests.class);
   private static final int DAYS_PER_YEAR = 365;
   private static final int MAX_COLUMN = 5;
   private static final int DEFAULT_NUM_REQUESTS = 200;
@@ -92,21 +92,19 @@ public final class RegressionTester {
   private String _apiKey;
   private int _numRequests;
 
-  private RegressionTester(final String apiKey, final long randomSeed, final int numRequests) {
+  private RegressionTests(final String apiKey, final long randomSeed, final int numRequests) {
     _apiKey = apiKey;
     _random = new Random(randomSeed);
     _numRequests = numRequests;
   }
   
   /** for TestNG. */
-  private RegressionTester() {
-    _apiKey = null;
-    _random = new Random(SEED);
-    _numRequests = DEFAULT_NUM_REQUESTS;
+  private RegressionTests() {
+    this(null, SEED, DEFAULT_NUM_REQUESTS);
   }
 
   private void runRecording() {
-    runTests(new RecordingRESTDataProvider(), new ResultSaver());
+    runTests(new RecordingRESTDataProvider(_apiKey), new ResultSaver());
   }
 
   /**
@@ -114,7 +112,7 @@ public final class RegressionTester {
    */
   @Test
   public void runFileBasedTests() {
-    runTests(new FileRESTDataProvider(), new ResultChecker());
+    runTests(new FileRESTDataProvider(_apiKey), new ResultChecker());
   }
 
   private void runDirectTests() {
@@ -125,12 +123,12 @@ public final class RegressionTester {
     SessionOptions options;
     if (_apiKey != null) {
       options = SessionOptions.Builder
-        .withAuthToken(API_KEY)
+        .withAuthToken(_apiKey)
         .withRESTDataProvider(restDataProvider)
         .build();
     } else {
       options = SessionOptions.Builder
-          .withAuthToken(API_KEY)
+          .withoutAuthToken()
           .withRESTDataProvider(restDataProvider)
           .build();
     }
@@ -356,7 +354,7 @@ public final class RegressionTester {
         System.exit(1);
       }
     }    
-    RegressionTester regressionTester = new RegressionTester(apiKey, randomSeed, numRequests);
+    RegressionTests regressionTester = new RegressionTests(apiKey, randomSeed, numRequests);
     if (commandLine.hasOption(RECORD_OPTION_SHORT)) {
       regressionTester.runRecording();
     } else if (commandLine.hasOption(FILE_TESTS_OPTION_SHORT)) {

@@ -1,21 +1,23 @@
 {
-  "code": "PSMI_EFFECTIVEINCOMETAXRATERECONCILIATIONSTATEANDLOCALINCOMETAXES_A",
+  "code": "COMM_82_SCISSORSTAILORSSIMILARSHEARSBLADESTHEREOF_EXPORT_GRC",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "SEC Name: EffectiveIncomeTaxRateReconciliationStateAndLocalIncomeTaxes",
-  "display_url": null,
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2012-12-29",
-  "id": 10483398,
-  "name": "PEREGRINE SEMICONDUCTOR CORP  (PSMI): Annual Effective Income Tax Rate Reconciliation State And Local Income Taxes",
+  "frequency": "annual",
+  "from_date": "1989-12-31",
+  "id": 4377601,
+  "name": "Commodity Exports - Tools, Implements, Cutlery, Etc Of Base Metal / Scissors, tailors/similar shears, blades thereof - Greece",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-12-28",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-03-07T00:48:10Z",
-  "urlize_name": "PEREGRINE-SEMICONDUCTOR-CORP-PSMI-Annual-Effective-Income-Tax-Rate-Reconciliation-State-And-Local-Income-Taxes"
+  "updated_at": "2014-01-12T17:20:33Z",
+  "urlize_name": "Commodity-Exports-Tools-Implements-Cutlery-Etc-Of-Base-Metal-Scissors-tailors-similar-shears-blades-thereof-Greece"
 }

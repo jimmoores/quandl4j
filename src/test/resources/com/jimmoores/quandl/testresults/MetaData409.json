@@ -1,21 +1,21 @@
 {
-  "code": "EMP_XEES_SEX_OCU1_NB_SEX_F_OCU_ISCO08_5_IRN",
+  "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_85923",
   "column_names": [
-    "Year",
+    "Date",
     "Value"
   ],
-  "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-  "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+  "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2009-12-31",
-  "id": 5942062,
-  "name": "Paid Employment By Sex And Occupation, Female, Service And Sales Workers - Iran, Islamic Rep. Of",
+  "frequency": "monthly",
+  "from_date": "2008-10-31",
+  "id": 7622720,
+  "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 85923,Show Low,AZ",
   "private": false,
-  "source_code": "ILO",
-  "source_name": "International Labour Organization",
-  "to_date": "2009-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2012-11-30",
   "type": null,
-  "updated_at": "2013-04-22T02:27:59Z",
-  "urlize_name": "Paid-Employment-By-Sex-And-Occupation-Female-Service-And-Sales-Workers-Iran-Islamic-Rep-Of"
+  "updated_at": "2014-01-09T02:41:51Z",
+  "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-85923-Show-Low-AZ"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "EES_TEES_NB_SEX_T_ECO_ISIC4_X_Q_TUR",
+  "code": "UIS_PRIMARYEDUCATIONISCED1TEACHINGSTAFF__ALLGENDERS_SVN",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Number"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2008-01-31",
-  "id": 12473286,
-  "name": "Employees In X. Not Specified - Quarterly - Turkey",
+  "frequency": "annual",
+  "from_date": "1993-12-31",
+  "id": 3569141,
+  "name": "Primary education (ISCED 1) Teaching staff / All genders - Slovenia",
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2008-04-30",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-05-29T00:41:41Z",
-  "urlize_name": "Employees-In-X-Not-Specified-Quarterly-Turkey"
+  "updated_at": "2014-01-11T20:24:51Z",
+  "urlize_name": "Primary-education-ISCED-1-Teaching-staff-All-genders-Slovenia"
 }

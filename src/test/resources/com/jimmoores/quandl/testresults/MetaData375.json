@@ -1,21 +1,21 @@
 {
-  "code": "POP_SEX_AGE_EDU_NB_SEX_F_AGE_10YEARSBANDPLUSCHILD_15_24_EDU_ISCED97_0_GRC",
+  "code": "CHN_DT_IXA_DPPG_CD",
   "column_names": [
-    "Year",
+    "Date",
     "Value"
   ],
-  "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-  "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+  "description": "Interest in arrears on long-term debt is defined as interest payment due but not paid, on a cumulative basis. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in foreign currency, goods, or services. Data are in current U.S. dollars.\nInterest arrears, public and publicly guaranteed (current US$)",
+  "display_url": "http://api.worldbank.org/countries/CHN/indicators/DT.IXA.DPPG.CD?per_page=1000",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2009-12-31",
-  "id": 6208434,
-  "name": "Population By Sex, Age And Education, Female, 15-24, Pre-primary Education - Greece",
+  "from_date": "1981-12-31",
+  "id": 2155495,
+  "name": "China: Interest arrears, public and publicly guaranteed (current US$)",
   "private": false,
-  "source_code": "ILO",
-  "source_name": "International Labour Organization",
-  "to_date": "2010-12-31",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2013-04-20T00:36:20Z",
-  "urlize_name": "Population-By-Sex-Age-And-Education-Female-15-24-Pre-primary-Education-Greece"
+  "updated_at": "2014-05-17T22:38:31Z",
+  "urlize_name": "China-Interest-arrears-public-and-publicly-guaranteed-current-US"
 }

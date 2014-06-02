@@ -9,6 +9,7 @@ import java.util.List;
 /**
  * Unit tests testing null checking.
  */
+@Test(groups = { "unit" })
 public class NullTests {
   // CHECKSTYLE:OFF
   @Test(expectedExceptions = QuandlRuntimeException.class)

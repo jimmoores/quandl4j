@@ -1,21 +1,21 @@
 {
-  "code": "ADP_AVAILABLEFORSALESECURITIESFAIRVALUEDISCLOSURE_A",
+  "code": "CEVA_NETCASHPROVIDEDBYUSEDININVESTINGACTIVITIES_Q",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEC Name: AvailableForSaleSecuritiesFairValueDisclosure",
+  "description": "SEC Name: NetCashProvidedByUsedInInvestingActivities",
   "display_url": null,
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2009-06-30",
-  "id": 9965053,
-  "name": "AUTOMATIC DATA PROCESSING INC  (ADP): Annual Available For Sale Securities Fair Value Disclosure",
+  "frequency": "daily",
+  "from_date": "2012-03-31",
+  "id": 11059749,
+  "name": "CEVA INC  (CEVA): Quarterly Net Cash Provided By Used In Investing Activities",
   "private": false,
   "source_code": "SEC",
   "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-06-30",
+  "to_date": "2013-03-31",
   "type": null,
-  "updated_at": "2014-02-19T17:32:52Z",
-  "urlize_name": "AUTOMATIC-DATA-PROCESSING-INC-ADP-Annual-Available-For-Sale-Securities-Fair-Value-Disclosure"
+  "updated_at": "2014-03-13T14:49:04Z",
+  "urlize_name": "CEVA-INC-CEVA-Quarterly-Net-Cash-Provided-By-Used-In-Investing-Activities"
 }

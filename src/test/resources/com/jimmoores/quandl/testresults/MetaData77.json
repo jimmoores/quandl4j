@@ -1,417 +1,473 @@
 {
-  "current_page": 442111,
+  "current_page": 230515,
   "docs": [
     {
-      "code": "SEE_A_X0_ENX0_LSD_X_Q",
+      "code": "SMU13179804200000001",
       "column_names": [
         "Date",
-        "Millions - Pure number"
+        "Value"
       ],
-      "description": " Not applicable - Euronext - Listed securities (listed companies in case of equity) - domestic - Securities other than debt and equities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.ENX0.LSD.X.Q&exportType=sdmx",
+      "description": "Statistic: All Employees, In Thousands; Industry: Retail Trade; Super-Sector: Retail Trade; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU13179804200000001",
+      "frequency": "monthly",
+      "from_date": "1990-01-31",
+      "id": 8475258,
+      "name": "All Employees, In Thousands; Retail Trade industry; Columbus, GA-AL;",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2013-12-13T01:41:16Z",
+      "urlize_name": "All-Employees-In-Thousands-Retail-Trade-industry-Columbus-GA-AL"
+    },
+    {
+      "code": "1357_001628585_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Current euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1357",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1978-12-31",
+      "id": 8025246,
+      "name": "Annual national accounts base 2005 - Intermediate consumption - Publishing, audiovisual and broadcasting - Scientific research and development - Current price",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T19:25:57Z",
+      "urlize_name": "Annual-national-accounts-base-2005-Intermediate-consumption-Publishing-audiovisual-and-broadcasting-Scientific-research-and-development-Current-price"
+    },
+    {
+      "code": "RGC320_GR_SUL_4_ANOS_ABS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RGC320_GR_ABS.csv&categorias=%224%20anos%22&localidade=Sul",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 6401251,
+      "name": "Population and Demographics: Marriage (marriages, separations, divorces) - Legal separations - time between dates of marriage and separation - 4 years Major Regions: South. Datatype: Absolute",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T19:26:25Z",
+      "urlize_name": "Population-and-Demographics-Marriage-marriages-separations-divorces-Legal-separations-time-between-dates-of-marriage-and-separation-4-years-Major-Regions-South-Datatype-Absolute"
+    },
+    {
+      "code": "EIA_ELECTRICITYDISTRIBUTIONLOSSES_A_TUNISIA183",
+      "column_names": [
+        "Year",
+        "Billion Kilowatthours"
+      ],
+      "description": "Units=Billion Kilowatthours. The U.S. Energy Information Administration (EIA) collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA provides a wide range of information and data products covering energy production, stocks, demand, imports, exports, and prices; and prepares analyses and special reports on topics of current interest.",
+      "display_url": "http://www.eia.gov/cfapps/ipdbproject/XMLinclude_3.cfm?tid=2&pid=2&pdid=&aid=9&cid=regions&titleStr=Electricity%20Distribution%20Losses%20(Billion%20Kilowatthours)&syid=2006&eyid=2010&form=&defaultid=3&typeOfUnit=STDUNIT&unit=BKWH&products=",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 2323727,
+      "name": "Electricity Distribution Losses: Tunisia",
+      "private": false,
+      "source_code": "DOE",
+      "source_name": "US Department of Energy",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T19:24:29Z",
+      "urlize_name": "Electricity-Distribution-Losses-Tunisia"
+    },
+    {
+      "code": "POP_22_HRV_FEM_URB_1TO4",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 2658879,
+      "name": "Population - Female / Age 1 to 4 / Urban Areas - Croatia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T20:41:39Z",
+      "urlize_name": "Population-Female-Age-1-to-4-Urban-Areas-Croatia"
+    },
+    {
+      "code": "NCU4406361700005",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Technical occupations; Skills: Level 05 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU4406361700005",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 9209253,
+      "name": "Compensation for Technical occupations in Level 05",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2013-11-18T01:00:36Z",
+      "urlize_name": "Compensation-for-Technical-occupations-in-Level-05"
+    },
+    {
+      "code": "EIA_CARBONINTENSITYUSINGMARKETEXCHANGERATES_A_MAURITIUS164",
+      "column_names": [
+        "Year",
+        "Metric Tons of Carbon Dioxide per Thousand Year 2005 U.S. Dollars"
+      ],
+      "description": "Units=Metric Tons of Carbon Dioxide per Thousand Year 2005 U.S. Dollars. The U.S. Energy Information Administration (EIA) collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA provides a wide range of information and data products covering energy production, stocks, demand, imports, exports, and prices; and prepares analyses and special reports on topics of current interest.",
+      "display_url": "http://www.eia.gov/cfapps/ipdbproject/XMLinclude_3.cfm?tid=91&pid=46&pdid=&aid=31&cid=regions&titleStr=Carbon%20Intensity%20using%20Market%20Exchange%20Rates%20(Metric%20Tons%20of%20Carbon%20Dioxide%20per%20Thousand%20Year%202005%20U.S.%20Dollars)&syid=2006&eyid=2010&form=&defaultid=3&typeOfUnit=STDUNIT&unit=MTCDPUSD&products=",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 2325652,
+      "name": "Carbon Intensity using Market Exchange Rates: Mauritius",
+      "private": false,
+      "source_code": "DOE",
+      "source_name": "US Department of Energy",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T19:24:29Z",
+      "urlize_name": "Carbon-Intensity-using-Market-Exchange-Rates-Mauritius"
+    },
+    {
+      "code": "FSM_DC_DAC_NORL_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.\nNet bilateral aid flows from DAC donors, Norway (current US$)",
+      "display_url": "http://api.worldbank.org/countries/FSM/indicators/DC.DAC.NORL.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 330689,
+      "name": "Micronesia, Fed. Sts.: Net bilateral aid flows from DAC donors, Norway (current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-06-20T16:54:32Z",
+      "urlize_name": "Micronesia-Fed-Sts-Net-bilateral-aid-flows-from-DAC-donors-Norway-current-US"
+    },
+    {
+      "code": "PD279_GR_SUL_GELADEIRA_NAO_TINHAM_ABS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PD279_GR_ABS.csv&categorias=%22Geladeira%20-%20nao%20tinham%22&localidade=Sul",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6331146,
+      "name": "Families and Households: Durable Goods Existing In Domicile - Permanent households, for possession of refrigerator - Refrigerator - had not Major Regions: South. Datatype: Absolute",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T19:24:29Z",
+      "urlize_name": "Families-and-Households-Durable-Goods-Existing-In-Domicile-Permanent-households-for-possession-of-refrigerator-Refrigerator-had-not-Major-Regions-South-Datatype-Absolute"
+    },
+    {
+      "code": "IIUEHSSP2EDS38112",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Rate of injury and illness cases per 100 full-time workers; Case type: Other recordable cases; Industry: Educational services; Supersector: Education and health services; Area: Private industry, Florida; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUEHSSP2EDS38112",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 9209994,
+      "name": "Rate of injury and illness cases per 100 full-time workers for Educational services, Private industry, Florida",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-11-18T01:20:12Z",
+      "urlize_name": "Rate-of-injury-and-illness-cases-per-100-full-time-workers-for-Educational-services-Private-industry-Florida"
+    },
+    {
+      "code": "908_CRI",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEX: Male.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2388",
+      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/NCD_BMI_MEAN&filter=SEX:MLE;COUNTRY:CRI;\n",
+      "frequency": "annual",
+      "from_date": "1980-12-31",
+      "id": 9582252,
+      "name": "Mean BMI (kg/m2) (age-standardized estimate) Male - Costa Rica",
+      "private": false,
+      "source_code": "WHO",
+      "source_name": "World Health Organization",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T21:58:30Z",
+      "urlize_name": "Mean-BMI-kg-m2-age-standardized-estimate-Male-Costa-Rica"
+    },
+    {
+      "code": "CIPPPGDJA156NUPN",
+      "column_names": [
+        "Date",
+        "CIPPPGDJA156NUPN_2012-07-26"
+      ],
+      "description": "Percent Not Seasonally Adjusted, More information is available at http://pwt.econ.upenn.edu/Documentation/append61.pdf.  For proper citation, see http://pwt.econ.upenn.edu/php_site/pwt_index.php  Source Indicator: ci ",
+      "display_url": "http://alfred.stlouisfed.org/series/downloaddata?seid=CIPPPGDJA156NUPN",
+      "frequency": "annual",
+      "from_date": "1970-01-01",
+      "id": 9079764,
+      "name": "Investment Share of Purchasing Power Parity Converted GDP Per Capita at current prices for Djibouti",
+      "private": false,
+      "source_code": "ALFRED",
+      "source_name": "Archival Federal Reserve Economic Data",
+      "to_date": "2010-01-01",
+      "type": null,
+      "updated_at": "2014-01-13T19:24:29Z",
+      "urlize_name": "Investment-Share-of-Purchasing-Power-Parity-Converted-GDP-Per-Capita-at-current-prices-for-Djibouti"
+    },
+    {
+      "code": "RC62_UF_AMAZONAS_MENOS_DE_15_ANOS_PERC",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RC62_UF_PERC.csv&categorias=%22Menos%20de%2015%20anos%22&localidade=Amazonas",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 6392479,
+      "name": "Population and Demographics: Marriage (marriages, separations, divorces) - Marriage - by age of men - Under 15 Federative Units - UF: Amazon. Datatype: Relative",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T19:24:29Z",
+      "urlize_name": "Population-and-Demographics-Marriage-marriages-separations-divorces-Marriage-by-age-of-men-Under-15-Federative-Units-UF-Amazon-Datatype-Relative"
+    },
+    {
+      "code": "PL2GDPAGA621NUPN",
+      "column_names": [
+        "Date",
+        "PL2GDPAGA621NUPN_2012-07-26"
+      ],
+      "description": "U.S.=100 Not Seasonally Adjusted, Price Level of GDP is the PPP over GDP divided by the exchange rate times 100. The PPP of GDP or any component is the national currency value divided by the real value in international dollars. The PPP and the exchange rate are both expressed as national currency units per US dollar.The value of price level of GDP for the United States is made equal to 100. Price Levels of the components Consumption, Investment, and Government are derived in the same way as the price level of GDP. While the U.S. = 100 over GDP, this is not true for the component shares. The purchasing power parity in domestic currency per $US for GDP or any component, may be obtained by dividing the price level by 100 and multiplying by the Exchange Rate. More information is available at http://pwt.econ.upenn.edu/Documentation/append61.pdf.  For proper citation, see http://pwt.econ.upenn.edu/php_site/pwt_index.php  Source Indicator: p2 ",
+      "display_url": "http://alfred.stlouisfed.org/series/downloaddata?seid=PL2GDPAGA621NUPN",
+      "frequency": "annual",
+      "from_date": "1970-01-01",
+      "id": 9081812,
+      "name": "Price Level of GDP, average of GEKS-CPDW for Antigua and Barbuda",
+      "private": false,
+      "source_code": "ALFRED",
+      "source_name": "Archival Federal Reserve Economic Data",
+      "to_date": "2010-01-01",
+      "type": null,
+      "updated_at": "2014-01-13T19:24:29Z",
+      "urlize_name": "Price-Level-of-GDP-average-of-GEKS-CPDW-for-Antigua-and-Barbuda"
+    },
+    {
+      "code": "NCU4406361700006",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Technical occupations; Skills: Level 06 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU4406361700006",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 9209255,
+      "name": "Compensation for Technical occupations in Level 06",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2013-11-18T01:00:37Z",
+      "urlize_name": "Compensation-for-Technical-occupations-in-Level-06"
+    },
+    {
+      "code": "MHL_DT_NFL_UNPB_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Net official flows from UN agencies are the net disbursements of total official flows from the UN agencies. Total official flows are the sum of Official Development Assistance (ODA) or official aid and Other Official Flows (OOF) and represent the total disbursements by the official sector at large to the recipient country. Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. OOF are transactions by the official sector whose main objective is other than development-motivated, or, if development-motivated, whose grant element is below the 25 per cent threshold which would make them eligible to be recorded as ODA. The main classes of transactions included here are official export credits, official sector equity and portfolio investment, and debt reorganization undertaken by the official sector at nonconcessional terms (irrespective of the nature or the identity of the original creditor). UN agencies are United Nations and include the United Nations Children\u2019s Fund (UNICEF), United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), United Nations Regular Programme for Technical Assistance (UNTA), International Atomic Energy Agency (IAEA), International Fund for Agricul­tural Development (IFAD), Joint United Nations Programme on HIV/AIDS (UNAIDS), United Nations Development Programme (UNDP), United Nations Economic Commission for Europe (UNECE), United Nations Population Fund (UNPD), United Nations Refugee Agency (UNHCR), World Food Programme (WFP), and World Health Organization (WHO). Data are in current U.S. dollars.\nNet official flows from UN agencies, UNPBF (current US$)",
+      "display_url": "http://api.worldbank.org/countries/MHL/indicators/DT.NFL.UNPB.CD?per_page=1000",
       "frequency": "annual",
       "from_date": "2007-12-31",
-      "id": 11466452,
-      "name": "Not applicable Euronext Listed securities domestic Securities other than debt and equities Quantity",
+      "id": 2138218,
+      "name": "Marshall Islands: Net official flows from UN agencies, UNPBF (current US$)",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
       "type": null,
-      "updated_at": "2014-04-30T15:30:53Z",
-      "urlize_name": "Not-applicable-Euronext-Listed-securities-domestic-Securities-other-than-debt-and-equities-Quantity"
+      "updated_at": "2013-04-15T19:31:02Z",
+      "urlize_name": "Marshall-Islands-Net-official-flows-from-UN-agencies-UNPBF-current-US"
     },
     {
-      "code": "SEE_A_X0_ENX0_LSN_E_Q",
+      "code": "351_CPV",
       "column_names": [
         "Date",
-        "Millions - Pure number"
+        "Value"
       ],
-      "description": " Not applicable - Euronext - Listed securities (listed companies in case of equity) - non-domestic - Equity - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.ENX0.LSN.E.Q&exportType=sdmx",
+      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2394",
+      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/UV_2&filter=COUNTRY:CPV;\n",
       "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466453,
-      "name": "Not applicable Euronext Listed securities non-domestic Equity Quantity",
+      "from_date": "2002-12-31",
+      "id": 9527433,
+      "name": "UV radiation attributable deaths  - Cabo Verde",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
+      "source_code": "WHO",
+      "source_name": "World Health Organization",
+      "to_date": "2002-12-31",
       "type": null,
-      "updated_at": "2014-04-30T15:30:54Z",
-      "urlize_name": "Not-applicable-Euronext-Listed-securities-non-domestic-Equity-Quantity"
+      "updated_at": "2014-01-13T19:39:34Z",
+      "urlize_name": "UV-radiation-attributable-deaths-Cabo-Verde"
     },
     {
-      "code": "SEE_A_X0_ENX0_LSN_I_Q",
+      "code": "IIUEHSSP2EDS0Z845",
       "column_names": [
         "Date",
-        "Millions - Pure number"
+        "Value"
       ],
-      "description": " Not applicable - Euronext - Listed securities (listed companies in case of equity) - non-domestic - Equity, of which investment fund shares - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.ENX0.LSN.I.Q&exportType=sdmx",
+      "description": "Measure: Rate of illness cases per 10,000 full-time workers; Case type: Total recordable cases of all other illnesses; Industry: Educational services; Supersector: Education and health services; Area: Local government, South Carolina; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUEHSSP2EDS0Z845",
       "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 11466454,
-      "name": "Not applicable Euronext Listed securities non-domestic Equity, of which investment fund shares Quantity",
+      "from_date": "2009-12-31",
+      "id": 9209256,
+      "name": "Rate of illness cases per 10,000 full-time workers for Educational services, Local government, South Carolina",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-04-30T15:30:55Z",
-      "urlize_name": "Not-applicable-Euronext-Listed-securities-non-domestic-Equity-of-which-investment-fund-shares-Quantity"
+      "updated_at": "2013-11-18T01:00:38Z",
+      "urlize_name": "Rate-of-illness-cases-per-10-000-full-time-workers-for-Educational-services-Local-government-South-Carolina"
     },
     {
-      "code": "SEE_A_X0_ENX0_LSN_M_Q",
+      "code": "NCU4406361700007",
       "column_names": [
         "Date",
-        "Millions - Pure number"
+        "Value"
       ],
-      "description": " Not applicable - Euronext - Listed securities (listed companies in case of equity) - non-domestic - Debt securities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.ENX0.LSN.M.Q&exportType=sdmx",
+      "description": "Occupation: Technical occupations; Skills: Level 07 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU4406361700007",
       "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466455,
-      "name": "Not applicable Euronext Listed securities non-domestic Debt securities Quantity",
+      "from_date": "1999-01-31",
+      "id": 9209257,
+      "name": "Compensation for Technical occupations in Level 07",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2001-12-31",
       "type": null,
-      "updated_at": "2014-04-30T15:30:56Z",
-      "urlize_name": "Not-applicable-Euronext-Listed-securities-non-domestic-Debt-securities-Quantity"
+      "updated_at": "2013-11-18T01:00:41Z",
+      "urlize_name": "Compensation-for-Technical-occupations-in-Level-07"
     },
     {
-      "code": "SEE_A_X0_ENX0_LSN_U_Q",
+      "code": "PL2GDPMKA621NUPN",
       "column_names": [
         "Date",
-        "Millions - Pure number"
+        "PL2GDPMKA621NUPN_2012-07-26"
       ],
-      "description": " Not applicable - Euronext - Listed securities (listed companies in case of equity) - non-domestic - Debt securities, equities and other securities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.ENX0.LSN.U.Q&exportType=sdmx",
+      "description": "U.S.=100 Not Seasonally Adjusted, Price Level of GDP is the PPP over GDP divided by the exchange rate times 100. The PPP of GDP or any component is the national currency value divided by the real value in international dollars. The PPP and the exchange rate are both expressed as national currency units per US dollar.The value of price level of GDP for the United States is made equal to 100. Price Levels of the components Consumption, Investment, and Government are derived in the same way as the price level of GDP. While the U.S. = 100 over GDP, this is not true for the component shares. The purchasing power parity in domestic currency per $US for GDP or any component, may be obtained by dividing the price level by 100 and multiplying by the Exchange Rate. More information is available at http://pwt.econ.upenn.edu/Documentation/append61.pdf.  For proper citation, see http://pwt.econ.upenn.edu/php_site/pwt_index.php  Source Indicator: p2 ",
+      "display_url": "http://alfred.stlouisfed.org/series/downloaddata?seid=PL2GDPMKA621NUPN",
       "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466456,
-      "name": "Not applicable Euronext Listed securities non-domestic Debt securities, equities and other securities Quantity",
+      "from_date": "1990-01-01",
+      "id": 9081956,
+      "name": "Price Level of GDP, average of GEKS-CPDW for Macedonia",
       "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
+      "source_code": "ALFRED",
+      "source_name": "Archival Federal Reserve Economic Data",
+      "to_date": "2010-01-01",
       "type": null,
-      "updated_at": "2014-04-30T15:30:29Z",
-      "urlize_name": "Not-applicable-Euronext-Listed-securities-non-domestic-Debt-securities-equities-and-other-securities-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_ENX0_LSN_X_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - Euronext - Listed securities (listed companies in case of equity) - non-domestic - Securities other than debt and equities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.ENX0.LSN.X.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 11466457,
-      "name": "Not applicable Euronext Listed securities non-domestic Securities other than debt and equities Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:30:30Z",
-      "urlize_name": "Not-applicable-Euronext-Listed-securities-non-domestic-Securities-other-than-debt-and-equities-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_ENX0_LST_E_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - Euronext - Listed securities (listed companies in case of equity) - Equity - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.ENX0.LST.E.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466458,
-      "name": "Not applicable Euronext Listed securities Equity Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:30:31Z",
-      "urlize_name": "Not-applicable-Euronext-Listed-securities-Equity-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_ENX0_LST_I_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - Euronext - Listed securities (listed companies in case of equity) - Equity, of which investment fund shares - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.ENX0.LST.I.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466459,
-      "name": "Not applicable Euronext Listed securities Equity, of which investment fund shares Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:30:32Z",
-      "urlize_name": "Not-applicable-Euronext-Listed-securities-Equity-of-which-investment-fund-shares-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_ENX0_LST_M_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - Euronext - Listed securities (listed companies in case of equity) - Debt securities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.ENX0.LST.M.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466460,
-      "name": "Not applicable Euronext Listed securities Debt securities Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:30:32Z",
-      "urlize_name": "Not-applicable-Euronext-Listed-securities-Debt-securities-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_ENX0_LST_U_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - Euronext - Listed securities (listed companies in case of equity) - Debt securities, equities and other securities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.ENX0.LST.U.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466461,
-      "name": "Not applicable Euronext Listed securities Debt securities, equities and other securities Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:31:01Z",
-      "urlize_name": "Not-applicable-Euronext-Listed-securities-Debt-securities-equities-and-other-securities-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_ENX0_LST_X_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - Euronext - Listed securities (listed companies in case of equity) - Securities other than debt and equities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.ENX0.LST.X.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466462,
-      "name": "Not applicable Euronext Listed securities Securities other than debt and equities Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:31:03Z",
-      "urlize_name": "Not-applicable-Euronext-Listed-securities-Securities-other-than-debt-and-equities-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_OMX0_LSD_E_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - OMX - Listed securities (listed companies in case of equity) - domestic - Equity - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.OMX0.LSD.E.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466463,
-      "name": "Not applicable OMX Listed securities domestic Equity Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:31:03Z",
-      "urlize_name": "Not-applicable-OMX-Listed-securities-domestic-Equity-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_OMX0_LSD_I_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - OMX - Listed securities (listed companies in case of equity) - domestic - Equity, of which investment fund shares - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.OMX0.LSD.I.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 11466464,
-      "name": "Not applicable OMX Listed securities domestic Equity, of which investment fund shares Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:30:36Z",
-      "urlize_name": "Not-applicable-OMX-Listed-securities-domestic-Equity-of-which-investment-fund-shares-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_OMX0_LSD_M_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - OMX - Listed securities (listed companies in case of equity) - domestic - Debt securities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.OMX0.LSD.M.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466465,
-      "name": "Not applicable OMX Listed securities domestic Debt securities Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:30:37Z",
-      "urlize_name": "Not-applicable-OMX-Listed-securities-domestic-Debt-securities-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_OMX0_LSD_U_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - OMX - Listed securities (listed companies in case of equity) - domestic - Debt securities, equities and other securities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.OMX0.LSD.U.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466466,
-      "name": "Not applicable OMX Listed securities domestic Debt securities, equities and other securities Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:30:38Z",
-      "urlize_name": "Not-applicable-OMX-Listed-securities-domestic-Debt-securities-equities-and-other-securities-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_OMX0_LSD_X_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - OMX - Listed securities (listed companies in case of equity) - domestic - Securities other than debt and equities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.OMX0.LSD.X.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 11466467,
-      "name": "Not applicable OMX Listed securities domestic Securities other than debt and equities Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:31:07Z",
-      "urlize_name": "Not-applicable-OMX-Listed-securities-domestic-Securities-other-than-debt-and-equities-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_OMX0_LSN_E_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - OMX - Listed securities (listed companies in case of equity) - non-domestic - Equity - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.OMX0.LSN.E.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466468,
-      "name": "Not applicable OMX Listed securities non-domestic Equity Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:30:40Z",
-      "urlize_name": "Not-applicable-OMX-Listed-securities-non-domestic-Equity-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_OMX0_LSN_I_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - OMX - Listed securities (listed companies in case of equity) - non-domestic - Equity, of which investment fund shares - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.OMX0.LSN.I.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 11466469,
-      "name": "Not applicable OMX Listed securities non-domestic Equity, of which investment fund shares Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:30:41Z",
-      "urlize_name": "Not-applicable-OMX-Listed-securities-non-domestic-Equity-of-which-investment-fund-shares-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_OMX0_LSN_M_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - OMX - Listed securities (listed companies in case of equity) - non-domestic - Debt securities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.OMX0.LSN.M.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466470,
-      "name": "Not applicable OMX Listed securities non-domestic Debt securities Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:31:10Z",
-      "urlize_name": "Not-applicable-OMX-Listed-securities-non-domestic-Debt-securities-Quantity"
-    },
-    {
-      "code": "SEE_A_X0_OMX0_LSN_U_Q",
-      "column_names": [
-        "Date",
-        "Millions - Pure number"
-      ],
-      "description": " Not applicable - OMX - Listed securities (listed companies in case of equity) - non-domestic - Debt securities, equities and other securities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.OMX0.LSN.U.Q&exportType=sdmx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 11466471,
-      "name": "Not applicable OMX Listed securities non-domestic Debt securities, equities and other securities Quantity",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-04-30T15:31:11Z",
-      "urlize_name": "Not-applicable-OMX-Listed-securities-non-domestic-Debt-securities-equities-and-other-securities-Quantity"
+      "updated_at": "2014-01-13T19:25:57Z",
+      "urlize_name": "Price-Level-of-GDP-average-of-GEKS-CPDW-for-Macedonia"
     }
   ],
   "per_page": 20,
-  "sources": [{
-    "code": "ECB",
-    "concurrency": 20,
-    "datasets_count": 0,
-    "description": "No description for this source yet",
-    "host": "sdw.ecb.europa.eu",
-    "id": 8917,
-    "name": "European Central Bank",
-    "use_proxy": false
-  }],
-  "total_count": 10036987
+  "sources": [
+    {
+      "code": "DOE",
+      "datasets_count": 11923,
+      "description": "Governmental department whose mission is to advance energy technology and promote related innovation in the United States.",
+      "host": "www.eia.gov",
+      "id": 43,
+      "name": "US Department of Energy"
+    },
+    {
+      "code": "WHO",
+      "datasets_count": 21456,
+      "description": "",
+      "host": "apps.who.int",
+      "id": 525,
+      "name": "World Health Organization"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
+      "code": "IBGE",
+      "datasets_count": 110418,
+      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
+      "host": "seriesestatisticas.ibge.gov.br",
+      "id": 725,
+      "name": "Brazilian Institute of Geography and Statistics"
+    },
+    {
+      "code": "ALFRED",
+      "datasets_count": 0,
+      "description": "ALFRED® provides vintage versions of historical economic data.",
+      "host": "alfred.stlouisfed.org",
+      "id": 2393,
+      "name": "Archival Federal Reserve Economic Data"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10147268
 }

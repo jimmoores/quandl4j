@@ -1,21 +1,21 @@
 {
-  "code": "PD321_GR_CENTRO_OESTE_TOTAL_ABS",
+  "code": "MCITY_MEDIANSOLDPRICEPERSQFT_ALLHOMES_ROCHESTERMI",
   "column_names": [
     "Date",
-    "Value"
+    "Rochester"
   ],
-  "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
-  "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PD321_GR_ABS.csv&categorias=%22Total%22&localidade=Centro-Oeste",
+  "description": "Median of sale prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianSoldPricePerSqft_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2001-12-31",
-  "id": 6322518,
-  "name": "Children, Adolescents And Young: Education - Persons 5 years or older not literate, by age groups - Total Major Regions: Midwest. Datatype: Absolute",
+  "frequency": "monthly",
+  "from_date": "1996-05-31",
+  "id": 7105619,
+  "name": "Zillow Metrics (Cities): Median Sale Price per Sq. Ft. - Rochester, MI",
   "private": false,
-  "source_code": "IBGE",
-  "source_name": "Brazilian Institute of Geography and Statistics",
-  "to_date": "2011-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2014-01-10T12:28:51Z",
-  "urlize_name": "Children-Adolescents-And-Young-Education-Persons-5-years-or-older-not-literate-by-age-groups-Total-Major-Regions-Midwest-Datatype-Absolute"
+  "updated_at": "2014-05-07T18:13:44Z",
+  "urlize_name": "Zillow-Metrics-Cities-Median-Sale-Price-per-Sq-Ft-Rochester-MI"
 }

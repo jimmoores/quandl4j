@@ -1,27 +1,21 @@
 {
-  "code": "POP_32_GBR_BTH_URB_65TO69",
+  "code": "MSTATE_SALEPRICETOLISTRATIO_ALLHOMES_OREGON",
   "column_names": [
-    "Year",
-    "Total population",
-    "Total economically active population",
-    "Employed",
-    "Unemployed",
-    "Never worked before",
-    "Worked before",
-    "Not economically active population"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-  "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+  "description": "The Zillow Home Value Index is the median Zestimate valuation for a given geographic area on a given day. A Zestimate is Zillow's estimate of the current market value for a home. We have tens of millions of Zestimates - one for most homes. Our data is refreshed regularly to reflect real estate transactions that could affect you - even if you're not buying or selling a house.",
+  "display_url": "http://files.zillowstatic.com/research/public/State/State_SalePriceToListRatio_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2001-12-31",
-  "id": 2575528,
-  "name": "Population by Economic Status - Both Sexes / Age 65 to 69 / Urban Areas - United Kingdom of Great Britain and Northern Ireland",
+  "frequency": "monthly",
+  "from_date": "2008-10-31",
+  "id": 7347223,
+  "name": "Zillow Metrics: Sale-to-List Price Ratio - Oregon",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2001-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2014-01-13T01:36:58Z",
-  "urlize_name": "Population-by-Economic-Status-Both-Sexes-Age-65-to-69-Urban-Areas-United-Kingdom-of-Great-Britain-and-Northern-Ireland"
+  "updated_at": "2014-05-08T12:38:40Z",
+  "urlize_name": "Zillow-Metrics-Sale-to-List-Price-Ratio-Oregon"
 }

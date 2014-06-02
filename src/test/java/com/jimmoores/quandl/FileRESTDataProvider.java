@@ -37,11 +37,15 @@ public final class FileRESTDataProvider implements RESTDataProvider {
   private Map<String, Exception> _urlExceptionMap = new HashMap<String, Exception>();
 
   private File _rootPath;
+
+  private String _apiKeyString;
     
   /**
    * Construct an instance.
+   * @param apiKey the Quandl API key (aka authorization token)
    */
-  public FileRESTDataProvider() {
+  public FileRESTDataProvider(final String apiKey) {
+    _apiKeyString = QuandlSession.AUTH_TOKEN_PARAM_NAME + "=" + apiKey;
     File file;
     try {
       file = new File(RecordingRESTDataProvider.class.getResource("testdata/").toURI());
@@ -55,8 +59,10 @@ public final class FileRESTDataProvider implements RESTDataProvider {
   /**
    * Construct an instance.
    * @param rootPath the directory to store URI, Filename and exception data in
+   * @param apiKey the Quandl API key (aka authorization token)
    */
-  public FileRESTDataProvider(final File rootPath) {
+  public FileRESTDataProvider(final File rootPath, final String apiKey) {
+    _apiKeyString = QuandlSession.AUTH_TOKEN_PARAM_NAME + "=" + apiKey;
     readIndexFile(rootPath);
   }
 
@@ -106,10 +112,10 @@ public final class FileRESTDataProvider implements RESTDataProvider {
    * @return the parsed JSON object
    */
   public JSONObject getJSONResponse(final WebTarget target) {
-    URI uri = target.getUriBuilder().build();
-    if (_urlFileNameMap.containsKey(uri.toString())) {
+    String uri = removeAPIToken(target.getUriBuilder().build());
+    if (_urlFileNameMap.containsKey(uri)) {
       // we have a file name to read from
-      String fileName = _urlFileNameMap.get(uri.toString());
+      String fileName = _urlFileNameMap.get(uri);
       File file = new File(_rootPath, fileName);
       // should we be buffering this?
       try {
@@ -121,8 +127,8 @@ public final class FileRESTDataProvider implements RESTDataProvider {
       } catch (FileNotFoundException ex) {
         throw new QuandlRuntimeException("File named " + fileName + " in index cannot be found", ex);
       }
-    } else if (_urlExceptionMap.containsKey(uri.toString())) {
-      Exception e = _urlExceptionMap.get(uri.toString());
+    } else if (_urlExceptionMap.containsKey(uri)) {
+      Exception e = _urlExceptionMap.get(uri);
       e.fillInStackTrace();
       if (e instanceof RuntimeException) {
         throw (RuntimeException) e;
@@ -143,10 +149,10 @@ public final class FileRESTDataProvider implements RESTDataProvider {
    * @return the parsed TabularResult
    */
   public TabularResult getTabularResponse(final WebTarget target) {
-    URI uri = target.getUriBuilder().build();
-    if (_urlFileNameMap.containsKey(uri.toString())) {
+    String uri = removeAPIToken(target.getUriBuilder().build());
+    if (_urlFileNameMap.containsKey(uri)) {
       // we have a file name to read from
-      String fileName = _urlFileNameMap.get(uri.toString());
+      String fileName = _urlFileNameMap.get(uri);
       File file = new File(_rootPath, fileName);
       // should we be buffering this?
       try {
@@ -172,8 +178,8 @@ public final class FileRESTDataProvider implements RESTDataProvider {
       } catch (IOException ioe) {
         throw new QuandlRuntimeException("Problem reading CSV", ioe);
       }
-    } else if (_urlExceptionMap.containsKey(uri.toString())) {
-      Exception e = _urlExceptionMap.get(uri.toString());
+    } else if (_urlExceptionMap.containsKey(uri)) {
+      Exception e = _urlExceptionMap.get(uri);
       e.fillInStackTrace();
       if (e instanceof RuntimeException) {
         throw (RuntimeException) e;
@@ -184,5 +190,13 @@ public final class FileRESTDataProvider implements RESTDataProvider {
       throw new QuandlRuntimeException("Cannot find " + uri + " in index");
     }
   }   
+  
+  private String removeAPIToken(final URI uri) {
+    if (_apiKeyString != null) {
+      return uri.toString().replace(_apiKeyString, ""); 
+    } else {
+      return uri.toString();
+    }
+  }
 
 }

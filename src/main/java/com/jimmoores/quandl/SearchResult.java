@@ -57,8 +57,8 @@ public final class SearchResult {
    */
   public int getDocumentsPerPage() {
     try {
-      final int totalDocs = _jsonObject.getInt("total_count");
-      return totalDocs;
+      final int perPage = _jsonObject.getInt("per_page");
+      return perPage;
     } catch (JSONException ex) {
       throw new QuandlRuntimeException("Could not find total_count field in results from Quandl", ex);
     }
@@ -71,8 +71,8 @@ public final class SearchResult {
    */
   public int getCurrentPage() {
     try {
-      final int totalDocs = _jsonObject.getInt("current_page");
-      return totalDocs;
+      final int currentPage = _jsonObject.getInt("current_page");
+      return currentPage;
     } catch (JSONException ex) {
       throw new QuandlRuntimeException("Could not find total_count field in results from Quandl", ex);
     }

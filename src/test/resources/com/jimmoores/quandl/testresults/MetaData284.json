@@ -1,21 +1,23 @@
 {
-  "code": "EAP_DWAP_RT_SEX_T_AGE_5YRBANDS_Y35_39_M_ESP",
+  "code": "COMM_84_WATERFILTERINGORPURIFYINGMACHINERYORAPPARATUS_IMPORT_MDA",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2002-02-28",
-  "id": 12396282,
-  "name": "Labour Force Participation Rate Ages 35-39 - Monthly - Spain",
+  "frequency": "annual",
+  "from_date": "2003-12-31",
+  "id": 4829718,
+  "name": "Commodity Imports - Nuclear Reactors, Boilers, Machinery, Etc / Water filtering or purifying machinery or apparatus - Republic of Moldova",
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2013-11-30",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-05-28T19:23:32Z",
-  "urlize_name": "Labour-Force-Participation-Rate-Ages-35-39-Monthly-Spain"
+  "updated_at": "2014-01-12T04:26:58Z",
+  "urlize_name": "Commodity-Imports-Nuclear-Reactors-Boilers-Machinery-Etc-Water-filtering-or-purifying-machinery-or-apparatus-Republic-of-Moldova"
 }

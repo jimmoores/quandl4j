@@ -1,21 +1,26 @@
 {
-  "code": "IND_BELTSANDBANDOLIERSOFLEATHERORCOMPOSITIONLEATHER_MILUSD_CZ",
+  "code": "SG_ARW",
   "column_names": [
-    "Year",
-    "Value"
+    "Date",
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "Adjusted Close"
   ],
-  "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Exchange : Stuttgart Stock Exchange.  Currency: EUR",
+  "display_url": "http://ichart.finance.yahoo.com/table.csv?s=ARW.SG&d=31&e=12&f=2039&g=d&a=3&b=7&c=1902&ignore=.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2007-12-31",
-  "id": 3338336,
-  "name": "Industrial Commodities / Belts And Bandoliers, Of Leather Or Composition Leather / Mil. Usd - Czech Republic",
+  "frequency": "daily",
+  "from_date": "2003-01-01",
+  "id": 8896295,
+  "name": "ARW: ARROW ELECTRONICS - Stuttgart Stock Exchange",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2007-12-31",
+  "source_code": "YAHOO",
+  "source_name": "Yahoo Finance",
+  "to_date": "2014-05-30",
   "type": null,
-  "updated_at": "2014-01-10T14:35:32Z",
-  "urlize_name": "Industrial-Commodities-Belts-And-Bandoliers-Of-Leather-Or-Composition-Leather-Mil-Usd-Czech-Republic"
+  "updated_at": "2014-06-02T03:24:54Z",
+  "urlize_name": "ARW-ARROW-ELECTRONICS-Stuttgart-Stock-Exchange"
 }

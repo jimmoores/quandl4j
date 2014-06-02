@@ -10,6 +10,7 @@ import org.threeten.bp.LocalDate;
 /**
  * Unit tests testing null checking.
  */
+@Test(groups = { "unit" })
 public class EqualsTests {
   //CHECKSTYLE:OFF
 

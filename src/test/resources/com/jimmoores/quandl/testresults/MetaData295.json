@@ -1,21 +1,21 @@
 {
-  "code": "BR_Q_M_G_C_A_FR_MV",
+  "code": "NOVB_CASHANDDUEFROMBANKS_Q",
   "column_names": [
-    "Qtr",
-    "Mill USD"
+    "Date",
+    "Value"
   ],
-  "description": "The Bank of France monitors the banking activity of French banks with non-residents in the framework of its contribution to the international banking statistics drawn up by the Bank for International Settlements. These quarterly statistical series provide a geographical breakdown of the assets and liabilities of French banks vis-a-vis non-residents. They show outstanding amounts and are expressed in USD equivalent. These statistics are consistent with the residency principle of national accounts, balance of payments and external debt statistics.. They gather data on international financial claims and liabilities of bank offices in France. The available CSV files contain the historical series on claims and liabilities, the breakdown between the euro and foreign currencies and the share of outstanding operations vis-a-vis clients.",
-  "display_url": "http://www.banque-france.fr/fileadmin/user_upload/banque_de_france/Economie_et_Statistiques/eng_eur.csv",
+  "description": "SEC Name: CashAndDueFromBanks",
+  "display_url": null,
   "errors": {},
-  "frequency": "quarterly",
-  "from_date": "1999-03-31",
-  "id": 552618,
-  "name": "Bank of France International Banking: Total liabilities (euro) with  Maldives",
+  "frequency": "annual",
+  "from_date": "2010-12-31",
+  "id": 10768830,
+  "name": "NORTH VALLEY BANCORP  (NOVB): Quarterly Cash And Due From Banks",
   "private": false,
-  "source_code": "BOF",
-  "source_name": "Bank of France",
-  "to_date": "2011-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2013-09-30",
   "type": null,
-  "updated_at": "2014-01-08T06:55:56Z",
-  "urlize_name": "Bank-of-France-International-Banking-Total-liabilities-euro-with-Maldives"
+  "updated_at": "2014-03-07T12:47:59Z",
+  "urlize_name": "NORTH-VALLEY-BANCORP-NOVB-Quarterly-Cash-And-Due-From-Banks"
 }

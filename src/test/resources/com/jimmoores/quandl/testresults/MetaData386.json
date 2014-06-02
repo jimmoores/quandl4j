@@ -1,21 +1,21 @@
 {
-  "code": "EMP_DWAP_RT_SEX_F_AGE_5YRBANDS_Y45_49_SVK",
+  "code": "FMBI_COVEREDIMPAIREDLOANS_Q",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "SEC Name: CoveredImpairedLoans",
+  "display_url": null,
   "errors": {},
   "frequency": "annual",
-  "from_date": "2001-12-31",
-  "id": 12556820,
-  "name": "Employment-To-Population Ratio Women Ages 45-49 - Annual - Slovakia",
+  "from_date": "2010-12-31",
+  "id": 10637346,
+  "name": "FIRST MIDWEST BANCORP INC  (FMBI): Quarterly Covered Impaired Loans",
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2013-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-05-29T05:49:45Z",
-  "urlize_name": "Employment-To-Population-Ratio-Women-Ages-45-49-Annual-Slovakia"
+  "updated_at": "2014-03-07T06:07:04Z",
+  "urlize_name": "FIRST-MIDWEST-BANCORP-INC-FMBI-Quarterly-Covered-Impaired-Loans"
 }

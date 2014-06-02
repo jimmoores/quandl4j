@@ -1,21 +1,21 @@
 {
-  "code": "PSS_A_ES_F000_I1A_Z00Z_VP_X0_20_Z01_E",
+  "code": "DLX_ACCRUALFORENVIRONMENTALLOSSCONTINGENCIES_A",
   "column_names": [
     "Date",
-    "Percent"
+    "Value"
   ],
-  "description": " Spain - All transactions - For cards issued in the reporting country, all cards except e-money function - Value as share - Non-MFIs counterpart - All currencies combined - denominated in Euro , :, Dataset:PSS : Payments and Settlement Systems Statistics Explanation page (Series and Dataset Level Information), Reference area:Spain (ES), Decimals:Three (3), Collection indicator:Summed through period (S), Methodology reference:NA",
-  "display_url": "http://sdw.ecb.europa.eu/export.do?node=3447413&SERIES_KEY=169.PSS.A.ES.F000.I1A.Z00Z.VP.X0.20.Z01.E&exportType=sdmx",
+  "description": "SEC Name: AccrualForEnvironmentalLossContingencies",
+  "display_url": null,
   "errors": {},
   "frequency": "annual",
-  "from_date": "2002-12-31",
-  "id": 11449138,
-  "name": "Spain All transactions For cards issued in the reporting country, all cards except e-money function Value as share Non-MFIs counterpart All currencies combined denominated in Euro",
+  "from_date": "2010-12-31",
+  "id": 10734718,
+  "name": "DELUXE CORP  (DLX): Annual Accrual For Environmental Loss Contingencies",
   "private": false,
-  "source_code": "ECB",
-  "source_name": "European Central Bank",
-  "to_date": "2012-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-04-30T05:54:57Z",
-  "urlize_name": "Spain-All-transactions-For-cards-issued-in-the-reporting-country-all-cards-except-e-money-function-Value-as-share-Non-MFIs-counterpart-All-currencies-combined-denominated-in-Euro"
+  "updated_at": "2014-03-12T17:22:01Z",
+  "urlize_name": "DELUXE-CORP-DLX-Annual-Accrual-For-Environmental-Loss-Contingencies"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "ELEC_SULFUR_CONTENT_PEL_LA_2_Q",
+  "code": "AMGY_EV",
   "column_names": [
     "Date",
-    "Value"
+    "Enterprise Value"
   ],
-  "description": "Units=Percent. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.SULFUR_CONTENT.PEL-LA-2.Q",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.SULFUR_CONTENT.PEL-LA-2.Q&out=xml",
+  "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2008-01-31",
-  "id": 5242299,
-  "name": "Quality Of Fossil Fuels : Sulfur Content : Petroleum Liquids : Louisiana : Electric Utility Non-cogen : Quarterly",
+  "frequency": "annual",
+  "from_date": "2008-12-31",
+  "id": 3941528,
+  "name": "American Metal & Tech. Inc ( AMGY ) - Enterprise Value",
   "private": false,
-  "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
-  "to_date": "2013-09-30",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-01-10T00:10:32Z",
-  "urlize_name": "Quality-Of-Fossil-Fuels-Sulfur-Content-Petroleum-Liquids-Louisiana-Electric-Utility-Non-cogen-Quarterly"
+  "updated_at": "2014-03-13T21:55:01Z",
+  "urlize_name": "American-Metal-Tech-Inc-AMGY-Enterprise-Value"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "ELEC_PLANT_CONS_TOT_7392_DFO_ALL_Q",
+  "code": "TZA_WP11659_6",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Units=Barrels. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.7392-DFO-ALL.Q",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.7392-DFO-ALL.Q&out=xml",
+  "description": "Adults who are farming, fishing or forestry workers and in the past 12 months have personally paid for crop, rainfall, or livestock insurance (% with a primary education or less, age 15+)\nPersonally paid for agriculture insurance, primary education or less (% who work in farming/fishing/forestry, age 15+)",
+  "display_url": "http://api.worldbank.org/countries/TZA/indicators/WP11659.6?per_page=1000",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2001-01-31",
-  "id": 4919341,
-  "name": "Fuel Consumption Quantity : Poplar Bluff Generating Station : Distillate Fuel Oil : All Primemovers : Quarterly",
+  "frequency": "annual",
+  "from_date": "2011-12-31",
+  "id": 2142107,
+  "name": "Tanzania: Personally paid for agriculture insurance, primary education or less (% who work in farming/fishing/forestry, age 15+)",
   "private": false,
-  "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
-  "to_date": "2012-12-31",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-01-10T01:45:34Z",
-  "urlize_name": "Fuel-Consumption-Quantity-Poplar-Bluff-Generating-Station-Distillate-Fuel-Oil-All-Primemovers-Quarterly"
+  "updated_at": "2014-05-20T10:33:25Z",
+  "urlize_name": "Tanzania-Personally-paid-for-agriculture-insurance-primary-education-or-less-who-work-in-farming-fishing-forestry-age-15"
 }

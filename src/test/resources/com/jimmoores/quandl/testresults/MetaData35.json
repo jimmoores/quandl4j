@@ -1,415 +1,415 @@
 {
-  "current_page": 377323,
+  "current_page": 92845,
   "docs": [
     {
-      "code": "POL_FINITELIVEDINTANGIBLEASSETSAMORTIZATIONEXPENSEYEARFIVE_A",
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_VINELANDNJ",
       "column_names": [
         "Date",
-        "Value"
+        "Vineland"
       ],
-      "description": "SEC Name: FiniteLivedIntangibleAssetsAmortizationExpenseYearFive",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10152466,
-      "name": "POLYONE CORP  (POL): Annual Finite Lived Intangible Assets Amortization Expense Year Five",
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-05-31",
+      "id": 7110305,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Vineland, NJ",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:57Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Vineland-NJ"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_CUDAHYWI",
+      "column_names": [
+        "Date",
+        "Cudahy"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2000-02-29",
+      "id": 7112207,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Cudahy, WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
       "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-03-06T16:26:51Z",
-      "urlize_name": "POLYONE-CORP-POL-Annual-Finite-Lived-Intangible-Assets-Amortization-Expense-Year-Five"
+      "updated_at": "2014-05-08T12:47:57Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Cudahy-WI"
     },
     {
-      "code": "POL_FINITELIVEDINTANGIBLEASSETSAMORTIZATIONEXPENSEYEARTHREE_A",
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_NORTHAURORAIL",
       "column_names": [
         "Date",
-        "Value"
+        "North Aurora"
       ],
-      "description": "SEC Name: FiniteLivedIntangibleAssetsAmortizationExpenseYearThree",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10152479,
-      "name": "POLYONE CORP  (POL): Annual Finite Lived Intangible Assets Amortization Expense Year Three",
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-06-30",
+      "id": 7114743,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - North Aurora, IL",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:57Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-North-Aurora-IL"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_EDGARTOWNMA",
+      "column_names": [
+        "Date",
+        "Edgartown"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7122634,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Edgartown, MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:57Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Edgartown-MA"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_NESCONSETNY",
+      "column_names": [
+        "Date",
+        "Nesconset"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2000-02-29",
+      "id": 7113322,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Nesconset, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:57Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Nesconset-NY"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_QUEENCREEKAZ",
+      "column_names": [
+        "Date",
+        "Queen Creek"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-06-30",
+      "id": 7109871,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Queen Creek, AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:57Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Queen-Creek-AZ"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_LAKELANDFL",
+      "column_names": [
+        "Date",
+        "Lakeland"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7109923,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Lakeland, FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Lakeland-FL"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_COMPTONCA",
+      "column_names": [
+        "Date",
+        "Compton"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7109845,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Compton, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Compton-CA"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_LAWTONOK",
+      "column_names": [
+        "Date",
+        "Lawton"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2004-01-31",
+      "id": 7110017,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Lawton, OK",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Lawton-OK"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_BURLINGTONTOWNSHIPNJ",
+      "column_names": [
+        "Date",
+        "Burlington Township"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7111014,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Burlington Township, NJ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Burlington-Township-NJ"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_SPRINGHILLTN",
+      "column_names": [
+        "Date",
+        "Spring Hill"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7111667,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Spring Hill, TN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Spring-Hill-TN"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_WOODMERENY",
+      "column_names": [
+        "Date",
+        "Woodmere"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "1998-11-30",
+      "id": 7114668,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Woodmere, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
       "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-03-06T16:26:51Z",
-      "urlize_name": "POLYONE-CORP-POL-Annual-Finite-Lived-Intangible-Assets-Amortization-Expense-Year-Three"
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Woodmere-NY"
     },
     {
-      "code": "HIW_REALESTATEANDACCUMULATEDDEPRECIATIONCOSTSCAPITALIZEDSUBSEQUENTTOACQUISITIONLAND_A",
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_VEROBEACHFL",
       "column_names": [
         "Date",
-        "Value"
+        "Vero Beach"
       ],
-      "description": "SEC Name: RealEstateAndAccumulatedDepreciationCostsCapitalizedSubsequentToAcquisitionLand",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2011-12-31",
-      "id": 10154366,
-      "name": "HIGHWOODS PROPERTIES INC  (HIW): Annual Real Estate And Accumulated Depreciation Costs Capitalized Subsequent To Acquisition Land",
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7109943,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Vero Beach, FL",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2011-12-31",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-03-06T16:27:08Z",
-      "urlize_name": "HIGHWOODS-PROPERTIES-INC-HIW-Annual-Real-Estate-And-Accumulated-Depreciation-Costs-Capitalized-Subsequent-To-Acquisition-Land"
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Vero-Beach-FL"
     },
     {
-      "code": "POL_FINITELIVEDINTANGIBLEASSETSAMORTIZATIONEXPENSEYEARFOUR_A",
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_CROFTONMD",
       "column_names": [
         "Date",
-        "Value"
+        "Crofton"
       ],
-      "description": "SEC Name: FiniteLivedIntangibleAssetsAmortizationExpenseYearFour",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10152478,
-      "name": "POLYONE CORP  (POL): Annual Finite Lived Intangible Assets Amortization Expense Year Four",
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7111718,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Crofton, MD",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Crofton-MD"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_BUTLERNJ",
+      "column_names": [
+        "Date",
+        "Butler"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "1998-04-30",
+      "id": 7118261,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Butler, NJ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Butler-NJ"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_SILVERDALEWA",
+      "column_names": [
+        "Date",
+        "Silverdale"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "1998-04-30",
+      "id": 7111533,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Silverdale, WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Silverdale-WA"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_PONCEINLETFL",
+      "column_names": [
+        "Date",
+        "Ponce Inlet"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7121613,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Ponce Inlet, FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
       "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-03-06T16:26:51Z",
-      "urlize_name": "POLYONE-CORP-POL-Annual-Finite-Lived-Intangible-Assets-Amortization-Expense-Year-Four"
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Ponce-Inlet-FL"
     },
     {
-      "code": "HIW_REALESTATEANDACCUMULATEDDEPRECIATIONCOSTSCAPITALIZEDSUBSEQUENTTOACQUISITIONLAND_Q",
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_COLDSPRINGKY",
       "column_names": [
         "Date",
-        "Value"
+        "Cold Spring"
       ],
-      "description": "SEC Name: RealEstateAndAccumulatedDepreciationCostsCapitalizedSubsequentToAcquisitionLand",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2011-12-31",
-      "id": 10154367,
-      "name": "HIGHWOODS PROPERTIES INC  (HIW): Quarterly Real Estate And Accumulated Depreciation Costs Capitalized Subsequent To Acquisition Land",
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "1999-02-28",
+      "id": 7121529,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Cold Spring, KY",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T16:27:09Z",
-      "urlize_name": "HIGHWOODS-PROPERTIES-INC-HIW-Quarterly-Real-Estate-And-Accumulated-Depreciation-Costs-Capitalized-Subsequent-To-Acquisition-Land"
-    },
-    {
-      "code": "LCUT_REPAYMENTSOFCONVERTIBLEDEBT_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: RepaymentsOfConvertibleDebt",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2011-12-31",
-      "id": 10153064,
-      "name": "LIFETIME BRANDS, INC  (LCUT): Annual Repayments Of Convertible Debt",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T16:27:09Z",
-      "urlize_name": "LIFETIME-BRANDS-INC-LCUT-Annual-Repayments-Of-Convertible-Debt"
-    },
-    {
-      "code": "POL_FINITELIVEDINTANGIBLEASSETSAMORTIZATIONEXPENSEYEARTHREE_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: FiniteLivedIntangibleAssetsAmortizationExpenseYearThree",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10152471,
-      "name": "POLYONE CORP  (POL): Quarterly Finite Lived Intangible Assets Amortization Expense Year Three",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
       "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-03-06T16:27:09Z",
-      "urlize_name": "POLYONE-CORP-POL-Quarterly-Finite-Lived-Intangible-Assets-Amortization-Expense-Year-Three"
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Cold-Spring-KY"
     },
     {
-      "code": "LCUT_EXTRAORDINARYITEMNETOFTAX_A",
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_CASAGRANDEAZ",
       "column_names": [
         "Date",
-        "Value"
+        "Casa Grande"
       ],
-      "description": "SEC Name: ExtraordinaryItemNetOfTax",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-31",
-      "id": 10153112,
-      "name": "LIFETIME BRANDS, INC  (LCUT): Annual Extraordinary Item Net Of Tax",
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-03-31",
+      "id": 7110162,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Casa Grande, AZ",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-31",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2014-03-06T16:26:51Z",
-      "urlize_name": "LIFETIME-BRANDS-INC-LCUT-Annual-Extraordinary-Item-Net-Of-Tax"
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Casa-Grande-AZ"
     },
     {
-      "code": "LCUT_ADJUSTMENTSTOADDITIONALPAIDINCAPITALTAXBENEFITSOFORIGINALISSUEDISCOUNT_A",
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_FLATROCKMI",
       "column_names": [
         "Date",
-        "Value"
+        "Flat Rock"
       ],
-      "description": "SEC Name: AdjustmentsToAdditionalPaidInCapitalTaxBenefitsOfOriginalIssueDiscount",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-31",
-      "id": 10153269,
-      "name": "LIFETIME BRANDS, INC  (LCUT): Annual Adjustments To Additional Paid In Capital Tax Benefits Of Original Issue Discount",
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "2002-11-30",
+      "id": 7116185,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Flat Rock, MI",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-31",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-10-31",
       "type": null,
-      "updated_at": "2014-03-06T16:26:51Z",
-      "urlize_name": "LIFETIME-BRANDS-INC-LCUT-Annual-Adjustments-To-Additional-Paid-In-Capital-Tax-Benefits-Of-Original-Issue-Discount"
-    },
-    {
-      "code": "TWI_NONCONTROLLINGINTERESTINCREASEFROMBUSINESSCOMBINATION_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: NoncontrollingInterestIncreaseFromBusinessCombination",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-09-30",
-      "id": 10153758,
-      "name": "TITAN INTERNATIONAL INC  (TWI): Quarterly Noncontrolling Interest Increase From Business Combination",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2012-09-30",
-      "type": null,
-      "updated_at": "2014-03-06T16:27:09Z",
-      "urlize_name": "TITAN-INTERNATIONAL-INC-TWI-Quarterly-Noncontrolling-Interest-Increase-From-Business-Combination"
-    },
-    {
-      "code": "LCUT_OTHERNONCASHINCOMEEXPENSE_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: OtherNoncashIncomeExpense",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-31",
-      "id": 10154368,
-      "name": "LIFETIME BRANDS, INC  (LCUT): Annual Other Noncash Income Expense",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T16:26:52Z",
-      "urlize_name": "LIFETIME-BRANDS-INC-LCUT-Annual-Other-Noncash-Income-Expense"
-    },
-    {
-      "code": "LCUT_DOCUMENTFISCALPERIODFOCUS_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: DocumentFiscalPeriodFocus",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": null,
-      "id": 10153336,
-      "name": "LIFETIME BRANDS, INC  (LCUT): Annual Document Fiscal Period Focus",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": null,
-      "type": null,
-      "updated_at": "2014-03-06T16:27:09Z",
-      "urlize_name": "LIFETIME-BRANDS-INC-LCUT-Annual-Document-Fiscal-Period-Focus"
-    },
-    {
-      "code": "LCUT_ADJUSTMENTSTOADDITIONALPAIDINCAPITALEQUITYCOMPONENTOFEXTINGUISHMENTOFCONVERTIBLEDEBT_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: AdjustmentsToAdditionalPaidInCapitalEquityComponentOfExtinguishmentOfConvertibleDebt",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-31",
-      "id": 10153274,
-      "name": "LIFETIME BRANDS, INC  (LCUT): Annual Adjustments To Additional Paid In Capital Equity Component Of Extinguishment Of Convertible Debt",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T16:27:09Z",
-      "urlize_name": "LIFETIME-BRANDS-INC-LCUT-Annual-Adjustments-To-Additional-Paid-In-Capital-Equity-Component-Of-Extinguishment-Of-Convertible-Debt"
-    },
-    {
-      "code": "LCUT_TRADINGSYMBOL_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: TradingSymbol",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": null,
-      "id": 10153330,
-      "name": "LIFETIME BRANDS, INC  (LCUT): Annual Trading Symbol",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": null,
-      "type": null,
-      "updated_at": "2014-03-06T16:26:52Z",
-      "urlize_name": "LIFETIME-BRANDS-INC-LCUT-Annual-Trading-Symbol"
-    },
-    {
-      "code": "POL_FINITELIVEDINTANGIBLEASSETSAMORTIZATIONEXPENSEYEARTWO_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: FiniteLivedIntangibleAssetsAmortizationExpenseYearTwo",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10152481,
-      "name": "POLYONE CORP  (POL): Quarterly Finite Lived Intangible Assets Amortization Expense Year Two",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T16:26:52Z",
-      "urlize_name": "POLYONE-CORP-POL-Quarterly-Finite-Lived-Intangible-Assets-Amortization-Expense-Year-Two"
-    },
-    {
-      "code": "LCUT_ENTITYVOLUNTARYFILERS_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: EntityVoluntaryFilers",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": null,
-      "id": 10153352,
-      "name": "LIFETIME BRANDS, INC  (LCUT): Annual Entity Voluntary Filers",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": null,
-      "type": null,
-      "updated_at": "2014-03-06T16:27:09Z",
-      "urlize_name": "LIFETIME-BRANDS-INC-LCUT-Annual-Entity-Voluntary-Filers"
-    },
-    {
-      "code": "POL_FINITELIVEDINTANGIBLEASSETSAMORTIZATIONEXPENSEYEARTWO_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: FiniteLivedIntangibleAssetsAmortizationExpenseYearTwo",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10152486,
-      "name": "POLYONE CORP  (POL): Annual Finite Lived Intangible Assets Amortization Expense Year Two",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T16:26:52Z",
-      "urlize_name": "POLYONE-CORP-POL-Annual-Finite-Lived-Intangible-Assets-Amortization-Expense-Year-Two"
-    },
-    {
-      "code": "TWI_OPERATINGLEASESFUTUREMINIMUMPAYMENTSDUEINFIVEYEARS_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: OperatingLeasesFutureMinimumPaymentsDueInFiveYears",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-09-30",
-      "id": 10150748,
-      "name": "TITAN INTERNATIONAL INC  (TWI): Quarterly Operating Leases Future Minimum Payments Due In Five Years",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T16:26:53Z",
-      "urlize_name": "TITAN-INTERNATIONAL-INC-TWI-Quarterly-Operating-Leases-Future-Minimum-Payments-Due-In-Five-Years"
-    },
-    {
-      "code": "TWI_OPERATINGLEASESFUTUREMINIMUMPAYMENTSDUEINFOURYEARS_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: OperatingLeasesFutureMinimumPaymentsDueInFourYears",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-09-30",
-      "id": 10150750,
-      "name": "TITAN INTERNATIONAL INC  (TWI): Quarterly Operating Leases Future Minimum Payments Due In Four Years",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T16:27:10Z",
-      "urlize_name": "TITAN-INTERNATIONAL-INC-TWI-Quarterly-Operating-Leases-Future-Minimum-Payments-Due-In-Four-Years"
-    },
-    {
-      "code": "LCUT_ENTITYREGISTRANTNAME_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: EntityRegistrantName",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": null,
-      "id": 10153312,
-      "name": "LIFETIME BRANDS, INC  (LCUT): Annual Entity Registrant Name",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": null,
-      "type": null,
-      "updated_at": "2014-03-06T16:27:10Z",
-      "urlize_name": "LIFETIME-BRANDS-INC-LCUT-Annual-Entity-Registrant-Name"
+      "updated_at": "2014-05-08T12:47:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Flat-Rock-MI"
     }
   ],
   "per_page": 20,
   "sources": [{
-    "code": "SEC",
-    "datasets_count": 4867,
-    "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
-    "host": "www.sec.gov",
-    "id": 651,
-    "name": "U.S. Securities and Exchange Commission"
+    "code": "ZILLOW",
+    "datasets_count": 216313,
+    "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+    "host": "files.zillowstatic.com",
+    "id": 797,
+    "name": "Zillow Real Estate Research"
   }],
-  "total_count": 10036987
+  "total_count": 10147268
 }

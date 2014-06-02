@@ -1,21 +1,21 @@
 {
-  "code": "HMN_PENSIONCONTRIBUTIONS_A",
+  "code": "KGZ_WP11632_1",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEC Name: PensionContributions",
-  "display_url": null,
+  "description": "Adults who used checks in the past 12 months to make payments on bills or to buy things using money from their accounts (% age 15+)\nChecks used to make payments  (% age 15+)",
+  "display_url": "http://api.worldbank.org/countries/KGZ/indicators/WP11632.1?per_page=1000",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2012-12-31",
-  "id": 10248815,
-  "name": "HORACE MANN EDUCATORS CORP /DE/  (HMN): Annual Pension Contributions",
+  "frequency": "annual",
+  "from_date": "2011-12-31",
+  "id": 2272984,
+  "name": "Kyrgyz Republic: Checks used to make payments  (% age 15+)",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-12-31",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-03-06T19:18:00Z",
-  "urlize_name": "HORACE-MANN-EDUCATORS-CORP-DE-HMN-Annual-Pension-Contributions"
+  "updated_at": "2014-01-11T21:19:47Z",
+  "urlize_name": "Kyrgyz-Republic-Checks-used-to-make-payments-age-15"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "SRO_ROE",
+  "code": "SVK_BN_KLT_PRVT_CD",
   "column_names": [
     "Date",
-    "Return on Equity"
+    "Value"
   ],
-  "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "Private capital flows consist of net foreign direct investment and portfolio investment. Foreign direct investment is net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital, reinvestment of earnings, other long-term capital, and short-term capital as shown in the balance of payments. The FDI included here is total net, that is, net FDI in the reporting economy from foreign sources less net FDI by the reporting economy to the rest of the world. Portfolio investment excludes liabilities constituting foreign authorities' reserves and covers transactions in equity securities and debt securities. Data are in current U.S. dollars.\nPrivate capital flows, total (BoP, current US$)",
+  "display_url": "http://api.worldbank.org/countries/SVK/indicators/BN.KLT.PRVT.CD?per_page=1000",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2000-12-31",
-  "id": 5483639,
-  "name": "Spigadoro Inc ( SRO ) - Return on Equity",
+  "from_date": "1993-12-31",
+  "id": 2212542,
+  "name": "Slovak Republic: Private capital flows, total (BoP, current US$)",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2001-12-31",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-03-14T10:44:26Z",
-  "urlize_name": "Spigadoro-Inc-SRO-Return-on-Equity"
+  "updated_at": "2013-06-20T18:43:02Z",
+  "urlize_name": "Slovak-Republic-Private-capital-flows-total-BoP-current-US"
 }

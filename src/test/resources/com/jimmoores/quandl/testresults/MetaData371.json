@@ -1,21 +1,22 @@
 {
-  "code": "RHOOD_ZRIPERSQFT_ALLHOMES_NEIGHBORSSOUTHWESTBEAVERTONOR",
+  "code": "EN_DL_AVAIL_BTN",
   "column_names": [
     "Date",
-    "Value"
+    "Gross inland availability (metric tons; thousand)",
+    "Net inland availability (metric tons; thousand)"
   ],
-  "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the neighborhood of Neighbors Southwest, Beaverton, OR. This is derived by taking the estimated rent price for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-  "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_ZriPerSqft_AllHomes.csv",
+  "description": "Gas Diesel Inland Availability - Bhutan. The Energy Statistics Database provides a wide variety of data on multiple aspects of the numerous sources of energy. The data here covers the period from 1990 onwards. Data prior to 1990, would be available at <a href=http://unstats.un.org/unsd/energy/edbase.htm>http://unstats.un.org/unsd/energy/edbase.htm<\/a>. For more information, please see <a href=http://unstats.un.org/unsd/energy/default.htm>http://unstats.un.org/unsd/energy/default.htm<\/a>",
+  "display_url": null,
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2010-11-30",
-  "id": 6857585,
-  "name": "Zillow Rent Index (Neighborhoods): Rentals ZRI Per Sq. Ft. (All Homes) - Neighbors Southwest,Beaverton,OR",
+  "frequency": "annual",
+  "from_date": "1990-12-31",
+  "id": 10905711,
+  "name": "Gas Diesel Inland Availability - Bhutan",
   "private": false,
-  "source_code": "ZILLOW",
-  "source_name": "Zillow Real Estate Research",
-  "to_date": "2014-03-31",
+  "source_code": "UNDATA",
+  "source_name": "United Nations",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-05-08T05:18:43Z",
-  "urlize_name": "Zillow-Rent-Index-Neighborhoods-Rentals-ZRI-Per-Sq-Ft-All-Homes-Neighbors-Southwest-Beaverton-OR"
+  "updated_at": "2014-03-07T23:10:25Z",
+  "urlize_name": "Gas-Diesel-Inland-Availability-Bhutan"
 }

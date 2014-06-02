@@ -1,21 +1,21 @@
 {
-  "code": "SAL_CORRUGATEDPAPERANDPAPERBOARD_COL",
+  "code": "GMP38060_GDP_MANAGEMENTOFCOMPANIESANDENTERPRISES_PHOENIXMESAGLENDALEAZ",
   "column_names": [
     "Year",
-    "Number"
+    "Management Of Companies And Enterprises"
   ],
-  "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+  "display_url": "http://bea.gov/regional",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1900-01-01",
-  "id": 3316117,
-  "name": "Wages and Salaries (Local Currency) / Corrugated paper and paperboard - Colombia",
+  "from_date": "2007-12-31",
+  "id": 6677604,
+  "name": "GDP: Management of companies and enterprises - Phoenix-Mesa-Glendale, AZ",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "1900-01-02",
+  "source_code": "BEA",
+  "source_name": "Bureau of Economic Analysis",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2013-03-28T13:00:33Z",
-  "urlize_name": "Wages-and-Salaries-Local-Currency-Corrugated-paper-and-paperboard-Colombia"
+  "updated_at": "2014-01-13T12:15:48Z",
+  "urlize_name": "GDP-Management-of-companies-and-enterprises-Phoenix-Mesa-Glendale-AZ"
 }

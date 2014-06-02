@@ -1,21 +1,18 @@
 {
-  "code": "IND_WP11630_4_1",
-  "column_names": [
-    "Date",
-    "Value"
-  ],
-  "description": "Adults whose usual mode of access to put cash (paper or coins) into their account(s) is from some other person who is associated with one's bank or financial institution (% age 15+, with a formal account)\nBank agent is main mode of withdrawal from account (% with an account,  age 15+)",
-  "display_url": "http://api.worldbank.org/countries/IND/indicators/WP11630.4.1?per_page=1000",
+  "code": "GMP31340_REAL_ELECTRICALEQUIPMENTAPPLIANCEANDCOMPONENTMANUFACTURING_LYNCHBURGVA",
+  "column_names": [],
+  "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+  "display_url": "http://bea.gov/regional",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2011-12-31",
-  "id": 6533385,
-  "name": "India: Bank agent is main mode of withdrawal from account (% with an account,  age 15+)",
+  "frequency": null,
+  "from_date": null,
+  "id": 8177018,
+  "name": "Real GDP: Electrical equipment, appliance, and component manufacturing - Lynchburg, VA",
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
-  "to_date": "2011-12-31",
+  "source_code": "BEA",
+  "source_name": "Bureau of Economic Analysis",
+  "to_date": null,
   "type": null,
-  "updated_at": "2014-05-17T12:48:47Z",
-  "urlize_name": "India-Bank-agent-is-main-mode-of-withdrawal-from-account-with-an-account-age-15"
+  "updated_at": "2013-09-13T00:37:31Z",
+  "urlize_name": "Real-GDP-Electrical-equipment-appliance-and-component-manufacturing-Lynchburg-VA"
 }

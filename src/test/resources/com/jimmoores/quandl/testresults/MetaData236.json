@@ -1,21 +1,21 @@
 {
-  "code": "POP_326_KHM_FEM_50TO54",
+  "code": "MHOOD_NUMBEROFHOMESFORSALE_ALLHOMES_MILLSTONEFORTWAYNEIN",
   "column_names": [
-    "Year",
-    "Total"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-  "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+  "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForSale_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2008-12-31",
-  "id": 2628828,
-  "name": "Households by Type of Household and Age, Sex of Head - Female / Age 50 to 54 - Cambodia",
+  "frequency": "monthly",
+  "from_date": "2008-10-31",
+  "id": 7549966,
+  "name": "Zillow Metrics (Neighborhoods): Homes for Sale (Beta) - Millstone,Fort Wayne,IN",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2008-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2012-09-30",
   "type": null,
-  "updated_at": "2014-01-11T07:20:51Z",
-  "urlize_name": "Households-by-Type-of-Household-and-Age-Sex-of-Head-Female-Age-50-to-54-Cambodia"
+  "updated_at": "2014-01-09T09:11:47Z",
+  "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Sale-Beta-Millstone-Fort-Wayne-IN"
 }

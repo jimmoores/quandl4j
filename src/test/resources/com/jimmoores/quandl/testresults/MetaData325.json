@@ -1,23 +1,21 @@
 {
-  "code": "COMM_74_RESERVOIRSTANKSVATSETCIRONSTEELCAPACITY300L_IMPORT_SEN",
+  "code": "DEU_BAR_TER_CMPT_4549_FE_ZS",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Percentage of population, 45-49, female, completed tertiary is the percentage of females age 45-49 who have completed tertiary education.\npercentage of population (15+), 45-49, female, completed tertiary",
+  "display_url": "http://api.worldbank.org/countries/DEU/indicators/BAR.TER.CMPT.4549.FE.ZS?per_page=1000",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1996-12-31",
-  "id": 4284086,
-  "name": "Commodity Imports - Articles Of Iron Or Steel / Reservoirs/tanks/vats/etc, iron/steel capacity >300l - Senegal",
+  "from_date": "1970-12-31",
+  "id": 286958,
+  "name": "Germany: percentage of population (15+), 45-49, female, completed tertiary",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2012-12-31",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-01-13T07:02:00Z",
-  "urlize_name": "Commodity-Imports-Articles-Of-Iron-Or-Steel-Reservoirs-tanks-vats-etc-iron-steel-capacity-300l-Senegal"
+  "updated_at": "2014-05-18T23:40:22Z",
+  "urlize_name": "Germany-percentage-of-population-15-45-49-female-completed-tertiary"
 }

@@ -1,21 +1,25 @@
 {
-  "code": "543907_A2193141A",
+  "code": "FRA_4MD",
   "column_names": [
     "Date",
-    "Value"
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume"
   ],
-  "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-  "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&543907.xls&5439.0&Time%20Series%20Spreadsheet&0AE6A565552617EBCA257B8E0014A1F5&0&May%202013&19.06.2013&Latest",
+  "description": "No Description Available",
+  "display_url": "http://www.google.com/finance/historical?q=FRA%3A4MD&startdate=Jan+1%2C+1990&output=csv",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1989-07-31",
-  "id": 7864720,
-  "name": "Balance of Payments Broad Economic Categories (1 and 2 digit), Customs Value: Other goods ; ($ Millions)",
+  "frequency": "daily",
+  "from_date": "2011-01-03",
+  "id": 6285303,
+  "name": "MINDSCAPE EO -,50 (4MD)",
   "private": false,
-  "source_code": "AUSBS",
-  "source_name": "Australian Bureau of Statistics",
-  "to_date": "2014-04-30",
+  "source_code": "GOOG",
+  "source_name": "Google Finance",
+  "to_date": "2011-06-01",
   "type": null,
-  "updated_at": "2014-05-19T22:51:25Z",
-  "urlize_name": "Balance-of-Payments-Broad-Economic-Categories-1-and-2-digit-Customs-Value-Other-goods-Millions"
+  "updated_at": "2013-08-27T12:53:05Z",
+  "urlize_name": "MINDSCAPE-EO-50-4MD"
 }

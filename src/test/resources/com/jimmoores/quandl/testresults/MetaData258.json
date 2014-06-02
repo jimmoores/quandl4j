@@ -1,21 +1,25 @@
 {
-  "code": "62340_7A_A592048R",
+  "code": "FRA_CUR",
   "column_names": [
     "Date",
-    "Value"
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume"
   ],
-  "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-  "display_url": "http://www.abs.gov.au/AUSSTATS/free.nsf/log?openagent&62340_7a.xls&6234.0&Time%20Series%20Spreadsheet&F695013C019242CACA25702200036FF6&&Mar%202005&16.06.2005&Latest",
+  "description": "curasan AG is a Germany-based company that specializes in the production and distribution of drugs and medical products. The Company operates in such fields as dental implants, bone and tissue regeneration, tissue engineering, and wound healing for dental, spinal and orthopedic applications. cursan AG divides its business activities into the two segments: Pharmaceuticals and Biomaterials. Pharmaceuticals segment includes primarily the product Mitem, a drug for the treatment of urinary bladder cancer. Biomaterials segment's portfolio comprises Stypro, gelatin sponge for the control and wound healing; Curavisc, which is used for the treatment of joint arthrosis; Cerasorb, a synthetic bone substitution and regeneration material; Osbone, a spongious bone substitute, and ATR, which supports tissue regeneration. In the dental field, Cerasorb is marketed by Riemser Arzneimittel AG",
+  "display_url": "http://www.google.com/finance/historical?q=FRA%3ACUR&startdate=Jan+1%2C+1990&output=csv",
   "errors": {},
-  "frequency": "quarterly",
-  "from_date": "1983-08-31",
-  "id": 7913061,
-  "name": "Wage and Salary Earners, States and Territories, Industry ('000): Employment;  Victoria;  Government Administration and Defence; (000)",
+  "frequency": "daily",
+  "from_date": "2011-01-03",
+  "id": 6270633,
+  "name": "curasan AG (CUR)",
   "private": false,
-  "source_code": "AUSBS",
-  "source_name": "Australian Bureau of Statistics",
-  "to_date": "2004-11-30",
+  "source_code": "GOOG",
+  "source_name": "Google Finance",
+  "to_date": "2014-05-30",
   "type": null,
-  "updated_at": "2014-05-24T21:20:44Z",
-  "urlize_name": "Wage-and-Salary-Earners-States-and-Territories-Industry-000-Employment-Victoria-Government-Administration-and-Defence-000"
+  "updated_at": "2014-06-02T02:01:54Z",
+  "urlize_name": "curasan-AG-CUR"
 }

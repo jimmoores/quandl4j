@@ -1,21 +1,25 @@
 {
-  "code": "FSL_INTERCOMPANYNOTERECEIVABLE_Q",
+  "code": "POP_32_ETH_FEM_TOT_15TO19",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Total population",
+    "Total economically active population",
+    "Employed",
+    "Unemployed",
+    "Not economically active population"
   ],
-  "description": "SEC Name: IntercompanyNoteReceivable",
-  "display_url": null,
+  "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+  "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2011-12-31",
-  "id": 10797768,
-  "name": "Freescale Semiconductor, Ltd.  (FSL): Quarterly Intercompany Note Receivable",
+  "from_date": "2007-12-31",
+  "id": 2542226,
+  "name": "Population by Economic Status - Female / Age 15 to 19 / Total Areas - Ethiopia",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2012-12-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2007-12-31",
   "type": null,
-  "updated_at": "2014-03-07T13:42:33Z",
-  "urlize_name": "Freescale-Semiconductor-Ltd-FSL-Quarterly-Intercompany-Note-Receivable"
+  "updated_at": "2014-01-13T22:53:33Z",
+  "urlize_name": "Population-by-Economic-Status-Female-Age-15-to-19-Total-Areas-Ethiopia"
 }

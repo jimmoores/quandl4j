@@ -1,21 +1,21 @@
 {
-  "code": "ELEC_CONS_EG_NG_KY_2_A",
+  "code": "IEP_PURCHASESTOCOVERSECURITIESSOLDNOTYETPURCHASED_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Units=Thousand Mcf. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.CONS_EG.NG-KY-2.A",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.CONS_EG.NG-KY-2.A&out=xml",
+  "description": "SEC Name: PurchasesToCoverSecuritiesSoldNotYetPurchased",
+  "display_url": null,
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2001-12-31",
-  "id": 5216567,
-  "name": "Consumption For Electricty Generation : Natural Gas : Kentucky : Electric Utility Non-cogen : Annual",
+  "frequency": "daily",
+  "from_date": "2011-12-31",
+  "id": 10757964,
+  "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Purchases To Cover Securities Sold Not Yet Purchased",
   "private": false,
-  "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
-  "to_date": "2012-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-01-09T23:15:45Z",
-  "urlize_name": "Consumption-For-Electricty-Generation-Natural-Gas-Kentucky-Electric-Utility-Non-cogen-Annual"
+  "updated_at": "2014-03-07T12:21:31Z",
+  "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Purchases-To-Cover-Securities-Sold-Not-Yet-Purchased"
 }

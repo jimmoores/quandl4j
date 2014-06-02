@@ -1,513 +1,415 @@
 {
-  "current_page": 348808,
+  "current_page": 53227,
   "docs": [
     {
-      "code": "OEUN000000000000019309301",
+      "code": "REV_NET_INC",
       "column_names": [
         "Date",
-        "Value"
+        "Net Income"
       ],
-      "description": "Statistic: Employment; Occupation: Historians; Industry: Cross-industry, private, federal, state, and local; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000000000019309301",
-      "frequency": "monthly",
-      "from_date": "2012-06-30",
-      "id": 8906693,
-      "name": "Employment for Historians in Cross-industry, private, federal, state, and local in National",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
-      "type": null,
-      "updated_at": "2013-11-15T14:54:45Z",
-      "urlize_name": "Employment-for-Historians-in-Cross-industry-private-federal-state-and-local-in-National"
-    },
-    {
-      "code": "FAO_72DJIBOUTI577DATES",
-      "column_names": [
-        "Year",
-        "Import Quantity (tonnes)",
-        "Import Value (1000 US$)",
-        "Export Quantity (tonnes)",
-        "Export Value (1000 US$)"
-      ],
-      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
-      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_Africa_1.zip",
-      "frequency": "annual",
-      "from_date": "1961-12-31",
-      "id": 7632467,
-      "name": "Trade Crops Livestock: Dates - Djibouti",
-      "private": false,
-      "source_code": "FAO",
-      "source_name": "Food and Agriculture Organization of the United Nations",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T03:43:05Z",
-      "urlize_name": "Trade-Crops-Livestock-Dates-Djibouti"
-    },
-    {
-      "code": "IND_DRESSESWOMENSANDGIRLSNOTKNITTEDORCROCHETED_MILUSD_HU",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 3337829,
-      "name": "Industrial Commodities / Dresses, Women's And Girls, Not Knitted Or Crocheted / Mil. Usd - Hungary",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T03:49:40Z",
-      "urlize_name": "Industrial-Commodities-Dresses-Women-s-And-Girls-Not-Knitted-Or-Crocheted-Mil-Usd-Hungary"
-    },
-    {
-      "code": "ELEC_PLANT_GEN_55829_RFO_ST_M",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.55829-RFO-ST.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.55829-RFO-ST.M&out=xml",
-      "frequency": "monthly",
-      "from_date": "2003-01-31",
-      "id": 4802270,
-      "name": "Net Generation : Millinocket Mill : Residual Fuel Oil : Steam Turbine : Monthly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2008-12-31",
-      "type": null,
-      "updated_at": "2014-01-09T13:58:12Z",
-      "urlize_name": "Net-Generation-Millinocket-Mill-Residual-Fuel-Oil-Steam-Turbine-Monthly"
-    },
-    {
-      "code": "COMM_84_OFFICEMACHINESNES_IMPORT_GNB",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 4682610,
-      "name": "Commodity Imports - Nuclear Reactors, Boilers, Machinery, Etc / Office machines, nes - Guinea-Bissau",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T03:43:05Z",
-      "urlize_name": "Commodity-Imports-Nuclear-Reactors-Boilers-Machinery-Etc-Office-machines-nes-Guinea-Bissau"
-    },
-    {
-      "code": "MNA_SH_DTH_INJR_ZS",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Cause of death refers to the share of all deaths for all ages by underlying causes. Injuries include unintentional and intentional injuries.\nCause of death, by injury (% of total)",
-      "display_url": "http://api.worldbank.org/countries/MNA/indicators/SH.DTH.INJR.ZS?per_page=1000",
-      "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 504904,
-      "name": "Middle East & North Africa (developing only): Cause of death, by injury (% of total)",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2008-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T03:50:54Z",
-      "urlize_name": "Middle-East-North-Africa-developing-only-Cause-of-death-by-injury-of-total"
-    },
-    {
-      "code": "172_000813810_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=172",
-      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
-      "frequency": "annual",
-      "from_date": "1995-12-31",
-      "id": 8310719,
-      "name": "Annual accounts, base 1995 - TFO - Other volume changes and adjustments - F6 - Insurance technical reserves - Credited sector: S125 - Insurance companies and pension funds - Value in current euros - Stopped series",
-      "private": false,
-      "source_code": "INSEE",
-      "source_name": "National Institute of Statistics and Economic Studies (France)",
-      "to_date": "2002-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T19:46:32Z",
-      "urlize_name": "Annual-accounts-base-1995-TFO-Other-volume-changes-and-adjustments-F6-Insurance-technical-reserves-Credited-sector-S125-Insurance-companies-and-pension-funds-Value-in-current-euros-Stopped-series"
-    },
-    {
-      "code": "COMM_59_EMBROIDERYWITHOUTVISIBLEGROUND_IMPORT_ISR",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1995-12-31",
-      "id": 3810319,
-      "name": "Commodity Imports - Special Woven Or Tufted Fabric, Lace, Tapestry Etc / Embroidery without visible ground - Israel",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T03:43:05Z",
-      "urlize_name": "Commodity-Imports-Special-Woven-Or-Tufted-Fabric-Lace-Tapestry-Etc-Embroidery-without-visible-ground-Israel"
-    },
-    {
-      "code": "TIN00048_100",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "At national level, monthly and annual data on arrivals, nights spent and occupancy rates at tourist accommodation establishments.\r\nRegional data on annual arrivals, nights spent at tourist accommodation establishments at NUTS 2 level.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/tour_occ_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftin00048.sdmx.zip",
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
       "from_date": "2000-12-31",
-      "id": 696387,
-      "name": "Arrivals in other collective accommodation establishments  : Thousands : Other collective accommodation establishments, Total : Arrivals Total : Poland",
+      "id": 5330916,
+      "name": "Revlon Inc. 'A' ( REV ) - Net Income",
       "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2013-05-16T09:24:07Z",
-      "urlize_name": "Arrivals-in-other-collective-accommodation-establishments-Thousands-Other-collective-accommodation-establishments-Total-Arrivals-Total-Poland"
-    },
-    {
-      "code": "ELEC_COST_BTU_SUB_TX_1_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Dollars Per Million Btu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.COST_BTU.SUB-TX-1.Q",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.COST_BTU.SUB-TX-1.Q&out=xml",
-      "frequency": "monthly",
-      "from_date": "2008-01-31",
-      "id": 5238883,
-      "name": "Average Cost Of Fossil Fuels (per Btu) : Subbituminous Coal : Texas : Electric Utility : Quarterly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-09-30",
-      "type": null,
-      "updated_at": "2014-01-09T22:11:31Z",
-      "urlize_name": "Average-Cost-Of-Fossil-Fuels-per-Btu-Subbituminous-Coal-Texas-Electric-Utility-Quarterly"
-    },
-    {
-      "code": "LMC_WP11630_3_4",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Adults whose usual mode of access to put cash (paper or coins) into their account(s) is over the counter at a retail store (% ages 15-24, with a formal account)\nRetail store is main mode of withdrawal from account, young adults (% with an account,  age 15-24)",
-      "display_url": "http://api.worldbank.org/countries/LMC/indicators/WP11630.3.4?per_page=1000",
-      "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 6556452,
-      "name": "Lower middle income: Retail store is main mode of withdrawal from account, young adults (% with an account,  age 15-24)",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T22:17:01Z",
-      "urlize_name": "Lower-middle-income-Retail-store-is-main-mode-of-withdrawal-from-account-young-adults-with-an-account-age-15-24"
-    },
-    {
-      "code": "FAO_20BOTSWANA560GRAPES",
-      "column_names": [
-        "Year",
-        "Import Quantity (tonnes)",
-        "Import Value (1000 US$)",
-        "Export Quantity (tonnes)",
-        "Export Value (1000 US$)"
-      ],
-      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
-      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_Africa_1.zip",
-      "frequency": "annual",
-      "from_date": "1961-12-31",
-      "id": 7668480,
-      "name": "Trade Crops Livestock: Grapes - Botswana",
-      "private": false,
-      "source_code": "FAO",
-      "source_name": "Food and Agriculture Organization of the United Nations",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T03:43:05Z",
-      "urlize_name": "Trade-Crops-Livestock-Grapes-Botswana"
-    },
-    {
-      "code": "0_1_6_153",
-      "column_names": [
-        "Year",
-        "Number of Sites"
-      ],
-      "description": null,
-      "display_url": "http://geocompendium.grid.unep.ch/data_sets/biodiversity/data/whs_number.htm",
-      "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 1065141,
-      "name": "Number of World Heritage Sites (Natural and Natural/Cultural) (Myanmar)",
-      "private": false,
-      "source_code": "GEOCOMP",
-      "source_name": "Geo3 Data Compendium",
-      "to_date": "2001-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T03:43:05Z",
-      "urlize_name": "Number-of-World-Heritage-Sites-Natural-and-Natural-Cultural-Myanmar"
-    },
-    {
-      "code": "NCU0802633444700",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Occupation: Nursing aides, orderlies, and attendants; Skills: Overall occupation average (no work level) (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU0802633444700",
-      "frequency": "annual",
-      "from_date": "2003-10-31",
-      "id": 9045705,
-      "name": "Compensation for Nursing aides, orderlies, and attendants in Overall occupation average (no work level)",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2005-10-31",
-      "type": null,
-      "updated_at": "2013-11-15T10:17:29Z",
-      "urlize_name": "Compensation-for-Nursing-aides-orderlies-and-attendants-in-Overall-occupation-average-no-work-level"
-    },
-    {
-      "code": "ELEC_GEN_NG_PA_7_M",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Thousand Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.GEN.NG-PA-7.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.GEN.NG-PA-7.M&out=xml",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 5194336,
-      "name": "Net Generation : Natural Gas : Pennsylvania : Industrial Cogen : Monthly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2014-01-09T13:55:33Z",
-      "urlize_name": "Net-Generation-Natural-Gas-Pennsylvania-Industrial-Cogen-Monthly"
-    },
-    {
-      "code": "COMM_85_RADIORECEIVERSEXTERNALPOWERNOTSOUNDREPRODUCER_IMPORT_CUB",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1999-12-31",
-      "id": 5368452,
-      "name": "Commodity Imports - Electrical, Electronic Equipment / Radio receivers, external power, not sound reproducer - Cuba",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2006-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T03:49:40Z",
-      "urlize_name": "Commodity-Imports-Electrical-Electronic-Equipment-Radio-receivers-external-power-not-sound-reproducer-Cuba"
-    },
-    {
-      "code": "RC63_RM_GUARABIRA_PB_17_ANOS_ABS",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
-      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RC63_RM_ABS.csv&categorias=%2217%20anos%22&localidade=Guarabira%20-%20PB",
-      "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 6389437,
-      "name": "Population and Demographics: Marriage (marriages, separations, divorces) - Marriage - by age of women - 17 years Metropolitan Regions: Guarabira - PB. Datatype: Absolute",
-      "private": false,
-      "source_code": "IBGE",
-      "source_name": "Brazilian Institute of Geography and Statistics",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T16:46:35Z",
-      "urlize_name": "Population-and-Demographics-Marriage-marriages-separations-divorces-Marriage-by-age-of-women-17-years-Metropolitan-Regions-Guarabira-PB-Datatype-Absolute"
-    },
-    {
-      "code": "FORESTOTHERPAPERSPACKAGING_EXPORTQUANTITY_DZA",
-      "column_names": [
-        "Year",
-        "tones"
-      ],
-      "description": "FAOSTAT provides access to over 3 million time-series and cross sectional data relating to food and agriculture. FAOSTAT contains data for 200 countries and more than 200 primary products and inputs in its core data set. The national version of FAOSTAT, CountrySTAT, is being implemented in about 20 countries and three regions. It offers a two-way bridge amongst sub-national, national, regional and international statistics on food and agriculture.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 3177776,
-      "name": "Forest - Other Papers Packaging / Export Quantity - Algeria",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2007-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T03:43:05Z",
-      "urlize_name": "Forest-Other-Papers-Packaging-Export-Quantity-Algeria"
-    },
-    {
-      "code": "TEC00020_63",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Main revenue and expenditure items of the general government sector, notified by national authorities in Table 2 of the ESA 95 transmission programme.\r\nData are presented in millions of Euro, millions of national currency units, Euro per inhabitant and percentages of GDP.\r\nGeographic coverage: EU and euro area, Iceland, Norway and Switzerland.\r\nMain sources of data: National authorities\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/gov_a_main_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftec00020.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 781746,
-      "name": "Taxes on production and imports  : Percentage of GDP : Taxes on production and imports, receivable : Central government : Portugal",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-13T03:49:40Z",
-      "urlize_name": "Taxes-on-production-and-imports-Percentage-of-GDP-Taxes-on-production-and-imports-receivable-Central-government-Portugal"
+      "updated_at": "2014-03-22T00:53:49Z",
+      "urlize_name": "Revlon-Inc-A-REV-Net-Income"
     },
     {
-      "code": "COMM_2_HORSESLIVEEXCEPTPUREBREDBREEDING_EXPORT_SYR",
+      "code": "CAMH_CHG_NCWC",
       "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
+        "Date",
+        "Change in Non-Cash Working Capital"
       ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3957923,
+      "name": "Cambridge Heart Inc ( CAMH ) - Change in Non-Cash Working Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T00:53:50Z",
+      "urlize_name": "Cambridge-Heart-Inc-CAMH-Change-in-Non-Cash-Working-Capital"
+    },
+    {
+      "code": "ALLN_CAPEX",
+      "column_names": [
+        "Date",
+        "Capital Expenditures"
+      ],
+      "description": "This is the cumulated capital spending, as reported in the statement of cash flows, for the sector. It generally does not include acquisitions. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 3927663,
+      "name": "Allin Corporation ( ALLN ) - Capital Expenditures",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T00:54:10Z",
+      "urlize_name": "Allin-Corporation-ALLN-Capital-Expenditures"
+    },
+    {
+      "code": "CAVO_MKT_DC",
+      "column_names": [
+        "Date",
+        "Market Debt to Capital Ratio"
+      ],
+      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-08-19",
+      "id": 3975290,
+      "name": "Cavico Corporation ( CAVO ) - Market Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-08-19",
+      "type": null,
+      "updated_at": "2014-03-22T00:53:52Z",
+      "urlize_name": "Cavico-Corporation-CAVO-Market-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "OSK_BETA_VL",
+      "column_names": [
+        "Date",
+        "Value Line Beta"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-09-30",
+      "id": 5310419,
+      "name": "Oshkosh Truck ( OSK ) - Value Line Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-09-30",
+      "type": null,
+      "updated_at": "2014-03-22T00:54:12Z",
+      "urlize_name": "Oshkosh-Truck-OSK-Value-Line-Beta"
+    },
+    {
+      "code": "RDEN_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-06-30",
+      "id": 5317017,
+      "name": "Elizabeth Arden Inc ( RDEN ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T00:54:12Z",
+      "urlize_name": "Elizabeth-Arden-Inc-RDEN-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "HA_INTANG_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Intangible Assets to Total Assets"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4490251,
+      "name": "Hawaiian Holdings ( HA ) - Ratio of Intangible Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T00:54:12Z",
+      "urlize_name": "Hawaiian-Holdings-HA-Ratio-of-Intangible-Assets-to-Total-Assets"
+    },
+    {
+      "code": "CHCI_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 5983381,
+      "name": "Comstock Homebuilding Companies ( CHCI ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T00:54:13Z",
+      "urlize_name": "Comstock-Homebuilding-Companies-CHCI-Correlation-with-the-Market"
+    },
+    {
+      "code": "EAG_CASH_REV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5996704,
+      "name": "Eagle Wireless Intl Inc ( EAG ) - Cash as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T00:54:13Z",
+      "urlize_name": "Eagle-Wireless-Intl-Inc-EAG-Cash-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "SCYL_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "FCFF = EBIT(1-t) - (Capital Expenditures - Depreciation) - Change in Non-Cash Working Capital. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 5338246,
+      "name": "The Sports Club Company Inc ( SCYL ) - Free Cash Flow to Firm",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T00:53:53Z",
+      "urlize_name": "The-Sports-Club-Company-Inc-SCYL-Free-Cash-Flow-to-Firm"
+    },
+    {
+      "code": "UNWR_EBIT_1T",
+      "column_names": [
+        "Date",
+        "EBIT for Previous Period"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5477746,
+      "name": "US Unwired Inc ( UNWR ) - EBIT for Previous Period",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T00:53:54Z",
+      "urlize_name": "US-Unwired-Inc-UNWR-EBIT-for-Previous-Period"
+    },
+    {
+      "code": "AMD_BETA",
+      "column_names": [
+        "Date",
+        "3-Year Regression Beta"
+      ],
+      "description": "Estimated by regressing weekly returns on stock against NYSE composite. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-27",
+      "id": 3937576,
+      "name": "Advanced Micro Devices ( AMD ) - 3-Year Regression Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-27",
+      "type": null,
+      "updated_at": "2014-03-22T00:54:15Z",
+      "urlize_name": "Advanced-Micro-Devices-AMD-3-Year-Regression-Beta"
+    },
+    {
+      "code": "ADX_CASH_REV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
       "from_date": "2003-12-31",
-      "id": 2759026,
-      "name": "Commodity Exports - Live Animals / Horses, live except pure-bred breeding - Syrian Arab Republic",
+      "id": 3894377,
+      "name": "Adams Express Company ( ADX ) - Cash as Percentage of Revenues",
       "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2010-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-12-31",
       "type": null,
-      "updated_at": "2014-01-13T03:50:54Z",
-      "urlize_name": "Commodity-Exports-Live-Animals-Horses-live-except-pure-bred-breeding-Syrian-Arab-Republic"
+      "updated_at": "2014-03-22T00:54:15Z",
+      "urlize_name": "Adams-Express-Company-ADX-Cash-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "RDEN_ROC",
+      "column_names": [
+        "Date",
+        "Return on Capital"
+      ],
+      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-06-30",
+      "id": 5317185,
+      "name": "Elizabeth Arden Inc ( RDEN ) - Return on Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T00:53:55Z",
+      "urlize_name": "Elizabeth-Arden-Inc-RDEN-Return-on-Capital"
+    },
+    {
+      "code": "NWK_REINV_RATE",
+      "column_names": [
+        "Date",
+        "Reinvestment Rate"
+      ],
+      "description": "Reinvestment Rate = (Net Capital Expenditures + Change in WC) / EBIT(1-t). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-03-30",
+      "id": 6145963,
+      "name": "Network Equipment Technologies ( NWK ) - Reinvestment Rate",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-03-30",
+      "type": null,
+      "updated_at": "2014-03-22T00:53:55Z",
+      "urlize_name": "Network-Equipment-Technologies-NWK-Reinvestment-Rate"
+    },
+    {
+      "code": "RDEN_BETA",
+      "column_names": [
+        "Date",
+        "3-Year Regression Beta"
+      ],
+      "description": "Estimated by regressing weekly returns on stock against NYSE composite. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-06-30",
+      "id": 5316992,
+      "name": "Elizabeth Arden Inc ( RDEN ) - 3-Year Regression Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T00:54:15Z",
+      "urlize_name": "Elizabeth-Arden-Inc-RDEN-3-Year-Regression-Beta"
+    },
+    {
+      "code": "RDEN_NET_INC",
+      "column_names": [
+        "Date",
+        "Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-06-30",
+      "id": 5317146,
+      "name": "Elizabeth Arden Inc ( RDEN ) - Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T00:54:16Z",
+      "urlize_name": "Elizabeth-Arden-Inc-RDEN-Net-Income"
+    },
+    {
+      "code": "ATNI_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 5971821,
+      "name": "Atlantic Tele-Network ( ATNI ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T00:54:16Z",
+      "urlize_name": "Atlantic-Tele-Network-ATNI-Correlation-with-the-Market"
+    },
+    {
+      "code": "RDEN_REV_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-06-30",
+      "id": 5317203,
+      "name": "Elizabeth Arden Inc ( RDEN ) - Trailing Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T00:54:16Z",
+      "urlize_name": "Elizabeth-Arden-Inc-RDEN-Trailing-Revenues"
+    },
+    {
+      "code": "USXP_INTANG_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Intangible Assets to Total Assets"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-06-30",
+      "id": 5494306,
+      "name": "Universal Express Inc ( USXP ) - Ratio of Intangible Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2007-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T00:54:16Z",
+      "urlize_name": "Universal-Express-Inc-USXP-Ratio-of-Intangible-Assets-to-Total-Assets"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "GEOCOMP",
-      "concurrency": 20,
-      "datasets_count": 47348,
-      "description": "No description for this source yet",
-      "host": "geocompendium.grid.unep.ch",
-      "id": 203,
-      "name": "Geo3 Data Compendium",
-      "use_proxy": false
-    },
-    {
-      "code": "EIA",
-      "concurrency": 20,
-      "datasets_count": 427809,
-      "description": "No description for this source yet",
-      "host": "www.api.eia.gov",
-      "id": 661,
-      "name": "U.S. Energy Information Administration",
-      "use_proxy": false
-    },
-    {
-      "code": "FAO",
-      "concurrency": 20,
-      "datasets_count": 0,
-      "description": "No description for this source yet",
-      "host": "faostat3.fao.org",
-      "id": 863,
-      "name": "Food and Agriculture Organization of the United Nations",
-      "use_proxy": false
-    },
-    {
-      "code": "UN",
-      "concurrency": 10000,
-      "datasets_count": 2100274,
-      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
-      "host": "data.un.org",
-      "id": 488,
-      "name": "United Nations",
-      "use_proxy": false
-    },
-    {
-      "code": "WORLDBANK",
-      "concurrency": 400,
-      "datasets_count": 792087,
-      "description": "The World Bank's mission is to fight poverty with passion and professionalism for lasting results.\r\n\r\nFree and open access to data about development in countries around the globe.",
-      "host": "api.worldbank.org",
-      "id": 66,
-      "name": "World Bank",
-      "use_proxy": false
-    },
-    {
-      "code": "EUROSTAT",
-      "concurrency": 100,
-      "datasets_count": 320722,
-      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
-      "host": "epp.eurostat.ec.europa.eu",
-      "id": 194,
-      "name": "EuroStat",
-      "use_proxy": false
-    },
-    {
-      "code": "INSEE",
-      "concurrency": 20,
-      "datasets_count": 0,
-      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
-      "host": "www.insee.fr",
-      "id": 1097,
-      "name": "National Institute of Statistics and Economic Studies (France)",
-      "use_proxy": false
-    },
-    {
-      "code": "IBGE",
-      "concurrency": 20,
-      "datasets_count": 110418,
-      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
-      "host": "seriesestatisticas.ibge.gov.br",
-      "id": 725,
-      "name": "Brazilian Institute of Geography and Statistics",
-      "use_proxy": false
-    },
-    {
-      "code": "BLS",
-      "concurrency": 10,
-      "datasets_count": 5888,
-      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
-      "host": "www.bls.gov",
-      "id": 162,
-      "name": "Bureau of Labor Statistics",
-      "use_proxy": false
-    }
-  ],
-  "total_count": 10036987
+  "sources": [{
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
+  }],
+  "total_count": 10147268
 }

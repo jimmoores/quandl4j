@@ -1,21 +1,23 @@
 {
-  "code": "COL_UIS_T_3",
+  "code": "STSI_R",
   "column_names": [
     "Date",
-    "Value"
+    "Bullish",
+    "Bearish",
+    "Ratio"
   ],
-  "description": "Teaching staff in upper secondary. Public and private. Full and part-time. All programmes. Total is the total number of teachers in public and private upper secondary education institutions (ISCED 3). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of pupils and students, irrespective of their qualifications or the delivery mechanism, i.e. face-to-face and/or at a distance. This definition excludes educational personnel who have no active teaching duties (e.g. headmasters, headmistresses or principals who do not teach) and persons who work occasionally or in a voluntary capacity in educational institutions.\nTeaching staff in upper secondary. Public and private. Full and part-time. All programmes. Total",
-  "display_url": "http://api.worldbank.org/countries/COL/indicators/UIS.T.3?per_page=1000",
+  "description": "PscyhSignal aims to provide the most granular and accurate real time financial sentiment indices in the world.  Our sentiment engine is designed specifically with the goal of measuring the attitudes \"bullishness\" and \"bearishness\".  We look for the granular expressions individuals add to the online conversation, on Twitter, StockTwits and chat rooms.  Our distinct and studied theory is to aggregate millions of expressions.  In the same way Google made sense of the internet web structure by aggregating and ranking link structure, our theory creates a structure of world mood by aggregating and scoring emotions.  Once identified and aggregated, our proprietary engine continually scores each emotion or attitude to determine the degree present.  This allows us to create a nuanced and detailed picture of crowd mood.",
+  "display_url": "https://psychsignal.com",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2002-12-31",
-  "id": 2171818,
-  "name": "Colombia: Teaching staff in upper secondary. Public and private. Full and part-time. All programmes. Total",
+  "frequency": "daily",
+  "from_date": "2010-03-23",
+  "id": 8884728,
+  "name": "Star Scientific, Inc. (STSI) Bullish/Bearish Sentiment Volume Ratios",
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
-  "to_date": "2012-12-31",
+  "source_code": "PSYCH",
+  "source_name": "PsychSignal",
+  "to_date": "2014-01-19",
   "type": null,
-  "updated_at": "2014-05-18T00:05:13Z",
-  "urlize_name": "Colombia-Teaching-staff-in-upper-secondary-Public-and-private-Full-and-part-time-All-programmes-Total"
+  "updated_at": "2014-01-26T19:18:15Z",
+  "urlize_name": "Star-Scientific-Inc-STSI-Bullish-Bearish-Sentiment-Volume-Ratios"
 }

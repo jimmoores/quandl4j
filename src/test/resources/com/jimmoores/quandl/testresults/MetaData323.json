@@ -1,18 +1,23 @@
 {
-  "code": "GSP_SIC_ALL_S_HOSPITALSANDNURSINGANDRESIDENTIALCAREFACILITIES_MISSOURI",
-  "column_names": [],
-  "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
-  "display_url": "http://bea.gov/regional",
+  "code": "COMM_27_NICKELORESANDCONCENTRATES_EXPORT_ISR",
+  "column_names": [
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
+  ],
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": null,
-  "from_date": null,
-  "id": 8194383,
-  "name": "Subsidies (SIC): Hospitals and nursing and residential care facilities - Missouri",
+  "frequency": "annual",
+  "from_date": "2001-12-31",
+  "id": 3068086,
+  "name": "Commodity Exports - Ores, Slag And Ash / Nickel ores and concentrates - Israel",
   "private": false,
-  "source_code": "BEA",
-  "source_name": "Bureau of Economic Analysis",
-  "to_date": null,
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2001-12-31",
   "type": null,
-  "updated_at": "2013-09-13T00:49:49Z",
-  "urlize_name": "Subsidies-SIC-Hospitals-and-nursing-and-residential-care-facilities-Missouri"
+  "updated_at": "2014-01-25T11:16:31Z",
+  "urlize_name": "Commodity-Exports-Ores-Slag-And-Ash-Nickel-ores-and-concentrates-Israel"
 }

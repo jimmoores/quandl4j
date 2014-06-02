@@ -1,21 +1,21 @@
 {
-  "code": "957_FJI",
+  "code": "ESA_Q_DK_N_0000_LABPRO_1000_2C_C_L_N_A",
   "column_names": [
     "Date",
-    "Value"
+    "2005"
   ],
-  "description": "SEX: Male.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
-  "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:MLE;COUNTRY:FJI;\n",
+  "description": " Denmark - Labour productivity: Manufacturing, Chain linked volumes, reference year 2005, National currency, Neither seasonally nor working day adjusted, , :, Dataset:ESA : ESA95 National Accounts Explanation page (Series and Dataset Level Information), Reference area:Denmark (DK), Decimals:Two (2), Collection indicator:Summed through period (S), Compilation:CONVERT($GES_FILTER_NCS_NAS(ESA.Q.DK.N.0000.B1G000.1000.2C_C.L.N.A),A,DISC,SUMMED) / CONVERT($GES_FILTER_NCS_NAS(ESA.Q.DK.N.1000.TOTEMP.0000.2C_C.N.P.A),A,DISC,AVERAGED) * 1000",
+  "display_url": "http://sdw.ecb.europa.eu/export.do?node=2120804&SERIES_KEY=119.ESA.Q.DK.N.0000.LABPRO.1000.2C_C.L.N.A&exportType=sdmx",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2008-12-31",
-  "id": 9591501,
-  "name": "Exposure to smoke outside home Male - Fiji",
+  "frequency": "quarterly",
+  "from_date": "1990-03-31",
+  "id": 11510818,
+  "name": "Denmark Labour productivity: Manufacturing, Chain linked volumes, reference year 2005, National currency",
   "private": false,
-  "source_code": "WHO",
-  "source_name": "World Health Organization",
-  "to_date": "2010-12-31",
+  "source_code": "ECB",
+  "source_name": "European Central Bank",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-01-10T10:17:08Z",
-  "urlize_name": "Exposure-to-smoke-outside-home-Male-Fiji"
+  "updated_at": "2014-05-29T23:13:01Z",
+  "urlize_name": "Denmark-Labour-productivity-Manufacturing-Chain-linked-volumes-reference-year-2005-National-currency"
 }

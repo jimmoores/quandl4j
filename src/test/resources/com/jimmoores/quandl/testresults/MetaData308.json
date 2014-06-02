@@ -1,21 +1,21 @@
 {
-  "code": "IIUFIA52200032100",
+  "code": "183_PNG",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Measure: Rate of injury and illness cases per 100 full-time workers; Case type: Cases involving days away from work, job restriction, or transfer; Industry: Credit intermediation and related activities; Supersector: Financial activities; Area: Private industry, All U.S.; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
-  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUFIA52200032100",
+  "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3006",
+  "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/DEVICES09&filter=COUNTRY:PNG;\n",
   "errors": {},
   "frequency": "annual",
   "from_date": "2010-12-31",
-  "id": 9215557,
-  "name": "Rate of injury and illness cases per 100 full-time workers for Credit intermediation and related activities, Private industry, All U.S.",
+  "id": 9511269,
+  "name": "Total density per million population: Computed tomography - Papua New Guinea",
   "private": false,
-  "source_code": "BLS",
-  "source_name": "Bureau of Labor Statistics",
-  "to_date": "2012-12-31",
+  "source_code": "WHO",
+  "source_name": "World Health Organization",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2013-11-18T04:49:49Z",
-  "urlize_name": "Rate-of-injury-and-illness-cases-per-100-full-time-workers-for-Credit-intermediation-and-related-activities-Private-industry-All-U-S"
+  "updated_at": "2014-01-10T02:25:24Z",
+  "urlize_name": "Total-density-per-million-population-Computed-tomography-Papua-New-Guinea"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "STFBQCF_STFBAILF_MA_N_Q",
+  "code": "BGR_UIS_T_3_GPV",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Units: Percentage\nMultiplier: 1\nClassification: CHGDEL",
-  "display_url": "http://www.federalreserve.gov/datadownload/Output.aspx?rel=CHGDEL&series=929faaa8d5e6bf375839d7fc2b7760fe&lastObs=&from=&to=&filetype=csv&label=include&layout=seriescolumn&type=package",
+  "description": "Teaching staff in upper secondary. Public and private. Full and part-time. General programmes. Total is the total number of teachers in general programmes in public and private upper secondary education institutions (ISCED 3). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of pupils and students, irrespective of their qualifications or the delivery mechanism, i.e. face-to-face and/or at a distance. This definition excludes educational personnel who have no active teaching duties (e.g. headmasters, headmistresses or principals who do not teach) and persons who work occasionally or in a voluntary capacity in educational institutions.\nTeaching staff in upper secondary. Public and private. Full and part-time. General programmes. Total",
+  "display_url": "http://api.worldbank.org/countries/BGR/indicators/UIS.T.3.GPV?per_page=1000",
   "errors": {},
-  "frequency": "quarterly",
-  "from_date": "1985-03-31",
-  "id": 84161,
-  "name": "Charge-off rate on loans to finance agricultural production; All commercial banks",
+  "frequency": "annual",
+  "from_date": "1999-12-31",
+  "id": 6456411,
+  "name": "Bulgaria: Teaching staff in upper secondary. Public and private. Full and part-time. General programmes. Total",
   "private": false,
-  "source_code": "FED",
-  "source_name": "US Federal Reserve",
-  "to_date": "2014-03-31",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-05-24T13:07:47Z",
-  "urlize_name": "Charge-off-rate-on-loans-to-finance-agricultural-production-All-commercial-banks"
+  "updated_at": "2014-05-17T19:06:18Z",
+  "urlize_name": "Bulgaria-Teaching-staff-in-upper-secondary-Public-and-private-Full-and-part-time-General-programmes-Total"
 }

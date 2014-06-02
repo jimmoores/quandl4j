@@ -1,148 +1,28 @@
 {
-  "current_page": 351922,
+  "current_page": 200530,
   "docs": [
     {
-      "code": "IIUFIA52200032100",
+      "code": "SEDS_P1ICV_MT_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Measure: Rate of injury and illness cases per 100 full-time workers; Case type: Cases involving days away from work, job restriction, or transfer; Industry: Credit intermediation and related activities; Supersector: Financial activities; Area: Private industry, All U.S.; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUFIA52200032100",
+      "description": "Units=Million Dollars. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.P1ICV.MT.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.P1ICV.MT.A&out=xml",
       "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 9215557,
-      "name": "Rate of injury and illness cases per 100 full-time workers for Credit intermediation and related activities, Private industry, All U.S.",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2013-11-18T04:49:49Z",
-      "urlize_name": "Rate-of-injury-and-illness-cases-per-100-full-time-workers-for-Credit-intermediation-and-related-activities-Private-industry-All-U-S"
-    },
-    {
-      "code": "TRNG_ENT19S_713",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "CVTS2 and CVTS3 data were collected with reference year 1 1999 and 2005 and published by Eurostat in order to:\r\nProvide the Commission with harmonised, reliable and relevant statistical information needed to define, implement, monitor and evaluate Commission policies in the continuing vocational training in enterprises sector.\r\nProvide the EU institutions, national administrations, enterprises, professional associations and EU citizens with high quality statistical services and products in the field of training.\r\nCVTS3 provides comparable statistics on training enterprises, the participation to training, the volume of CVT courses and its costs, and moreover information on Initial vocational training (IVT) courses.\r\nCVTS2 provides comparable statistical results on training and non-training enterprises, the supply of and the demand for vocational skills, the need for CVT and the forms, content and volume of CVT, the use of enterprises' own training resources and of external providers, and the cost of CVT courses.\r\nThe CVTS1 was the first survey on continuing vocational training in enterprises carried out on the EU level in a co-ordinated form (outline questionnaire, common definitions, and common recommendations with the respect to the fieldwork). The survey therefore was of pioneering nature, and is not any longer disseminated.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_cvts_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_ent19s.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "1999-12-31",
-      "id": 687003,
-      "name": "Percentage of enterprises providing CVT in 1997 and 1998 by size class  : Percentage of total : Yes : No vocational training : Czech Republic : From 10 to 49 employees",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "1999-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T15:34:35Z",
-      "urlize_name": "Percentage-of-enterprises-providing-CVT-in-1997-and-1998-by-size-class-Percentage-of-total-Yes-No-vocational-training-Czech-Republic-From-10-to-49-employees"
-    },
-    {
-      "code": "ELEC_PLANT_CONS_TOT_BTU_10194_WO_ALL_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.10194-WO-ALL.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.10194-WO-ALL.A&out=xml",
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 5013585,
-      "name": "Fuel Consumption Mmbtus : Hawaii Cogen : Waste/other Oil : All Primemovers : Annual",
+      "from_date": "1970-12-31",
+      "id": 4781914,
+      "name": "Asphalt And Road Oil, Kerosene, Lubricants, And \"other Petroleum Products\" Expenditures In The Industrial Sector, Montana",
       "private": false,
       "source_code": "EIA",
       "source_name": "U.S. Energy Information Administration",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T05:29:47Z",
-      "urlize_name": "Fuel-Consumption-Mmbtus-Hawaii-Cogen-Waste-other-Oil-All-Primemovers-Annual"
-    },
-    {
-      "code": "APRO_MT_SLOTH_4",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Meat results cover the number and carcass weight of bovine animals, pigs, sheep, goats and poultry. The data refer not only to animals slaughtered in approved slaughterhouses but also estimates, of the extent of domestic slaughterings.\r\nProduction forecasts are expressed as the gross indigenous production (GIP), which corresponds to the number of bovine animals, pigs, sheep and goats slaughtered plus the balance of trade in these animals.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/apro_mt_p_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fapro_mt_sloth.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 904571,
-      "name": "Estimates of slaughtering other than in slaughterhouses annual data  : Slaughterings, other than in slaughterhouses : Bullocks : 1000 heads (animals) : Cyprus",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2012-05-12T12:09:54Z",
-      "urlize_name": "Estimates-of-slaughtering-other-than-in-slaughterhouses-annual-data-Slaughterings-other-than-in-slaughterhouses-Bullocks-1000-heads-animals-Cyprus"
+      "updated_at": "2014-01-10T01:55:00Z",
+      "urlize_name": "Asphalt-And-Road-Oil-Kerosene-Lubricants-And-other-Petroleum-Products-Expenditures-In-The-Industrial-Sector-Montana"
     },
     {
-      "code": "ELEC_GEN_COW_WSC_7_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Thousand Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.GEN.COW-WSC-7.Q",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.GEN.COW-WSC-7.Q&out=xml",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 5193331,
-      "name": "Net Generation : Coal : West South Central : Industrial Cogen : Quarterly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-09-30",
-      "type": null,
-      "updated_at": "2014-01-09T23:50:13Z",
-      "urlize_name": "Net-Generation-Coal-West-South-Central-Industrial-Cogen-Quarterly"
-    },
-    {
-      "code": "ELEC_GEN_COW_WA_7_M",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Thousand Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.GEN.COW-WA-7.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.GEN.COW-WA-7.M&out=xml",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 5193315,
-      "name": "Net Generation : Coal : Washington : Industrial Cogen : Monthly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2014-01-10T00:48:16Z",
-      "urlize_name": "Net-Generation-Coal-Washington-Industrial-Cogen-Monthly"
-    },
-    {
-      "code": "OEUN000000045100015113401",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: Employment; Occupation: Web Developers; Industry: Sporting Goods, Hobby, Musical Instrument, and Book Stores; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000045100015113401",
-      "frequency": "annual",
-      "from_date": "2012-06-30",
-      "id": 9044128,
-      "name": "Employment for Web Developers in Sporting Goods, Hobby, Musical Instrument, and Book Stores in National",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
-      "type": null,
-      "updated_at": "2013-11-16T13:47:50Z",
-      "urlize_name": "Employment-for-Web-Developers-in-Sporting-Goods-Hobby-Musical-Instrument-and-Book-Stores-in-National"
-    },
-    {
-      "code": "COMM_18_FRUCTOSECHEMICALLYPURE_EXPORT_BGR",
+      "code": "COMM_84_REELFEDOFFSETPRINTINGMACHINERY_EXPORT_UKR",
       "column_names": [
         "Year",
         "Trade (USD)",
@@ -152,39 +32,39 @@
       "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "1996-12-31",
-      "id": 2971788,
-      "name": "Commodity Exports - Sugars And Sugar Confectionery / Fructose, chemically pure - Bulgaria",
+      "from_date": "1995-12-31",
+      "id": 5237857,
+      "name": "Commodity Exports - Nuclear Reactors, Boilers, Machinery, Etc / Reel fed offset printing machinery - Ukraine",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-11T15:34:35Z",
-      "urlize_name": "Commodity-Exports-Sugars-And-Sugar-Confectionery-Fructose-chemically-pure-Bulgaria"
+      "updated_at": "2014-01-12T04:46:39Z",
+      "urlize_name": "Commodity-Exports-Nuclear-Reactors-Boilers-Machinery-Etc-Reel-fed-offset-printing-machinery-Ukraine"
     },
     {
-      "code": "POP_22_BLR_MAL_URB_20TO24",
+      "code": "V468952",
       "column_names": [
-        "Year",
-        "Number"
+        "Date",
+        "Value"
       ],
-      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "description": "{\"Geography\"=>\"Manitoba\", \"Sex\"=>\"Males\", \"Age group\"=>\"22 years\"}",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
       "frequency": "annual",
-      "from_date": "1959-12-31",
-      "id": 2601615,
-      "name": "Population - Male / Age 20 to 24 / Urban Areas - Belarus",
+      "from_date": "1971-12-31",
+      "id": 9668226,
+      "name": "051-0001: Estimates of population, by age group and sex for July 1, Canada, provinces and territories",
       "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2010-12-31",
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2013-05-18T21:32:45Z",
-      "urlize_name": "Population-Male-Age-20-to-24-Urban-Areas-Belarus"
+      "updated_at": "2014-01-18T01:16:57Z",
+      "urlize_name": "051-0001-Estimates-of-population-by-age-group-and-sex-for-July-1-Canada-provinces-and-territories"
     },
     {
-      "code": "COMM_83_CASTORSOFBASEMETAL_EXPORT_ALB",
+      "code": "COMM_9_CASHEWNUTSFRESHORDRIED_IMPORT_HND",
       "column_names": [
         "Year",
         "Trade (USD)",
@@ -194,39 +74,119 @@
       "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "1996-12-31",
-      "id": 4400201,
-      "name": "Commodity Exports - Miscellaneous Articles Of Base Metal / Castors of base metal - Albania",
+      "from_date": "1993-12-31",
+      "id": 2879922,
+      "name": "Commodity Imports - Edible Fruit, Nuts, Peel Of Citrus Fruit, Melons / Cashew nuts, fresh or dried - Honduras",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
       "to_date": "2009-12-31",
       "type": null,
-      "updated_at": "2014-01-11T15:35:41Z",
-      "urlize_name": "Commodity-Exports-Miscellaneous-Articles-Of-Base-Metal-Castors-of-base-metal-Albania"
+      "updated_at": "2013-09-10T00:17:45Z",
+      "urlize_name": "Commodity-Imports-Edible-Fruit-Nuts-Peel-Of-Citrus-Fruit-Melons-Cashew-nuts-fresh-or-dried-Honduras"
     },
     {
-      "code": "T25A072A01L0C10000_FROMEMPLOYEES",
+      "code": "SEDS_P1ICV_ND_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": " thousands of euros\n",
-      "display_url": "http://www.ine.es/pcaxisdl//t25/a072/a01/l1/c10000.px",
+      "description": "Units=Million Dollars. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.P1ICV.ND.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.P1ICV.ND.A&out=xml",
       "frequency": "annual",
-      "from_date": "1990-12-31",
-      "id": 7967794,
-      "name": "Admissions by nature and period - - From employees",
+      "from_date": "1970-12-31",
+      "id": 4781918,
+      "name": "Asphalt And Road Oil, Kerosene, Lubricants, And \"other Petroleum Products\" Expenditures In The Industrial Sector, North Dakota",
       "private": false,
-      "source_code": "NSIS",
-      "source_name": "National Statistics Institute of Spain",
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-01-12T23:05:50Z",
-      "urlize_name": "Admissions-by-nature-and-period-From-employees"
+      "updated_at": "2014-01-09T23:50:54Z",
+      "urlize_name": "Asphalt-And-Road-Oil-Kerosene-Lubricants-And-other-Petroleum-Products-Expenditures-In-The-Industrial-Sector-North-Dakota"
     },
     {
-      "code": "COMM_58_CARPETSOFMANMADEYARNWOVENPILEMADEUPNES_IMPORT_SWE",
+      "code": "STATMON_Q3A_M1_Q_5661",
+      "column_names": [
+        "Quarter",
+        "Million CHF"
+      ],
+      "description": "Balance of payments, Q3_a Financial account - main categories and supplementary classifications, Financial account (quarterly). More detailed information at http://www.snb.ch/ext/stats/statmon/pdf/deen/Q3_a_Kapitalverkehr.pdf",
+      "display_url": "http://www.snb.ch/ext/stats/statmon/xls/en/statmon_Q3a_M1_Q.xls",
+      "frequency": "quarterly",
+      "from_date": "1999-01-31",
+      "id": 4527183,
+      "name": "Balance of payments, Q3_a Financial account - main categories and supplementary classifications: Other claims",
+      "private": false,
+      "source_code": "SNB",
+      "source_name": "Swiss National Bank",
+      "to_date": "2013-04-30",
+      "type": null,
+      "updated_at": "2014-01-09T07:38:42Z",
+      "urlize_name": "Balance-of-payments-Q3_a-Financial-account-main-categories-and-supplementary-classifications-Other-claims"
+    },
+    {
+      "code": "EDAT_AES_L25_563",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "There are three categories of LFS results:\r\n1. Main indicators on \"educational attainment\" and \"transition from education to work, early leavers from education and training\"\r\nThe LFS education-related indicators on early leavers from education and training, education attainment level and young people neither in employment nor in education and training (NEET) are a collection of annual series based on the quarterly results of the EU Labour Force Survey (EU-LFS). They are published in the section 'main indicators'. The data source, EU-LFS is, where necessary, adjusted and enriched in various ways, in accordance with the specificities of an indicator, including the following:\r\n- correction of the main breaks in the LFS series,\r\n- estimation of the missing values, (i.e. in case of missing quarters, annual results and EU aggregates are estimated using adjusted quarterly national labour force survey data or interpolations of the EU Labour Force Survey data with reference to the available quarter(s))\r\nEarly leavers from education and training and tertiary educational attainment are also Europe 2020 Indicators. Early school leavers are part of the Sustainable Development Indicators.\r\n2. Detailed tables\r\nBeside these main results, LFS detailed tables are also available. The results might differ from the 'main indicators' series are the data are not adjusted as explained above.\r\n3. Ad-hoc modules\r\nIn addition to these series, an ad-hoc module to the LFS was conducted in 2000 on the entry of young people into the labour market. Similar data have been collected in a 2009 ad-hoc module to the LFS (publication foreseen in the 4th quarter of 2011). \nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/edat_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fedat_aes_l25.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 665305,
+      "name": "Number of foreign languages known selfreported by occupation  : 3 languages or more : Total : Denmark",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2013-05-16T05:16:10Z",
+      "urlize_name": "Number-of-foreign-languages-known-selfreported-by-occupation-3-languages-or-more-Total-Denmark"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_BTU_55566_WND_ALL_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.55566-WND-ALL.M",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.55566-WND-ALL.M&out=xml",
+      "frequency": "monthly",
+      "from_date": "2001-01-31",
+      "id": 5025429,
+      "name": "Fuel Consumption Mmbtus : Autumn Hills Llc : Wind : All Primemovers : Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T23:19:11Z",
+      "urlize_name": "Fuel-Consumption-Mmbtus-Autumn-Hills-Llc-Wind-All-Primemovers-Monthly"
+    },
+    {
+      "code": "SEDS_NGICV_AR_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Million Dollars. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.NGICV.AR.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.NGICV.AR.A&out=xml",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 4781921,
+      "name": "Natural Gas Expenditures In The Industrial Sector (including Supplemental Gaseous Fuels), Arkansas",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T01:03:47Z",
+      "urlize_name": "Natural-Gas-Expenditures-In-The-Industrial-Sector-including-Supplemental-Gaseous-Fuels-Arkansas"
+    },
+    {
+      "code": "COMM_17_SWINEMEATOROFFALNESPREPAREDPRESERVEDNOTLIVE_EXPORT_PNG",
       "column_names": [
         "Year",
         "Trade (USD)",
@@ -236,99 +196,81 @@
       "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "1992-12-31",
-      "id": 3803720,
-      "name": "Commodity Imports - Carpets And Other Textile Floor Coverings / Carpets of manmade yarn, woven pile, made up,nes - Sweden",
+      "from_date": "1998-12-31",
+      "id": 2967640,
+      "name": "Commodity Exports - Meat, Fish And Seafood Food Preparations Nes / Swine meat or offal nes, prepared,preserved, not live - Papua New Guinea",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
-      "to_date": "2012-12-31",
+      "to_date": "2004-12-31",
       "type": null,
-      "updated_at": "2014-01-11T15:34:35Z",
-      "urlize_name": "Commodity-Imports-Carpets-And-Other-Textile-Floor-Coverings-Carpets-of-manmade-yarn-woven-pile-made-up-nes-Sweden"
+      "updated_at": "2014-01-12T19:19:16Z",
+      "urlize_name": "Commodity-Exports-Meat-Fish-And-Seafood-Food-Preparations-Nes-Swine-meat-or-offal-nes-prepared-preserved-not-live-Papua-New-Guinea"
     },
     {
-      "code": "NCU4503130300099",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Occupation: White collar occupations, excluding sales; Skills: Not able to be leveled (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU4503130300099",
-      "frequency": "annual",
-      "from_date": "2005-05-31",
-      "id": 9215524,
-      "name": "Compensation for White collar occupations, excluding sales in Not able to be leveled",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2005-05-31",
-      "type": null,
-      "updated_at": "2013-11-18T04:45:49Z",
-      "urlize_name": "Compensation-for-White-collar-occupations-excluding-sales-in-Not-able-to-be-leveled"
-    },
-    {
-      "code": "ELEC_CONS_TOT_BTU_PEL_MTN_94_M",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Million Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.CONS_TOT_BTU.PEL-MTN-94.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.CONS_TOT_BTU.PEL-MTN-94.M&out=xml",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 5196396,
-      "name": "Total Consumption (btus) : Petroleum Liquids : Mountain : Independent Power Producers : Monthly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2014-01-09T23:47:38Z",
-      "urlize_name": "Total-Consumption-btus-Petroleum-Liquids-Mountain-Independent-Power-Producers-Monthly"
-    },
-    {
-      "code": "ELEC_CONS_TOT_BTU_PEL_WI_94_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Million Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.CONS_TOT_BTU.PEL-WI-94.Q",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.CONS_TOT_BTU.PEL-WI-94.Q&out=xml",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 5196394,
-      "name": "Total Consumption (btus) : Petroleum Liquids : Wisconsin : Independent Power Producers : Quarterly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-01-31",
-      "type": null,
-      "updated_at": "2014-01-10T01:57:23Z",
-      "urlize_name": "Total-Consumption-btus-Petroleum-Liquids-Wisconsin-Independent-Power-Producers-Quarterly"
-    },
-    {
-      "code": "MAN_CIGARETTESCONTAININGTOBACCO_MILLIONUNITS_SYC",
+      "code": "COMM_65_FOOTWEARSOLERUBBERPLASTICUPPERTEXTILENOTSPORT_IMPORT_MTQ",
       "column_names": [
         "Year",
-        "Value"
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
       ],
-      "description": "The Global Indicator Database is comprised of a wide range of important statistics and metadata drawn from the United Nations, UN agencies and other international sources. It covers key economic, social, financial and development topics, broadly based on the structure of the UN Statistical Yearbook (SYB). Series are grouped under the headings agriculture, forestry and fishing, balance of payments, culture and communication, development assistance, education, environment, financial statistics, gender, international finance, international merchandise trade, international tourism and transport, labour force, manufacturing, national accounts and industrial production, nutrition, population, wages and prices.",
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "1995-12-31",
-      "id": 3217987,
-      "name": "Manufacturing - Cigarettes containing tobacco / MILLION UNITS - Seychelles",
+      "from_date": "1994-12-31",
+      "id": 4022376,
+      "name": "Commodity Imports - Footwear, Gaiters And The Like, Parts Thereof / Footwear,sole rubber/plastic,upper textile, not sport - Martinique",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
-      "to_date": "2008-12-31",
+      "to_date": "1995-12-31",
       "type": null,
-      "updated_at": "2014-01-13T03:23:54Z",
-      "urlize_name": "Manufacturing-Cigarettes-containing-tobacco-MILLION-UNITS-Seychelles"
+      "updated_at": "2014-01-11T02:06:47Z",
+      "urlize_name": "Commodity-Imports-Footwear-Gaiters-And-The-Like-Parts-Thereof-Footwear-sole-rubber-plastic-upper-textile-not-sport-Martinique"
     },
     {
-      "code": "COMM_55_WOVENFABRIC85NYLONPOLYAMIDEDYEDNES_IMPORT_VUT",
+      "code": "V468955",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "{\"Geography\"=>\"Manitoba\", \"Sex\"=>\"Males\", \"Age group\"=>\"23 years\"}",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+      "frequency": "annual",
+      "from_date": "1971-12-31",
+      "id": 9668227,
+      "name": "051-0001: Estimates of population, by age group and sex for July 1, Canada, provinces and territories",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-01-18T01:16:58Z",
+      "urlize_name": "051-0001-Estimates-of-population-by-age-group-and-sex-for-July-1-Canada-provinces-and-territories"
+    },
+    {
+      "code": "SEDS_NGICV_GA_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Million Dollars. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.NGICV.GA.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.NGICV.GA.A&out=xml",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 4781922,
+      "name": "Natural Gas Expenditures In The Industrial Sector (including Supplemental Gaseous Fuels), Georgia",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T23:19:01Z",
+      "urlize_name": "Natural-Gas-Expenditures-In-The-Industrial-Sector-including-Supplemental-Gaseous-Fuels-Georgia"
+    },
+    {
+      "code": "COMM_96_FOUNTAINPENSSTYLOGRAPHPENSANDOTHERPENSNES_EXPORT_MNE",
       "column_names": [
         "Year",
         "Trade (USD)",
@@ -339,75 +281,138 @@
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
       "from_date": "2006-12-31",
-      "id": 3779046,
-      "name": "Commodity Imports - Manmade Filaments / Woven fabric >85% nylon, polyamide, dyed, nes - Vanuatu",
+      "id": 5922815,
+      "name": "Commodity Exports - Miscellaneous Manufactured Articles / Fountain pens, stylograph pens and other pens, nes - Montenegro",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-01-11T15:34:35Z",
-      "urlize_name": "Commodity-Imports-Manmade-Filaments-Woven-fabric-85-nylon-polyamide-dyed-nes-Vanuatu"
+      "updated_at": "2014-01-12T22:26:21Z",
+      "urlize_name": "Commodity-Exports-Miscellaneous-Manufactured-Articles-Fountain-pens-stylograph-pens-and-other-pens-nes-Montenegro"
     },
     {
-      "code": "POP_22_AZE_MAL_TOT_0TO4",
+      "code": "T10A109A01L0IC10003_MURCIA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": " kilometres\n",
+      "display_url": "http://www.ine.es/pcaxisdl//t10/a109/a01/l1/ic10003.px",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 7967036,
+      "name": "Road network on large capacity roads by Autonomous Community, type of road and period - Murcia",
+      "private": false,
+      "source_code": "NSIS",
+      "source_name": "National Statistics Institute of Spain",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T22:52:15Z",
+      "urlize_name": "Road-network-on-large-capacity-roads-by-Autonomous-Community-type-of-road-and-period-Murcia"
+    },
+    {
+      "code": "FAO_256LUXEMBOURG720GINGER",
       "column_names": [
         "Year",
-        "Number"
+        "Import Quantity (tonnes)",
+        "Import Value (1000 US$)",
+        "Export Quantity (tonnes)",
+        "Export Value (1000 US$)"
       ],
-      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_Europe_1.zip",
       "frequency": "annual",
-      "from_date": "1959-12-31",
-      "id": 2598428,
-      "name": "Population - Male / Age 0 to 4 / Total Areas - Azerbaijan",
+      "from_date": "2001-12-31",
+      "id": 7728511,
+      "name": "Trade Crops Livestock: Ginger - Luxembourg",
       "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2010-12-31",
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-01-12T19:17:32Z",
-      "urlize_name": "Population-Male-Age-0-to-4-Total-Areas-Azerbaijan"
+      "updated_at": "2014-01-11T15:50:08Z",
+      "urlize_name": "Trade-Crops-Livestock-Ginger-Luxembourg"
     },
     {
-      "code": "NCU2406091720800",
+      "code": "SEDS_NGICV_ND_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Occupation: Health technologists and technicians, n.e.c.; Skills: Overall occupation average (no work level) (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2406091720800",
+      "description": "Units=Million Dollars. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.NGICV.ND.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.NGICV.ND.A&out=xml",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 4781924,
+      "name": "Natural Gas Expenditures In The Industrial Sector (including Supplemental Gaseous Fuels), North Dakota",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T00:07:17Z",
+      "urlize_name": "Natural-Gas-Expenditures-In-The-Industrial-Sector-including-Supplemental-Gaseous-Fuels-North-Dakota"
+    },
+    {
+      "code": "BANKENCH_VEHKREIS_M233390_27812",
+      "column_names": [
+        "Year",
+        "Qty (000s)"
+      ],
+      "description": "Information on reporting institutions, 5.12 Other banks - Banks that specialise in stock exchange, securities and asset management business, Bank Frey & Co. AG (annually). More detailed information at http://www.snb.ch/ext/stats/bankench/pdf/deen/BV_5_12_BoersenB.pdf",
+      "display_url": "http://www.snb.ch/ext/stats/bankench/xls/en/bankench_vEhKreis_M233390.xls",
       "frequency": "annual",
       "from_date": "2002-12-31",
-      "id": 9112401,
-      "name": "Compensation for Health technologists and technicians, n.e.c. in Overall occupation average (no work level)",
+      "id": 4561514,
+      "name": "Information on reporting institutions, 5.12 Other banks - Banks that specialise in stock exchange, securities and asset management business: Capital",
       "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2004-12-31",
+      "source_code": "SNB",
+      "source_name": "Swiss National Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2013-11-16T13:53:31Z",
-      "urlize_name": "Compensation-for-Health-technologists-and-technicians-n-e-c-in-Overall-occupation-average-no-work-level"
+      "updated_at": "2014-01-09T19:46:01Z",
+      "urlize_name": "Information-on-reporting-institutions-5-12-Other-banks-Banks-that-specialise-in-stock-exchange-securities-and-asset-management-business-Capital"
     },
     {
-      "code": "ELEC_PLANT_CONS_TOT_BTU_10194_WO_ALL_Q",
+      "code": "ELEC_PLANT_CONS_TOT_BTU_57335_SUN_ALL_Q",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.10194-WO-ALL.Q",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.10194-WO-ALL.Q&out=xml",
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.57335-SUN-ALL.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.57335-SUN-ALL.Q&out=xml",
       "frequency": "monthly",
       "from_date": "2010-01-31",
-      "id": 5013586,
-      "name": "Fuel Consumption Mmbtus : Hawaii Cogen : Waste/other Oil : All Primemovers : Quarterly",
+      "id": 5026423,
+      "name": "Fuel Consumption Mmbtus : De Solar 657 Brigham Rd : Solar : All Primemovers : Quarterly",
       "private": false,
       "source_code": "EIA",
       "source_name": "U.S. Energy Information Administration",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T00:17:48Z",
-      "urlize_name": "Fuel-Consumption-Mmbtus-Hawaii-Cogen-Waste-other-Oil-All-Primemovers-Quarterly"
+      "updated_at": "2014-01-10T00:07:48Z",
+      "urlize_name": "Fuel-Consumption-Mmbtus-De-Solar-657-Brigham-Rd-Solar-All-Primemovers-Quarterly"
+    },
+    {
+      "code": "SEDS_NGICV_UT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Million Dollars. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.NGICV.UT.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.NGICV.UT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 4781925,
+      "name": "Natural Gas Expenditures In The Industrial Sector (including Supplemental Gaseous Fuels), Utah",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T00:41:37Z",
+      "urlize_name": "Natural-Gas-Expenditures-In-The-Industrial-Sector-including-Supplemental-Gaseous-Fuels-Utah"
     }
   ],
   "per_page": 20,
@@ -419,6 +424,30 @@
       "host": "www.api.eia.gov",
       "id": 661,
       "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
+    },
+    {
+      "code": "CANSIM",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "www20.statcan.gc.ca",
+      "id": 1199,
+      "name": "Statistics Canada"
+    },
+    {
+      "code": "SNB",
+      "datasets_count": 39406,
+      "description": "No description for this source yet",
+      "host": "www.snb.ch",
+      "id": 615,
+      "name": "Swiss National Bank"
     },
     {
       "code": "UN",
@@ -443,15 +472,7 @@
       "host": "www.ine.es",
       "id": 964,
       "name": "National Statistics Institute of Spain"
-    },
-    {
-      "code": "BLS",
-      "datasets_count": 5888,
-      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
-      "host": "www.bls.gov",
-      "id": 162,
-      "name": "Bureau of Labor Statistics"
     }
   ],
-  "total_count": 10036987
+  "total_count": 10147268
 }

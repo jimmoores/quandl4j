@@ -1,415 +1,415 @@
 {
-  "current_page": 105884,
+  "current_page": 57608,
   "docs": [
     {
-      "code": "IND_WP11630_4_1",
+      "code": "WHX_REINV_RATE",
       "column_names": [
         "Date",
-        "Value"
+        "Reinvestment Rate"
       ],
-      "description": "Adults whose usual mode of access to put cash (paper or coins) into their account(s) is from some other person who is associated with one's bank or financial institution (% age 15+, with a formal account)\nBank agent is main mode of withdrawal from account (% with an account,  age 15+)",
-      "display_url": "http://api.worldbank.org/countries/IND/indicators/WP11630.4.1?per_page=1000",
-      "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 6533385,
-      "name": "India: Bank agent is main mode of withdrawal from account (% with an account,  age 15+)",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-05-17T12:48:47Z",
-      "urlize_name": "India-Bank-agent-is-main-mode-of-withdrawal-from-account-with-an-account-age-15"
-    },
-    {
-      "code": "MAR_UIS_LP_AG15T99_M",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Adult illiterate population. Male is the total number of males over age 15 who cannot both read and write with understanding a short simple statement on their everyday life.\nAdult illiterate population. Male",
-      "display_url": "http://api.worldbank.org/countries/MAR/indicators/UIS.LP.AG15T99.M?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1982-12-31",
-      "id": 2180476,
-      "name": "Morocco: Adult illiterate population. Male",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-05-17T12:48:47Z",
-      "urlize_name": "Morocco-Adult-illiterate-population-Male"
-    },
-    {
-      "code": "NGA_GCI_PILLAR5TO10_XQ",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The efficiency enhancers subindex includes those pillars critical for countries in the efficiency-driven stage (pillar 5 to 10).  \nEfficiency enhancers (weighted index 5th to 10th pillar)",
-      "display_url": "http://api.worldbank.org/countries/NGA/indicators/GCI.PILLAR5TO10.XQ?per_page=1000",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 533314,
-      "name": "Nigeria: Efficiency enhancers (weighted index 5th to 10th pillar)",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-05-17T12:48:47Z",
-      "urlize_name": "Nigeria-Efficiency-enhancers-weighted-index-5th-to-10th-pillar"
-    },
-    {
-      "code": "PRK_NY_ADJ_DCO2_CD",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Carbon dioxide damage is estimated to be $20 per ton of carbon (the unit damage in 1995 U.S. dollars) times the number of tons of carbon emitted.\nAdjusted savings: carbon dioxide damage (current US$)",
-      "display_url": "http://api.worldbank.org/countries/PRK/indicators/NY.ADJ.DCO2.CD?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1978-12-31",
-      "id": 2119752,
-      "name": "Korea, Dem. Rep.: Adjusted savings: carbon dioxide damage (current US$)",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-05-17T12:48:47Z",
-      "urlize_name": "Korea-Dem-Rep-Adjusted-savings-carbon-dioxide-damage-current-US"
-    },
-    {
-      "code": "AFG_DC_DAC_NORL_CD",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.\nNet bilateral aid flows from DAC donors, Norway (current US$)",
-      "display_url": "http://api.worldbank.org/countries/AFG/indicators/DC.DAC.NORL.CD?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1966-12-31",
-      "id": 177315,
-      "name": "Afghanistan: Net bilateral aid flows from DAC donors, Norway (current US$)",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-05-17T12:48:47Z",
-      "urlize_name": "Afghanistan-Net-bilateral-aid-flows-from-DAC-donors-Norway-current-US"
-    },
-    {
-      "code": "CUB_UIS_REPP_23_GPV_G2_M",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Percentage of repeaters in secondary. Grade 2. Male is the total number of male pupils in the specified grade who are enrolled in the same grade as in a previous year, expressed as a percentage of the total male enrollment in the specified grade. It is calculated by dividing the number of male pupils repeating a given grade in a given school year by the male number of pupils enrolled in the same grade in the same school year and multiplying by 100. \nPercentage of repeaters in secondary. Grade 2. Male",
-      "display_url": "http://api.worldbank.org/countries/CUB/indicators/UIS.REPP.23.GPV.G2.M?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1971-12-31",
-      "id": 2224454,
-      "name": "Cuba: Percentage of repeaters in secondary. Grade 2. Male",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-05-17T12:48:47Z",
-      "urlize_name": "Cuba-Percentage-of-repeaters-in-secondary-Grade-2-Male"
-    },
-    {
-      "code": "CHL_MYS_PROP_4549_PRI_FE",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Proportion, 45-49, female, primary is the proportion of the female population age 45-49 with primary education.\nproportion, 45-49, female, primary",
-      "display_url": "http://api.worldbank.org/countries/CHL/indicators/MYS.PROP.4549.PRI.FE?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 257171,
-      "name": "Chile: proportion, 45-49, female, primary",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2050-12-31",
-      "type": null,
-      "updated_at": "2014-05-17T12:48:47Z",
-      "urlize_name": "Chile-proportion-45-49-female-primary"
-    },
-    {
-      "code": "GHA_BAR_PRM_ICMP_3034_FE_ZS",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Percentage of population, 30-34, female, incomplete primary is the percentage of the female population age 30-34 who did not complete primary education.\npercentage of population (15+), 30-34, female, incomplete primary",
-      "display_url": "http://api.worldbank.org/countries/GHA/indicators/BAR.PRM.ICMP.3034.FE.ZS?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 338211,
-      "name": "Ghana: percentage of population (15+), 30-34, female, incomplete primary",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-05-17T12:48:47Z",
-      "urlize_name": "Ghana-percentage-of-population-15-30-34-female-incomplete-primary"
-    },
-    {
-      "code": "YEM_SE_PRM_DROP_FE_ZS",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Drop-out rate. Primary. Female is calculated by subtracting the female survival rate from 100.\nDrop-out rate (%), primary, female",
-      "display_url": "http://api.worldbank.org/countries/YEM/indicators/SE.PRM.DROP.FE.ZS?per_page=1000",
-      "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 2279668,
-      "name": "Yemen, Rep.: Drop-out rate (%), primary, female",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-05-17T12:48:47Z",
-      "urlize_name": "Yemen-Rep-Drop-out-rate-primary-female"
-    },
-    {
-      "code": "DZA_AG_PRD_SGM_MT",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Production data on sorghum relate to crop harvested for dry grain only. Crop harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded.\nSorghum production (metric tons)",
-      "display_url": "http://api.worldbank.org/countries/DZA/indicators/AG.PRD.SGM.MT?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1961-12-31",
-      "id": 295857,
-      "name": "Algeria: Sorghum production (metric tons)",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-05-17T12:48:47Z",
-      "urlize_name": "Algeria-Sorghum-production-metric-tons"
-    },
-    {
-      "code": "BLR_SE_PRE_NENR_FE",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Net enrolment rate. Pre-primary. Female is the ratio of female children of the official pre-primary school age who are enrolled in pre-primary school to the female population of the official pre-primary school age.\nNet enrolment rate.  Pre-primary.  Female",
-      "display_url": "http://api.worldbank.org/countries/BLR/indicators/SE.PRE.NENR.FE?per_page=1000",
+      "description": "Reinvestment Rate = (Net Capital Expenditures + Change in WC) / EBIT(1-t). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
       "from_date": "1999-12-31",
-      "id": 2098810,
-      "name": "Belarus: Net enrolment rate.  Pre-primary.  Female",
+      "id": 5569580,
+      "name": "WHX Corp. ( WHX ) - Reinvestment Rate",
       "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T01:47:44Z",
+      "urlize_name": "WHX-Corp-WHX-Reinvestment-Rate"
+    },
+    {
+      "code": "JAVA_INTANG_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Intangible Assets to Total Assets"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2007-06-30",
+      "id": 4606660,
+      "name": "Sun Microsystems ( JAVA ) - Ratio of Intangible Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T01:47:44Z",
+      "urlize_name": "Sun-Microsystems-JAVA-Ratio-of-Intangible-Assets-to-Total-Assets"
+    },
+    {
+      "code": "CNIG_EV_SALESTR",
+      "column_names": [
+        "Date",
+        "EV to Trailing Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-09-30",
+      "id": 4223414,
+      "name": "Corning Natural Gas Corp ( CNIG ) - EV to Trailing Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-09-30",
+      "type": null,
+      "updated_at": "2014-03-22T01:47:44Z",
+      "urlize_name": "Corning-Natural-Gas-Corp-CNIG-EV-to-Trailing-Sales-Ratio"
+    },
+    {
+      "code": "EOG_CASH",
+      "column_names": [
+        "Date",
+        "Cash"
+      ],
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 6020099,
+      "name": "Eog Resources ( EOG ) - Cash",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-05-17T12:48:47Z",
-      "urlize_name": "Belarus-Net-enrolment-rate-Pre-primary-Female"
+      "updated_at": "2014-03-22T01:47:24Z",
+      "urlize_name": "Eog-Resources-EOG-Cash"
     },
     {
-      "code": "ARE_UIS_LR_AG65_GPI",
+      "code": "DAR_REV_GRO",
       "column_names": [
         "Date",
-        "Value"
+        "Previous Year Growth in Revenues"
       ],
-      "description": "Gender parity index for elderly literacy rate is the ratio of female elderly literacy rate to the male elderly literacy rate. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between females and males. In general, a value less than 1 indicates disparity in favor of males and a value greater than 1 indicates disparity in favor of females.\nGender parity index for elderly literacy rate",
-      "display_url": "http://api.worldbank.org/countries/ARE/indicators/UIS.LR.AG65.GPI?per_page=1000",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "1975-12-31",
-      "id": 2134530,
-      "name": "United Arab Emirates: Gender parity index for elderly literacy rate",
+      "from_date": "1999-12-28",
+      "id": 3922113,
+      "name": "Darling International Inc. ( DAR ) - Previous Year Growth in Revenues",
       "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2005-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-28",
       "type": null,
-      "updated_at": "2014-05-17T12:48:48Z",
-      "urlize_name": "United-Arab-Emirates-Gender-parity-index-for-elderly-literacy-rate"
+      "updated_at": "2014-03-22T01:47:45Z",
+      "urlize_name": "Darling-International-Inc-DAR-Previous-Year-Growth-in-Revenues"
     },
     {
-      "code": "PAK_DT_AMT_DIMF_CD",
+      "code": "CACS_TRAD_VOL",
       "column_names": [
         "Date",
-        "Value"
+        "Trading Volume"
       ],
-      "description": "IMF repurchases are total repayments of outstanding drawings from the General Resources Account during the year specified, excluding repayments due in the reserve tranche. Data are in current U.S. dollars.\nIMF repurchases (AMT, current US$)",
-      "display_url": "http://api.worldbank.org/countries/PAK/indicators/DT.AMT.DIMF.CD?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 2229676,
-      "name": "Pakistan: IMF repurchases (AMT, current US$)",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-05-17T12:48:48Z",
-      "urlize_name": "Pakistan-IMF-repurchases-AMT-current-US"
-    },
-    {
-      "code": "ATG_SP_POP_AG15_MA_UN",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Population, age 15, male refers to the male population at the specified age.\nPopulation, aged 15, male",
-      "display_url": "http://api.worldbank.org/countries/ATG/indicators/SP.POP.AG15.MA.UN?per_page=1000",
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
       "from_date": "2001-12-31",
-      "id": 196421,
-      "name": "Antigua and Barbuda: Population, aged 15, male",
+      "id": 3944672,
+      "name": "Carrier Access Corp ( CACS ) - Trading Volume",
       "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2006-12-31",
       "type": null,
-      "updated_at": "2014-05-17T12:48:48Z",
-      "urlize_name": "Antigua-and-Barbuda-Population-aged-15-male"
+      "updated_at": "2014-03-22T01:47:25Z",
+      "urlize_name": "Carrier-Access-Corp-CACS-Trading-Volume"
     },
     {
-      "code": "LKA_UIS_R_23_GPV_G7_F",
+      "code": "AEA_ROE",
       "column_names": [
         "Date",
-        "Value"
+        "Return on Equity"
       ],
-      "description": "Repeaters in secondary. Grade 7. Female is the number of female pupils in the specified grade who are enrolled in the same grade for a second (or further) year. \nRepeaters in secondary. Grade 7. Female",
-      "display_url": "http://api.worldbank.org/countries/LKA/indicators/UIS.R.23.GPV.G7.F?per_page=1000",
+      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 6554731,
-      "name": "Sri Lanka: Repeaters in secondary. Grade 7. Female",
+      "from_date": "2005-12-31",
+      "id": 3894980,
+      "name": "Advance Amer Cash Advance Ctrs ( AEA ) - Return on Equity",
       "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "1991-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-12-31",
       "type": null,
-      "updated_at": "2014-05-17T12:48:48Z",
-      "urlize_name": "Sri-Lanka-Repeaters-in-secondary-Grade-7-Female"
+      "updated_at": "2014-03-22T01:47:46Z",
+      "urlize_name": "Advance-Amer-Cash-Advance-Ctrs-AEA-Return-on-Equity"
     },
     {
-      "code": "TJK_FM_LBL_BMNY_GD_ZS",
+      "code": "ISRL_INTANG_TOT",
       "column_names": [
         "Date",
-        "Value"
+        "Ratio of Intangible Assets to Total Assets"
       ],
-      "description": "Broad money (IFS line 35L..ZK) is the sum of currency outside banks; demand deposits other than those of the central government; the time, savings, and foreign currency deposits of resident sectors other than the central government; bank and traveler\u2019s checks; and other securities such as certificates of deposit and commercial paper.\nBroad money (% of GDP)",
-      "display_url": "http://api.worldbank.org/countries/TJK/indicators/FM.LBL.BMNY.GD.ZS?per_page=1000",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "1998-12-31",
-      "id": 2183361,
-      "name": "Tajikistan: Broad money (% of GDP)",
+      "from_date": "2002-12-31",
+      "id": 6147159,
+      "name": "Isramco ( ISRL ) - Ratio of Intangible Assets to Total Assets",
       "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T01:47:46Z",
+      "urlize_name": "Isramco-ISRL-Ratio-of-Intangible-Assets-to-Total-Assets"
+    },
+    {
+      "code": "HFWA_CAPEX",
+      "column_names": [
+        "Date",
+        "Capital Expenditures"
+      ],
+      "description": "This is the cumulated capital spending, as reported in the statement of cash flows, for the sector. It generally does not include acquisitions. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4533104,
+      "name": "Heritage Financial Corp. ( HFWA ) - Capital Expenditures",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T01:47:46Z",
+      "urlize_name": "Heritage-Financial-Corp-HFWA-Capital-Expenditures"
+    },
+    {
+      "code": "PAA_OP_MARG",
+      "column_names": [
+        "Date",
+        "Pre-Tax Operating Margin"
+      ],
+      "description": "Estimated by dividing the pre-tax operating income by the total revenues. This is a pre-tax measure of operating profitability: Pre-tax Operating Margin = EBIT / Sales. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5289633,
+      "name": "Plains All American Pipeline L ( PAA ) - Pre-Tax Operating Margin",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-05-17T12:48:48Z",
-      "urlize_name": "Tajikistan-Broad-money-of-GDP"
+      "updated_at": "2014-03-22T01:47:26Z",
+      "urlize_name": "Plains-All-American-Pipeline-L-PAA-Pre-Tax-Operating-Margin"
     },
     {
-      "code": "DMA_DT_AMT_PROP_CD",
+      "code": "DAR_INSIDER",
       "column_names": [
         "Date",
-        "Value"
+        "Insider Holdings"
       ],
-      "description": "Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Principal repayments are actual amounts of principal (amortization) paid by the borrower in foreign currency, goods, or services in the year specified. Data are in current U.S. dollars.\nPPG, other private creditors (AMT, current US$)",
-      "display_url": "http://api.worldbank.org/countries/DMA/indicators/DT.AMT.PROP.CD?per_page=1000",
+      "description": "Number of shares held by insiders (as defined by the SEC to include corporate officers, directors and those holding more than 5% of the outstanding stock) as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "1981-12-31",
-      "id": 290787,
-      "name": "Dominica: PPG, other private creditors (AMT, current US$)",
+      "from_date": "2001-12-28",
+      "id": 3922115,
+      "name": "Darling International Inc. ( DAR ) - Insider Holdings",
       "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-28",
       "type": null,
-      "updated_at": "2014-05-17T12:48:48Z",
-      "urlize_name": "Dominica-PPG-other-private-creditors-AMT-current-US"
+      "updated_at": "2014-03-22T01:47:46Z",
+      "urlize_name": "Darling-International-Inc-DAR-Insider-Holdings"
     },
     {
-      "code": "VEN_SP_POP_1218_TO_UN",
+      "code": "JAVA_MKT_DE",
       "column_names": [
         "Date",
-        "Value"
+        "Market Debt to Equity Ratio"
       ],
-      "description": "Population, age 12-18, total is the total population age 12-18.\nPopulation, aged 12-18, total",
-      "display_url": "http://api.worldbank.org/countries/VEN/indicators/SP.POP.1218.TO.UN?per_page=1000",
+      "description": "Debt is defined as including both short term and long term debt (but not accounts payable or non-interest bearing liabilities), and the book value of debt is used as a proxy for market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "1990-12-31",
-      "id": 2070044,
-      "name": "Venezuela, RB: Population, aged 12-18, total",
+      "from_date": "2007-06-30",
+      "id": 4606674,
+      "name": "Sun Microsystems ( JAVA ) - Market Debt to Equity Ratio",
       "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2015-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-06-30",
       "type": null,
-      "updated_at": "2014-05-17T12:48:48Z",
-      "urlize_name": "Venezuela-RB-Population-aged-12-18-total"
+      "updated_at": "2014-03-22T01:47:26Z",
+      "urlize_name": "Sun-Microsystems-JAVA-Market-Debt-to-Equity-Ratio"
     },
     {
-      "code": "GMB_UIS_DR_1_G4_F",
+      "code": "PAA_REV_LAST",
       "column_names": [
         "Date",
-        "Value"
+        "Revenues"
       ],
-      "description": "Drop-out rate. Primary. Grade 4. Female is the proportion of female pupils from a cohort enrolled in primary education in a given school year who are no longer enrolled in the following school year.\nDrop-out rate. Primary. Grade 4. Female",
-      "display_url": "http://api.worldbank.org/countries/GMB/indicators/UIS.DR.1.G4.F?per_page=1000",
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "1976-12-31",
-      "id": 6522937,
-      "name": "Gambia, The: Drop-out rate. Primary. Grade 4. Female",
+      "from_date": "2002-12-31",
+      "id": 5289641,
+      "name": "Plains All American Pipeline L ( PAA ) - Revenues",
       "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T01:47:27Z",
+      "urlize_name": "Plains-All-American-Pipeline-L-PAA-Revenues"
+    },
+    {
+      "code": "PAA_REV_GRO",
+      "column_names": [
+        "Date",
+        "Previous Year Growth in Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5289595,
+      "name": "Plains All American Pipeline L ( PAA ) - Previous Year Growth in Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-05-17T12:48:48Z",
-      "urlize_name": "Gambia-The-Drop-out-rate-Primary-Grade-4-Female"
+      "updated_at": "2014-03-22T01:47:28Z",
+      "urlize_name": "Plains-All-American-Pipeline-L-PAA-Previous-Year-Growth-in-Revenues"
     },
     {
-      "code": "IRN_SP_DYN_CONU_ZS",
+      "code": "EOG_PE_CURR",
       "column_names": [
         "Date",
-        "Value"
+        "Current PE Ratio"
       ],
-      "description": "Household surveys, including Demographic and Health Surveys by Macro International and Multiple Indicator Cluster Surveys by UNICEF.\nContraceptive prevalence (% of women ages 15-49)",
-      "display_url": "http://api.worldbank.org/countries/IRN/indicators/SP.DYN.CONU.ZS?per_page=1000",
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "1977-12-31",
-      "id": 381672,
-      "name": "Iran, Islamic Rep.: Contraceptive prevalence (% of women ages 15-49)",
+      "from_date": "1999-12-31",
+      "id": 6020106,
+      "name": "Eog Resources ( EOG ) - Current PE Ratio",
       "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T01:47:48Z",
+      "urlize_name": "Eog-Resources-EOG-Current-PE-Ratio"
+    },
+    {
+      "code": "LABS_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "FCFF = EBIT(1-t) - (Capital Expenditures - Depreciation) - Change in Non-Cash Working Capital. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4646232,
+      "name": "LabOne Inc ( LABS ) - Free Cash Flow to Firm",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T01:47:48Z",
+      "urlize_name": "LabOne-Inc-LABS-Free-Cash-Flow-to-Firm"
+    },
+    {
+      "code": "EASI_SGA",
+      "column_names": [
+        "Date",
+        "Sales General and Administration Expenses"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-10-31",
+      "id": 5997481,
+      "name": "Engineered Support Sys ( EASI ) - Sales General and Administration Expenses",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-10-31",
+      "type": null,
+      "updated_at": "2014-03-22T01:47:48Z",
+      "urlize_name": "Engineered-Support-Sys-EASI-Sales-General-and-Administration-Expenses"
+    },
+    {
+      "code": "DIAL_ROC",
+      "column_names": [
+        "Date",
+        "Return on Capital"
+      ],
+      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 4198755,
+      "name": "Westwood One Inc Cl A ( DIAL ) - Return on Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-05-17T12:48:48Z",
-      "urlize_name": "Iran-Islamic-Rep-Contraceptive-prevalence-of-women-ages-15-49"
+      "updated_at": "2014-03-22T01:47:48Z",
+      "urlize_name": "Westwood-One-Inc-Cl-A-DIAL-Return-on-Capital"
+    },
+    {
+      "code": "BUTL_REINV",
+      "column_names": [
+        "Date",
+        "Reinvestment Amount"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5964630,
+      "name": "Butler Intl Inc ( BUTL ) - Reinvestment Amount",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T01:47:28Z",
+      "urlize_name": "Butler-Intl-Inc-BUTL-Reinvestment-Amount"
+    },
+    {
+      "code": "CADE_INST_HOLD",
+      "column_names": [
+        "Date",
+        "Institutional Holdings"
+      ],
+      "description": "Number of shares held by mutual funds, pension funds and trusts as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 3945914,
+      "name": "Cadence Financial Corp ( CADE ) - Institutional Holdings",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T01:47:49Z",
+      "urlize_name": "Cadence-Financial-Corp-CADE-Institutional-Holdings"
     }
   ],
   "per_page": 20,
   "sources": [{
-    "code": "WORLDBANK",
-    "datasets_count": 792087,
-    "description": "The World Bank's mission is to fight poverty with passion and professionalism for lasting results.\r\n\r\nFree and open access to data about development in countries around the globe.",
-    "host": "api.worldbank.org",
-    "id": 66,
-    "name": "World Bank"
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
   }],
-  "total_count": 10053489
+  "total_count": 10147268
 }

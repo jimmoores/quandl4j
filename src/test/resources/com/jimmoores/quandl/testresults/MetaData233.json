@@ -1,21 +1,21 @@
 {
-  "code": "POP_22_UGA_BTH_TOT_60",
+  "code": "CLZR_INV_CAP",
   "column_names": [
-    "Year",
-    "Number"
+    "Date",
+    "Invested Capital"
   ],
-  "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-  "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+  "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1969-12-31",
-  "id": 2999729,
-  "name": "Population - Both Sexes / Age 60 / Total Areas - Uganda",
+  "from_date": "2000-06-30",
+  "id": 4199095,
+  "name": "Candela Corp. ( CLZR ) - Invested Capital",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2002-12-31",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2009-06-30",
   "type": null,
-  "updated_at": "2014-01-11T10:58:53Z",
-  "urlize_name": "Population-Both-Sexes-Age-60-Total-Areas-Uganda"
+  "updated_at": "2014-03-21T21:31:41Z",
+  "urlize_name": "Candela-Corp-CLZR-Invested-Capital"
 }

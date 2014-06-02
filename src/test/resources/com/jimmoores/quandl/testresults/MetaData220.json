@@ -1,21 +1,21 @@
 {
-  "code": "V61621024",
+  "code": "WAVX_LIABILITIESANDSTOCKHOLDERSEQUITY_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "{\"Geography\"=>\"Vernon, British Columbia\", \"North American Industry Classification System (NAICS)\"=>\"All families\", \"Type of client\"=>\"Families with 2 children\", nil=>\"Older parent aged 45 to 54 years\"}",
-  "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+  "description": "SEC Name: LiabilitiesAndStockholdersEquity",
+  "display_url": null,
   "errors": {},
   "frequency": "annual",
-  "from_date": "2008-12-31",
-  "id": 9896239,
-  "name": "111-0011: Commercial and industrial machinery and equipment rental and leasing, sales, by type of client based on the North American Industry Classification System (NAICS)",
+  "from_date": "2010-12-31",
+  "id": 11240778,
+  "name": "WAVE SYSTEMS CORP  (WAVX): Annual Liabilities And Stockholders Equity",
   "private": false,
-  "source_code": "CANSIM",
-  "source_name": "Statistics Canada",
-  "to_date": "2011-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-02-18T23:39:53Z",
-  "urlize_name": "111-0011-Commercial-and-industrial-machinery-and-equipment-rental-and-leasing-sales-by-type-of-client-based-on-the-North-American-Industry-Classification-System-NAICS"
+  "updated_at": "2014-03-26T18:14:02Z",
+  "urlize_name": "WAVE-SYSTEMS-CORP-WAVX-Annual-Liabilities-And-Stockholders-Equity"
 }

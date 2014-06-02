@@ -1,23 +1,21 @@
 {
-  "code": "COMM_74_PIPELINESUBMERGEDARCWELDEDSTEELDIAMETER406MM_EXPORT_TUR",
+  "code": "ELEC_PLANT_CONS_EG_BTU_57730_LFG_ALL_Q",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.57730-LFG-ALL.Q",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.57730-LFG-ALL.Q&out=xml",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1989-12-31",
-  "id": 4292874,
-  "name": "Commodity Exports - Articles Of Iron Or Steel / Pipe-line submerged arc welded steel diameter >406mm - Turkey",
+  "frequency": "monthly",
+  "from_date": "2011-01-31",
+  "id": 5044338,
+  "name": "Electric Fuel Consumption Mmbtus : Lopez Canyon : Landfill Gas : All Primemovers : Quarterly",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
   "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-11T04:56:03Z",
-  "urlize_name": "Commodity-Exports-Articles-Of-Iron-Or-Steel-Pipe-line-submerged-arc-welded-steel-diameter-406mm-Turkey"
+  "updated_at": "2014-01-09T19:33:41Z",
+  "urlize_name": "Electric-Fuel-Consumption-Mmbtus-Lopez-Canyon-Landfill-Gas-All-Primemovers-Quarterly"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "SEE_A_X0_ENX0_LSD_X_Q",
+  "code": "RCITY_ZRIPERSQFT_ALLHOMES_RAYMONDVILLETX",
   "column_names": [
     "Date",
-    "Millions - Pure number"
+    "Raymondville"
   ],
-  "description": " Not applicable - Euronext - Listed securities (listed companies in case of equity) - domestic - Securities other than debt and equities - Quantity , :, Dataset:SEE : Securities exchange - Trading Statistics Explanation page (Series and Dataset Level Information), Reference area:Not applicable (X0) (X0), Decimals:Zero (0), Collection indicator:End of period (E)",
-  "display_url": "http://sdw.ecb.europa.eu/export.do?node=4212921&SERIES_KEY=181.SEE.A.X0.ENX0.LSD.X.Q&exportType=sdmx",
+  "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals zri per sq. ft. (all homes) within the city of Raymondville, TX. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/City/City_ZriPerSqft_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2007-12-31",
-  "id": 11466452,
-  "name": "Not applicable Euronext Listed securities domestic Securities other than debt and equities Quantity",
+  "frequency": "monthly",
+  "from_date": "2010-12-31",
+  "id": 6996062,
+  "name": "Zillow Rent Index (Cities): Rentals ZRI Per Sq. Ft. (All Homes) - Raymondville, TX",
   "private": false,
-  "source_code": "ECB",
-  "source_name": "European Central Bank",
-  "to_date": "2012-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2014-04-30T15:30:53Z",
-  "urlize_name": "Not-applicable-Euronext-Listed-securities-domestic-Securities-other-than-debt-and-equities-Quantity"
+  "updated_at": "2014-05-08T00:01:32Z",
+  "urlize_name": "Zillow-Rent-Index-Cities-Rentals-ZRI-Per-Sq-Ft-All-Homes-Raymondville-TX"
 }

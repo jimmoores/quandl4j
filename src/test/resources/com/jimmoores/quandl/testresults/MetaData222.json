@@ -1,21 +1,21 @@
 {
-  "code": "PRGS_EV",
+  "code": "EMP_XEES_ECO1_OCU1_NB_ECO_ISIC4_E_OCU_ISCO08_6_POL",
   "column_names": [
-    "Date",
-    "Enterprise Value"
+    "Year",
+    "Value"
   ],
-  "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+  "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1999-11-30",
-  "id": 5405493,
-  "name": "Progress Software ( PRGS ) - Enterprise Value",
+  "from_date": "2009-12-31",
+  "id": 5878701,
+  "name": "Paid Employment By Economic Activity And Occupation, Water Supply; Sewerage, Waste Management And Remediation Activities, Skilled Agricultural, Forestry And Fishery Workers - Poland",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2012-11-30",
+  "source_code": "ILO",
+  "source_name": "International Labour Organization",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-03-22T17:56:39Z",
-  "urlize_name": "Progress-Software-PRGS-Enterprise-Value"
+  "updated_at": "2013-04-21T01:33:50Z",
+  "urlize_name": "Paid-Employment-By-Economic-Activity-And-Occupation-Water-Supply-Sewerage-Waste-Management-And-Remediation-Activities-Skilled-Agricultural-Forestry-And-Fishery-Workers-Poland"
 }

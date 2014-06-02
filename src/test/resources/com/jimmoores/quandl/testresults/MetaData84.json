@@ -1,433 +1,415 @@
 {
-  "current_page": 4927,
+  "current_page": 372376,
   "docs": [
     {
-      "code": "BAGASSENETINLANDAVAILABILITY_MMR",
-      "column_names": [
-        "Year",
-        "Metric tons - thousand"
-      ],
-      "description": "The Energy Statistics Database contains comprehensive energy statistics on the production, trade, conversion and final consumption of primary and secondary; conventional and non-conventional; and new and renewable sources of energy. The Energy Statistics dataset, covering the period from 1990 onwards, is available at UNdata. For data prior to 1990, please refer to http://unstats.un.org/unsd/energy/edbase.htm.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1990-12-31",
-      "id": 3090536,
-      "name": "Bagasse - Net Inland Availability - Myanmar",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T02:27:54Z",
-      "urlize_name": "Bagasse-Net-Inland-Availability-Myanmar"
-    },
-    {
-      "code": "UGA_MYS_POP_2529_NED_MA",
+      "code": "AMID_OTHERACCRUEDLIABILITIESCURRENT_Q",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Population in thousand, 25-29, male, no education is the total number of males age 25-29 (in thousands) with no education.\npopulation in thousand, 25 - 29, male, no education",
-      "display_url": "http://api.worldbank.org/countries/UGA/indicators/MYS.POP.2529.NED.MA?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 6490249,
-      "name": "Uganda: population in thousand, 25 - 29, male, no education",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2050-12-31",
-      "type": null,
-      "updated_at": "2014-01-14T16:55:39Z",
-      "urlize_name": "Uganda-population-in-thousand-25-29-male-no-education"
-    },
-    {
-      "code": "CAN_BAR_SEC_SCHL_7074_FE",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Average years of secondary schooling, 70-74, female is the average years of secondary education completed among females age 70-74. \naverage years of secondary schooling, 70-74, female",
-      "display_url": "http://api.worldbank.org/countries/CAN/indicators/BAR.SEC.SCHL.7074.FE?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 246595,
-      "name": "Canada: average years of secondary schooling, 70-74, female",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-14T16:34:54Z",
-      "urlize_name": "Canada-average-years-of-secondary-schooling-70-74-female"
-    },
-    {
-      "code": "UIS_LOWERSECONDARYEDUCATIONTHEORETICALDURATION__CHL",
-      "column_names": [
-        "Year",
-        "Number"
-      ],
-      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1975-12-31",
-      "id": 3499446,
-      "name": "Lower Secondary education Theoretical Duration - Chile",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T03:47:16Z",
-      "urlize_name": "Lower-Secondary-education-Theoretical-Duration-Chile"
-    },
-    {
-      "code": "RESIDUALFUELOILCONSUMPTIONBYPETROLEUMREFINERIES_PER",
-      "column_names": [
-        "Year",
-        "Metric tons - thousand"
-      ],
-      "description": "The Energy Statistics Database contains comprehensive energy statistics on the production, trade, conversion and final consumption of primary and secondary; conventional and non-conventional; and new and renewable sources of energy. The Energy Statistics dataset, covering the period from 1990 onwards, is available at UNdata. For data prior to 1990, please refer to http://unstats.un.org/unsd/energy/edbase.htm.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1997-12-31",
-      "id": 3142342,
-      "name": "Residual Fuel Oil - Consumption By Petroleum Refineries - Peru",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T09:33:38Z",
-      "urlize_name": "Residual-Fuel-Oil-Consumption-By-Petroleum-Refineries-Peru"
-    },
-    {
-      "code": "RZIP_ZRIPERSQFT_ALLHOMES_95815",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the zip code of 95815, Sacramento, CA. This is derived by taking the estimated rent price for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_ZriPerSqft_AllHomes.csv",
-      "frequency": "monthly",
-      "from_date": "2010-11-30",
-      "id": 7514850,
-      "name": "Zillow Rent Index (Zip Codes): Rentals ZRI Per Sq. Ft. (All Homes) - 95815,Sacramento,CA",
-      "private": false,
-      "source_code": "ZILLOW",
-      "source_name": "Zillow Real Estate Research",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2013-11-30T10:57:21Z",
-      "urlize_name": "Zillow-Rent-Index-Zip-Codes-Rentals-ZRI-Per-Sq-Ft-All-Homes-95815-Sacramento-CA"
-    },
-    {
-      "code": "GIN_MYS_POP_80UP_TER_MF",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Population in thousand, 80+, total, tertiary is the total number of people over age 80 (in thousands) with tertiary education.\npopulation in thousand, 80+, total, tertiary",
-      "display_url": "http://api.worldbank.org/countries/GIN/indicators/MYS.POP.80UP.TER.MF?per_page=1000",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 346222,
-      "name": "Guinea: population in thousand, 80+, total, tertiary",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2050-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T23:47:59Z",
-      "urlize_name": "Guinea-population-in-thousand-80-total-tertiary"
-    },
-    {
-      "code": "RESIDUALFUELOILEXPORTS_ECU",
-      "column_names": [
-        "Year",
-        "Metric tons - thousand"
-      ],
-      "description": "The Energy Statistics Database contains comprehensive energy statistics on the production, trade, conversion and final consumption of primary and secondary; conventional and non-conventional; and new and renewable sources of energy. The Energy Statistics dataset, covering the period from 1990 onwards, is available at UNdata. For data prior to 1990, please refer to http://unstats.un.org/unsd/energy/edbase.htm.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1990-12-31",
-      "id": 3143326,
-      "name": "Residual Fuel Oil - Exports - Ecuador",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T10:10:04Z",
-      "urlize_name": "Residual-Fuel-Oil-Exports-Ecuador"
-    },
-    {
-      "code": "POL_WP11668_7",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Adults who currently have a loan they took out to purchase materials or services to build, extend, or renovate their home or apartment (% with a secondary education or more, age 15+)\nOutstanding loan for home construction, secondary education or more (% age 15+)",
-      "display_url": "http://api.worldbank.org/countries/POL/indicators/WP11668.7?per_page=1000",
+      "description": "SEC Name: OtherAccruedLiabilitiesCurrent",
+      "display_url": null,
       "frequency": "annual",
       "from_date": "2011-12-31",
-      "id": 6608147,
-      "name": "Poland: Outstanding loan for home construction, secondary education or more (% age 15+)",
+      "id": 10079512,
+      "name": "American Midstream Partners, LP  (AMID): Quarterly Other Accrued Liabilities Current",
       "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T22:07:11Z",
-      "urlize_name": "Poland-Outstanding-loan-for-home-construction-secondary-education-or-more-age-15"
-    },
-    {
-      "code": "LKA_DT_NTR_PROP_CD",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Public and publicly guaranteed other private credits from manufacturers, exporters, and other suppliers of goods, and bank credits covered by a guarantee of an export credit agency. Net transfers are net flows minus interest payments during the year; negative transfers show net transfers made by the borrower to the creditor during the year. Data are in current U.S. dollars.\nPPG, other private creditors (NTR, current US$)",
-      "display_url": "http://api.worldbank.org/countries/LKA/indicators/DT.NTR.PROP.CD?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 441124,
-      "name": "Sri Lanka: PPG, other private creditors (NTR, current US$)",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-13T10:34:54Z",
-      "urlize_name": "Sri-Lanka-PPG-other-private-creditors-NTR-current-US"
+      "updated_at": "2014-02-24T21:39:19Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Quarterly-Other-Accrued-Liabilities-Current"
     },
     {
-      "code": "UGA_UIS_DR_1_G2",
+      "code": "AMID_OTHERACCRUEDLIABILITIESCURRENT_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Drop-out rate. Primary. Grade 2. Total is the proportion of pupils from a cohort enrolled in primary education in a given school year who are no longer enrolled in the following school year.\nDrop-out rate. Primary. Grade 2. Total",
-      "display_url": "http://api.worldbank.org/countries/UGA/indicators/UIS.DR.1.G2?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1975-12-31",
-      "id": 6491998,
-      "name": "Uganda: Drop-out rate. Primary. Grade 2. Total",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T10:11:12Z",
-      "urlize_name": "Uganda-Drop-out-rate-Primary-Grade-2-Total"
-    },
-    {
-      "code": "PRK_UIS_LR_AG15T99_GPI",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Gender parity index for adult literacy rate is the ratio of female adult literacy rate to the male adult literacy rate. It is calculated by dividing the female value for the indicator by the male value for the indicator. A GPI equal to 1 indicates parity between females and males. In general, a value less than 1 indicates disparity in favor of males and a value greater than 1 indicates disparity in favor of females.\nGender parity index for adult literacy rate",
-      "display_url": "http://api.worldbank.org/countries/PRK/indicators/UIS.LR.AG15T99.GPI?per_page=1000",
-      "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 2135729,
-      "name": "Korea, Dem. Rep.: Gender parity index for adult literacy rate",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2008-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T10:34:54Z",
-      "urlize_name": "Korea-Dem-Rep-Gender-parity-index-for-adult-literacy-rate"
-    },
-    {
-      "code": "SLE_SP_POP_GROW",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Population growth (annual %) is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage. \nPopulation growth (annual %)",
-      "display_url": "http://api.worldbank.org/countries/SLE/indicators/SP.POP.GROW?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1960-12-31",
-      "id": 2145615,
-      "name": "Sierra Leone: Population growth (annual %)",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2013-08-29T20:33:58Z",
-      "urlize_name": "Sierra-Leone-Population-growth-annual"
-    },
-    {
-      "code": "HKG_SP_POP_AG04_FE_UN",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Population, age 4, female refers to the female population at the specified age.\nPopulation, aged  4, female",
-      "display_url": "http://api.worldbank.org/countries/HKG/indicators/SP.POP.AG04.FE.UN?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1990-12-31",
-      "id": 360974,
-      "name": "Hong Kong SAR, China: Population, aged  4, female",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2015-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T23:47:48Z",
-      "urlize_name": "Hong-Kong-SAR-China-Population-aged-4-female"
-    },
-    {
-      "code": "SRB_SE_TER_GRAD_FE_SV_ZS",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Female share of graduates in services (%, tertiary)\nFemale share of graduates in services (%, tertiary)",
-      "display_url": "http://api.worldbank.org/countries/SRB/indicators/SE.TER.GRAD.FE.SV.ZS?per_page=1000",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 6433355,
-      "name": "Serbia: Female share of graduates in services (%, tertiary)",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T11:41:23Z",
-      "urlize_name": "Serbia-Female-share-of-graduates-in-services-tertiary"
-    },
-    {
-      "code": "LUBRICANTSIMPORTS_BOL",
-      "column_names": [
-        "Year",
-        "Metric tons - thousand"
-      ],
-      "description": "The Energy Statistics Database contains comprehensive energy statistics on the production, trade, conversion and final consumption of primary and secondary; conventional and non-conventional; and new and renewable sources of energy. The Energy Statistics dataset, covering the period from 1990 onwards, is available at UNdata. For data prior to 1990, please refer to http://unstats.un.org/unsd/energy/edbase.htm.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1990-12-31",
-      "id": 3126488,
-      "name": "Lubricants - Imports - Bolivia (Plurinational State of)",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T09:06:30Z",
-      "urlize_name": "Lubricants-Imports-Bolivia-Plurinational-State-of"
-    },
-    {
-      "code": "MHOOD_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_PENNINGTONBENDNASHVILLETN",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfHomesDecreasingInValues_AllHomes.csv",
-      "frequency": "monthly",
-      "from_date": "2008-03-31",
-      "id": 7527026,
-      "name": "Zillow Metrics (Neighborhoods): Decreasing Values (%) - Pennington Bend,Nashville,TN",
-      "private": false,
-      "source_code": "ZILLOW",
-      "source_name": "Zillow Real Estate Research",
-      "to_date": "2009-06-30",
-      "type": null,
-      "updated_at": "2013-11-30T10:31:39Z",
-      "urlize_name": "Zillow-Metrics-Neighborhoods-Decreasing-Values-Pennington-Bend-Nashville-TN"
-    },
-    {
-      "code": "TKM_DT_ODA_ODAT_GN_ZS",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilateral institutions, and by non-DAC countries to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. It includes loans with a grant element of at least 25 percent (calculated at a rate of discount of 10 percent).\nNet ODA received (% of GNI)",
-      "display_url": "http://api.worldbank.org/countries/TKM/indicators/DT.ODA.ODAT.GN.ZS?per_page=1000",
-      "frequency": "annual",
-      "from_date": "1993-12-31",
-      "id": 6474734,
-      "name": "Turkmenistan: Net ODA received (% of GNI)",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T12:07:28Z",
-      "urlize_name": "Turkmenistan-Net-ODA-received-of-GNI"
-    },
-    {
-      "code": "GRC_LO_PISA_REA_HIG_MA",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "PISA: Students at the highest level of proficiency on the reading scale (%), male is the percentage of male students at Level 6 (above 698.32 score points) on the reading scale.\nPISA:Students at the highest level of proficiency on the reading scale (%), male  ",
-      "display_url": "http://api.worldbank.org/countries/GRC/indicators/LO.PISA.REA.HIG.MA?per_page=1000",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 353242,
-      "name": "Greece: PISA:Students at the highest level of proficiency on the reading scale (%), male",
-      "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2013-08-28T15:57:48Z",
-      "urlize_name": "Greece-PISA-Students-at-the-highest-level-of-proficiency-on-the-reading-scale-male"
-    },
-    {
-      "code": "SYR_WP11668_2",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Adults who currently have a loan they took out to purchase materials or services to build, extend, or renovate their home or apartment (% male, age 15+)\nOutstanding loan for home construction, male (% age 15+)",
-      "display_url": "http://api.worldbank.org/countries/SYR/indicators/WP11668.2?per_page=1000",
+      "description": "SEC Name: OtherAccruedLiabilitiesCurrent",
+      "display_url": null,
       "frequency": "annual",
       "from_date": "2011-12-31",
-      "id": 6463823,
-      "name": "Syrian Arab Republic: Outstanding loan for home construction, male (% age 15+)",
+      "id": 10079513,
+      "name": "American Midstream Partners, LP  (AMID): Annual Other Accrued Liabilities Current",
       "private": false,
-      "source_code": "WORLDBANK",
-      "source_name": "World Bank",
-      "to_date": "2011-12-31",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-14T18:02:02Z",
-      "urlize_name": "Syrian-Arab-Republic-Outstanding-loan-for-home-construction-male-age-15"
+      "updated_at": "2014-02-24T21:39:04Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Other-Accrued-Liabilities-Current"
+    },
+    {
+      "code": "AMID_OTHERCOMPREHENSIVEINCOMEDEFINEDBENEFITPLANSNETUNAMORTIZEDGAINLOSSARISINGDURINGPERIODNETOFTAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeDefinedBenefitPlansNetUnamortizedGainLossArisingDuringPeriodNetOfTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10079516,
+      "name": "American Midstream Partners, LP  (AMID): Annual Other Comprehensive Income Defined Benefit Plans Net Unamortized Gain Loss Arising During Period Net Of Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:04Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Other-Comprehensive-Income-Defined-Benefit-Plans-Net-Unamortized-Gain-Loss-Arising-During-Period-Net-Of-Tax"
+    },
+    {
+      "code": "AMID_OTHERCOMPREHENSIVEINCOMELOSSNETOFTAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossNetOfTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-12-31",
+      "id": 10079517,
+      "name": "American Midstream Partners, LP  (AMID): Annual Other Comprehensive Income Loss Net Of Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:20Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Other-Comprehensive-Income-Loss-Net-Of-Tax"
+    },
+    {
+      "code": "AMID_OTHERPREPAIDEXPENSECURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherPrepaidExpenseCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10079519,
+      "name": "American Midstream Partners, LP  (AMID): Quarterly Other Prepaid Expense Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:20Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Quarterly-Other-Prepaid-Expense-Current"
+    },
+    {
+      "code": "AMID_OTHERPREPAIDEXPENSECURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherPrepaidExpenseCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10079520,
+      "name": "American Midstream Partners, LP  (AMID): Annual Other Prepaid Expense Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:05Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Other-Prepaid-Expense-Current"
+    },
+    {
+      "code": "AMID_OTHERRECEIVABLES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherReceivables",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10079522,
+      "name": "American Midstream Partners, LP  (AMID): Annual Other Receivables",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:20Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Other-Receivables"
+    },
+    {
+      "code": "AMID_OTHERRECEIVABLES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherReceivables",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10079521,
+      "name": "American Midstream Partners, LP  (AMID): Quarterly Other Receivables",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:20Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Quarterly-Other-Receivables"
+    },
+    {
+      "code": "AMID_PARTNERSCAPITALACCOUNTTREASURYUNITSPURCHASES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PartnersCapitalAccountTreasuryUnitsPurchases",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10079524,
+      "name": "American Midstream Partners, LP  (AMID): Annual Partners Capital Account Treasury Units Purchases",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:20Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Partners-Capital-Account-Treasury-Units-Purchases"
+    },
+    {
+      "code": "AMID_PARTNERSCAPITALACCOUNTUNITSCONTRIBUTED_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PartnersCapitalAccountUnitsContributed",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10079525,
+      "name": "American Midstream Partners, LP  (AMID): Annual Partners Capital Account Units Contributed",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:05Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Partners-Capital-Account-Units-Contributed"
+    },
+    {
+      "code": "AMID_PARTNERSCAPITALACCOUNTUNITSCONVERTED_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PartnersCapitalAccountUnitsConverted",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10079526,
+      "name": "American Midstream Partners, LP  (AMID): Annual Partners Capital Account Units Converted",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:06Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Partners-Capital-Account-Units-Converted"
+    },
+    {
+      "code": "AMID_PARTNERSCAPITALACCOUNTUNITSUNITBASEDCOMPENSATION_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PartnersCapitalAccountUnitsUnitbasedCompensation",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10079527,
+      "name": "American Midstream Partners, LP  (AMID): Annual Partners Capital Account Units Unitbased Compensation",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:21Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Partners-Capital-Account-Units-Unitbased-Compensation"
+    },
+    {
+      "code": "AMID_PREPAIDEXPENSEANDOTHERASSETSCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PrepaidExpenseAndOtherAssetsCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10079529,
+      "name": "American Midstream Partners, LP  (AMID): Quarterly Prepaid Expense And Other Assets Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:06Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Quarterly-Prepaid-Expense-And-Other-Assets-Current"
+    },
+    {
+      "code": "AMID_PAYMENTSTOACQUIREBUSINESSESNETOFCASHACQUIRED_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PaymentsToAcquireBusinessesNetOfCashAcquired",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10079531,
+      "name": "American Midstream Partners, LP  (AMID): Annual Payments To Acquire Businesses Net Of Cash Acquired",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:21Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Payments-To-Acquire-Businesses-Net-Of-Cash-Acquired"
+    },
+    {
+      "code": "AMID_PREPAIDEXPENSEANDOTHERASSETSCURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PrepaidExpenseAndOtherAssetsCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10079532,
+      "name": "American Midstream Partners, LP  (AMID): Annual Prepaid Expense And Other Assets Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:06Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Prepaid-Expense-And-Other-Assets-Current"
+    },
+    {
+      "code": "AMID_PREPAIDEXPENSENONCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PrepaidExpenseNoncurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10079533,
+      "name": "American Midstream Partners, LP  (AMID): Quarterly Prepaid Expense Noncurrent",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:21Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Quarterly-Prepaid-Expense-Noncurrent"
+    },
+    {
+      "code": "AMID_PREPAIDEXPENSENONCURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PrepaidExpenseNoncurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10079534,
+      "name": "American Midstream Partners, LP  (AMID): Annual Prepaid Expense Noncurrent",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:06Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Prepaid-Expense-Noncurrent"
+    },
+    {
+      "code": "AMID_PREPAIDINSURANCE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PrepaidInsurance",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10079535,
+      "name": "American Midstream Partners, LP  (AMID): Quarterly Prepaid Insurance",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:22Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Quarterly-Prepaid-Insurance"
+    },
+    {
+      "code": "AMID_PREPAIDINSURANCE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PrepaidInsurance",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10079536,
+      "name": "American Midstream Partners, LP  (AMID): Annual Prepaid Insurance",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:07Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Annual-Prepaid-Insurance"
+    },
+    {
+      "code": "AMID_PREPAIDPENSIONCOSTS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PrepaidPensionCosts",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10079537,
+      "name": "American Midstream Partners, LP  (AMID): Quarterly Prepaid Pension Costs",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T21:39:07Z",
+      "urlize_name": "American-Midstream-Partners-LP-AMID-Quarterly-Prepaid-Pension-Costs"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "ZILLOW",
-      "datasets_count": 216313,
-      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
-      "host": "files.zillowstatic.com",
-      "id": 797,
-      "name": "Zillow Real Estate Research"
-    },
-    {
-      "code": "UN",
-      "datasets_count": 2100274,
-      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
-      "host": "data.un.org",
-      "id": 488,
-      "name": "United Nations"
-    },
-    {
-      "code": "WORLDBANK",
-      "datasets_count": 792087,
-      "description": "The World Bank's mission is to fight poverty with passion and professionalism for lasting results.\r\n\r\nFree and open access to data about development in countries around the globe.",
-      "host": "api.worldbank.org",
-      "id": 66,
-      "name": "World Bank"
-    }
-  ],
-  "total_count": 10036987
+  "sources": [{
+    "code": "SEC",
+    "datasets_count": 4867,
+    "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+    "host": "www.sec.gov",
+    "id": 651,
+    "name": "U.S. Securities and Exchange Commission"
+  }],
+  "total_count": 10147268
 }

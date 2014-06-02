@@ -1,21 +1,21 @@
 {
-  "code": "OEUN000000052230041401001",
+  "code": "HOME_PROFESSIONALANDCONTRACTSERVICESEXPENSE_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Statistic: Employment; Occupation: Sales Representatives, Wholesale and Manufacturing; Industry: Activities Related to Credit Intermediation; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000052230041401001",
+  "description": "SEC Name: ProfessionalAndContractServicesExpense",
+  "display_url": null,
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2012-06-30",
-  "id": 9122043,
-  "name": "Employment for Sales Representatives, Wholesale and Manufacturing in Activities Related to Credit Intermediation in National",
+  "frequency": "daily",
+  "from_date": "2011-09-30",
+  "id": 10388173,
+  "name": "Home Federal Bancorp, Inc.  (HOME): Annual Professional And Contract Services Expense",
   "private": false,
-  "source_code": "BLS",
-  "source_name": "Bureau of Labor Statistics",
-  "to_date": "2012-06-30",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2013-11-16T20:59:55Z",
-  "urlize_name": "Employment-for-Sales-Representatives-Wholesale-and-Manufacturing-in-Activities-Related-to-Credit-Intermediation-in-National"
+  "updated_at": "2014-03-06T22:44:10Z",
+  "urlize_name": "Home-Federal-Bancorp-Inc-HOME-Annual-Professional-And-Contract-Services-Expense"
 }

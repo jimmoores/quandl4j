@@ -1,21 +1,21 @@
 {
-  "code": "MCITY_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_TOWNOFNEWTOWNCT",
+  "code": "DJI_DT_DOD_ALLC_ZSX",
   "column_names": [
     "Date",
-    "Town of Newtown"
+    "Value"
   ],
-  "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-  "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesDecreasingInValues_AllHomes.csv",
+  "description": "Concessional Long-term Debt Outstanding and Disbursed (LDOD) conveys information about the borrower's receipt of aid from official lenders at concessional terms as defined by the Development Assistance Committee (DAC) of the OECD. Concessional debt is defined as loans with an original grant element of 25 percent or more. The grant equivalent of a loan is its commitment (present) value, less the discounted present value of its contractual debt service; conventionally, future service payments are discounted at 10 percent. The grant element of a loan is the grant equivalent expressed as a percentage of the amount committed. It is used as a measure of the overall cost of borrowing. Loans from major regional development banks--African Development Bank, Asian Development Bank, and the Inter-American Development Bank--and from the World Bank are classified as concessional according to each institution's classification and not according to the DAC definition, as was the practice in earlier reports. LDOD is the total outstanding long-term debt at year end. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents and repayable in foreign currency, goods, or services.  The denominator is the sum of total goods and service exports (per the balance of payments account) and workers' remittances (per the balance of payments account).  \nDebt on Concessional terms to export ratio (% of exports)",
+  "display_url": "http://api.worldbank.org/countries/DJI/indicators/DT.DOD.ALLC.ZSX?per_page=1000",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1997-03-31",
-  "id": 7150140,
-  "name": "Zillow Metrics (Cities): Decreasing Values (%) - Town of Newtown, CT",
+  "frequency": "annual",
+  "from_date": "2005-12-31",
+  "id": 289762,
+  "name": "Djibouti: Debt on Concessional terms to export ratio (% of exports)",
   "private": false,
-  "source_code": "ZILLOW",
-  "source_name": "Zillow Real Estate Research",
-  "to_date": "2014-03-31",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-05-08T04:27:14Z",
-  "urlize_name": "Zillow-Metrics-Cities-Decreasing-Values-Town-of-Newtown-CT"
+  "updated_at": "2014-01-13T19:17:34Z",
+  "urlize_name": "Djibouti-Debt-on-Concessional-terms-to-export-ratio-of-exports"
 }

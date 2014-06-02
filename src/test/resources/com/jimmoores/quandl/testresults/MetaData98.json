@@ -1,514 +1,415 @@
 {
-  "current_page": 148077,
+  "current_page": 27969,
   "docs": [
     {
-      "code": "COMM_17_FISHNESPREPAREDORPRESERVEDNOTMINCED_IMPORT_SWZ",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 2969508,
-      "name": "Commodity Imports - Meat, Fish And Seafood Food Preparations Nes / Fish nes, prepared or preserved, not minced - Swaziland",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2007-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T07:51:01Z",
-      "urlize_name": "Commodity-Imports-Meat-Fish-And-Seafood-Food-Preparations-Nes-Fish-nes-prepared-or-preserved-not-minced-Swaziland"
-    },
-    {
-      "code": "CENS_01NDPERCONS_211",
+      "code": "AMGY_EV",
       "column_names": [
         "Date",
-        "Value"
+        "Enterprise Value"
       ],
-      "description": "The tables presented in the topic of dwellings cover the total housing for 31 countries (for more information on received tables and geographic coverage, see \"2001 Census Round - Tables Received\" in the Annex at the bottom of the page). The level of completeness of the tables depends largely on the availability of data at the respective national statistical institutes. There are four ways of collecting census data, namely:\r\n- the traditional method of using census questionnaires (exhaustive census);\r\n- the method of using registers and/or other administrative sources;- a combination of registers and/or other administrative sources and- surveys (complete enumerations or sample surveys).\r\nOther methods (other mixed census or micro-census) can be used as well.\r\nDetails for the method employed by each country are provided in \"2001 Census Method\" in the Annex at the bottom of the page.\r\nIn the same table you can find the dates on which the census was carried out in each country.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/cens_01ndws_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fcens_01ndpercons.sdmx.zip",
+      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 927864,
-      "name": "Owneroccupied dwellings by type and year of construction of the building  : Number : Unknown : Three or more dwelling residential buildings : Belgium",
+      "from_date": "2008-12-31",
+      "id": 3941528,
+      "name": "American Metal & Tech. Inc ( AMGY ) - Enterprise Value",
       "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2001-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-01-13T05:12:10Z",
-      "urlize_name": "Owneroccupied-dwellings-by-type-and-year-of-construction-of-the-building-Number-Unknown-Three-or-more-dwelling-residential-buildings-Belgium"
+      "updated_at": "2014-03-13T21:55:01Z",
+      "urlize_name": "American-Metal-Tech-Inc-AMGY-Enterprise-Value"
     },
     {
-      "code": "14100_71",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The GHO data repository provides access to over 50 datasets on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others. More info at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=321",
-      "display_url": "http://apps.who.int/ghodata/cache/global/xls/vid.14100.xls",
-      "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 2809875,
-      "name": "Number of environment and public health workers - Morocco",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2004-12-31",
-      "type": null,
-      "updated_at": "2013-07-14T12:39:05Z",
-      "urlize_name": "Number-of-environment-and-public-health-workers-Morocco"
-    },
-    {
-      "code": "COMM_31_HORMONESNESEXCEPTCONTRACEPTIVESINDOSAGE_EXPORT_QAT",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 3429271,
-      "name": "Commodity Exports - Pharmaceutical Products / Hormones nes, except contraceptives, in dosage - Qatar",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T01:31:04Z",
-      "urlize_name": "Commodity-Exports-Pharmaceutical-Products-Hormones-nes-except-contraceptives-in-dosage-Qatar"
-    },
-    {
-      "code": "5220017_ANNUAL_HOUSEHOLD_TAS_A2334864A",
+      "code": "TWNE_EBITDA",
       "column_names": [
         "Date",
-        "Value"
+        "Earnings Before Interest Taxes Depreciation and Amortization"
       ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/AUSSTATS/ABS@ARCHIVE.NSF/log?openagent&5220017_annual_household_tas.xls&5220.0&Time%20Series%20Spreadsheet&5684B0812B139FEACA257ABC00215507&0&2011-12&21.11.2012&Latest",
+      "description": "Estimated by adding depreciation and amortization back to operating income (EBIT). Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "1990-06-30",
-      "id": 7752192,
-      "name": "Household Income Account and Per Capita, Tasmania: Current prices: Income tax payable ; ($ Millions)",
+      "from_date": "2008-12-31",
+      "id": 5530025,
+      "name": "Towne Bancorp Inc ( TWNE ) - Earnings Before Interest Taxes Depreciation and Amortization",
       "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "2013-06-30",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-01-14T00:48:30Z",
-      "urlize_name": "Household-Income-Account-and-Per-Capita-Tasmania-Current-prices-Income-tax-payable-Millions"
+      "updated_at": "2014-03-13T21:54:43Z",
+      "urlize_name": "Towne-Bancorp-Inc-TWNE-Earnings-Before-Interest-Taxes-Depreciation-and-Amortization"
     },
     {
-      "code": "COMM_31_PENICILLINSANDSTREPTOMYCINSDERIVSINDOSAGE_EXPORT_QAT",
+      "code": "ORTN_FLOAT",
       "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
+        "Date",
+        "Number of Shares Outstanding"
       ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
+      "description": "Units: million shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 3429261,
-      "name": "Commodity Exports - Pharmaceutical Products / Penicillins and streptomycins, derivs, in dosage - Qatar",
+      "from_date": "2003-12-31",
+      "id": 5304126,
+      "name": "Ortec Intl Inc ( ORTN ) - Number of Shares Outstanding",
       "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2005-12-31",
       "type": null,
-      "updated_at": "2014-01-11T04:25:12Z",
-      "urlize_name": "Commodity-Exports-Pharmaceutical-Products-Penicillins-and-streptomycins-derivs-in-dosage-Qatar"
+      "updated_at": "2014-03-13T21:54:43Z",
+      "urlize_name": "Ortec-Intl-Inc-ORTN-Number-of-Shares-Outstanding"
     },
     {
-      "code": "COMM_30_CYCLOHEXANE_IMPORT_ZWE",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1995-12-31",
-      "id": 3421596,
-      "name": "Commodity Imports - Organic Chemicals / Cyclohexane - Zimbabwe",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T07:51:01Z",
-      "urlize_name": "Commodity-Imports-Organic-Chemicals-Cyclohexane-Zimbabwe"
-    },
-    {
-      "code": "PD317_RM_FORTALEZA_CE_NAO_DETERMINADOS_E_SEM_DECLARACAO_ABS",
+      "code": "CKGT_EFF_TAX",
       "column_names": [
         "Date",
-        "Value"
+        "Effective Tax Rate"
       ],
-      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
-      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PD317_RM_ABS.csv&categorias=%22Nao%20determinados%20e%20sem%20declaracao%22&localidade=Fortaleza%20-%20CE",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 6347760,
-      "name": "Market Force and Work: The Union Association - People 18 years or older occupied (per.refer. 365 days) and affiliated unions, by years of study - Not determined and no declaration Metropolitan Regions: Fortress - EC. Datatype: Absolute",
+      "from_date": "2006-12-31",
+      "id": 5992048,
+      "name": "China Kangtai Cactus Bio-Tech ( CKGT ) - Effective Tax Rate",
       "private": false,
-      "source_code": "IBGE",
-      "source_name": "Brazilian Institute of Geography and Statistics",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T21:55:01Z",
+      "urlize_name": "China-Kangtai-Cactus-Bio-Tech-CKGT-Effective-Tax-Rate"
+    },
+    {
+      "code": "OYP_TO_DEPREC",
+      "column_names": [
+        "Date",
+        "Depreciation"
+      ],
+      "description": "Includes both depreciation and amortization, as reported in the statement of cash flows. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5322968,
+      "name": "O & Y Pptys ( OYP.TO ) - Depreciation",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2006-12-31",
       "type": null,
-      "updated_at": "2014-01-11T09:45:59Z",
-      "urlize_name": "Market-Force-and-Work-The-Union-Association-People-18-years-or-older-occupied-per-refer-365-days-and-affiliated-unions-by-years-of-study-Not-determined-and-no-declaration-Metropolitan-Regions-Fortress-EC-Datatype-Absolute"
+      "updated_at": "2014-03-13T21:55:01Z",
+      "urlize_name": "O-Y-Pptys-OYP-TO-Depreciation"
     },
     {
-      "code": "POP_22_MYS_MAL_URB_99PLUS",
-      "column_names": [
-        "Year",
-        "Number"
-      ],
-      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
-      "frequency": "annual",
-      "from_date": "1991-12-31",
-      "id": 2717820,
-      "name": "Population - Male / Age 99 + / Urban Areas - Malaysia",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "1991-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T07:51:01Z",
-      "urlize_name": "Population-Male-Age-99-Urban-Areas-Malaysia"
-    },
-    {
-      "code": "EIUID9021",
+      "code": "PRHC_MKT_DC",
       "column_names": [
         "Date",
-        "Value"
+        "Market Debt to Capital Ratio"
       ],
-      "description": "Not seasonally adjusted.  For more information, see <a href=\"http://www.bls.gov/mxp/ippovrvw.htm\">http://www.bls.gov/mxp/ippovrvw.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/EIUID9021",
-      "frequency": "monthly",
-      "from_date": "2011-01-31",
-      "id": 8473792,
-      "name": "Export Price Index - Hearing aids; artificial body parts; and orthopedic app. (Dec. 2001=100) - Harmonized",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2013-11-19T21:50:16Z",
-      "urlize_name": "Export-Price-Index-Hearing-aids-artificial-body-parts-and-orthopedic-app-Dec-2001-100-Harmonized"
-    },
-    {
-      "code": "ELEC_PLANT_CONS_TOT_BTU_937_NG_IC_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.937-NG-IC.Q",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.937-NG-IC.Q&out=xml",
-      "frequency": "monthly",
-      "from_date": "2003-01-31",
-      "id": 4990594,
-      "name": "Fuel Consumption Mmbtus : Carmi : Natural Gas : Internal Combustion (diesel, Piston) Engine : Quarterly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T02:03:27Z",
-      "urlize_name": "Fuel-Consumption-Mmbtus-Carmi-Natural-Gas-Internal-Combustion-diesel-Piston-Engine-Quarterly"
-    },
-    {
-      "code": "20100_78",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The GHO data repository provides access to over 50 datasets on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others. More info at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2974",
-      "display_url": "http://apps.who.int/ghodata/cache/global/xls/vid.20100.xls",
+      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 2823462,
-      "name": "Cellular subscribers (per 100 population) - Turkey",
+      "from_date": "2000-12-31",
+      "id": 5405966,
+      "name": "Province Healthcare ( PRHC ) - Market Debt to Capital Ratio",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2013-07-14T12:42:36Z",
-      "urlize_name": "Cellular-subscribers-per-100-population-Turkey"
-    },
-    {
-      "code": "COMM_85_DCMOTORSDCGENERATORSOFANOUTPUT375KW_IMPORT_TZA",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1996-12-31",
-      "id": 5661029,
-      "name": "Commodity Imports - Electrical, Electronic Equipment / DC motors, DC generators, of an output >375 kW - United Republic of Tanzania",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2013-05-07T05:57:33Z",
-      "urlize_name": "Commodity-Imports-Electrical-Electronic-Equipment-DC-motors-DC-generators-of-an-output-375-kW-United-Republic-of-Tanzania"
-    },
-    {
-      "code": "COMM_26_FLUORSPAR97CALCIUMFLUORIDE_EXPORT_POL",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 3058345,
-      "name": "Commodity Exports - Salt, Sulphur, Earth, Stone, Plaster, Lime And Cement / Fluorspar, <97% calcium fluoride - Poland",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T08:33:37Z",
-      "urlize_name": "Commodity-Exports-Salt-Sulphur-Earth-Stone-Plaster-Lime-And-Cement-Fluorspar-97-calcium-fluoride-Poland"
-    },
-    {
-      "code": "CENS_01NDPERCONS_64",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The tables presented in the topic of dwellings cover the total housing for 31 countries (for more information on received tables and geographic coverage, see \"2001 Census Round - Tables Received\" in the Annex at the bottom of the page). The level of completeness of the tables depends largely on the availability of data at the respective national statistical institutes. There are four ways of collecting census data, namely:\r\n- the traditional method of using census questionnaires (exhaustive census);\r\n- the method of using registers and/or other administrative sources;- a combination of registers and/or other administrative sources and- surveys (complete enumerations or sample surveys).\r\nOther methods (other mixed census or micro-census) can be used as well.\r\nDetails for the method employed by each country are provided in \"2001 Census Method\" in the Annex at the bottom of the page.\r\nIn the same table you can find the dates on which the census was carried out in each country.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/cens_01ndws_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fcens_01ndpercons.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 927686,
-      "name": "Owneroccupied dwellings by type and year of construction of the building  : Number : Total : One-dwelling residential buildings : Lithuania",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2001-12-31",
       "type": null,
-      "updated_at": "2014-01-12T20:39:57Z",
-      "urlize_name": "Owneroccupied-dwellings-by-type-and-year-of-construction-of-the-building-Number-Total-One-dwelling-residential-buildings-Lithuania"
+      "updated_at": "2014-03-13T21:54:43Z",
+      "urlize_name": "Province-Healthcare-PRHC-Market-Debt-to-Capital-Ratio"
     },
     {
-      "code": "COMM_90_GASSMOKEANALYSISAPPARATUS_EXPORT_RWA",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 5812017,
-      "name": "Commodity Exports - Optical, Photo, Technical, Medical, Etc Apparatus / Gas/smoke analysis apparatus - Rwanda",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T07:51:05Z",
-      "urlize_name": "Commodity-Exports-Optical-Photo-Technical-Medical-Etc-Apparatus-Gas-smoke-analysis-apparatus-Rwanda"
-    },
-    {
-      "code": "COMM_84_MACHINESFORWORKINGMETALWIRE_EXPORT_MUS",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 4745443,
-      "name": "Commodity Exports - Nuclear Reactors, Boilers, Machinery, Etc / Machines for working metal wire - Mauritius",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2013-05-15T02:32:27Z",
-      "urlize_name": "Commodity-Exports-Nuclear-Reactors-Boilers-Machinery-Etc-Machines-for-working-metal-wire-Mauritius"
-    },
-    {
-      "code": "ELEC_PLANT_AVG_HEAT_55094_LFG_IC_M",
+      "code": "AMGY_BOOK_DC",
       "column_names": [
         "Date",
-        "Value"
+        "Book Debt to Capital Ratio"
       ],
-      "description": "Units=Mmbtu Per Mcf. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.AVG_HEAT.55094-LFG-IC.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.AVG_HEAT.55094-LFG-IC.M&out=xml",
-      "frequency": "monthly",
-      "from_date": "2003-01-31",
-      "id": 5143669,
-      "name": "Mmbtu Per Unit : Mm San Diego-miramar : Landfill Gas : Internal Combustion (diesel, Piston) Engine : Monthly",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 3941451,
+      "name": "American Metal & Tech. Inc ( AMGY ) - Book Debt to Capital Ratio",
       "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2012-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-01-10T01:57:45Z",
-      "urlize_name": "Mmbtu-Per-Unit-Mm-San-Diego-miramar-Landfill-Gas-Internal-Combustion-diesel-Piston-Engine-Monthly"
+      "updated_at": "2014-03-13T21:54:43Z",
+      "urlize_name": "American-Metal-Tech-Inc-AMGY-Book-Debt-to-Capital-Ratio"
     },
     {
-      "code": "2835",
+      "code": "EXLN_BOOK_DC",
       "column_names": [
         "Date",
-        "Value"
+        "Book Debt to Capital Ratio"
       ],
-      "description": "Income - interest in arrears (debit)\nUnits: US$ (million)",
-      "display_url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=2835&dataInicio=31%2F12%2F1962&dataFim=09%2F11%2F2031&selTipoArqDownload=2&hdOidSeriesSelecionadas=2835",
-      "frequency": "monthly",
-      "from_date": "1983-02-28",
-      "id": 35918,
-      "name": "Income - interest in arrears (debit)",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4412409,
+      "name": "eXcelon Corp ( EXLN ) - Book Debt to Capital Ratio",
       "private": false,
-      "source_code": "BCB",
-      "source_name": "Central Bank of Brazil",
-      "to_date": "1994-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
       "type": null,
-      "updated_at": "2014-01-08T10:06:39Z",
-      "urlize_name": "Income-interest-in-arrears-debit"
+      "updated_at": "2014-03-13T21:55:03Z",
+      "urlize_name": "eXcelon-Corp-EXLN-Book-Debt-to-Capital-Ratio"
     },
     {
-      "code": "POP_SEX_AGE_NB_SEX_F_AGE_5YEARSBAND_TOTAL_AUT",
+      "code": "EXLN_CASH",
       "column_names": [
-        "Year",
-        "Value"
+        "Date",
+        "Cash"
       ],
-      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 6221053,
-      "name": "Population By Sex And Age, Female, Total - Austria",
+      "from_date": "2000-12-31",
+      "id": 4412415,
+      "name": "eXcelon Corp ( EXLN ) - Cash",
       "private": false,
-      "source_code": "ILO",
-      "source_name": "International Labour Organization",
-      "to_date": "2010-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
       "type": null,
-      "updated_at": "2013-04-20T04:42:21Z",
-      "urlize_name": "Population-By-Sex-And-Age-Female-Total-Austria"
+      "updated_at": "2014-03-13T21:54:44Z",
+      "urlize_name": "eXcelon-Corp-EXLN-Cash"
+    },
+    {
+      "code": "MTRE_NET_MARG",
+      "column_names": [
+        "Date",
+        "Net Margin"
+      ],
+      "description": "Estimated by dividing the net income by the total revenues. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4710647,
+      "name": "Metrisa Inc ( MTRE ) - Net Margin",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T21:54:44Z",
+      "urlize_name": "Metrisa-Inc-MTRE-Net-Margin"
+    },
+    {
+      "code": "MTRE_NET_INC",
+      "column_names": [
+        "Date",
+        "Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4710645,
+      "name": "Metrisa Inc ( MTRE ) - Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T21:55:03Z",
+      "urlize_name": "Metrisa-Inc-MTRE-Net-Income"
+    },
+    {
+      "code": "PRHC_MKT_DE",
+      "column_names": [
+        "Date",
+        "Market Debt to Equity Ratio"
+      ],
+      "description": "Debt is defined as including both short term and long term debt (but not accounts payable or non-interest bearing liabilities), and the book value of debt is used as a proxy for market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5405965,
+      "name": "Province Healthcare ( PRHC ) - Market Debt to Equity Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T21:54:44Z",
+      "urlize_name": "Province-Healthcare-PRHC-Market-Debt-to-Equity-Ratio"
+    },
+    {
+      "code": "PRHC_NCWC",
+      "column_names": [
+        "Date",
+        "Non-Cash Working Capital"
+      ],
+      "description": "Non-Cash Working Capital = Inventory + Other Current Assets + Accounts Receivable - Accounts Payable - Other Current Liabilities.  Current Assets excludes cash.  Current Liabilities excludes interest bearing debt. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5405969,
+      "name": "Province Healthcare ( PRHC ) - Non-Cash Working Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T21:54:44Z",
+      "urlize_name": "Province-Healthcare-PRHC-Non-Cash-Working-Capital"
+    },
+    {
+      "code": "MTRE_OP_MARG",
+      "column_names": [
+        "Date",
+        "Pre-Tax Operating Margin"
+      ],
+      "description": "Estimated by dividing the pre-tax operating income by the total revenues. This is a pre-tax measure of operating profitability: Pre-tax Operating Margin = EBIT / Sales. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6165507,
+      "name": "Metrisa Inc ( MTRE ) - Pre-Tax Operating Margin",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T21:55:03Z",
+      "urlize_name": "Metrisa-Inc-MTRE-Pre-Tax-Operating-Margin"
+    },
+    {
+      "code": "EXLN_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4412417,
+      "name": "eXcelon Corp ( EXLN ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T21:55:03Z",
+      "urlize_name": "eXcelon-Corp-EXLN-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "EXLN_BV_ASSETS",
+      "column_names": [
+        "Date",
+        "Book Value of Assets"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4412411,
+      "name": "eXcelon Corp ( EXLN ) - Book Value of Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T21:55:03Z",
+      "urlize_name": "eXcelon-Corp-EXLN-Book-Value-of-Assets"
+    },
+    {
+      "code": "CKN_STDEV",
+      "column_names": [
+        "Date",
+        "3-year Standard Deviation of Stock Price"
+      ],
+      "description": "The standard deviation in monthly stock prices, annualized. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4172577,
+      "name": "Cash Systems Inc. ( CKN ) - 3-year Standard Deviation of Stock Price",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T21:54:45Z",
+      "urlize_name": "Cash-Systems-Inc-CKN-3-year-Standard-Deviation-of-Stock-Price"
+    },
+    {
+      "code": "MTRE_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4710692,
+      "name": "Metrisa Inc ( MTRE ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T21:54:45Z",
+      "urlize_name": "Metrisa-Inc-MTRE-Trailing-Net-Income"
+    },
+    {
+      "code": "MTRE_REV_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4710697,
+      "name": "Metrisa Inc ( MTRE ) - Trailing Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T21:55:04Z",
+      "urlize_name": "Metrisa-Inc-MTRE-Trailing-Revenues"
+    },
+    {
+      "code": "MTRE_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "FCFF = EBIT(1-t) - (Capital Expenditures - Depreciation) - Change in Non-Cash Working Capital. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4710615,
+      "name": "Metrisa Inc ( MTRE ) - Free Cash Flow to Firm",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T21:55:04Z",
+      "urlize_name": "Metrisa-Inc-MTRE-Free-Cash-Flow-to-Firm"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "BCB",
-      "concurrency": 20,
-      "datasets_count": 11808,
-      "description": "No description for this source yet",
-      "host": "www3.bcb.gov.br",
-      "id": 35,
-      "name": "Central Bank of Brazil",
-      "use_proxy": false
-    },
-    {
-      "code": "EIA",
-      "concurrency": 20,
-      "datasets_count": 427809,
-      "description": "No description for this source yet",
-      "host": "www.api.eia.gov",
-      "id": 661,
-      "name": "U.S. Energy Information Administration",
-      "use_proxy": false
-    },
-    {
-      "code": "ILO",
-      "concurrency": 20,
-      "datasets_count": 228980,
-      "description": "No description for this source yet",
-      "host": "www.ilo.org",
-      "id": 686,
-      "name": "International Labour Organization",
-      "use_proxy": false
-    },
-    {
-      "code": "WHO",
-      "concurrency": 20,
-      "datasets_count": 21456,
-      "description": "",
-      "host": "apps.who.int",
-      "id": 525,
-      "name": "World Health Organization",
-      "use_proxy": false
-    },
-    {
-      "code": "UN",
-      "concurrency": 10000,
-      "datasets_count": 2100274,
-      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
-      "host": "data.un.org",
-      "id": 488,
-      "name": "United Nations",
-      "use_proxy": false
-    },
-    {
-      "code": "EUROSTAT",
-      "concurrency": 100,
-      "datasets_count": 320722,
-      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
-      "host": "epp.eurostat.ec.europa.eu",
-      "id": 194,
-      "name": "EuroStat",
-      "use_proxy": false
-    },
-    {
-      "code": "IBGE",
-      "concurrency": 20,
-      "datasets_count": 110418,
-      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
-      "host": "seriesestatisticas.ibge.gov.br",
-      "id": 725,
-      "name": "Brazilian Institute of Geography and Statistics",
-      "use_proxy": false
-    },
-    {
-      "code": "AUSBS",
-      "concurrency": 10,
-      "datasets_count": 5239,
-      "description": "Australia\u2019s official statistical organisation, the Australian Bureau of Statistics (ABS) is committed to a better informed Australia.",
-      "host": "www.abs.gov.au/",
-      "id": 719,
-      "name": "Australian Bureau of Statistics",
-      "use_proxy": false
-    },
-    {
-      "code": "BLS",
-      "concurrency": 10,
-      "datasets_count": 5888,
-      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
-      "host": "www.bls.gov",
-      "id": 162,
-      "name": "Bureau of Labor Statistics",
-      "use_proxy": false
-    }
-  ],
-  "total_count": 10036987
+  "sources": [{
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
+  }],
+  "total_count": 10147268
 }

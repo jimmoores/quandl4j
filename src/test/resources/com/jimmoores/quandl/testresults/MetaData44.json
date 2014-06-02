@@ -1,409 +1,445 @@
 {
-  "current_page": 356376,
+  "current_page": 312939,
   "docs": [
     {
-      "code": "62340_7A_A592048R",
+      "code": "COMM_29_CALCIUMHYDROGENORTHOPHOSPHATE_IMPORT_TTO",
       "column_names": [
-        "Date",
-        "Value"
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
       ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/AUSSTATS/free.nsf/log?openagent&62340_7a.xls&6234.0&Time%20Series%20Spreadsheet&F695013C019242CACA25702200036FF6&&Mar%202005&16.06.2005&Latest",
-      "frequency": "quarterly",
-      "from_date": "1983-08-31",
-      "id": 7913061,
-      "name": "Wage and Salary Earners, States and Territories, Industry ('000): Employment;  Victoria;  Government Administration and Defence; (000)",
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 3220431,
+      "name": "Commodity Imports - Inorganic Chemicals, Precious Metal Compound, Isotope / Calcium hydrogen-orthophosphate - Trinidad and Tobago",
       "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "2004-11-30",
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
       "type": null,
-      "updated_at": "2014-05-24T21:20:44Z",
-      "urlize_name": "Wage-and-Salary-Earners-States-and-Territories-Industry-000-Employment-Victoria-Government-Administration-and-Defence-000"
+      "updated_at": "2014-01-13T02:45:10Z",
+      "urlize_name": "Commodity-Imports-Inorganic-Chemicals-Precious-Metal-Compound-Isotope-Calcium-hydrogen-orthophosphate-Trinidad-and-Tobago"
     },
     {
-      "code": "642702_A2307683K",
+      "code": "TINORESANDCONCENTRATES_METRICTONS_BI",
       "column_names": [
-        "Date",
+        "Year",
         "Value"
       ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/AUSSTATS/ABS@Archive.nsf/log?openagent&642702.xls&6427.0.55.001&Time%20Series%20Spreadsheet&C31D7643D954FCC4CA257173000A7FBB&0&Feb%202006&03.03.2006&Previous",
-      "frequency": "quarterly",
-      "from_date": "1970-03-31",
-      "id": 7934286,
-      "name": "and 11. Articles Produced by Manufacturing Industries, Index Numbers and Percentage Changes: Index Numbers ;  276 Fabricated metal products ; (Index Numbers)",
+      "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 3299378,
+      "name": "Tin Ores And Concentrates / Metric Tons - Burundi",
       "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-05-24T21:20:27Z",
-      "urlize_name": "and-11-Articles-Produced-by-Manufacturing-Industries-Index-Numbers-and-Percentage-Changes-Index-Numbers-276-Fabricated-metal-products-Index-Numbers"
-    },
-    {
-      "code": "6291007A_A92926V",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&6291007a.xls&6204.0.55.001&Time%20Series%20Spreadsheet&D236D5F606AED287CA2575A9001437E3&0&February%202009&08.05.2003&Previous",
-      "frequency": "quarterly",
-      "from_date": "1986-08-31",
-      "id": 7911154,
-      "name": "Employed persons by Occupation and Sex  (Aug 1986 - May 1996): Employed Full Time ;  Clerks ;  Persons ; (000)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "1996-05-31",
-      "type": null,
-      "updated_at": "2014-05-24T21:17:10Z",
-      "urlize_name": "Employed-persons-by-Occupation-and-Sex-Aug-1986-May-1996-Employed-Full-Time-Clerks-Persons-000"
-    },
-    {
-      "code": "6291012A_A93101V",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&6291012a.xls&6204.0.55.001&Time%20Series%20Spreadsheet&5EC2F9BF5FE51860CA2575A900143AB3&0&February%202009&08.05.2003&Previous",
-      "frequency": "quarterly",
-      "from_date": "1986-08-31",
-      "id": 7911738,
-      "name": "Employed persons and Actual hours worked by Occupation and Sex (Aug 1986 - May 1996): Employed Total ;  Worked 1hr or more ;  Professionals ;  Males ; (000)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "1996-05-31",
-      "type": null,
-      "updated_at": "2014-05-24T20:20:18Z",
-      "urlize_name": "Employed-persons-and-Actual-hours-worked-by-Occupation-and-Sex-Aug-1986-May-1996-Employed-Total-Worked-1hr-or-more-Professionals-Males-000"
-    },
-    {
-      "code": "62340_7B_A612872V",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/AUSSTATS/free.nsf/log?openagent&62340_7b.xls&6234.0&Time%20Series%20Spreadsheet&ED4CC5B4B144B8B0CA25702200036FF8&&Mar%202005&16.06.2005&Latest",
-      "frequency": "quarterly",
-      "from_date": "1983-09-30",
-      "id": 7913302,
-      "name": "Gross Earnings, States and Territories, Industry ($m): Gross Earnings;  South Australia;  Agriculture, Forestry and Fishing; ($ Millions)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
+      "source_code": "UN",
+      "source_name": "United Nations",
       "to_date": "2004-12-31",
       "type": null,
-      "updated_at": "2014-05-24T21:17:22Z",
-      "urlize_name": "Gross-Earnings-States-and-Territories-Industry-m-Gross-Earnings-South-Australia-Agriculture-Forestry-and-Fishing-Millions"
+      "updated_at": "2014-01-13T02:51:27Z",
+      "urlize_name": "Tin-Ores-And-Concentrates-Metric-Tons-Burundi"
     },
     {
-      "code": "6291012A_A93220K",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&6291012a.xls&6204.0.55.001&Time%20Series%20Spreadsheet&5EC2F9BF5FE51860CA2575A900143AB3&0&February%202009&08.05.2003&Previous",
-      "frequency": "quarterly",
-      "from_date": "1986-08-31",
-      "id": 7911590,
-      "name": "Employed persons and Actual hours worked by Occupation and Sex (Aug 1986 - May 1996): Employed Part Time ;  Worked 1hr or more ;  Salespersons and Personal Service Workers ;  Persons ; (000)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "1996-05-31",
-      "type": null,
-      "updated_at": "2014-05-24T21:20:49Z",
-      "urlize_name": "Employed-persons-and-Actual-hours-worked-by-Occupation-and-Sex-Aug-1986-May-1996-Employed-Part-Time-Worked-1hr-or-more-Salespersons-and-Personal-Service-Workers-Persons-000"
-    },
-    {
-      "code": "GMP41700_GDP_TRANSPORTATIONANDWAREHOUSING_SANANTONIONEWBRAUNFELSTX",
+      "code": "FAO_46CONGO698CLOVES",
       "column_names": [
         "Year",
-        "Transportation And Warehousing"
+        "Import Quantity (tonnes)",
+        "Import Value (1000 US$)"
       ],
-      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
-      "display_url": "http://bea.gov/regional",
+      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_Africa_1.zip",
       "frequency": "annual",
-      "from_date": "2012-12-31",
-      "id": 8205199,
-      "name": "GDP: Transportation and warehousing - San Antonio-New Braunfels, TX",
+      "from_date": "1961-12-31",
+      "id": 7670870,
+      "name": "Trade Crops Livestock: Cloves - Congo",
       "private": false,
-      "source_code": "BEA",
-      "source_name": "Bureau of Economic Analysis",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-25T22:23:33Z",
-      "urlize_name": "GDP-Transportation-and-warehousing-San-Antonio-New-Braunfels-TX"
-    },
-    {
-      "code": "62340_7A_A592139W",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/AUSSTATS/free.nsf/log?openagent&62340_7a.xls&6234.0&Time%20Series%20Spreadsheet&F695013C019242CACA25702200036FF6&&Mar%202005&16.06.2005&Latest",
-      "frequency": "quarterly",
-      "from_date": "1994-11-30",
-      "id": 7913237,
-      "name": "Wage and Salary Earners, States and Territories, Industry ('000): Standard Error;  Northern Territory;  Personal and Other Services; (000)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "2004-11-30",
-      "type": null,
-      "updated_at": "2014-05-24T21:10:43Z",
-      "urlize_name": "Wage-and-Salary-Earners-States-and-Territories-Industry-000-Standard-Error-Northern-Territory-Personal-and-Other-Services-000"
-    },
-    {
-      "code": "GMP41700_REAL_UTILITIES_SANANTONIONEWBRAUNFELSTX",
-      "column_names": [
-        "Year",
-        "Utilities"
-      ],
-      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
-      "display_url": "http://bea.gov/regional",
-      "frequency": "annual",
-      "from_date": "2012-12-31",
-      "id": 8205397,
-      "name": "Real GDP: Utilities - San Antonio-New Braunfels, TX",
-      "private": false,
-      "source_code": "BEA",
-      "source_name": "Bureau of Economic Analysis",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-25T22:23:35Z",
-      "urlize_name": "Real-GDP-Utilities-San-Antonio-New-Braunfels-TX"
-    },
-    {
-      "code": "62340_3_A591166K",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/AUSSTATS/free.nsf/log?openagent&62340_3.xls&6234.0&Time%20Series%20Spreadsheet&1317C58E1AA6EF49CA25702200036FF2&&Mar%202005&16.06.2005&Latest",
-      "frequency": "quarterly",
-      "from_date": "1983-08-31",
-      "id": 7912769,
-      "name": "Wage and Salary Earners, State Government, States and Territories ('000): Employment;  New South Wales; (000)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "2004-11-30",
-      "type": null,
-      "updated_at": "2014-05-24T21:10:42Z",
-      "urlize_name": "Wage-and-Salary-Earners-State-Government-States-and-Territories-000-Employment-New-South-Wales-000"
-    },
-    {
-      "code": "6291012A_A94458C",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&6291012a.xls&6204.0.55.001&Time%20Series%20Spreadsheet&5EC2F9BF5FE51860CA2575A900143AB3&0&February%202009&08.05.2003&Previous",
-      "frequency": "quarterly",
-      "from_date": "1986-08-31",
-      "id": 7912578,
-      "name": "Employed persons and Actual hours worked by Occupation and Sex (Aug 1986 - May 1996): Average actual hours worked ;  60 hours or more ;  Para-Professionals ;  Males ; (Hours)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "1996-05-31",
-      "type": null,
-      "updated_at": "2014-05-24T21:20:51Z",
-      "urlize_name": "Employed-persons-and-Actual-hours-worked-by-Occupation-and-Sex-Aug-1986-May-1996-Average-actual-hours-worked-60-hours-or-more-Para-Professionals-Males-Hours"
-    },
-    {
-      "code": "6291012A_A94423C",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&6291012a.xls&6204.0.55.001&Time%20Series%20Spreadsheet&5EC2F9BF5FE51860CA2575A900143AB3&0&February%202009&08.05.2003&Previous",
-      "frequency": "quarterly",
-      "from_date": "1986-08-31",
-      "id": 7912562,
-      "name": "Employed persons and Actual hours worked by Occupation and Sex (Aug 1986 - May 1996): Average actual hours worked ;  50-59 hours ;  Salespersons and Personal Service Workers ;  Persons ; (Hours)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "1996-05-31",
-      "type": null,
-      "updated_at": "2014-05-24T21:20:44Z",
-      "urlize_name": "Employed-persons-and-Actual-hours-worked-by-Occupation-and-Sex-Aug-1986-May-1996-Average-actual-hours-worked-50-59-hours-Salespersons-and-Personal-Service-Workers-Persons-Hours"
-    },
-    {
-      "code": "6291012A_A94428R",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&6291012a.xls&6204.0.55.001&Time%20Series%20Spreadsheet&5EC2F9BF5FE51860CA2575A900143AB3&0&February%202009&08.05.2003&Previous",
-      "frequency": "quarterly",
-      "from_date": "1986-08-31",
-      "id": 7912565,
-      "name": "Employed persons and Actual hours worked by Occupation and Sex (Aug 1986 - May 1996): Average actual hours worked ;  50-59 hours ;  Plant and Machine Operators, and Drivers ;  Persons ; (Hours)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "1996-05-31",
-      "type": null,
-      "updated_at": "2014-05-24T21:20:48Z",
-      "urlize_name": "Employed-persons-and-Actual-hours-worked-by-Occupation-and-Sex-Aug-1986-May-1996-Average-actual-hours-worked-50-59-hours-Plant-and-Machine-Operators-and-Drivers-Persons-Hours"
-    },
-    {
-      "code": "62340_7B_A613152R",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/AUSSTATS/free.nsf/log?openagent&62340_7b.xls&6234.0&Time%20Series%20Spreadsheet&ED4CC5B4B144B8B0CA25702200036FF8&&Mar%202005&16.06.2005&Latest",
-      "frequency": "quarterly",
-      "from_date": "1983-09-30",
-      "id": 7913312,
-      "name": "Gross Earnings, States and Territories, Industry ($m): Gross Earnings;  South Australia;  Health and Community Services; ($ Millions)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "2004-12-31",
-      "type": null,
-      "updated_at": "2014-05-24T21:17:14Z",
-      "urlize_name": "Gross-Earnings-States-and-Territories-Industry-m-Gross-Earnings-South-Australia-Health-and-Community-Services-Millions"
-    },
-    {
-      "code": "62340_3_A591168R",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/AUSSTATS/free.nsf/log?openagent&62340_3.xls&6234.0&Time%20Series%20Spreadsheet&1317C58E1AA6EF49CA25702200036FF2&&Mar%202005&16.06.2005&Latest",
-      "frequency": "quarterly",
-      "from_date": "1983-08-31",
-      "id": 7912770,
-      "name": "Wage and Salary Earners, State Government, States and Territories ('000): Employment;  Victoria; (000)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "2004-11-30",
-      "type": null,
-      "updated_at": "2014-05-24T21:10:34Z",
-      "urlize_name": "Wage-and-Salary-Earners-State-Government-States-and-Territories-000-Employment-Victoria-000"
-    },
-    {
-      "code": "GMP41700_REAL_ACCOMMODATION_SANANTONIONEWBRAUNFELSTX",
-      "column_names": [
-        "Year",
-        "Accommodation"
-      ],
-      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
-      "display_url": "http://bea.gov/regional",
-      "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 8205487,
-      "name": "Real GDP: Accommodation - San Antonio-New Braunfels, TX",
-      "private": false,
-      "source_code": "BEA",
-      "source_name": "Bureau of Economic Analysis",
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-01-25T22:23:41Z",
-      "urlize_name": "Real-GDP-Accommodation-San-Antonio-New-Braunfels-TX"
+      "updated_at": "2014-01-13T02:45:12Z",
+      "urlize_name": "Trade-Crops-Livestock-Cloves-Congo"
     },
     {
-      "code": "GMP41940_GDP_AGRICULTUREFORESTRYFISHINGANDHUNTING_SANJOSESUNNYVALESANTACLARACA",
+      "code": "FAO_196SEYCHELLES2914VEGETABLEOILSTOTAL",
       "column_names": [
         "Year",
-        "Agriculture, Forestry, Fishing, And Hunting"
+        "Production Quantity (tonnes)",
+        "Import Quantity (tonnes)",
+        "Stock Variation (tonnes)",
+        "Export Quantity (tonnes)",
+        "Domestic supply quantity (tonnes)",
+        "Food (tonnes)",
+        "Other Util (tonnes)"
       ],
-      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
-      "display_url": "http://bea.gov/regional",
+      "description": "Commodity balances show balances of food and agricultural commodities in a standardized form. The scope of standardization is to present these data in a less detailed form for a selected number of commodities without causing any significant loss of the basic variables monitoring the agricultural sector. The selected commodities include the equivalents of their derived products falling in the same commodity group, but exclude the equivalents of by-products and derived commodities, which through processing, change their nature and become part of different commodity groups. The commodity list in this domain has been generally confined to primary commodities - except for sugar, oils and fats and beverages. Whenever possible trade in processed commodities is expressed in the originating primary commodity equivalent. Rice is expressed in milled equivalent.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/CommodityBalances_Crops_E_Africa_1.zip",
       "frequency": "annual",
-      "from_date": "2012-12-31",
-      "id": 8206284,
-      "name": "GDP: Agriculture, forestry, fishing, and hunting - San Jose-Sunnyvale-Santa Clara, CA",
+      "from_date": "1961-12-31",
+      "id": 7776169,
+      "name": "Commodity Balances Crops: Vegetable Oils + (Total) - Seychelles",
       "private": false,
-      "source_code": "BEA",
-      "source_name": "Bureau of Economic Analysis",
-      "to_date": "2012-12-31",
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
       "type": null,
-      "updated_at": "2014-01-25T22:23:42Z",
-      "urlize_name": "GDP-Agriculture-forestry-fishing-and-hunting-San-Jose-Sunnyvale-Santa-Clara-CA"
+      "updated_at": "2014-01-11T18:48:50Z",
+      "urlize_name": "Commodity-Balances-Crops-Vegetable-Oils-Total-Seychelles"
     },
     {
-      "code": "62340_3_A591150T",
+      "code": "COMM_84_HANDORFOOTOPERATEDAIRPUMPS_IMPORT_IRN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1997-12-31",
+      "id": 4705512,
+      "name": "Commodity Imports - Nuclear Reactors, Boilers, Machinery, Etc / Hand or foot-operated air pumps - Iran (Islamic Republic of)",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T02:45:13Z",
+      "urlize_name": "Commodity-Imports-Nuclear-Reactors-Boilers-Machinery-Etc-Hand-or-foot-operated-air-pumps-Iran-Islamic-Republic-of"
+    },
+    {
+      "code": "DIOP_K28F_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/AUSSTATS/free.nsf/log?openagent&62340_3.xls&6234.0&Time%20Series%20Spreadsheet&1317C58E1AA6EF49CA25702200036FF2&&Mar%202005&16.06.2005&Latest",
-      "frequency": "quarterly",
-      "from_date": "1983-08-31",
-      "id": 7912754,
-      "name": "Wage and Salary Earners, State Government, States and Territories ('000): Employment;  Queensland; (000)",
+      "description": "seasonal_adjustment='SA', base_period='2010', price='CONS', index_period='2010'",
+      "display_url": "http://www.ons.gov.uk/ons/datasets-and-tables/downloads/csv.csv?dataset=diop",
+      "frequency": "annual",
+      "from_date": "1949-12-31",
+      "id": 8475046,
+      "name": "IOP: CB:Manufacture of textiles wearing apparel and leather prod: CVMSA: monm gr (Annual)",
       "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "2004-11-30",
+      "source_code": "UKONS",
+      "source_name": "United Kingdom Office of National Statistics",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-05-24T21:10:35Z",
-      "urlize_name": "Wage-and-Salary-Earners-State-Government-States-and-Territories-000-Employment-Queensland-000"
+      "updated_at": "2014-01-13T02:45:16Z",
+      "urlize_name": "IOP-CB-Manufacture-of-textiles-wearing-apparel-and-leather-prod-CVMSA-monm-gr-Annual"
     },
     {
-      "code": "GMP41940_GDP_UTILITIES_SANJOSESUNNYVALESANTACLARACA",
+      "code": "COMM_41_HARDRUBBEREGEBONITEINALLFORMSARTICLESSCRAP_IMPORT_UGA",
       "column_names": [
         "Year",
-        "Utilities"
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
       ],
-      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
-      "display_url": "http://bea.gov/regional",
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "2012-12-31",
-      "id": 8206296,
-      "name": "GDP: Utilities - San Jose-Sunnyvale-Santa Clara, CA",
+      "from_date": "1994-12-31",
+      "id": 3637274,
+      "name": "Commodity Imports - Rubber And Articles Thereof / Hard rubber (eg ebonite) in all forms, articles,scrap - Uganda",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-04-15T02:26:27Z",
+      "urlize_name": "Commodity-Imports-Rubber-And-Articles-Thereof-Hard-rubber-eg-ebonite-in-all-forms-articles-scrap-Uganda"
+    },
+    {
+      "code": "IND_ELECTRICFILAMENTORDISCHARGELAMPSARCLAMPS_MILUSD_PT",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1998-12-31",
+      "id": 3362628,
+      "name": "Industrial Commodities / Electric Filament Or Discharge Lamps; Arc Lamps / Mil. Usd - Portugal",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T02:45:10Z",
+      "urlize_name": "Industrial-Commodities-Electric-Filament-Or-Discharge-Lamps-Arc-Lamps-Mil-Usd-Portugal"
+    },
+    {
+      "code": "GMP12940_QUANTITY_FOODANDBEVERAGEANDTOBACCOPRODUCTMANUFACTURING_BATONROUGELA",
+      "column_names": [],
+      "description": "Indexes. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+      "display_url": "http://bea.gov/regional",
+      "frequency": null,
+      "from_date": null,
+      "id": 8150831,
+      "name": "Quantity Indexes for Real GDP: Food and beverage and tobacco product manufacturing - Baton Rouge, LA",
       "private": false,
       "source_code": "BEA",
       "source_name": "Bureau of Economic Analysis",
-      "to_date": "2012-12-31",
+      "to_date": null,
       "type": null,
-      "updated_at": "2014-01-25T22:23:43Z",
-      "urlize_name": "GDP-Utilities-San-Jose-Sunnyvale-Santa-Clara-CA"
+      "updated_at": "2013-09-12T19:52:24Z",
+      "urlize_name": "Quantity-Indexes-for-Real-GDP-Food-and-beverage-and-tobacco-product-manufacturing-Baton-Rouge-LA"
     },
     {
-      "code": "GMP41940_REAL_UTILITIES_SANJOSESUNNYVALESANTACLARACA",
+      "code": "FAO_178ERITREA149ROOTSANDTUBERSNES",
       "column_names": [
         "Year",
-        "Utilities"
+        "Gross Production Value (constant 2004-2006 million SLC) (SLC)",
+        "Gross Production Value (current million SLC) (SLC)",
+        "Gross Production Value (current million US$) (USD)",
+        "Gross Production Value (constant 2004-2006 million US$) (USD)",
+        "Gross Production Value (constant 2004-2006 1000 I$) (1000 Int. $)",
+        "Net Production Value (constant 2004-2006 1000 I$) (1000 Int. $)"
       ],
+      "description": "The Agricultural Production domain covers quantity produced, producer price, value at farmgate, area harvested, yield per hectare. Users may note that a new methodology for imputing non-reported/missing Production domain data has been implemented in 2011.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Value_of_Production_E_Africa_1.zip",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 7632593,
+      "name": "Value of Production: Roots and Tubers, nes - Eritrea",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T02:45:10Z",
+      "urlize_name": "Value-of-Production-Roots-and-Tubers-nes-Eritrea"
+    },
+    {
+      "code": "TRNG_AES_170_52",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Adult Education Survey is part of the EU Statistics on lifelong learning. The surveys have been carried out by countries in the EU, EFTA and candidate countries between 2005 and 2008. The EU AES is a pilot exercise which for the first time proposed a common EU framework including a standard questionnaire, tools and quality reporting.\r\nAES data from approximately half of the participating countries will be disseminated in autumn 2008 and the second part in mid 2009\r\nThe survey covers participation in education and lifelong learning activities (formal, non-formal and informal learning) including job-related activities, characteristics of learning activities, self-reported skills as well as modules on social and cultural participation, foreign language skills, IT skills and background variables related to main characteristics of the respondents.\r\nParameters and main variables\r\nThe AES in all the participating countries focused on the following parameters:\r\nParticipation in formal, non-formal and informal education (FED, NFE, INF)\r\nNon-participation and obstacles to participation in training\r\nParticipation in FED, NFE and INF activities by field of education/learning\r\nShare of the job related NFE\r\nVolume of instruction hours in FED and NFE\r\nEmployer financing and costs of learning in FED and NFE\r\nModule on language and ICT skills of the population\r\nModule on social and cultural participation of the population\r\n\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_aes_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_aes_170.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 584000,
+      "name": "Distribution of nonformal education and training activities by provider  : Percentage of total : Employer : Bulgaria",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-07-09T01:21:40Z",
+      "urlize_name": "Distribution-of-nonformal-education-and-training-activities-by-provider-Percentage-of-total-Employer-Bulgaria"
+    },
+    {
+      "code": "GMP17140_GDP_HOSPITALSANDNURSINGANDRESIDENTIALCAREFACILITIES_CINCINNATIMIDDLETOWNOHKYIN",
+      "column_names": [],
       "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
       "display_url": "http://bea.gov/regional",
-      "frequency": "annual",
-      "from_date": "2012-12-31",
-      "id": 8206488,
-      "name": "Real GDP: Utilities - San Jose-Sunnyvale-Santa Clara, CA",
+      "frequency": null,
+      "from_date": null,
+      "id": 8159322,
+      "name": "GDP: Hospitals and nursing and residential care facilities - Cincinnati-Middletown, OH-KY-IN",
       "private": false,
       "source_code": "BEA",
       "source_name": "Bureau of Economic Analysis",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2013-09-12T20:46:01Z",
+      "urlize_name": "GDP-Hospitals-and-nursing-and-residential-care-facilities-Cincinnati-Middletown-OH-KY-IN"
+    },
+    {
+      "code": "1293_001598844_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Without object, Power=1. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1293",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 8035900,
+      "name": "Gross operating surplus and gross mixed income - Hungary - Millions of euro (from 1.1.1999)/Millions of ECU (up to 31.12.1998)",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-08-27T10:17:12Z",
+      "urlize_name": "Gross-operating-surplus-and-gross-mixed-income-Hungary-Millions-of-euro-from-1-1-1999-Millions-of-ECU-up-to-31-12-1998"
+    },
+    {
+      "code": "COMM_64_TARPAULINSAWNINGSANDSUNBLINDSOFSYNTHETICFIBRE_IMPORT_BGD",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 3983175,
+      "name": "Commodity Imports - Other Made Textile Articles, Sets, Worn Clothing Etc / Tarpaulins, awnings and sunblinds, of synthetic fibre - Bangladesh",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T02:45:10Z",
+      "urlize_name": "Commodity-Imports-Other-Made-Textile-Articles-Sets-Worn-Clothing-Etc-Tarpaulins-awnings-and-sunblinds-of-synthetic-fibre-Bangladesh"
+    },
+    {
+      "code": "COMM_26_NATURALCALCIUMPHOSPHATESGROUND_IMPORT_SYC",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 3060380,
+      "name": "Commodity Imports - Salt, Sulphur, Earth, Stone, Plaster, Lime And Cement / Natural calcium phosphates, ground - Seychelles",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T02:45:10Z",
+      "urlize_name": "Commodity-Imports-Salt-Sulphur-Earth-Stone-Plaster-Lime-And-Cement-Natural-calcium-phosphates-ground-Seychelles"
+    },
+    {
+      "code": "COMM_26_AGGLOMERATEDDOLOMITEINCLUDINGTARREDDOLOMITE_EXPORT_UGA",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 3063136,
+      "name": "Commodity Exports - Salt, Sulphur, Earth, Stone, Plaster, Lime And Cement / Agglomerated dolomite (including tarred dolomite) - Uganda",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T02:51:27Z",
+      "urlize_name": "Commodity-Exports-Salt-Sulphur-Earth-Stone-Plaster-Lime-And-Cement-Agglomerated-dolomite-including-tarred-dolomite-Uganda"
+    },
+    {
+      "code": "COMM_53_GARNETTEDSTOCKOFCOTTON_EXPORT_GBR",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 3735104,
+      "name": "Commodity Exports - Cotton / Garnetted stock of cotton - United Kingdom of Great Britain and Northern Ireland",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-25T22:23:43Z",
-      "urlize_name": "Real-GDP-Utilities-San-Jose-Sunnyvale-Santa-Clara-CA"
+      "updated_at": "2014-01-13T02:52:43Z",
+      "urlize_name": "Commodity-Exports-Cotton-Garnetted-stock-of-cotton-United-Kingdom-of-Great-Britain-and-Northern-Ireland"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_95_DFO_IC_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Barrels. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.95-DFO-IC.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.95-DFO-IC.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4891569,
+      "name": "Fuel Consumption Quantity : Wrangell : Distillate Fuel Oil : Internal Combustion (diesel, Piston) Engine : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T14:40:26Z",
+      "urlize_name": "Fuel-Consumption-Quantity-Wrangell-Distillate-Fuel-Oil-Internal-Combustion-diesel-Piston-Engine-Annual"
+    },
+    {
+      "code": "IND_CYCLICHYDROCARBONS_METRICTONS_HR",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 3343782,
+      "name": "Industrial Commodities / Cyclic Hydrocarbons / Metric Tons - Croatia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T02:45:10Z",
+      "urlize_name": "Industrial-Commodities-Cyclic-Hydrocarbons-Metric-Tons-Croatia"
+    },
+    {
+      "code": "1028_11420000",
+      "column_names": [
+        "Date",
+        "Persons"
+      ],
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "display_url": "http://data.ssb.no/api/v0/dataset/1028.csv?lang=en",
+      "frequency": "annual",
+      "from_date": "2013-12-31",
+      "id": 7902457,
+      "name": "Population, by basic statistical unit - 11 Rogaland part 2 111-116 - Ikke koblet",
+      "private": false,
+      "source_code": "STATNOR",
+      "source_name": "Statistics Norway",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T13:07:39Z",
+      "urlize_name": "Population-by-basic-statistical-unit-11-Rogaland-part-2-111-116-Ikke-koblet"
     }
   ],
   "per_page": 20,
   "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
+    },
     {
       "code": "BEA",
       "datasets_count": 107459,
@@ -413,13 +449,45 @@
       "name": "Bureau of Economic Analysis"
     },
     {
-      "code": "AUSBS",
-      "datasets_count": 5239,
-      "description": "Australia\u2019s official statistical organisation, the Australian Bureau of Statistics (ABS) is committed to a better informed Australia.",
-      "host": "www.abs.gov.au/",
-      "id": 719,
-      "name": "Australian Bureau of Statistics"
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
+      "code": "STATNOR",
+      "datasets_count": 0,
+      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+      "host": "data.ssb.no",
+      "id": 912,
+      "name": "Statistics Norway"
+    },
+    {
+      "code": "UKONS",
+      "datasets_count": 3566,
+      "description": "\r\nThe UK National Statistics Publication Hub is the gateway to the latest statistics release each day by government departments in the UK.",
+      "host": "www.ons.gov.uk",
+      "id": 491,
+      "name": "United Kingdom Office of National Statistics"
     }
   ],
-  "total_count": 10036987
+  "total_count": 10147268
 }

@@ -1,21 +1,21 @@
 {
-  "code": "SLF_DEMP_RT_SEX_T_ECO_AGGREGATE_CON_M_ESP",
+  "code": "POP_22_CHL_FEM_URB_28",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Number"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+  "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2002-02-28",
-  "id": 12681546,
-  "name": "Share Of Self-Employed In Total Employment In Construction - Monthly - Spain",
+  "frequency": "annual",
+  "from_date": "1991-12-31",
+  "id": 2645085,
+  "name": "Population - Female / Age 28 / Urban Areas - Chile",
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2013-11-30",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2007-12-31",
   "type": null,
-  "updated_at": "2014-05-29T14:12:01Z",
-  "urlize_name": "Share-Of-Self-Employed-In-Total-Employment-In-Construction-Monthly-Spain"
+  "updated_at": "2014-01-13T00:27:23Z",
+  "urlize_name": "Population-Female-Age-28-Urban-Areas-Chile"
 }

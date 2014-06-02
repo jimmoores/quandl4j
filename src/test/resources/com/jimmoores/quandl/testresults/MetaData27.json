@@ -1,415 +1,415 @@
 {
-  "current_page": 55265,
+  "current_page": 23381,
   "docs": [
     {
-      "code": "SKVI_CHG_NCWC",
+      "code": "MCITY_NUMBEROFHOMESFORSALE_ALLHOMES_ROSEMOUNTMN",
       "column_names": [
         "Date",
-        "Change in Non-Cash Working Capital"
+        "Rosemount"
       ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 5429952,
-      "name": "Skinvisible Inc ( SKVI ) - Change in Non-Cash Working Capital",
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7270528,
+      "name": "Zillow Metrics (Cities): Homes for Sale (Beta) - Rosemount, MN",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2010-12-31",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
       "type": null,
-      "updated_at": "2014-03-22T04:35:39Z",
-      "urlize_name": "Skinvisible-Inc-SKVI-Change-in-Non-Cash-Working-Capital"
+      "updated_at": "2014-03-11T23:50:31Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Sale-Beta-Rosemount-MN"
     },
     {
-      "code": "AEZ_TO_CASH_REV",
+      "code": "MCITY_NUMBEROFHOMESFORSALE_ALLHOMES_MANVELTX",
       "column_names": [
         "Date",
-        "Cash as Percentage of Revenues"
+        "Manvel"
       ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 3899422,
-      "name": "AEterna Zentaris Inc ( AEZ.TO ) - Cash as Percentage of Revenues",
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7273420,
+      "name": "Zillow Metrics (Cities): Homes for Sale (Beta) - Manvel, TX",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-12-31",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
       "type": null,
-      "updated_at": "2014-03-22T04:35:40Z",
-      "urlize_name": "AEterna-Zentaris-Inc-AEZ-TO-Cash-as-Percentage-of-Revenues"
+      "updated_at": "2014-03-11T23:50:31Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Sale-Beta-Manvel-TX"
     },
     {
-      "code": "ZCOI_EV_CAP",
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_NORTHWESTDALLASDALLASTX",
       "column_names": [
         "Date",
-        "EV to Invested Capital Ratio"
+        "Value"
       ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 5353891,
-      "name": "Ziegler Companies Inc. ( ZCOI ) - EV to Invested Capital Ratio",
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-01-31",
+      "id": 7551942,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Northwest Dallas,Dallas,TX",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2004-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:40Z",
-      "urlize_name": "Ziegler-Companies-Inc-ZCOI-EV-to-Invested-Capital-Ratio"
-    },
-    {
-      "code": "SLM_ROE",
-      "column_names": [
-        "Date",
-        "Return on Equity"
-      ],
-      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-12-31",
-      "id": 5434780,
-      "name": "USA Education ( SLM ) - Return on Equity",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:20Z",
-      "urlize_name": "USA-Education-SLM-Return-on-Equity"
-    },
-    {
-      "code": "WLSE_REV_GRO",
-      "column_names": [
-        "Date",
-        "Previous Year Growth in Revenues"
-      ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 5572801,
-      "name": "Wilshire Enterprises ( WLSE ) - Previous Year Growth in Revenues",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:20Z",
-      "urlize_name": "Wilshire-Enterprises-WLSE-Previous-Year-Growth-in-Revenues"
-    },
-    {
-      "code": "IBXG_REV_TRAIL",
-      "column_names": [
-        "Date",
-        "Trailing Revenues"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 4567195,
-      "name": "iBX Group Inc. ( IBXG ) - Trailing Revenues",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:20Z",
-      "urlize_name": "iBX-Group-Inc-IBXG-Trailing-Revenues"
-    },
-    {
-      "code": "ACE_P_BV",
-      "column_names": [
-        "Date",
-        "Price to Book Value Ratio"
-      ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 3875064,
-      "name": "Ace Limited ( ACE ) - Price to Book Value Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:40Z",
-      "urlize_name": "Ace-Limited-ACE-Price-to-Book-Value-Ratio"
-    },
-    {
-      "code": "MANU_MKT_DE",
-      "column_names": [
-        "Date",
-        "Market Debt to Equity Ratio"
-      ],
-      "description": "Debt is defined as including both short term and long term debt (but not accounts payable or non-interest bearing liabilities), and the book value of debt is used as a proxy for market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-02-28",
-      "id": 4652323,
-      "name": "Manchester United Ltd. ( MANU ) - Market Debt to Equity Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-02-28",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:41Z",
-      "urlize_name": "Manchester-United-Ltd-MANU-Market-Debt-to-Equity-Ratio"
-    },
-    {
-      "code": "ISTO_TRAD_VOL",
-      "column_names": [
-        "Date",
-        "Trading Volume"
-      ],
-      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 6148571,
-      "name": "Internet Studios.Com Inc ( ISTO ) - Trading Volume",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:20Z",
-      "urlize_name": "Internet-Studios-Com-Inc-ISTO-Trading-Volume"
-    },
-    {
-      "code": "JLL_REV_LAST",
-      "column_names": [
-        "Date",
-        "Revenues"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 4615605,
-      "name": "Jones Lang Lasalle Inc. ( JLL ) - Revenues",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:21Z",
-      "urlize_name": "Jones-Lang-Lasalle-Inc-JLL-Revenues"
-    },
-    {
-      "code": "SLM_ROC",
-      "column_names": [
-        "Date",
-        "Return on Capital"
-      ],
-      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-12-31",
-      "id": 5434778,
-      "name": "USA Education ( SLM ) - Return on Capital",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:22Z",
-      "urlize_name": "USA-Education-SLM-Return-on-Capital"
-    },
-    {
-      "code": "OCR_SGA",
-      "column_names": [
-        "Date",
-        "Sales General and Administration Expenses"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-12-31",
-      "id": 6030313,
-      "name": "Omnicare, Inc. ( OCR ) - Sales General and Administration Expenses",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:43Z",
-      "urlize_name": "Omnicare-Inc-OCR-Sales-General-and-Administration-Expenses"
-    },
-    {
-      "code": "MSM_INST_HOLD",
-      "column_names": [
-        "Date",
-        "Institutional Holdings"
-      ],
-      "description": "Number of shares held by mutual funds, pension funds and trusts as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-08-27",
-      "id": 4705115,
-      "name": "MSC Indl Direct ( MSM ) - Institutional Holdings",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-08-27",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:23Z",
-      "urlize_name": "MSC-Indl-Direct-MSM-Institutional-Holdings"
-    },
-    {
-      "code": "LBAI_SGA",
-      "column_names": [
-        "Date",
-        "Sales General and Administration Expenses"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 4651836,
-      "name": "Lakeland Bancorp ( LBAI ) - Sales General and Administration Expenses",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:43Z",
-      "urlize_name": "Lakeland-Bancorp-LBAI-Sales-General-and-Administration-Expenses"
-    },
-    {
-      "code": "RPRS_ROE",
-      "column_names": [
-        "Date",
-        "Return on Equity"
-      ],
-      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 5380755,
-      "name": "Republic Resources Inc ( RPRS ) - Return on Equity",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2003-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T04:35:23Z",
-      "urlize_name": "Republic-Resources-Inc-RPRS-Return-on-Equity"
-    },
-    {
-      "code": "AMTD_ROC",
-      "column_names": [
-        "Date",
-        "Return on Capital"
-      ],
-      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2001-09-30",
-      "id": 3959149,
-      "name": "TD Ameritrade Holding Corp. ( AMTD ) - Return on Capital",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
       "to_date": "2013-09-30",
       "type": null,
-      "updated_at": "2014-03-22T04:35:43Z",
-      "urlize_name": "TD-Ameritrade-Holding-Corp-AMTD-Return-on-Capital"
+      "updated_at": "2014-05-15T20:20:12Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Northwest-Dallas-Dallas-TX"
     },
     {
-      "code": "AEA_TRAD_VOL",
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_ROCKDALEATLANTAGA",
       "column_names": [
         "Date",
-        "Trading Volume"
+        "Value"
       ],
-      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 3894986,
-      "name": "Advance Amer Cash Advance Ctrs ( AEA ) - Trading Volume",
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-10-31",
+      "id": 7552425,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Rockdale,Atlanta,GA",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2010-12-31",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-06-30",
       "type": null,
-      "updated_at": "2014-03-22T04:35:43Z",
-      "urlize_name": "Advance-Amer-Cash-Advance-Ctrs-AEA-Trading-Volume"
+      "updated_at": "2014-05-15T20:20:14Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Rockdale-Atlanta-GA"
     },
     {
-      "code": "SLM_NET_INC",
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_FRIENDSOFKARLWYLERELPASOTX",
       "column_names": [
         "Date",
-        "Net Income"
+        "Value"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5434762,
-      "name": "USA Education ( SLM ) - Net Income",
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-12-31",
+      "id": 7552045,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Friends of Karl Wyler,El Paso,TX",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-06-30",
       "type": null,
-      "updated_at": "2014-03-22T04:35:23Z",
-      "urlize_name": "USA-Education-SLM-Net-Income"
+      "updated_at": "2014-05-15T20:19:40Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Friends-of-Karl-Wyler-El-Paso-TX"
     },
     {
-      "code": "IBXG_BETA_VL",
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_CAPITALVIEWSTIFFLITTLEROCKAR",
       "column_names": [
         "Date",
-        "Value Line Beta"
+        "Value"
       ],
-      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 4567197,
-      "name": "iBX Group Inc. ( IBXG ) - Value Line Beta",
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-08-31",
+      "id": 6946828,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Capital View-Stiff,Little Rock,AR",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
       "type": null,
-      "updated_at": "2014-03-22T04:35:44Z",
-      "urlize_name": "iBX-Group-Inc-IBXG-Value-Line-Beta"
+      "updated_at": "2014-05-07T19:12:29Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Capital-View-Stiff-Little-Rock-AR"
     },
     {
-      "code": "WLSE_INTANG_TOT",
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_NORTHERNWOODSCOLUMBUSOH",
       "column_names": [
         "Date",
-        "Ratio of Intangible Assets to Total Assets"
+        "Value"
       ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 5572803,
-      "name": "Wilshire Enterprises ( WLSE ) - Ratio of Intangible Assets to Total Assets",
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-08-31",
+      "id": 6945198,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Northern Woods,Columbus,OH",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-12-31",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
       "type": null,
-      "updated_at": "2014-03-22T04:35:44Z",
-      "urlize_name": "Wilshire-Enterprises-WLSE-Ratio-of-Intangible-Assets-to-Total-Assets"
+      "updated_at": "2014-05-07T19:12:55Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Northern-Woods-Columbus-OH"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_WINDHOVERORLANDOFL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-02-29",
+      "id": 7552483,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Windhover,Orlando,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:35:47Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Windhover-Orlando-FL"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_THREECHOPTRICHMONDVA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-08-31",
+      "id": 6947013,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Three Chopt,Richmond,VA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T20:20:11Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Three-Chopt-Richmond-VA"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_SANTACLARADAYTONOH",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2013-02-28",
+      "id": 7552128,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Santa Clara,Dayton,OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-05-15T20:19:26Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Santa-Clara-Dayton-OH"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_BERKELEYPARKATLANTAGA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-10-31",
+      "id": 7552256,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Berkeley Park,Atlanta,GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T20:19:42Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Berkeley-Park-Atlanta-GA"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_VINECITYATLANTAGA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-02-28",
+      "id": 7551915,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Vine City,Atlanta,GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-05-08T07:36:00Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Vine-City-Atlanta-GA"
+    },
+    {
+      "code": "CITY_4BEDROOM_BRICESCREEKNC",
+      "column_names": [
+        "Date",
+        "Brices Creek"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of four bedroom homes within the city of Brices Creek, NC. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_4bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7029884,
+      "name": "Zillow Home Value Index (Cities): Four Bedroom Homes - Brices Creek, NC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-11T23:50:32Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Four-Bedroom-Homes-Brices-Creek-NC"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_CARVERWASHINGTONDC",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-03-31",
+      "id": 6946923,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Carver,Washington,DC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T20:19:37Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Carver-Washington-DC"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_TRIANGLESTATEAUSTINTX",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 7552163,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Triangle State,Austin,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:12:54Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Triangle-State-Austin-TX"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_MOUNTWASHINGTONLOSANGELESCA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-02-29",
+      "id": 6945037,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Mount Washington,Los Angeles,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:35:57Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Mount-Washington-Los-Angeles-CA"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_CABRINIGREENCHICAGOIL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-04-30",
+      "id": 7552106,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Cabrini Green,Chicago,IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-05-08T07:36:36Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Cabrini-Green-Chicago-IL"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORSALE_ALLHOMES_SUFFERNNY",
+      "column_names": [
+        "Date",
+        "Suffern"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7276367,
+      "name": "Zillow Metrics (Cities): Homes for Sale (Beta) - Suffern, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-11T23:50:33Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Sale-Beta-Suffern-NY"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_WESTSLOPEBEAVERTONOR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-10-31",
+      "id": 6947046,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - West Slope,Beaverton,OR",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-05-31",
+      "type": null,
+      "updated_at": "2014-05-15T20:18:48Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-West-Slope-Beaverton-OR"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORRENT_ALLHOMES_CROSSROADSBELLEVUEWA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-01-31",
+      "id": 6946095,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Rent (Beta) - Crossroads,Bellevue,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-05-08T07:35:58Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Rent-Beta-Crossroads-Bellevue-WA"
     }
   ],
   "per_page": 20,
   "sources": [{
-    "code": "DMDRN",
-    "datasets_count": 0,
-    "description": "",
-    "host": "pages.stern.nyu.edu/~adamodar/",
-    "id": 6946,
-    "name": "Damodaran Financial Data"
+    "code": "ZILLOW",
+    "datasets_count": 216313,
+    "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+    "host": "files.zillowstatic.com",
+    "id": 797,
+    "name": "Zillow Real Estate Research"
   }],
-  "total_count": 10036987
+  "total_count": 10147268
 }

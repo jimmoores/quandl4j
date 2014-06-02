@@ -1,18 +1,21 @@
 {
-  "code": "GMP47260_GDP_RENTALANDLEASINGSERVICESANDLESSORSOFINTANGIBLEASSETS_VIRGINIABEACHNORFOLKNEWPORTNEWSVANC",
-  "column_names": [],
-  "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
-  "display_url": "http://bea.gov/regional",
+  "code": "DSWT_REINV_RATE",
+  "column_names": [
+    "Date",
+    "Reinvestment Rate"
+  ],
+  "description": "Reinvestment Rate = (Net Capital Expenditures + Change in WC) / EBIT(1-t). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
-  "frequency": null,
-  "from_date": null,
-  "id": 8218516,
-  "name": "GDP: Rental and leasing services and lessors of intangible assets - Virginia Beach-Norfolk-Newport News, VA-NC",
+  "frequency": "annual",
+  "from_date": "2003-12-31",
+  "id": 4251552,
+  "name": "DuraSwitch Inds Inc ( DSWT ) - Reinvestment Rate",
   "private": false,
-  "source_code": "BEA",
-  "source_name": "Bureau of Economic Analysis",
-  "to_date": null,
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2003-12-31",
   "type": null,
-  "updated_at": "2013-09-13T08:34:34Z",
-  "urlize_name": "GDP-Rental-and-leasing-services-and-lessors-of-intangible-assets-Virginia-Beach-Norfolk-Newport-News-VA-NC"
+  "updated_at": "2014-03-23T01:49:23Z",
+  "urlize_name": "DuraSwitch-Inds-Inc-DSWT-Reinvestment-Rate"
 }

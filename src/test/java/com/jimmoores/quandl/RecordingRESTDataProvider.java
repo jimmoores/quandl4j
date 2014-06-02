@@ -46,12 +46,15 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
   private CSVWriter _writer;
   private AtomicInteger _reponseNumber = new AtomicInteger();
   private File _rootPath;
+  private String _apiKeyString;
 
   /**
    * Construct an instance that attempts to save recording data in testdata/ resource directory.
    * Throws a QuandlRuntimeException if it can't find the testdata/ resource directory
+   * @param apiKey the Quandl API Key
    */
-  public RecordingRESTDataProvider() {
+  public RecordingRESTDataProvider(final String apiKey) {
+    _apiKeyString = QuandlSession.AUTH_TOKEN_PARAM_NAME + "=" + apiKey;
     File file;
     try {
       file = new File(RecordingRESTDataProvider.class.getResource("testdata/").toURI());
@@ -65,8 +68,10 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
   /**
    * Construct an instance.  If you don't know where to put the files, try the default constructor.
    * @param rootPath the directory to store URI, Filename and exception data in
+   * @param apiKey the Quandl API Key
    */
-  public RecordingRESTDataProvider(final File rootPath) {
+  public RecordingRESTDataProvider(final File rootPath, final String apiKey) {
+    _apiKeyString = QuandlSession.AUTH_TOKEN_PARAM_NAME + "=" + apiKey;
     initWriter(rootPath);
   }
   
@@ -89,7 +94,7 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
       clazz = e.getClass().getCanonicalName();
       message = e.getMessage();
     }
-    _writer.writeNext(new String[] { uri.toString(), file.getName(), clazz, message });
+    _writer.writeNext(new String[] { removeAPIToken(uri), file.getName(), clazz, message });
     try {
       _writer.flush(); // in case someone doesn't close - remember this is not performance sensitive.
     } catch (IOException ioe) {
@@ -151,6 +156,14 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
       QuandlRuntimeException ex = new QuandlRuntimeException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
+    }
+  }
+  
+  private String removeAPIToken(final URI uri) {
+    if (_apiKeyString != null) {
+      return uri.toString().replace(_apiKeyString, ""); 
+    } else {
+      return uri.toString();
     }
   }
   

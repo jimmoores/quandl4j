@@ -1,21 +1,21 @@
 {
-  "code": "SAVB_CHG_NCWC",
+  "code": "1350_001635200_A",
   "column_names": [
     "Date",
-    "Change in Non-Cash Working Capital"
+    "Value"
   ],
-  "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "Unit of measurement=Euros of the previous year, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1350",
+  "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2001-12-31",
-  "id": 5304680,
-  "name": "Savannah BanCorp. Inc. ( SAVB ) - Change in Non-Cash Working Capital",
+  "from_date": "1960-12-31",
+  "id": 8012701,
+  "name": "Annual national accounts base 2005 - Actual final consumption - Households excluding sole proprietorships - Transformation and preservation of meat and preparation of meat-based products - Price of previous year (volume)",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2004-12-31",
+  "source_code": "INSEE",
+  "source_name": "National Institute of Statistics and Economic Studies (France)",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-03-23T02:07:46Z",
-  "urlize_name": "Savannah-BanCorp-Inc-SAVB-Change-in-Non-Cash-Working-Capital"
+  "updated_at": "2014-01-10T12:05:26Z",
+  "urlize_name": "Annual-national-accounts-base-2005-Actual-final-consumption-Households-excluding-sole-proprietorships-Transformation-and-preservation-of-meat-and-preparation-of-meat-based-products-Price-of-previous-year-volume"
 }

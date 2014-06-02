@@ -1,21 +1,25 @@
 {
-  "code": "ADBE_PERCENTAGEOFEMPLOYEESELIGIBLECONTRIBUTION_A",
+  "code": "FRA_L8I3",
   "column_names": [
     "Date",
-    "Value"
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume"
   ],
-  "description": "SEC Name: PercentageOfEmployeesEligibleContribution",
-  "display_url": null,
+  "description": "No Description Available",
+  "display_url": "http://www.google.com/finance/historical?q=FRA%3AL8I3&startdate=Jan+1%2C+1990&output=csv",
   "errors": {},
   "frequency": "daily",
-  "from_date": "2010-12-03",
-  "id": 9956935,
-  "name": "ADOBE SYSTEMS INC  (ADBE): Annual Percentage Of Employees Eligible Contribution",
+  "from_date": "2011-01-03",
+  "id": 6285150,
+  "name": "LYXOR ETF EURO CASH (L8I3)",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2010-12-03",
+  "source_code": "GOOG",
+  "source_name": "Google Finance",
+  "to_date": "2014-05-30",
   "type": null,
-  "updated_at": "2014-02-19T02:13:35Z",
-  "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Percentage-Of-Employees-Eligible-Contribution"
+  "updated_at": "2014-06-02T01:50:05Z",
+  "urlize_name": "LYXOR-ETF-EURO-CASH-L8I3"
 }

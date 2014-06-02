@@ -52,6 +52,7 @@ public final class SearchRequest {
      * @return an instance of this Builder for the given query string.
      */
     public static Builder of(final String query) {
+      ArgumentChecker.notNull(query, "query");
       return new Builder(query);
     }
     

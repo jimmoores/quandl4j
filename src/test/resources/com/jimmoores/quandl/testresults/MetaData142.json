@@ -1,473 +1,415 @@
 {
-  "current_page": 129968,
+  "current_page": 401654,
   "docs": [
     {
-      "code": "EMP_SEX_AGE_EDU_NB_SEX_M_AGE_10YEARSBAND_65P_EDU_ISCED97_1_DEU",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 5781780,
-      "name": "Employment By Sex, Age And Education, Male, 65+, Primary Education Or First Stage Of Basic Education - Germany",
-      "private": false,
-      "source_code": "ILO",
-      "source_name": "International Labour Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2013-04-19T21:14:26Z",
-      "urlize_name": "Employment-By-Sex-Age-And-Education-Male-65-Primary-Education-Or-First-Stage-Of-Basic-Education-Germany"
-    },
-    {
-      "code": "EMP_SEX_AGE_EDU_NB_SEX_T_AGE_10YEARSBAND_15_24_EDU_ISCED97_4_ETH",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 5783855,
-      "name": "Employment By Sex, Age And Education, Total, 15-24, Post-secondary Non-tertiary Education - Ethiopia",
-      "private": false,
-      "source_code": "ILO",
-      "source_name": "International Labour Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2013-04-19T22:18:12Z",
-      "urlize_name": "Employment-By-Sex-Age-And-Education-Total-15-24-Post-secondary-Non-tertiary-Education-Ethiopia"
-    },
-    {
-      "code": "EMP_SEX_AGE_EDU_NB_SEX_T_AGE_10YEARSBAND_35_54_EDU_ISCED97_2_IRL",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 5788796,
-      "name": "Employment By Sex, Age And Education, Total, 35-54, Lower Secondary Or Second Stage Of Basic Education - Ireland",
-      "private": false,
-      "source_code": "ILO",
-      "source_name": "International Labour Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2013-04-20T00:39:45Z",
-      "urlize_name": "Employment-By-Sex-Age-And-Education-Total-35-54-Lower-Secondary-Or-Second-Stage-Of-Basic-Education-Ireland"
-    },
-    {
-      "code": "COMM_58_HANDMADERUGSINCLUDINGKELEMSCHUMACKSKARAMANIEET_REEXPORT_MAC",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1999-12-31",
-      "id": 3798836,
-      "name": "Commodity Re-Exports - Carpets And Other Textile Floor Coverings / Hand made rugs including Kelem,Schumacks,Karamanie,et - China, Macao SAR",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "1999-12-31",
-      "type": null,
-      "updated_at": "2013-12-28T19:58:34Z",
-      "urlize_name": "Commodity-Re-Exports-Carpets-And-Other-Textile-Floor-Coverings-Hand-made-rugs-including-Kelem-Schumacks-Karamanie-et-China-Macao-SAR"
-    },
-    {
-      "code": "IIUCON23817063100",
+      "code": "CVC_DISCONTINUEDOPERATIONGAINLOSSONDISPOSALOFDISCONTINUEDOPERATIONNETOFTAX_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Measure: Number of injury and illness cases (thousands); Case type: Cases involving days away from work; Industry: Siding contractors; Supersector: Construction; Area: Private industry, All U.S.; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUCON23817063100",
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 9071065,
-      "name": "Number of injury and illness cases (thousands) for Siding contractors, Private industry, All U.S.",
+      "description": "SEC Name: DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2007-12-31",
+      "id": 10156366,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Discontinued Operation Gain Loss On Disposal Of Discontinued Operation Net Of Tax",
       "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2013-11-15T16:49:51Z",
-      "urlize_name": "Number-of-injury-and-illness-cases-thousands-for-Siding-contractors-Private-industry-All-U-S"
-    },
-    {
-      "code": "OEUN000000042300043402101",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: Employment; Occupation: Correspondence Clerks; Industry: Merchant Wholesalers, Durable Goods; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000042300043402101",
-      "frequency": "annual",
-      "from_date": "2012-06-30",
-      "id": 9024711,
-      "name": "Employment for Correspondence Clerks in Merchant Wholesalers, Durable Goods in National",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
-      "type": null,
-      "updated_at": "2013-11-16T10:01:28Z",
-      "urlize_name": "Employment-for-Correspondence-Clerks-in-Merchant-Wholesalers-Durable-Goods-in-National"
-    },
-    {
-      "code": "1209_000881846_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1209",
-      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
-      "frequency": "annual",
-      "from_date": "1959-12-31",
-      "id": 8292993,
-      "name": "Effective households' consumption, base 2000 - Value in euros of 2000 - Product: K02.B - Road passenger transport, except regular bus and motor coach services - Stopped series",
-      "private": false,
-      "source_code": "INSEE",
-      "source_name": "National Institute of Statistics and Economic Studies (France)",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T06:44:11Z",
-      "urlize_name": "Effective-households-consumption-base-2000-Value-in-euros-of-2000-Product-K02-B-Road-passenger-transport-except-regular-bus-and-motor-coach-services-Stopped-series"
-    },
-    {
-      "code": "COMM_85_ELECTRICCONDUCTORS801000VOLTSWITHCONNECTORS_EXPORT_AUS",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1994-12-31",
-      "id": 5262943,
-      "name": "Commodity Exports - Electrical, Electronic Equipment / Electric conductors, 80-1,000 volts, with connectors - Australia",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2003-12-31",
-      "type": null,
-      "updated_at": "2013-05-19T11:50:17Z",
-      "urlize_name": "Commodity-Exports-Electrical-Electronic-Equipment-Electric-conductors-80-1-000-volts-with-connectors-Australia"
-    },
-    {
-      "code": "EMP_SEX_AGE_EDU_NB_SEX_T_AGE_10YEARSBAND_15_24_EDU_ISCED97_6_SVK",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 5784310,
-      "name": "Employment By Sex, Age And Education, Total, 15-24, Second Stage Of Tertiary Education (leading To An Advanced Research Qualification) - Slovakia",
-      "private": false,
-      "source_code": "ILO",
-      "source_name": "International Labour Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2013-04-19T22:30:55Z",
-      "urlize_name": "Employment-By-Sex-Age-And-Education-Total-15-24-Second-Stage-Of-Tertiary-Education-leading-To-An-Advanced-Research-Qualification-Slovakia"
-    },
-    {
-      "code": "IIUCON2383304V137",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Measure: Number of illness cases (thousands); Case type: Total recordable cases of hearing loss; Industry: Flooring contractors; Supersector: Construction; Area: Private industry, North Carolina; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUCON2383304V137",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 9096285,
-      "name": "Number of illness cases (thousands) for Flooring contractors, Private industry, North Carolina",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2013-11-16T03:54:20Z",
-      "urlize_name": "Number-of-illness-cases-thousands-for-Flooring-contractors-Private-industry-North-Carolina"
-    },
-    {
-      "code": "OUT_OTHERFABRICATEDMETALPRODUCTSNEC_ERI",
-      "column_names": [
-        "Year",
-        "Number"
-      ],
-      "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 3293587,
-      "name": "Output (Local Currency) / Other fabricated metal products n.e.c. - Eritrea",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2013-03-28T17:05:59Z",
-      "urlize_name": "Output-Local-Currency-Other-fabricated-metal-products-n-e-c-Eritrea"
-    },
-    {
-      "code": "COMM_85_PARTSOFCYCLEVEHICLELIGHTSIGNALETCEQUIPMENT_IMPORT_BLR",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1993-12-31",
-      "id": 5266824,
-      "name": "Commodity Imports - Electrical, Electronic Equipment / Parts of cycle & vehicle light, signal, etc equipment - Belarus",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2013-05-19T16:06:12Z",
-      "urlize_name": "Commodity-Imports-Electrical-Electronic-Equipment-Parts-of-cycle-vehicle-light-signal-etc-equipment-Belarus"
-    },
-    {
-      "code": "IIUINF51110001106",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Measure: Rate of illness cases per 10,000 full-time workers; Case type: Total recordable cases; Industry: Newspaper, periodical, book, and directory publishers; Supersector: Information; Area: Private industry, California; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUINF51110001106",
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 9254544,
-      "name": "Rate of illness cases per 10,000 full-time workers for Newspaper, periodical, book, and directory publishers, Private industry, California",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2013-11-20T11:24:21Z",
-      "urlize_name": "Rate-of-illness-cases-per-10-000-full-time-workers-for-Newspaper-periodical-book-and-directory-publishers-Private-industry-California"
-    },
-    {
-      "code": "1008_02310910",
-      "column_names": [
-        "Date",
-        "Persons"
-      ],
-      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
-      "display_url": "http://data.ssb.no/api/v0/dataset/1008.csv?lang=en",
-      "frequency": "annual",
-      "from_date": "2013-12-31",
-      "id": 7895456,
-      "name": "Population, by basic statistical unit - 02 Akershus part 2 landkommuner 022-023 - Retten 10",
-      "private": false,
-      "source_code": "STATNOR",
-      "source_name": "Statistics Norway",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T11:47:19Z",
-      "urlize_name": "Population-by-basic-statistical-unit-02-Akershus-part-2-landkommuner-022-023-Retten-10"
-    },
-    {
-      "code": "EMP_SEX_AGE_EDU_NB_SEX_M_AGE_10YEARSBAND_55_64_EDU_ISCED97_6_URY",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 5780994,
-      "name": "Employment By Sex, Age And Education, Male, 55-64, Second Stage Of Tertiary Education (leading To An Advanced Research Qualification) - Uruguay",
-      "private": false,
-      "source_code": "ILO",
-      "source_name": "International Labour Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2013-04-19T20:55:52Z",
-      "urlize_name": "Employment-By-Sex-Age-And-Education-Male-55-64-Second-Stage-Of-Tertiary-Education-leading-To-An-Advanced-Research-Qualification-Uruguay"
-    },
-    {
-      "code": "HSW_AW_WS2_147",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The harmonised data on accidents at work are collected in the framework of the European Statistics on Accidents at Work (ESAW), on the basis of a methodology developed in 1990.\r\nThe data refer to accidents at work resulting in more than 3 days' absence from work (serious accidents) and fatal accidents. A fatal accident is defined as an accident which leads to the death of a victim within one year of the accident.\r\nThe indicators used are the number and incidence rate of serious and fatal accidents at work.\r\nThe incidence rate of serious accidents at work is the number of persons involved in accidents at work with more than 3 days' absence per 100,000 persons in employment.\r\nThe incidence rate of fatal accidents at work is the number of persons with fatal accidents at work per 100,000 persons in employment.\r\nThe national ESAW sources are the declarations of accidents at work, either to the public (Social Security) or private specific insurance for accidents at work, or to other relevant national authority (Labour Inspection, etc.) for countries having a \"universal\" Social Security system. For the Netherlands only survey data are available for the non-fatal accidents at work (a special module in the national labour force survey).\r\nSector coverage:\r\nIn general the private sector is covered by all national reporting systems. However some important sectors are not covered by all Member States. The specification of sectors is given according to the NACE classification (NACE = Nomenclature statistique des activités économiques dans la Communauté européenne).\r\nThe incidence rate is calculated for the total of the so-called 9 common branches (See point 3.6).\r\nFor a structured metadata overview on variables, coverage of sectors and professional status please see also the annex Metadata_overview_2007.\r\nStatistical adjustments:\r\nBecause the frequency of work accidents is higher in some branches (high-risk sectors), an adjustment is performed to get more standardised incidence rates. For more details, please see the summary methodology (link at the bottom of the page).\r\nGeographical coverage:\r\nFor accidents at work, data are available for all old EU-Member States (EU 15) and Norway. The methodology has also been implemented in the New Member States and Switzerland with first data being available for the reference year 2004.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/hsw_acc7_work_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fhsw_aw_ws2.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 600236,
-      "name": "Incidence rate of accidents at work by type of workstation economic activity sex age and severity  : European Union : More than 3 days lost (4 days absence or more) : Total : Total : Males : Total",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-01-12T23:26:24Z",
-      "urlize_name": "Incidence-rate-of-accidents-at-work-by-type-of-workstation-economic-activity-sex-age-and-severity-European-Union-More-than-3-days-lost-4-days-absence-or-more-Total-Total-Males-Total"
-    },
-    {
-      "code": "110_MDV",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEX: Both sexes.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2379",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/NCD_GLUC_04&filter=SEX:BTSX;COUNTRY:MDV;\n",
-      "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9505158,
-      "name": "Raised fasting blood glucose (? 7.0 mmol/L or on medication)(age-standardized estimate) - Maldives",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2008-12-31",
-      "type": null,
-      "updated_at": "2014-01-12T23:26:24Z",
-      "urlize_name": "Raised-fasting-blood-glucose-7-0-mmol-L-or-on-medication-age-standardized-estimate-Maldives"
-    },
-    {
-      "code": "CROPSQUINCES_AREAHARVESTED_BOL",
-      "column_names": [
-        "Year",
-        "Ha"
-      ],
-      "description": "FAOSTAT provides access to over 3 million time-series and cross sectional data relating to food and agriculture. FAOSTAT contains data for 200 countries and more than 200 primary products and inputs in its core data set. The national version of FAOSTAT, CountrySTAT, is being implemented in about 20 countries and three regions. It offers a two-way bridge amongst sub-national, national, regional and international statistics on food and agriculture.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1961-12-31",
-      "id": 3159637,
-      "name": "Crops - Quinces / Area Harvested - Bolivia (Plurinational State of)",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
       "to_date": "2007-12-31",
       "type": null,
-      "updated_at": "2014-01-11T11:15:41Z",
-      "urlize_name": "Crops-Quinces-Area-Harvested-Bolivia-Plurinational-State-of"
+      "updated_at": "2014-03-07T19:40:37Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Discontinued-Operation-Gain-Loss-On-Disposal-Of-Discontinued-Operation-Net-Of-Tax"
     },
     {
-      "code": "NCU1307360200002",
+      "code": "CVC_GAINONDERIVATIVEINSTRUMENTSPRETAX_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Occupation: White collar occupations; Skills: Level 02 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU1307360200002",
-      "frequency": "annual",
-      "from_date": "1997-07-31",
-      "id": 9092484,
-      "name": "Compensation for White collar occupations in Level 02",
+      "description": "SEC Name: GainOnDerivativeInstrumentsPretax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10154245,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Gain On Derivative Instruments Pretax",
       "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "1997-07-31",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2010-12-31",
       "type": null,
-      "updated_at": "2013-11-15T22:11:10Z",
-      "urlize_name": "Compensation-for-White-collar-occupations-in-Level-02"
+      "updated_at": "2014-03-07T19:40:37Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Gain-On-Derivative-Instruments-Pretax"
     },
     {
-      "code": "COMM_87_DIESELPOWEREDTRUCKSWEIGHING520TONNES_REEXPORT_LCA",
+      "code": "CVC_AMORTIZATIONANDWRITEOFFOFPROGRAMRIGHTS_A",
       "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
+        "Date",
+        "Value"
       ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1994-12-31",
-      "id": 5713621,
-      "name": "Commodity Re-Exports - Vehicles Other Than Railway, Tramway / Diesel powered trucks weighing 5-20 tonnes - Saint Lucia",
+      "description": "SEC Name: AmortizationAndWriteOffOfProgramRights",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10154561,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Amortization And Write Off Of Program Rights",
       "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2008-12-31",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2010-12-31",
       "type": null,
-      "updated_at": "2014-01-11T11:08:12Z",
-      "urlize_name": "Commodity-Re-Exports-Vehicles-Other-Than-Railway-Tramway-Diesel-powered-trucks-weighing-5-20-tonnes-Saint-Lucia"
+      "updated_at": "2014-03-07T19:40:54Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Amortization-And-Write-Off-Of-Program-Rights"
+    },
+    {
+      "code": "CVC_PROVISIONFORDOUBTFULACCOUNTS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ProvisionForDoubtfulAccounts",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10146924,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Provision For Doubtful Accounts",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:37Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Provision-For-Doubtful-Accounts"
+    },
+    {
+      "code": "CVC_AMORTIZATIONOFFINANCINGCOSTSANDDISCOUNTS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AmortizationOfFinancingCostsAndDiscounts",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10145617,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Amortization Of Financing Costs And Discounts",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:55Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Amortization-Of-Financing-Costs-And-Discounts"
+    },
+    {
+      "code": "CVC_OTHERAMORTIZATIONOFDEFERREDCHARGES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherAmortizationOfDeferredCharges",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10154420,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Other Amortization Of Deferred Charges",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:55Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Other-Amortization-Of-Deferred-Charges"
+    },
+    {
+      "code": "CVC_INCREASEDECREASEINACCOUNTSRECEIVABLE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncreaseDecreaseInAccountsReceivable",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10146324,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Increase Decrease In Accounts Receivable",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:37Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Increase-Decrease-In-Accounts-Receivable"
+    },
+    {
+      "code": "CVC_INCREASEDECREASEINDEFERREDCHARGES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncreaseDecreaseInDeferredCharges",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10154160,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Increase Decrease In Deferred Charges",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:55Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Increase-Decrease-In-Deferred-Charges"
+    },
+    {
+      "code": "CVC_INCREASEDECREASEINACCOUNTSPAYABLE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncreaseDecreaseInAccountsPayable",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10146334,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Increase Decrease In Accounts Payable",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:55Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Increase-Decrease-In-Accounts-Payable"
+    },
+    {
+      "code": "CVC_INCREASEDECREASEINPROGRAMRIGHTS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncreaseDecreaseInProgramRights",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10154498,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Increase Decrease In Program Rights",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:38Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Increase-Decrease-In-Program-Rights"
+    },
+    {
+      "code": "CVC_INCREASEDECREASEINPREPAIDDEFERREDEXPENSEANDOTHERASSETS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10146379,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Increase Decrease In Prepaid Deferred Expense And Other Assets",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:38Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Increase-Decrease-In-Prepaid-Deferred-Expense-And-Other-Assets"
+    },
+    {
+      "code": "CVC_INCREASEDECREASEINPROGRAMRIGHTSOBLIGATIONS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncreaseDecreaseInProgramRightsObligations",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10154419,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Increase Decrease In Program Rights Obligations",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:56Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Increase-Decrease-In-Program-Rights-Obligations"
+    },
+    {
+      "code": "CVC_INCREASEDECREASEINACCRUEDLIABILITIES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncreaseDecreaseInAccruedLiabilities",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10146356,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Increase Decrease In Accrued Liabilities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:56Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Increase-Decrease-In-Accrued-Liabilities"
+    },
+    {
+      "code": "CVC_NETCASHPROVIDEDBYUSEDINOPERATINGACTIVITIESCONTINUINGOPERATIONS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10146633,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Net Cash Provided By Used In Operating Activities Continuing Operations",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:39Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Net-Cash-Provided-By-Used-In-Operating-Activities-Continuing-Operations"
+    },
+    {
+      "code": "CVC_PAYMENTSTOACQUIREPROPERTYPLANTANDEQUIPMENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PaymentsToAcquirePropertyPlantAndEquipment",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10146811,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Payments To Acquire Property Plant And Equipment",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:56Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Payments-To-Acquire-Property-Plant-And-Equipment"
+    },
+    {
+      "code": "CVC_INCREASEDECREASEINDEFERREDREVENUE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncreaseDecreaseInDeferredRevenue",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10146365,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Increase Decrease In Deferred Revenue",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:39Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Increase-Decrease-In-Deferred-Revenue"
+    },
+    {
+      "code": "CVC_INCREASEDECREASEINDEFERREDCARRIAGEPAYABLE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncreaseDecreaseInDeferredCarriagePayable",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10153579,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Increase Decrease In Deferred Carriage Payable",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:56Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Increase-Decrease-In-Deferred-Carriage-Payable"
+    },
+    {
+      "code": "CVC_PAYMENTSTOACQUIREBUSINESSESNETOFCASHACQUIRED_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PaymentsToAcquireBusinessesNetOfCashAcquired",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10149231,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Payments To Acquire Businesses Net Of Cash Acquired",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:39Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Payments-To-Acquire-Businesses-Net-Of-Cash-Acquired"
+    },
+    {
+      "code": "CVC_PROCEEDSFROMSALEOFPROPERTYPLANTANDEQUIPMENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ProceedsFromSaleOfPropertyPlantAndEquipment",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10146891,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Proceeds From Sale Of Property Plant And Equipment",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:57Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Proceeds-From-Sale-Of-Property-Plant-And-Equipment"
+    },
+    {
+      "code": "CVC_PROCEEDSFROMDIVESTITUREOFBUSINESSESANDINTERESTSINAFFILIATES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ProceedsFromDivestitureOfBusinessesAndInterestsInAffiliates",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2009-12-31",
+      "id": 10146887,
+      "name": "CABLEVISION SYSTEMS CORP /NY  (CVC): Annual Proceeds From Divestiture Of Businesses And Interests In Affiliates",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T19:40:57Z",
+      "urlize_name": "CABLEVISION-SYSTEMS-CORP-NY-CVC-Annual-Proceeds-From-Divestiture-Of-Businesses-And-Interests-In-Affiliates"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "ILO",
-      "datasets_count": 228980,
-      "description": "No description for this source yet",
-      "host": "www.ilo.org",
-      "id": 686,
-      "name": "International Labour Organization"
-    },
-    {
-      "code": "WHO",
-      "datasets_count": 21456,
-      "description": "",
-      "host": "apps.who.int",
-      "id": 525,
-      "name": "World Health Organization"
-    },
-    {
-      "code": "UN",
-      "datasets_count": 2100274,
-      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
-      "host": "data.un.org",
-      "id": 488,
-      "name": "United Nations"
-    },
-    {
-      "code": "EUROSTAT",
-      "datasets_count": 320722,
-      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
-      "host": "epp.eurostat.ec.europa.eu",
-      "id": 194,
-      "name": "EuroStat"
-    },
-    {
-      "code": "INSEE",
-      "datasets_count": 0,
-      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
-      "host": "www.insee.fr",
-      "id": 1097,
-      "name": "National Institute of Statistics and Economic Studies (France)"
-    },
-    {
-      "code": "STATNOR",
-      "datasets_count": 0,
-      "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
-      "host": "data.ssb.no",
-      "id": 912,
-      "name": "Statistics Norway"
-    },
-    {
-      "code": "BLS",
-      "datasets_count": 5888,
-      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
-      "host": "www.bls.gov",
-      "id": 162,
-      "name": "Bureau of Labor Statistics"
-    }
-  ],
-  "total_count": 10053489
+  "sources": [{
+    "code": "SEC",
+    "datasets_count": 4867,
+    "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+    "host": "www.sec.gov",
+    "id": 651,
+    "name": "U.S. Securities and Exchange Commission"
+  }],
+  "total_count": 10147268
 }

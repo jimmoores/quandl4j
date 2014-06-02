@@ -1,21 +1,21 @@
 {
-  "code": "TRNG_AES_105_303",
+  "code": "ELEC_PLANT_CONS_TOT_BTU_10837_WDS_ALL_M",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "The Adult Education Survey is part of the EU Statistics on lifelong learning. The surveys have been carried out by countries in the EU, EFTA and candidate countries between 2005 and 2008. The EU AES is a pilot exercise which for the first time proposed a common EU framework including a standard questionnaire, tools and quality reporting.\r\nAES data from approximately half of the participating countries will be disseminated in autumn 2008 and the second part in mid 2009\r\nThe survey covers participation in education and lifelong learning activities (formal, non-formal and informal learning) including job-related activities, characteristics of learning activities, self-reported skills as well as modules on social and cultural participation, foreign language skills, IT skills and background variables related to main characteristics of the respondents.\r\nParameters and main variables\r\nThe AES in all the participating countries focused on the following parameters:\r\nParticipation in formal, non-formal and informal education (FED, NFE, INF)\r\nNon-participation and obstacles to participation in training\r\nParticipation in FED, NFE and INF activities by field of education/learning\r\nShare of the job related NFE\r\nVolume of instruction hours in FED and NFE\r\nEmployer financing and costs of learning in FED and NFE\r\nModule on language and ICT skills of the population\r\nModule on social and cultural participation of the population\r\n\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_aes_esms.htm",
-  "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_aes_105.sdmx.zip",
+  "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.10837-WDS-ALL.M",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.10837-WDS-ALL.M&out=xml",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2007-12-31",
-  "id": 597741,
-  "name": "Participation rate in education and training by degree of urbanisation  : Percentage of total : Total : Finland : Non-formal education and training",
+  "frequency": "monthly",
+  "from_date": "2003-07-31",
+  "id": 5007950,
+  "name": "Fuel Consumption Mmbtus : Covanta Mendota : Wood/wood Waste Solids : All Primemovers : Monthly",
   "private": false,
-  "source_code": "EUROSTAT",
-  "source_name": "EuroStat",
-  "to_date": "2007-12-31",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-10T10:16:20Z",
-  "urlize_name": "Participation-rate-in-education-and-training-by-degree-of-urbanisation-Percentage-of-total-Total-Finland-Non-formal-education-and-training"
+  "updated_at": "2014-01-09T14:23:46Z",
+  "urlize_name": "Fuel-Consumption-Mmbtus-Covanta-Mendota-Wood-wood-Waste-Solids-All-Primemovers-Monthly"
 }

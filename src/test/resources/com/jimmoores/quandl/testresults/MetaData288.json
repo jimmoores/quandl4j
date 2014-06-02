@@ -1,21 +1,23 @@
 {
-  "code": "BLS_Q_LU_ALL_MFC_E_SME_B3_ST_S_FNET",
+  "code": "COMM_62_MENSBOYSNIGHTSHIRTSORPYJAMASOFCOTTONKNIT_EXPORT_MKD",
   "column_names": [
-    "Date",
-    "Unit described in title"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": " Luxembourg - All banks - Question on Impact of market financing competition - contract counterpart Enterprise, motivation Small and medium-sized enterprises - Backward looking three months - domain of Credit standards - Loan supply - Net percentage (frequency of tightened minus that of eased or reverse) , :, Dataset:BLS : Bank Lending Survey Statistics Explanation page (Series and Dataset Level Information), Reference area:Luxembourg (LU), Decimals:Two (2), Collection indicator:Beginning of period (B)",
-  "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484584&SERIES_KEY=258.BLS.Q.LU.ALL.MFC.E.SME.B3.ST.S.FNET&exportType=sdmx",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "quarterly",
-  "from_date": "2008-06-30",
-  "id": 11437586,
-  "name": "Luxembourg All banks Question on Impact of market financing competition contract counterpart Enterprise, motivation Small and medium-sized enterprises Backward looking three months domain of Credit standards Loan supply Net percentage",
+  "frequency": "annual",
+  "from_date": "2001-12-31",
+  "id": 3872524,
+  "name": "Commodity Exports - Articles Of Apparel, Accessories, Knit Or Crochet / Mens, boys nightshirts or pyjamas, of cotton, knit - TFYR of Macedonia",
   "private": false,
-  "source_code": "ECB",
-  "source_name": "European Central Bank",
-  "to_date": "2014-03-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-04-30T01:22:11Z",
-  "urlize_name": "Luxembourg-All-banks-Question-on-Impact-of-market-financing-competition-contract-counterpart-Enterprise-motivation-Small-and-medium-sized-enterprises-Backward-looking-three-months-domain-of-Credit-standards-Loan-supply-Net-percentage"
+  "updated_at": "2014-01-12T20:53:44Z",
+  "urlize_name": "Commodity-Exports-Articles-Of-Apparel-Accessories-Knit-Or-Crochet-Mens-boys-nightshirts-or-pyjamas-of-cotton-knit-TFYR-of-Macedonia"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "NNI_INTERESTRECEIVABLE_A",
+  "code": "REV_NET_INC",
   "column_names": [
     "Date",
-    "Value"
+    "Net Income"
   ],
-  "description": "SEC Name: InterestReceivable",
-  "display_url": null,
+  "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2010-12-31",
-  "id": 10497585,
-  "name": "NELNET INC  (NNI): Annual Interest Receivable",
+  "from_date": "2000-12-31",
+  "id": 5330916,
+  "name": "Revlon Inc. 'A' ( REV ) - Net Income",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-12-31",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-03-07T01:04:57Z",
-  "urlize_name": "NELNET-INC-NNI-Annual-Interest-Receivable"
+  "updated_at": "2014-03-22T00:53:49Z",
+  "urlize_name": "Revlon-Inc-A-REV-Net-Income"
 }

@@ -1,475 +1,415 @@
 {
-  "current_page": 225263,
+  "current_page": 54629,
   "docs": [
     {
-      "code": "IND_OILCORNCRUDEORREFINED_METRICTONS_LK",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 3328196,
-      "name": "Industrial Commodities / Oil, Corn, Crude Or Refined / Metric Tons - Sri Lanka",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2006-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T01:35:22Z",
-      "urlize_name": "Industrial-Commodities-Oil-Corn-Crude-Or-Refined-Metric-Tons-Sri-Lanka"
-    },
-    {
-      "code": "229_BWA",
+      "code": "SNV_EV_CAP",
       "column_names": [
         "Date",
-        "Value"
+        "EV to Invested Capital Ratio"
       ],
-      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2256",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/AIR_18&filter=COUNTRY:BWA;\n",
-      "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 9517672,
-      "name": "Indoor air pollution  attributable DALYs per 100'000 children under 5 years - Botswana",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2004-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T20:24:35Z",
-      "urlize_name": "Indoor-air-pollution-attributable-DALYs-per-100-000-children-under-5-years-Botswana"
-    },
-    {
-      "code": "1394_001647335_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Unit of measurement=Current euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1394",
-      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
-      "frequency": "annual",
-      "from_date": "1995-12-31",
-      "id": 8055661,
-      "name": "Annual national accounts base 2005 - Social benefits (D62+D63-part) - Central government bodies - Broadcasting and publishing services - Total of debited institutional sectors - Uses or Assets - Current price",
-      "private": false,
-      "source_code": "INSEE",
-      "source_name": "National Institute of Statistics and Economic Studies (France)",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T03:36:25Z",
-      "urlize_name": "Annual-national-accounts-base-2005-Social-benefits-D62-D63-part-Central-government-bodies-Broadcasting-and-publishing-services-Total-of-debited-institutional-sectors-Uses-or-Assets-Current-price"
-    },
-    {
-      "code": "HTEC_EARN_SEX_394",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "'Statistics on high-tech industry and knowledge-intensive services' (sometimes referred to as simply 'high-tech statistics') comprise economic, employment and Science, technology and innovation (STI) data describing manufacturing and services industries broken down by technological intensity. The domain uses various other domains and sources mainly within Eurostat's official statistics (CIS, COMEXT, HRST, LFS, SBS, SES, PAT and R&D). Its coverage is therefore dependent on these other primary sources. Two main approaches are used in the domain to identify technology-intensity: the sectoral approach and the product approach. A third approach is used for data on high-tech and biotechnology patents aggregated on the basis of the International Patent Classification.  (See summary table under 21.3 for which approach is used by each type of data.)\r\nThe sectoral approach:The sectoral approach is an aggregation of the manufacturing industries according to technological intensity (R&D expenditure/value added) and based on the Statistical Classification of Economic Activities in the European Community (NACE) at 3-digit level. The level of R&D intensity served as a criterion of classification of economic sectors into high-technology, medium high-technology, medium low-technology and low-technology industries. In some cases, due to restrictions of the data sources used, the aggregations are made at NACE 2-digit level.\r\nServices are mainly aggregated into knowledge-intensive services (KIS) and less knowledge-intensive services (LKIS) based on the share of tertiary educated persons at NACE 2-digit level.\r\nThe sectoral approach is used for all indicators except data on high-tech trade and patents. Note that due to the revision of the NACE from NACE Rev. 1.1 to NACE Rev. 2 the definition of high-technology industries and knowledge-intensive services changed. For high-tech statistics it means that two different definitions (one according NACE Rev. 1.1 and one according NACE Rev. 2) are used in parallel and the data according to both NACE versions are presented in separated tables depending on the data availability. For example as the LFS provided the results both by NACE Rev. 1.1 and NACE Rev. 2, all the table using this source have been duplicated to present the results by NACE Rev. 2 from 2008. For more details, see both definitions of high-tech sectors under 21.3.\r\nWithin the sectoral approach, a second classification has been created - Knowledge Intensive Activities - based on the share of tertiary educated people in each sectors of industries and services according to NACE at 2-digit level and for all EU 27 Member States. A threshold was then applied to rank sectors as knowledge intensive. In contrast to first sectoral approach mixing two methodologies one for manufacturing industries and one for services, the KIA classification is based on one methodology for all the sectors of industries and services.\r\nThe aggregations in use are total Knowledge Intensive Activities (KIA) and Knowledge Intensive Activities in Business Industries (KIABI). Note that due to revision of the NACE Rev.1.1 to NACE Rev. 2 the list of  Knowledge Intensive Activities has changed as well. The two definitions are used in parallel and the data according both NACE versions are shown in two separate tables. NACE Rev.2 collection includes data starting from 2008 reference year. For more details please see the definitions under 21.3.\r\nThe product approach:The product approach was devised to complement the sectoral approach. It opens the way to far more detailed analysis of trade. The product list is based on the calculations of R&D intensity by groups of products (R&D expenditure/total sales). The groups classified as high-technology products are aggregated on the basis of the Standard International Trade Classification (SITC). \r\nThe product approach is used for data on high-tech trade. Due to the revision of the SITC from SITC Rev. 3 to SITC Rev. 4 the definition of high-tech products has changed as well. The primary data source, COMEXT, has already implemented the new SITC Rev. 4. Two data collections are now available in high-tech domain for high-tech products: one by SITC Rev. 3 from 1995 to 2006 and second by SITC Rev. 4 from 2007.  For more details, see definition of high-tech products under 21.3.\r\nHigh-tech patents are defined according to another approach. The groups classified as high-tech patents are aggregated on the basis of the International Patent Classification (IPC 8th edition). Biotechnology patents are also aggregated on the basis of the IPC 8th edition. For more details, see the aggregation list of high-tech and biotechnology patents under 21.3.\r\nThe high-tech domain also comprises the sub-domain Venture Capital Investments. Data are provided by the European Private Equity and Venture Capital Association (EVCA). More details will be available in the Eurostat metadata specifically for Venture Capital Investments\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/htec_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fhtec_earn_sex.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 795828,
-      "name": "Mean annual earnings in hightech industries and KIS by sex SES 2002  : Males : Low-technology manufacturing (DA to DE and DN) : Norway",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2002-12-31",
-      "type": null,
-      "updated_at": "2013-05-11T14:59:18Z",
-      "urlize_name": "Mean-annual-earnings-in-hightech-industries-and-KIS-by-sex-SES-2002-Males-Low-technology-manufacturing-DA-to-DE-and-DN-Norway"
-    },
-    {
-      "code": "989_CHL",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1314",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000374&filter=COUNTRY:CHL;\n",
-      "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9592943,
-      "name": "Percentage of principal display area mandated to be covered by health warnings - front and back of cigarette packaging - Chile",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T10:17:29Z",
-      "urlize_name": "Percentage-of-principal-display-area-mandated-to-be-covered-by-health-warnings-front-and-back-of-cigarette-packaging-Chile"
-    },
-    {
-      "code": "ELEC_PLANT_CONS_TOT_52206_LFG_IC_M",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Mcf. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.52206-LFG-IC.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.52206-LFG-IC.M&out=xml",
-      "frequency": "monthly",
-      "from_date": "2003-01-31",
-      "id": 4880155,
-      "name": "Fuel Consumption Quantity : Oxnard : Landfill Gas : Internal Combustion (diesel, Piston) Engine : Monthly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2014-01-09T23:56:36Z",
-      "urlize_name": "Fuel-Consumption-Quantity-Oxnard-Landfill-Gas-Internal-Combustion-diesel-Piston-Engine-Monthly"
-    },
-    {
-      "code": "TRNG_CVTS3_74_211",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "CVTS2 and CVTS3 data were collected with reference year 1 1999 and 2005 and published by Eurostat in order to:\r\nProvide the Commission with harmonised, reliable and relevant statistical information needed to define, implement, monitor and evaluate Commission policies in the continuing vocational training in enterprises sector.\r\nProvide the EU institutions, national administrations, enterprises, professional associations and EU citizens with high quality statistical services and products in the field of training.\r\nCVTS3 provides comparable statistics on training enterprises, the participation to training, the volume of CVT courses and its costs, and moreover information on Initial vocational training (IVT) courses.\r\nCVTS2 provides comparable statistical results on training and non-training enterprises, the supply of and the demand for vocational skills, the need for CVT and the forms, content and volume of CVT, the use of enterprises' own training resources and of external providers, and the cost of CVT courses.\r\nThe CVTS1 was the first survey on continuing vocational training in enterprises carried out on the EU level in a co-ordinated form (outline questionnaire, common definitions, and common recommendations with the respect to the fieldwork). The survey therefore was of pioneering nature, and is not any longer disseminated.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_cvts_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_cvts3_74.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 651429,
-      "name": "Hours in CVT courses per employee CVT enterprises by sex and size class  : Number : Females : Sweden : From 10 to 19 employees",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2012-11-19T23:55:27Z",
-      "urlize_name": "Hours-in-CVT-courses-per-employee-CVT-enterprises-by-sex-and-size-class-Number-Females-Sweden-From-10-to-19-employees"
-    },
-    {
-      "code": "HOW_WHPF_SEX_STE_ECO1_NB_SEX_T_ECO_ISIC4_P_ESP",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 6179638,
-      "name": "Mean Weekly Hours Paid For Of Employees By Sex And Economic Activity, Total, Education - Spain",
-      "private": false,
-      "source_code": "ILO",
-      "source_name": "International Labour Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2013-04-19T14:00:56Z",
-      "urlize_name": "Mean-Weekly-Hours-Paid-For-Of-Employees-By-Sex-And-Economic-Activity-Total-Education-Spain"
-    },
-    {
-      "code": "IIUCON2382904W119",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Measure: Number of illness cases (thousands); Case type: Total recordable cases of respiratory illnesses; Industry: Other building equipment contractors; Supersector: Construction; Area: Private industry, Iowa; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUCON2382904W119",
-      "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9092794,
-      "name": "Number of illness cases (thousands) for Other building equipment contractors, Private industry, Iowa",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2013-11-15T22:36:40Z",
-      "urlize_name": "Number-of-illness-cases-thousands-for-Other-building-equipment-contractors-Private-industry-Iowa"
-    },
-    {
-      "code": "UNE_SEX_CAT_NB_SEX_T_CAT_UNE_PRE_QAT",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 6257001,
-      "name": "Unemployment By Sex And Categories Of Unemployed Persons, Total, Previously Employed - Qatar",
-      "private": false,
-      "source_code": "ILO",
-      "source_name": "International Labour Organization",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2013-04-20T20:14:32Z",
-      "urlize_name": "Unemployment-By-Sex-And-Categories-Of-Unemployed-Persons-Total-Previously-Employed-Qatar"
-    },
-    {
-      "code": "COMM_84_WELDINGMACHINERYNOTGASOPERATED_REEXPORT_CYP",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 4640931,
-      "name": "Commodity Re-Exports - Nuclear Reactors, Boilers, Machinery, Etc / Welding machinery not gas-operated - Cyprus",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-12T20:04:15Z",
-      "urlize_name": "Commodity-Re-Exports-Nuclear-Reactors-Boilers-Machinery-Etc-Welding-machinery-not-gas-operated-Cyprus"
-    },
-    {
-      "code": "EST_BEVERAGES_IRN",
-      "column_names": [
-        "Year",
-        "Number"
-      ],
-      "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 3271646,
-      "name": "Establishments / Beverages - Iran (Islamic Republic of)",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2014-01-12T19:18:19Z",
-      "urlize_name": "Establishments-Beverages-Iran-Islamic-Republic-of"
-    },
-    {
-      "code": "COMM_84_WINCHESORCAPSTANSNES_EXPORT_SWZ",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
       "from_date": "2003-12-31",
-      "id": 5152183,
-      "name": "Commodity Exports - Nuclear Reactors, Boilers, Machinery, Etc / Winches or capstans nes - Swaziland",
+      "id": 5453472,
+      "name": "Synovus Financial ( SNV ) - EV to Invested Capital Ratio",
       "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2007-12-31",
-      "type": null,
-      "updated_at": "2013-05-28T01:20:50Z",
-      "urlize_name": "Commodity-Exports-Nuclear-Reactors-Boilers-Machinery-Etc-Winches-or-capstans-nes-Swaziland"
-    },
-    {
-      "code": "COMM_85_MANGANESEDIOXIDEPRIMARYCELLBATTERYVOLUME300C_EXPORT_BRN",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1997-12-31",
-      "id": 5272201,
-      "name": "Commodity Exports - Electrical, Electronic Equipment / Manganese dioxide primary cell/battery volume < 300 c - Brunei Darussalam",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-12T03:19:23Z",
-      "urlize_name": "Commodity-Exports-Electrical-Electronic-Equipment-Manganese-dioxide-primary-cell-battery-volume-300-c-Brunei-Darussalam"
+      "updated_at": "2014-03-22T04:31:35Z",
+      "urlize_name": "Synovus-Financial-SNV-EV-to-Invested-Capital-Ratio"
     },
     {
-      "code": "479_COM",
+      "code": "MCO_FIRM_VAL",
       "column_names": [
         "Date",
-        "Value"
+        "Firm Value"
       ],
-      "description": "SEX: Female.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2378",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/SA_0000001441&filter=SEX:FMLE;COUNTRY:COM;\n",
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 9548974,
-      "name": "Age-standardized death rates, drownings, per 100,000 Female - Comoros",
+      "from_date": "1999-12-31",
+      "id": 6063906,
+      "name": "Moody's Corp. ( MCO ) - Firm Value",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2004-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T20:24:35Z",
-      "urlize_name": "Age-standardized-death-rates-drownings-per-100-000-Female-Comoros"
-    },
-    {
-      "code": "COMM_8_POTATOESFROZENUNCOOKEDSTEAMEDORBOILED_IMPORT_US2",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 2870808,
-      "name": "Commodity Imports - Edible Vegetables And Certain Roots And Tubers / Potatoes, frozen, uncooked steamed or boiled - United States of America (after 1980 - incl. VI)",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T07:11:42Z",
-      "urlize_name": "Commodity-Imports-Edible-Vegetables-And-Certain-Roots-And-Tubers-Potatoes-frozen-uncooked-steamed-or-boiled-United-States-of-America-after-1980-incl-VI"
+      "updated_at": "2014-03-22T04:31:35Z",
+      "urlize_name": "Moody-s-Corp-MCO-Firm-Value"
     },
     {
-      "code": "UIS_EXPECTEDGROSSGRADUATIONRATIOGPI__KHM",
+      "code": "SNV_DIV_YLD",
       "column_names": [
-        "Year",
-        "Number"
+        "Date",
+        "Dividend Yield"
       ],
-      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
-      "display_url": "http://data.un.org/browse.aspx",
+      "description": "Dividend per share divided by the current stock price. We have used the current annualized dividend per share (obtained by quadrupling the last quarter\u2019s dividend per share). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "1998-12-31",
-      "id": 3568045,
-      "name": "Expected gross graduation ratio GPI - Cambodia",
+      "from_date": "1999-12-31",
+      "id": 5453464,
+      "name": "Synovus Financial ( SNV ) - Dividend Yield",
       "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:16Z",
+      "urlize_name": "Synovus-Financial-SNV-Dividend-Yield"
+    },
+    {
+      "code": "PATK_CAPEX",
+      "column_names": [
+        "Date",
+        "Capital Expenditures"
+      ],
+      "description": "This is the cumulated capital spending, as reported in the statement of cash flows, for the sector. It generally does not include acquisitions. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5302023,
+      "name": "Patrick Industries ( PATK ) - Capital Expenditures",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-01-11T00:34:23Z",
-      "urlize_name": "Expected-gross-graduation-ratio-GPI-Cambodia"
+      "updated_at": "2014-03-22T04:31:16Z",
+      "urlize_name": "Patrick-Industries-PATK-Capital-Expenditures"
     },
     {
-      "code": "COMM_73_BARRODNESALLOYSTEELNESNFWFORGED_IMPORT_CIV",
+      "code": "MPEL_BETA_VL",
       "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
+        "Date",
+        "Value Line Beta"
       ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "1995-12-31",
-      "id": 4152612,
-      "name": "Commodity Imports - Iron And Steel / Bar/rod nes, alloy steel nes, nfw forged - Cote d'Ivoire",
+      "from_date": "2011-12-31",
+      "id": 4689039,
+      "name": "Melco Crown Entertainment Limited ( MPEL ) - Value Line Beta",
       "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2010-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-01-11T04:57:31Z",
-      "urlize_name": "Commodity-Imports-Iron-And-Steel-Bar-rod-nes-alloy-steel-nes-nfw-forged-Cote-d-Ivoire"
+      "updated_at": "2014-03-22T04:31:17Z",
+      "urlize_name": "Melco-Crown-Entertainment-Limited-MPEL-Value-Line-Beta"
     },
     {
-      "code": "EMP_XEMP_SEX_ECO1_NB_SEX_T_ECO_ISIC3_A_URY",
+      "code": "VRSO_BV_EQTY",
       "column_names": [
-        "Year",
-        "Value"
+        "Date",
+        "Book Value of Equity"
       ],
-      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
-      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 5558507,
+      "name": "Verso Technologies Inc ( VRSO ) - Book Value of Equity",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:37Z",
+      "urlize_name": "Verso-Technologies-Inc-VRSO-Book-Value-of-Equity"
+    },
+    {
+      "code": "KCG_P_S",
+      "column_names": [
+        "Date",
+        "Price to Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
       "from_date": "2009-12-31",
-      "id": 6068655,
-      "name": "Employment By Sex And Economic Activity, Total, Agriculture, Hunting And Forestry - Uruguay",
+      "id": 6029206,
+      "name": "Knight Capital Group ( KCG ) - Price to Sales Ratio",
       "private": false,
-      "source_code": "ILO",
-      "source_name": "International Labour Organization",
-      "to_date": "2010-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2013-04-23T07:38:51Z",
-      "urlize_name": "Employment-By-Sex-And-Economic-Activity-Total-Agriculture-Hunting-And-Forestry-Uruguay"
+      "updated_at": "2014-03-22T04:31:37Z",
+      "urlize_name": "Knight-Capital-Group-KCG-Price-to-Sales-Ratio"
     },
     {
-      "code": "EMP_PROCESSINGOFNUCLEARFUEL_SVK",
+      "code": "MBRK_REV_GRO",
       "column_names": [
-        "Year",
-        "Number"
+        "Date",
+        "Previous Year Growth in Revenues"
       ],
-      "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
-      "display_url": "http://data.un.org/browse.aspx",
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 3269335,
-      "name": "Employees / Processing of nuclear fuel - Slovakia",
+      "from_date": "2007-12-31",
+      "id": 6048499,
+      "name": "MiddleBrook Pharmaceuticals ( MBRK ) - Previous Year Growth in Revenues",
       "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2008-12-31",
       "type": null,
-      "updated_at": "2014-01-12T22:48:04Z",
-      "urlize_name": "Employees-Processing-of-nuclear-fuel-Slovakia"
+      "updated_at": "2014-03-22T04:31:17Z",
+      "urlize_name": "MiddleBrook-Pharmaceuticals-MBRK-Previous-Year-Growth-in-Revenues"
+    },
+    {
+      "code": "HBBIE_CASH",
+      "column_names": [
+        "Date",
+        "Cash"
+      ],
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-09-30",
+      "id": 4503578,
+      "name": "Home Bldg Bancorp Inc. ( HBBIE ) - Cash",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-09-30",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:37Z",
+      "urlize_name": "Home-Bldg-Bancorp-Inc-HBBIE-Cash"
+    },
+    {
+      "code": "PRA_EBITDA",
+      "column_names": [
+        "Date",
+        "Earnings Before Interest Taxes Depreciation and Amortization"
+      ],
+      "description": "Estimated by adding depreciation and amortization back to operating income (EBIT). Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5401532,
+      "name": "ProAssurance Corp. ( PRA ) - Earnings Before Interest Taxes Depreciation and Amortization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:17Z",
+      "urlize_name": "ProAssurance-Corp-PRA-Earnings-Before-Interest-Taxes-Depreciation-and-Amortization"
+    },
+    {
+      "code": "NNI_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4712792,
+      "name": "Nelnet Inc ( NNI ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:17Z",
+      "urlize_name": "Nelnet-Inc-NNI-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "SNV_EFF_TAX",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5453468,
+      "name": "Synovus Financial ( SNV ) - Effective Tax Rate",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:18Z",
+      "urlize_name": "Synovus-Financial-SNV-Effective-Tax-Rate"
+    },
+    {
+      "code": "KFN_OP_MARG",
+      "column_names": [
+        "Date",
+        "Pre-Tax Operating Margin"
+      ],
+      "description": "Estimated by dividing the pre-tax operating income by the total revenues. This is a pre-tax measure of operating profitability: Pre-tax Operating Margin = EBIT / Sales. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 6038506,
+      "name": "Kkr Financial ( KFN ) - Pre-Tax Operating Margin",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:38Z",
+      "urlize_name": "Kkr-Financial-KFN-Pre-Tax-Operating-Margin"
+    },
+    {
+      "code": "SNV_ROC",
+      "column_names": [
+        "Date",
+        "Return on Capital"
+      ],
+      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5453523,
+      "name": "Synovus Financial ( SNV ) - Return on Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:39Z",
+      "urlize_name": "Synovus-Financial-SNV-Return-on-Capital"
+    },
+    {
+      "code": "KCG_EV_EBIT",
+      "column_names": [
+        "Date",
+        "EV to EBIT Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 4633302,
+      "name": "Knight Capital Group ( KCG ) - EV to EBIT Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:39Z",
+      "urlize_name": "Knight-Capital-Group-KCG-EV-to-EBIT-Ratio"
+    },
+    {
+      "code": "KCG_EV_SALES",
+      "column_names": [
+        "Date",
+        "EV To Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 4633307,
+      "name": "Knight Capital Group ( KCG ) - EV To Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:19Z",
+      "urlize_name": "Knight-Capital-Group-KCG-EV-To-Sales-Ratio"
+    },
+    {
+      "code": "KCG_EFF_TAX",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 4633295,
+      "name": "Knight Capital Group ( KCG ) - Effective Tax Rate",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:20Z",
+      "urlize_name": "Knight-Capital-Group-KCG-Effective-Tax-Rate"
+    },
+    {
+      "code": "AUTO_REV_LAST",
+      "column_names": [
+        "Date",
+        "Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4168100,
+      "name": "Autoinfo Inc. ( AUTO ) - Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:39Z",
+      "urlize_name": "Autoinfo-Inc-AUTO-Revenues"
+    },
+    {
+      "code": "AVP_EBIT_1T",
+      "column_names": [
+        "Date",
+        "EBIT for Previous Period"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5979651,
+      "name": "Avon Products ( AVP ) - EBIT for Previous Period",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:19Z",
+      "urlize_name": "Avon-Products-AVP-EBIT-for-Previous-Period"
+    },
+    {
+      "code": "AMTD_EFF_TAX",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-09-30",
+      "id": 3958940,
+      "name": "TD Ameritrade Holding Corp. ( AMTD ) - Effective Tax Rate",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-22T04:31:40Z",
+      "urlize_name": "TD-Ameritrade-Holding-Corp-AMTD-Effective-Tax-Rate"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "EIA",
-      "datasets_count": 427809,
-      "description": "No description for this source yet",
-      "host": "www.api.eia.gov",
-      "id": 661,
-      "name": "U.S. Energy Information Administration"
-    },
-    {
-      "code": "ILO",
-      "datasets_count": 228980,
-      "description": "No description for this source yet",
-      "host": "www.ilo.org",
-      "id": 686,
-      "name": "International Labour Organization"
-    },
-    {
-      "code": "WHO",
-      "datasets_count": 21456,
-      "description": "",
-      "host": "apps.who.int",
-      "id": 525,
-      "name": "World Health Organization"
-    },
-    {
-      "code": "UN",
-      "datasets_count": 2100274,
-      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
-      "host": "data.un.org",
-      "id": 488,
-      "name": "United Nations"
-    },
-    {
-      "code": "EUROSTAT",
-      "datasets_count": 320722,
-      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
-      "host": "epp.eurostat.ec.europa.eu",
-      "id": 194,
-      "name": "EuroStat"
-    },
-    {
-      "code": "INSEE",
-      "datasets_count": 0,
-      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
-      "host": "www.insee.fr",
-      "id": 1097,
-      "name": "National Institute of Statistics and Economic Studies (France)"
-    },
-    {
-      "code": "BLS",
-      "datasets_count": 5888,
-      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
-      "host": "www.bls.gov",
-      "id": 162,
-      "name": "Bureau of Labor Statistics"
-    }
-  ],
-  "total_count": 10053489
+  "sources": [{
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
+  }],
+  "total_count": 10147268
 }

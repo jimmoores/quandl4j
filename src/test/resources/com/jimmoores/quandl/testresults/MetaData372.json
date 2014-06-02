@@ -1,21 +1,21 @@
 {
-  "code": "DLPX_REINV_RATE",
+  "code": "118_000619381_Q",
   "column_names": [
     "Date",
-    "Reinvestment Rate"
+    "Value"
   ],
-  "description": "Reinvestment Rate = (Net Capital Expenditures + Change in WC) / EBIT(1-t). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "Unit of measurement=French francs, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=118",
+  "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2002-09-30",
-  "id": 4213454,
-  "name": "Delphax Technologies Inc ( DLPX ) - Reinvestment Rate",
+  "frequency": "monthly",
+  "from_date": "1990-01-31",
+  "id": 8282496,
+  "name": "Balance of payments - Loans - Current account - Services - Transport - Stopped series",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2006-09-30",
+  "source_code": "INSEE",
+  "source_name": "National Institute of Statistics and Economic Studies (France)",
+  "to_date": "1996-03-31",
   "type": null,
-  "updated_at": "2014-03-22T20:47:39Z",
-  "urlize_name": "Delphax-Technologies-Inc-DLPX-Reinvestment-Rate"
+  "updated_at": "2014-01-08T11:25:22Z",
+  "urlize_name": "Balance-of-payments-Loans-Current-account-Services-Transport-Stopped-series"
 }

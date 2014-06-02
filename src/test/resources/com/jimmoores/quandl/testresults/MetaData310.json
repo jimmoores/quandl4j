@@ -1,21 +1,21 @@
 {
-  "code": "CEU8081300010",
+  "code": "SEDS_P1ICV_MT_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Statistic: Women employees, thousands; Industry: Membership associations and organizations; Super-Sector: Other services; Not Seasonally Adjusted; Source: Current Employment Statistics (CES); For more information see <a href=\"http://www.bls.gov/ces/cesprog.htm\">http://www.bls.gov/ces/cesprog.htm.",
-  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/CEU8081300010",
+  "description": "Units=Million Dollars. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.P1ICV.MT.A",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.P1ICV.MT.A&out=xml",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1990-01-31",
-  "id": 8456980,
-  "name": "Women employees, thousands; Membership associations and organizations industry",
+  "frequency": "annual",
+  "from_date": "1970-12-31",
+  "id": 4781914,
+  "name": "Asphalt And Road Oil, Kerosene, Lubricants, And \"other Petroleum Products\" Expenditures In The Industrial Sector, Montana",
   "private": false,
-  "source_code": "BLS",
-  "source_name": "Bureau of Labor Statistics",
-  "to_date": "2013-10-31",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2013-12-11T23:11:22Z",
-  "urlize_name": "Women-employees-thousands-Membership-associations-and-organizations-industry"
+  "updated_at": "2014-01-10T01:55:00Z",
+  "urlize_name": "Asphalt-And-Road-Oil-Kerosene-Lubricants-And-other-Petroleum-Products-Expenditures-In-The-Industrial-Sector-Montana"
 }

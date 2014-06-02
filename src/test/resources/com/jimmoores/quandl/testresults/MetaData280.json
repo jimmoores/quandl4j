@@ -1,21 +1,21 @@
 {
-  "code": "EAP_DWAP_RT_SEX_F_AGE_TOTAL_YGE25_EDU_AGGREGATE_X_M_CZE",
+  "code": "COAL_SHIPMENT_QTY_4801375_6034_SUB_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.4801375-6034-SUB.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.4801375-6034-SUB.A<\/a>",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.4801375-6034-SUB.A&out=xml",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2002-05-31",
-  "id": 12382729,
-  "name": "Labour Force Participation Rate Women Ages 25+ - Monthly - Czech Republic",
+  "frequency": "annual",
+  "from_date": "2008-12-31",
+  "id": 12005364,
+  "name": "Coal Shipment Quantity : North Antelope Mine To Belle River : Subbituminous : Annual",
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2010-11-30",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2008-12-31",
   "type": null,
-  "updated_at": "2014-05-28T18:32:31Z",
-  "urlize_name": "Labour-Force-Participation-Rate-Women-Ages-25-Monthly-Czech-Republic"
+  "updated_at": "2014-05-16T09:13:50Z",
+  "urlize_name": "Coal-Shipment-Quantity-North-Antelope-Mine-To-Belle-River-Subbituminous-Annual"
 }

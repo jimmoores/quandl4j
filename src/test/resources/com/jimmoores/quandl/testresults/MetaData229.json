@@ -1,21 +1,21 @@
 {
-  "code": "ACN_PROCEEDSFROMISSUANCEORSALEOFEQUITY_Q",
+  "code": "172_000800643_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEC Name: ProceedsFromIssuanceOrSaleOfEquity",
-  "display_url": null,
+  "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=172",
+  "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2009-11-30",
-  "id": 9946571,
-  "name": "Accenture plc  (ACN): Quarterly Proceeds From Issuance Or Sale Of Equity",
+  "frequency": "annual",
+  "from_date": "1990-12-31",
+  "id": 8307133,
+  "name": "Annual accounts, base 1995 - TFO - Net incurrence of liabilities incurred - F42 - LT loans - Credited sector: S2 - Rest of the world - Value in current euros - Stopped series",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-11-30",
+  "source_code": "INSEE",
+  "source_name": "National Institute of Statistics and Economic Studies (France)",
+  "to_date": "2002-12-31",
   "type": null,
-  "updated_at": "2014-02-19T01:25:59Z",
-  "urlize_name": "Accenture-plc-ACN-Quarterly-Proceeds-From-Issuance-Or-Sale-Of-Equity"
+  "updated_at": "2014-01-11T16:29:02Z",
+  "urlize_name": "Annual-accounts-base-1995-TFO-Net-incurrence-of-liabilities-incurred-F42-LT-loans-Credited-sector-S2-Rest-of-the-world-Value-in-current-euros-Stopped-series"
 }

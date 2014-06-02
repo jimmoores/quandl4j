@@ -1,21 +1,21 @@
 {
-  "code": "PA10_UF_PERNAMBUCO_LIMAO_PERC",
+  "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_61020",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
-  "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PA10_UF_PERC.csv&categorias=%22Limao%22&localidade=Pernambuco",
+  "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1990-12-31",
-  "id": 6315853,
-  "name": "Agricultural: Municipal Agricultural Production (pam) - Permanent crops - value of production - Limao Federation Units - UF: Pernambuco. Datatype: Relative",
+  "frequency": "monthly",
+  "from_date": "2010-05-31",
+  "id": 7579759,
+  "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 61020,Davis Junction,IL",
   "private": false,
-  "source_code": "IBGE",
-  "source_name": "Brazilian Institute of Geography and Statistics",
-  "to_date": "2010-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2014-01-11T16:59:41Z",
-  "urlize_name": "Agricultural-Municipal-Agricultural-Production-pam-Permanent-crops-value-of-production-Limao-Federation-Units-UF-Pernambuco-Datatype-Relative"
+  "updated_at": "2014-05-07T22:58:17Z",
+  "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-61020-Davis-Junction-IL"
 }

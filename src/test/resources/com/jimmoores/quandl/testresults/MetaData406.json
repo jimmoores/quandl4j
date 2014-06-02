@@ -1,23 +1,21 @@
 {
-  "code": "COMM_87_MOTORVEHICLEPARTSNES_REIMPORT_SYC",
+  "code": "XLNX_COSTOFGOODSANDSERVICESSOLD_A",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "SEC Name: CostOfGoodsAndServicesSold",
+  "display_url": null,
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2008-12-31",
-  "id": 5716605,
-  "name": "Commodity Re-Imports - Vehicles Other Than Railway, Tramway / Motor vehicle parts nes - Seychelles",
+  "frequency": "daily",
+  "from_date": "2011-04-02",
+  "id": 11247108,
+  "name": "XILINX INC  (XLNX): Annual Cost Of Goods And Services Sold",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2008-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2013-03-30",
   "type": null,
-  "updated_at": "2014-01-13T04:03:39Z",
-  "urlize_name": "Commodity-Re-Imports-Vehicles-Other-Than-Railway-Tramway-Motor-vehicle-parts-nes-Seychelles"
+  "updated_at": "2014-03-26T18:31:09Z",
+  "urlize_name": "XILINX-INC-XLNX-Annual-Cost-Of-Goods-And-Services-Sold"
 }

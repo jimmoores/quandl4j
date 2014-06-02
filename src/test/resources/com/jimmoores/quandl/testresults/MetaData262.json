@@ -1,21 +1,23 @@
 {
-  "code": "NCU2301050900011",
+  "code": "COMM_57_TWINECORDAGEROPESANDCABLESOFJUTEBASTFIBRE_EXPORT_ARE",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Occupation: Health related occupations; Skills: Level 11 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
-  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2301050900011",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2003-09-30",
-  "id": 9111436,
-  "name": "Compensation for Health related occupations in Level 11",
+  "from_date": "2005-12-31",
+  "id": 3796606,
+  "name": "Commodity Exports - Wadding, Felt, Nonwovens, Yarns, Twine, Cordage, Etc / Twine, cordage, ropes and cables, of jute, bast fibre - United Arab Emirates",
   "private": false,
-  "source_code": "BLS",
-  "source_name": "Bureau of Labor Statistics",
-  "to_date": "2005-10-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2007-12-31",
   "type": null,
-  "updated_at": "2013-11-16T12:58:08Z",
-  "urlize_name": "Compensation-for-Health-related-occupations-in-Level-11"
+  "updated_at": "2014-01-10T14:19:02Z",
+  "urlize_name": "Commodity-Exports-Wadding-Felt-Nonwovens-Yarns-Twine-Cordage-Etc-Twine-cordage-ropes-and-cables-of-jute-bast-fibre-United-Arab-Emirates"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "OEUN000000099900029208101",
+  "code": "CY_SALESANDUSETAXRECEIVABLECURRENT_Q",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Statistic: Employment; Occupation: Opticians, Dispensing; Industry: Federal, State, and Local Government (OES Designation); Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000099900029208101",
+  "description": "SEC Name: SalesAndUseTaxReceivableCurrent",
+  "display_url": null,
   "errors": {},
   "frequency": "annual",
-  "from_date": "2012-06-30",
-  "id": 9196680,
-  "name": "Employment for Opticians, Dispensing in Federal, State, and Local Government (OES Designation) in National",
+  "from_date": "2012-01-01",
+  "id": 10379954,
+  "name": "CYPRESS SEMICONDUCTOR CORP /DE/  (CY): Quarterly Sales And Use Tax Receivable Current",
   "private": false,
-  "source_code": "BLS",
-  "source_name": "Bureau of Labor Statistics",
-  "to_date": "2012-06-30",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2012-09-30",
   "type": null,
-  "updated_at": "2013-11-17T15:32:52Z",
-  "urlize_name": "Employment-for-Opticians-Dispensing-in-Federal-State-and-Local-Government-OES-Designation-in-National"
+  "updated_at": "2014-03-07T22:53:36Z",
+  "urlize_name": "CYPRESS-SEMICONDUCTOR-CORP-DE-CY-Quarterly-Sales-And-Use-Tax-Receivable-Current"
 }

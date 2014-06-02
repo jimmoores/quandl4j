@@ -1,21 +1,26 @@
 {
-  "code": "GCFB_CAPITALLEASESFUTUREMINIMUMPAYMENTSDUEINTWOYEARS_A",
+  "code": "FUTURE_GCU2004",
   "column_names": [
     "Date",
-    "Value"
+    "Open",
+    "High",
+    "Low",
+    "Settle",
+    "Volume",
+    "Open Interest"
   ],
-  "description": "SEC Name: CapitalLeasesFutureMinimumPaymentsDueInTwoYears",
-  "display_url": null,
+  "description": "Historical Futures Prices: Gold Futures, September 2004, GCU2004, Commodity Exchange (COMEX). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
+  "display_url": "http://www.ofdp.org/futures/9848",
   "errors": {},
   "frequency": "daily",
-  "from_date": "2012-12-25",
-  "id": 10897404,
-  "name": "GRANITE CITY FOOD &amp; BREWERY LTD.  (GCFB): Annual Capital Leases Future Minimum Payments Due In Two Years",
+  "from_date": "2004-06-30",
+  "id": 2309922,
+  "name": "Gold Futures, September 2004, GCU2004, COMEX",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2012-12-25",
+  "source_code": "OFDP",
+  "source_name": "Open Financial Data Project",
+  "to_date": "2004-09-28",
   "type": null,
-  "updated_at": "2014-03-07T18:43:24Z",
-  "urlize_name": "GRANITE-CITY-FOOD-amp-BREWERY-LTD-GCFB-Annual-Capital-Leases-Future-Minimum-Payments-Due-In-Two-Years"
+  "updated_at": "2014-02-25T19:40:53Z",
+  "urlize_name": "Gold-Futures-September-2004-GCU2004-COMEX"
 }

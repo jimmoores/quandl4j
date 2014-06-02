@@ -1,30 +1,21 @@
 {
-  "code": "SOU2014P10",
+  "code": "SST_A_BG_GSD_Y00_A_Z01_E",
   "column_names": [
     "Date",
-    "Open",
-    "High",
-    "Low",
-    "Last",
-    "Settle",
-    "Change",
-    "Volume",
-    "Prev. Day Open Interest",
-    "Prev. Day Settle",
-    "Prev. Day Volume"
+    "Millions of Euro"
   ],
-  "description": "Historical CME Options data: September 2014 Silver Option Put, with a strike price of 10.0",
-  "display_url": null,
+  "description": " Bulgaria - Government Securities Depository (GSD) - Delivery instructions processed (total) - All securities settlement instruments - All currencies combined - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+  "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484694&SERIES_KEY=147.SST.A.BG.GSD.Y00.A.Z01.E&exportType=sdmx",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2014-05-20",
-  "id": 12203108,
-  "name": "September 2014 Silver Option Put Strike 10.0 (SOU2014P10)",
+  "frequency": "annual",
+  "from_date": "2005-12-31",
+  "id": 11471420,
+  "name": "Bulgaria Government Securities Depository Delivery instructions processed All securities settlement instruments All currencies combined Euro",
   "private": false,
-  "source_code": "CME",
-  "source_name": "Chigaco Mercantile Exchange",
-  "to_date": "2014-05-28",
+  "source_code": "ECB",
+  "source_name": "European Central Bank",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-05-29T16:17:47Z",
-  "urlize_name": "September-2014-Silver-Option-Put-Strike-10-0-SOU2014P10"
+  "updated_at": "2014-04-30T17:05:59Z",
+  "urlize_name": "Bulgaria-Government-Securities-Depository-Delivery-instructions-processed-All-securities-settlement-instruments-All-currencies-combined-Euro"
 }

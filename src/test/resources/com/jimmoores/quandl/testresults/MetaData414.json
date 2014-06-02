@@ -1,23 +1,21 @@
 {
+  "code": "UIS_TERTIARYEDUCATIONISCED5AND6GRADUATESBYFOSEDUCATION__FEMALE_IRL",
   "column_names": [
-    "Date",
-    "ZILLOW.MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_29107 - Value",
-    "UN.COMM_84_DRYINGMACHINESNES_IMPORT_PNG - Trade (USD)",
-    "UN.COMM_84_DRYINGMACHINESNES_IMPORT_PNG - Weight (kg)",
-    "UN.COMM_84_DRYINGMACHINESNES_IMPORT_PNG - Quantity",
-    "SNB.STATMON_E4_M1_L_2837 - Rate"
+    "Year",
+    "Number"
   ],
-  "columns": [
-    "Date",
-    "Value",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity",
-    "Rate"
-  ],
-  "data": [],
+  "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": null,
-  "to_date": null
+  "from_date": "1999-12-31",
+  "id": 3579393,
+  "name": "Tertiary education (ISCED 5 and 6) Graduates by FOS Education / Female - Ireland",
+  "private": false,
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2010-12-31",
+  "type": null,
+  "updated_at": "2014-01-11T01:00:44Z",
+  "urlize_name": "Tertiary-education-ISCED-5-and-6-Graduates-by-FOS-Education-Female-Ireland"
 }

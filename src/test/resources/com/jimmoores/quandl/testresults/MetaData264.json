@@ -1,23 +1,21 @@
 {
-  "code": "COMM_69_ARTICLESNESOFASBESTOSOORCELLULOSEFIBRECEMENT_IMPORT_SUR",
+  "code": "GLCH_EMPLOYEERELATEDLIABILITIESCURRENTANDNONCURRENT_Q",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "SEC Name: EmployeeRelatedLiabilitiesCurrentAndNoncurrent",
+  "display_url": null,
   "errors": {},
   "frequency": "annual",
-  "from_date": "1994-12-31",
-  "id": 4061828,
-  "name": "Commodity Imports - Stone, Plaster, Cement, Asbestos, Mica, Etc Articles / Articles nes, of asbestoso or cellulose fibre cement - Suriname",
+  "from_date": "2010-12-31",
+  "id": 11090858,
+  "name": "GLEACHER &amp; COMPANY, INC.  (GLCH): Quarterly Employee Related Liabilities Current And Noncurrent",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2010-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-01-11T04:18:47Z",
-  "urlize_name": "Commodity-Imports-Stone-Plaster-Cement-Asbestos-Mica-Etc-Articles-Articles-nes-of-asbestoso-or-cellulose-fibre-cement-Suriname"
+  "updated_at": "2014-03-18T00:32:48Z",
+  "urlize_name": "GLEACHER-amp-COMPANY-INC-GLCH-Quarterly-Employee-Related-Liabilities-Current-And-Noncurrent"
 }

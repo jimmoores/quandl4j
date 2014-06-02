@@ -1,5 +1,5 @@
 {
-  "code": "MC_IBE",
+  "code": "BE_JKX",
   "column_names": [
     "Date",
     "Open",
@@ -9,18 +9,18 @@
     "Volume",
     "Adjusted Close"
   ],
-  "description": "Exchange : Madrid SE C.A.T.S.. ",
-  "display_url": "http://ichart.finance.yahoo.com/table.csv?s=IBE.MC&d=31&e=12&f=2039&g=d&a=3&b=7&c=1902&ignore=.csv",
+  "description": "Exchange : Berlin Stock Exchange.  Currency: EUR",
+  "display_url": "http://ichart.finance.yahoo.com/table.csv?s=JKX.BE&d=31&e=12&f=2039&g=d&a=3&b=7&c=1902&ignore=.csv",
   "errors": {},
   "frequency": "daily",
-  "from_date": "2000-01-03",
-  "id": 9224118,
-  "name": "IBE: IBERDROLA - Madrid SE C.A.T.S.",
+  "from_date": "2002-07-31",
+  "id": 8803211,
+  "name": "JKX: JKX OIL & GAS - Berlin Stock Exchange",
   "private": false,
   "source_code": "YAHOO",
   "source_name": "Yahoo Finance",
-  "to_date": "2014-05-28",
+  "to_date": "2014-05-30",
   "type": null,
-  "updated_at": "2014-05-29T03:21:03Z",
-  "urlize_name": "IBE-IBERDROLA-Madrid-SE-C-A-T-S"
+  "updated_at": "2014-06-02T00:48:29Z",
+  "urlize_name": "JKX-JKX-OIL-GAS-Berlin-Stock-Exchange"
 }

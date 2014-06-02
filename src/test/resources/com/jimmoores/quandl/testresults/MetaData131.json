@@ -1,415 +1,415 @@
 {
-  "current_page": 376805,
+  "current_page": 43451,
   "docs": [
     {
-      "code": "POPE_COMPREHENSIVEINCOMENETOFTAXINCLUDINGPORTIONATTRIBUTABLETONONCONTROLLINGINTEREST_A",
+      "code": "FMBM_EFF_TAX_INC",
       "column_names": [
         "Date",
-        "Value"
+        "Effective Tax Rate on Income"
       ],
-      "description": "SEC Name: ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10177030,
-      "name": "POPE RESOURCES LTD PARTNERSHIP  (POPE): Annual Comprehensive Income Net Of Tax Including Portion Attributable To Noncontrolling Interest",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T17:05:34Z",
-      "urlize_name": "POPE-RESOURCES-LTD-PARTNERSHIP-POPE-Annual-Comprehensive-Income-Net-Of-Tax-Including-Portion-Attributable-To-Noncontrolling-Interest"
-    },
-    {
-      "code": "TWP_DEFERREDTAXASSETSTAXDEFERREDEXPENSECOMPENSATIONANDBENEFITSSHAREBASEDCOMPENSATIONCOST_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsShareBasedCompensationCost",
-      "display_url": null,
+      "description": "This is the effective tax rate, obtained by dividing the taxes paid by the taxable income as reported to the stockholders. We would rather have used marginal tax rates, but these are not reported. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 10176812,
-      "name": "TREX CO INC  (TWP): Quarterly Deferred Tax Assets Tax Deferred Expense Compensation And Benefits Share Based Compensation Cost",
+      "from_date": "2009-12-31",
+      "id": 4452890,
+      "name": "F&M Bank Corp ( FMBM ) - Effective Tax Rate on Income",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-03-06T17:05:51Z",
-      "urlize_name": "TREX-CO-INC-TWP-Quarterly-Deferred-Tax-Assets-Tax-Deferred-Expense-Compensation-And-Benefits-Share-Based-Compensation-Cost"
+      "updated_at": "2014-03-22T22:19:31Z",
+      "urlize_name": "F-M-Bank-Corp-FMBM-Effective-Tax-Rate-on-Income"
     },
     {
-      "code": "TWP_DEFERREDTAXASSETSTAXCREDITCARRYFORWARDSOTHER_A",
+      "code": "AIRM_ROE",
       "column_names": [
         "Date",
-        "Value"
+        "Return on Equity"
       ],
-      "description": "SEC Name: DeferredTaxAssetsTaxCreditCarryforwardsOther",
-      "display_url": null,
+      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 10176998,
-      "name": "TREX CO INC  (TWP): Annual Deferred Tax Assets Tax Credit Carryforwards Other",
+      "from_date": "2000-12-31",
+      "id": 3912749,
+      "name": "Air Methods Corp. ( AIRM ) - Return on Equity",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T17:05:34Z",
-      "urlize_name": "TREX-CO-INC-TWP-Annual-Deferred-Tax-Assets-Tax-Credit-Carryforwards-Other"
-    },
-    {
-      "code": "SLB_INCOMELOSSFROMCONTINUINGOPERATIONSBEFOREINCOMETAXESMINORITYINTERESTANDINCOMELOSSFROMEQUITYMETHODINVESTMENTS_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-03-31",
-      "id": 10169507,
-      "name": "SCHLUMBERGER LTD /NV/  (SLB): Quarterly Income Loss From Continuing Operations Before Income Taxes Minority Interest And Income Loss From Equity Method Investments",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-09-30",
-      "type": null,
-      "updated_at": "2014-03-06T17:05:52Z",
-      "urlize_name": "SCHLUMBERGER-LTD-NV-SLB-Quarterly-Income-Loss-From-Continuing-Operations-Before-Income-Taxes-Minority-Interest-And-Income-Loss-From-Equity-Method-Investments"
-    },
-    {
-      "code": "FBMS_BUSINESSACQUISITIONPURCHASEPRICEALLOCATIONASSETSACQUIRED_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: BusinessAcquisitionPurchasePriceAllocationAssetsAcquired",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10179012,
-      "name": "FIRST BANCSHARES INC /MS/  (FBMS): Annual Business Acquisition Purchase Price Allocation Assets Acquired",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-06T17:05:35Z",
-      "urlize_name": "FIRST-BANCSHARES-INC-MS-FBMS-Annual-Business-Acquisition-Purchase-Price-Allocation-Assets-Acquired"
+      "updated_at": "2014-03-22T22:19:51Z",
+      "urlize_name": "Air-Methods-Corp-AIRM-Return-on-Equity"
     },
     {
-      "code": "FBMS_BUSINESSACQUISITIONPURCHASEPRICEALLOCATIONOTHERASSETS_A",
+      "code": "PDLI_EV_EBIT",
       "column_names": [
         "Date",
-        "Value"
+        "EV to EBIT Ratio"
       ],
-      "description": "SEC Name: BusinessAcquisitionPurchasePriceAllocationOtherAssets",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10179014,
-      "name": "FIRST BANCSHARES INC /MS/  (FBMS): Annual Business Acquisition Purchase Price Allocation Other Assets",
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5331801,
+      "name": "Pdl Biopharma ( PDLI ) - EV to EBIT Ratio",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-06T17:05:35Z",
-      "urlize_name": "FIRST-BANCSHARES-INC-MS-FBMS-Annual-Business-Acquisition-Purchase-Price-Allocation-Other-Assets"
+      "updated_at": "2014-03-22T22:19:51Z",
+      "urlize_name": "Pdl-Biopharma-PDLI-EV-to-EBIT-Ratio"
     },
     {
-      "code": "TWP_DEFERREDTAXASSETSTAXDEFERREDEXPENSEOTHER_A",
+      "code": "ALTM_EV_BV",
       "column_names": [
         "Date",
-        "Value"
+        "EV to Book Value Ratio"
       ],
-      "description": "SEC Name: DeferredTaxAssetsTaxDeferredExpenseOther",
-      "display_url": null,
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 10179017,
-      "name": "TREX CO INC  (TWP): Annual Deferred Tax Assets Tax Deferred Expense Other",
+      "from_date": "2000-12-31",
+      "id": 3932559,
+      "name": "Alternate Postal Delivery Inc ( ALTM ) - EV to Book Value Ratio",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:19:31Z",
+      "urlize_name": "Alternate-Postal-Delivery-Inc-ALTM-EV-to-Book-Value-Ratio"
+    },
+    {
+      "code": "WMGI_EV",
+      "column_names": [
+        "Date",
+        "Enterprise Value"
+      ],
+      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 5573656,
+      "name": "Wright Medical Group Inc ( WMGI ) - Enterprise Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-06T17:05:52Z",
-      "urlize_name": "TREX-CO-INC-TWP-Annual-Deferred-Tax-Assets-Tax-Deferred-Expense-Other"
+      "updated_at": "2014-03-22T22:19:32Z",
+      "urlize_name": "Wright-Medical-Group-Inc-WMGI-Enterprise-Value"
     },
     {
-      "code": "TWP_DEFERREDTAXASSETSTAXDEFERREDEXPENSERESERVESANDACCRUALSWARRANTYRESERVES_A",
+      "code": "BKR_P_BV",
       "column_names": [
         "Date",
-        "Value"
+        "Price to Book Value Ratio"
       ],
-      "description": "SEC Name: DeferredTaxAssetsTaxDeferredExpenseReservesAndAccrualsWarrantyReserves",
-      "display_url": null,
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 10176854,
-      "name": "TREX CO INC  (TWP): Annual Deferred Tax Assets Tax Deferred Expense Reserves And Accruals Warranty Reserves",
+      "from_date": "1999-12-31",
+      "id": 4093805,
+      "name": "Baker [Michael] Corp. ( BKR ) - Price to Book Value Ratio",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-03-06T17:05:52Z",
-      "urlize_name": "TREX-CO-INC-TWP-Annual-Deferred-Tax-Assets-Tax-Deferred-Expense-Reserves-And-Accruals-Warranty-Reserves"
+      "updated_at": "2014-03-22T22:19:32Z",
+      "urlize_name": "Baker-Michael-Corp-BKR-Price-to-Book-Value-Ratio"
     },
     {
-      "code": "TWP_DEFERREDTAXASSETSTAXDEFERREDEXPENSEOTHER_Q",
+      "code": "CEAH_CASH_FV",
       "column_names": [
         "Date",
-        "Value"
+        "Cash as Percentage of Firm Value"
       ],
-      "description": "SEC Name: DeferredTaxAssetsTaxDeferredExpenseOther",
-      "display_url": null,
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 10179011,
-      "name": "TREX CO INC  (TWP): Quarterly Deferred Tax Assets Tax Deferred Expense Other",
+      "from_date": "2001-01-31",
+      "id": 4091550,
+      "name": "Ceatech USA Inc ( CEAH ) - Cash as Percentage of Firm Value",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-01-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:19:52Z",
+      "urlize_name": "Ceatech-USA-Inc-CEAH-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "AIRM_OP_MARG",
+      "column_names": [
+        "Date",
+        "Pre-Tax Operating Margin"
+      ],
+      "description": "Estimated by dividing the pre-tax operating income by the total revenues. This is a pre-tax measure of operating profitability: Pre-tax Operating Margin = EBIT / Sales. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3912741,
+      "name": "Air Methods Corp. ( AIRM ) - Pre-Tax Operating Margin",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-06T17:05:35Z",
-      "urlize_name": "TREX-CO-INC-TWP-Quarterly-Deferred-Tax-Assets-Tax-Deferred-Expense-Other"
+      "updated_at": "2014-03-22T22:19:32Z",
+      "urlize_name": "Air-Methods-Corp-AIRM-Pre-Tax-Operating-Margin"
     },
     {
-      "code": "SLB_INCREASEDECREASEINACCRUEDINCOMETAXESPAYABLE_Q",
+      "code": "AIRM_EFF_TAX",
       "column_names": [
         "Date",
-        "Value"
+        "Effective Tax Rate"
       ],
-      "description": "SEC Name: IncreaseDecreaseInAccruedIncomeTaxesPayable",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-03-31",
-      "id": 10170180,
-      "name": "SCHLUMBERGER LTD /NV/  (SLB): Quarterly Increase Decrease In Accrued Income Taxes Payable",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-31",
-      "type": null,
-      "updated_at": "2014-03-06T17:05:52Z",
-      "urlize_name": "SCHLUMBERGER-LTD-NV-SLB-Quarterly-Increase-Decrease-In-Accrued-Income-Taxes-Payable"
-    },
-    {
-      "code": "TWP_DEFERREDTAXASSETSTAXDEFERREDEXPENSERESERVESANDACCRUALSWARRANTYRESERVES_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: DeferredTaxAssetsTaxDeferredExpenseReservesAndAccrualsWarrantyReserves",
-      "display_url": null,
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 10176848,
-      "name": "TREX CO INC  (TWP): Quarterly Deferred Tax Assets Tax Deferred Expense Reserves And Accruals Warranty Reserves",
+      "from_date": "2000-12-31",
+      "id": 3912696,
+      "name": "Air Methods Corp. ( AIRM ) - Effective Tax Rate",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T17:05:35Z",
-      "urlize_name": "TREX-CO-INC-TWP-Quarterly-Deferred-Tax-Assets-Tax-Deferred-Expense-Reserves-And-Accruals-Warranty-Reserves"
-    },
-    {
-      "code": "TWP_DEFERREDTAXASSETSVALUATIONALLOWANCE_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: DeferredTaxAssetsValuationAllowance",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 10176654,
-      "name": "TREX CO INC  (TWP): Quarterly Deferred Tax Assets Valuation Allowance",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T17:05:35Z",
-      "urlize_name": "TREX-CO-INC-TWP-Quarterly-Deferred-Tax-Assets-Valuation-Allowance"
-    },
-    {
-      "code": "SLB_INCOMELOSSFROMEQUITYMETHODINVESTMENTSNETOFDIVIDENDSORDISTRIBUTIONS_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-03-31",
-      "id": 10170053,
-      "name": "SCHLUMBERGER LTD /NV/  (SLB): Quarterly Income Loss From Equity Method Investments Net Of Dividends Or Distributions",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-31",
-      "type": null,
-      "updated_at": "2014-03-06T17:05:35Z",
-      "urlize_name": "SCHLUMBERGER-LTD-NV-SLB-Quarterly-Income-Loss-From-Equity-Method-Investments-Net-Of-Dividends-Or-Distributions"
-    },
-    {
-      "code": "SLB_INCREASEDECREASEINACCOUNTSPAYABLEANDACCRUEDLIABILITIES_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-03-31",
-      "id": 10170144,
-      "name": "SCHLUMBERGER LTD /NV/  (SLB): Quarterly Increase Decrease In Accounts Payable And Accrued Liabilities",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-31",
-      "type": null,
-      "updated_at": "2014-03-06T17:05:35Z",
-      "urlize_name": "SCHLUMBERGER-LTD-NV-SLB-Quarterly-Increase-Decrease-In-Accounts-Payable-And-Accrued-Liabilities"
-    },
-    {
-      "code": "FBMS_BUSINESSACQUISITIONPURCHASEPRICEALLOCATIONASSETSACQUIREDLIABILITIESASSUMEDNET_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: BusinessAcquisitionPurchasePriceAllocationAssetsAcquiredLiabilitiesAssumedNet",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10179026,
-      "name": "FIRST BANCSHARES INC /MS/  (FBMS): Annual Business Acquisition Purchase Price Allocation Assets Acquired Liabilities Assumed Net",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-06T17:05:53Z",
-      "urlize_name": "FIRST-BANCSHARES-INC-MS-FBMS-Annual-Business-Acquisition-Purchase-Price-Allocation-Assets-Acquired-Liabilities-Assumed-Net"
+      "updated_at": "2014-03-22T22:19:53Z",
+      "urlize_name": "Air-Methods-Corp-AIRM-Effective-Tax-Rate"
     },
     {
-      "code": "SLB_INCREASEDECREASEININVENTORIES_Q",
+      "code": "DNKYQ_CAPEX",
       "column_names": [
         "Date",
-        "Value"
+        "Capital Expenditures"
       ],
-      "description": "SEC Name: IncreaseDecreaseInInventories",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-03-31",
-      "id": 10170084,
-      "name": "SCHLUMBERGER LTD /NV/  (SLB): Quarterly Increase Decrease In Inventories",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-03-31",
-      "type": null,
-      "updated_at": "2014-03-06T17:05:53Z",
-      "urlize_name": "SCHLUMBERGER-LTD-NV-SLB-Quarterly-Increase-Decrease-In-Inventories"
-    },
-    {
-      "code": "TWP_DEFERREDTAXLIABILITIES_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: DeferredTaxLiabilities",
-      "display_url": null,
+      "description": "This is the cumulated capital spending, as reported in the statement of cash flows, for the sector. It generally does not include acquisitions. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 10176704,
-      "name": "TREX CO INC  (TWP): Annual Deferred Tax Liabilities",
+      "from_date": "2004-12-31",
+      "id": 4224007,
+      "name": "Donnkenny Inc. ( DNKYQ ) - Capital Expenditures",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
       "type": null,
-      "updated_at": "2014-03-06T17:05:35Z",
-      "urlize_name": "TREX-CO-INC-TWP-Annual-Deferred-Tax-Liabilities"
+      "updated_at": "2014-03-22T22:19:33Z",
+      "urlize_name": "Donnkenny-Inc-DNKYQ-Capital-Expenditures"
     },
     {
-      "code": "TWP_DEFERREDTAXLIABILITIES_Q",
+      "code": "AIRM_NET_INC",
       "column_names": [
         "Date",
-        "Value"
+        "Net Income"
       ],
-      "description": "SEC Name: DeferredTaxLiabilities",
-      "display_url": null,
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 10176712,
-      "name": "TREX CO INC  (TWP): Quarterly Deferred Tax Liabilities",
+      "from_date": "2000-12-31",
+      "id": 3912729,
+      "name": "Air Methods Corp. ( AIRM ) - Net Income",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T17:05:35Z",
-      "urlize_name": "TREX-CO-INC-TWP-Quarterly-Deferred-Tax-Liabilities"
-    },
-    {
-      "code": "FBMS_BUSINESSACQUISITIONPURCHASEPRICEALLOCATIONOTHERLIABILITIES_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: BusinessAcquisitionPurchasePriceAllocationOtherLiabilities",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2012-12-31",
-      "id": 10179023,
-      "name": "FIRST BANCSHARES INC /MS/  (FBMS): Annual Business Acquisition Purchase Price Allocation Other Liabilities",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-06T17:05:36Z",
-      "urlize_name": "FIRST-BANCSHARES-INC-MS-FBMS-Annual-Business-Acquisition-Purchase-Price-Allocation-Other-Liabilities"
+      "updated_at": "2014-03-22T22:19:33Z",
+      "urlize_name": "Air-Methods-Corp-AIRM-Net-Income"
     },
     {
-      "code": "TWP_DEFERREDTAXASSETSVALUATIONALLOWANCE_A",
+      "code": "DNKYQ_CASH",
       "column_names": [
         "Date",
-        "Value"
+        "Cash"
       ],
-      "description": "SEC Name: DeferredTaxAssetsValuationAllowance",
-      "display_url": null,
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 10176669,
-      "name": "TREX CO INC  (TWP): Annual Deferred Tax Assets Valuation Allowance",
+      "from_date": "2004-12-31",
+      "id": 4224010,
+      "name": "Donnkenny Inc. ( DNKYQ ) - Cash",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
       "type": null,
-      "updated_at": "2014-03-06T17:05:36Z",
-      "urlize_name": "TREX-CO-INC-TWP-Annual-Deferred-Tax-Assets-Valuation-Allowance"
+      "updated_at": "2014-03-22T22:19:33Z",
+      "urlize_name": "Donnkenny-Inc-DNKYQ-Cash"
+    },
+    {
+      "code": "CEAH_CASH",
+      "column_names": [
+        "Date",
+        "Cash"
+      ],
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-01-31",
+      "id": 4091544,
+      "name": "Ceatech USA Inc ( CEAH ) - Cash",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-01-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:19:33Z",
+      "urlize_name": "Ceatech-USA-Inc-CEAH-Cash"
+    },
+    {
+      "code": "AIRM_REV_LAST",
+      "column_names": [
+        "Date",
+        "Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 3912746,
+      "name": "Air Methods Corp. ( AIRM ) - Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:19:34Z",
+      "urlize_name": "Air-Methods-Corp-AIRM-Revenues"
+    },
+    {
+      "code": "WMGI_EPS_GRO_EXP",
+      "column_names": [
+        "Date",
+        "Expected Growth in Earnings Per Share"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 5573662,
+      "name": "Wright Medical Group Inc ( WMGI ) - Expected Growth in Earnings Per Share",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:19:34Z",
+      "urlize_name": "Wright-Medical-Group-Inc-WMGI-Expected-Growth-in-Earnings-Per-Share"
+    },
+    {
+      "code": "WMGI_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 5573641,
+      "name": "Wright Medical Group Inc ( WMGI ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:19:34Z",
+      "urlize_name": "Wright-Medical-Group-Inc-WMGI-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "AIRM_EBITDA",
+      "column_names": [
+        "Date",
+        "Earnings Before Interest Taxes Depreciation and Amortization"
+      ],
+      "description": "Estimated by adding depreciation and amortization back to operating income (EBIT). Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3912695,
+      "name": "Air Methods Corp. ( AIRM ) - Earnings Before Interest Taxes Depreciation and Amortization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:19:55Z",
+      "urlize_name": "Air-Methods-Corp-AIRM-Earnings-Before-Interest-Taxes-Depreciation-and-Amortization"
+    },
+    {
+      "code": "CCRN_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4052823,
+      "name": "Cross Country Healthcare ( CCRN ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:19:55Z",
+      "urlize_name": "Cross-Country-Healthcare-CCRN-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "CEAH_CASH_REV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-01-31",
+      "id": 4091559,
+      "name": "Ceatech USA Inc ( CEAH ) - Cash as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-01-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:19:55Z",
+      "urlize_name": "Ceatech-USA-Inc-CEAH-Cash-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "AIRM_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "FCFF = EBIT(1-t) - (Capital Expenditures - Depreciation) - Change in Non-Cash Working Capital. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3912708,
+      "name": "Air Methods Corp. ( AIRM ) - Free Cash Flow to Firm",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:19:35Z",
+      "urlize_name": "Air-Methods-Corp-AIRM-Free-Cash-Flow-to-Firm"
     }
   ],
   "per_page": 20,
   "sources": [{
-    "code": "SEC",
-    "datasets_count": 4867,
-    "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
-    "host": "www.sec.gov",
-    "id": 651,
-    "name": "U.S. Securities and Exchange Commission"
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
   }],
-  "total_count": 10053489
+  "total_count": 10147268
 }

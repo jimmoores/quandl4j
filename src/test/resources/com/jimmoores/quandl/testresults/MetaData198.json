@@ -1,415 +1,433 @@
 {
-  "current_page": 30382,
+  "current_page": 15040,
   "docs": [
     {
-      "code": "SRO_ROE",
+      "code": "UIS_TERTIARYEDUCATIONISCED5AND6GRADUATESBYFOSEDUCATION__FEMALE_IRL",
       "column_names": [
-        "Date",
-        "Return on Equity"
+        "Year",
+        "Number"
       ],
-      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5483639,
-      "name": "Spigadoro Inc ( SRO ) - Return on Equity",
+      "from_date": "1999-12-31",
+      "id": 3579393,
+      "name": "Tertiary education (ISCED 5 and 6) Graduates by FOS Education / Female - Ireland",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2001-12-31",
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
       "type": null,
-      "updated_at": "2014-03-14T10:44:26Z",
-      "urlize_name": "Spigadoro-Inc-SRO-Return-on-Equity"
+      "updated_at": "2014-01-11T01:00:44Z",
+      "urlize_name": "Tertiary-education-ISCED-5-and-6-Graduates-by-FOS-Education-Female-Ireland"
     },
     {
-      "code": "SRO_NET_INC_TRAIL",
+      "code": "JPN_WP11651_1",
       "column_names": [
         "Date",
-        "Trailing Net Income"
+        "Value"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Adults who borrowed any money in the past 12 months from a bank, credit union or another financial institution (e.g., cooperatives) or microfinance institution (% age 15+)\nLoan from a financial institution in the past year (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/JPN/indicators/WP11651.1?per_page=1000",
       "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5483644,
-      "name": "Spigadoro Inc ( SRO ) - Trailing Net Income",
+      "from_date": "2011-12-31",
+      "id": 6538202,
+      "name": "Japan: Loan from a financial institution in the past year (% age 15+)",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2001-12-31",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-03-14T10:44:26Z",
-      "urlize_name": "Spigadoro-Inc-SRO-Trailing-Net-Income"
+      "updated_at": "2014-01-11T09:00:40Z",
+      "urlize_name": "Japan-Loan-from-a-financial-institution-in-the-past-year-age-15"
     },
     {
-      "code": "SRO_REV_12M",
+      "code": "ISR_NY_TRF_NCTR_CN",
       "column_names": [
         "Date",
-        "Trailing 12-month Revenues"
+        "Value"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Current transfers comprise transfers of income between residents of the reporting country and the rest of the world that carry no provisions for repayment. Net current transfers from abroad is equal to the unrequited transfers of income from nonresidents to residents minus the unrequited transfers from residents to nonresidents. Data are in current local currency.\nNet current transfers from abroad (current LCU)",
+      "display_url": "http://api.worldbank.org/countries/ISR/indicators/NY.TRF.NCTR.CN?per_page=1000",
       "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 5483643,
-      "name": "Spigadoro Inc ( SRO ) - Trailing 12-month Revenues",
+      "from_date": "1970-12-31",
+      "id": 392585,
+      "name": "Israel: Net current transfers from abroad (current LCU)",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2001-12-31",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "1998-12-31",
       "type": null,
-      "updated_at": "2014-03-14T10:44:26Z",
-      "urlize_name": "Spigadoro-Inc-SRO-Trailing-12-month-Revenues"
+      "updated_at": "2014-01-10T21:59:08Z",
+      "urlize_name": "Israel-Net-current-transfers-from-abroad-current-LCU"
     },
     {
-      "code": "AIX_FIRM_VAL",
+      "code": "GNB_HH_MICS_OOS_1_R",
       "column_names": [
         "Date",
-        "Firm Value"
+        "Value"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Proportion of out-of-school. Primary. Rural is the number of rural children in the official primary school age range who are not attending primary or secondary education, expressed as a percentage of rural children of the official primary school age range. By definition, children in the official primary-age range, who are attending pre-primary education, are considered out-of-school. The sum of the net primary attendance rate and the proportion out of school do not add to 100 percent because the net primary attendance rate does not count students who are in secondary.\nMICS: Proportion of out-of-school. Primary. Rural",
+      "display_url": "http://api.worldbank.org/countries/GNB/indicators/HH.MICS.OOS.1.R?per_page=1000",
       "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 3914096,
-      "name": "Access Integrated Tech. Inc ( AIX ) - Firm Value",
+      "from_date": "2006-12-31",
+      "id": 6523580,
+      "name": "Guinea-Bissau: MICS: Proportion of out-of-school. Primary. Rural",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T10:44:08Z",
-      "urlize_name": "Access-Integrated-Tech-Inc-AIX-Firm-Value"
-    },
-    {
-      "code": "SRO_PE_TRAIL",
-      "column_names": [
-        "Date",
-        "Trailing PE Ratio"
-      ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5483645,
-      "name": "Spigadoro Inc ( SRO ) - Trailing PE Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2000-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T10:44:08Z",
-      "urlize_name": "Spigadoro-Inc-SRO-Trailing-PE-Ratio"
-    },
-    {
-      "code": "SRO_REV_TRAIL",
-      "column_names": [
-        "Date",
-        "Trailing Revenues"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5483646,
-      "name": "Spigadoro Inc ( SRO ) - Trailing Revenues",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2001-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T10:44:26Z",
-      "urlize_name": "Spigadoro-Inc-SRO-Trailing-Revenues"
-    },
-    {
-      "code": "FHCC_EV_SALES",
-      "column_names": [
-        "Date",
-        "EV To Sales Ratio"
-      ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 6078290,
-      "name": "First Health Group ( FHCC ) - EV To Sales Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2004-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T10:44:08Z",
-      "urlize_name": "First-Health-Group-FHCC-EV-To-Sales-Ratio"
-    },
-    {
-      "code": "FHCC_REV_GRO_EXP",
-      "column_names": [
-        "Date",
-        "Expected Growth in Revenues"
-      ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 6078300,
-      "name": "First Health Group ( FHCC ) - Expected Growth in Revenues",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2004-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T10:44:27Z",
-      "urlize_name": "First-Health-Group-FHCC-Expected-Growth-in-Revenues"
-    },
-    {
-      "code": "SRO_EV_BV",
-      "column_names": [
-        "Date",
-        "EV to Book Value Ratio"
-      ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5483647,
-      "name": "Spigadoro Inc ( SRO ) - EV to Book Value Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2001-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T10:44:27Z",
-      "urlize_name": "Spigadoro-Inc-SRO-EV-to-Book-Value-Ratio"
-    },
-    {
-      "code": "CIPH_TRAD_VOL",
-      "column_names": [
-        "Date",
-        "Trading Volume"
-      ],
-      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 5989913,
-      "name": "Ciphergen Biosystems Inc ( CIPH ) - Trading Volume",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
       "to_date": "2006-12-31",
       "type": null,
-      "updated_at": "2014-03-14T10:44:27Z",
-      "urlize_name": "Ciphergen-Biosystems-Inc-CIPH-Trading-Volume"
+      "updated_at": "2014-01-11T04:11:56Z",
+      "urlize_name": "Guinea-Bissau-MICS-Proportion-of-out-of-school-Primary-Rural"
     },
     {
-      "code": "CNRD_EV_SALES",
+      "code": "KHM_EG_ELC_HOUS_ZS",
       "column_names": [
         "Date",
-        "EV To Sales Ratio"
+        "Value"
       ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Household electrification rate is defined as the percentage of households with access to electricity and is measured using household surveys (e.g. Demographic and Health Surveys, Living Standard Measurement Surveys). Household surveys provide better measurement than the data provided by national power utilities. In addition, utilities employ different definitions of electrification making it difficult for accurate cross-country comparison.\nHousehold electrification rate (% of households)",
+      "display_url": "http://api.worldbank.org/countries/KHM/indicators/EG.ELC.HOUS.ZS?per_page=1000",
       "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 4227689,
-      "name": "Conrad Inds Inc ( CNRD ) - EV To Sales Ratio",
+      "from_date": "2000-12-31",
+      "id": 6542281,
+      "name": "Cambodia: Household electrification rate (% of households)",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-14T00:44:35Z",
+      "urlize_name": "Cambodia-Household-electrification-rate-of-households"
+    },
+    {
+      "code": "UIS_COMBINEDGROSSENROLMENTRATIOPRIMARYANDSECONDARYISCED13__ALLGENDERS_MKD",
+      "column_names": [
+        "Year",
+        "Percent"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 3531899,
+      "name": "Combined Gross Enrolment ratio - primary and secondary (ISCED 1-3) / All genders - TFYR of Macedonia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T09:01:47Z",
+      "urlize_name": "Combined-Gross-Enrolment-ratio-primary-and-secondary-ISCED-1-3-All-genders-TFYR-of-Macedonia"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESINCREASINGINVALUES_ALLHOMES_WAYNOKAOK",
+      "column_names": [
+        "Date",
+        "Waynoka"
+      ],
+      "description": "The percentage of homes whose values have increased in the past year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesIncreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2002-08-31",
+      "id": 7146411,
+      "name": "Zillow Metrics (Cities): Increasing Values (%) - Waynoka, OK",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2013-11-29T08:02:54Z",
+      "urlize_name": "Zillow-Metrics-Cities-Increasing-Values-Waynoka-OK"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESINCREASINGINVALUES_ALLHOMES_COBLESKILLNY",
+      "column_names": [
+        "Date",
+        "Cobleskill"
+      ],
+      "description": "The percentage of homes whose values have increased in the past year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesIncreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-08-31",
+      "id": 7139376,
+      "name": "Zillow Metrics (Cities): Increasing Values (%) - Cobleskill, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2013-11-29T08:01:08Z",
+      "urlize_name": "Zillow-Metrics-Cities-Increasing-Values-Cobleskill-NY"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESINCREASINGINVALUES_ALLHOMES_DUDLEYNC",
+      "column_names": [
+        "Date",
+        "Dudley"
+      ],
+      "description": "The percentage of homes whose values have increased in the past year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesIncreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2002-08-31",
+      "id": 7137487,
+      "name": "Zillow Metrics (Cities): Increasing Values (%) - Dudley, NC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2013-11-29T08:01:08Z",
+      "urlize_name": "Zillow-Metrics-Cities-Increasing-Values-Dudley-NC"
+    },
+    {
+      "code": "MYS_SN_ITK_DPTH",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Depth of hunger or the intensity of food deprivation, indicates how much food-deprived people fall short of minimum food needs in terms of dietary energy. The food deficit, in kilocalories per person per day, is measured by comparing the average amount of dietary energy that undernourished people get from the foods they eat with the minimum amount of dietary energy they need to maintain body weight and undertake light activity. The depth of hunger is low when it is less than 200 kilocalories per person per day, and high when it is higher than 300 kilocalories per person per day.\nDepth of hunger (kilocalories per person per day)",
+      "display_url": "http://api.worldbank.org/countries/MYS/indicators/SN.ITK.DPTH?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1992-12-31",
+      "id": 517900,
+      "name": "Malaysia: Depth of hunger (kilocalories per person per day)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2013-06-20T17:14:34Z",
+      "urlize_name": "Malaysia-Depth-of-hunger-kilocalories-per-person-per-day"
+    },
+    {
+      "code": "UIS_TERTIARYEDUCATIONISCED5AND6ENROLMENTBYFOSSCIENCE__FEMALE_TZA",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 3577163,
+      "name": "Tertiary education (ISCED 5 and 6) Enrolment by FOS Science / Female - United Republic of Tanzania",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T12:45:51Z",
+      "urlize_name": "Tertiary-education-ISCED-5-and-6-Enrolment-by-FOS-Science-Female-United-Republic-of-Tanzania"
+    },
+    {
+      "code": "UIS_PREPRIMARYEDUCATIONISCED0SCHOOLAGEPOPULATION__MALE_FIN",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1975-12-31",
+      "id": 3500634,
+      "name": "Pre-Primary education (ISCED 0) School-age population / Male - Finland",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T03:57:10Z",
+      "urlize_name": "Pre-Primary-education-ISCED-0-School-age-population-Male-Finland"
+    },
+    {
+      "code": "UIS_OFFICIALENTRANCEAGESCHOOLAGEPOPULATION__FEMALE_CUB",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1975-12-31",
+      "id": 3502561,
+      "name": "Official entrance age School age population / Female - Cuba",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T01:43:30Z",
+      "urlize_name": "Official-entrance-age-School-age-population-Female-Cuba"
+    },
+    {
+      "code": "ZAF_EMBI",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "J.P. Morgan Emerging Markets Bond Index Plus is a market capitalization-weighted index based on bonds in emerging markets. the EMBI series which covers all of the external currency denomination debt of the emerging markets, as opposed to simply Brady Bond investment.  It is constructed with well-defined liquidity criteria to ensure that the index provides a fair and replicable benchmark. There are currently 31 instruments from 21 countries.\nJ.P. Morgan Emerging Markets Bond Index (EMBI+)",
+      "display_url": "http://api.worldbank.org/countries/ZAF/indicators/EMBI?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 2114309,
+      "name": "South Africa: J.P. Morgan Emerging Markets Bond Index (EMBI+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
       "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-03-14T10:44:09Z",
-      "urlize_name": "Conrad-Inds-Inc-CNRD-EV-To-Sales-Ratio"
+      "updated_at": "2014-01-11T10:44:12Z",
+      "urlize_name": "South-Africa-J-P-Morgan-Emerging-Markets-Bond-Index-EMBI"
     },
     {
-      "code": "FHCC_EV_CAP",
+      "code": "SLV_MYS_POP_2529_PRI_FE",
       "column_names": [
         "Date",
-        "EV to Invested Capital Ratio"
+        "Value"
       ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Population in thousand, 25-29, female, primary is the total number of females age 25-29 (in thousands) with primary education.\npopulation in thousand, 25 - 29, female, primary",
+      "display_url": "http://api.worldbank.org/countries/SLV/indicators/MYS.POP.2529.PRI.FE?per_page=1000",
       "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 6078279,
-      "name": "First Health Group ( FHCC ) - EV to Invested Capital Ratio",
+      "from_date": "1970-12-31",
+      "id": 2225603,
+      "name": "El Salvador: population in thousand, 25 - 29, female, primary",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2004-12-31",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2050-12-31",
       "type": null,
-      "updated_at": "2014-03-14T10:44:28Z",
-      "urlize_name": "First-Health-Group-FHCC-EV-to-Invested-Capital-Ratio"
+      "updated_at": "2014-01-12T00:05:54Z",
+      "urlize_name": "El-Salvador-population-in-thousand-25-29-female-primary"
     },
     {
-      "code": "AIX_FIXED_TOT",
+      "code": "ZIP_MIDDLETIER_95391",
       "column_names": [
         "Date",
-        "Ratio of Fixed Assets to Total Assets"
+        "Value"
       ],
-      "description": "Estimated by dividing the cumulated book value of fixed assets, for the sector, by the cumulated total assets, for the sector. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 3914097,
-      "name": "Access Integrated Tech. Inc ( AIX ) - Ratio of Fixed Assets to Total Assets",
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the zip code of 95391, Tracy, CA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "2006-03-31",
+      "id": 6816336,
+      "name": "Zillow Home Value Index (Zip Codes): Middle Tier Homes - 95391,Tracy,CA",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-07-31",
       "type": null,
-      "updated_at": "2014-03-14T10:44:28Z",
-      "urlize_name": "Access-Integrated-Tech-Inc-AIX-Ratio-of-Fixed-Assets-to-Total-Assets"
+      "updated_at": "2013-08-20T14:41:06Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Middle-Tier-Homes-95391-Tracy-CA"
     },
     {
-      "code": "BBA_BV_ASSETS",
+      "code": "MCITY_PCTOFHOMESINCREASINGINVALUES_ALLHOMES_CREEKSIDEKY",
       "column_names": [
         "Date",
-        "Book Value of Assets"
+        "Creekside"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 3948258,
-      "name": "Bombay Co. ( BBA ) - Book Value of Assets",
+      "description": "The percentage of homes whose values have increased in the past year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesIncreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-03-31",
+      "id": 7146548,
+      "name": "Zillow Metrics (Cities): Increasing Values (%) - Creekside, KY",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2006-12-31",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2009-06-30",
       "type": null,
-      "updated_at": "2014-03-14T10:44:09Z",
-      "urlize_name": "Bombay-Co-BBA-Book-Value-of-Assets"
+      "updated_at": "2013-11-29T08:01:10Z",
+      "urlize_name": "Zillow-Metrics-Cities-Increasing-Values-Creekside-KY"
     },
     {
-      "code": "FHCC_EV_SALESTR",
+      "code": "UIS_OFFICIALENTRANCEAGESCHOOLAGEPOPULATION__FEMALE_LBY",
       "column_names": [
-        "Date",
-        "EV to Trailing Sales Ratio"
+        "Year",
+        "Number"
       ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 6078280,
-      "name": "First Health Group ( FHCC ) - EV to Trailing Sales Ratio",
+      "from_date": "1975-12-31",
+      "id": 3502639,
+      "name": "Official entrance age School age population / Female - Libya",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2004-12-31",
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-14T10:44:28Z",
-      "urlize_name": "First-Health-Group-FHCC-EV-to-Trailing-Sales-Ratio"
+      "updated_at": "2014-01-10T23:50:48Z",
+      "urlize_name": "Official-entrance-age-School-age-population-Female-Libya"
     },
     {
-      "code": "AIX_REV_GRO",
+      "code": "UKR_NEIMPGNFSCD",
       "column_names": [
         "Date",
-        "Previous Year Growth in Revenues"
+        "Value"
       ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services, such as communication, construction, financial, information, business, personal, and government services. They exclude compensation of employees and investment income (formerly called factor services) and transfer payments. Data are in current US$, millions.\nImports GNFS, current US$, millions",
+      "display_url": "http://api.worldbank.org/countries/UKR/indicators/NEIMPGNFSCD?per_page=1000",
       "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 3914099,
-      "name": "Access Integrated Tech. Inc ( AIX ) - Previous Year Growth in Revenues",
+      "from_date": "1989-12-31",
+      "id": 2133229,
+      "name": "Ukraine: Imports GNFS, current US$, millions",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2005-12-31",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2015-12-31",
       "type": null,
-      "updated_at": "2014-03-14T10:44:28Z",
-      "urlize_name": "Access-Integrated-Tech-Inc-AIX-Previous-Year-Growth-in-Revenues"
+      "updated_at": "2013-08-29T18:54:53Z",
+      "urlize_name": "Ukraine-Imports-GNFS-current-US-millions"
     },
     {
-      "code": "CUCO_CASH",
+      "code": "LUX_NEIMPGNFSXD",
       "column_names": [
         "Date",
-        "Cash"
+        "Value"
       ],
-      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "\nImports, GNFS (implicit price deflator constant 2005 USD)",
+      "display_url": "http://api.worldbank.org/countries/LUX/indicators/NEIMPGNFSXD?per_page=1000",
       "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 4381074,
-      "name": "Cucos Inc ( CUCO ) - Cash",
+      "from_date": "1960-12-31",
+      "id": 2208992,
+      "name": "Luxembourg: Imports, GNFS (implicit price deflator constant 2005 USD)",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2002-12-31",
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2015-12-31",
       "type": null,
-      "updated_at": "2014-03-14T10:44:10Z",
-      "urlize_name": "Cucos-Inc-CUCO-Cash"
-    },
-    {
-      "code": "CUCO_BV_ASSETS",
-      "column_names": [
-        "Date",
-        "Book Value of Assets"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 4381062,
-      "name": "Cucos Inc ( CUCO ) - Book Value of Assets",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2002-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T10:44:28Z",
-      "urlize_name": "Cucos-Inc-CUCO-Book-Value-of-Assets"
-    },
-    {
-      "code": "CUCO_CASH_FV",
-      "column_names": [
-        "Date",
-        "Cash as Percentage of Firm Value"
-      ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 4381081,
-      "name": "Cucos Inc ( CUCO ) - Cash as Percentage of Firm Value",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2002-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T10:44:28Z",
-      "urlize_name": "Cucos-Inc-CUCO-Cash-as-Percentage-of-Firm-Value"
-    },
-    {
-      "code": "CUCO_CASH_REV",
-      "column_names": [
-        "Date",
-        "Cash as Percentage of Revenues"
-      ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 4381088,
-      "name": "Cucos Inc ( CUCO ) - Cash as Percentage of Revenues",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2002-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T10:44:10Z",
-      "urlize_name": "Cucos-Inc-CUCO-Cash-as-Percentage-of-Revenues"
+      "updated_at": "2013-09-05T23:51:29Z",
+      "urlize_name": "Luxembourg-Imports-GNFS-implicit-price-deflator-constant-2005-USD"
     }
   ],
   "per_page": 20,
-  "sources": [{
-    "code": "DMDRN",
-    "datasets_count": 0,
-    "description": "",
-    "host": "pages.stern.nyu.edu/~adamodar/",
-    "id": 6946,
-    "name": "Damodaran Financial Data"
-  }],
-  "total_count": 10053489
+  "sources": [
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10147268
 }

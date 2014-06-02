@@ -1,21 +1,21 @@
 {
-  "code": "PRY_WP11670_4",
+  "code": "PPL_INCOMEFROMCONTINUINGOPERATIONSAFTERTAXINTERESTONCONVERTIBLEDEBTNETOFTAX_Q",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Adults who currently have a loan they took out for emergency or health purposes (% ages 15-24)\nOutstanding loan for health or emergencies, young adults (% ages 15-24)",
-  "display_url": "http://api.worldbank.org/countries/PRY/indicators/WP11670.4?per_page=1000",
+  "description": "SEC Name: IncomeFromContinuingOperationsAfterTaxInterestOnConvertibleDebtNetofTax",
+  "display_url": null,
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2011-12-31",
-  "id": 2270495,
-  "name": "Paraguay: Outstanding loan for health or emergencies, young adults (% ages 15-24)",
+  "frequency": "daily",
+  "from_date": "2013-06-30",
+  "id": 10255301,
+  "name": "PPL Corp  (PPL): Quarterly Income From Continuing Operations After Tax Interest On Convertible Debt Netof Tax",
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
-  "to_date": "2011-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2013-09-30",
   "type": null,
-  "updated_at": "2014-05-17T15:03:05Z",
-  "urlize_name": "Paraguay-Outstanding-loan-for-health-or-emergencies-young-adults-ages-15-24"
+  "updated_at": "2014-03-06T19:22:21Z",
+  "urlize_name": "PPL-Corp-PPL-Quarterly-Income-From-Continuing-Operations-After-Tax-Interest-On-Convertible-Debt-Netof-Tax"
 }

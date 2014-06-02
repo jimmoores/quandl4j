@@ -40,7 +40,10 @@ public final class QuandlSession {
   private SessionOptions _sessionOptions;
   private static final UriBuilder API_BASE_URL = UriBuilder.fromPath("http://quandl.com/api/v1");
   private static final String QUANDL_AUTH_TOKEN_PROPERTY_NAME = "quandl.auth.token";
-  private static final String AUTH_TOKEN_PARAM_NAME = "auth_token";
+  /**
+   * the parameter name for the authorization token (aka Quandl API key).
+   */
+  public static final String AUTH_TOKEN_PARAM_NAME = "auth_token";
 
   private QuandlSession(final SessionOptions sessionOptions) {
     _sessionOptions = sessionOptions;

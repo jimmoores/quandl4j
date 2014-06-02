@@ -1,21 +1,26 @@
 {
-  "code": "3138W02F5",
+  "code": "ADXS",
   "column_names": [
     "Date",
-    "Value"
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "Adjusted Close"
   ],
-  "description": "CUSIP: 3138W02F5",
-  "display_url": "http://www.newyorkfed.org/",
+  "description": "Exchange : . Key Statistics",
+  "display_url": "http://ichart.finance.yahoo.com/table.csv?s=ADXS&d=31&e=12&f=2039&g=d&a=3&b=7&c=1902&ignore=.csv",
   "errors": {},
-  "frequency": "weekly",
-  "from_date": "2013-04-17",
-  "id": 9758181,
-  "name": "Mortgage-Backed Securities (MBS) Holdings: FNMA MORTPASS 3% 01/43",
+  "frequency": "daily",
+  "from_date": "2005-07-28",
+  "id": 10008223,
+  "name": "ADXS: Advaxis, Inc. -",
   "private": false,
-  "source_code": "FRBNY",
-  "source_name": "Federal Reserve Bank of New York",
-  "to_date": "2014-05-21",
+  "source_code": "YAHOO",
+  "source_name": "Yahoo Finance",
+  "to_date": "2014-05-30",
   "type": null,
-  "updated_at": "2014-05-29T16:15:09Z",
-  "urlize_name": "Mortgage-Backed-Securities-MBS-Holdings-FNMA-MORTPASS-3-01-43"
+  "updated_at": "2014-06-02T02:03:54Z",
+  "urlize_name": "ADXS-Advaxis-Inc"
 }

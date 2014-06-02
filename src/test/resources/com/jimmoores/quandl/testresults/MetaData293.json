@@ -1,21 +1,21 @@
 {
-  "code": "AMCS_CASH_FV",
+  "code": "SMU13179804200000001",
   "column_names": [
     "Date",
-    "Cash as Percentage of Firm Value"
+    "Value"
   ],
-  "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "Statistic: All Employees, In Thousands; Industry: Retail Trade; Super-Sector: Retail Trade; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
+  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU13179804200000001",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2004-12-31",
-  "id": 3937211,
-  "name": "AMICAS Inc ( AMCS ) - Cash as Percentage of Firm Value",
+  "frequency": "monthly",
+  "from_date": "1990-01-31",
+  "id": 8475258,
+  "name": "All Employees, In Thousands; Retail Trade industry; Columbus, GA-AL;",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2008-12-31",
+  "source_code": "BLS",
+  "source_name": "Bureau of Labor Statistics",
+  "to_date": "2013-10-31",
   "type": null,
-  "updated_at": "2014-03-22T23:41:11Z",
-  "urlize_name": "AMICAS-Inc-AMCS-Cash-as-Percentage-of-Firm-Value"
+  "updated_at": "2013-12-13T01:41:16Z",
+  "urlize_name": "All-Employees-In-Thousands-Retail-Trade-industry-Columbus-GA-AL"
 }

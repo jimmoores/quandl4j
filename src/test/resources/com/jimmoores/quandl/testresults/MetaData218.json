@@ -1,21 +1,21 @@
 {
-  "code": "EIP_TEIP_NB_SEX_F_EDU_AGGREGATE_BAS_Q_LVA",
+  "code": "SGP_MYS_POP_6569_PRI_MA",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "Population in thousand, 65-69, male, primary is the total number of males age 65-69 (in thousands) with primary education.\npopulation in thousand, 65-69, male, primary",
+  "display_url": "http://api.worldbank.org/countries/SGP/indicators/MYS.POP.6569.PRI.MA?per_page=1000",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2001-02-28",
-  "id": 12530943,
-  "name": "Working Age Population Outside The Labour Force Women InBasic Education - Quarterly - Latvia",
+  "frequency": "annual",
+  "from_date": "2000-12-31",
+  "id": 2088541,
+  "name": "Singapore: population in thousand, 65-69, male, primary",
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2013-04-30",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank",
+  "to_date": "2050-12-31",
   "type": null,
-  "updated_at": "2014-05-29T04:07:56Z",
-  "urlize_name": "Working-Age-Population-Outside-The-Labour-Force-Women-InBasic-Education-Quarterly-Latvia"
+  "updated_at": "2014-05-20T13:51:51Z",
+  "urlize_name": "Singapore-population-in-thousand-65-69-male-primary"
 }

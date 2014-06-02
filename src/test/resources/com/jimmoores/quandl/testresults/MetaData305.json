@@ -1,21 +1,23 @@
 {
-  "code": "SMU49000006562200001",
+  "code": "COMM_8_VEGETABLESNESMIXTURESDRIEDNOTFURTHERPREPARE_EXPORT_MNE",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Thousands of Persons Not Seasonally Adjusted ",
-  "display_url": "http://research.stlouisfed.org/fred2/data/SMU49000006562200001.csv",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1990-01-01",
-  "id": 10979791,
-  "name": "All Employees: Health Care: Hospitals in Utah",
+  "frequency": "annual",
+  "from_date": "2010-12-31",
+  "id": 2861883,
+  "name": "Commodity Exports - Edible Vegetables And Certain Roots And Tubers / Vegetables nes & mixtures, dried, not further prepare - Montenegro",
   "private": false,
-  "source_code": "FRED",
-  "source_name": "Federal Reserve Economic Data",
-  "to_date": "2013-12-01",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-03-11T23:43:11Z",
-  "urlize_name": "All-Employees-Health-Care-Hospitals-in-Utah"
+  "updated_at": "2013-09-10T08:48:44Z",
+  "urlize_name": "Commodity-Exports-Edible-Vegetables-And-Certain-Roots-And-Tubers-Vegetables-nes-mixtures-dried-not-further-prepare-Montenegro"
 }

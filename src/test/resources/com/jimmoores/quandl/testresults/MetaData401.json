@@ -1,21 +1,21 @@
 {
-  "code": "CVTX_EV_SALES",
+  "code": "FITB_CHANGEINACCOUNTINGPRINCIPLENETDECREASEINAVAILABLEFORSALESECURITIES_Q",
   "column_names": [
     "Date",
-    "EV To Sales Ratio"
+    "Value"
   ],
-  "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "SEC Name: ChangeInAccountingPrincipleNetDecreaseInAvailableForSaleSecurities",
+  "display_url": null,
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1999-12-31",
-  "id": 4403514,
-  "name": "CV Therapeutics ( CVTX ) - EV To Sales Ratio",
+  "frequency": "daily",
+  "from_date": "2010-03-31",
+  "id": 10588480,
+  "name": "FIFTH THIRD BANCORP  (FITB): Quarterly Change In Accounting Principle Net Decrease In Available For Sale Securities",
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2007-12-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2010-03-31",
   "type": null,
-  "updated_at": "2014-03-22T02:57:05Z",
-  "urlize_name": "CV-Therapeutics-CVTX-EV-To-Sales-Ratio"
+  "updated_at": "2014-03-07T03:49:00Z",
+  "urlize_name": "FIFTH-THIRD-BANCORP-FITB-Quarterly-Change-In-Accounting-Principle-Net-Decrease-In-Available-For-Sale-Securities"
 }

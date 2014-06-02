@@ -1,21 +1,22 @@
 {
-  "code": "ELEC_PLANT_AVG_HEAT_1825_SUB_ALL_M",
+  "code": "INDCOM_HEAD_PRT",
   "column_names": [
     "Date",
-    "Value"
+    "Headphones (Mil. USD)",
+    "Headphones (UNITS)"
   ],
-  "description": "Units=Mmbtu Per Tons. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.AVG_HEAT.1825-SUB-ALL.M",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.AVG_HEAT.1825-SUB-ALL.M&out=xml",
+  "description": "Production of Headphones - Portugal. The United Nations INDCOMM Statistics Database shows statistics on industrial commodities production by country. For more information, please see <a href=http://unstats.un.org/unsd/industry/>http://unstats.un.org/unsd/industry/<\/a>",
+  "display_url": null,
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2008-01-31",
-  "id": 5131902,
-  "name": "Mmbtu Per Unit : J B Sims : Subbituminous Coal : All Primemovers : Monthly",
+  "frequency": "annual",
+  "from_date": "1995-12-31",
+  "id": 11283991,
+  "name": "Production of Headphones - Portugal",
   "private": false,
-  "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
-  "to_date": "2008-12-31",
+  "source_code": "UNDATA",
+  "source_name": "United Nations",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-01-10T01:57:15Z",
-  "urlize_name": "Mmbtu-Per-Unit-J-B-Sims-Subbituminous-Coal-All-Primemovers-Monthly"
+  "updated_at": "2014-03-31T17:03:17Z",
+  "urlize_name": "Production-of-Headphones-Portugal"
 }

@@ -1,417 +1,415 @@
 {
-  "current_page": 367564,
+  "current_page": 42838,
   "docs": [
     {
-      "code": "ADBE_PERCENTAGEOFEMPLOYEESELIGIBLECONTRIBUTION_A",
+      "code": "MR_EBIT",
       "column_names": [
         "Date",
-        "Value"
+        "Earnings Before Interest and Taxes"
       ],
-      "description": "SEC Name: PercentageOfEmployeesEligibleContribution",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-03",
-      "id": 9956935,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Percentage Of Employees Eligible Contribution",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-03",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:35Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Percentage-Of-Employees-Eligible-Contribution"
-    },
-    {
-      "code": "ADBE_PERCENTATGEOFEARNINGSTOBEACHIEVEDONBUDGETEDEARNINGSTOQUALIFYFORPROFITSHARINGPLAN_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: PercentatgeOfEarningsToBeAchievedOnBudgetedEarningsToQualifyForProfitSharingPlan",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2009-11-27",
-      "id": 9956937,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Percentatge Of Earnings To Be Achieved On Budgeted Earnings To Qualify For Profit Sharing Plan",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2009-11-27",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:22Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Percentatge-Of-Earnings-To-Be-Achieved-On-Budgeted-Earnings-To-Qualify-For-Profit-Sharing-Plan"
-    },
-    {
-      "code": "ADBE_PREPAIDLANDLEASE_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: PrepaidLandLease",
-      "display_url": null,
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-11-27",
-      "id": 9956788,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Prepaid Land Lease",
+      "from_date": "1999-12-31",
+      "id": 4691431,
+      "name": "Mindray Medical International Limited ( MR ) - Earnings Before Interest and Taxes",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2011-12-02",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-02-19T02:13:36Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Prepaid-Land-Lease"
+      "updated_at": "2014-03-21T17:52:25Z",
+      "urlize_name": "Mindray-Medical-International-Limited-MR-Earnings-Before-Interest-and-Taxes"
     },
     {
-      "code": "ADBE_PREPAIDRENTNONCURRENT_A",
+      "code": "CLAS_REV_TRAIL",
       "column_names": [
         "Date",
-        "Value"
+        "Trailing Revenues"
       ],
-      "description": "SEC Name: PrepaidRentNoncurrent",
-      "display_url": null,
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-11-27",
-      "id": 9956939,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Prepaid Rent Noncurrent",
+      "from_date": "2000-03-31",
+      "id": 5993202,
+      "name": "Classic Bancshares ( CLAS ) - Trailing Revenues",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-03",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-03-31",
       "type": null,
-      "updated_at": "2014-02-19T02:13:36Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Prepaid-Rent-Noncurrent"
+      "updated_at": "2014-03-21T17:52:26Z",
+      "urlize_name": "Classic-Bancshares-CLAS-Trailing-Revenues"
     },
     {
-      "code": "ADBE_PROFORMASHARESUSEDTOCOMPUTEDILUTEDNETINCOMEPERSHARE_A",
+      "code": "GGOX_FIXED_TOT",
       "column_names": [
         "Date",
-        "Value"
+        "Ratio of Fixed Assets to Total Assets"
       ],
-      "description": "SEC Name: ProFormaSharesUsedToComputeDilutedNetIncomePerShare",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2009-11-27",
-      "id": 9956942,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Pro Forma Shares Used To Compute Diluted Net Income Per Share",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2009-11-27",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:23Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Pro-Forma-Shares-Used-To-Compute-Diluted-Net-Income-Per-Share"
-    },
-    {
-      "code": "ADBE_PROFORMASHARESUSEDTOCOMPUTEBASICNETINCOMEPERSHARE_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: ProFormaSharesUsedToComputeBasicNetIncomePerShare",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2009-11-27",
-      "id": 9956941,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Pro Forma Shares Used To Compute Basic Net Income Per Share",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2009-11-27",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:23Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Pro-Forma-Shares-Used-To-Compute-Basic-Net-Income-Per-Share"
-    },
-    {
-      "code": "ADBE_REALIZEDGAINSONFIXEDINCOMEINVESTMENT_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: RealizedGainsOnFixedIncomeInvestment",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-03",
-      "id": 9956944,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Realized Gains On Fixed Income Investment",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-03",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:23Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Realized-Gains-On-Fixed-Income-Investment"
-    },
-    {
-      "code": "ADBE_REALIZEDINVESTMENTGAINS_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: RealizedInvestmentGains",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-03",
-      "id": 9956150,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Realized Investment Gains",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-11-29",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:23Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Realized-Investment-Gains"
-    },
-    {
-      "code": "ADBE_REALIZEDLOSSESONFIXEDINCOMEINVESTMENT_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: RealizedLossesOnFixedIncomeInvestment",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2009-11-27",
-      "id": 9956945,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Realized Losses On Fixed Income Investment",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2009-11-27",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:23Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Realized-Losses-On-Fixed-Income-Investment"
-    },
-    {
-      "code": "ADBE_REALIZEDINVESTMENTLOSSES_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: RealizedInvestmentLosses",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-03",
-      "id": 9956151,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Realized Investment Losses",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-11-29",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:23Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Realized-Investment-Losses"
-    },
-    {
-      "code": "ADBE_RESTRICTEDSTOCKUNITSGRANTEDTOEXISTINGDIRECTORS_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: RestrictedStockUnitsGrantedToExistingDirectors",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-03",
-      "id": 9956946,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Restricted Stock Units Granted To Existing Directors",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-03",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:37Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Restricted-Stock-Units-Granted-To-Existing-Directors"
-    },
-    {
-      "code": "ADBE_RESTRICTEDSTOCKUNITSGRANTEDTONEWDIRECTORS_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: RestrictedStockUnitsGrantedToNewDirectors",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2009-11-27",
-      "id": 9956947,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Restricted Stock Units Granted To New Directors",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2009-11-27",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:24Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Restricted-Stock-Units-Granted-To-New-Directors"
-    },
-    {
-      "code": "ADBE_RESTRUCTURINGACTIVITIESOTHERADJUSTMENTS_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: RestructuringActivitiesOtherAdjustments",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-03",
-      "id": 9956948,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Restructuring Activities Other Adjustments",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-03",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:37Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Restructuring-Activities-Other-Adjustments"
-    },
-    {
-      "code": "ADBE_RESTRUCTURINGRESERVEGOODWILLADJUSTMENT_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: RestructuringReserveGoodwillAdjustment",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-03",
-      "id": 9956152,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Restructuring Reserve Goodwill Adjustment",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-11-29",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:24Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Restructuring-Reserve-Goodwill-Adjustment"
-    },
-    {
-      "code": "ADBE_REVENUERESERVE_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: RevenueReserve",
-      "display_url": null,
+      "description": "Estimated by dividing the cumulated book value of fixed assets, for the sector, by the cumulated total assets, for the sector. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2007-11-30",
-      "id": 9956949,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Quarterly Revenue Reserve",
+      "from_date": "2007-12-31",
+      "id": 4461781,
+      "name": "GigOptix Inc ( GGOX ) - Ratio of Fixed Assets to Total Assets",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-03",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-12-31",
       "type": null,
-      "updated_at": "2014-02-19T02:13:24Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Quarterly-Revenue-Reserve"
+      "updated_at": "2014-03-21T17:52:46Z",
+      "urlize_name": "GigOptix-Inc-GGOX-Ratio-of-Fixed-Assets-to-Total-Assets"
     },
     {
-      "code": "ADBE_REVENUERESERVE_A",
+      "code": "NOLD_P_S",
       "column_names": [
         "Date",
-        "Value"
+        "Price to Sales Ratio"
       ],
-      "description": "SEC Name: RevenueReserve",
-      "display_url": null,
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2007-11-30",
-      "id": 9956950,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Revenue Reserve",
+      "from_date": "1999-12-31",
+      "id": 4716139,
+      "name": "Noland Company ( NOLD ) - Price to Sales Ratio",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-03",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
       "type": null,
-      "updated_at": "2014-02-19T02:13:24Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Revenue-Reserve"
+      "updated_at": "2014-03-21T17:52:46Z",
+      "urlize_name": "Noland-Company-NOLD-Price-to-Sales-Ratio"
     },
     {
-      "code": "ADBE_REVENUERESERVEINCREASEDUETOACQUISITION_A",
+      "code": "CAMT_INSIDER",
       "column_names": [
         "Date",
-        "Value"
+        "Insider Holdings"
       ],
-      "description": "SEC Name: RevenueReserveIncreaseDueToAcquisition",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2009-11-27",
-      "id": 9956952,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Revenue Reserve Increase Due To Acquisition",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2009-11-27",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:38Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Revenue-Reserve-Increase-Due-To-Acquisition"
-    },
-    {
-      "code": "ADBE_REVENUERESERVEAMOUNTCHARGEDTOREVENUE_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: RevenueReserveAmountChargedToRevenue",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-03",
-      "id": 9956951,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Revenue Reserve Amount Charged To Revenue",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-03",
-      "type": null,
-      "updated_at": "2014-02-19T02:13:38Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Revenue-Reserve-Amount-Charged-To-Revenue"
-    },
-    {
-      "code": "ADBE_SALESANDMARKETINGALLOWANCES_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: SalesAndMarketingAllowances",
-      "display_url": null,
+      "description": "Number of shares held by insiders (as defined by the SEC to include corporate officers, directors and those holding more than 5% of the outstanding stock) as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
       "frequency": "annual",
-      "from_date": "2009-11-27",
-      "id": 9956155,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Sales And Marketing Allowances",
+      "from_date": "2001-12-31",
+      "id": 3958681,
+      "name": "Camtek Ltd ( CAMT ) - Insider Holdings",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-11-29",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
       "type": null,
-      "updated_at": "2014-02-19T02:13:24Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Sales-And-Marketing-Allowances"
+      "updated_at": "2014-03-21T17:52:46Z",
+      "urlize_name": "Camtek-Ltd-CAMT-Insider-Holdings"
     },
     {
-      "code": "ADBE_SHAREBASEDCOMPENSATIONARRANGEMENTOPTIONSGRANTEDTOEXISTINGNONEMPLOYEEDIRECTORS_A",
+      "code": "RLI_REV_12M",
       "column_names": [
         "Date",
-        "Value"
+        "Trailing 12-month Revenues"
       ],
-      "description": "SEC Name: ShareBasedCompensationArrangementOptionsGrantedToExistingNonEmployeeDirectors",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-03",
-      "id": 9956953,
-      "name": "ADOBE SYSTEMS INC  (ADBE): Annual Share Based Compensation Arrangement Options Granted To Existing Non Employee Directors",
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5366576,
+      "name": "RLI Corp. ( RLI ) - Trailing 12-month Revenues",
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-03",
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
       "type": null,
-      "updated_at": "2014-02-19T02:13:38Z",
-      "urlize_name": "ADOBE-SYSTEMS-INC-ADBE-Annual-Share-Based-Compensation-Arrangement-Options-Granted-To-Existing-Non-Employee-Directors"
+      "updated_at": "2014-03-21T17:52:26Z",
+      "urlize_name": "RLI-Corp-RLI-Trailing-12-month-Revenues"
+    },
+    {
+      "code": "WMAR_NET_INC",
+      "column_names": [
+        "Date",
+        "Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-29",
+      "id": 5573260,
+      "name": "West Marine ( WMAR ) - Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-29",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:26Z",
+      "urlize_name": "West-Marine-WMAR-Net-Income"
+    },
+    {
+      "code": "ACG_SGA",
+      "column_names": [
+        "Date",
+        "Sales General and Administration Expenses"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 3875939,
+      "name": "Alliancebernstein Income Fund Inc ( ACG ) - Sales General and Administration Expenses",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:46Z",
+      "urlize_name": "Alliancebernstein-Income-Fund-Inc-ACG-Sales-General-and-Administration-Expenses"
+    },
+    {
+      "code": "MR_EBIT_1T",
+      "column_names": [
+        "Date",
+        "EBIT for Previous Period"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4691435,
+      "name": "Mindray Medical International Limited ( MR ) - EBIT for Previous Period",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:27Z",
+      "urlize_name": "Mindray-Medical-International-Limited-MR-EBIT-for-Previous-Period"
+    },
+    {
+      "code": "RLI_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5366577,
+      "name": "RLI Corp. ( RLI ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:47Z",
+      "urlize_name": "RLI-Corp-RLI-Trailing-Net-Income"
+    },
+    {
+      "code": "VSUNQ_EV",
+      "column_names": [
+        "Date",
+        "Enterprise Value"
+      ],
+      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 5560587,
+      "name": "VeraSun Energy ( VSUNQ ) - Enterprise Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:27Z",
+      "urlize_name": "VeraSun-Energy-VSUNQ-Enterprise-Value"
+    },
+    {
+      "code": "RNA_PE_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing PE Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5370490,
+      "name": "Ribapharm Inc. ( RNA ) - Trailing PE Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:48Z",
+      "urlize_name": "Ribapharm-Inc-RNA-Trailing-PE-Ratio"
+    },
+    {
+      "code": "MR_EBITDA",
+      "column_names": [
+        "Date",
+        "Earnings Before Interest Taxes Depreciation and Amortization"
+      ],
+      "description": "Estimated by adding depreciation and amortization back to operating income (EBIT). Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4691438,
+      "name": "Mindray Medical International Limited ( MR ) - Earnings Before Interest Taxes Depreciation and Amortization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:28Z",
+      "urlize_name": "Mindray-Medical-International-Limited-MR-Earnings-Before-Interest-Taxes-Depreciation-and-Amortization"
+    },
+    {
+      "code": "BYDC_P_BV",
+      "column_names": [
+        "Date",
+        "Price to Book Value Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 5968155,
+      "name": "The Boyds Collection Ltd. ( BYDC ) - Price to Book Value Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:48Z",
+      "urlize_name": "The-Boyds-Collection-Ltd-BYDC-Price-to-Book-Value-Ratio"
+    },
+    {
+      "code": "AVP_EV_BV",
+      "column_names": [
+        "Date",
+        "EV to Book Value Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5979736,
+      "name": "Avon Products ( AVP ) - EV to Book Value Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:28Z",
+      "urlize_name": "Avon-Products-AVP-EV-to-Book-Value-Ratio"
+    },
+    {
+      "code": "KELYA_P_S",
+      "column_names": [
+        "Date",
+        "Price to Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-01-01",
+      "id": 4637070,
+      "name": "Kelly Services ( KELYA ) - Price to Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:29Z",
+      "urlize_name": "Kelly-Services-KELYA-Price-to-Sales-Ratio"
+    },
+    {
+      "code": "MCO_EV_BV",
+      "column_names": [
+        "Date",
+        "EV to Book Value Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 6064009,
+      "name": "Moody's Corp. ( MCO ) - EV to Book Value Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:49Z",
+      "urlize_name": "Moody-s-Corp-MCO-EV-to-Book-Value-Ratio"
+    },
+    {
+      "code": "SEM_SGA",
+      "column_names": [
+        "Date",
+        "Sales General and Administration Expenses"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5363684,
+      "name": "Gen'l Semiconductor ( SEM ) - Sales General and Administration Expenses",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:29Z",
+      "urlize_name": "Gen-l-Semiconductor-SEM-Sales-General-and-Administration-Expenses"
+    },
+    {
+      "code": "MR_EFF_TAX_INC",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate on Income"
+      ],
+      "description": "This is the effective tax rate, obtained by dividing the taxes paid by the taxable income as reported to the stockholders. We would rather have used marginal tax rates, but these are not reported. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 4691442,
+      "name": "Mindray Medical International Limited ( MR ) - Effective Tax Rate on Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:49Z",
+      "urlize_name": "Mindray-Medical-International-Limited-MR-Effective-Tax-Rate-on-Income"
+    },
+    {
+      "code": "CLAS_BETA_VL",
+      "column_names": [
+        "Date",
+        "Value Line Beta"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-03-31",
+      "id": 5993203,
+      "name": "Classic Bancshares ( CLAS ) - Value Line Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-03-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:52:49Z",
+      "urlize_name": "Classic-Bancshares-CLAS-Value-Line-Beta"
     }
   ],
   "per_page": 20,
   "sources": [{
-    "code": "SEC",
-    "concurrency": 20,
-    "datasets_count": 4867,
-    "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
-    "host": "www.sec.gov",
-    "id": 651,
-    "name": "U.S. Securities and Exchange Commission",
-    "use_proxy": false
+    "code": "DMDRN",
+    "datasets_count": 0,
+    "description": "",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Damodaran Financial Data"
   }],
-  "total_count": 10036987
+  "total_count": 10147268
 }

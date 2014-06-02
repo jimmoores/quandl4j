@@ -1,21 +1,21 @@
 {
-  "code": "VAL_PLASTICPRODUCTS_ISL",
+  "code": "BS_BS11_04_1442",
   "column_names": [
-    "Year",
-    "Number"
+    "Date",
+    "Value"
   ],
-  "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "The bus serv collection contains harmonised statistics on business services. The statistics on enterprise turnover by product permits analyses on each product's relative importance in the turnover, consistency of product level statistics and product specialisation. On the other hand, information on enterprise turnover by client enables analyses on type and location of client and client specialisation. The economic variables make it possible to extend the analysis to productivity and personnel cost issues.\r\nThe bus serv collection includes the following variables:\r\nnumber of enterprises \r\nturnover or gross premium written\r\nnumber of employees \r\npersonnel costs\r\nvalue added at factor costs\r\nThe turnover variable is broken down by product and type and residence of client. In addition, there is information on the turnover shares of product and client specialised enterprises.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/bs_esms.htm",
+  "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fbs_bs11_04.sdmx.zip",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2005-12-31",
-  "id": 3305592,
-  "name": "Value Added (Local Currency) / Plastic products - Iceland",
+  "from_date": "2004-12-31",
+  "id": 909160,
+  "name": "Number of enterprises carrying out cross border trade by reasons for cross border trade and economic activity  : Number of enterprises : Labour recruitment and provision of personnel : The domestic market is too small : Finland",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2005-12-31",
+  "source_code": "EUROSTAT",
+  "source_name": "EuroStat",
+  "to_date": "2004-12-31",
   "type": null,
-  "updated_at": "2013-05-20T21:38:33Z",
-  "urlize_name": "Value-Added-Local-Currency-Plastic-products-Iceland"
+  "updated_at": "2014-01-10T05:29:50Z",
+  "urlize_name": "Number-of-enterprises-carrying-out-cross-border-trade-by-reasons-for-cross-border-trade-and-economic-activity-Number-of-enterprises-Labour-recruitment-and-provision-of-personnel-The-domestic-market-is-too-small-Finland"
 }

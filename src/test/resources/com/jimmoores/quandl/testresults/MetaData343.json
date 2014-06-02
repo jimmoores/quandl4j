@@ -1,21 +1,21 @@
 {
-  "code": "773_GAB",
+  "code": "CITY_DAMURHUDAKHDBANGLADESH",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Population"
   ],
-  "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3008",
-  "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/DEVICES11&filter=COUNTRY:GAB;\n",
+  "description": "City populations from previous censuses. Latest row may be an estimate.",
+  "display_url": "http://www.citypopulation.de/Bangladesh-UA.html",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2010-12-31",
-  "id": 9563478,
-  "name": "Total density per million population: Gamma camera or Nuclear medicine - Gabon",
+  "from_date": "1991-03-13",
+  "id": 7992080,
+  "name": "Population of Damurhuda, KHD, Bangladesh",
   "private": false,
-  "source_code": "WHO",
-  "source_name": "World Health Organization",
-  "to_date": "2010-12-31",
+  "source_code": "CITYPOP",
+  "source_name": "Thomas Brinkhoff: City Populations",
+  "to_date": "2011-03-15",
   "type": null,
-  "updated_at": "2014-01-13T19:14:20Z",
-  "urlize_name": "Total-density-per-million-population-Gamma-camera-or-Nuclear-medicine-Gabon"
+  "updated_at": "2014-01-11T09:18:55Z",
+  "urlize_name": "Population-of-Damurhuda-KHD-Bangladesh"
 }

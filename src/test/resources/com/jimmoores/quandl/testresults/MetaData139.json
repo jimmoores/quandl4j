@@ -1,318 +1,128 @@
 {
-  "current_page": 231833,
+  "current_page": 267092,
   "docs": [
     {
-      "code": "929_AND",
+      "code": "OEUN000000061130027204201",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "SEX: Female.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=356",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000195&filter=SEX:FMLE;COUNTRY:AND;\n",
+      "description": "Statistic: Employment; Occupation: Musicians and Singers; Industry: Colleges, Universities, and Professional Schools; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000061130027204201",
       "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 9586670,
-      "name": "Daily smoking of cigarettes (age-standardized rate) Female - Andorra",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T20:19:05Z",
-      "urlize_name": "Daily-smoking-of-cigarettes-age-standardized-rate-Female-Andorra"
-    },
-    {
-      "code": "COMM_27_IRONORECONCENTRATENOTIRONPYRITESUNAGGLOMERATE_IMPORT_BLR",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1998-12-31",
-      "id": 3065591,
-      "name": "Commodity Imports - Ores, Slag And Ash / Iron ore, concentrate, not iron pyrites,unagglomerate - Belarus",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2013-04-13T21:46:03Z",
-      "urlize_name": "Commodity-Imports-Ores-Slag-And-Ash-Iron-ore-concentrate-not-iron-pyrites-unagglomerate-Belarus"
-    },
-    {
-      "code": "923_THA",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEX: Male.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=347",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000193&filter=SEX:MLE;COUNTRY:THA;\n",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 9585814,
-      "name": "Daily smoking of any tobacco product (age-standardized rate) Male - Thailand",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T20:19:43Z",
-      "urlize_name": "Daily-smoking-of-any-tobacco-product-age-standardized-rate-Male-Thailand"
-    },
-    {
-      "code": "COMM_55_WOVENFABRICSYNTHETICFILAMENTNES_IMPORT_FIN",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 3761791,
-      "name": "Commodity Imports - Manmade Filaments / Woven fabric synthetic filament nes - Finland",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T19:44:33Z",
-      "urlize_name": "Commodity-Imports-Manmade-Filaments-Woven-fabric-synthetic-filament-nes-Finland"
-    },
-    {
-      "code": "SMU25716540000000001",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: All Employees, In Thousands; Industry: Total Nonfarm; Super-Sector: Total Nonfarm; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU25716540000000001",
-      "frequency": "monthly",
-      "from_date": "1990-01-31",
-      "id": 8487908,
-      "name": "All Employees, In Thousands; Total Nonfarm industry; Boston-Cambridge-Quincy, MA NECTA Division;",
+      "from_date": "2012-06-30",
+      "id": 9152972,
+      "name": "Employment for Musicians and Singers in Colleges, Universities, and Professional Schools in National",
       "private": false,
       "source_code": "BLS",
       "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
+      "to_date": "2012-06-30",
       "type": null,
-      "updated_at": "2013-12-13T02:54:27Z",
-      "urlize_name": "All-Employees-In-Thousands-Total-Nonfarm-industry-Boston-Cambridge-Quincy-MA-NECTA-Division"
+      "updated_at": "2013-11-17T06:00:36Z",
+      "urlize_name": "Employment-for-Musicians-and-Singers-in-Colleges-Universities-and-Professional-Schools-in-National"
     },
     {
-      "code": "COMM_81_CHROMIUMARTICLESTHEREOFWASTEORSCRAPPOWDERS_EXPORT_DZA",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2004-12-31",
-      "id": 4353691,
-      "name": "Commodity Exports - Other Base Metals, Cermets, Articles Thereof / Chromium, articles thereof, waste or scrap/powders - Algeria",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2004-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T19:44:33Z",
-      "urlize_name": "Commodity-Exports-Other-Base-Metals-Cermets-Articles-Thereof-Chromium-articles-thereof-waste-or-scrap-powders-Algeria"
-    },
-    {
-      "code": "MDG_PROPORTIONOFTOTALWATERRESOURCESUSEDPERCENTAGEFAO_BJ",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "The Millennium Development Goals Database presents official data for more than 60 indicators to measure progress towards the Millennium Development Goals. The data and analyses are the product of the work of the Inter-agency and Expert Group (IAEG), coordinated by the United Nations Statistics Division.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 3390461,
-      "name": "Proportion Of Total Water Resources Used, Percentage (fao) - Benin",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2000-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T19:53:46Z",
-      "urlize_name": "Proportion-Of-Total-Water-Resources-Used-Percentage-fao-Benin"
-    },
-    {
-      "code": "SMU26198204244600001",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: All Employees, In Thousands; Industry: Health and Personal Care Stores; Super-Sector: Retail Trade; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU26198204244600001",
-      "frequency": "monthly",
-      "from_date": "1990-01-31",
-      "id": 8477183,
-      "name": "All Employees, In Thousands; Health and Personal Care Stores industry; Detroit-Warren-Livonia, MI;",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2013-12-13T03:09:37Z",
-      "urlize_name": "All-Employees-In-Thousands-Health-and-Personal-Care-Stores-industry-Detroit-Warren-Livonia-MI"
-    },
-    {
-      "code": "930_MMR",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEX: Both sexes.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=356",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000195&filter=SEX:BTSX;COUNTRY:MMR;\n",
-      "frequency": "annual",
-      "from_date": "2009-12-31",
-      "id": 9587076,
-      "name": "Daily smoking of cigarettes (age-standardized rate) - Myanmar",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T19:38:15Z",
-      "urlize_name": "Daily-smoking-of-cigarettes-age-standardized-rate-Myanmar"
-    },
-    {
-      "code": "COMM_96_TRAVELSETSTOILETSEWINGSHOECLOTHESCLEANING_REEXPORT_ATG",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 5912323,
-      "name": "Commodity Re-Exports - Miscellaneous Manufactured Articles / Travel sets, toilet, sewing, shoe, clothes cleaning - Antigua and Barbuda",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T19:44:33Z",
-      "urlize_name": "Commodity-Re-Exports-Miscellaneous-Manufactured-Articles-Travel-sets-toilet-sewing-shoe-clothes-cleaning-Antigua-and-Barbuda"
-    },
-    {
-      "code": "MIGR_R_2IT_1",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The data comprises series of internal (in the country) regional migration on NUTS2 level during the reference year.\r\nData on arrivals and departures due to internal migration are disaggregated by NUTS2 region of arrival/departure, sex and single year age.\r\nData on migration by region of origin and destination (excluding intra-regional migration) are presented separately for each country for which such data are available. The tables are in the form of matrix (NUTS2 region of origin and destination) excluding intra-refional migration, disaggregated by sex.\r\nThe data source is administrative records or national surveys.\r\nThe completeness of the tables depends largely on the availability of data from the relevant national statistical institutes.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/reg_mig_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fmigr_r_2it.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 721524,
-      "name": "Italy  Internal regional migration by sex region of origin GEO and destination PARTNER excluding intraregional migration NUTS2  : Italy : Females : Italy",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2004-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T19:18:01Z",
-      "urlize_name": "Italy-Internal-regional-migration-by-sex-region-of-origin-GEO-and-destination-PARTNER-excluding-intraregional-migration-NUTS2-Italy-Females-Italy"
-    },
-    {
-      "code": "RC84_UF_ESPIRITO_SANTO_TOTAL_ABS",
+      "code": "RC87_UF_AMAPA_28_SEMANAS_OU_MAIS_PERC",
       "column_names": [
         "Date",
         "Value"
       ],
       "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
-      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RC84_UF_ABS.csv&categorias=%22Total%22&localidade=Espirito%20Santo",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RC87_UF_PERC.csv&categorias=%2228%20semanas%20ou%20mais%22&localidade=Amapa",
       "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 6381695,
-      "name": "Population and Demographics: Births and deaths - Fetal deaths occurred in the year by age of mother at birth - Total Units of the Federation - UF: Espirito Santo. Datatype: Absolute",
+      "from_date": "1984-12-31",
+      "id": 6382299,
+      "name": "Population and Demographics: Births and deaths - Fetal deaths occurred and registered in the year by length of gestation the mother - 28 weeks or more units of the Federation - UF: Amapa. Datatype: Relative",
       "private": false,
       "source_code": "IBGE",
       "source_name": "Brazilian Institute of Geography and Statistics",
-      "to_date": "2011-12-31",
+      "to_date": "2002-12-31",
       "type": null,
-      "updated_at": "2014-01-13T19:44:33Z",
-      "urlize_name": "Population-and-Demographics-Births-and-deaths-Fetal-deaths-occurred-in-the-year-by-age-of-mother-at-birth-Total-Units-of-the-Federation-UF-Espirito-Santo-Datatype-Absolute"
+      "updated_at": "2014-01-13T20:24:19Z",
+      "urlize_name": "Population-and-Demographics-Births-and-deaths-Fetal-deaths-occurred-and-registered-in-the-year-by-length-of-gestation-the-mother-28-weeks-or-more-units-of-the-Federation-UF-Amapa-Datatype-Relative"
     },
     {
-      "code": "COMM_59_WOVENFABRICMANMADEFIBRESNES30CMWIDE_EXPORT_MMR",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 3812408,
-      "name": "Commodity Exports - Special Woven Or Tufted Fabric, Lace, Tapestry Etc / Woven fabric manmade fibres, nes, < 30 cm wide - Myanmar",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T19:44:33Z",
-      "urlize_name": "Commodity-Exports-Special-Woven-Or-Tufted-Fabric-Lace-Tapestry-Etc-Woven-fabric-manmade-fibres-nes-30-cm-wide-Myanmar"
-    },
-    {
-      "code": "SMU25716540500000002",
+      "code": "HNOORPA027N",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Statistic: Average Weekly Hours of All Employees; Industry: Total Private; Super-Sector: Total Private; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU25716540500000002",
-      "frequency": "monthly",
-      "from_date": "2007-01-31",
-      "id": 8487910,
-      "name": "Average Weekly Hours of All Employees; Total Private industry; Boston-Cambridge-Quincy, MA NECTA Division;",
+      "description": "Millions of Dollars Not Seasonally Adjusted, The source ID is FA153076005.A  This data appear in Table S.3.a of the 'Integrated Macroeconomic Accounts for the United States.'  These tables present a sequence of accounts that relate production, income and spending, capital formation, financial transactions, and asset revaluations to changes in net worth between balance sheets for the major sectors of the U.S. economy. They are part of an interagency effort to further harmonize the BEA National Income and Product Accounts (NIPAs) and the Federal Reserve Board Flow of Funds Accounts (FFAs). The structure of these tables is based on the internationally accepted set of guidelines for the compilation of national accounts that are offered in the System of National Accounts 1993 (SNA).  Cautionary note on the use of the integrated macroeconomic accounts (IMA) - The estimates that are provided on this page are based on a unique set of accounting standards that are founded on the SNA. Accordingly, some of the estimates in in the IMA tables will differ from the official estimates that are published in the NIPAs and FFAs due to conceptual differences. There will also be some statistical differences between the estimates in these tables and those in the related accounts. For further information on the conceptual differences, see the paper at http://www.bea.gov/national/pdf/Integratedmac.pdf. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/HNOORPA027N.csv",
+      "frequency": "annual",
+      "from_date": "1946-01-01",
+      "id": 8515137,
+      "name": "Households and nonprofit organizations; insurance receivables due from property-casualty insurance companies; asset, Flow",
       "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
       "type": null,
-      "updated_at": "2013-12-13T02:54:29Z",
-      "urlize_name": "Average-Weekly-Hours-of-All-Employees-Total-Private-industry-Boston-Cambridge-Quincy-MA-NECTA-Division"
+      "updated_at": "2014-01-12T06:44:25Z",
+      "urlize_name": "Households-and-nonprofit-organizations-insurance-receivables-due-from-property-casualty-insurance-companies-asset-Flow"
     },
     {
-      "code": "762_SWE",
+      "code": "560_EUR",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3253",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/ODA_1&filter=COUNTRY:SWE;\n",
+      "description": "SOCIALCOSTTYPE: Indirect costs.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1394",
+      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/SA_0000001477&filter=SOCIALCOSTTYPE:SA_INDIRECT_COSTS;REGION:EUR;\n",
       "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 9562504,
-      "name": "Donor commitments (Million, constant 2009 US$) - Sweden",
+      "from_date": "1996-12-31",
+      "id": 9559401,
+      "name": "Social costs of alcohol use in millions US$ Indirect costs - Europe",
       "private": false,
       "source_code": "WHO",
       "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
+      "to_date": "2007-12-31",
       "type": null,
-      "updated_at": "2014-01-13T19:44:33Z",
-      "urlize_name": "Donor-commitments-Million-constant-2009-US-Sweden"
+      "updated_at": "2014-01-13T20:14:04Z",
+      "urlize_name": "Social-costs-of-alcohol-use-in-millions-US-Indirect-costs-Europe"
     },
     {
-      "code": "COMM_84_HANDPUMPSNOTDESIGNEDTOMEASUREFLOW_IMPORT_NCL",
+      "code": "VIR_UIS_G_56_F200_DCOUNT_F",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Graduates in humanities and arts. Tertiary. Female is the total number of female tertiary graduates from humanities and arts programs.\nGraduates in humanities and arts. Tertiary. Female",
+      "display_url": "http://api.worldbank.org/countries/VIR/indicators/UIS.G.56.F200.dcount.F?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 2239065,
+      "name": "Virgin Islands (U.S.): Graduates in humanities and arts. Tertiary. Female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T21:49:57Z",
+      "urlize_name": "Virgin-Islands-U-S-Graduates-in-humanities-and-arts-Tertiary-Female"
+    },
+    {
+      "code": "NCU5505041400009",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Social, recreation, and religious workers; Skills: Level 09 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU5505041400009",
+      "frequency": "annual",
+      "from_date": "2003-05-31",
+      "id": 9224838,
+      "name": "Compensation for Social, recreation, and religious workers in Level 09",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-05-31",
+      "type": null,
+      "updated_at": "2013-11-18T16:52:44Z",
+      "urlize_name": "Compensation-for-Social-recreation-and-religious-workers-in-Level-09"
+    },
+    {
+      "code": "COMM_53_PLAINWEAVECOTTON85100200GM2PRINTED_EXPORT_NGA",
       "column_names": [
         "Year",
         "Trade (USD)",
@@ -323,18 +133,78 @@
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
       "from_date": "2006-12-31",
-      "id": 4755533,
-      "name": "Commodity Imports - Nuclear Reactors, Boilers, Machinery, Etc / Hand pumps not designed to measure flow - New Caledonia",
+      "id": 3726070,
+      "name": "Commodity Exports - Cotton / Plain weave cotton, >85% 100-200g/m2, printed - Nigeria",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-13T19:44:35Z",
-      "urlize_name": "Commodity-Imports-Nuclear-Reactors-Boilers-Machinery-Etc-Hand-pumps-not-designed-to-measure-flow-New-Caledonia"
+      "updated_at": "2014-01-13T20:05:39Z",
+      "urlize_name": "Commodity-Exports-Cotton-Plain-weave-cotton-85-100-200g-m2-printed-Nigeria"
     },
     {
-      "code": "COMM_69_ASBESTOSFRICTIONMATERIALARTICLESEXCEPTFORBRAKE_EXPORT_SRB",
+      "code": "IIUCON23820011122",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Rate of injury cases per 100 full-time workers; Case type: Total recordable cases; Industry: Building equipment contractors; Supersector: Construction; Area: Private industry, Louisiana; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUCON23820011122",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 9078208,
+      "name": "Rate of injury cases per 100 full-time workers for Building equipment contractors, Private industry, Louisiana",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-11-15T17:56:05Z",
+      "urlize_name": "Rate-of-injury-cases-per-100-full-time-workers-for-Building-equipment-contractors-Private-industry-Louisiana"
+    },
+    {
+      "code": "CXUVEHOTHXPLB0207M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Source: BLS Consumer Expenditure Survey. For more information see <a href=\"http://www.bls.gov/cex/csxovr.htm\">http://www.bls.gov/cex/csxovr.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/CXUVEHOTHXPLB0207M",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 9078209,
+      "name": "Expenditure on Other vehicle expenses by Consumer Category; $30,000 to $39,999 before tax income",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-11-15T17:56:05Z",
+      "urlize_name": "Expenditure-on-Other-vehicle-expenses-by-Consumer-Category-30-000-to-39-999-before-tax-income"
+    },
+    {
+      "code": "PD277_RM_BELEM_PA_FREEZER_NAO_TINHAM_ABS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PD277_RM_ABS.csv&categorias=%22Freezer%20-%20nao%20tinham%22&localidade=Belem%20-%20PA",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6331657,
+      "name": "Families and Households: Durable Goods Existing In Domicile - Permanent private households by tenure freezer - Freezer - metropolitan areas had not: Belem - PA. Datatype: Absolute",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-09-09T14:27:37Z",
+      "urlize_name": "Families-and-Households-Durable-Goods-Existing-In-Domicile-Permanent-private-households-by-tenure-freezer-Freezer-metropolitan-areas-had-not-Belem-PA-Datatype-Absolute"
+    },
+    {
+      "code": "COMM_85_VARIABLERESISTORSRHEOSTATSANDPOTENTIOMETERSNES_IMPORT_NLD",
       "column_names": [
         "Year",
         "Trade (USD)",
@@ -344,19 +214,179 @@
       "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 4060365,
-      "name": "Commodity Exports - Stone, Plaster, Cement, Asbestos, Mica, Etc Articles / Asbestos friction material, articles except for brake - Serbia",
+      "from_date": "2007-12-31",
+      "id": 5612188,
+      "name": "Commodity Imports - Electrical, Electronic Equipment / Variable resistors, rheostats and potentiometers, nes - Netherlands",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-13T19:44:34Z",
-      "urlize_name": "Commodity-Exports-Stone-Plaster-Cement-Asbestos-Mica-Etc-Articles-Asbestos-friction-material-articles-except-for-brake-Serbia"
+      "updated_at": "2013-12-28T21:16:10Z",
+      "urlize_name": "Commodity-Imports-Electrical-Electronic-Equipment-Variable-resistors-rheostats-and-potentiometers-nes-Netherlands"
     },
     {
-      "code": "COMM_20_INFANTFOODSOFCEREALSFLOURSTARCHORMILKRETAI_IMPORT_SGP",
+      "code": "IIUMFG31300041113",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Number of illness cases (thousands); Case type: Total recordable cases; Industry: Textile mills; Supersector: Manufacturing; Area: Private industry, Georgia; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUMFG31300041113",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 9414548,
+      "name": "Number of illness cases (thousands) for Textile mills, Private industry, Georgia",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-11-25T09:52:44Z",
+      "urlize_name": "Number-of-illness-cases-thousands-for-Textile-mills-Private-industry-Georgia"
+    },
+    {
+      "code": "22_COK",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "GBDCHILDCAUSES: Malaria.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=89",
+      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/MORT_300&filter=GBDCHILDCAUSES:CH8;COUNTRY:COK;\n",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 9490442,
+      "name": "Distribution of causes of death among children aged < 5 years (%) Malaria - Cook Islands",
+      "private": false,
+      "source_code": "WHO",
+      "source_name": "World Health Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T19:21:05Z",
+      "urlize_name": "Distribution-of-causes-of-death-among-children-aged-5-years-Malaria-Cook-Islands"
+    },
+    {
+      "code": "560_WPR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SOCIALCOSTTYPE: Indirect costs.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1394",
+      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/SA_0000001477&filter=SOCIALCOSTTYPE:SA_INDIRECT_COSTS;REGION:WPR;\n",
+      "frequency": "annual",
+      "from_date": "1998-12-31",
+      "id": 9559406,
+      "name": "Social costs of alcohol use in millions US$ Indirect costs - Western Pacific",
+      "private": false,
+      "source_code": "WHO",
+      "source_name": "World Health Organization",
+      "to_date": "1998-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T20:14:27Z",
+      "urlize_name": "Social-costs-of-alcohol-use-in-millions-US-Indirect-costs-Western-Pacific"
+    },
+    {
+      "code": "OEUN000000032300051903001",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Statistic: Employment; Occupation: Cutting Workers; Industry: Printing and Related Support Activities; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000032300051903001",
+      "frequency": "annual",
+      "from_date": "2012-06-30",
+      "id": 8982198,
+      "name": "Employment for Cutting Workers in Printing and Related Support Activities in National",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2013-11-16T02:07:56Z",
+      "urlize_name": "Employment-for-Cutting-Workers-in-Printing-and-Related-Support-Activities-in-National"
+    },
+    {
+      "code": "172_000816853_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=172",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 8310022,
+      "name": "Annual accounts, base 1995 - TFO - Revaluations - F5131 - Other equity in euros - Debited sector: S125 - Insurance companies and pension funds - Value in current euros - Stopped series",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T19:40:38Z",
+      "urlize_name": "Annual-accounts-base-1995-TFO-Revaluations-F5131-Other-equity-in-euros-Debited-sector-S125-Insurance-companies-and-pension-funds-Value-in-current-euros-Stopped-series"
+    },
+    {
+      "code": "PD281_UF_PARANA_TOTAL_PERC",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PD281_UF_PERC.csv&categorias=%22Total%22&localidade=Parana",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6332055,
+      "name": "Families and Households: Durable Goods Existing In Domicile - Permanent private households by radio ownership - Total Units of the Federation - UF: Parana. Datatype: Relative",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2013-09-09T14:27:43Z",
+      "urlize_name": "Families-and-Households-Durable-Goods-Existing-In-Domicile-Permanent-private-households-by-radio-ownership-Total-Units-of-the-Federation-UF-Parana-Datatype-Relative"
+    },
+    {
+      "code": "TRNG_AES_177_650",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Adult Education Survey is part of the EU Statistics on lifelong learning. The surveys have been carried out by countries in the EU, EFTA and candidate countries between 2005 and 2008. The EU AES is a pilot exercise which for the first time proposed a common EU framework including a standard questionnaire, tools and quality reporting.\r\nAES data from approximately half of the participating countries will be disseminated in autumn 2008 and the second part in mid 2009\r\nThe survey covers participation in education and lifelong learning activities (formal, non-formal and informal learning) including job-related activities, characteristics of learning activities, self-reported skills as well as modules on social and cultural participation, foreign language skills, IT skills and background variables related to main characteristics of the respondents.\r\nParameters and main variables\r\nThe AES in all the participating countries focused on the following parameters:\r\nParticipation in formal, non-formal and informal education (FED, NFE, INF)\r\nNon-participation and obstacles to participation in training\r\nParticipation in FED, NFE and INF activities by field of education/learning\r\nShare of the job related NFE\r\nVolume of instruction hours in FED and NFE\r\nEmployer financing and costs of learning in FED and NFE\r\nModule on language and ICT skills of the population\r\nModule on social and cultural participation of the population\r\n\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_aes_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_aes_177.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 798803,
+      "name": "Type of obstacles by participation and age groups  : Respondents who did not participate but wanted to participate : Percentage of total : From 35 to 54 years : Lack of employer's support : Austria",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2013-04-14T15:12:36Z",
+      "urlize_name": "Type-of-obstacles-by-participation-and-age-groups-Respondents-who-did-not-participate-but-wanted-to-participate-Percentage-of-total-From-35-to-54-years-Lack-of-employer-s-support-Austria"
+    },
+    {
+      "code": "CXUVEHOTHXPLB0209M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Source: BLS Consumer Expenditure Survey. For more information see <a href=\"http://www.bls.gov/cex/csxovr.htm\">http://www.bls.gov/cex/csxovr.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/CXUVEHOTHXPLB0209M",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 9078213,
+      "name": "Expenditure on Other vehicle expenses by Consumer Category; $50,000 to $69,999 before tax income",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-11-15T17:56:06Z",
+      "urlize_name": "Expenditure-on-Other-vehicle-expenses-by-Consumer-Category-50-000-to-69-999-before-tax-income"
+    },
+    {
+      "code": "COMM_95_SNOWSKIEQUIPMENTEXCEPTSKISBINDINGS_IMPORT_CHN",
       "column_names": [
         "Year",
         "Trade (USD)",
@@ -366,56 +396,16 @@
       "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "1989-12-31",
-      "id": 2988341,
-      "name": "Commodity Imports - Cereal, Flour, Starch, Milk Preparations And Products / Infant foods of cereals, flour, starch or milk, retai - Singapore",
+      "from_date": "1992-12-31",
+      "id": 5889919,
+      "name": "Commodity Imports - Toys, Games, Sports Requisites / Snow-ski equipment except skis/bindings - China",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-13T19:44:33Z",
-      "urlize_name": "Commodity-Imports-Cereal-Flour-Starch-Milk-Preparations-And-Products-Infant-foods-of-cereals-flour-starch-or-milk-retai-Singapore"
-    },
-    {
-      "code": "SMU27000003000000003",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: Average Hourly Earnings of All Employees, In Dollars; Industry: Manufacturing; Super-Sector: Manufacturing; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU27000003000000003",
-      "frequency": "monthly",
-      "from_date": "2007-01-31",
-      "id": 8460666,
-      "name": "Average Hourly Earnings of All Employees, In Dollars; Manufacturing industry; Minnesota statewide",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2013-12-13T03:17:44Z",
-      "urlize_name": "Average-Hourly-Earnings-of-All-Employees-In-Dollars-Manufacturing-industry-Minnesota-statewide"
-    },
-    {
-      "code": "SMU25716540500000003",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: Average Hourly Earnings of All Employees, In Dollars; Industry: Total Private; Super-Sector: Total Private; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU25716540500000003",
-      "frequency": "monthly",
-      "from_date": "2007-01-31",
-      "id": 8487911,
-      "name": "Average Hourly Earnings of All Employees, In Dollars; Total Private industry; Boston-Cambridge-Quincy, MA NECTA Division;",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2013-12-13T02:54:30Z",
-      "urlize_name": "Average-Hourly-Earnings-of-All-Employees-In-Dollars-Total-Private-industry-Boston-Cambridge-Quincy-MA-NECTA-Division"
+      "updated_at": "2014-01-13T20:00:51Z",
+      "urlize_name": "Commodity-Imports-Toys-Games-Sports-Requisites-Snow-ski-equipment-except-skis-bindings-China"
     }
   ],
   "per_page": 20,
@@ -445,6 +435,14 @@
       "name": "EuroStat"
     },
     {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
       "code": "IBGE",
       "datasets_count": 110418,
       "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
@@ -459,7 +457,23 @@
       "host": "www.bls.gov",
       "id": 162,
       "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "FRED",
+      "datasets_count": 60949,
+      "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
+      "host": "www.research.stlouisfed.org",
+      "id": 118,
+      "name": "Federal Reserve Economic Data"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
     }
   ],
-  "total_count": 10053489
+  "total_count": 10147268
 }

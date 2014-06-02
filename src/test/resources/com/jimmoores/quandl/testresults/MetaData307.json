@@ -1,21 +1,21 @@
 {
-  "code": "3138WUWE9",
+  "code": "RCITY_ZRI_ALLHOMES_MCCAMEYTX",
   "column_names": [
     "Date",
-    "Value"
+    "McCamey"
   ],
-  "description": "CUSIP: 3138WUWE9",
-  "display_url": "http://www.newyorkfed.org/",
+  "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of McCamey, TX. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
   "errors": {},
-  "frequency": "weekly",
-  "from_date": "2013-08-14",
-  "id": 9767955,
-  "name": "Mortgage-Backed Securities (MBS) Holdings: FNMA MORTPASS 3.5% 05/43",
+  "frequency": "monthly",
+  "from_date": "2010-12-31",
+  "id": 6985525,
+  "name": "Zillow Rent Index (Cities): Rentals All Homes - McCamey, TX",
   "private": false,
-  "source_code": "FRBNY",
-  "source_name": "Federal Reserve Bank of New York",
-  "to_date": "2014-05-21",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
   "type": null,
-  "updated_at": "2014-05-28T20:26:25Z",
-  "urlize_name": "Mortgage-Backed-Securities-MBS-Holdings-FNMA-MORTPASS-3-5-05-43"
+  "updated_at": "2014-05-08T06:46:33Z",
+  "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-McCamey-TX"
 }

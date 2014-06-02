@@ -16,6 +16,7 @@ import com.jimmoores.quandl.util.RESTDataProvider;
 /**
  * Tests to test the generation of URLs.
  */
+@Test(groups = { "unit" })
 public class URLGenerationTests {
   
   private static final int CLOSE_COLUMN = 4;

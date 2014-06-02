@@ -1,21 +1,18 @@
 {
-  "code": "DDDC_CAPITALLEASEDASSETSGROSS_A",
-  "column_names": [
-    "Date",
-    "Value"
-  ],
-  "description": "SEC Name: CapitalLeasedAssetsGross",
-  "display_url": null,
+  "code": "GMP32900_REAL_SUPPORTACTIVITIESFORMINING_MERCEDCA",
+  "column_names": [],
+  "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+  "display_url": "http://bea.gov/regional",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2011-12-31",
-  "id": 10580754,
-  "name": "DELTATHREE INC  (DDDC): Annual Capital Leased Assets Gross",
+  "frequency": null,
+  "from_date": null,
+  "id": 8180151,
+  "name": "Real GDP: Support activities for mining - Merced, CA",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2012-12-31",
+  "source_code": "BEA",
+  "source_name": "Bureau of Economic Analysis",
+  "to_date": null,
   "type": null,
-  "updated_at": "2014-03-10T22:14:14Z",
-  "urlize_name": "DELTATHREE-INC-DDDC-Annual-Capital-Leased-Assets-Gross"
+  "updated_at": "2013-09-13T01:06:55Z",
+  "urlize_name": "Real-GDP-Support-activities-for-mining-Merced-CA"
 }

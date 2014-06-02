@@ -1,21 +1,21 @@
 {
-  "code": "DM_NOTIONALAMOUNTOFINTERESTRATEDERIVATIVEINSTRUMENTSNOTDESIGNATEDASHEDGINGINSTRUMENTS_A",
+  "code": "172_000800806_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEC Name: NotionalAmountOfInterestRateDerivativeInstrumentsNotDesignatedAsHedgingInstruments",
-  "display_url": null,
+  "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=172",
+  "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2012-12-31",
-  "id": 10738416,
-  "name": "Dolan Co.  (DM): Annual Notional Amount Of Interest Rate Derivative Instruments Not Designated As Hedging Instruments",
+  "frequency": "annual",
+  "from_date": "1990-12-31",
+  "id": 8308173,
+  "name": "Annual accounts, base 1995 - TFO - Net incurrence of liabilities incurred - F4291 - Other long-term loans in euros - Credited sector: S1311 - Central government - Value in current euros - Stopped series",
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2012-12-31",
+  "source_code": "INSEE",
+  "source_name": "National Institute of Statistics and Economic Studies (France)",
+  "to_date": "2002-12-31",
   "type": null,
-  "updated_at": "2014-03-12T17:57:58Z",
-  "urlize_name": "Dolan-Co-DM-Annual-Notional-Amount-Of-Interest-Rate-Derivative-Instruments-Not-Designated-As-Hedging-Instruments"
+  "updated_at": "2014-01-11T19:45:12Z",
+  "urlize_name": "Annual-accounts-base-1995-TFO-Net-incurrence-of-liabilities-incurred-F4291-Other-long-term-loans-in-euros-Credited-sector-S1311-Central-government-Value-in-current-euros-Stopped-series"
 }

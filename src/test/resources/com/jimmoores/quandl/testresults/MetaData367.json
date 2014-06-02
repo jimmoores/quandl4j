@@ -1,21 +1,21 @@
 {
-  "code": "MCITY_PCTOFHOMESINCREASINGINVALUES_ALLHOMES_MORRISTOWNNJ",
+  "code": "NI_REMAININGUNREALIZEDLOSSNETOFTAX_Q",
   "column_names": [
     "Date",
-    "Morristown"
+    "Value"
   ],
-  "description": "The percentage of homes whose values have increased in the past year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-  "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesIncreasingInValues_AllHomes.csv",
+  "description": "SEC Name: RemainingUnrealizedLossNetOfTax",
+  "display_url": null,
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1997-03-31",
-  "id": 7136095,
-  "name": "Zillow Metrics (Cities): Increasing Values (%) - Morristown, NJ",
+  "frequency": "daily",
+  "from_date": "2012-03-31",
+  "id": 10406977,
+  "name": "NISOURCE INC/DE  (NI): Quarterly Remaining Unrealized Loss Net Of Tax",
   "private": false,
-  "source_code": "ZILLOW",
-  "source_name": "Zillow Real Estate Research",
-  "to_date": "2014-03-31",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2012-03-31",
   "type": null,
-  "updated_at": "2014-05-08T11:49:17Z",
-  "urlize_name": "Zillow-Metrics-Cities-Increasing-Values-Morristown-NJ"
+  "updated_at": "2014-03-06T23:01:35Z",
+  "urlize_name": "NISOURCE-INC-DE-NI-Quarterly-Remaining-Unrealized-Loss-Net-Of-Tax"
 }

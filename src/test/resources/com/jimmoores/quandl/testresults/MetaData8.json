@@ -1,417 +1,483 @@
 {
-  "current_page": 63848,
+  "current_page": 149333,
   "docs": [
     {
-      "code": "PRGS_EV",
+      "code": "1206_000881091_A",
       "column_names": [
         "Date",
-        "Enterprise Value"
+        "Value"
       ],
-      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1206",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
       "frequency": "annual",
-      "from_date": "1999-11-30",
-      "id": 5405493,
-      "name": "Progress Software ( PRGS ) - Enterprise Value",
+      "from_date": "1960-12-31",
+      "id": 8015520,
+      "name": "Effective households' consumption, base 2000 - Value in euro of the previous year - Product: A01.K - Other industrial crops - Stopped series",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-11-30",
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-12-31",
       "type": null,
-      "updated_at": "2014-03-22T17:56:39Z",
-      "urlize_name": "Progress-Software-PRGS-Enterprise-Value"
+      "updated_at": "2014-01-10T12:09:57Z",
+      "urlize_name": "Effective-households-consumption-base-2000-Value-in-euro-of-the-previous-year-Product-A01-K-Other-industrial-crops-Stopped-series"
     },
     {
-      "code": "TSYS_REV_LAST",
+      "code": "1206_000881911_A",
       "column_names": [
         "Date",
-        "Revenues"
+        "Value"
       ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1206",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
       "frequency": "annual",
-      "from_date": "2002-12-31",
-      "id": 5520255,
-      "name": "Telecommunication Sys Inc ( TSYS ) - Revenues",
+      "from_date": "1959-12-31",
+      "id": 8015458,
+      "name": "Effective households' consumption, base 2000 - Value in euros of 2000 - Product: N34 - Sewage and refuse disposal - Stopped series",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-12-31",
       "type": null,
-      "updated_at": "2014-03-22T17:56:40Z",
-      "urlize_name": "Telecommunication-Sys-Inc-TSYS-Revenues"
+      "updated_at": "2014-01-10T12:06:20Z",
+      "urlize_name": "Effective-households-consumption-base-2000-Value-in-euros-of-2000-Product-N34-Sewage-and-refuse-disposal-Stopped-series"
     },
     {
-      "code": "AIMM_CASH_REV",
+      "code": "1206_000881463_A",
       "column_names": [
         "Date",
-        "Cash as Percentage of Revenues"
+        "Value"
       ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1206",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
       "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 3911742,
-      "name": "AutoImmune Inc. ( AIMM ) - Cash as Percentage of Revenues",
+      "from_date": "1960-12-31",
+      "id": 8015457,
+      "name": "Effective households' consumption, base 2000 - Value in euro of the previous year - Product: N33 - Security, cleaning and various services for businesses - Stopped series",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T12:05:14Z",
+      "urlize_name": "Effective-households-consumption-base-2000-Value-in-euro-of-the-previous-year-Product-N33-Security-cleaning-and-various-services-for-businesses-Stopped-series"
+    },
+    {
+      "code": "POP_324_CZE_FEM_01",
+      "column_names": [
+        "Year",
+        "Armed forces (ISCO 88 - 0)",
+        "Legislators",
+        " senior officials and managers (ISCO 88 - 1)",
+        "Professionals (ISCO 88 - 2)",
+        "Technicians and associate professionals (ISCO 88 - 3)",
+        "Clerks (ISCO 88 - 4)",
+        "Service workers and shop and market sales workers (ISCO 88 - 5)",
+        "Skilled agricultural and fishery workers (ISCO 88 - 6)",
+        "Craft and related trades workers (ISCO 88 - 7)",
+        "Plant and machine operators and assemblers (ISCO 88 - 8)",
+        "Elementary occupations (ISCO 88 - 9)",
+        "Unknown",
+        "Total (ISCO 88)"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 2619749,
+      "name": "Employed Population by Status and Occupation - Female / Employer Status - Czech Republic",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-03-22T17:57:00Z",
-      "urlize_name": "AutoImmune-Inc-AIMM-Cash-as-Percentage-of-Revenues"
+      "updated_at": "2014-01-10T02:30:54Z",
+      "urlize_name": "Employed-Population-by-Status-and-Occupation-Female-Employer-Status-Czech-Republic"
     },
     {
-      "code": "TTC_EV_BV",
+      "code": "NATACC_GDPATCONSTANT2005PRICESUSDOLLARS_GENERALGOVERNMENTFINALCONSUMPTIONEXPENDITURE_GHA",
       "column_names": [
-        "Date",
-        "EV to Book Value Ratio"
+        "Year",
+        "Value"
       ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "The Economic Statistics Branch of the United Nations Statistics Division (UNSD) maintains and annually updates the National Accounts Main Aggregates database. It consists of a complete and consistent set of time series, from 1970 onwards, of the main National Accounts aggregates of all UN Members States and other territories in the world for which National Accounts information is available. Its contents are based on the official data reported to UNSD through the annual National Accounts Questionnaire, supplemented with data estimates for any years and countries with incomplete or inconsistent information.",
+      "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "1999-10-31",
-      "id": 5520656,
-      "name": "Toro Co. ( TTC ) - EV to Book Value Ratio",
+      "from_date": "1970-12-31",
+      "id": 3399934,
+      "name": "GDP at constant 2005 prices (US dollars) / General government final consumption expenditure - Ghana",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-10-31",
-      "type": null,
-      "updated_at": "2014-03-22T17:56:40Z",
-      "urlize_name": "Toro-Co-TTC-EV-to-Book-Value-Ratio"
-    },
-    {
-      "code": "TSYS_EBIT_1T",
-      "column_names": [
-        "Date",
-        "EBIT for Previous Period"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-12-31",
-      "id": 5520203,
-      "name": "Telecommunication Sys Inc ( TSYS ) - EBIT for Previous Period",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "UN",
+      "source_name": "United Nations",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-22T17:56:41Z",
-      "urlize_name": "Telecommunication-Sys-Inc-TSYS-EBIT-for-Previous-Period"
+      "updated_at": "2014-01-11T07:02:47Z",
+      "urlize_name": "GDP-at-constant-2005-prices-US-dollars-General-government-final-consumption-expenditure-Ghana"
     },
     {
-      "code": "FFHL_OP_MARG",
+      "code": "RGC320_UF_AMAPA_SEM_DECLARACAO_PERC",
       "column_names": [
         "Date",
-        "Pre-Tax Operating Margin"
+        "Value"
       ],
-      "description": "Estimated by dividing the pre-tax operating income by the total revenues. This is a pre-tax measure of operating profitability: Pre-tax Operating Margin = EBIT / Sales. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 4444448,
-      "name": "Fuwei Films Co. ( FFHL ) - Pre-Tax Operating Margin",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T17:57:01Z",
-      "urlize_name": "Fuwei-Films-Co-FFHL-Pre-Tax-Operating-Margin"
-    },
-    {
-      "code": "TSYS_DIV",
-      "column_names": [
-        "Date",
-        "Dividends"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-12-31",
-      "id": 5520197,
-      "name": "Telecommunication Sys Inc ( TSYS ) - Dividends",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-03-22T17:56:41Z",
-      "urlize_name": "Telecommunication-Sys-Inc-TSYS-Dividends"
-    },
-    {
-      "code": "NEWS_CASH_REV",
-      "column_names": [
-        "Date",
-        "Cash as Percentage of Revenues"
-      ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RGC320_UF_PERC.csv&categorias=%22Sem%20declaracao%22&localidade=Amapa",
       "frequency": "annual",
       "from_date": "2005-12-31",
-      "id": 4687559,
-      "name": "Newstar Financial ( NEWS ) - Cash as Percentage of Revenues",
+      "id": 6399411,
+      "name": "Population and Demographics: Marriage (marriages, separations, divorces) - Legal separations - time between dates of marriage and separation - No declaration Federation Units - UF: Amapa. Datatype: Relative",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T16:46:47Z",
+      "urlize_name": "Population-and-Demographics-Marriage-marriages-separations-divorces-Legal-separations-time-between-dates-of-marriage-and-separation-No-declaration-Federation-Units-UF-Amapa-Datatype-Relative"
+    },
+    {
+      "code": "COMM_35_ARTIFICIALANDPREPAREDWAXESNES_IMPORT_SVK",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 3474817,
+      "name": "Commodity Imports - Soaps, Lubricants, Waxes, Candles, Modelling Pastes / Artificial and prepared waxes, nes - Slovakia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T08:15:04Z",
+      "urlize_name": "Commodity-Imports-Soaps-Lubricants-Waxes-Candles-Modelling-Pastes-Artificial-and-prepared-waxes-nes-Slovakia"
+    },
+    {
+      "code": "COMM_85_PARTSOFELECTRICALCAPACITORS_IMPORT_MRT",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 5606472,
+      "name": "Commodity Imports - Electrical, Electronic Equipment / Parts of electrical capacitors - Mauritania",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2013-05-15T18:57:48Z",
+      "urlize_name": "Commodity-Imports-Electrical-Electronic-Equipment-Parts-of-electrical-capacitors-Mauritania"
+    },
+    {
+      "code": "POP_29_MEX_FEM_RUR_17",
+      "column_names": [
+        "Year",
+        "Total",
+        "Attending school",
+        "Not attending school",
+        "Not stated"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 2557854,
+      "name": "Child Population by School Attendance - Female / Age 17 / Rural Areas - Mexico",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-09-10T02:49:59Z",
+      "urlize_name": "Child-Population-by-School-Attendance-Female-Age-17-Rural-Areas-Mexico"
+    },
+    {
+      "code": "POP_SEX_AGE_NB_SEX_T_AGE_5YEARSBAND_60_64_BMU",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 6224036,
+      "name": "Population By Sex And Age, Total, 60-64 - Bermuda",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-20T05:36:11Z",
+      "urlize_name": "Population-By-Sex-And-Age-Total-60-64-Bermuda"
+    },
+    {
+      "code": "UIS_DISTIRIBUTIONOFSTUDENTSBYISCEDLEVEL5A__ALLGENDERS_MYS",
+      "column_names": [
+        "Year",
+        "Percent"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 3574821,
+      "name": "Distiribution of students by ISCED level 5A / All genders - Malaysia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T00:04:29Z",
+      "urlize_name": "Distiribution-of-students-by-ISCED-level-5A-All-genders-Malaysia"
+    },
+    {
+      "code": "COMM_84_TEXTILEYARNDOUBLINGORTWISTINGMACHINES_REEXPORT_NZL",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 4757962,
+      "name": "Commodity Re-Exports - Nuclear Reactors, Boilers, Machinery, Etc / Textile yarn doubling or twisting machines - New Zealand",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2013-03-23T20:13:52Z",
+      "urlize_name": "Commodity-Re-Exports-Nuclear-Reactors-Boilers-Machinery-Etc-Textile-yarn-doubling-or-twisting-machines-New-Zealand"
+    },
+    {
+      "code": "GMP20740_QUANTITY_TEXTILEMILLSANDTEXTILEPRODUCTMILLS_EAUCLAIREWI",
+      "column_names": [],
+      "description": "Indexes. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+      "display_url": "http://bea.gov/regional",
+      "frequency": null,
+      "from_date": null,
+      "id": 8162950,
+      "name": "Quantity Indexes for Real GDP: Textile mills and textile product mills - Eau Claire, WI",
+      "private": false,
+      "source_code": "BEA",
+      "source_name": "Bureau of Economic Analysis",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2013-09-12T21:35:49Z",
+      "urlize_name": "Quantity-Indexes-for-Real-GDP-Textile-mills-and-textile-product-mills-Eau-Claire-WI"
+    },
+    {
+      "code": "1206_000881025_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1206",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1959-12-31",
+      "id": 8015459,
+      "name": "Effective households' consumption, base 2000 - Value in current euro - Product: N34 - Sewage and refuse disposal - Stopped series",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T12:13:11Z",
+      "urlize_name": "Effective-households-consumption-base-2000-Value-in-current-euro-Product-N34-Sewage-and-refuse-disposal-Stopped-series"
+    },
+    {
+      "code": "UIS_DISTIRIBUTIONOFSTUDENTSBYISCEDLEVEL5A__ALLGENDERS_SWZ",
+      "column_names": [
+        "Year",
+        "Percent"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 3574889,
+      "name": "Distiribution of students by ISCED level 5A / All genders - Swaziland",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T01:05:02Z",
+      "urlize_name": "Distiribution-of-students-by-ISCED-level-5A-All-genders-Swaziland"
+    },
+    {
+      "code": "ED_GLOBALINDICATORSEDUCATIONPUBLICEXPENDITUREONEDUCATIONASTOTALGOVERNMENTEXPENDITURE_BFA",
+      "column_names": [
+        "Year",
+        "Percent"
+      ],
+      "description": "The Environment Statistics Database contains selected water and waste statistics by country. Statistics on water and waste are based on official statistics supplied by national statistical offices and/or ministries of environment (or equivalent institutions) in countries in response to the biennial UNSD/UNEP Questionnaire on Environment Statistics. They were complemented by data on EU and OECD member and partner countries from OECD and Eurostat. Environment statistics is still in an early stage of development in many countries, and data are often sparse. The statistics selected here are those of relatively good quality and geographic coverage. The online database currently covers the years 1990, 1995 to 2009. For information on definitions, data quality and other important metadata, please check UNSD Environmental Indicator tables.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1978-12-31",
+      "id": 3211607,
+      "name": "Global Indicators / Education / Public Expenditure On Education As % Total Government Expenditure - Burkina Faso",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-03-22T17:56:41Z",
-      "urlize_name": "Newstar-Financial-NEWS-Cash-as-Percentage-of-Revenues"
+      "updated_at": "2014-01-10T09:40:18Z",
+      "urlize_name": "Global-Indicators-Education-Public-Expenditure-On-Education-As-Total-Government-Expenditure-Burkina-Faso"
     },
     {
-      "code": "PRGS_CASH_FV",
+      "code": "1206_001579022_A",
       "column_names": [
         "Date",
-        "Cash as Percentage of Firm Value"
+        "Value"
       ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1206",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
       "frequency": "annual",
-      "from_date": "1999-11-30",
-      "id": 5405465,
-      "name": "Progress Software ( PRGS ) - Cash as Percentage of Firm Value",
+      "from_date": "1960-12-31",
+      "id": 8015475,
+      "name": "Actual final consumption - Households excluding sole proprietorships - Other non-market recreational, cultural and sports activities - Price of previous year (volume) - Stopped series",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-11-30",
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-12-31",
       "type": null,
-      "updated_at": "2014-03-22T17:56:42Z",
-      "urlize_name": "Progress-Software-PRGS-Cash-as-Percentage-of-Firm-Value"
+      "updated_at": "2014-01-10T12:05:56Z",
+      "urlize_name": "Actual-final-consumption-Households-excluding-sole-proprietorships-Other-non-market-recreational-cultural-and-sports-activities-Price-of-previous-year-volume-Stopped-series"
     },
     {
-      "code": "PRGS_MKT_DC",
+      "code": "TEC00082_59",
       "column_names": [
         "Date",
-        "Market Debt to Capital Ratio"
+        "Value"
       ],
-      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "The Balance of Payments (BoP) systematically summarizes all economic transactions between the residents and the non-residents of a country or of a  economic area during a given period.\r\nThe Balance of payments provides harmonized information on international transactions which are part of the current account (goods, services, income, current transfers), but also on transactions which fall in the capital and the financial account.\r\nBoP is an important macro-economic indicator used to assess the position of an economy (of credit or debit) towards the external world. Data on International Trade in Services (ITS), a component of BoP current account, are used, alongside with data on Foreign Direct Investment, to monitor the external commercial performance of different economies. Out of BoP data, some indicators of EU market integration are also derived.\r\nData are in millions of Euro/ECU.\r\nSeveral statistical adjustments are applied to the original data provided by the Member States. These are described in the International Trade in Services EU 1992-2001 - Compilation guide.\r\nThe International Monetary Fund Balance of Payments Manual (BPM5) classification is used for the compilation of the BoP.\r\nThe BoP data are collected through national surveys and administrative sources.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/bop_its_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftec00082.sdmx.zip",
       "frequency": "annual",
-      "from_date": "1999-11-30",
-      "id": 5405536,
-      "name": "Progress Software ( PRGS ) - Market Debt to Capital Ratio",
+      "from_date": "2006-12-31",
+      "id": 577222,
+      "name": "EU international trade in services Exports imports and balance by partner zone  : Current account, Services : European Union : Net balance (in 1 000 million ECU/EUR) : India",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-11-30",
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-03-22T17:57:02Z",
-      "urlize_name": "Progress-Software-PRGS-Market-Debt-to-Capital-Ratio"
+      "updated_at": "2014-01-11T08:15:04Z",
+      "urlize_name": "EU-international-trade-in-services-Exports-imports-and-balance-by-partner-zone-Current-account-Services-European-Union-Net-balance-in-1-000-million-ECU-EUR-India"
     },
     {
-      "code": "PRGS_BOOK_DC",
+      "code": "RGDPLPMVA625NUPN",
       "column_names": [
         "Date",
-        "Book Debt to Capital Ratio"
+        "Value"
       ],
-      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "2005 International Dollars per Person Not Seasonally Adjusted, Series is obtained by adding up consumption, investment, government and exports, and subtracting imports in any given year. More information is available at http://pwt.econ.upenn.edu/Documentation/append61.pdf.  For proper citation, see http://pwt.econ.upenn.edu/php_site/pwt_index.php  Source Indicator: rgdpl ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/RGDPLPMVA625NUPN.csv",
       "frequency": "annual",
-      "from_date": "1999-11-30",
-      "id": 5405456,
-      "name": "Progress Software ( PRGS ) - Book Debt to Capital Ratio",
+      "from_date": "1970-01-01",
+      "id": 2401786,
+      "name": "Purchasing Power Parity Converted GDP Per Capita (Laspeyres), derived from growth rates of Consumption, Government Consumption, Investment for Maldives",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-11-30",
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2010-01-01",
       "type": null,
-      "updated_at": "2014-03-22T17:57:02Z",
-      "urlize_name": "Progress-Software-PRGS-Book-Debt-to-Capital-Ratio"
+      "updated_at": "2014-01-12T14:47:08Z",
+      "urlize_name": "Purchasing-Power-Parity-Converted-GDP-Per-Capita-Laspeyres-derived-from-growth-rates-of-Consumption-Government-Consumption-Investment-for-Maldives"
     },
     {
-      "code": "PRGS_BETA",
+      "code": "UIS_DISTIRIBUTIONOFSTUDENTSBYISCEDLEVEL5A__ALLGENDERS_CHE",
       "column_names": [
-        "Date",
-        "3-Year Regression Beta"
+        "Year",
+        "Percent"
       ],
-      "description": "Estimated by regressing weekly returns on stock against NYSE composite. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "1999-11-30",
-      "id": 5405454,
-      "name": "Progress Software ( PRGS ) - 3-Year Regression Beta",
+      "from_date": "1998-12-31",
+      "id": 3574891,
+      "name": "Distiribution of students by ISCED level 5A / All genders - Switzerland",
       "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-11-30",
-      "type": null,
-      "updated_at": "2014-03-22T17:57:02Z",
-      "urlize_name": "Progress-Software-PRGS-3-Year-Regression-Beta"
-    },
-    {
-      "code": "PRGS_CORREL",
-      "column_names": [
-        "Date",
-        "Correlation with the Market"
-      ],
-      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-11-30",
-      "id": 5405472,
-      "name": "Progress Software ( PRGS ) - Correlation with the Market",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-11-30",
-      "type": null,
-      "updated_at": "2014-03-22T17:57:02Z",
-      "urlize_name": "Progress-Software-PRGS-Correlation-with-the-Market"
-    },
-    {
-      "code": "PRGS_CASH",
-      "column_names": [
-        "Date",
-        "Cash"
-      ],
-      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-11-30",
-      "id": 5405462,
-      "name": "Progress Software ( PRGS ) - Cash",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-11-30",
-      "type": null,
-      "updated_at": "2014-03-22T17:56:43Z",
-      "urlize_name": "Progress-Software-PRGS-Cash"
-    },
-    {
-      "code": "FFHL_P_S",
-      "column_names": [
-        "Date",
-        "Price to Sales Ratio"
-      ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2007-12-31",
-      "id": 4444451,
-      "name": "Fuwei Films Co. ( FFHL ) - Price to Sales Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
+      "source_code": "UN",
+      "source_name": "United Nations",
       "to_date": "2011-12-31",
       "type": null,
-      "updated_at": "2014-03-22T17:57:03Z",
-      "urlize_name": "Fuwei-Films-Co-FFHL-Price-to-Sales-Ratio"
-    },
-    {
-      "code": "PRGS_PE_TRAIL",
-      "column_names": [
-        "Date",
-        "Trailing PE Ratio"
-      ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-11-30",
-      "id": 5405570,
-      "name": "Progress Software ( PRGS ) - Trailing PE Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-11-30",
-      "type": null,
-      "updated_at": "2014-03-22T17:57:03Z",
-      "urlize_name": "Progress-Software-PRGS-Trailing-PE-Ratio"
-    },
-    {
-      "code": "PRGS_EV_EBITDA",
-      "column_names": [
-        "Date",
-        "EV to EBITDA Ratio"
-      ],
-      "description": "Estimated by dividing the market value of debt and equity by the EBITDA.  Value/EBITDA = (Market Value of Equity + Value of Debt-Cash) / EBITDA.  We use the book value of debt as a proxy for the market value. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-11-30",
-      "id": 5405498,
-      "name": "Progress Software ( PRGS ) - EV to EBITDA Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-11-30",
-      "type": null,
-      "updated_at": "2014-03-22T17:56:44Z",
-      "urlize_name": "Progress-Software-PRGS-EV-to-EBITDA-Ratio"
-    },
-    {
-      "code": "PRGS_EV_SALES",
-      "column_names": [
-        "Date",
-        "EV To Sales Ratio"
-      ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-11-30",
-      "id": 5405501,
-      "name": "Progress Software ( PRGS ) - EV To Sales Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-11-30",
-      "type": null,
-      "updated_at": "2014-03-22T17:57:04Z",
-      "urlize_name": "Progress-Software-PRGS-EV-To-Sales-Ratio"
-    },
-    {
-      "code": "PRGS_DIV",
-      "column_names": [
-        "Date",
-        "Dividends"
-      ],
-      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-11-30",
-      "id": 5405478,
-      "name": "Progress Software ( PRGS ) - Dividends",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-11-30",
-      "type": null,
-      "updated_at": "2014-03-22T17:56:44Z",
-      "urlize_name": "Progress-Software-PRGS-Dividends"
-    },
-    {
-      "code": "PRGS_PE_CURR",
-      "column_names": [
-        "Date",
-        "Current PE Ratio"
-      ],
-      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "1999-11-30",
-      "id": 5405474,
-      "name": "Progress Software ( PRGS ) - Current PE Ratio",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2012-11-30",
-      "type": null,
-      "updated_at": "2014-03-22T17:56:44Z",
-      "urlize_name": "Progress-Software-PRGS-Current-PE-Ratio"
+      "updated_at": "2014-01-11T00:04:58Z",
+      "urlize_name": "Distiribution-of-students-by-ISCED-level-5A-All-genders-Switzerland"
     }
   ],
   "per_page": 20,
-  "sources": [{
-    "code": "DMDRN",
-    "concurrency": 20,
-    "datasets_count": 0,
-    "description": "",
-    "host": "pages.stern.nyu.edu/~adamodar/",
-    "id": 6946,
-    "name": "Damodaran Financial Data",
-    "use_proxy": false
-  }],
-  "total_count": 10036987
+  "sources": [
+    {
+      "code": "ILO",
+      "datasets_count": 228980,
+      "description": "No description for this source yet",
+      "host": "www.ilo.org",
+      "id": 686,
+      "name": "International Labour Organization"
+    },
+    {
+      "code": "BEA",
+      "datasets_count": 107459,
+      "description": "No description for this source yet",
+      "host": "www.bea.gov",
+      "id": 95,
+      "name": "Bureau of Economic Analysis"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
+      "code": "IBGE",
+      "datasets_count": 110418,
+      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
+      "host": "seriesestatisticas.ibge.gov.br",
+      "id": 725,
+      "name": "Brazilian Institute of Geography and Statistics"
+    },
+    {
+      "code": "FRED",
+      "datasets_count": 60949,
+      "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
+      "host": "www.research.stlouisfed.org",
+      "id": 118,
+      "name": "Federal Reserve Economic Data"
+    }
+  ],
+  "total_count": 10147268
 }

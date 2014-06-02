@@ -1,21 +1,21 @@
 {
-  "code": "EMP_DWAP_RT_SEX_M_AGE_AGGREGATE_Y25_54_EDU_AGGREGATE_X_M_SWE",
+  "code": "COAL_SHIPMENT_ASH_3600840_8846_TOT_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "Units = Percent. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_ASH.3600840-8846-TOT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_ASH.3600840-8846-TOT.A<\/a>",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_ASH.3600840-8846-TOT.A&out=xml",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2002-02-28",
-  "id": 12547134,
-  "name": "Employment-To-Population Ratio Men Ages 25-54 - Monthly - Sweden",
+  "frequency": "annual",
+  "from_date": "2010-12-31",
+  "id": 11923852,
+  "name": "Coal Shipment Ash Content : Res Mine #33 To Conemaugh Fuels Llc : All : Annual",
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2012-11-30",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-05-29T05:04:36Z",
-  "urlize_name": "Employment-To-Population-Ratio-Men-Ages-25-54-Monthly-Sweden"
+  "updated_at": "2014-05-16T16:39:42Z",
+  "urlize_name": "Coal-Shipment-Ash-Content-Res-Mine-33-To-Conemaugh-Fuels-Llc-All-Annual"
 }

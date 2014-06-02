@@ -1,461 +1,415 @@
 {
-  "current_page": 270678,
+  "current_page": 80313,
   "docs": [
     {
-      "code": "773_GAB",
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_45342",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3008",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/DEVICES11&filter=COUNTRY:GAB;\n",
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 9563478,
-      "name": "Total density per million population: Gamma camera or Nuclear medicine - Gabon",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T19:14:20Z",
-      "urlize_name": "Total-density-per-million-population-Gamma-camera-or-Nuclear-medicine-Gabon"
-    },
-    {
-      "code": "IIUMFG31100038132",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Measure: Rate of injury and illness cases per 100 full-time workers; Case type: Other recordable cases; Industry: Food manufacturing; Supersector: Manufacturing; Area: Private industry, Nevada; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUMFG31100038132",
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 9398755,
-      "name": "Rate of injury and illness cases per 100 full-time workers for Food manufacturing, Private industry, Nevada",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2013-11-22T22:11:11Z",
-      "urlize_name": "Rate-of-injury-and-illness-cases-per-100-full-time-workers-for-Food-manufacturing-Private-industry-Nevada"
-    },
-    {
-      "code": "OEUN000000062320035201201",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: Employment; Occupation: Cooks, Institution and Cafeteria; Industry: Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000062320035201201",
-      "frequency": "annual",
-      "from_date": "2012-06-30",
-      "id": 9174247,
-      "name": "Employment for Cooks, Institution and Cafeteria in Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities in National",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
-      "type": null,
-      "updated_at": "2013-11-17T10:43:03Z",
-      "urlize_name": "Employment-for-Cooks-Institution-and-Cafeteria-in-Residential-Intellectual-and-Developmental-Disability-Mental-Health-and-Substance-Abuse-Facilities-in-National"
-    },
-    {
-      "code": "COMM_54_FLAXTOWWASTEINCLUDINGYARNWASTEGARNETTEDSTOCK_IMPORT_AUS",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1988-12-31",
-      "id": 3739699,
-      "name": "Commodity Imports - Vegetable Textile Fibres Nes, Paper Yarn, Woven Fabri / Flax tow, waste including yarn waste, garnetted stock - Australia",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T21:07:22Z",
-      "urlize_name": "Commodity-Imports-Vegetable-Textile-Fibres-Nes-Paper-Yarn-Woven-Fabri-Flax-tow-waste-including-yarn-waste-garnetted-stock-Australia"
-    },
-    {
-      "code": "COMM_84_AIRCONDITIONERSNESWITHREVERSECYCLEREFRIGERATION_IMPORT_GIN",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1995-12-31",
-      "id": 4680469,
-      "name": "Commodity Imports - Nuclear Reactors, Boilers, Machinery, Etc / Air conditioners nes with reverse cycle refrigeration - Guinea",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2008-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T20:04:45Z",
-      "urlize_name": "Commodity-Imports-Nuclear-Reactors-Boilers-Machinery-Etc-Air-conditioners-nes-with-reverse-cycle-refrigeration-Guinea"
-    },
-    {
-      "code": "NCU5306311100006",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Occupation: Teachers, except college and universities; Skills: Level 06 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU5306311100006",
-      "frequency": "annual",
-      "from_date": "2000-09-30",
-      "id": 9221448,
-      "name": "Compensation for Teachers, except college and universities in Level 06",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2002-09-30",
-      "type": null,
-      "updated_at": "2013-11-18T13:04:04Z",
-      "urlize_name": "Compensation-for-Teachers-except-college-and-universities-in-Level-06"
-    },
-    {
-      "code": "761_SEAR",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3252",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/ODA_4&filter=REGION:SEAR;\n",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 9562482,
-      "name": "Disbursements to recipient countries (Million, constant 2009 US$) - South-East Asia",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T22:05:57Z",
-      "urlize_name": "Disbursements-to-recipient-countries-Million-constant-2009-US-South-East-Asia"
-    },
-    {
-      "code": "COMM_79_ZINCPLATESSHEETSSTRIPANDFOIL_EXPORT_VEN",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1991-12-31",
-      "id": 4350591,
-      "name": "Commodity Exports - Zinc And Articles Thereof / Zinc plates, sheets, strip and foil - Venezuela (Bolivarian Republic of)",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T22:10:20Z",
-      "urlize_name": "Commodity-Exports-Zinc-And-Articles-Thereof-Zinc-plates-sheets-strip-and-foil-Venezuela-Bolivarian-Republic-of"
-    },
-    {
-      "code": "GSP_NAICS_ALL_P_MININGEXCEPTOILANDGAS_PENNSYLVANIA",
-      "column_names": [
-        "Year",
-        "Mining (except Oil And Gas)"
-      ],
-      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
-      "display_url": "http://bea.gov/regional",
-      "frequency": "annual",
-      "from_date": "1997-12-31",
-      "id": 6697393,
-      "name": "Gross Operating Surplus (NAICS): Mining (except oil and gas) - Pennsylvania",
-      "private": false,
-      "source_code": "BEA",
-      "source_name": "Bureau of Economic Analysis",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-14T00:31:44Z",
-      "urlize_name": "Gross-Operating-Surplus-NAICS-Mining-except-oil-and-gas-Pennsylvania"
-    },
-    {
-      "code": "774_CHE",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3003",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/DEVICES12&filter=COUNTRY:CHE;\n",
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 9563707,
-      "name": "Total density per million population: Linear Accelerator - Switzerland",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T20:19:01Z",
-      "urlize_name": "Total-density-per-million-population-Linear-Accelerator-Switzerland"
-    },
-    {
-      "code": "COMM_85_GENERATINGSETSDIESELOUTPUT75375KVA_EXPORT_BRA",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1998-12-31",
-      "id": 5271243,
-      "name": "Commodity Exports - Electrical, Electronic Equipment / Generating sets, diesel, output 75-375 kVA - Brazil",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2013-12-28T22:09:26Z",
-      "urlize_name": "Commodity-Exports-Electrical-Electronic-Equipment-Generating-sets-diesel-output-75-375-kVA-Brazil"
-    },
-    {
-      "code": "1196_001579559_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Unit of measurement=%, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1196",
-      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
-      "frequency": "annual",
-      "from_date": "1991-12-31",
-      "id": 8062069,
-      "name": "Two-monthly economic outlook survey in wholesale trade - Judgment on the current cashflow position - Wholesale trade services of chemical products (G65) - Raw series",
-      "private": false,
-      "source_code": "INSEE",
-      "source_name": "National Institute of Statistics and Economic Studies (France)",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T20:15:51Z",
-      "urlize_name": "Two-monthly-economic-outlook-survey-in-wholesale-trade-Judgment-on-the-current-cashflow-position-Wholesale-trade-services-of-chemical-products-G65-Raw-series"
-    },
-    {
-      "code": "OEUN000000062320035302001",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: Employment; Occupation: Fast Food and Counter Workers; Industry: Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000062320035302001",
-      "frequency": "annual",
-      "from_date": "2012-06-30",
-      "id": 9174251,
-      "name": "Employment for Fast Food and Counter Workers in Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities in National",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
-      "type": null,
-      "updated_at": "2013-11-17T10:43:06Z",
-      "urlize_name": "Employment-for-Fast-Food-and-Counter-Workers-in-Residential-Intellectual-and-Developmental-Disability-Mental-Health-and-Substance-Abuse-Facilities-in-National"
-    },
-    {
-      "code": "OEUN000000062320035302101",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: Employment; Occupation: Combined Food Preparation and Serving Workers, Including Fast Food; Industry: Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000062320035302101",
-      "frequency": "annual",
-      "from_date": "2012-06-30",
-      "id": 9174252,
-      "name": "Employment for Combined Food Preparation and Serving Workers, Including Fast Food in Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities in National",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
-      "type": null,
-      "updated_at": "2013-11-17T10:43:07Z",
-      "urlize_name": "Employment-for-Combined-Food-Preparation-and-Serving-Workers-Including-Fast-Food-in-Residential-Intellectual-and-Developmental-Disability-Mental-Health-and-Substance-Abuse-Facilities-in-National"
-    },
-    {
-      "code": "COMM_85_ACGENERATORSOFANOUTPUT75375KVA_IMPORT_ARM",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1997-12-31",
-      "id": 5260931,
-      "name": "Commodity Imports - Electrical, Electronic Equipment / AC generators, of an output 75-375 kVA - Armenia",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2013-12-28T22:04:40Z",
-      "urlize_name": "Commodity-Imports-Electrical-Electronic-Equipment-AC-generators-of-an-output-75-375-kVA-Armenia"
-    },
-    {
-      "code": "IIUMFG31100038121",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Measure: Rate of injury and illness cases per 100 full-time workers; Case type: Other recordable cases; Industry: Food manufacturing; Supersector: Manufacturing; Area: Private industry, Kentucky; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUMFG31100038121",
-      "frequency": "annual",
-      "from_date": "2010-12-31",
-      "id": 9398739,
-      "name": "Rate of injury and illness cases per 100 full-time workers for Food manufacturing, Private industry, Kentucky",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2013-11-22T22:11:09Z",
-      "urlize_name": "Rate-of-injury-and-illness-cases-per-100-full-time-workers-for-Food-manufacturing-Private-industry-Kentucky"
-    },
-    {
-      "code": "OEUN000000011500000000001",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: Employment; Occupation: All Occupations; Industry: Support Activities for Agriculture and Forestry; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000011500000000001",
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
       "frequency": "monthly",
-      "from_date": "2012-06-30",
-      "id": 8949562,
-      "name": "Employment for All Occupations in Support Activities for Agriculture and Forestry in National",
+      "from_date": "1997-02-28",
+      "id": 7562860,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 45342,Miamisburg,OH",
       "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2013-11-15T15:32:00Z",
-      "urlize_name": "Employment-for-All-Occupations-in-Support-Activities-for-Agriculture-and-Forestry-in-National"
+      "updated_at": "2014-05-07T21:18:19Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-45342-Miamisburg-OH"
     },
     {
-      "code": "COMM_84_MACHINESTOAGGLOMERATESHAPEMOULDMINERALSORFUE_EXPORT_GUF",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1994-12-31",
-      "id": 4663708,
-      "name": "Commodity Exports - Nuclear Reactors, Boilers, Machinery, Etc / Machines to agglomerate, shape, mould minerals or fue - French Guiana",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "1994-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T19:53:33Z",
-      "urlize_name": "Commodity-Exports-Nuclear-Reactors-Boilers-Machinery-Etc-Machines-to-agglomerate-shape-mould-minerals-or-fue-French-Guiana"
-    },
-    {
-      "code": "NCU2705042878500",
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_01833",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Occupation: Assemblers; Skills: Overall occupation average (no work level) (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2705042878500",
-      "frequency": "annual",
-      "from_date": "2003-05-31",
-      "id": 9120065,
-      "name": "Compensation for Assemblers in Overall occupation average (no work level)",
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7459350,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 01833,Georgetown,MA",
       "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2005-05-31",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2013-11-16T20:11:56Z",
-      "urlize_name": "Compensation-for-Assemblers-in-Overall-occupation-average-no-work-level"
+      "updated_at": "2014-05-07T21:18:19Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-01833-Georgetown-MA"
     },
     {
-      "code": "OEUN000000062320035201001",
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_28612",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Statistic: Employment; Occupation: Cooks; Industry: Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000062320035201001",
-      "frequency": "annual",
-      "from_date": "2012-06-30",
-      "id": 9174246,
-      "name": "Employment for Cooks in Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities in National",
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7336814,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 28612,Connelly Springs,NC",
       "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
       "type": null,
-      "updated_at": "2013-11-17T10:43:03Z",
-      "urlize_name": "Employment-for-Cooks-in-Residential-Intellectual-and-Developmental-Disability-Mental-Health-and-Substance-Abuse-Facilities-in-National"
+      "updated_at": "2014-05-07T21:18:19Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-28612-Connelly-Springs-NC"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_23229",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7324931,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 23229,Tuckahoe,VA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:19Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-23229-Tuckahoe-VA"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_03894",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2002-08-31",
+      "id": 7459344,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 03894,Town of Wolfeboro,NH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:19Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-03894-Town-of-Wolfeboro-NH"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_85281",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7323285,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 85281,Tempe,AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:19Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-85281-Tempe-AZ"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_85260",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7323824,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 85260,Scottsdale,AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:19Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-85260-Scottsdale-AZ"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_45406",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7563251,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 45406,Dayton,OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:20Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-45406-Dayton-OH"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_06770",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7458650,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 06770,Naugatuck,CT",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:20Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-06770-Naugatuck-CT"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_98074",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7329904,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 98074,Sammamish,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:20Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-98074-Sammamish-WA"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_11953",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-03-31",
+      "id": 7334540,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 11953,Middle Island,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:20Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-11953-Middle-Island-NY"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_31052",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2002-08-31",
+      "id": 7337983,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 31052,Lizella,GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:20Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-31052-Lizella-GA"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_15074",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2002-08-31",
+      "id": 7337232,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 15074,Rochester Township,PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:20Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-15074-Rochester-Township-PA"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_32277",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7326067,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 32277,Jacksonville,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:20Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-32277-Jacksonville-FL"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_17113",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2002-08-31",
+      "id": 7336144,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 17113,Steelton,PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:20Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-17113-Steelton-PA"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_43147",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7324724,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 43147,Pickerington,OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:20Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-43147-Pickerington-OH"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_90254",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7327883,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 90254,Hermosa Beach,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:21Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-90254-Hermosa-Beach-CA"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_98311",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7328987,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 98311,Bremerton,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:21Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-98311-Bremerton-WA"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_80102",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 7341067,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 80102,Bennett,CO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:21Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-80102-Bennett-CO"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_48618",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2002-08-31",
+      "id": 7567990,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 48618,Coleman,MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:18:21Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-48618-Coleman-MI"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "BEA",
-      "datasets_count": 107459,
-      "description": "No description for this source yet",
-      "host": "www.bea.gov",
-      "id": 95,
-      "name": "Bureau of Economic Analysis"
-    },
-    {
-      "code": "WHO",
-      "datasets_count": 21456,
-      "description": "",
-      "host": "apps.who.int",
-      "id": 525,
-      "name": "World Health Organization"
-    },
-    {
-      "code": "UN",
-      "datasets_count": 2100274,
-      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
-      "host": "data.un.org",
-      "id": 488,
-      "name": "United Nations"
-    },
-    {
-      "code": "INSEE",
-      "datasets_count": 0,
-      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
-      "host": "www.insee.fr",
-      "id": 1097,
-      "name": "National Institute of Statistics and Economic Studies (France)"
-    },
-    {
-      "code": "BLS",
-      "datasets_count": 5888,
-      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
-      "host": "www.bls.gov",
-      "id": 162,
-      "name": "Bureau of Labor Statistics"
-    }
-  ],
-  "total_count": 10053489
+  "sources": [{
+    "code": "ZILLOW",
+    "datasets_count": 216313,
+    "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+    "host": "files.zillowstatic.com",
+    "id": 797,
+    "name": "Zillow Real Estate Research"
+  }],
+  "total_count": 10147268
 }

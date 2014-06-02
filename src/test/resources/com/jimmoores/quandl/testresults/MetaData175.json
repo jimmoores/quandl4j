@@ -1,108 +1,72 @@
 {
-  "current_page": 150944,
+  "current_page": 307211,
   "docs": [
     {
-      "code": "706_001567507_M",
+      "code": "FRA_4MD",
+      "column_names": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "description": "No Description Available",
+      "display_url": "http://www.google.com/finance/historical?q=FRA%3A4MD&startdate=Jan+1%2C+1990&output=csv",
+      "frequency": "daily",
+      "from_date": "2011-01-03",
+      "id": 6285303,
+      "name": "MINDSCAPE EO -,50 (4MD)",
+      "private": false,
+      "source_code": "GOOG",
+      "source_name": "Google Finance",
+      "to_date": "2011-06-01",
+      "type": null,
+      "updated_at": "2013-08-27T12:53:05Z",
+      "urlize_name": "MINDSCAPE-EO-50-4MD"
+    },
+    {
+      "code": "1340_001660446_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Unit of measurement=%, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=706",
+      "description": "Unit of measurement=Without object, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1340",
       "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
-      "frequency": "monthly",
-      "from_date": "2008-05-31",
-      "id": 8259362,
-      "name": "Harmonised consumer price indices - All items excluding energy, food, alcohol and tobacco - Index (2005=100) - Percentage change m/m-12 - Euro area (16 countries)",
+      "frequency": "annual",
+      "from_date": "1959-12-31",
+      "id": 8004943,
+      "name": "Annual national accounts (base 2005) - Production at base price - Total institutional sectors - Publishing, audiovisual and broadcasting - Chained base year price index (unbalanced)",
       "private": false,
       "source_code": "INSEE",
       "source_name": "National Institute of Statistics and Economic Studies (France)",
-      "to_date": "2012-02-29",
-      "type": null,
-      "updated_at": "2014-01-09T05:17:25Z",
-      "urlize_name": "Harmonised-consumer-price-indices-All-items-excluding-energy-food-alcohol-and-tobacco-Index-2005-100-Percentage-change-m-m-12-Euro-area-16-countries"
-    },
-    {
-      "code": "ELEC_PLANT_CONS_TOT_50807_WDS_ST_M",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Tons. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.50807-WDS-ST.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.50807-WDS-ST.M&out=xml",
-      "frequency": "monthly",
-      "from_date": "2004-01-31",
-      "id": 4889826,
-      "name": "Fuel Consumption Quantity : Stone Container Panama City Mill : Wood/wood Waste Solids : Steam Turbine : Monthly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-09T23:04:11Z",
-      "urlize_name": "Fuel-Consumption-Quantity-Stone-Container-Panama-City-Mill-Wood-wood-Waste-Solids-Steam-Turbine-Monthly"
+      "updated_at": "2014-01-13T00:51:26Z",
+      "urlize_name": "Annual-national-accounts-base-2005-Production-at-base-price-Total-institutional-sectors-Publishing-audiovisual-and-broadcasting-Chained-base-year-price-index-unbalanced"
     },
     {
-      "code": "ELEC_PRICE_HI_COM_M",
+      "code": "1221_001575950_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Units=Cents Per Kilowatthour. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PRICE.HI-COM.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PRICE.HI-COM.M&out=xml",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 4788446,
-      "name": "Average Retail Price Of Electricity : Hawaii : Commercial : Monthly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2014-01-09T23:23:12Z",
-      "urlize_name": "Average-Retail-Price-Of-Electricity-Hawaii-Commercial-Monthly"
-    },
-    {
-      "code": "ELEC_PLANT_GEN_50071_MSB_ALL_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.50071-MSB-ALL.Q",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.50071-MSB-ALL.Q&out=xml",
-      "frequency": "monthly",
-      "from_date": "2006-01-31",
-      "id": 4804201,
-      "name": "Net Generation : Palm Beach Renewable Energy Facility#1 : Biogenic Municipal Solid Waste : All Primemovers : Quarterly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-09-30",
-      "type": null,
-      "updated_at": "2014-01-09T23:45:20Z",
-      "urlize_name": "Net-Generation-Palm-Beach-Renewable-Energy-Facility-1-Biogenic-Municipal-Solid-Waste-All-Primemovers-Quarterly"
-    },
-    {
-      "code": "OEUN000000033530013102201",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: Employment; Occupation: Wholesale and Retail Buyers, Except Farm Products; Industry: Electrical Equipment Manufacturing; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000033530013102201",
+      "description": "Unit of measurement=Euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1221",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
       "frequency": "annual",
-      "from_date": "2012-06-30",
-      "id": 9013866,
-      "name": "Employment for Wholesale and Retail Buyers, Except Farm Products in Electrical Equipment Manufacturing in National",
+      "from_date": "1978-12-31",
+      "id": 8299584,
+      "name": "Annual national accounts, base 2000 - Other accounts receivable and payable - Non-financial corporations - Resources or Liabilities - Other volume changes and adjustments - Stopped series",
       "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-12-31",
       "type": null,
-      "updated_at": "2013-11-16T07:53:46Z",
-      "urlize_name": "Employment-for-Wholesale-and-Retail-Buyers-Except-Farm-Products-in-Electrical-Equipment-Manufacturing-in-National"
+      "updated_at": "2014-01-11T12:23:03Z",
+      "urlize_name": "Annual-national-accounts-base-2000-Other-accounts-receivable-and-payable-Non-financial-corporations-Resources-or-Liabilities-Other-volume-changes-and-adjustments-Stopped-series"
     },
     {
-      "code": "COMM_62_WOMENSGIRLSJACKETSBLAZERSSYNTHETICFIBRESKNI_REEXPORT_LUX",
+      "code": "COMM_47_PRODUCTSOFNONVEGETABLEPLAITINGMATERIALS_REEXPORT_JOR",
       "column_names": [
         "Year",
         "Trade (USD)",
@@ -112,139 +76,252 @@
       "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 3850589,
-      "name": "Commodity Re-Exports - Articles Of Apparel, Accessories, Knit Or Crochet / Womens, girls jackets, blazers, synthetic fibres, kni - Luxembourg",
+      "from_date": "2006-12-31",
+      "id": 3683597,
+      "name": "Commodity Re-Exports - Manufactures Of Plaiting Material, Basketwork, Etc. / Products of non-vegetable plaiting materials - Jordan",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-11T00:21:57Z",
-      "urlize_name": "Commodity-Re-Exports-Articles-Of-Apparel-Accessories-Knit-Or-Crochet-Womens-girls-jackets-blazers-synthetic-fibres-kni-Luxembourg"
+      "updated_at": "2014-01-11T10:09:31Z",
+      "urlize_name": "Commodity-Re-Exports-Manufactures-Of-Plaiting-Material-Basketwork-Etc-Products-of-non-vegetable-plaiting-materials-Jordan"
     },
     {
-      "code": "ELEC_PLANT_GEN_50071_MSN_ALL_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.50071-MSN-ALL.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.50071-MSN-ALL.A&out=xml",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 4804206,
-      "name": "Net Generation : Palm Beach Renewable Energy Facility#1 : Non-biogenic Municipal Solid Waste : All Primemovers : Annual",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T01:48:55Z",
-      "urlize_name": "Net-Generation-Palm-Beach-Renewable-Energy-Facility-1-Non-biogenic-Municipal-Solid-Waste-All-Primemovers-Annual"
-    },
-    {
-      "code": "ELEC_PLANT_GEN_50071_MSN_ST_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.50071-MSN-ST.A",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.50071-MSN-ST.A&out=xml",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 4804210,
-      "name": "Net Generation : Palm Beach Renewable Energy Facility#1 : Non-biogenic Municipal Solid Waste : Steam Turbine : Annual",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-09T11:22:22Z",
-      "urlize_name": "Net-Generation-Palm-Beach-Renewable-Energy-Facility-1-Non-biogenic-Municipal-Solid-Waste-Steam-Turbine-Annual"
-    },
-    {
-      "code": "VAL_PUBLISHING_MAR",
+      "code": "0_7_58_53",
       "column_names": [
         "Year",
-        "Number"
+        "Constant 1995 US$ per Person"
       ],
-      "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
+      "description": null,
+      "display_url": "http://geocompendium.grid.unep.ch/data_sets/socio-economic/data/household_consumption_capita.htm",
+      "frequency": "annual",
+      "from_date": "1975-12-31",
+      "id": 1098151,
+      "name": "Household Final Consumption Expenditure - per Capita (Cote d'Ivoire)",
+      "private": false,
+      "source_code": "GEOCOMP",
+      "source_name": "Geo3 Data Compendium",
+      "to_date": "1999-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T09:00:30Z",
+      "urlize_name": "Household-Final-Consumption-Expenditure-per-Capita-Cote-d-Ivoire"
+    },
+    {
+      "code": "COMM_85_UNIVERSALACDCMOTORSOFANOUTPUT375WATTS_IMPORT_LBN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 3303767,
-      "name": "Value Added (Local Currency) / Publishing - Morocco",
+      "from_date": "1997-12-31",
+      "id": 5599597,
+      "name": "Commodity Imports - Electrical, Electronic Equipment / Universal AC/DC motors of an output < 37.5 watts - Lebanon",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T10:53:53Z",
+      "urlize_name": "Commodity-Imports-Electrical-Electronic-Equipment-Universal-AC-DC-motors-of-an-output-37-5-watts-Lebanon"
+    },
+    {
+      "code": "974_001625913_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Without object, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=974",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "monthly",
+      "from_date": "2011-01-31",
+      "id": 8256973,
+      "name": "Producer price index in whole industrial production - Base prices - CPF 14.14 - Underwear - Reference 100 in 2005 - (PB0D141400) - Stopped series",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-08T21:55:37Z",
+      "urlize_name": "Producer-price-index-in-whole-industrial-production-Base-prices-CPF-14-14-Underwear-Reference-100-in-2005-PB0D141400-Stopped-series"
+    },
+    {
+      "code": "CPC_INSTS_49",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": " The focus of this domain is on the following country groups:\r\nCandidate countries: Croatia, the former Yugoslav Republic of Macedonia, Montenegro and Turkey (no data are presented for the candidate country Iceland)\r\nPotential candidate countries: Albania, Bosnia and Herzegovina, Serbia as well as Kosovo under UNSCR 1244/99.\r\n\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/cpc_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fcpc_insts.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 625489,
+      "name": "Candidate countries and potential candidates shortterm business statistics  : Hotels and restaurants turnover index (NACE Division 55) (2005=100) : Serbia",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T10:44:11Z",
+      "urlize_name": "Candidate-countries-and-potential-candidates-shortterm-business-statistics-Hotels-and-restaurants-turnover-index-NACE-Division-55-2005-100-Serbia"
+    },
+    {
+      "code": "EGY_UIS_E_56_FUK_F",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Enrolment in unspecified programmes. Tertiary. Female is the total number of females enrolled in unspecified tertiary programs.\nEnrolment in unspecified programmes. Tertiary.  Female",
+      "display_url": "http://api.worldbank.org/countries/EGY/indicators/UIS.E.56.Fuk.F?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 6513415,
+      "name": "Egypt, Arab Rep.: Enrolment in unspecified programmes. Tertiary.  Female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
       "to_date": "2010-12-31",
       "type": null,
-      "updated_at": "2014-01-11T00:56:17Z",
-      "urlize_name": "Value-Added-Local-Currency-Publishing-Morocco"
+      "updated_at": "2014-01-11T14:14:50Z",
+      "urlize_name": "Egypt-Arab-Rep-Enrolment-in-unspecified-programmes-Tertiary-Female"
     },
     {
-      "code": "ELEC_PRICE_HI_RES_M",
+      "code": "GSP_SIC_ALL_I_SECURITIESCOMMODITYCONTRACTSINVESTMENTS_INDIANA",
+      "column_names": [],
+      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+      "display_url": "http://bea.gov/regional",
+      "frequency": null,
+      "from_date": null,
+      "id": 8214652,
+      "name": "TOPI Subsidies (SIC): Securities, commodity contracts, investments - Indiana",
+      "private": false,
+      "source_code": "BEA",
+      "source_name": "Bureau of Economic Analysis",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2013-09-13T02:53:08Z",
+      "urlize_name": "TOPI-Subsidies-SIC-Securities-commodity-contracts-investments-Indiana"
+    },
+    {
+      "code": "GSP_SIC_ALL_I_BROADCASTINGANDTELECOMMUNICATIONS_INDIANA",
+      "column_names": [],
+      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+      "display_url": "http://bea.gov/regional",
+      "frequency": null,
+      "from_date": null,
+      "id": 8214646,
+      "name": "TOPI Subsidies (SIC): Broadcasting and telecommunications - Indiana",
+      "private": false,
+      "source_code": "BEA",
+      "source_name": "Bureau of Economic Analysis",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2013-09-13T02:53:12Z",
+      "urlize_name": "TOPI-Subsidies-SIC-Broadcasting-and-telecommunications-Indiana"
+    },
+    {
+      "code": "GSP_SIC_ALL_I_FINANCEANDINSURANCE_INDIANA",
+      "column_names": [],
+      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+      "display_url": "http://bea.gov/regional",
+      "frequency": null,
+      "from_date": null,
+      "id": 8214649,
+      "name": "TOPI Subsidies (SIC): Finance and insurance - Indiana",
+      "private": false,
+      "source_code": "BEA",
+      "source_name": "Bureau of Economic Analysis",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2013-09-13T02:53:07Z",
+      "urlize_name": "TOPI-Subsidies-SIC-Finance-and-insurance-Indiana"
+    },
+    {
+      "code": "IIUCON2381004U102",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Units=Cents Per Kilowatthour. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PRICE.HI-RES.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PRICE.HI-RES.M&out=xml",
+      "description": "Measure: Number of illness cases (thousands); Case type: Total recordable cases of skin disease; Industry: Foundation, structure, and building exterior contractors; Supersector: Construction; Area: Private industry, Alaska; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUCON2381004U102",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 9045939,
+      "name": "Number of illness cases (thousands) for Foundation, structure, and building exterior contractors, Private industry, Alaska",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-11-15T10:21:05Z",
+      "urlize_name": "Number-of-illness-cases-thousands-for-Foundation-structure-and-building-exterior-contractors-Private-industry-Alaska"
+    },
+    {
+      "code": "72_000604567_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Without object, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=72",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
       "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 4787035,
-      "name": "Average Retail Price Of Electricity : Hawaii : Residential : Monthly",
+      "from_date": "1995-01-31",
+      "id": 8276576,
+      "name": "Job advertisements satisfied - Type A - Somme - Stopped series",
       "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-10-31",
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-06-30",
       "type": null,
-      "updated_at": "2014-01-09T11:16:44Z",
-      "urlize_name": "Average-Retail-Price-Of-Electricity-Hawaii-Residential-Monthly"
+      "updated_at": "2014-01-08T21:55:38Z",
+      "urlize_name": "Job-advertisements-satisfied-Type-A-Somme-Stopped-series"
     },
     {
-      "code": "HC_MNG",
+      "code": "NJJQ",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "seasonal_adjustment='NSA', base_period='-', price='CURR', index_period='-'. The Blue Book is a key annual publication of National Accounts statistics and the essential data source for anyone concerned with macro-economic policies and studies. These National Statistics are produced to high professional standards and released according to the arrangements approved by the UK Statistics Authority.",
+      "display_url": "http://www.ons.gov.uk/ons/datasets-and-tables/downloads/csv.csv?dataset=bb",
+      "frequency": "annual",
+      "from_date": "1963-12-31",
+      "id": 3743339,
+      "name": "Local Government:LI:LEVEL:Other loans by UK residents: CP NSA",
+      "private": false,
+      "source_code": "UKONS",
+      "source_name": "United Kingdom Office of National Statistics",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T12:33:24Z",
+      "urlize_name": "Local-Government-LI-LEVEL-Other-loans-by-UK-residents-CP-NSA"
+    },
+    {
+      "code": "NCU3901962100002",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Source: Penn World Table v8.0. For more information, please see <a href=\"http://www.rug.nl/research/ggdc/data/penn-world-table\">http://www.rug.nl/research/ggdc/data/penn-world-table<\/a>.",
-      "display_url": "http://www.rug.nl/research/GGDC/data/pwt/V80/pwt80.xlsx",
+      "description": "Occupation: Sales occupations; Skills: Level 02 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU3901962100002",
       "frequency": "annual",
-      "from_date": "1970-12-31",
-      "id": 8603611,
-      "name": "Index of human capital per person, based on years of schooling (Barro/Lee, 2012) and returns to education (Psacharopoulos, 1994) - Mongolia",
+      "from_date": "2003-07-31",
+      "id": 9193020,
+      "name": "Compensation for Sales occupations in Level 02",
       "private": false,
-      "source_code": "GGDC",
-      "source_name": "Groningen Growth and Development Centre",
-      "to_date": "2011-12-31",
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-07-31",
       "type": null,
-      "updated_at": "2014-01-10T22:43:38Z",
-      "urlize_name": "Index-of-human-capital-per-person-based-on-years-of-schooling-Barro-Lee-2012-and-returns-to-education-Psacharopoulos-1994-Mongolia"
+      "updated_at": "2013-11-17T14:51:44Z",
+      "urlize_name": "Compensation-for-Sales-occupations-in-Level-02"
     },
     {
-      "code": "221_AUT",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3057",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/WHS10_9&filter=COUNTRY:AUT;\n",
-      "frequency": "annual",
-      "from_date": "2011-12-31",
-      "id": 9516905,
-      "name": "Ill-defined causes in cause-of-death registration (%) - Austria",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T22:51:09Z",
-      "urlize_name": "Ill-defined-causes-in-cause-of-death-registration-Austria"
-    },
-    {
-      "code": "COMM_30_OMPPHENYLENEDIAMINEDIAMINOTOLUENESDERIVSSALT_IMPORT_BGR",
+      "code": "COMM_20_CEREALFOODSOBTAINEDBYSWELLINGROASTINGOFCEREAL_REEXPORT_SUR",
       "column_names": [
         "Year",
         "Trade (USD)",
@@ -255,186 +332,98 @@
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
       "from_date": "2001-12-31",
-      "id": 3236585,
-      "name": "Commodity Imports - Organic Chemicals / O-,M-,P-phenylenediamine,diaminotoluenes, derivs,salt - Bulgaria",
+      "id": 2988612,
+      "name": "Commodity Re-Exports - Cereal, Flour, Starch, Milk Preparations And Products / Cereal foods obtained by swelling, roasting of cereal - Suriname",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T08:10:10Z",
+      "urlize_name": "Commodity-Re-Exports-Cereal-Flour-Starch-Milk-Preparations-And-Products-Cereal-foods-obtained-by-swelling-roasting-of-cereal-Suriname"
+    },
+    {
+      "code": "COMM_84_DISTILLINGORRECTIFYINGPLANT_REEXPORT_CAN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 4577054,
+      "name": "Commodity Re-Exports - Nuclear Reactors, Boilers, Machinery, Etc / Distilling or rectifying plant - Canada",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T09:53:43Z",
-      "urlize_name": "Commodity-Imports-Organic-Chemicals-O-M-P-phenylenediamine-diaminotoluenes-derivs-salt-Bulgaria"
+      "updated_at": "2013-05-14T23:32:26Z",
+      "urlize_name": "Commodity-Re-Exports-Nuclear-Reactors-Boilers-Machinery-Etc-Distilling-or-rectifying-plant-Canada"
     },
     {
-      "code": "ELEC_PRICE_IL_COM_M",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Units=Cents Per Kilowatthour. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PRICE.IL-COM.M",
-      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PRICE.IL-COM.M&out=xml",
-      "frequency": "monthly",
-      "from_date": "2001-01-31",
-      "id": 4788257,
-      "name": "Average Retail Price Of Electricity : Illinois : Commercial : Monthly",
-      "private": false,
-      "source_code": "EIA",
-      "source_name": "U.S. Energy Information Administration",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2014-01-09T23:26:10Z",
-      "urlize_name": "Average-Retail-Price-Of-Electricity-Illinois-Commercial-Monthly"
-    },
-    {
-      "code": "608_000882504_M",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Unit of measurement=Without object, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=608",
-      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
-      "frequency": "monthly",
-      "from_date": "1996-01-31",
-      "id": 8070326,
-      "name": "HICP - Reference 100 in 1996 - Monthly - All households (France) - European classification - Garments - Stopped series",
-      "private": false,
-      "source_code": "INSEE",
-      "source_name": "National Institute of Statistics and Economic Studies (France)",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-01-08T13:20:27Z",
-      "urlize_name": "HICP-Reference-100-in-1996-Monthly-All-households-France-European-classification-Garments-Stopped-series"
-    },
-    {
-      "code": "HTEC_EMP_SBS2_83",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "'Statistics on high-tech industry and knowledge-intensive services' (sometimes referred to as simply 'high-tech statistics') comprise economic, employment and Science, technology and innovation (STI) data describing manufacturing and services industries broken down by technological intensity. The domain uses various other domains and sources mainly within Eurostat's official statistics (CIS, COMEXT, HRST, LFS, SBS, SES, PAT and R&D). Its coverage is therefore dependent on these other primary sources. Two main approaches are used in the domain to identify technology-intensity: the sectoral approach and the product approach. A third approach is used for data on high-tech and biotechnology patents aggregated on the basis of the International Patent Classification.  (See summary table under 21.3 for which approach is used by each type of data.)\r\nThe sectoral approach:The sectoral approach is an aggregation of the manufacturing industries according to technological intensity (R&D expenditure/value added) and based on the Statistical Classification of Economic Activities in the European Community (NACE) at 3-digit level. The level of R&D intensity served as a criterion of classification of economic sectors into high-technology, medium high-technology, medium low-technology and low-technology industries. In some cases, due to restrictions of the data sources used, the aggregations are made at NACE 2-digit level.\r\nServices are mainly aggregated into knowledge-intensive services (KIS) and less knowledge-intensive services (LKIS) based on the share of tertiary educated persons at NACE 2-digit level.\r\nThe sectoral approach is used for all indicators except data on high-tech trade and patents. Note that due to the revision of the NACE from NACE Rev. 1.1 to NACE Rev. 2 the definition of high-technology industries and knowledge-intensive services changed. For high-tech statistics it means that two different definitions (one according NACE Rev. 1.1 and one according NACE Rev. 2) are used in parallel and the data according to both NACE versions are presented in separated tables depending on the data availability. For example as the LFS provided the results both by NACE Rev. 1.1 and NACE Rev. 2, all the table using this source have been duplicated to present the results by NACE Rev. 2 from 2008. For more details, see both definitions of high-tech sectors under 21.3.\r\nWithin the sectoral approach, a second classification has been created - Knowledge Intensive Activities - based on the share of tertiary educated people in each sectors of industries and services according to NACE at 2-digit level and for all EU 27 Member States. A threshold was then applied to rank sectors as knowledge intensive. In contrast to first sectoral approach mixing two methodologies one for manufacturing industries and one for services, the KIA classification is based on one methodology for all the sectors of industries and services.\r\nThe aggregations in use are total Knowledge Intensive Activities (KIA) and Knowledge Intensive Activities in Business Industries (KIABI). Note that due to revision of the NACE Rev.1.1 to NACE Rev. 2 the list of  Knowledge Intensive Activities has changed as well. The two definitions are used in parallel and the data according both NACE versions are shown in two separate tables. NACE Rev.2 collection includes data starting from 2008 reference year. For more details please see the definitions under 21.3.\r\nThe product approach:The product approach was devised to complement the sectoral approach. It opens the way to far more detailed analysis of trade. The product list is based on the calculations of R&D intensity by groups of products (R&D expenditure/total sales). The groups classified as high-technology products are aggregated on the basis of the Standard International Trade Classification (SITC). \r\nThe product approach is used for data on high-tech trade. Due to the revision of the SITC from SITC Rev. 3 to SITC Rev. 4 the definition of high-tech products has changed as well. The primary data source, COMEXT, has already implemented the new SITC Rev. 4. Two data collections are now available in high-tech domain for high-tech products: one by SITC Rev. 3 from 1995 to 2006 and second by SITC Rev. 4 from 2007.  For more details, see definition of high-tech products under 21.3.\r\nHigh-tech patents are defined according to another approach. The groups classified as high-tech patents are aggregated on the basis of the International Patent Classification (IPC 8th edition). Biotechnology patents are also aggregated on the basis of the IPC 8th edition. For more details, see the aggregation list of high-tech and biotechnology patents under 21.3.\r\nThe high-tech domain also comprises the sub-domain Venture Capital Investments. Data are provided by the European Private Equity and Venture Capital Association (EVCA). More details will be available in the Eurostat metadata specifically for Venture Capital Investments\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/htec_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fhtec_emp_sbs2.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 891095,
-      "name": "Employment statistics on hightech industries and Knowledge Intensive Services at the national level from 2008 NACE Rev2  : Manufacturing : Social security costs : Norway",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T22:43:38Z",
-      "urlize_name": "Employment-statistics-on-hightech-industries-and-Knowledge-Intensive-Services-at-the-national-level-from-2008-NACE-Rev2-Manufacturing-Social-security-costs-Norway"
-    },
-    {
-      "code": "EMP_OTHERSPECIALPURPOSEMACHINERY_ERI",
+      "code": "COMM_30_TERPINEOLS_IMPORT_IRL",
       "column_names": [
         "Year",
-        "Number"
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
       ],
-      "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
       "display_url": "http://data.un.org/browse.aspx",
       "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 3276606,
-      "name": "Employees / Other special purpose machinery - Eritrea",
+      "from_date": "1992-12-31",
+      "id": 3255063,
+      "name": "Commodity Imports - Organic Chemicals / Terpineols - Ireland",
       "private": false,
       "source_code": "UN",
       "source_name": "United Nations",
-      "to_date": "2010-12-31",
+      "to_date": "2006-12-31",
       "type": null,
-      "updated_at": "2014-01-12T23:37:09Z",
-      "urlize_name": "Employees-Other-special-purpose-machinery-Eritrea"
+      "updated_at": "2013-03-26T19:11:48Z",
+      "urlize_name": "Commodity-Imports-Organic-Chemicals-Terpineols-Ireland"
     },
     {
-      "code": "OEUN000000033500043508101",
+      "code": "NCU1701553343503",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Statistic: Employment; Occupation: Stock Clerks and Order Fillers; Industry: Electrical Equipment, Appliance, and Component Manufacturing; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000033500043508101",
+      "description": "Occupation: Waiters and waitresses; Skills: Level 03 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU1701553343503",
       "frequency": "annual",
-      "from_date": "2012-06-30",
-      "id": 9011796,
-      "name": "Employment for Stock Clerks and Order Fillers in Electrical Equipment, Appliance, and Component Manufacturing in National",
+      "from_date": "2002-10-31",
+      "id": 9096217,
+      "name": "Compensation for Waiters and waitresses in Level 03",
       "private": false,
       "source_code": "BLS",
       "source_name": "Bureau of Labor Statistics",
-      "to_date": "2012-06-30",
+      "to_date": "2002-10-31",
       "type": null,
-      "updated_at": "2013-11-16T07:39:27Z",
-      "urlize_name": "Employment-for-Stock-Clerks-and-Order-Fillers-in-Electrical-Equipment-Appliance-and-Component-Manufacturing-in-National"
-    },
-    {
-      "code": "COMM_36_GLUESORADHESIVESPREPAREDNESPACKAGE1KG_EXPORT_ISR",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1995-12-31",
-      "id": 3478489,
-      "name": "Commodity Exports - Albuminoids, Modified Starches, Glues, Enzymes / Glues or adhesives, prepared nes, package > 1kg - Israel",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T03:44:55Z",
-      "urlize_name": "Commodity-Exports-Albuminoids-Modified-Starches-Glues-Enzymes-Glues-or-adhesives-prepared-nes-package-1kg-Israel"
-    },
-    {
-      "code": "COMM_84_MACHINERYTOPREPARETANWORKHIDESSKINSLEATHER_IMPORT_MUS",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 4745321,
-      "name": "Commodity Imports - Nuclear Reactors, Boilers, Machinery, Etc / Machinery to prepare, tan, work hides, skins, leather - Mauritius",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2013-05-15T02:13:49Z",
-      "urlize_name": "Commodity-Imports-Nuclear-Reactors-Boilers-Machinery-Etc-Machinery-to-prepare-tan-work-hides-skins-leather-Mauritius"
+      "updated_at": "2013-11-16T03:52:59Z",
+      "urlize_name": "Compensation-for-Waiters-and-waitresses-in-Level-03"
     }
   ],
   "per_page": 20,
   "sources": [
     {
-      "code": "EIA",
-      "datasets_count": 427809,
+      "code": "GEOCOMP",
+      "datasets_count": 47348,
       "description": "No description for this source yet",
-      "host": "www.api.eia.gov",
-      "id": 661,
-      "name": "U.S. Energy Information Administration"
+      "host": "geocompendium.grid.unep.ch",
+      "id": 203,
+      "name": "Geo3 Data Compendium"
     },
     {
-      "code": "GGDC",
-      "datasets_count": 1908,
-      "description": "Groningen Growth and Development Centre provides a long-run internationally comparable dataset on sectoral productivity performance in Asia, Europe, Latin America and the US. ",
-      "host": "www.rug.nl",
-      "id": 772,
-      "name": "Groningen Growth and Development Centre"
-    },
-    {
-      "code": "WHO",
-      "datasets_count": 21456,
-      "description": "",
-      "host": "apps.who.int",
-      "id": 525,
-      "name": "World Health Organization"
+      "code": "BEA",
+      "datasets_count": 107459,
+      "description": "No description for this source yet",
+      "host": "www.bea.gov",
+      "id": 95,
+      "name": "Bureau of Economic Analysis"
     },
     {
       "code": "UN",
@@ -461,13 +450,37 @@
       "name": "National Institute of Statistics and Economic Studies (France)"
     },
     {
+      "code": "UKONS",
+      "datasets_count": 3566,
+      "description": "\r\nThe UK National Statistics Publication Hub is the gateway to the latest statistics release each day by government departments in the UK.",
+      "host": "www.ons.gov.uk",
+      "id": 491,
+      "name": "United Kingdom Office of National Statistics"
+    },
+    {
       "code": "BLS",
       "datasets_count": 5888,
       "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
       "host": "www.bls.gov",
       "id": 162,
       "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "GOOG",
+      "datasets_count": 43144,
+      "description": "This data is NOT sourced directly from Google.  It is however verified against their numbers.\r\n\r\nwww.quandl.com/WIKI is a better source.",
+      "host": "www.google.com",
+      "id": 393,
+      "name": "Google Finance"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
     }
   ],
-  "total_count": 10053489
+  "total_count": 10147268
 }

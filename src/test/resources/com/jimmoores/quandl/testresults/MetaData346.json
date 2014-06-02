@@ -1,21 +1,21 @@
 {
-  "code": "ELEC_PLANT_CONS_EG_BTU_50271_MSB_ALL_M",
+  "code": "KLUCQ_INSIDER",
   "column_names": [
     "Date",
-    "Value"
+    "Insider Holdings"
   ],
-  "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.50271-MSB-ALL.M",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.50271-MSB-ALL.M&out=xml",
+  "description": "Number of shares held by insiders (as defined by the SEC to include corporate officers, directors and those holding more than 5% of the outstanding stock) as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2006-01-31",
-  "id": 5097868,
-  "name": "Electric Fuel Consumption Mmbtus : New Hanover County Wastec : Biogenic Municipal Solid Waste : All Primemovers : Monthly",
+  "frequency": "annual",
+  "from_date": "2001-12-31",
+  "id": 6055852,
+  "name": "Kaiser Alum. ( KLUCQ ) - Insider Holdings",
   "private": false,
-  "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
-  "to_date": "2012-04-30",
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2001-12-31",
   "type": null,
-  "updated_at": "2014-01-09T03:59:43Z",
-  "urlize_name": "Electric-Fuel-Consumption-Mmbtus-New-Hanover-County-Wastec-Biogenic-Municipal-Solid-Waste-All-Primemovers-Monthly"
+  "updated_at": "2014-03-22T08:17:34Z",
+  "urlize_name": "Kaiser-Alum-KLUCQ-Insider-Holdings"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "SYPR_EV_BV",
+  "code": "MR_EBIT",
   "column_names": [
     "Date",
-    "EV to Book Value Ratio"
+    "Earnings Before Interest and Taxes"
   ],
-  "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
   "errors": {},
   "frequency": "annual",
   "from_date": "1999-12-31",
-  "id": 5528269,
-  "name": "Sypris Solutions ( SYPR ) - EV to Book Value Ratio",
+  "id": 4691431,
+  "name": "Mindray Medical International Limited ( MR ) - Earnings Before Interest and Taxes",
   "private": false,
   "source_code": "DMDRN",
   "source_name": "Damodaran Financial Data",
   "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-03-21T20:20:47Z",
-  "urlize_name": "Sypris-Solutions-SYPR-EV-to-Book-Value-Ratio"
+  "updated_at": "2014-03-21T17:52:25Z",
+  "urlize_name": "Mindray-Medical-International-Limited-MR-Earnings-Before-Interest-and-Taxes"
 }

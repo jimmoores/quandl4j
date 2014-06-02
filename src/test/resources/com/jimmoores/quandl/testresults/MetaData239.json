@@ -1,23 +1,21 @@
 {
-  "code": "COMM_17_MACKERELPREPAREDORPRESERVEDNOTMINCED_IMPORT_FJI",
+  "code": "T2020_50_14",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "The domain \"income and living conditions\" covers four topics: main indicators, income distribution and monetary poverty, living conditions, material deprivation and childcare arrangements indicators, which are again structured into collections of indicators on specific topics.\r\nThe collection \"main indicators\" houses those indicators provided under the Open Method of Coordination in the area of combating poverty and social exclusion. This group of indicators houses the following three collections: the overarching portfolio of indicators, the social inclusion portfolio and the pensions portfolio. For more details on this as well as definitions of the indicators please see http://ec.europa.eu/social/main.jsp?catId=756&langId=en\r\nThe collection \"income distribution and monetary poverty\" houses collections of indicators relating to poverty risk, poverty risk of working individuals, income of people at risk of poverty as well as the distribution of income.\r\nThe collection \"living conditions\" hosts indicators relating to characteristics and living conditions of households, characteristics of the population according to different breakdowns, health and labour conditions as well as housing conditions.\r\nThe collection \"material deprivation\" covers indicators relating to economic strain, durables, housing and environment of the dwelling.\r\nThe collection \"childcare arrangements indicators\" houses childcare related indicators.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/ilc_esms.htm",
+  "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ft2020_50.sdmx.zip",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1996-12-31",
-  "id": 2964175,
-  "name": "Commodity Imports - Meat, Fish And Seafood Food Preparations Nes / Mackerel, prepared or preserved, not minced - Fiji",
+  "from_date": "2005-12-31",
+  "id": 595368,
+  "name": "People atriskofpoverty or social exclusion  : Total : Total : Population at-risk-poverty or exclusion : 1000 persons : European Union",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
+  "source_code": "EUROSTAT",
+  "source_name": "EuroStat",
   "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-11T17:47:22Z",
-  "urlize_name": "Commodity-Imports-Meat-Fish-And-Seafood-Food-Preparations-Nes-Mackerel-prepared-or-preserved-not-minced-Fiji"
+  "updated_at": "2014-01-10T03:53:50Z",
+  "urlize_name": "People-atriskofpoverty-or-social-exclusion-Total-Total-Population-at-risk-poverty-or-exclusion-1000-persons-European-Union"
 }

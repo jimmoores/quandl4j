@@ -1,21 +1,21 @@
 {
-  "code": "KIR_RQ_PER_RNK",
+  "code": "EIP_DWAP_RT_SEX_M_AGE_10YRBANDS_YGE65_Q_MKD",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Regulatory Quality captures perceptions of the ability of the government to formulate and implement sound policies and regulations that permit and promote private sector development.\nRegulatory Quality: Percentile Rank",
-  "display_url": "http://api.worldbank.org/countries/KIR/indicators/RQ.PER.RNK?per_page=1000",
+  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1996-12-31",
-  "id": 421479,
-  "name": "Kiribati: Regulatory Quality: Percentile Rank",
+  "frequency": "monthly",
+  "from_date": "2006-03-31",
+  "id": 12497469,
+  "name": "Inactivity Rate Men Ages 65+ - Quarterly - Macedonia, The Former Yugoslav Rep. Of",
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
-  "to_date": "2012-12-31",
+  "source_code": "ILOSTAT",
+  "source_name": "ILOSTAT Database",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-01-13T10:14:48Z",
-  "urlize_name": "Kiribati-Regulatory-Quality-Percentile-Rank"
+  "updated_at": "2014-05-30T13:37:19Z",
+  "urlize_name": "Inactivity-Rate-Men-Ages-65-Quarterly-Macedonia-The-Former-Yugoslav-Rep-Of"
 }

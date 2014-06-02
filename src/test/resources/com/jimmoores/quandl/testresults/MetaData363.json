@@ -1,23 +1,21 @@
 {
-  "code": "1214_34049090_2",
+  "code": "1421_001659124_A",
   "column_names": [
     "Date",
-    "Quantity 1 (Q1)",
-    "Value (NOK)",
-    "Quantity 2 (Q2)"
+    "Value"
   ],
-  "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
-  "display_url": "http://data.ssb.no/api/v0/dataset/1214.csv?lang=en",
+  "description": "Unit of measurement=Without object, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1421",
+  "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2011-12-31",
-  "id": 7876046,
-  "name": "Export of goods, HS 30-38 Chemical products, others. Value and Quantity, latest 13 months - (q1=kg, q2=none) Subgroup of: 340490 Artificial waxes and prepared waxes (excl. polyoxyethylene [polyethylene glycol] waxes) - Exports",
+  "frequency": "annual",
+  "from_date": "1995-12-31",
+  "id": 8085626,
+  "name": "Turnover value index - Wholesale of agricultural machinery, equipment and supplies (NAF rev. 2, lev. Sub-class, item 46.61Z) - SA-WDA data - base 100 in 2010",
   "private": false,
-  "source_code": "STATNOR",
-  "source_name": "Statistics Norway",
-  "to_date": "2014-04-30",
+  "source_code": "INSEE",
+  "source_name": "National Institute of Statistics and Economic Studies (France)",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-05-16T12:23:47Z",
-  "urlize_name": "Export-of-goods-HS-30-38-Chemical-products-others-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Subgroup-of-340490-Artificial-waxes-and-prepared-waxes-excl-polyoxyethylene-polyethylene-glycol-waxes-Exports"
+  "updated_at": "2014-01-12T20:21:50Z",
+  "urlize_name": "Turnover-value-index-Wholesale-of-agricultural-machinery-equipment-and-supplies-NAF-rev-2-lev-Sub-class-item-46-61Z-SA-WDA-data-base-100-in-2010"
 }

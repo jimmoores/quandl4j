@@ -1,21 +1,23 @@
 {
-  "code": "850209_A2530924R",
+  "code": "COMM_65_SOLESANDHEELSFORFOOTWEAROFRUBBERORPLASTIC_EXPORT_LUX",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-  "display_url": "http://www.abs.gov.au/AUSSTATS/ABS@Archive.nsf/log?openagent&850209.xls&8502.0&Time%20Series%20Spreadsheet&C4AA864CABD34F2ECA25756000134F1E&0&Dec%202008&18.02.2009&Latest",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "quarterly",
-  "from_date": "1982-06-30",
-  "id": 7937665,
-  "name": "Retail Turnover ($ millions), Current Prices, State by Industry(1), Original: Turnover ;  New South Wales ;  Food retailing ; ($ Millions)",
+  "frequency": "annual",
+  "from_date": "1999-12-31",
+  "id": 4021804,
+  "name": "Commodity Exports - Footwear, Gaiters And The Like, Parts Thereof / Soles and heels for footwear, of rubber or plastic - Luxembourg",
   "private": false,
-  "source_code": "AUSBS",
-  "source_name": "Australian Bureau of Statistics",
-  "to_date": "2008-12-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-05-24T20:55:27Z",
-  "urlize_name": "Retail-Turnover-millions-Current-Prices-State-by-Industry-1-Original-Turnover-New-South-Wales-Food-retailing-Millions"
+  "updated_at": "2014-01-11T07:06:39Z",
+  "urlize_name": "Commodity-Exports-Footwear-Gaiters-And-The-Like-Parts-Thereof-Soles-and-heels-for-footwear-of-rubber-or-plastic-Luxembourg"
 }

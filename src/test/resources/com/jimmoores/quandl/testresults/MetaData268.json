@@ -1,21 +1,21 @@
 {
-  "code": "6291002_A85637T",
+  "code": "RHT_BUSINESSEXITCOSTS_Q",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-  "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&6291002.xls&6291.0.55.001&Time%20Series%20Spreadsheet&6B09BD84F317FBD3CA257B8F0012D3B3&0&May%202013&20.06.2013&Latest",
+  "description": "SEC Name: BusinessExitCosts",
+  "display_url": null,
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1978-02-28",
-  "id": 7915040,
-  "name": "Labour force status by State, Capital city / Balance of state and Sex: Unemployment rate - looking for full-time work ;  Balance of New South Wales ;  Persons ; (Percent)",
+  "frequency": "daily",
+  "from_date": "2012-05-31",
+  "id": 11164382,
+  "name": "RED HAT INC  (RHT): Quarterly Business Exit Costs",
   "private": false,
-  "source_code": "AUSBS",
-  "source_name": "Australian Bureau of Statistics",
-  "to_date": "2014-04-30",
+  "source_code": "SEC",
+  "source_name": "U.S. Securities and Exchange Commission",
+  "to_date": "2012-08-31",
   "type": null,
-  "updated_at": "2014-05-15T13:21:07Z",
-  "urlize_name": "Labour-force-status-by-State-Capital-city-Balance-of-state-and-Sex-Unemployment-rate-looking-for-full-time-work-Balance-of-New-South-Wales-Persons-Percent"
+  "updated_at": "2014-03-20T22:21:27Z",
+  "urlize_name": "RED-HAT-INC-RHT-Quarterly-Business-Exit-Costs"
 }

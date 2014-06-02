@@ -1,21 +1,21 @@
 {
-  "code": "SLF_TSLF_NB_SEX_T_ECO_ISIC4_X_Q_ARG",
+  "code": "OEUN000000061130027204201",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "Statistic: Employment; Occupation: Musicians and Singers; Industry: Colleges, Universities, and Professional Schools; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000061130027204201",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2012-01-31",
-  "id": 12694542,
-  "name": "Self-Employed In X. Not Specified - Quarterly - Argentina",
+  "frequency": "annual",
+  "from_date": "2012-06-30",
+  "id": 9152972,
+  "name": "Employment for Musicians and Singers in Colleges, Universities, and Professional Schools in National",
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2013-02-28",
+  "source_code": "BLS",
+  "source_name": "Bureau of Labor Statistics",
+  "to_date": "2012-06-30",
   "type": null,
-  "updated_at": "2014-05-29T14:56:58Z",
-  "urlize_name": "Self-Employed-In-X-Not-Specified-Quarterly-Argentina"
+  "updated_at": "2013-11-17T06:00:36Z",
+  "urlize_name": "Employment-for-Musicians-and-Singers-in-Colleges-Universities-and-Professional-Schools-in-National"
 }

@@ -1,21 +1,21 @@
 {
-  "code": "UIS_GROSSOUTBOUNDENROLMENTRATIO__ALLGENDERS_SYR",
+  "code": "UNE_DEA1_RT_SEX_F_AGE_AGGREGATE_Y15_24_M_JPN",
   "column_names": [
-    "Year",
-    "Number"
+    "Date",
+    "Value"
   ],
-  "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1998-12-31",
-  "id": 3583825,
-  "name": "Gross outbound enrolment ratio / All genders - Syrian Arab Republic",
+  "frequency": "monthly",
+  "from_date": "2001-01-31",
+  "id": 12712835,
+  "name": "Unemployment Rate, Seasonally Adjusted Series Women Ages 15-24 - Monthly - Japan",
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2011-12-31",
+  "source_code": "ILOSTAT",
+  "source_name": "ILOSTAT Database",
+  "to_date": "2014-02-28",
   "type": null,
-  "updated_at": "2014-01-11T01:38:40Z",
-  "urlize_name": "Gross-outbound-enrolment-ratio-All-genders-Syrian-Arab-Republic"
+  "updated_at": "2014-05-29T16:06:13Z",
+  "urlize_name": "Unemployment-Rate-Seasonally-Adjusted-Series-Women-Ages-15-24-Monthly-Japan"
 }

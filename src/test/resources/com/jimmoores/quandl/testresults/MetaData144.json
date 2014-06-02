@@ -1,425 +1,417 @@
 {
-  "current_page": 440546,
+  "current_page": 405173,
   "docs": [
     {
-      "code": "VMI_LIABILITIESANDSTOCKHOLDERSEQUITY_Q",
+      "code": "IEP_PURCHASESTOCOVERSECURITIESSOLDNOTYETPURCHASED_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "SEC Name: LiabilitiesAndStockholdersEquity",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-12-26",
-      "id": 11237747,
-      "name": "VALMONT INDUSTRIES INC  (VMI): Quarterly Liabilities And Stockholders Equity",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-28",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:28Z",
-      "urlize_name": "VALMONT-INDUSTRIES-INC-VMI-Quarterly-Liabilities-And-Stockholders-Equity"
-    },
-    {
-      "code": "VMI_LIABILITIESANDSTOCKHOLDERSEQUITY_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: LiabilitiesAndStockholdersEquity",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-12-26",
-      "id": 11237750,
-      "name": "VALMONT INDUSTRIES INC  (VMI): Annual Liabilities And Stockholders Equity",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-28",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:29Z",
-      "urlize_name": "VALMONT-INDUSTRIES-INC-VMI-Annual-Liabilities-And-Stockholders-Equity"
-    },
-    {
-      "code": "VMI_ACCOUNTSPAYABLECURRENT_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: AccountsPayableCurrent",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-12-26",
-      "id": 11237751,
-      "name": "VALMONT INDUSTRIES INC  (VMI): Quarterly Accounts Payable Current",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-28",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:30Z",
-      "urlize_name": "VALMONT-INDUSTRIES-INC-VMI-Quarterly-Accounts-Payable-Current"
-    },
-    {
-      "code": "VMI_ACCOUNTSPAYABLECURRENT_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: AccountsPayableCurrent",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-12-26",
-      "id": 11237748,
-      "name": "VALMONT INDUSTRIES INC  (VMI): Annual Accounts Payable Current",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-28",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:30Z",
-      "urlize_name": "VALMONT-INDUSTRIES-INC-VMI-Annual-Accounts-Payable-Current"
-    },
-    {
-      "code": "VMI_COMMONSTOCKSHARESISSUED_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CommonStockSharesIssued",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-12-26",
-      "id": 11237752,
-      "name": "VALMONT INDUSTRIES INC  (VMI): Quarterly Common Stock Shares Issued",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-28",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:02Z",
-      "urlize_name": "VALMONT-INDUSTRIES-INC-VMI-Quarterly-Common-Stock-Shares-Issued"
-    },
-    {
-      "code": "VMI_COMMONSTOCKSHARESISSUED_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CommonStockSharesIssued",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-12-26",
-      "id": 11237749,
-      "name": "VALMONT INDUSTRIES INC  (VMI): Annual Common Stock Shares Issued",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-28",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:03Z",
-      "urlize_name": "VALMONT-INDUSTRIES-INC-VMI-Annual-Common-Stock-Shares-Issued"
-    },
-    {
-      "code": "VMI_NETCASHPROVIDEDBYUSEDINOPERATINGACTIVITIES_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: NetCashProvidedByUsedInOperatingActivities",
+      "description": "SEC Name: PurchasesToCoverSecuritiesSoldNotYetPurchased",
       "display_url": null,
       "frequency": "daily",
-      "from_date": "2010-12-25",
-      "id": 11237753,
-      "name": "VALMONT INDUSTRIES INC  (VMI): Annual Net Cash Provided By Used In Operating Activities",
+      "from_date": "2011-12-31",
+      "id": 10757964,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Purchases To Cover Securities Sold Not Yet Purchased",
       "private": false,
       "source_code": "SEC",
       "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-28",
+      "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-04-30T12:57:32Z",
-      "urlize_name": "VALMONT-INDUSTRIES-INC-VMI-Annual-Net-Cash-Provided-By-Used-In-Operating-Activities"
+      "updated_at": "2014-03-07T12:21:31Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Purchases-To-Cover-Securities-Sold-Not-Yet-Purchased"
     },
     {
-      "code": "VMI_OTHERCOMPREHENSIVEINCOMELOSSPENSIONANDOTHERPOSTRETIREMENTBENEFITPLANSTAX_A",
+      "code": "IEP_TOTALEXPENSES_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "SEC Name: OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax",
+      "description": "SEC Name: TotalExpenses",
       "display_url": null,
       "frequency": "daily",
-      "from_date": "2013-12-28",
-      "id": 11237756,
-      "name": "VALMONT INDUSTRIES INC  (VMI): Annual Other Comprehensive Income Loss Pension And Other Postretirement Benefit Plans Tax",
+      "from_date": "2011-12-31",
+      "id": 10757974,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Total Expenses",
       "private": false,
       "source_code": "SEC",
       "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-28",
+      "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-04-30T12:57:33Z",
-      "urlize_name": "VALMONT-INDUSTRIES-INC-VMI-Annual-Other-Comprehensive-Income-Loss-Pension-And-Other-Postretirement-Benefit-Plans-Tax"
+      "updated_at": "2014-03-07T12:21:14Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Total-Expenses"
     },
     {
-      "code": "VAL_ACCOUNTSPAYABLECURRENT_Q",
+      "code": "IEP_REDEMPTIONSPAYABLETONONCONTROLLINGINTERESTS_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "SEC Name: AccountsPayableCurrent",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-07-31",
-      "id": 11235298,
-      "name": "VALSPAR CORP  (VAL): Quarterly Accounts Payable Current",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2014-01-24",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:35Z",
-      "urlize_name": "VALSPAR-CORP-VAL-Quarterly-Accounts-Payable-Current"
-    },
-    {
-      "code": "VAL_ADDITIONALPAIDINCAPITALCOMMONSTOCK_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: AdditionalPaidInCapitalCommonStock",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-07-31",
-      "id": 11235299,
-      "name": "VALSPAR CORP  (VAL): Quarterly Additional Paid In Capital Common Stock",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2014-01-24",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:36Z",
-      "urlize_name": "VALSPAR-CORP-VAL-Quarterly-Additional-Paid-In-Capital-Common-Stock"
-    },
-    {
-      "code": "VAL_AMORTIZATIONOFINTANGIBLEASSETS_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: AmortizationOfIntangibleAssets",
+      "description": "SEC Name: RedemptionsPayableToNonControllingInterests",
       "display_url": null,
       "frequency": "daily",
-      "from_date": "2013-01-25",
-      "id": 11235300,
-      "name": "VALSPAR CORP  (VAL): Quarterly Amortization Of Intangible Assets",
+      "from_date": "2011-12-31",
+      "id": 10758650,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Redemptions Payable To Non Controlling Interests",
       "private": false,
       "source_code": "SEC",
       "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2014-01-24",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-04-30T12:57:08Z",
-      "urlize_name": "VALSPAR-CORP-VAL-Quarterly-Amortization-Of-Intangible-Assets"
+      "updated_at": "2014-03-07T12:21:31Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Redemptions-Payable-To-Non-Controlling-Interests"
     },
     {
-      "code": "VAL_ASSETSCURRENT_Q",
+      "code": "IEP_UNITDISTRIBUTION_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "SEC Name: AssetsCurrent",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-07-31",
-      "id": 11235301,
-      "name": "VALSPAR CORP  (VAL): Quarterly Assets Current",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2014-01-24",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:09Z",
-      "urlize_name": "VALSPAR-CORP-VAL-Quarterly-Assets-Current"
-    },
-    {
-      "code": "VAL_CASHANDCASHEQUIVALENTSATCARRYINGVALUE_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CashAndCashEquivalentsAtCarryingValue",
-      "display_url": null,
-      "frequency": "quarterly",
-      "from_date": "2007-10-26",
-      "id": 11235312,
-      "name": "VALSPAR CORP  (VAL): Quarterly Cash And Cash Equivalents At Carrying Value",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2014-01-24",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:09Z",
-      "urlize_name": "VALSPAR-CORP-VAL-Quarterly-Cash-And-Cash-Equivalents-At-Carrying-Value"
-    },
-    {
-      "code": "VAL_COMMONSTOCKVALUE_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CommonStockValue",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-07-31",
-      "id": 11235302,
-      "name": "VALSPAR CORP  (VAL): Quarterly Common Stock Value",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2014-01-24",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:10Z",
-      "urlize_name": "VALSPAR-CORP-VAL-Quarterly-Common-Stock-Value"
-    },
-    {
-      "code": "VAL_COSTOFGOODSANDSERVICESSOLD_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CostOfGoodsAndServicesSold",
+      "description": "SEC Name: UnitDistribution",
       "display_url": null,
       "frequency": "daily",
-      "from_date": "2010-07-30",
-      "id": 11235303,
-      "name": "VALSPAR CORP  (VAL): Quarterly Cost Of Goods And Services Sold",
+      "from_date": "2011-05-31",
+      "id": 10759655,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Unit Distribution",
       "private": false,
       "source_code": "SEC",
       "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2014-01-24",
+      "to_date": "2011-05-31",
       "type": null,
-      "updated_at": "2014-04-30T12:57:11Z",
-      "urlize_name": "VALSPAR-CORP-VAL-Quarterly-Cost-Of-Goods-And-Services-Sold"
+      "updated_at": "2014-03-07T12:21:14Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Unit-Distribution"
     },
     {
-      "code": "VAL_DEBTLONGTERMANDSHORTTERMCOMBINEDAMOUNT_Q",
+      "code": "IEP_AMENDMENTFLAG_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "SEC Name: DebtLongtermAndShorttermCombinedAmount",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2010-07-30",
-      "id": 11235304,
-      "name": "VALSPAR CORP  (VAL): Quarterly Debt Longterm And Shortterm Combined Amount",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2014-01-24",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:12Z",
-      "urlize_name": "VALSPAR-CORP-VAL-Quarterly-Debt-Longterm-And-Shortterm-Combined-Amount"
-    },
-    {
-      "code": "VAL_DEFERREDTAXLIABILITIESNONCURRENT_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: DeferredTaxLiabilitiesNoncurrent",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2009-07-31",
-      "id": 11235305,
-      "name": "VALSPAR CORP  (VAL): Quarterly Deferred Tax Liabilities Noncurrent",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2014-01-24",
-      "type": null,
-      "updated_at": "2014-04-30T12:57:12Z",
-      "urlize_name": "VALSPAR-CORP-VAL-Quarterly-Deferred-Tax-Liabilities-Noncurrent"
-    },
-    {
-      "code": "VAL_DEPRECIATION_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: Depreciation",
+      "description": "SEC Name: AmendmentFlag",
       "display_url": null,
       "frequency": "daily",
-      "from_date": "2011-01-28",
-      "id": 11235306,
-      "name": "VALSPAR CORP  (VAL): Quarterly Depreciation",
+      "from_date": null,
+      "id": 10757975,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Amendment Flag",
       "private": false,
       "source_code": "SEC",
       "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2014-01-24",
+      "to_date": null,
       "type": null,
-      "updated_at": "2014-04-30T12:57:13Z",
-      "urlize_name": "VALSPAR-CORP-VAL-Quarterly-Depreciation"
+      "updated_at": "2014-03-07T12:21:32Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Amendment-Flag"
     },
     {
-      "code": "VAL_EARNINGSPERSHAREDILUTED_Q",
+      "code": "FRNK_IMPAIREDFINANCINGRECEIVABLEANNUALIZEDYIELD_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "SEC Name: EarningsPerShareDiluted",
+      "description": "SEC Name: ImpairedFinancingReceivableAnnualizedYield",
       "display_url": null,
       "frequency": "daily",
-      "from_date": "2010-07-30",
-      "id": 11235307,
-      "name": "VALSPAR CORP  (VAL): Quarterly Earnings Per Share Diluted",
+      "from_date": "2013-09-30",
+      "id": 10759657,
+      "name": "Franklin Financial Corp  (FRNK): Annual Impaired Financing Receivable Annualized Yield",
       "private": false,
       "source_code": "SEC",
       "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2014-01-24",
+      "to_date": "2013-09-30",
       "type": null,
-      "updated_at": "2014-04-30T12:57:41Z",
-      "urlize_name": "VALSPAR-CORP-VAL-Quarterly-Earnings-Per-Share-Diluted"
+      "updated_at": "2014-03-07T12:21:32Z",
+      "urlize_name": "Franklin-Financial-Corp-FRNK-Annual-Impaired-Financing-Receivable-Annualized-Yield"
     },
     {
-      "code": "12313",
+      "code": "IEP_CURRENTFISCALYEARENDDATE_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "Financial institutions under foreign control credit operations outstanding - Risk level AA - Households\nUnits: c.m.u. (million)",
-      "display_url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=12313&dataInicio=31%2F12%2F1962&dataFim=09%2F11%2F2031&selTipoArqDownload=2&hdOidSeriesSelecionadas=12313",
-      "frequency": "monthly",
-      "from_date": "2000-03-31",
-      "id": 107567,
-      "name": "Financial institutions under foreign control credit operations outstanding - Risk level AA - Households",
+      "description": "SEC Name: CurrentFiscalYearEndDate",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10757976,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Current Fiscal Year End Date",
       "private": false,
-      "source_code": "BCB",
-      "source_name": "Central Bank of Brazil",
-      "to_date": "2014-03-31",
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-05-29T07:47:58Z",
-      "urlize_name": "Financial-institutions-under-foreign-control-credit-operations-outstanding-Risk-level-AA-Households"
+      "updated_at": "2014-03-07T12:21:32Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Current-Fiscal-Year-End-Date"
+    },
+    {
+      "code": "IEP_DOCUMENTFISCALPERIODFOCUS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DocumentFiscalPeriodFocus",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10757977,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Document Fiscal Period Focus",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T12:21:15Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Document-Fiscal-Period-Focus"
+    },
+    {
+      "code": "IEP_DOCUMENTFISCALYEARFOCUS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DocumentFiscalYearFocus",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10757978,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Document Fiscal Year Focus",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T12:21:15Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Document-Fiscal-Year-Focus"
+    },
+    {
+      "code": "NOC_CASHPROVIDEDBYUSEDININVESTINGACTIVITIESDISCONTINUEDOPERATIONS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CashProvidedByUsedInInvestingActivitiesDiscontinuedOperations",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10758437,
+      "name": "NORTHROP GRUMMAN CORP /DE/  (NOC): Quarterly Cash Provided By Used In Investing Activities Discontinued Operations",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-03-31",
+      "type": null,
+      "updated_at": "2014-03-07T12:21:15Z",
+      "urlize_name": "NORTHROP-GRUMMAN-CORP-DE-NOC-Quarterly-Cash-Provided-By-Used-In-Investing-Activities-Discontinued-Operations"
+    },
+    {
+      "code": "IEP_DOCUMENTPERIODENDDATE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DocumentPeriodEndDate",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10757979,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Document Period End Date",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T12:21:32Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Document-Period-End-Date"
+    },
+    {
+      "code": "IEP_ENTITYCENTRALINDEXKEY_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EntityCentralIndexKey",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10757981,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Entity Central Index Key",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T12:21:15Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Entity-Central-Index-Key"
+    },
+    {
+      "code": "IEP_ENTITYCOMMONSTOCKSHARESOUTSTANDING_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EntityCommonStockSharesOutstanding",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-08",
+      "id": 10757983,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Entity Common Stock Shares Outstanding",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2014-02-28",
+      "type": null,
+      "updated_at": "2014-03-07T12:21:15Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Entity-Common-Stock-Shares-Outstanding"
+    },
+    {
+      "code": "IEP_ENTITYCURRENTREPORTINGSTATUS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EntityCurrentReportingStatus",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": null,
+      "id": 10757984,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Entity Current Reporting Status",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2014-03-07T12:21:33Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Entity-Current-Reporting-Status"
+    },
+    {
+      "code": "IEP_ENTITYFILERCATEGORY_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EntityFilerCategory",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": null,
+      "id": 10758677,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Entity Filer Category",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2014-03-07T12:21:15Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Entity-Filer-Category"
+    },
+    {
+      "code": "IEP_DOCUMENTTYPE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DocumentType",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10757980,
+      "name": "ICAHN ENTERPRISES L.P.  (IEP): Annual Document Type",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T12:21:17Z",
+      "urlize_name": "ICAHN-ENTERPRISES-L-P-IEP-Annual-Document-Type"
+    },
+    {
+      "code": "NOC_DEBTINSTRUMENTINTERESTRATESTATEDPERCENTAGE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DebtInstrumentInterestRateStatedPercentage",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10759344,
+      "name": "NORTHROP GRUMMAN CORP /DE/  (NOC): Quarterly Debt Instrument Interest Rate Stated Percentage",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2011-09-30",
+      "type": null,
+      "updated_at": "2014-03-07T12:21:17Z",
+      "urlize_name": "NORTHROP-GRUMMAN-CORP-DE-NOC-Quarterly-Debt-Instrument-Interest-Rate-Stated-Percentage"
+    },
+    {
+      "code": "NOC_DISPOSALGROUPINCLUDINGDISCONTINUEDOPERATIONREVENUE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DisposalGroupIncludingDiscontinuedOperationRevenue",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-03-31",
+      "id": 10759665,
+      "name": "NORTHROP GRUMMAN CORP /DE/  (NOC): Quarterly Disposal Group Including Discontinued Operation Revenue",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2010-03-31",
+      "type": null,
+      "updated_at": "2014-03-07T12:21:17Z",
+      "urlize_name": "NORTHROP-GRUMMAN-CORP-DE-NOC-Quarterly-Disposal-Group-Including-Discontinued-Operation-Revenue"
+    },
+    {
+      "code": "FRNK_DEFERREDGAINSONSALESOFOTHERREALESTATEOWNEDSOLDINPREVIOUSYEAR_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DeferredGainsOnSalesOfOtherRealEstateOwnedSoldInPreviousYear",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-09-30",
+      "id": 10758832,
+      "name": "Franklin Financial Corp  (FRNK): Quarterly Deferred Gains On Sales Of Other Real Estate Owned Sold In Previous Year",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T12:21:35Z",
+      "urlize_name": "Franklin-Financial-Corp-FRNK-Quarterly-Deferred-Gains-On-Sales-Of-Other-Real-Estate-Owned-Sold-In-Previous-Year"
+    },
+    {
+      "code": "FRNK_PROCEEDSFROMSALEOFFORECLOSEDASSETS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ProceedsFromSaleOfForeclosedAssets",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-09-30",
+      "id": 10759666,
+      "name": "Franklin Financial Corp  (FRNK): Annual Proceeds From Sale Of Foreclosed Assets",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-07T12:21:18Z",
+      "urlize_name": "Franklin-Financial-Corp-FRNK-Annual-Proceeds-From-Sale-Of-Foreclosed-Assets"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "BCB",
-      "datasets_count": 11808,
-      "description": "No description for this source yet",
-      "host": "www3.bcb.gov.br",
-      "id": 35,
-      "name": "Central Bank of Brazil"
-    },
-    {
-      "code": "SEC",
-      "datasets_count": 4867,
-      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
-      "host": "www.sec.gov",
-      "id": 651,
-      "name": "U.S. Securities and Exchange Commission"
-    }
-  ],
-  "total_count": 10053489
+  "sources": [{
+    "code": "SEC",
+    "concurrency": 20,
+    "datasets_count": 4867,
+    "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+    "host": "www.sec.gov",
+    "id": 651,
+    "name": "U.S. Securities and Exchange Commission",
+    "use_proxy": false
+  }],
+  "total_count": 10147268
 }

@@ -1,21 +1,21 @@
 {
-  "code": "SMS48000003200000001",
+  "code": "IDN_NY_TRF_NCTR_CD",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Thousands of Persons Seasonally Adjusted, This series is seasonally adjusted by the U.S. Bureau of Labor Statistics. ",
-  "display_url": "http://research.stlouisfed.org/fred2/data/SMS48000003200000001.csv",
+  "description": "Current transfers comprise transfers of income between residents of the reporting country and the rest of the world that carry no provisions for repayment. Net current transfers from abroad is equal to the unrequited transfers of income from nonresidents to residents minus the unrequited transfers from residents to nonresidents. Data are in current U.S. dollars.\nNet current transfers from abroad (current US$)",
+  "display_url": "http://api.worldbank.org/countries/IDN/indicators/NY.TRF.NCTR.CD?per_page=1000",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1990-01-01",
-  "id": 10990021,
-  "name": "All Employees: Manufacturing: Non-Durable Goods in Texas",
+  "frequency": "annual",
+  "from_date": null,
+  "id": 2076022,
+  "name": "Indonesia: Net current transfers from abroad (current US$)",
   "private": false,
-  "source_code": "FRED",
-  "source_name": "Federal Reserve Economic Data",
-  "to_date": "2013-12-01",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank",
+  "to_date": null,
   "type": null,
-  "updated_at": "2014-03-20T23:06:14Z",
-  "urlize_name": "All-Employees-Manufacturing-Non-Durable-Goods-in-Texas"
+  "updated_at": "2013-06-20T18:24:10Z",
+  "urlize_name": "Indonesia-Net-current-transfers-from-abroad-current-US"
 }

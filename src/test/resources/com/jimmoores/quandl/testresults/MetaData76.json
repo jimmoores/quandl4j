@@ -1,429 +1,415 @@
 {
-  "current_page": 241598,
+  "current_page": 441302,
   "docs": [
     {
-      "code": "957_FJI",
+      "code": "SST_A_BG_GSD_Y00_A_Z01_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "SEX: Male.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:MLE;COUNTRY:FJI;\n",
+      "description": " Bulgaria - Government Securities Depository (GSD) - Delivery instructions processed (total) - All securities settlement instruments - All currencies combined - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484694&SERIES_KEY=147.SST.A.BG.GSD.Y00.A.Z01.E&exportType=sdmx",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9591501,
-      "name": "Exposure to smoke outside home Male - Fiji",
+      "from_date": "2005-12-31",
+      "id": 11471420,
+      "name": "Bulgaria Government Securities Depository Delivery instructions processed All securities settlement instruments All currencies combined Euro",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T10:17:08Z",
-      "urlize_name": "Exposure-to-smoke-outside-home-Male-Fiji"
+      "updated_at": "2014-04-30T17:05:59Z",
+      "urlize_name": "Bulgaria-Government-Securities-Depository-Delivery-instructions-processed-All-securities-settlement-instruments-All-currencies-combined-Euro"
     },
     {
-      "code": "SMU39181406054150001",
+      "code": "SST_A_BG_CDA_Y00_B_Z01_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "Statistic: All Employees, In Thousands; Industry: Computer Systems Design and Related Services; Super-Sector: Professional and Business Services; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU39181406054150001",
-      "frequency": "monthly",
-      "from_date": "1990-01-31",
-      "id": 8475345,
-      "name": "All Employees, In Thousands; Computer Systems Design and Related Services industry; Columbus, OH;",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2013-12-13T04:49:08Z",
-      "urlize_name": "All-Employees-In-Thousands-Computer-Systems-Design-and-Related-Services-industry-Columbus-OH"
-    },
-    {
-      "code": "956_SLV",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEX: Both sexes.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:BTSX;COUNTRY:SLV;\n",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed (total) - Bonds - All currencies combined - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484694&SERIES_KEY=147.SST.A.BG.CDA.Y00.B.Z01.E&exportType=sdmx",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9591485,
-      "name": "Exposure to smoke outside home - El Salvador",
+      "from_date": "2005-12-31",
+      "id": 11471421,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed Bonds All currencies combined Euro",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T10:18:34Z",
-      "urlize_name": "Exposure-to-smoke-outside-home-El-Salvador"
+      "updated_at": "2014-04-30T17:06:00Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-Bonds-All-currencies-combined-Euro"
     },
     {
-      "code": "957_DOM",
+      "code": "SST_A_BG_CDA_Y00_E_Z01_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "SEX: Male.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:MLE;COUNTRY:DOM;\n",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed (total) - Equity - All currencies combined - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484694&SERIES_KEY=147.SST.A.BG.CDA.Y00.E.Z01.E&exportType=sdmx",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9591467,
-      "name": "Exposure to smoke outside home Male - Dominican Republic",
+      "from_date": "2005-12-31",
+      "id": 11471422,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed Equity All currencies combined Euro",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T04:15:15Z",
-      "urlize_name": "Exposure-to-smoke-outside-home-Male-Dominican-Republic"
+      "updated_at": "2014-04-30T17:06:01Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-Equity-All-currencies-combined-Euro"
     },
     {
-      "code": "957_SLV",
+      "code": "SST_A_BG_CDA_Y00_O_Z01_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "SEX: Male.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:MLE;COUNTRY:SLV;\n",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed (total) - Other securities settlement instruments - All currencies combined - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484694&SERIES_KEY=147.SST.A.BG.CDA.Y00.O.Z01.E&exportType=sdmx",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9591486,
-      "name": "Exposure to smoke outside home Male - El Salvador",
+      "from_date": "2005-12-31",
+      "id": 11471423,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed Other securities settlement instruments All currencies combined Euro",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T10:17:59Z",
-      "urlize_name": "Exposure-to-smoke-outside-home-Male-El-Salvador"
+      "updated_at": "2014-04-30T17:06:02Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-Other-securities-settlement-instruments-All-currencies-combined-Euro"
     },
     {
-      "code": "955_SLV",
+      "code": "SST_A_BG_CDA_Y00_S_Z01_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "SEX: Female.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:FMLE;COUNTRY:SLV;\n",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed (total) - Short-term paper - All currencies combined - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484694&SERIES_KEY=147.SST.A.BG.CDA.Y00.S.Z01.E&exportType=sdmx",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9591483,
-      "name": "Exposure to smoke outside home Female - El Salvador",
+      "from_date": "2005-12-31",
+      "id": 11471424,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed Short-term paper All currencies combined Euro",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T10:18:52Z",
-      "urlize_name": "Exposure-to-smoke-outside-home-Female-El-Salvador"
+      "updated_at": "2014-04-30T17:06:02Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-Short-term-paper-All-currencies-combined-Euro"
     },
     {
-      "code": "957_ECU",
+      "code": "SST_A_BG_CDA_Y01_A_EUR_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "SEX: Male.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:MLE;COUNTRY:ECU;\n",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - All securities settlement instruments - Euro - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.A.EUR.E&exportType=sdmx",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9591474,
-      "name": "Exposure to smoke outside home Male - Ecuador",
+      "from_date": "2005-12-31",
+      "id": 11471425,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer All securities settlement instruments Euro Euro",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T10:15:10Z",
-      "urlize_name": "Exposure-to-smoke-outside-home-Male-Ecuador"
+      "updated_at": "2014-04-30T17:06:32Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-All-securities-settlement-instruments-Euro-Euro"
     },
     {
-      "code": "SMU39181409093000001",
+      "code": "SST_A_BG_CDA_Y01_A_Z06_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "Statistic: All Employees, In Thousands; Industry: Local Government; Super-Sector: Government; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU39181409093000001",
-      "frequency": "monthly",
-      "from_date": "1990-01-31",
-      "id": 8475360,
-      "name": "All Employees, In Thousands; Local Government industry; Columbus, OH;",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2013-12-13T04:49:28Z",
-      "urlize_name": "All-Employees-In-Thousands-Local-Government-industry-Columbus-OH"
-    },
-    {
-      "code": "SMU39181406055000001",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: All Employees, In Thousands; Industry: Management of Companies and Enterprises; Super-Sector: Professional and Business Services; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU39181406055000001",
-      "frequency": "monthly",
-      "from_date": "2004-01-31",
-      "id": 8475346,
-      "name": "All Employees, In Thousands; Management of Companies and Enterprises industry; Columbus, OH;",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2013-12-13T04:49:10Z",
-      "urlize_name": "All-Employees-In-Thousands-Management-of-Companies-and-Enterprises-industry-Columbus-OH"
-    },
-    {
-      "code": "SMU39181406562000001",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Statistic: All Employees, In Thousands; Industry: Health Care and Social Assistance; Super-Sector: Education and Health Services; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU39181406562000001",
-      "frequency": "monthly",
-      "from_date": "1990-01-31",
-      "id": 8475350,
-      "name": "All Employees, In Thousands; Health Care and Social Assistance industry; Columbus, OH;",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2013-12-13T04:49:20Z",
-      "urlize_name": "All-Employees-In-Thousands-Health-Care-and-Social-Assistance-industry-Columbus-OH"
-    },
-    {
-      "code": "955_ECU",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEX: Female.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:FMLE;COUNTRY:ECU;\n",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - All securities settlement instruments - Non-Euro and non-euro area currencies combined - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.A.Z06.E&exportType=sdmx",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9591470,
-      "name": "Exposure to smoke outside home Female - Ecuador",
+      "from_date": "2005-12-31",
+      "id": 11471426,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer All securities settlement instruments Non-Euro and non-euro area currencies combined Euro",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T10:18:07Z",
-      "urlize_name": "Exposure-to-smoke-outside-home-Female-Ecuador"
+      "updated_at": "2014-04-30T17:06:33Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-All-securities-settlement-instruments-Non-Euro-and-non-euro-area-currencies-combined-Euro"
     },
     {
-      "code": "SMU39193800500000001",
+      "code": "SST_A_BG_CDA_Y01_A_Z0Z_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "Statistic: All Employees, In Thousands; Industry: Total Private; Super-Sector: Total Private; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU39193800500000001",
-      "frequency": "monthly",
-      "from_date": "1990-01-31",
-      "id": 8476849,
-      "name": "All Employees, In Thousands; Total Private industry; Dayton, OH;",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2013-12-13T04:49:38Z",
-      "urlize_name": "All-Employees-In-Thousands-Total-Private-industry-Dayton-OH"
-    },
-    {
-      "code": "957_EGY",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEX: Male.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:MLE;COUNTRY:EGY;\n",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - All securities settlement instruments - Not applicable - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.A.Z0Z.E&exportType=sdmx",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9591481,
-      "name": "Exposure to smoke outside home Male - Egypt",
+      "from_date": "2005-12-31",
+      "id": 11471427,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer All securities settlement instruments Not applicable Euro",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T10:16:55Z",
-      "urlize_name": "Exposure-to-smoke-outside-home-Male-Egypt"
+      "updated_at": "2014-04-30T17:06:06Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-All-securities-settlement-instruments-Not-applicable-Euro"
     },
     {
-      "code": "SMU39181406500000001",
+      "code": "SST_A_BG_CDA_Y01_B_EUR_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "Statistic: All Employees, In Thousands; Industry: Education and Health Services; Super-Sector: Education and Health Services; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU39181406500000001",
-      "frequency": "monthly",
-      "from_date": "1990-01-31",
-      "id": 8475349,
-      "name": "All Employees, In Thousands; Education and Health Services industry; Columbus, OH;",
-      "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
-      "type": null,
-      "updated_at": "2013-12-13T04:49:19Z",
-      "urlize_name": "All-Employees-In-Thousands-Education-and-Health-Services-industry-Columbus-OH"
-    },
-    {
-      "code": "956_EGY",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEX: Both sexes.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:BTSX;COUNTRY:EGY;\n",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - Bonds - Euro - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.B.EUR.E&exportType=sdmx",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9591479,
-      "name": "Exposure to smoke outside home - Egypt",
+      "from_date": "2005-12-31",
+      "id": 11471428,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer Bonds Euro Euro",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T04:35:30Z",
-      "urlize_name": "Exposure-to-smoke-outside-home-Egypt"
+      "updated_at": "2014-04-30T17:06:07Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-Bonds-Euro-Euro"
     },
     {
-      "code": "955_EGY",
+      "code": "SST_A_BG_CDA_Y01_B_Z06_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "SEX: Female.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:FMLE;COUNTRY:EGY;\n",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - Bonds - Non-Euro and non-euro area currencies combined - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.B.Z06.E&exportType=sdmx",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9591476,
-      "name": "Exposure to smoke outside home Female - Egypt",
+      "from_date": "2005-12-31",
+      "id": 11471429,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer Bonds Non-Euro and non-euro area currencies combined Euro",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T04:09:53Z",
-      "urlize_name": "Exposure-to-smoke-outside-home-Female-Egypt"
+      "updated_at": "2014-04-30T17:06:08Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-Bonds-Non-Euro-and-non-euro-area-currencies-combined-Euro"
     },
     {
-      "code": "134_AFR",
+      "code": "SST_A_BG_CDA_Y01_B_Z0Z_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=103",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/HRH_21&filter=REGION:AFR;\n",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - Bonds - Not applicable - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.B.Z0Z.E&exportType=sdmx",
       "frequency": "annual",
-      "from_date": "1985-12-31",
-      "id": 9508561,
-      "name": "Number of dentistry personnel - Africa",
+      "from_date": "2005-12-31",
+      "id": 11471430,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer Bonds Not applicable Euro",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2011-12-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-11T02:59:58Z",
-      "urlize_name": "Number-of-dentistry-personnel-Africa"
+      "updated_at": "2014-04-30T17:06:09Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-Bonds-Not-applicable-Euro"
     },
     {
-      "code": "955_ERI",
+      "code": "SST_A_BG_CDA_Y01_E_EUR_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "SEX: Female.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1301",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000347&filter=SEX:FMLE;COUNTRY:ERI;\n",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - Equity - Euro - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.E.EUR.E&exportType=sdmx",
       "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9591490,
-      "name": "Exposure to smoke outside home Female - Eritrea",
+      "from_date": "2005-12-31",
+      "id": 11471431,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer Equity Euro Euro",
       "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T04:10:18Z",
-      "urlize_name": "Exposure-to-smoke-outside-home-Female-Eritrea"
+      "updated_at": "2014-04-30T17:06:38Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-Equity-Euro-Euro"
     },
     {
-      "code": "SMU39181407000000001",
+      "code": "SST_A_BG_CDA_Y01_E_Z06_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "Statistic: All Employees, In Thousands; Industry: Leisure and Hospitality; Super-Sector: Leisure and Hospitality; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU39181407000000001",
-      "frequency": "monthly",
-      "from_date": "1990-01-31",
-      "id": 8475352,
-      "name": "All Employees, In Thousands; Leisure and Hospitality industry; Columbus, OH;",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - Equity - Non-Euro and non-euro area currencies combined - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.E.Z06.E&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 11471432,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer Equity Non-Euro and non-euro area currencies combined Euro",
       "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2013-12-13T04:49:23Z",
-      "urlize_name": "All-Employees-In-Thousands-Leisure-and-Hospitality-industry-Columbus-OH"
+      "updated_at": "2014-04-30T17:06:39Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-Equity-Non-Euro-and-non-euro-area-currencies-combined-Euro"
     },
     {
-      "code": "SMU39193804200000001",
+      "code": "SST_A_BG_CDA_Y01_E_Z0Z_E",
       "column_names": [
         "Date",
-        "Value"
+        "Millions of Euro"
       ],
-      "description": "Statistic: All Employees, In Thousands; Industry: Retail Trade; Super-Sector: Retail Trade; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
-      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU39193804200000001",
-      "frequency": "monthly",
-      "from_date": "1990-01-31",
-      "id": 8476862,
-      "name": "All Employees, In Thousands; Retail Trade industry; Dayton, OH;",
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - Equity - Not applicable - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.E.Z0Z.E&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 11471433,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer Equity Not applicable Euro",
       "private": false,
-      "source_code": "BLS",
-      "source_name": "Bureau of Labor Statistics",
-      "to_date": "2013-10-31",
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2013-12-13T04:49:56Z",
-      "urlize_name": "All-Employees-In-Thousands-Retail-Trade-industry-Dayton-OH"
+      "updated_at": "2014-04-30T17:06:12Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-Equity-Not-applicable-Euro"
+    },
+    {
+      "code": "SST_A_BG_CDA_Y01_O_EUR_E",
+      "column_names": [
+        "Date",
+        "Millions of Euro"
+      ],
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - Other securities settlement instruments - Euro - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.O.EUR.E&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 11471434,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer Other securities settlement instruments Euro Euro",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T17:06:42Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-Other-securities-settlement-instruments-Euro-Euro"
+    },
+    {
+      "code": "SST_A_BG_CDA_Y01_O_Z06_E",
+      "column_names": [
+        "Date",
+        "Millions of Euro"
+      ],
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - Other securities settlement instruments - Non-Euro and non-euro area currencies combined - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.O.Z06.E&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 11471435,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer Other securities settlement instruments Non-Euro and non-euro area currencies combined Euro",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T17:06:15Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-Other-securities-settlement-instruments-Non-Euro-and-non-euro-area-currencies-combined-Euro"
+    },
+    {
+      "code": "SST_A_BG_CDA_Y01_O_Z0Z_E",
+      "column_names": [
+        "Date",
+        "Millions of Euro"
+      ],
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - Other securities settlement instruments - Not applicable - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.O.Z0Z.E&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 11471436,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer Other securities settlement instruments Not applicable Euro",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T17:06:16Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-Other-securities-settlement-instruments-Not-applicable-Euro"
+    },
+    {
+      "code": "SST_A_BG_CDA_Y01_S_EUR_E",
+      "column_names": [
+        "Date",
+        "Millions of Euro"
+      ],
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - Short-term paper - Euro - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.S.EUR.E&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 11471437,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer Short-term paper Euro Euro",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T17:06:17Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-Short-term-paper-Euro-Euro"
+    },
+    {
+      "code": "SST_A_BG_CDA_Y01_S_Z06_E",
+      "column_names": [
+        "Date",
+        "Millions of Euro"
+      ],
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - Short-term paper - Non-Euro and non-euro area currencies combined - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.S.Z06.E&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 11471438,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer Short-term paper Non-Euro and non-euro area currencies combined Euro",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T17:06:18Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-Short-term-paper-Non-Euro-and-non-euro-area-currencies-combined-Euro"
+    },
+    {
+      "code": "SST_A_BG_CDA_Y01_S_Z0Z_E",
+      "column_names": [
+        "Date",
+        "Millions of Euro"
+      ],
+      "description": " Bulgaria - Central Depository AD (CDAD) - Delivery instructions processed, internal transfer (no link) - Short-term paper - Not applicable - Euro , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Bulgaria (BG), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484695&SERIES_KEY=147.SST.A.BG.CDA.Y01.S.Z0Z.E&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 11471439,
+      "name": "Bulgaria Central Depository AD Delivery instructions processed, internal transfer Short-term paper Not applicable Euro",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T17:06:47Z",
+      "urlize_name": "Bulgaria-Central-Depository-AD-Delivery-instructions-processed-internal-transfer-Short-term-paper-Not-applicable-Euro"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "WHO",
-      "concurrency": 20,
-      "datasets_count": 21456,
-      "description": "",
-      "host": "apps.who.int",
-      "id": 525,
-      "name": "World Health Organization",
-      "use_proxy": false
-    },
-    {
-      "code": "BLS",
-      "concurrency": 10,
-      "datasets_count": 5888,
-      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
-      "host": "www.bls.gov",
-      "id": 162,
-      "name": "Bureau of Labor Statistics",
-      "use_proxy": false
-    }
-  ],
-  "total_count": 10036987
+  "sources": [{
+    "code": "ECB",
+    "datasets_count": 0,
+    "description": "No description for this source yet",
+    "host": "sdw.ecb.europa.eu",
+    "id": 8917,
+    "name": "European Central Bank"
+  }],
+  "total_count": 10147268
 }

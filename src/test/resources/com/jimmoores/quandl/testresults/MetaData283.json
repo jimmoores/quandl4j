@@ -1,21 +1,21 @@
 {
-  "code": "ELEC_PLANT_AVG_HEAT_126_WO_ST_Q",
+  "code": "MZIP_MEDIANSOLDPRICEPERSQFT_ALLHOMES_32536",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Units=Mmbtu Per Barrels. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.AVG_HEAT.126-WO-ST.Q",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.AVG_HEAT.126-WO-ST.Q&out=xml",
+  "description": "Median of sale prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPricePerSqft_AllHomes.csv",
   "errors": {},
   "frequency": "monthly",
-  "from_date": "2009-03-31",
-  "id": 5120101,
-  "name": "Mmbtu Per Unit : H Wilson Sundt Generating Station : Waste/other Oil : Steam Turbine : Quarterly",
+  "from_date": "1996-05-31",
+  "id": 7273573,
+  "name": "Zillow Metrics (Zip Codes): Median Sale Price per Sq. Ft. - 32536,Crestview,FL",
   "private": false,
-  "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
-  "to_date": "2009-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-02-28",
   "type": null,
-  "updated_at": "2014-01-10T00:44:56Z",
-  "urlize_name": "Mmbtu-Per-Unit-H-Wilson-Sundt-Generating-Station-Waste-other-Oil-Steam-Turbine-Quarterly"
+  "updated_at": "2014-05-07T21:35:55Z",
+  "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-per-Sq-Ft-32536-Crestview-FL"
 }
