@@ -16,6 +16,7 @@ Quandl4J : A Quandl library for Java
 ### A First Taste of the API
 The following gets the complete data history (with Date, Open, High, Low, Volume, Ex-Dividend, Split Ratio, And Adjusted Open, High, Low Close and Volume columns) of AAPL (Apple Inc).  The symbol `WIKI/AAPL` is what is known as the **Quandl code** and is made up of a data source (in this case `WIKI`) and a data source specific code (in this case the exchange code for Apple Inc, which is `AAPL`).
 ```java
+// Example1.java
 QuandlSession session = QuandlSession.create();
 TabularResult tabularResult = session.getDataSet(
   DataSetRequest.Builder.of("WIKI/AAPL").build());
@@ -41,6 +42,7 @@ which produces
 It's also possible to specify many refining options on your query.  In this next example we
 request AAPL again, but this time sampled Quarterly, returning only the close column (CLOSE_COLUMN here is actually the integer constant 4), and performing a normalization pre-process step on the server side before returning the results.
 ```java
+// Example2.java
 QuandlSession session = QuandlSession.create();
 TabularResult tabularResult = session.getDataSet(
   DataSetRequest.Builder
@@ -72,8 +74,9 @@ which will return something like
 ```
 note that the whole series is normalized against the first value.
 ### Retrieving data for multiple Quandl codes at the same time
-To retrieve data for multiple codes, we need a different request structure.  In particular we need to say which Quandl codes we want data retrieved for, but also which columns are required for each.  This is done using the `QuandlCodeRequest`, which has two factory methods: `singleColumn(String quandlCode, int columnIndex)` and `allColumns(String quandlCode)`.
+To retrieve data for multiple codes, we need a different request structure.  In particular we need to say which Quandl codes we want data retrieved for, but also which columns are required for each.  This is done using the `QuandlCodeRequest`, which has two factory methods: `singleColumn(String quandlCode, int columnIndex)` and `allColumns(String quandlCode)`.  It's worth noting we're allowed to use the normal form of Quandl codes here, in the REST API, the forward slash gets replaced with a full-stop/period in this context:
 ```java
+// Example3.java
 QuandlSession session = QuandlSession.create();
 TabularResult tabularResultMulti = session.getDataSets(
     MultiDataSetRequest.Builder
@@ -115,6 +118,7 @@ Note that the column labels actually do have a **SPACE-HYPHEN-SPACE** between th
 ### Single meta data request
 It's also possible to retrieve meta-data about the data sets available.
 ```java
+// Example4.java
 QuandlSession session = QuandlSession.create();
 MetaDataResult metaData = session.getMetaData(MetaDataRequest.of("WIKI/AAPL"));
 System.out.println(metaData.toPrettyPrintedString());
@@ -156,8 +160,9 @@ which prints out the raw JSON of the underlying message
 ```
 The raw JSON message is accessible, but the intention is for the user to mostly use the convenience methods available to extract named fields (with type casts) and process the `column_names` array into a `HeaderDefinition`.
 ### Bulk meta-data
-This uses an undocumented feature of Quandl, which allows you to make requests for JSON to the multisets endpoint.  To this we add the parameter to limit the start date to a date far in the future.  This means we only get the meta-data.  It's limited to only providing enough data to determine the available columns, but that's quite useful in itself.  There are two calls that can process this `MultiMetaDataRequest`.  The first is an overloaded version of `getMetaData`.
+This uses an undocumented feature of Quandl, which allows you to make requests for JSON to the multisets endpoint.  To this we add the parameter to limit the start date to a date far in the future.  This means we only get the meta-data.  It's limited to only providing enough data to determine the available columns, but that's quite useful in itself.  There are two calls that can process this `MultiMetaDataRequest`.  The first is an overloaded version of `getMetaData`.  Again, it's worth noting we're allowed to use the normal form of Quandl codes here: in the REST API, the forward slash gets replaced with a full-stop/period in this context.
 ```java
+// Example5.java
 QuandlSession session = QuandlSession.create();
 MetaDataResult metaData = session.getMetaData(MultiMetaDataRequest.of("WIKI/AAPL", "DOE/RWTC", "WIKI/MSFT"));
 System.out.println(metaData.toPrettyPrintedString());
@@ -230,6 +235,7 @@ which returns a large JSON document wrapped in a normal MetaDataResult object.
 ```
 A more generally useful method though, is to use the `getMultipleHeaderDefinition()` method
 ```java
+// Example6.java
 QuandlSession session = QuandlSession.create();
 Map<String, HeaderDefinition> headers = session.getMultipleHeaderDefinition(MultiMetaDataRequest.of("WIKI/AAPL", "DOE/RWTC", "WIKI/MSFT"));
 System.out.println(PrettyPrinter.toPrettyPrintedString(headers));
@@ -239,4 +245,107 @@ which returns the following map (`PrettyPrinter` contains a PrettyPrinter for th
 WIKI.AAPL => Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
 DOE.RWTC  => Date, Value
 WIKI.MSFT => Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
+```
+### Searching
+We can also make generalised free-text search requests to Quandl.  For this we use the `search(SearchRequest)` method.  This allows us to specify the maximum number of results per page, and also the page we want.  Note that queries with high page numbers are slow, presumably due to the server-side database having to project the entire result set of several million documents just to get the single page you want.  Try not to add to server load by making these requests excessively.
+```java
+// Example7.java
+QuandlSession session = QuandlSession.create();
+SearchResult searchResult = session.search(SearchRequest.Builder.of("Apple").withMaxPerPage(2).build());
+System.out.println(searchResult.toPrettyPrintedString());
+````
+results in
+```json
+{
+  "current_page": 1,
+  "docs": [
+    {
+      "code": "NASDAQ_AAPL",
+      "column_names": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "description": "Apple Inc. (Apple) designs, manufactures and markets mobile communication and media devices, personal computers, and portable digital music players, and a variety of related software, services, peripherals, networking solutions, and third-party digital content and applications. The Company's products and services include iPhone, iPad, Mac, iPod, Apple TV, a portfolio of consumer and professional software applications, the iOS and OS X operating systems, iCloud, and a variety of accessory, service and support offerings. The Company also delivers digital content and applications through the iTunes Store, App StoreSM, iBookstoreSM, and Mac App Store. The Company distributes its products worldwide through its retail stores, online stores, and direct sales force, as well as through third-party cellular network carriers, wholesalers, retailers, and value-added resellers. In February 2012, the Company acquired app-search engine Chomp.",
+      "display_url": "http://www.google.com/finance/historical?q=NASDAQ%3AAAPL&startdate=Jan+1%2C+1990&output=csv",
+      "frequency": "daily",
+      "from_date": "1981-03-11",
+      "id": 2318865,
+      "name": "Apple Inc. (AAPL)",
+      "private": false,
+      "source_code": "GOOG",
+      "source_name": "Google Finance",
+      "to_date": "2014-06-03",
+      "type": null,
+      "updated_at": "2014-06-04T02:27:30Z",
+      "urlize_name": "Apple-Inc-AAPL"
+    },
+    {
+      "code": "AAPL_CASH",
+      "column_names": [
+        "Date",
+        "Cash"
+      ],
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-09-27",
+      "id": 3861439,
+      "name": "Apple Inc. ( AAPL ) - Cash",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-09-27",
+      "type": null,
+      "updated_at": "2014-05-15T18:07:39Z",
+      "urlize_name": "Apple-Inc-AAPL-Cash"
+    }
+  ],
+  "per_page": 2,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "GOOG",
+      "datasets_count": 43144,
+      "description": "This data is NOT sourced directly from Google.  It is however verified against their numbers.\r\n\r\nwww.quandl.com/WIKI is a better source.",
+      "host": "www.google.com",
+      "id": 393,
+      "name": "Google Finance"
+    }
+  ],
+  "total_count": 4563
+}
+```
+More usefully though, there are variously helper methods on SearchResult to allow you to get the document count, number of documents per page and to extract the individual matches as separate MetaDataResult objects.  For example
+```java
+// Example8.java
+QuandlSession session = QuandlSession.create();
+SearchResult searchResult = session.search(SearchRequest.Builder.of("Apple").withMaxPerPage(2).build());
+System.out.println("Current page:" + searchResult.getCurrentPage());
+System.out.println("Documents per page:" + searchResult.getDocumentsPerPage());
+System.out.println("Total matching documents:" + searchResult.getTotalDocuments());
+for (MetaDataResult document : searchResult.getMetaDataResultList()) {
+  System.out.println("Quandl code " + document.getQuandlCode() + " matched");
+  System.out.println("Available columns are: " + document.getHeaderDefinition());
+}
+```
+produces
+```
+Current page:1
+Documents per page:2
+Total matching documents:4563
+Quandl code GOOG/NASDAQ_AAPL matched
+Available columns are: HeaderDefinition[Date,Open,High,Low,Close,Volume]
+Quandl code DMDRN/AAPL_CASH matched
+Available columns are: HeaderDefinition[Date,Cash]
 ```
