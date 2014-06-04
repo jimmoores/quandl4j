@@ -154,3 +154,89 @@ which prints out the raw JSON of the underlying message
   "urlize_name": "Apple-Inc-AAPL-Prices-Dividends-Splits-and-Trading-Volume"
 }
 ```
+The raw JSON message is accessible, but the intention is for the user to mostly use the convenience methods available to extract named fields (with type casts) and process the `column_names` array into a `HeaderDefinition`.
+### Bulk meta-data
+This uses an undocumented feature of Quandl, which allows you to make requests for JSON to the multisets endpoint.  To this we add the parameter to limit the start date to a date far in the future.  This means we only get the meta-data.  It's limited to only providing enough data to determine the available columns, but that's quite useful in itself.  There are two calls that can process this `MultiMetaDataRequest`.  The first is an overloaded version of `getMetaData`.
+```java
+QuandlSession session = QuandlSession.create();
+MetaDataResult metaData = session.getMetaData(MultiMetaDataRequest.of("WIKI/AAPL", "DOE/RWTC", "WIKI/MSFT"));
+System.out.println(metaData.toPrettyPrintedString());
+```
+which returns a large JSON document wrapped in a normal MetaDataResult object.
+```json
+{
+  "column_names": [
+    "Date",
+    "WIKI.AAPL - Open",
+    "WIKI.AAPL - High",
+    "WIKI.AAPL - Low",
+    "WIKI.AAPL - Close",
+    "WIKI.AAPL - Volume",
+    "WIKI.AAPL - Ex-Dividend",
+    "WIKI.AAPL - Split Ratio",
+    "WIKI.AAPL - Adj. Open",
+    "WIKI.AAPL - Adj. High",
+    "WIKI.AAPL - Adj. Low",
+    "WIKI.AAPL - Adj. Close",
+    "WIKI.AAPL - Adj. Volume",
+    "DOE.RWTC - Value",
+    "WIKI.MSFT - Open",
+    "WIKI.MSFT - High",
+    "WIKI.MSFT - Low",
+    "WIKI.MSFT - Close",
+    "WIKI.MSFT - Volume",
+    "WIKI.MSFT - Ex-Dividend",
+    "WIKI.MSFT - Split Ratio",
+    "WIKI.MSFT - Adj. Open",
+    "WIKI.MSFT - Adj. High",
+    "WIKI.MSFT - Adj. Low",
+    "WIKI.MSFT - Adj. Close",
+    "WIKI.MSFT - Adj. Volume"
+  ],
+  "columns": [
+    "Date",
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "Ex-Dividend",
+    "Split Ratio",
+    "Adj. Open",
+    "Adj. High",
+    "Adj. Low",
+    "Adj. Close",
+    "Adj. Volume",
+    "Value",
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "Ex-Dividend",
+    "Split Ratio",
+    "Adj. Open",
+    "Adj. High",
+    "Adj. Low",
+    "Adj. Close",
+    "Adj. Volume"
+  ],
+  "data": [],
+  "errors": {},
+  "frequency": "annual",
+  "from_date": null,
+  "to_date": null
+}
+```
+A more generally useful method though, is to use the `getMultipleHeaderDefinition()` method
+```java
+QuandlSession session = QuandlSession.create();
+Map<String, HeaderDefinition> headers = session.getMultipleHeaderDefinition(MultiMetaDataRequest.of("WIKI/AAPL", "DOE/RWTC", "WIKI/MSFT"));
+System.out.println(PrettyPrinter.toPrettyPrintedString(headers));
+```
+which returns the following map (`PrettyPrinter` contains a PrettyPrinter for these maps too):
+```
+WIKI.AAPL => Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
+DOE.RWTC  => Date, Value
+WIKI.MSFT => Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
+```
