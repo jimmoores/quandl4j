@@ -3,6 +3,31 @@ Quandl4J : A Quandl library for Java
 
 [Quandl](http://quandl.com) is an source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
 
+# Table of Contents
+ - [Quick start](#quick-start)
+ - [Design Principles](#design-principles)
+ - [Tutorial](#tutorial)
+ - [Documentation](#documentation)
+ - [Contributing](#contributing)
+ - [Community](#community)
+ - [Versioning](#versioning)
+ - [Bugs and feature requests](#bugs-and-feature-requests)
+ - [Creator](#creator)
+ - [Copyright and license](#copyright-and-license)
+
+### Quick Start
+
+Three options are available:
+ - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/v0.9.zip)
+ - Clone the repository: `git clone https://github.com/jimmoores/quandl4j.git`
+ - Add the following fragment to your Maven POM file
+```xml
+<dependency>
+  <groupId>com.jimmoores</groupId>
+  <artifactId>quandl4j</artifactId>
+  <version>0.9</version>
+</dependency>
+```
 ### Design Principles
 The core design principles are:
  - Allow full access to the functionality of the underlying API.
@@ -16,7 +41,7 @@ The core design principles are:
  - Provide concrete examples.
  - Provide comprehensive documentation and JavaDocs.
 
-## Quick Tutorial
+## Tutorial
 ### A First Taste of the API
 The following gets the complete data history (with Date, Open, High, Low, Volume, Ex-Dividend, Split Ratio, And Adjusted Open, High, Low Close and Volume columns) of AAPL (Apple Inc).  The symbol `WIKI/AAPL` is what is known as the **Quandl code** and is made up of a data source (in this case `WIKI`) and a data source specific code (in this case the exchange code for Apple Inc, which is `AAPL`).
 ```java
