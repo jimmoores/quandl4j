@@ -117,7 +117,8 @@ which returns all results in a single `TabularResult`
 Note that the column labels actually do have a **SPACE-HYPHEN-SPACE** between the Quandl code and the Column name.  A future version of the library should allow these columns to be separated out automatically.
 ### Structure of a TabularResult
 The type `TabularResult` is made up of a `HeaderDefinition`, which is essentially a list of column names (plus the facility to map from name to column index), plus a list of `Row` objects, each of which is linked to their common `HeaderDefinition`.  This allows individual `Row` objects to address their data using the column name rather than just the index as is the underlying API.  `Row` also contains methods to parse and cast data into various types (String, LocalDate, Double).  Here is an example
-```
+```java
+// Example3a.java
 QuandlSession session = QuandlSession.create();
 TabularResult tabularResultMulti = session.getDataSets(
     MultiDataSetRequest.Builder
