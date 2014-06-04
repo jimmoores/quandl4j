@@ -6,7 +6,7 @@ Quandl4J : A Quandl library for Java
  - Allow efficient network requests by using the more compact CSV encoding where
    possible.
  - Use modern Java design principles like immutable objects, builders and 
-   factories.
+   factories and JSR-310 style date/times (using the [ThreeTen backport](http://threeten.org) so Java 7 is supported)
  - Thorough unit and integration test support, including a framework that can
    be reused by user applications without hitting the Quandl backend.
  - Publish maven artifacts on [Maven Central](http://search.maven.org/).
@@ -14,12 +14,12 @@ Quandl4J : A Quandl library for Java
  - Provide comprehensive documentation and JavaDocs.
 
 ### A First Taste of the API
-The following gets the complete data history (with Date, Open, High, Low, Volume, Ex-Dividend, Split Ratio, And Adjusted Open, High, Low Close and Volume columns) of AAPL (Apple Inc).
-```
-    QuandlSession session = QuandlSession.create();
-    TabularResult tabularResult = session.getDataSet(
-      DataSetRequest.Builder.of("WIKI/AAPL").build());
-    System.out.println(tabularResult.toPrettyPrintedString());
+The following gets the complete data history (with Date, Open, High, Low, Volume, Ex-Dividend, Split Ratio, And Adjusted Open, High, Low Close and Volume columns) of AAPL (Apple Inc).  The symbol `WIKI/AAPL` is what is known as the **Quandl code** and is made up of a data source (in this case `WIKI`) and a data source specific code (in this case the exchange code for Apple Inc, which is `AAPL`).
+```java
+QuandlSession session = QuandlSession.create();
+TabularResult tabularResult = session.getDataSet(
+  DataSetRequest.Builder.of("WIKI/AAPL").build());
+System.out.println(tabularResult.toPrettyPrintedString());
 ```
 which produces
 ```
@@ -38,18 +38,18 @@ which produces
 +------------+--------+----------+----------+----------+-------------+------------+-------------+-----------------+-----------------+-----------------+-----------------+-------------+
 ```
 ### Refining the query
-from here it's possible to specify many refining options on your query.  In this case we
+It's also possible to specify many refining options on your query.  In this next example we
 request AAPL again, but this time sampled Quarterly, returning only the close column (CLOSE_COLUMN here is actually the integer constant 4), and performing a normalization pre-process step on the server side before returning the results.
-```
-    QuandlSession session = QuandlSession.create();
-    TabularResult tabularResult = session.getDataSet(
-      DataSetRequest.Builder
-        .of("WIKI/AAPL")
-        .withFrequency(Frequency.QUARTERLY)
-        .withColumn(CLOSE_COLUMN)
-        .withTransform(Transform.NORMALIZE)
-        .build());
-    System.out.println(tabularResult.toPrettyPrintedString());
+```java
+QuandlSession session = QuandlSession.create();
+TabularResult tabularResult = session.getDataSet(
+  DataSetRequest.Builder
+    .of("WIKI/AAPL")
+    .withFrequency(Frequency.QUARTERLY)
+    .withColumn(CLOSE_COLUMN)
+    .withTransform(Transform.NORMALIZE)
+    .build());
+System.out.println(tabularResult.toPrettyPrintedString());
 ```
 which will return something like
 ```
@@ -71,3 +71,18 @@ which will return something like
 +------------+-----------------+
 ```
 note that the whole series is normalized against the first value.
+### Retrieving data for multiple Quandl codes at the same time
+To retrieve data for multiple codes, we need a different request structure.  In particular we need to say which Quandl codes we want data retrieved for, but also which columns are required for each.  This is done using the `QuandlCodeRequest`, which has two factory methods: `singleColumn(String quandlCode, int columnIndex)` and `allColumns(String quandlCode)`.
+```java
+QuandlSession session = QuandlSession.create();
+TabularResult tabularResultMulti = session.getDataSets(
+    MultiDataSetRequest.Builder
+      .of(
+        QuandlCodeRequest.singleColumn("WIKI/AAPL", CLOSE_COLUMN), 
+        QuandlCodeRequest.allColumns("DOE/RWTC")
+      )
+      .withStartDate(RECENTISH_DATE)
+      .withFrequency(Frequency.WEEKLY)
+      .build());
+System.out.println(tabularResultMulti.toPrettyPrintedString()); 
+```
