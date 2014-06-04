@@ -115,6 +115,51 @@ which returns all results in a single `TabularResult`
 +------------+-------------------+------------------+
 ```
 Note that the column labels actually do have a **SPACE-HYPHEN-SPACE** between the Quandl code and the Column name.  A future version of the library should allow these columns to be separated out automatically.
+### Structure of a TabularResult
+The type `TabularResult` is made up of a `HeaderDefinition`, which is essentially a list of column names (plus the facility to map from name to column index), plus a list of `Row` objects, each of which is linked to their common `HeaderDefinition`.  This allows individual `Row` objects to address their data using the column name rather than just the index as is the underlying API.  `Row` also contains methods to parse and cast data into various types (String, LocalDate, Double).  Here is an example
+```
+QuandlSession session = QuandlSession.create();
+TabularResult tabularResultMulti = session.getDataSets(
+    MultiDataSetRequest.Builder
+      .of(
+        QuandlCodeRequest.singleColumn("WIKI/AAPL", CLOSE_COLUMN), 
+        QuandlCodeRequest.allColumns("DOE/RWTC")
+      )
+      .withStartDate(RECENTISH_DATE)
+      .withFrequency(Frequency.MONTHLY)
+      .build());
+System.out.println("Header definition: " + tabularResultMulti.getHeaderDefinition());
+Iterator<Row> iter = tabularResultMulti.iterator();
+while (iter.hasNext()) {
+  Row row = iter.next();
+  LocalDate date = row.getLocalDate("Date");
+  Double value = row.getDouble("DOE.RWTC - Value");
+  System.out.println("Value on date " + date + " was " + value);
+} 
+```
+produces:
+```
+Header definition: HeaderDefinition[Date,WIKI.AAPL - Close,DOE.RWTC - Value]
+Value on date 2014-06-30 was null
+Value on date 2014-05-31 was 103.37
+Value on date 2014-04-30 was 100.07
+Value on date 2014-03-31 was 101.57
+Value on date 2014-02-28 was 102.88
+Value on date 2014-01-31 was 97.55
+Value on date 2013-12-31 was 98.17
+Value on date 2013-11-30 was 92.55
+Value on date 2013-10-31 was 96.29
+Value on date 2013-09-30 was 102.36
+Value on date 2013-08-31 was 107.98
+Value on date 2013-07-31 was 105.1
+Value on date 2013-06-30 was 96.36
+Value on date 2013-05-31 was 91.93
+Value on date 2013-04-30 was 93.22
+Value on date 2013-03-31 was 97.24
+Value on date 2013-02-28 was 92.03
+Value on date 2013-01-31 was 97.65
+'''
+
 ### Single meta data request
 It's also possible to retrieve meta-data about the data sets available.
 ```java
