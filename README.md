@@ -1,7 +1,10 @@
 Quandl4J : A Quandl library for Java
 ====================================
 
-[Quandl](http://quandl.com) is an source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but none-the-less allows access to all the functionality of the underlying REST API.  The core design principals are:
+[Quandl](http://quandl.com) is an source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but none-the-less allows access to all the functionality of the underlying REST API.
+
+### Design Principles
+The core design principles are:
  - Allow full access to the functionality of the underlying API.
  - Allow efficient network requests by using the more compact CSV encoding where
    possible.
@@ -13,6 +16,7 @@ Quandl4J : A Quandl library for Java
  - Provide concrete examples.
  - Provide comprehensive documentation and JavaDocs.
 
+## Quick Tutorial
 ### A First Taste of the API
 The following gets the complete data history (with Date, Open, High, Low, Volume, Ex-Dividend, Split Ratio, And Adjusted Open, High, Low Close and Volume columns) of AAPL (Apple Inc).  The symbol `WIKI/AAPL` is what is known as the **Quandl code** and is made up of a data source (in this case `WIKI`) and a data source specific code (in this case the exchange code for Apple Inc, which is `AAPL`).
 ```java
