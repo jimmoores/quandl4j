@@ -82,7 +82,75 @@ TabularResult tabularResultMulti = session.getDataSets(
         QuandlCodeRequest.allColumns("DOE/RWTC")
       )
       .withStartDate(RECENTISH_DATE)
-      .withFrequency(Frequency.WEEKLY)
+      .withFrequency(Frequency.MONTHLY)
       .build());
 System.out.println(tabularResultMulti.toPrettyPrintedString()); 
+```
+which returns all results in a single `TabularResult`
+```
++------------+-------------------+------------------+
+| Date       | WIKI.AAPL - Close | DOE.RWTC - Value |
++------------+-------------------+------------------+
+| 2014-06-30 | 637.54            |                  |
+| 2014-05-31 | 633.0             | 103.37           |
+| 2014-04-30 | 590.09            | 100.07           |
+| 2014-03-31 | 536.74            | 101.57           |
+| 2014-02-28 | 526.24            | 102.88           |
+| 2014-01-31 | 500.6             | 97.55            |
+| 2013-12-31 | 561.02            | 98.17            |
+| 2013-11-30 | 556.07            | 92.55            |
+| 2013-10-31 | 522.7             | 96.29            |
+| 2013-09-30 | 476.75            | 102.36           |
+| 2013-08-31 | 487.22            | 107.98           |
+| 2013-07-31 | 452.53            | 105.1            |
+| 2013-06-30 | 396.53            | 96.36            |
+| 2013-05-31 | 449.73            | 91.93            |
+| 2013-04-30 | 442.78            | 93.22            |
+| 2013-03-31 | 442.66            | 97.24            |
+| 2013-02-28 | 441.4             | 92.03            |
+| 2013-01-31 | 455.49            | 97.65            |
++------------+-------------------+------------------+
+```
+Note that the column labels actually do have a **SPACE-HYPHEN-SPACE** between the Quandl code and the Column name.  A future version of the library should allow these columns to be separated out automatically.
+### Single meta data request
+It's also possible to retrieve meta-data about the data sets available.
+```java
+QuandlSession session = QuandlSession.create();
+MetaDataResult metaData = session.getMetaData(MetaDataRequest.of("WIKI/AAPL"));
+System.out.println(metaData.toPrettyPrintedString());
+```
+which prints out the raw JSON of the underlying message
+```json
+{
+  "code": "AAPL",
+  "column_names": [
+    "Date",
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "Ex-Dividend",
+    "Split Ratio",
+    "Adj. Open",
+    "Adj. High",
+    "Adj. Low",
+    "Adj. Close",
+    "Adj. Volume"
+  ],
+  "description": "\r\n<p>End of day open, high, low, close and volume, dividends and splits, and split/dividend adjusted open, high, low close and volume for Apple Inc. (AAPL). Ex-Dividend is non-zero on ex-dividend dates. Split Ratio is 1 on non-split dates. Adjusted prices are calculated per CRSP (<a href=\"http://www.crsp.com/products/documentation/crsp-calculations\" rel=\"nofollow\" target=\"blank\">www.crsp.com/products/documentation/crsp-calculations<\/a>)<\/p>\r\n\r\n<p>This data is in the public domain. You may copy, distribute, disseminate or include the data in other products for commercial and/or noncommercial purposes.<\/p>\r\n\r\n<p>This data is part of Quandl's Wiki initiative to get financial data permanently into the public domain. Quandl relies on users like you to flag errors and provide data where data is wrong or missing. Get involved: <a href=\"mailto:connect@quandl.com\" rel=\"nofollow\" target=\"blank\">connect@quandl.com<\/a>\r\n<\/p>\r\n",
+  "display_url": "http://www.quandl.com/WIKI/AAPL",
+  "errors": {},
+  "frequency": "daily",
+  "from_date": "1980-12-12",
+  "id": 9775409,
+  "name": "Apple Inc. (AAPL) Prices, Dividends, Splits and Trading Volume",
+  "private": false,
+  "source_code": "WIKI",
+  "source_name": "Quandl Open Data",
+  "to_date": "2014-06-03",
+  "type": null,
+  "updated_at": "2014-06-03T20:58:42Z",
+  "urlize_name": "Apple-Inc-AAPL-Prices-Dividends-Splits-and-Trading-Volume"
+}
 ```
