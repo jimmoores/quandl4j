@@ -424,3 +424,31 @@ Available columns are: HeaderDefinition[Date,Open,High,Low,Close,Volume]
 Quandl code DMDRN/AAPL_CASH matched
 Available columns are: HeaderDefinition[Date,Cash]
 ```
+### Documentation
+An addition to the tutorial, there is extra documentation at the package and class level within the [JavaDocs, which are hosted in GitHub Pages](http://github.io/jimmoores/quandl4j).
+
+### Contrubutions
+Contributions are welcome!  Please read through the [contributing guidelines](http://github.com/jimmoores/quandl4j/blob/master/CONTRIBUTING.md).  This gives guidelines on opening issues, coding standards and testing requirements.
+
+### Community
+Follow development here via
+ - Twitter
+ - Email
+
+### Versioning
+Releases will be numbered with the format `<major>.<minor>.<patch-level>`.  When to bump a version number will be dictated by:
+ - Breaking backwards API compatibility will mean a bump in the major version number.
+ - New features that retain backwards compatibility will require a minor version number bump.
+ - Pure bug fixes will bump the patch-level.
+ 
+### Creator
+**Jim Moores**
+ - <http://twitter.com/jim_moores>
+ - <http://github.com/jimmoores>
+ - <https://www.linkedin.com/pub/jim-moores/0/442/841>
+ 
+### Copyright and license
+
+Code and documentation Copyright (C) 2014 Jim Moores.  Code and documentation released under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+ 
+
