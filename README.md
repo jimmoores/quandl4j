@@ -8,6 +8,7 @@ Quandl4J : A Quandl library for Java
  - [Design Principles](#design-principles)
  - [Tutorial](#tutorial)
  - [Documentation](#documentation)
+ - [Roadmap](#roadmap)
  - [Contributing](#contributing)
  - [Community](#community)
  - [Versioning](#versioning)
@@ -18,9 +19,9 @@ Quandl4J : A Quandl library for Java
 ### Quick Start
 
 Three options are available:
- - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/v0.9.zip)
+ - ~~[Download the latest release](https://github.com/jimmoores/quandl4j/archive/v0.9.zip)~~ **COMING SOON**
  - Clone the repository: `git clone https://github.com/jimmoores/quandl4j.git`
- - Add the following fragment to your Maven POM file
+ - ~~Add the following fragment to your Maven POM file~~ **COMING SOON**
 ```xml
 <dependency>
   <groupId>com.jimmoores</groupId>
@@ -426,6 +427,15 @@ Available columns are: HeaderDefinition[Date,Cash]
 ```
 ### Documentation
 An addition to the tutorial, there is extra documentation at the package and class level within the [JavaDocs, which are hosted in GitHub Pages](http://github.io/jimmoores/quandl4j).
+
+### Roadmap
+Some future plans for incorporation include:
+ - Caching layer to speed up queries and minimize quandl traffic.
+ - Ability to subselect columns/date ranges out from `TabularResult`.
+ - Example Swing UI.
+ - Locally stored data with ability to update (i.e. persistent cache).
+ - Ability to specify column names in requests that will use cached metadata where possible or fall back to 
+   performing a metadata request prior to a data request.
 
 ### Contrubutions
 Contributions are welcome!  Please read through the [contributing guidelines](http://github.com/jimmoores/quandl4j/blob/master/CONTRIBUTING.md).  This gives guidelines on opening issues, coding standards and testing requirements.
