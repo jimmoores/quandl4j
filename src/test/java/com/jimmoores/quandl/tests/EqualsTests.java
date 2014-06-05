@@ -2,8 +2,6 @@ package com.jimmoores.quandl.tests;
 
 import java.util.Arrays;
 
-import jersey.repackaged.com.google.common.collect.Lists;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
