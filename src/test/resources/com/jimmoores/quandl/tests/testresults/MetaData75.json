@@ -1,0 +1,433 @@
+{
+  "current_page": 3320,
+  "docs": [
+    {
+      "code": "EGY_SA_OCT_COV_Q2",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "It presents the (%) Program participation by 2nd 20% population for Family/Child allowances\n(%) Program participation by 2nd 20%  -  Family/Child allowances",
+      "display_url": "http://api.worldbank.org/countries/EGY/indicators/sa_oct.cov_q2?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 2270839,
+      "name": "Egypt, Arab Rep.: (%) Program participation by 2nd 20%  -  Family/Child allowances",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T13:48:06Z",
+      "urlize_name": "Egypt-Arab-Rep-Program-participation-by-2nd-20-Family-Child-allowances"
+    },
+    {
+      "code": "ZIP_3BEDROOM_01247",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the zip code of 01247, North Adams, MA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7440552,
+      "name": "Zillow Home Value Index (Zip Codes): Three Bedroom Homes - 01247,North Adams,MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:23:03Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Three-Bedroom-Homes-01247-North-Adams-MA"
+    },
+    {
+      "code": "SGBI_FIXED_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Fixed Assets to Total Assets"
+      ],
+      "description": "Estimated by dividing the cumulated book value of fixed assets, for the sector, by the cumulated total assets, for the sector. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-06-30",
+      "id": 5408681,
+      "name": "Sangui Biotech Intl Inc ( SGBI ) - Ratio of Fixed Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-03-21T21:26:38Z",
+      "urlize_name": "Sangui-Biotech-Intl-Inc-SGBI-Ratio-of-Fixed-Assets-to-Total-Assets"
+    },
+    {
+      "code": "GTM_WP11668_4",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who currently have a loan they took out to purchase materials or services to build, extend, or renovate their home or apartment (% ages 15-24)\nOutstanding loan for home construction, young adults (% ages 15-24)",
+      "display_url": "http://api.worldbank.org/countries/GTM/indicators/WP11668.4?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6528321,
+      "name": "Guatemala: Outstanding loan for home construction, young adults (% ages 15-24)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:37:04Z",
+      "urlize_name": "Guatemala-Outstanding-loan-for-home-construction-young-adults-ages-15-24"
+    },
+    {
+      "code": "ZMB_UIS_SR_1_G4_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Survival rate to grade 4. Male is the share of male children enrolled in the first grade of primary school who eventually reach grade 4. The estimate is calculated on the basis of the reconstructed cohort method, which uses data on enrolment and repeaters for two consecutive years.\nSurvival rate to grade 4.  Male",
+      "display_url": "http://api.worldbank.org/countries/ZMB/indicators/UIS.SR.1.G4.M?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1972-12-31",
+      "id": 2201691,
+      "name": "Zambia: Survival rate to grade 4.  Male",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T23:39:09Z",
+      "urlize_name": "Zambia-Survival-rate-to-grade-4-Male"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORSALE_ALLHOMES_BISCAYNEISLANDMIAMIFL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7549959,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Sale (Beta) - Biscayne Island,Miami,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-11T13:59:22Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Sale-Beta-Biscayne-Island-Miami-FL"
+    },
+    {
+      "code": "FCBI_BV_EQTY",
+      "column_names": [
+        "Date",
+        "Book Value of Equity"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 4420543,
+      "name": "Frederick County bancorp Inc ( FCBI ) - Book Value of Equity",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T04:57:07Z",
+      "urlize_name": "Frederick-County-bancorp-Inc-FCBI-Book-Value-of-Equity"
+    },
+    {
+      "code": "METRO_1BEDROOM_FORTSMITHAR",
+      "column_names": [
+        "Date",
+        "Fort Smith, AR"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of one bedroom homes within the metropolitan of Fort Smith, AR. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Metro/Metro_Zhvi_1bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6710051,
+      "name": "Zillow Home Value Index (Metro Areas): One Bedroom Homes - Fort Smith, AR",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:40:59Z",
+      "urlize_name": "Zillow-Home-Value-Index-Metro-Areas-One-Bedroom-Homes-Fort-Smith-AR"
+    },
+    {
+      "code": "MHOOD_MEDIANSOLDPRICE_ALLHOMES_FELDHEYMSANBERNARDINOCA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_MedianSoldPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2000-10-31",
+      "id": 7507124,
+      "name": "Zillow Metrics (Neighborhoods): Median Sale Price - Feldheym,San Bernardino,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2004-01-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:41:59Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Median-Sale-Price-Feldheym-San-Bernardino-CA"
+    },
+    {
+      "code": "ICCXQ_CASH_REV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4568923,
+      "name": "Internet Comm & Communication ( ICCXQ ) - Cash as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T04:56:48Z",
+      "urlize_name": "Internet-Comm-Communication-ICCXQ-Cash-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "UNVC_ROE",
+      "column_names": [
+        "Date",
+        "Return on Equity"
+      ],
+      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5477677,
+      "name": "Univec Inc ( UNVC ) - Return on Equity",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T21:26:38Z",
+      "urlize_name": "Univec-Inc-UNVC-Return-on-Equity"
+    },
+    {
+      "code": "MCOUNTY_NUMBEROFHOMESFORSALE_ALLHOMES_CLAYMN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7495567,
+      "name": "Zillow Metrics (Counties): Homes for Sale (Beta) - Clay, MN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-08T20:02:06Z",
+      "urlize_name": "Zillow-Metrics-Counties-Homes-for-Sale-Beta-Clay-MN"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESSOLD_ALLHOMES_MARKTWAINRICHARDSONTX",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Total number of homes sold during the prior 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesSold_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2003-04-30",
+      "id": 7535811,
+      "name": "Zillow Metrics (Neighborhoods): Total Homes Sold - Mark Twain,Richardson,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2003-04-30",
+      "type": null,
+      "updated_at": "2014-01-09T07:45:57Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Total-Homes-Sold-Mark-Twain-Richardson-TX"
+    },
+    {
+      "code": "TEE_PE_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing PE Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5446326,
+      "name": "National Golf Pptys ( TEE ) - Trailing PE Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T04:57:07Z",
+      "urlize_name": "National-Golf-Pptys-TEE-Trailing-PE-Ratio"
+    },
+    {
+      "code": "MHOOD_MEDIANLISTINGPRICE_ALLHOMES_AQUALANESHORENAPLESFL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 6894448,
+      "name": "Zillow Metrics (Neighborhoods): Median List Price - Aqualane Shore,Naples,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:40:59Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Median-List-Price-Aqualane-Shore-Naples-FL"
+    },
+    {
+      "code": "HOOD_MEDIANVALUEPERSQFT_ALLHOMES_KILBOURNPARKCHICAGOIL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the neighborhood of Kilbourn Park, Chicago, IL. This number is derived by taking the estimated home value for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_MedianValuePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7509047,
+      "name": "Zillow Home Value Index (Neighborhoods): Median Value Per Sq. Ft. (All Homes) - Kilbourn Park,Chicago,IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T15:57:55Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Median-Value-Per-Sq-Ft-All-Homes-Kilbourn-Park-Chicago-IL"
+    },
+    {
+      "code": "COOP_BOOK_DC",
+      "column_names": [
+        "Date",
+        "Book Debt to Capital Ratio"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4247497,
+      "name": "COOPERATIVE BANKSHARES ( COOP ) - Book Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T07:04:02Z",
+      "urlize_name": "COOPERATIVE-BANKSHARES-COOP-Book-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "MHOOD_PRICETORENTRATIO_ALLHOMES_MOUNTAINVIEWVANCOUVERWA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 6953239,
+      "name": "Zillow Metrics (Neighborhoods): Price-to-Rent Ratio - Mountain View,Vancouver,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T18:30:04Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Price-to-Rent-Ratio-Mountain-View-Vancouver-WA"
+    },
+    {
+      "code": "QKLS_DEPREC",
+      "column_names": [
+        "Date",
+        "Depreciation"
+      ],
+      "description": "Includes both depreciation and amortization, as reported in the statement of cash flows. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 5299362,
+      "name": "QKL Stores Inc. ( QKLS ) - Depreciation",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-23T04:13:26Z",
+      "urlize_name": "QKL-Stores-Inc-QKLS-Depreciation"
+    },
+    {
+      "code": "MHOOD_MEDIANLISTINGPRICE_ALLHOMES_ROLLINGWOODBEAUTIFULJACKSONMS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2009-07-31",
+      "id": 7504504,
+      "name": "Zillow Metrics (Neighborhoods): Median List Price - Rolling Wood Beautiful,Jackson,MS",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:40:59Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Median-List-Price-Rolling-Wood-Beautiful-Jackson-MS"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

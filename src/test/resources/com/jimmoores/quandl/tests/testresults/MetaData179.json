@@ -1,0 +1,479 @@
+{
+  "current_page": 327037,
+  "docs": [
+    {
+      "code": "AIQ_PREFERREDSTOCKPARORSTATEDVALUEPERSHARE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PreferredStockParOrStatedValuePerShare",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10010198,
+      "name": "Alliance HealthCare Services, Inc  (AIQ): Annual Preferred Stock Par Or Stated Value Per Share",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-19T21:48:07Z",
+      "urlize_name": "Alliance-HealthCare-Services-Inc-AIQ-Annual-Preferred-Stock-Par-Or-Stated-Value-Per-Share"
+    },
+    {
+      "code": "AIQ_SELFINSURANCERESERVECURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: SelfInsuranceReserveCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10010225,
+      "name": "Alliance HealthCare Services, Inc  (AIQ): Annual Self Insurance Reserve Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-19T21:47:02Z",
+      "urlize_name": "Alliance-HealthCare-Services-Inc-AIQ-Annual-Self-Insurance-Reserve-Current"
+    },
+    {
+      "code": "AIQ_SHAREBASEDCOMPENSATIONARRANGEMENTBYSHAREBASEDPAYMENTAWARDFAIRVALUEASSUMPTIONSEXPECTEDVOLATILITYRATE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedVolatilityRate",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10010232,
+      "name": "Alliance HealthCare Services, Inc  (AIQ): Annual Share Based Compensation Arrangement By Share Based Payment Award Fair Value Assumptions Expected Volatility Rate",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-19T21:47:03Z",
+      "urlize_name": "Alliance-HealthCare-Services-Inc-AIQ-Annual-Share-Based-Compensation-Arrangement-By-Share-Based-Payment-Award-Fair-Value-Assumptions-Expected-Volatility-Rate"
+    },
+    {
+      "code": "COMM_85_ELECTRONICVALVESTUBESEXCEPTRECEIVERAMPLIFIER_IMPORT_MYS",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 5604038,
+      "name": "Commodity Imports - Electrical, Electronic Equipment / Electronic valves/tubes, except receiver/amplifier - Malaysia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-12-28T23:48:10Z",
+      "urlize_name": "Commodity-Imports-Electrical-Electronic-Equipment-Electronic-valves-tubes-except-receiver-amplifier-Malaysia"
+    },
+    {
+      "code": "COMM_87_WHEELSINCLUDINGPARTSACCESSORIESFORMOTORVEHICLES_EXPORT_SWE",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1992-12-31",
+      "id": 5722915,
+      "name": "Commodity Exports - Vehicles Other Than Railway, Tramway / Wheels including parts/accessories for motor vehicles - Sweden",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T01:37:48Z",
+      "urlize_name": "Commodity-Exports-Vehicles-Other-Than-Railway-Tramway-Wheels-including-parts-accessories-for-motor-vehicles-Sweden"
+    },
+    {
+      "code": "OPENCPBDA156NUPN",
+      "column_names": [
+        "Date",
+        "OPENCPBDA156NUPN_2012-07-26"
+      ],
+      "description": "Percent Not Seasonally Adjusted, Exports plus Imports divided by GDP is the total trade as a percentage of GDP. More information is available at http://pwt.econ.upenn.edu/Documentation/append61.pdf  For proper citation, see http://pwt.econ.upenn.edu/php_site/pwt_index.php  Source Indicator: openc ",
+      "display_url": "http://alfred.stlouisfed.org/series/downloaddata?seid=OPENCPBDA156NUPN",
+      "frequency": "annual",
+      "from_date": "1959-01-01",
+      "id": 9081060,
+      "name": "Openness at Current Prices for Bangladesh",
+      "private": false,
+      "source_code": "ALFRED",
+      "source_name": "Archival Federal Reserve Economic Data",
+      "to_date": "2010-01-01",
+      "type": null,
+      "updated_at": "2014-01-13T21:58:38Z",
+      "urlize_name": "Openness-at-Current-Prices-for-Bangladesh"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_EG_1296_DFO_ALL_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Barrels. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG.1296-DFO-ALL.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG.1296-DFO-ALL.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4940512,
+      "name": "Electric Fuel Consumption Quantity : Kingman Municipal Power And Light Plant : Distillate Fuel Oil : All Primemovers : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T01:57:21Z",
+      "urlize_name": "Electric-Fuel-Consumption-Quantity-Kingman-Municipal-Power-And-Light-Plant-Distillate-Fuel-Oil-All-Primemovers-Annual"
+    },
+    {
+      "code": "SNPS_DEFERREDREVENUENONCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DeferredRevenueNoncurrent",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2009-10-31",
+      "id": 10401090,
+      "name": "SYNOPSYS INC  (SNPS): Quarterly Deferred Revenue Noncurrent",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-06T23:06:28Z",
+      "urlize_name": "SYNOPSYS-INC-SNPS-Quarterly-Deferred-Revenue-Noncurrent"
+    },
+    {
+      "code": "UNE_SEX_AGE_EDU_NB_SEX_F_AGE_10YEARSBAND_15_24_EDU_ISCED97_3_CZE",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 6237385,
+      "name": "Unemployment By Sex, Age And Education, Female, 15-24, Upper Secondary Education - Czech Republic",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-20T09:47:12Z",
+      "urlize_name": "Unemployment-By-Sex-Age-And-Education-Female-15-24-Upper-Secondary-Education-Czech-Republic"
+    },
+    {
+      "code": "AIQ_PROFITLOSS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ProfitLoss",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10010211,
+      "name": "Alliance HealthCare Services, Inc  (AIQ): Annual Profit Loss",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-29T21:28:21Z",
+      "urlize_name": "Alliance-HealthCare-Services-Inc-AIQ-Annual-Profit-Loss"
+    },
+    {
+      "code": "AIQ_PAYMENTSTOACQUIREPROPERTYPLANTANDEQUIPMENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PaymentsToAcquirePropertyPlantAndEquipment",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10010199,
+      "name": "Alliance HealthCare Services, Inc  (AIQ): Annual Payments To Acquire Property Plant And Equipment",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-19T21:48:07Z",
+      "urlize_name": "Alliance-HealthCare-Services-Inc-AIQ-Annual-Payments-To-Acquire-Property-Plant-And-Equipment"
+    },
+    {
+      "code": "REXI_GENERALANDADMINISTRATIVEEXPENSE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: GeneralAndAdministrativeExpense",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-09-30",
+      "id": 11163289,
+      "name": "RESOURCE AMERICA, INC.  (REXI): Annual General And Administrative Expense",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T09:48:08Z",
+      "urlize_name": "RESOURCE-AMERICA-INC-REXI-Annual-General-And-Administrative-Expense"
+    },
+    {
+      "code": "EDUC_GRAD2_812",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The aim of the education statistics domain is to provide comparable statistics and indicators on key aspects of the education systems across Europe. The data cover participation and completion of education programmes by pupils and students, personnel in education and the cost and type of resources dedicated to education.\r\nThe standards on international statistics on education and training systems are set by the three international organisations jointly administering the UOE data collection:\r\nthe United Nations Educational, Scientific, and Cultural Organisation Institute for Statistics (UNESCO-UIS),\r\nthe Organisation for Economic Co-operation and Development (OECD) and,\r\nthe Statistical Office of the European Union (EUROSTAT).\r\nThe following topics are covered:\r\nContext - School-aged population, overall participation rates in education\r\nDistribution of pupils/students by level\r\nParticipation/enrolment in education (ISCED 0-4)\r\nTertiary education participation\r\nTertiary education graduates\r\nTeaching staff (ISCED 1-3)\r\nPupil/students-teacher ratio and average class size (ISCED 1-3)\r\nLanguage learning (ISCED 1-3)\r\nRegional enrolments\r\nExpenditure on education in current prices \r\nExpenditure on education in constant prices\r\nExpenditure on education as % of GDP or public expenditure\r\nExpenditure on public and private educational institutions\r\nFinancial aid to students\r\nFunding of education\r\nOther tables, used to measure progress towards the Lisbon objectives in education and training, are gathered in the Thematic indicators tables. They contain the following indicators:\r\n- Teachers and trainers\r\n- Mathematics, science and technology enrolments and graduates\r\n- Investments in education and training\r\n- Participation rates in education by age and sex\r\n- Foreign language learning\r\n- Student mobility\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/educ_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Feduc_grad2.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 2006085,
+      "name": "Graduates in ISCED 3 and 4 by age and sex  : Females : Unknown : Post-secondary non-tertiary education (level 4B), programmes designed to provide direct access to level 5B : Spain",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T06:44:45Z",
+      "urlize_name": "Graduates-in-ISCED-3-and-4-by-age-and-sex-Females-Unknown-Post-secondary-non-tertiary-education-level-4B-programmes-designed-to-provide-direct-access-to-level-5B-Spain"
+    },
+    {
+      "code": "COMM_73_IRONORNONALLOYSTEELPRIMARYNES9994IRON_EXPORT_JPN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1988-12-31",
+      "id": 4167864,
+      "name": "Commodity Exports - Iron And Steel / Iron or non-alloy steel, primary nes, <99.94% iron - Japan",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T03:48:42Z",
+      "urlize_name": "Commodity-Exports-Iron-And-Steel-Iron-or-non-alloy-steel-primary-nes-99-94-iron-Japan"
+    },
+    {
+      "code": "INJ_WORK_SEX_ECO1_NB_SEX_T_ECO_ISIC4_K_ZWE",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 6206091,
+      "name": "Workers In The Reference Group By Sex And Economic Activity, Total, Financial And Insurance Activities - Zimbabwe",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-20T00:01:19Z",
+      "urlize_name": "Workers-In-The-Reference-Group-By-Sex-And-Economic-Activity-Total-Financial-And-Insurance-Activities-Zimbabwe"
+    },
+    {
+      "code": "SPOR_STOCK_PX",
+      "column_names": [
+        "Date",
+        "Stock Price"
+      ],
+      "description": "Units: dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-06-30",
+      "id": 5471718,
+      "name": "Sport-Haley Inc ( SPOR ) - Stock Price",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-03-20T21:32:01Z",
+      "urlize_name": "Sport-Haley-Inc-SPOR-Stock-Price"
+    },
+    {
+      "code": "960_001563831_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=960",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 8076102,
+      "name": "IPI weighting - Base 2005 - Manufacture of office machinery and equipment (except computers and peripheral equipment) (NAF rev. 2, level Class, item 28.23) - Stopped series",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T04:37:48Z",
+      "urlize_name": "IPI-weighting-Base-2005-Manufacture-of-office-machinery-and-equipment-except-computers-and-peripheral-equipment-NAF-rev-2-level-Class-item-28-23-Stopped-series"
+    },
+    {
+      "code": "REXI_GAINLOSSONCONTRACTTERMINATION_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: GainLossOnContractTermination",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-06-30",
+      "id": 11163322,
+      "name": "RESOURCE AMERICA, INC.  (REXI): Quarterly Gain Loss On Contract Termination",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-03-20T22:07:59Z",
+      "urlize_name": "RESOURCE-AMERICA-INC-REXI-Quarterly-Gain-Loss-On-Contract-Termination"
+    },
+    {
+      "code": "REXI_INCOMELOSSFROMCONTINUINGOPERATIONSBEFOREINCOMETAXESEXTRAORDINARYITEMSNONCONTROLLINGINTEREST_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-06-30",
+      "id": 11163310,
+      "name": "RESOURCE AMERICA, INC.  (REXI): Quarterly Income Loss From Continuing Operations Before Income Taxes Extraordinary Items Noncontrolling Interest",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-20T22:08:00Z",
+      "urlize_name": "RESOURCE-AMERICA-INC-REXI-Quarterly-Income-Loss-From-Continuing-Operations-Before-Income-Taxes-Extraordinary-Items-Noncontrolling-Interest"
+    },
+    {
+      "code": "PRTS_GOODWILLIMPAIREDACCUMULATEDIMPAIRMENTLOSS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: GoodwillImpairedAccumulatedImpairmentLoss",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-01-01",
+      "id": 10401814,
+      "name": "U.S. Auto Parts Network, Inc.  (PRTS): Annual Goodwill Impaired Accumulated Impairment Loss",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-29",
+      "type": null,
+      "updated_at": "2014-03-06T22:56:32Z",
+      "urlize_name": "U-S-Auto-Parts-Network-Inc-PRTS-Annual-Goodwill-Impaired-Accumulated-Impairment-Loss"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ILO",
+      "datasets_count": 228980,
+      "description": "No description for this source yet",
+      "host": "www.ilo.org",
+      "id": 686,
+      "name": "International Labour Organization"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
+      "code": "ALFRED",
+      "datasets_count": 0,
+      "description": "ALFRED® provides vintage versions of historical economic data.",
+      "host": "alfred.stlouisfed.org",
+      "id": 2393,
+      "name": "Archival Federal Reserve Economic Data"
+    }
+  ],
+  "total_count": 10148784
+}

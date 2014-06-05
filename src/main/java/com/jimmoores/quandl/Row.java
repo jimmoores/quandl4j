@@ -59,7 +59,7 @@ public final class Row {
   /**
    * Returns an entry from a given column name as a String (possibly null).
    * Throws an IllegalArgumentException if the name is not defined in the 
-   * header definition.
+   * header definition.  Empty is returned as the empty String rather than null.
    * @param column the column name of the entry, not null
    * @return the entry, can be null
    */  
@@ -72,10 +72,10 @@ public final class Row {
    * Throws an ArrayIndexOutOfBoundsException if the index is greater than the number of columns in the header definition.
    * Throws a DateTimeParseException if the underlying data is not a date in ISO local date format (YYYY-MM-DD).
    * @param index the index of the entry, zero-based.
-   * @return the entry, can be null
+   * @return the entry, can be null if the value is null or empty
    */
   public LocalDate getLocalDate(final int index) {
-    if (_values[index] == null) {
+    if (_values[index] == null || _values[index].isEmpty()) {
       return null;
     } else {
       return LocalDate.parse(_values[index], DATE_FORMATTER);      
@@ -87,7 +87,7 @@ public final class Row {
    * Throws an IllegalArgumentException if the name is not defined in the header definition.
    * Throws a DateTimeParseException if the underlying data is not a date in ISO local date format (YYYY-MM-DD).
    * @param column the column name of the entry, not null
-   * @return the entry, can be null
+   * @return the entry, can be null if the value is null or empty
    */
   public LocalDate getLocalDate(final String column) {
     int index = _headerDefinition.columnIndex(column);
@@ -100,10 +100,10 @@ public final class Row {
    * of columns in the header definition.
    * Throws a NumberFormatException if the underlying data can not be parsed as a double precision floating point number.
    * @param index the index of the entry, zero-based
-   * @return the value or null
+   * @return the value or null if the value is null or empty
    */
   public Double getDouble(final int index) {
-    if (_values[index] == null) {
+    if (_values[index] == null || _values[index].isEmpty()) {
       return null;
     } else {
       return Double.parseDouble(_values[index]);
@@ -115,7 +115,7 @@ public final class Row {
    * Throws an IllegalArgumentException if the name is not defined in the header definition.
    * Throws a NumberFormatException if the underlying data cannot be parsed as a double precision floating point number.
    * @param column the column name of the entry, not null
-   * @return the entry, can be null
+   * @return the entry, can be null if the value is null or empty
    */
   public Double getDouble(final String column) {
     int index = _headerDefinition.columnIndex(column);

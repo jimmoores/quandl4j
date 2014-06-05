@@ -1,0 +1,21 @@
+{
+  "code": "MCITY_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_NORTHANDOVERMA",
+  "column_names": [
+    "Date",
+    "North Andover"
+  ],
+  "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForGain_AllHomes.csv",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "1998-02-28",
+  "id": 7126326,
+  "name": "Zillow Metrics (Cities): Sold for Gain (%) - North Andover, MA",
+  "private": false,
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-03-31",
+  "type": null,
+  "updated_at": "2014-05-07T15:54:23Z",
+  "urlize_name": "Zillow-Metrics-Cities-Sold-for-Gain-North-Andover-MA"
+}

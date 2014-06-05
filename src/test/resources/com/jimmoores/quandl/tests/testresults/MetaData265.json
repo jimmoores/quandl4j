@@ -1,0 +1,21 @@
+{
+  "code": "DNE_EV_EBITDA",
+  "column_names": [
+    "Date",
+    "EV to EBITDA Ratio"
+  ],
+  "description": "Estimated by dividing the market value of debt and equity by the EBITDA.  Value/EBITDA = (Market Value of Equity + Value of Debt-Cash) / EBITDA.  We use the book value of debt as a proxy for the market value. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "2008-12-31",
+  "id": 4222910,
+  "name": "Dune Energy Inc. ( DNE ) - EV to EBITDA Ratio",
+  "private": false,
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2009-12-31",
+  "type": null,
+  "updated_at": "2014-03-14T13:58:58Z",
+  "urlize_name": "Dune-Energy-Inc-DNE-EV-to-EBITDA-Ratio"
+}

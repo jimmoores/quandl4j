@@ -1,0 +1,433 @@
+{
+  "current_page": 58557,
+  "docs": [
+    {
+      "code": "MCITY_HOMESSOLDASFORECLOSURESRATIO_ALLHOMES_VALINDACA",
+      "column_names": [
+        "Date",
+        "Valinda"
+      ],
+      "description": "The number of homes per 10,000 that were foreclosed in a given month. A foreclosure is when a homeowner loses their home to their lending institution or it is sold to a third party at an auction. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_HomesSoldAsForeclosures-Ratio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7199657,
+      "name": "Zillow Metrics (Cities): Homes Foreclosed (Out of 10k) - Valinda, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:35:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-Foreclosed-Out-of-10k-Valinda-CA"
+    },
+    {
+      "code": "FMBM_EBITDA",
+      "column_names": [
+        "Date",
+        "Earnings Before Interest Taxes Depreciation and Amortization"
+      ],
+      "description": "Estimated by adding depreciation and amortization back to operating income (EBIT). Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4452885,
+      "name": "F&M Bank Corp ( FMBM ) - Earnings Before Interest Taxes Depreciation and Amortization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T11:06:29Z",
+      "urlize_name": "F-M-Bank-Corp-FMBM-Earnings-Before-Interest-Taxes-Depreciation-and-Amortization"
+    },
+    {
+      "code": "MAR_TM_VAL_MRCH_CD_WB",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Total merchandise imports, cif (includes freight and insurance costs) in current US dollars. \nMerchandise imports, WB (current US$)",
+      "display_url": "http://api.worldbank.org/countries/MAR/indicators/TM.VAL.MRCH.CD.WB?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 462078,
+      "name": "Morocco: Merchandise imports, WB (current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T05:19:06Z",
+      "urlize_name": "Morocco-Merchandise-imports-WB-current-US"
+    },
+    {
+      "code": "CE_EV_CAP",
+      "column_names": [
+        "Date",
+        "EV to Invested Capital Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4090533,
+      "name": "Celanese Corp. ( CE ) - EV to Invested Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T17:57:50Z",
+      "urlize_name": "Celanese-Corp-CE-EV-to-Invested-Capital-Ratio"
+    },
+    {
+      "code": "ZIP_3BEDROOM_30328",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the zip code of 30328, Sandy Springs, GA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6778175,
+      "name": "Zillow Home Value Index (Zip Codes): Three Bedroom Homes - 30328,Sandy Springs,GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:33:46Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Three-Bedroom-Homes-30328-Sandy-Springs-GA"
+    },
+    {
+      "code": "CZE_WP11647_5",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who saved for emergencies or a time when they expect to have less income in the past 12 months (% age 25+)\nSaved for emergencies in the past year, older adults (% age 25+)",
+      "display_url": "http://api.worldbank.org/countries/CZE/indicators/WP11647.5?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2203622,
+      "name": "Czech Republic: Saved for emergencies in the past year, older adults (% age 25+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T23:33:06Z",
+      "urlize_name": "Czech-Republic-Saved-for-emergencies-in-the-past-year-older-adults-age-25"
+    },
+    {
+      "code": "HL_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4547985,
+      "name": "Hecla Mining Company ( HL ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T11:06:51Z",
+      "urlize_name": "Hecla-Mining-Company-HL-Correlation-with-the-Market"
+    },
+    {
+      "code": "MZIP_PCTTRANSACTIONSTHATAREPREVIOUSLYFORECLOSUREDHOMES_ALLHOMES_89109",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of home sales in a given month where the home was foreclosed upon within the previous 12 months (e.g. sales of bank-owned homes after the bank repossessed a home during a foreclosure). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctTransactionsThatArePreviouslyForeclosuredHomes_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-11-30",
+      "id": 7630156,
+      "name": "Zillow Metrics (Zip Codes): Foreclosure Resales (%) - 89109,Las Vegas,NV",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T06:07:19Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Foreclosure-Resales-89109-Las-Vegas-NV"
+    },
+    {
+      "code": "RZIP_ZRIPERSQFT_ALLHOMES_19526",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the zip code of 19526, Hamburg, PA. This is derived by taking the estimated rent price for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_ZriPerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-11-30",
+      "id": 6871823,
+      "name": "Zillow Rent Index (Zip Codes): Rentals ZRI Per Sq. Ft. (All Homes) - 19526,Hamburg,PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T18:23:51Z",
+      "urlize_name": "Zillow-Rent-Index-Zip-Codes-Rentals-ZRI-Per-Sq-Ft-All-Homes-19526-Hamburg-PA"
+    },
+    {
+      "code": "RGRX_P_S",
+      "column_names": [
+        "Date",
+        "Price to Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 5344134,
+      "name": "ReGenerRx Biopharmaceuticals ( RGRX ) - Price to Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T19:23:02Z",
+      "urlize_name": "ReGenerRx-Biopharmaceuticals-RGRX-Price-to-Sales-Ratio"
+    },
+    {
+      "code": "BCSR_EBITDA",
+      "column_names": [
+        "Date",
+        "Earnings Before Interest Taxes Depreciation and Amortization"
+      ],
+      "description": "Estimated by adding depreciation and amortization back to operating income (EBIT). Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 3970299,
+      "name": "Broadcaster Inc ( BCSR ) - Earnings Before Interest Taxes Depreciation and Amortization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T09:06:02Z",
+      "urlize_name": "Broadcaster-Inc-BCSR-Earnings-Before-Interest-Taxes-Depreciation-and-Amortization"
+    },
+    {
+      "code": "JOR_WP11629_1_3",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who make zero withdrawals from their personal account(s) in a typical month. This includes cash or electronic deposits, or any  time money is put into account(s) by self or others (% female, age 15+, with a formal account)\n0 withdrawals from account in a typical month, female (% with an account,  age 15+)",
+      "display_url": "http://api.worldbank.org/countries/JOR/indicators/WP11629.1.3?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2198867,
+      "name": "Jordan: 0 withdrawals from account in a typical month, female (% with an account,  age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T10:19:23Z",
+      "urlize_name": "Jordan-0-withdrawals-from-account-in-a-typical-month-female-with-an-account-age-15"
+    },
+    {
+      "code": "RHOOD_ZRI_ALLHOMES_HERITAGEHILLSAUSTINTX",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the neighborhood of Heritage Hills, Austin, TX. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-11-30",
+      "id": 6852204,
+      "name": "Zillow Rent Index (Neighborhoods): Rentals All Homes - Heritage Hills,Austin,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:40:25Z",
+      "urlize_name": "Zillow-Rent-Index-Neighborhoods-Rentals-All-Homes-Heritage-Hills-Austin-TX"
+    },
+    {
+      "code": "ZIP_2BEDROOM_37055",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of two bedroom homes within the zip code of 37055, Dickson, TN. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_2bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6768486,
+      "name": "Zillow Home Value Index (Zip Codes): Two Bedroom Homes - 37055,Dickson,TN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:58:45Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Two-Bedroom-Homes-37055-Dickson-TN"
+    },
+    {
+      "code": "MHOOD_PCTOFHOMESINCREASINGINVALUES_ALLHOMES_PARKSOUTHALBANYNY",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes whose values have increased in the past year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfHomesIncreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-03-31",
+      "id": 7523781,
+      "name": "Zillow Metrics (Neighborhoods): Increasing Values (%) - Park South,Albany,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2009-06-30",
+      "type": null,
+      "updated_at": "2013-11-29T12:58:47Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Increasing-Values-Park-South-Albany-NY"
+    },
+    {
+      "code": "SSFN_FIRM_VAL",
+      "column_names": [
+        "Date",
+        "Firm Value"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5488375,
+      "name": "Stewardship Financial Corp ( SSFN ) - Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T11:06:31Z",
+      "urlize_name": "Stewardship-Financial-Corp-SSFN-Firm-Value"
+    },
+    {
+      "code": "SVK_BX_GSR_INSF_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Insurance and financial services cover various types of insurance provided to nonresidents by resident insurance enterprises and vice versa, and financial intermediary and auxiliary services (except those of insurance enterprises and pension funds) exchanged between residents and nonresidents.\nInsurance and financial services (% of service exports, BoP)",
+      "display_url": "http://api.worldbank.org/countries/SVK/indicators/BX.GSR.INSF.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 2219176,
+      "name": "Slovak Republic: Insurance and financial services (% of service exports, BoP)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T06:56:33Z",
+      "urlize_name": "Slovak-Republic-Insurance-and-financial-services-of-service-exports-BoP"
+    },
+    {
+      "code": "CGA_REV_GRO",
+      "column_names": [
+        "Date",
+        "Previous Year Growth in Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2010-06-30",
+      "id": 4153165,
+      "name": "China Green Agriculture ( CGA ) - Previous Year Growth in Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-03-23T01:21:42Z",
+      "urlize_name": "China-Green-Agriculture-CGA-Previous-Year-Growth-in-Revenues"
+    },
+    {
+      "code": "ZIP_3BEDROOM_27560",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the zip code of 27560, Morrisville, NC. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6780595,
+      "name": "Zillow Home Value Index (Zip Codes): Three Bedroom Homes - 27560,Morrisville,NC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:33:46Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Three-Bedroom-Homes-27560-Morrisville-NC"
+    },
+    {
+      "code": "CNFU_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 4221976,
+      "name": "Continental Fuels Inc ( CNFU ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T02:03:03Z",
+      "urlize_name": "Continental-Fuels-Inc-CNFU-Correlation-with-the-Market"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

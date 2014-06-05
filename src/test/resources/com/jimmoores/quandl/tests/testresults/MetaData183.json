@@ -1,0 +1,486 @@
+{
+  "current_page": 471857,
+  "docs": [
+    {
+      "code": "EMU_IS_SHP_GOOD_TU",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Port container traffic measures the flow of containers from land to sea transport modes., and vice versa, in twenty-foot equivalent units (TEUs), a standard-size container. Data refer to coastal shipping as well as international journeys. Transshipment traffic is counted as two lifts at the intermediate port (once to off-load and again as an outbound lift) and includes empty units.\nContainer port traffic (TEU: 20 foot equivalent units)",
+      "display_url": "http://api.worldbank.org/countries/EMU/indicators/IS.SHP.GOOD.TU?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 311560,
+      "name": "Euro area: Container port traffic (TEU: 20 foot equivalent units)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T22:30:01Z",
+      "urlize_name": "Euro-area-Container-port-traffic-TEU-20-foot-equivalent-units"
+    },
+    {
+      "code": "COAL_SHIPMENT_PRICE_OH_2830_BIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = $/short Ton. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.OH-2830-BIT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.OH-2830-BIT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_PRICE.OH-2830-BIT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2011-03-31",
+      "id": 12052258,
+      "name": "Coal Shipment Price : Ohio To Walter C Beckjord : Bituminous : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:16:33Z",
+      "urlize_name": "Coal-Shipment-Price-Ohio-To-Walter-C-Beckjord-Bituminous-Quarterly"
+    },
+    {
+      "code": "COAL_MINE_AVERAGE_EMPLOYEES_3300965_BIT_SUR_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Number Of Employees. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.MINE.AVERAGE_EMPLOYEES.3300965-BIT-SUR.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.MINE.AVERAGE_EMPLOYEES.3300965-BIT-SUR.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.MINE.AVERAGE_EMPLOYEES.3300965-BIT-SUR.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 11878195,
+      "name": "Coal Mine Average Employees : Rice #1 (strip) : Bituminous : Surface : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-14T22:04:12Z",
+      "urlize_name": "Coal-Mine-Average-Employees-Rice-1-strip-Bituminous-Surface-Annual"
+    },
+    {
+      "code": "UNE_TUNE_NB_SEX_M_AGE_AGGREGATE_Y55_64_EDU_AGGREGATE_INT_M_ISL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2002-05-31",
+      "id": 12780435,
+      "name": "Unemployment Men Ages 55-64 InIntermediate Education - Monthly - Iceland",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-05-29T20:08:07Z",
+      "urlize_name": "Unemployment-Men-Ages-55-64-InIntermediate-Education-Monthly-Iceland"
+    },
+    {
+      "code": "565506_A3580684T",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
+      "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&565506.xls&5655.0&Time%20Series%20Spreadsheet&ACF1C578D4841615CA257B7A001916F0&0&Mar%202013&30.05.2013&Latest",
+      "frequency": "quarterly",
+      "from_date": "1988-06-30",
+      "id": 7866278,
+      "name": "FRIENDLY SOCIETIES, Unconsolidated assets, Amounts outstanding at end of period: TOTAL ASSETS, Assets (held) in Australia, Short term securities, Bills of exchange ; ($ Millions)",
+      "private": false,
+      "source_code": "AUSBS",
+      "source_name": "Australian Bureau of Statistics",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-31T20:15:20Z",
+      "urlize_name": "FRIENDLY-SOCIETIES-Unconsolidated-assets-Amounts-outstanding-at-end-of-period-TOTAL-ASSETS-Assets-held-in-Australia-Short-term-securities-Bills-of-exchange-Millions"
+    },
+    {
+      "code": "8752004_A403712V",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
+      "display_url": "http://www.abs.gov.au/AUSSTATS/ABS@Archive.nsf/log?openagent&8752004.xls&8752.0&Time%20Series%20Spreadsheet&584AEBF8ED036F53CA257B4F00122860&0&Dec%202012&17.04.2013&Latest",
+      "frequency": "quarterly",
+      "from_date": "1974-09-30",
+      "id": 7942362,
+      "name": "Value of Residential Building Work Done, States and Territories - Chain Volume Measures: of work done during quarter   Chain Volume Measures   Tasmania   New   Houses ($'000)",
+      "private": false,
+      "source_code": "AUSBS",
+      "source_name": "Australian Bureau of Statistics",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-06-03T22:10:24Z",
+      "urlize_name": "Value-of-Residential-Building-Work-Done-States-and-Territories-Chain-Volume-Measures-of-work-done-during-quarter-Chain-Volume-Measures-Tasmania-New-Houses-000"
+    },
+    {
+      "code": "FAO_231UNITEDSTATESOFAMERICA373SPINACH",
+      "column_names": [
+        "Year",
+        "Producer Price Index (2004-2006 = 100) ()"
+      ],
+      "description": "The Prices domain of FAOSTAT contains: 1) Producer Prices or prices received by farmers for primary crops, live animals weight and livestock primary products as collected at the point of initial sale (prices paid at the farm-gate). Data are provided for over 130 countries and for some 200 commodities, representing over 97 percent of the world's value of gross agricultural production (at 2004-2006 International Dollar Prices). 2) Indices of agricultural producer prices that measure the average annual change over time in the selling prices received by farmers (prices at the farm-gate or at the first point of sale). Annual data are provided for over 80 countries. The two categories of producer price indices available in FAOSTAT comprise: Agriculture Producer Price Index; and Single item indices. 3) Monthly (or quarterly) Food and non-alcoholic beverages consumer price indices that measure changes over time in the prices of food that households acquire, use or pay for consumption. These are sub-indices of All items consumer price indices, also disseminated on FAOSTAT, that cover all goods and services included for price measurement in the CPI.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Price_Indices_E_Americas_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7637055,
+      "name": "Prices Indices: Spinach - United States of America",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T22:50:19Z",
+      "urlize_name": "Prices-Indices-Spinach-United-States-of-America"
+    },
+    {
+      "code": "FAO_3ALBANIA205VETCHES",
+      "column_names": [
+        "Year",
+        "Producer Price Index (2004-2006 = 100) ()"
+      ],
+      "description": "The Prices domain of FAOSTAT contains: 1) Producer Prices or prices received by farmers for primary crops, live animals weight and livestock primary products as collected at the point of initial sale (prices paid at the farm-gate). Data are provided for over 130 countries and for some 200 commodities, representing over 97 percent of the world's value of gross agricultural production (at 2004-2006 International Dollar Prices). 2) Indices of agricultural producer prices that measure the average annual change over time in the selling prices received by farmers (prices at the farm-gate or at the first point of sale). Annual data are provided for over 80 countries. The two categories of producer price indices available in FAOSTAT comprise: Agriculture Producer Price Index; and Single item indices. 3) Monthly (or quarterly) Food and non-alcoholic beverages consumer price indices that measure changes over time in the prices of food that households acquire, use or pay for consumption. These are sub-indices of All items consumer price indices, also disseminated on FAOSTAT, that cover all goods and services included for price measurement in the CPI.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Price_Indices_E_Europe_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7640432,
+      "name": "Prices Indices: Vetches - Albania",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T22:37:34Z",
+      "urlize_name": "Prices-Indices-Vetches-Albania"
+    },
+    {
+      "code": "FAO_3ALBANIA987WOOLGREASY",
+      "column_names": [
+        "Year",
+        "Producer Price Index (2004-2006 = 100) ()"
+      ],
+      "description": "The Prices domain of FAOSTAT contains: 1) Producer Prices or prices received by farmers for primary crops, live animals weight and livestock primary products as collected at the point of initial sale (prices paid at the farm-gate). Data are provided for over 130 countries and for some 200 commodities, representing over 97 percent of the world's value of gross agricultural production (at 2004-2006 International Dollar Prices). 2) Indices of agricultural producer prices that measure the average annual change over time in the selling prices received by farmers (prices at the farm-gate or at the first point of sale). Annual data are provided for over 80 countries. The two categories of producer price indices available in FAOSTAT comprise: Agriculture Producer Price Index; and Single item indices. 3) Monthly (or quarterly) Food and non-alcoholic beverages consumer price indices that measure changes over time in the prices of food that households acquire, use or pay for consumption. These are sub-indices of All items consumer price indices, also disseminated on FAOSTAT, that cover all goods and services included for price measurement in the CPI.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Price_Indices_E_Europe_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7659029,
+      "name": "Prices Indices: Wool, greasy - Albania",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T22:53:49Z",
+      "urlize_name": "Prices-Indices-Wool-greasy-Albania"
+    },
+    {
+      "code": "UNE_TUNE_NB_SEX_M_AGE_AGGREGATE_Y55_64_EDU_AGGREGATE_ADV_ISL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 12780436,
+      "name": "Unemployment Men Ages 55-64 InAdvanced Education - Annual - Iceland",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-29T20:13:19Z",
+      "urlize_name": "Unemployment-Men-Ages-55-64-InAdvanced-Education-Annual-Iceland"
+    },
+    {
+      "code": "FAO_5801LEASTDEVELOPEDCOUNTRIESTOTAL1890SUGARANDHONEY06TOTAL",
+      "column_names": [
+        "Year",
+        "Import Quantity (tonnes)",
+        "Import Value (1000 US$)",
+        "Export Quantity (tonnes)",
+        "Export Value (1000 US$)"
+      ],
+      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_All_Area_Groups_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7755083,
+      "name": "Trade Crops Livestock: Sugar and Honey -06 + (Total) - Least Developed Countries + (Total)",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-07-26T21:04:51Z",
+      "urlize_name": "Trade-Crops-Livestock-Sugar-and-Honey-06-Total-Least-Developed-Countries-Total"
+    },
+    {
+      "code": "6291005_A2543322W",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
+      "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&6291005.xls&6291.0.55.003&Time%20Series%20Spreadsheet&354D2C080BE0FB4CCA257B8F00132C11&0&May%202013&20.06.2013&Latest",
+      "frequency": "quarterly",
+      "from_date": "1984-11-30",
+      "id": 7918853,
+      "name": "Employed persons by State and Industry: Employed Full Time ;  Australia ;  Health Care and Social Assistance ; (000)",
+      "private": false,
+      "source_code": "AUSBS",
+      "source_name": "Australian Bureau of Statistics",
+      "to_date": "2014-02-28",
+      "type": null,
+      "updated_at": "2014-05-31T21:42:38Z",
+      "urlize_name": "Employed-persons-by-State-and-Industry-Employed-Full-Time-Australia-Health-Care-and-Social-Assistance-000"
+    },
+    {
+      "code": "COAL_SHIPMENT_PRICE_OH_2830_TOT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = $/short Ton. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.OH-2830-TOT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.OH-2830-TOT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_PRICE.OH-2830-TOT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 12052259,
+      "name": "Coal Shipment Price : Ohio To Walter C Beckjord : All : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:16:01Z",
+      "urlize_name": "Coal-Shipment-Price-Ohio-To-Walter-C-Beckjord-All-Annual"
+    },
+    {
+      "code": "8752004_A404603A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
+      "display_url": "http://www.abs.gov.au/AUSSTATS/ABS@Archive.nsf/log?openagent&8752004.xls&8752.0&Time%20Series%20Spreadsheet&584AEBF8ED036F53CA257B4F00122860&0&Dec%202012&17.04.2013&Latest",
+      "frequency": "quarterly",
+      "from_date": "1987-09-30",
+      "id": 7942350,
+      "name": "Value of Residential Building Work Done, States and Territories - Chain Volume Measures: of work done during quarter   Chain Volume Measures   South Australia   Total (Type of Work)   Total Residential ($'000)",
+      "private": false,
+      "source_code": "AUSBS",
+      "source_name": "Australian Bureau of Statistics",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-06-03T22:10:20Z",
+      "urlize_name": "Value-of-Residential-Building-Work-Done-States-and-Territories-Chain-Volume-Measures-of-work-done-during-quarter-Chain-Volume-Measures-South-Australia-Total-Type-of-Work-Total-Residential-000"
+    },
+    {
+      "code": "SST_A_PT_SIT_Y03_A_Z0Z_Q",
+      "column_names": [
+        "Date",
+        "Thousands - Pure number"
+      ],
+      "description": " Portugal - SITEME (Banco de Portugal) - Delivery instructions processed, placing securities in another CSD - All securities settlement instruments - Not applicable - Quantity , :, Dataset:SST : Securities Settlement Statistics Explanation page (Series and Dataset Level Information), Reference area:Portugal (PT), Decimals:Zero (0), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9484692&SERIES_KEY=147.SST.A.PT.SIT.Y03.A.Z0Z.Q&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 11470708,
+      "name": "Portugal SITEME Delivery instructions processed, placing securities in another CSD All securities settlement instruments Not applicable Quantity",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T16:50:21Z",
+      "urlize_name": "Portugal-SITEME-Delivery-instructions-processed-placing-securities-in-another-CSD-All-securities-settlement-instruments-Not-applicable-Quantity"
+    },
+    {
+      "code": "COMM_90_SHEETSPLATESOFPOLARISINGMATERIAL_EXPORT_PER",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1996-12-31",
+      "id": 5806513,
+      "name": "Commodity Exports - Optical, Photo, Technical, Medical, Etc Apparatus / Sheets/plates of polarising material - Peru",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T03:31:38Z",
+      "urlize_name": "Commodity-Exports-Optical-Photo-Technical-Medical-Etc-Apparatus-Sheets-plates-of-polarising-material-Peru"
+    },
+    {
+      "code": "IIUEHS62100063135",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Number of injury and illness cases (thousands); Case type: Cases involving days away from work; Industry: Ambulatory health care services; Supersector: Education and health services; Area: Private industry, New Mexico; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUEHS62100063135",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 9125403,
+      "name": "Number of injury and illness cases (thousands) for Ambulatory health care services, Private industry, New Mexico",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-11-16T22:00:16Z",
+      "urlize_name": "Number-of-injury-and-illness-cases-thousands-for-Ambulatory-health-care-services-Private-industry-New-Mexico"
+    },
+    {
+      "code": "IIUEHSSP1EHS4T812",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Number of illness cases (thousands); Case type: Total recordable cases of poisoning; Industry: Education and health services; Supersector: Education and health services; Area: Local government, Florida; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUEHSSP1EHS4T812",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 9207638,
+      "name": "Number of illness cases (thousands) for Education and health services, Local government, Florida",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-11-18T00:11:41Z",
+      "urlize_name": "Number-of-illness-cases-thousands-for-Education-and-health-services-Local-government-Florida"
+    },
+    {
+      "code": "0_0_31_130",
+      "column_names": [
+        "Year",
+        "Thousand Metric Tons of N2O"
+      ],
+      "description": null,
+      "display_url": "http://geocompendium.grid.unep.ch/data_sets/atmosphere/data/emissions_n2o_agriculture_rivm.htm",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 1060818,
+      "name": "Emissions of N2O - from Agriculture (RIVM) (Lithuania)",
+      "private": false,
+      "source_code": "GEOCOMP",
+      "source_name": "Geo3 Data Compendium",
+      "to_date": "1995-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T02:31:07Z",
+      "urlize_name": "Emissions-of-N2O-from-Agriculture-RIVM-Lithuania"
+    },
+    {
+      "code": "COAL_SHIPMENT_PRICE_OH_2830_TOT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = $/short Ton. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.OH-2830-TOT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_PRICE.OH-2830-TOT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_PRICE.OH-2830-TOT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2011-03-31",
+      "id": 12052260,
+      "name": "Coal Shipment Price : Ohio To Walter C Beckjord : All : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T14:16:34Z",
+      "urlize_name": "Coal-Shipment-Price-Ohio-To-Walter-C-Beckjord-All-Quarterly"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "GEOCOMP",
+      "datasets_count": 47348,
+      "description": "No description for this source yet",
+      "host": "geocompendium.grid.unep.ch",
+      "id": 203,
+      "name": "Geo3 Data Compendium"
+    },
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ECB",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "sdw.ecb.europa.eu",
+      "id": 8917,
+      "name": "European Central Bank"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "AUSBS",
+      "datasets_count": 5239,
+      "description": "Australia\u2019s official statistical organisation, the Australian Bureau of Statistics (ABS) is committed to a better informed Australia.",
+      "host": "www.abs.gov.au/",
+      "id": 719,
+      "name": "Australian Bureau of Statistics"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "ILOSTAT",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "ilo.org2",
+      "id": 10437,
+      "name": "ILOSTAT Database"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

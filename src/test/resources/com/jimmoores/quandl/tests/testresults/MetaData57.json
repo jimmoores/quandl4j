@@ -1,0 +1,433 @@
+{
+  "current_page": 105086,
+  "docs": [
+    {
+      "code": "HOOD_3BEDROOM_WINNETKALOSANGELESCA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the neighborhood of Winnetka, Los Angeles, CA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6749995,
+      "name": "Zillow Home Value Index (Neighborhoods): Three Bedroom Homes - Winnetka,Los Angeles,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:45:40Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Three-Bedroom-Homes-Winnetka-Los-Angeles-CA"
+    },
+    {
+      "code": "EXLN_EV_BV",
+      "column_names": [
+        "Date",
+        "EV to Book Value Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4412502,
+      "name": "eXcelon Corp ( EXLN ) - EV to Book Value Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T18:02:23Z",
+      "urlize_name": "eXcelon-Corp-EXLN-EV-to-Book-Value-Ratio"
+    },
+    {
+      "code": "WWE_BOOK_DC",
+      "column_names": [
+        "Date",
+        "Book Debt to Capital Ratio"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5586164,
+      "name": "World Wrestling Ent. ( WWE ) - Book Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-23T04:22:21Z",
+      "urlize_name": "World-Wrestling-Ent-WWE-Book-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "NIC_BAR_PRM_CMPT_75UP_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage of population, 75+, total, completed primary is the percentage of people age 75+ who have completed primary education.\npercentage of population (15+), 75+, total, completed primary",
+      "display_url": "http://api.worldbank.org/countries/NIC/indicators/BAR.PRM.CMPT.75UP.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 2047693,
+      "name": "Nicaragua: percentage of population (15+), 75+, total, completed primary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T12:25:17Z",
+      "urlize_name": "Nicaragua-percentage-of-population-15-75-total-completed-primary"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_UNIONVILLEVA",
+      "column_names": [
+        "Date",
+        "Unionville"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Unionville, VA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6981783,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Unionville, VA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:22:11Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Unionville-VA"
+    },
+    {
+      "code": "POL_WP11632_3",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who used checks in the past 12 months to make payments on bills or to buy things using money from their accounts (% female, age 15+)\nChecks used to make payments , female (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/POL/indicators/WP11632.3?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2042274,
+      "name": "Poland: Checks used to make payments , female (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:26:14Z",
+      "urlize_name": "Poland-Checks-used-to-make-payments-female-age-15"
+    },
+    {
+      "code": "HRV_WP11651_5",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who borrowed any money in the past 12 months from a bank, credit union or another financial institution (e.g., cooperatives) or microfinance institution (% age 25+)\nLoan from a financial institution in the past year, older adults (% age 25+)",
+      "display_url": "http://api.worldbank.org/countries/HRV/indicators/WP11651.5?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2138113,
+      "name": "Croatia: Loan from a financial institution in the past year, older adults (% age 25+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:54:50Z",
+      "urlize_name": "Croatia-Loan-from-a-financial-institution-in-the-past-year-older-adults-age-25"
+    },
+    {
+      "code": "PAN_BAR_PRM_ICMP_3539_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage of population, 35-39, total, incomplete primary is the percentage of the population age 35-39 who did not complete primary education.\npercentage of population (15+), 35-39, total, incomplete primary",
+      "display_url": "http://api.worldbank.org/countries/PAN/indicators/BAR.PRM.ICMP.3539.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 2212394,
+      "name": "Panama: percentage of population (15+), 35-39, total, incomplete primary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T23:58:24Z",
+      "urlize_name": "Panama-percentage-of-population-15-35-39-total-incomplete-primary"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_DIBERVILLEMS",
+      "column_names": [
+        "Date",
+        "Diberville"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Diberville, MS. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-12-31",
+      "id": 6971424,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Diberville, MS",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:43:05Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Diberville-MS"
+    },
+    {
+      "code": "TAC_CASH_REV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5334756,
+      "name": "Tandycrafts, Inc. ( TAC ) - Cash as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-03-23T04:22:01Z",
+      "urlize_name": "Tandycrafts-Inc-TAC-Cash-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "HUN_WP11630_4_3",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults whose usual mode of access to put cash (paper or coins) into their account(s) is from some other person who is associated with one's bank or financial institution (% female, age 15+, with a formal account)\nBank agent is main mode of withdrawal from account, female (% with an account,  age 15+)",
+      "display_url": "http://api.worldbank.org/countries/HUN/indicators/WP11630.4.3?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2184239,
+      "name": "Hungary: Bank agent is main mode of withdrawal from account, female (% with an account,  age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T22:56:36Z",
+      "urlize_name": "Hungary-Bank-agent-is-main-mode-of-withdrawal-from-account-female-with-an-account-age-15"
+    },
+    {
+      "code": "HUN_SE_SEC_ENRR_UP_FE",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Gross enrolment ratio. Upper secondary. All programmes. Female is the total female enrollment in upper secondary education, regardless of age, expressed as a percentage of the female population of official upper secondary education age. \nGross enrolment ratio. Upper secondary. All programmes. Female",
+      "display_url": "http://api.worldbank.org/countries/HUN/indicators/SE.SEC.ENRR.UP.FE?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 2193223,
+      "name": "Hungary: Gross enrolment ratio. Upper secondary. All programmes. Female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T10:31:27Z",
+      "urlize_name": "Hungary-Gross-enrolment-ratio-Upper-secondary-All-programmes-Female"
+    },
+    {
+      "code": "COG_HH_DHS_OOST_X_Q5",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Typology of out-of-school children. Primary. Never in school. Quintile 5 is the percentage of quintile 5 out-of-school primary-school-age children who have never attended school and are not likely to enter school in the future. Since no survey can say definitively that a school-age person will never attend school, this is a probabilistic indicator. The indicator is based on UNESCO\u2019s methodology, which estimates the proportion of children who will never attend school as the proportion of out of school for the age group with the lowest proportion of out-of-school children. This methodology assumes no dropout before the age at which enrolment rates peak, and no late entry after the age with peak enrolment.\nDHS: Typology of out-of-school children. Primary. Never in school. Quintile 5",
+      "display_url": "http://api.worldbank.org/countries/COG/indicators/HH.DHS.OOST.X.Q5?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 2220743,
+      "name": "Congo, Rep.: DHS: Typology of out-of-school children. Primary. Never in school. Quintile 5",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T23:52:34Z",
+      "urlize_name": "Congo-Rep-DHS-Typology-of-out-of-school-children-Primary-Never-in-school-Quintile-5"
+    },
+    {
+      "code": "HOOD_3BEDROOM_CANYONHEIGHTSFREMONTCA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the neighborhood of Canyon Heights, Fremont, CA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6753440,
+      "name": "Zillow Home Value Index (Neighborhoods): Three Bedroom Homes - Canyon Heights,Fremont,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:45:41Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Three-Bedroom-Homes-Canyon-Heights-Fremont-CA"
+    },
+    {
+      "code": "CVR_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4402605,
+      "name": "Chicago Rivet & Machine Co. ( CVR ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T08:33:30Z",
+      "urlize_name": "Chicago-Rivet-Machine-Co-CVR-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "PRT_BAR_TER_SCHL_4044",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Average years of tertiary schooling, 40-44, total is the average years of tertiary education completed among people age 40-44. \naverage years of tertiary schooling, 40-44, total",
+      "display_url": "http://api.worldbank.org/countries/PRT/indicators/BAR.TER.SCHL.4044?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 2173651,
+      "name": "Portugal: average years of tertiary schooling, 40-44, total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-14T16:51:10Z",
+      "urlize_name": "Portugal-average-years-of-tertiary-schooling-40-44-total"
+    },
+    {
+      "code": "WFD_MKT_CAP",
+      "column_names": [
+        "Date",
+        "Market Capitalization"
+      ],
+      "description": "Estimated market value of equity, obtained by multiplying the number of shares outstanding by the share price. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 5566177,
+      "name": "Westfield Financial Inc ( WFD ) - Market Capitalization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T07:04:53Z",
+      "urlize_name": "Westfield-Financial-Inc-WFD-Market-Capitalization"
+    },
+    {
+      "code": "HUN_GFDD_SI_04",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Raw data are from the electronic version of the IMF\u2019s International Financial Statistics. Private credit by deposit money banks (IFS line 22d); bank deposits (IFS lines 24 and 25). (International Monetary Fund, International Financial Statistics)\nBank credit to bank deposits (%)",
+      "display_url": "http://api.worldbank.org/countries/HUN/indicators/GFDD.SI.04?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1982-12-31",
+      "id": 6531401,
+      "name": "Hungary: Bank credit to bank deposits (%)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T23:10:27Z",
+      "urlize_name": "Hungary-Bank-credit-to-bank-deposits"
+    },
+    {
+      "code": "HUN_SP_DYN_AMRT_MA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adult mortality rate is the probability of dying between the ages of 15 and 60--that is, the probability of a 15-year-old dying before reaching age 60, if subject to current age-specific mortality rates between those ages.\nMortality rate, adult, male (per 1,000 male adults)",
+      "display_url": "http://api.worldbank.org/countries/HUN/indicators/SP.DYN.AMRT.MA?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1960-12-31",
+      "id": 369424,
+      "name": "Hungary: Mortality rate, adult, male (per 1,000 male adults)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T22:55:21Z",
+      "urlize_name": "Hungary-Mortality-rate-adult-male-per-1-000-male-adults"
+    },
+    {
+      "code": "HUN_GFDD_EI_07",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Raw data are from Bankscope.  Data2090 / (data2080 + data2085). All Numerator and denominator are first aggregated on the country level before division. Note that banks used in the calculation might differ between indicators. (Calculated from underlying bank-by-bank unconsolidated data from Bankscope)\nCost to income ratio (%)",
+      "display_url": "http://api.worldbank.org/countries/HUN/indicators/GFDD.EI.07?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1997-12-31",
+      "id": 6531362,
+      "name": "Hungary: Cost to income ratio (%)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T11:52:52Z",
+      "urlize_name": "Hungary-Cost-to-income-ratio"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

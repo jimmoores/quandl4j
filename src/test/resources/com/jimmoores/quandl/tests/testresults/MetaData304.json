@@ -1,0 +1,21 @@
+{
+  "code": "TPTI_P_BV",
+  "column_names": [
+    "Date",
+    "Price to Book Value Ratio"
+  ],
+  "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "2001-12-31",
+  "id": 5499888,
+  "name": "TippingPoint Technologies ( TPTI ) - Price to Book Value Ratio",
+  "private": false,
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2004-12-31",
+  "type": null,
+  "updated_at": "2014-03-14T09:00:44Z",
+  "urlize_name": "TippingPoint-Technologies-TPTI-Price-to-Book-Value-Ratio"
+}

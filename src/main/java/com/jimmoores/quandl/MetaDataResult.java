@@ -22,7 +22,7 @@ import com.jimmoores.quandl.util.QuandlRuntimeException;
  */
 public final class MetaDataResult {
   private static Logger s_logger = LoggerFactory.getLogger(MetaDataResult.class);
-  private static final String COLUMN_NAMES_FIELD = null;
+  private static final String COLUMN_NAMES_FIELD = "column_names";
   private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ISO_DATE;
   private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ISO_OFFSET_DATE_TIME;
   private static final String DATA_SOURCE_FIELD = "source_code";

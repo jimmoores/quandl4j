@@ -1,0 +1,21 @@
+{
+  "code": "ELEC_PLANT_CONS_TOT_BTU_10701_DFO_ALL_Q",
+  "column_names": [
+    "Date",
+    "Value"
+  ],
+  "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.10701-DFO-ALL.Q",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.10701-DFO-ALL.Q&out=xml",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "2004-01-31",
+  "id": 5007292,
+  "name": "Fuel Consumption Mmbtus : Wausau Papers Of New Hampshire : Distillate Fuel Oil : All Primemovers : Quarterly",
+  "private": false,
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2008-12-31",
+  "type": null,
+  "updated_at": "2014-01-10T00:07:10Z",
+  "urlize_name": "Fuel-Consumption-Mmbtus-Wausau-Papers-Of-New-Hampshire-Distillate-Fuel-Oil-All-Primemovers-Quarterly"
+}

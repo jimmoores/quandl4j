@@ -1,0 +1,433 @@
+{
+  "current_page": 112060,
+  "docs": [
+    {
+      "code": "WSM_DT_DOD_MIBR_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Public and publicly guaranteed debt outstanding from the International Bank for Reconstruction and Development (IBRD) is nonconcessional. Nonconcessional debt excludes loans with an original grant element of 25 percent or more. Data are in current U.S. dollars.\nPPG, IBRD (DOD, current US$)",
+      "display_url": "http://api.worldbank.org/countries/WSM/indicators/DT.DOD.MIBR.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 6502892,
+      "name": "Samoa: PPG, IBRD (DOD, current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T13:36:00Z",
+      "urlize_name": "Samoa-PPG-IBRD-DOD-current-US"
+    },
+    {
+      "code": "DEU_NY_ADJ_DFOR_GN_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Net forest depletion is calculated as the product of unit resource rents and the excess of roundwood harvest over natural growth.\nAdjusted savings: net forest depletion (% of GNI)",
+      "display_url": "http://api.worldbank.org/countries/DEU/indicators/NY.ADJ.DFOR.GN.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 291052,
+      "name": "Germany: Adjusted savings: net forest depletion (% of GNI)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T11:59:58Z",
+      "urlize_name": "Germany-Adjusted-savings-net-forest-depletion-of-GNI"
+    },
+    {
+      "code": "ESCL_REV_GRO",
+      "column_names": [
+        "Date",
+        "Previous Year Growth in Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4374507,
+      "name": "Escala Group Inc. ( ESCL ) - Previous Year Growth in Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:52:08Z",
+      "urlize_name": "Escala-Group-Inc-ESCL-Previous-Year-Growth-in-Revenues"
+    },
+    {
+      "code": "NXWXQ_P_BV",
+      "column_names": [
+        "Date",
+        "Price to Book Value Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5286121,
+      "name": "Nx Networks Inc ( NXWXQ ) - Price to Book Value Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:44:57Z",
+      "urlize_name": "Nx-Networks-Inc-NXWXQ-Price-to-Book-Value-Ratio"
+    },
+    {
+      "code": "DMA_UIS_SAP_1_G1_F",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "School age population. Official entrance age. Female is the female population of the age-group theoretically corresponding to the official entrance age.\nSchool age population.  Official entrance age.  Female",
+      "display_url": "http://api.worldbank.org/countries/DMA/indicators/UIS.SAP.1.G1.F?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 2045702,
+      "name": "Dominica: School age population.  Official entrance age.  Female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T11:59:43Z",
+      "urlize_name": "Dominica-School-age-population-Official-entrance-age-Female"
+    },
+    {
+      "code": "JRSE_CAPEX",
+      "column_names": [
+        "Date",
+        "Capital Expenditures"
+      ],
+      "description": "This is the cumulated capital spending, as reported in the statement of cash flows, for the sector. It generally does not include acquisitions. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4624152,
+      "name": "Jacobson Resonance Enterprises ( JRSE ) - Capital Expenditures",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T18:08:38Z",
+      "urlize_name": "Jacobson-Resonance-Enterprises-JRSE-Capital-Expenditures"
+    },
+    {
+      "code": "MKTY_EV",
+      "column_names": [
+        "Date",
+        "Enterprise Value"
+      ],
+      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 6130202,
+      "name": "Mechanical Technology Inc. ( MKTY ) - Enterprise Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-23T02:32:32Z",
+      "urlize_name": "Mechanical-Technology-Inc-MKTY-Enterprise-Value"
+    },
+    {
+      "code": "FIN_MYS_POP_1564_PRI_MA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population in thousand, 15-64, male, primary is the total number of males age 15-64 (in thousands) with primary education.\npopulation in thousand, 15-64, male, primary",
+      "display_url": "http://api.worldbank.org/countries/FIN/indicators/MYS.POP.1564.PRI.MA?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 325787,
+      "name": "Finland: population in thousand, 15-64, male, primary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2050-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T13:57:30Z",
+      "urlize_name": "Finland-population-in-thousand-15-64-male-primary"
+    },
+    {
+      "code": "RWA_WP11659_7",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who are farming, fishing or forestry workers and in the past 12 months have personally paid for crop, rainfall, or livestock insurance (% with a secondary education or more, age 15+)\nPersonally paid for agriculture insurance, secondary education or more (% who work in farming/fishing/forestry, age 15+)",
+      "display_url": "http://api.worldbank.org/countries/RWA/indicators/WP11659.7?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6618062,
+      "name": "Rwanda: Personally paid for agriculture insurance, secondary education or more (% who work in farming/fishing/forestry, age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T00:01:47Z",
+      "urlize_name": "Rwanda-Personally-paid-for-agriculture-insurance-secondary-education-or-more-who-work-in-farming-fishing-forestry-age-15"
+    },
+    {
+      "code": "ESCL_FIRM_VAL",
+      "column_names": [
+        "Date",
+        "Firm Value"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4374496,
+      "name": "Escala Group Inc. ( ESCL ) - Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:52:28Z",
+      "urlize_name": "Escala-Group-Inc-ESCL-Firm-Value"
+    },
+    {
+      "code": "ESCL_FIXED_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Fixed Assets to Total Assets"
+      ],
+      "description": "Estimated by dividing the cumulated book value of fixed assets, for the sector, by the cumulated total assets, for the sector. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4374501,
+      "name": "Escala Group Inc. ( ESCL ) - Ratio of Fixed Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T16:52:09Z",
+      "urlize_name": "Escala-Group-Inc-ESCL-Ratio-of-Fixed-Assets-to-Total-Assets"
+    },
+    {
+      "code": "CITY_SINGLEFAMILYRESIDENCE_WHITMORELAKEMI",
+      "column_names": [
+        "Date",
+        "Whitmore Lake"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the city of Whitmore Lake, MI. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7078574,
+      "name": "Zillow Home Value Index (Cities): Single Family Residence - Whitmore Lake, MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T06:32:38Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Single-Family-Residence-Whitmore-Lake-MI"
+    },
+    {
+      "code": "CAIS_EV",
+      "column_names": [
+        "Date",
+        "Enterprise Value"
+      ],
+      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3951148,
+      "name": "CAIS Internet Inc ( CAIS ) - Enterprise Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T03:32:26Z",
+      "urlize_name": "CAIS-Internet-Inc-CAIS-Enterprise-Value"
+    },
+    {
+      "code": "ZIP_CONDOMINUM_33036",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of condominiums within the zip code of 33036, Islamorada, FL. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_Condominum.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6829350,
+      "name": "Zillow Home Value Index (Zip Codes): Condominiums - 33036,Islamorada,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T06:30:15Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Condominiums-33036-Islamorada-FL"
+    },
+    {
+      "code": "ZWE_HH_DHS_YRS_1519_Q4",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Average years of schooling by age group. Age 15-19. Quintile 4 is the number of years of formal schooling received, on average, by the quintile 4 population of the given age group. \nDHS: Average years of schooling by age group. Age 15-19. Quintile 4",
+      "display_url": "http://api.worldbank.org/countries/ZWE/indicators/HH.DHS.YRS.1519.Q4?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 2154593,
+      "name": "Zimbabwe: DHS: Average years of schooling by age group. Age 15-19. Quintile 4",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T13:36:00Z",
+      "urlize_name": "Zimbabwe-DHS-Average-years-of-schooling-by-age-group-Age-15-19-Quintile-4"
+    },
+    {
+      "code": "GBR_SP_POP_AG16_FE_IN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Age population, female refers to female population at the specified age level, as estimated by World Bank staff.\nAge population, age 16, female, interpolated",
+      "display_url": "http://api.worldbank.org/countries/GBR/indicators/SP.POP.AG16.FE.IN?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1960-12-31",
+      "id": 331632,
+      "name": "United Kingdom: Age population, age 16, female, interpolated",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T23:53:05Z",
+      "urlize_name": "United-Kingdom-Age-population-age-16-female-interpolated"
+    },
+    {
+      "code": "MCOUNTY_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_MIAMIDADEFL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_PctOfHomesSellingForGain_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-01-31",
+      "id": 6888596,
+      "name": "Zillow Metrics (Counties): Sold for Gain (%) - Miami-Dade, FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:28:51Z",
+      "urlize_name": "Zillow-Metrics-Counties-Sold-for-Gain-Miami-Dade-FL"
+    },
+    {
+      "code": "PAK_NV_MNF_MTRN_ZS_UN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Value added in manufacturing is the sum of gross output less the value of intermediate inputs used in production for industries classified in ISIC major division 3. Machinery and transport equipment comprise ISIC groups 382-84.\nMachinery and transport equipment (% of value added in manufacturing)",
+      "display_url": "http://api.worldbank.org/countries/PAK/indicators/NV.MNF.MTRN.ZS.UN?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 6591268,
+      "name": "Pakistan: Machinery and transport equipment (% of value added in manufacturing)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T23:53:04Z",
+      "urlize_name": "Pakistan-Machinery-and-transport-equipment-of-value-added-in-manufacturing"
+    },
+    {
+      "code": "RWA_IC_CNS_TAXR_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Is the share of senior managers who ranked tax rates as a major or very severe constraint.\nTax rates (% of managers surveyed ranking this as a major constraint)",
+      "display_url": "http://api.worldbank.org/countries/RWA/indicators/IC.CNS.TAXR.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 6613832,
+      "name": "Rwanda: Tax rates (% of managers surveyed ranking this as a major constraint)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T23:53:03Z",
+      "urlize_name": "Rwanda-Tax-rates-of-managers-surveyed-ranking-this-as-a-major-constraint"
+    },
+    {
+      "code": "DNDN_EV_SALESTR",
+      "column_names": [
+        "Date",
+        "EV to Trailing Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4222563,
+      "name": "Dendreon Corp. ( DNDN ) - EV to Trailing Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T13:46:01Z",
+      "urlize_name": "Dendreon-Corp-DNDN-EV-to-Trailing-Sales-Ratio"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

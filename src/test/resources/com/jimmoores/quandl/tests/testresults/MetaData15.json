@@ -1,0 +1,512 @@
+{
+  "current_page": 375212,
+  "docs": [
+    {
+      "code": "OEUN000000071300037301901",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Statistic: Employment; Occupation: Grounds Maintenance Workers, All Other; Industry: Amusement, Gambling, and Recreation Industries; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000071300037301901",
+      "frequency": "annual",
+      "from_date": "2012-06-30",
+      "id": 9183208,
+      "name": "Employment for Grounds Maintenance Workers, All Other in Amusement, Gambling, and Recreation Industries in National",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2013-11-17T12:35:21Z",
+      "urlize_name": "Employment-for-Grounds-Maintenance-Workers-All-Other-in-Amusement-Gambling-and-Recreation-Industries-in-National"
+    },
+    {
+      "code": "GMP42680_REAL_PERFORMINGARTSSPECTATORSPORTSMUSEUMSANDRELATEDSERVICES_SEBASTIANVEROBEACHFL",
+      "column_names": [
+        "Year",
+        "Performing Arts, Spectator Sports, Museums, And Related Services"
+      ],
+      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+      "display_url": "http://bea.gov/regional",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6689466,
+      "name": "Real GDP: Performing arts, spectator sports, museums, and related services - Sebastian-Vero Beach, FL",
+      "private": false,
+      "source_code": "BEA",
+      "source_name": "Bureau of Economic Analysis",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T09:30:11Z",
+      "urlize_name": "Real-GDP-Performing-arts-spectator-sports-museums-and-related-services-Sebastian-Vero-Beach-FL"
+    },
+    {
+      "code": "BANKENCH_VEHKREIS_M105244_28109",
+      "column_names": [
+        "Year",
+        "Qty (000s)"
+      ],
+      "description": "Information on reporting institutions, 5.20 Other banks - Foreign-controlled banks, Bank Leumi (Schweiz) AG (annually). More detailed information at http://www.snb.ch/ext/stats/bankench/pdf/deen/BV_5_20_AuslB.pdf",
+      "display_url": "http://www.snb.ch/ext/stats/bankench/xls/en/bankench_vEhKreis_M105244.xls",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4561867,
+      "name": "Information on reporting institutions, 5.20 Other banks - Foreign-controlled banks: Balance sheet total",
+      "private": false,
+      "source_code": "SNB",
+      "source_name": "Swiss National Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T11:30:22Z",
+      "urlize_name": "Information-on-reporting-institutions-5-20-Other-banks-Foreign-controlled-banks-Balance-sheet-total"
+    },
+    {
+      "code": "HOW_XEES_NB_SEX_F_ECO_ISIC4_G_EST",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 12635009,
+      "name": "Hours Of Work Of Employees Women In G. Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles - Annual - Estonia",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-29T11:25:04Z",
+      "urlize_name": "Hours-Of-Work-Of-Employees-Women-In-G-Wholesale-And-Retail-Trade-Repair-Of-Motor-Vehicles-And-Motorcycles-Annual-Estonia"
+    },
+    {
+      "code": "GSP_SIC_ALL_C_FEDERALCIVILIAN_UTAH",
+      "column_names": [
+        "Year",
+        "Federal Civilian"
+      ],
+      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+      "display_url": "http://bea.gov/regional",
+      "frequency": "annual",
+      "from_date": "1963-12-31",
+      "id": 6720595,
+      "name": "GDP (SIC): Federal civilian - Utah",
+      "private": false,
+      "source_code": "BEA",
+      "source_name": "Bureau of Economic Analysis",
+      "to_date": "1997-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T12:32:38Z",
+      "urlize_name": "GDP-SIC-Federal-civilian-Utah"
+    },
+    {
+      "code": "TRNG_INF3_362",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Adult Education Survey is part of the EU Statistics on lifelong learning. The surveys have been carried out by countries in the EU, EFTA and candidate countries between 2005 and 2008. The EU AES is a pilot exercise which for the first time proposed a common EU framework including a standard questionnaire, tools and quality reporting.\r\nAES data from approximately half of the participating countries will be disseminated in autumn 2008 and the second part in mid 2009\r\nThe survey covers participation in education and lifelong learning activities (formal, non-formal and informal learning) including job-related activities, characteristics of learning activities, self-reported skills as well as modules on social and cultural participation, foreign language skills, IT skills and background variables related to main characteristics of the respondents.\r\nParameters and main variables\r\nThe AES in all the participating countries focused on the following parameters:\r\nParticipation in formal, non-formal and informal education (FED, NFE, INF)\r\nNon-participation and obstacles to participation in training\r\nParticipation in FED, NFE and INF activities by field of education/learning\r\nShare of the job related NFE\r\nVolume of instruction hours in FED and NFE\r\nEmployer financing and costs of learning in FED and NFE\r\nModule on language and ICT skills of the population\r\nModule on social and cultural participation of the population\r\n\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_aes_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_inf3.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 618395,
+      "name": "Participation in informal learning by degree of urbanisation  : Total : No answer : Thousands : Belgium",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T16:50:15Z",
+      "urlize_name": "Participation-in-informal-learning-by-degree-of-urbanisation-Total-No-answer-Thousands-Belgium"
+    },
+    {
+      "code": "GSP_SIC_ALL_W_GOVERNMENT_CONNECTICUT",
+      "column_names": [
+        "Year",
+        "Government"
+      ],
+      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+      "display_url": "http://bea.gov/regional",
+      "frequency": "annual",
+      "from_date": "1963-12-31",
+      "id": 6724167,
+      "name": "Compensation (SIC): Government - Connecticut",
+      "private": false,
+      "source_code": "BEA",
+      "source_name": "Bureau of Economic Analysis",
+      "to_date": "1997-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T04:34:13Z",
+      "urlize_name": "Compensation-SIC-Government-Connecticut"
+    },
+    {
+      "code": "EN_PP_AVAIL_CYP",
+      "column_names": [
+        "Date",
+        "Gross inland availability (metric tons; thousand)",
+        "Net inland availability (metric tons; thousand)"
+      ],
+      "description": "Other Petroleum Products Inland Availability - Cyprus. The Energy Statistics Database provides a wide variety of data on multiple aspects of the numerous sources of energy. The data here covers the period from 1990 onwards. Data prior to 1990, would be available at <a href=http://unstats.un.org/unsd/energy/edbase.htm>http://unstats.un.org/unsd/energy/edbase.htm<\/a>. For more information, please see <a href=http://unstats.un.org/unsd/energy/default.htm>http://unstats.un.org/unsd/energy/default.htm<\/a>",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 10914208,
+      "name": "Other Petroleum Products Inland Availability - Cyprus",
+      "private": false,
+      "source_code": "UNDATA",
+      "source_name": "United Nations",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-03-08T00:06:27Z",
+      "urlize_name": "Other-Petroleum-Products-Inland-Availability-Cyprus"
+    },
+    {
+      "code": "PET_MD0MT_R10_R20_1_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MD0MT_R10-R20_1.M>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MD0MT_R10-R20_1.M<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MD0MT_R10-R20_1.M&out=xml",
+      "frequency": "monthly",
+      "from_date": "2006-06-30",
+      "id": 12019683,
+      "name": "East Coast (padd 1) Receipts By Tanker And Barge From Midwest (padd 2) Of Distillate Fuel Oil, 0 To 15 Ppm Sulfur, Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-05-16T02:52:53Z",
+      "urlize_name": "East-Coast-padd-1-Receipts-By-Tanker-And-Barge-From-Midwest-padd-2-Of-Distillate-Fuel-Oil-0-To-15-Ppm-Sulfur-Monthly"
+    },
+    {
+      "code": "ILC_PNS4_22",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The domain \"income and living conditions\" covers four topics: main indicators, income distribution and monetary poverty, living conditions, material deprivation and childcare arrangements indicators, which are again structured into collections of indicators on specific topics.\r\nThe collection \"main indicators\" houses those indicators provided under the Open Method of Coordination in the area of combating poverty and social exclusion. This group of indicators houses the following three collections: the overarching portfolio of indicators, the social inclusion portfolio and the pensions portfolio. For more details on this as well as definitions of the indicators please see http://ec.europa.eu/social/main.jsp?catId=756&langId=en\r\nThe collection \"income distribution and monetary poverty\" houses collections of indicators relating to poverty risk, poverty risk of working individuals, income of people at risk of poverty as well as the distribution of income.\r\nThe collection \"living conditions\" hosts indicators relating to characteristics and living conditions of households, characteristics of the population according to different breakdowns, health and labour conditions as well as housing conditions.\r\nThe collection \"material deprivation\" covers indicators relating to economic strain, durables, housing and environment of the dwelling.\r\nThe collection \"childcare arrangements indicators\" houses childcare related indicators.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/ilc_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Filc_pns4.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 615995,
+      "name": "Inequality of income distribution S80S20 income quintile share ratio Source SILC  : Inequality of income distribution (income quintile share ratio) : Total : 65 years or over  : Iceland",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T16:42:43Z",
+      "urlize_name": "Inequality-of-income-distribution-S80S20-income-quintile-share-ratio-Source-SILC-Inequality-of-income-distribution-income-quintile-share-ratio-Total-65-years-or-over-Iceland"
+    },
+    {
+      "code": "PPL_DERIVATIVENETLIABILITYPOSITIONAGGREGATEFAIRVALUEALTERNATIVE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DerivativeNetLiabilityPositionAggregateFairValueAlternative",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-06-30",
+      "id": 10255663,
+      "name": "PPL Corp  (PPL): Quarterly Derivative Net Liability Position Aggregate Fair Value Alternative",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-06T19:56:27Z",
+      "urlize_name": "PPL-Corp-PPL-Quarterly-Derivative-Net-Liability-Position-Aggregate-Fair-Value-Alternative"
+    },
+    {
+      "code": "COMM_94_SEATSMOTORVEHICLES_EXPORT_SGP",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1989-12-31",
+      "id": 5882314,
+      "name": "Commodity Exports - Furniture, Lighting, Signs, Prefabricated Buildings / Seats, motor vehicles - Singapore",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-04-13T16:07:49Z",
+      "urlize_name": "Commodity-Exports-Furniture-Lighting-Signs-Prefabricated-Buildings-Seats-motor-vehicles-Singapore"
+    },
+    {
+      "code": "TRNG_CVTS3_89_289",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "CVTS2 and CVTS3 data were collected with reference year 1 1999 and 2005 and published by Eurostat in order to:\r\nProvide the Commission with harmonised, reliable and relevant statistical information needed to define, implement, monitor and evaluate Commission policies in the continuing vocational training in enterprises sector.\r\nProvide the EU institutions, national administrations, enterprises, professional associations and EU citizens with high quality statistical services and products in the field of training.\r\nCVTS3 provides comparable statistics on training enterprises, the participation to training, the volume of CVT courses and its costs, and moreover information on Initial vocational training (IVT) courses.\r\nCVTS2 provides comparable statistical results on training and non-training enterprises, the supply of and the demand for vocational skills, the need for CVT and the forms, content and volume of CVT, the use of enterprises' own training resources and of external providers, and the cost of CVT courses.\r\nThe CVTS1 was the first survey on continuing vocational training in enterprises carried out on the EU level in a co-ordinated form (outline questionnaire, common definitions, and common recommendations with the respect to the fieldwork). The survey therefore was of pioneering nature, and is not any longer disseminated.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_cvts_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_cvts3_89.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 644412,
+      "name": "Percentage of IVT participants to persons employed in IVT enterprises by NACE  : Percentage of total : Wholesale and retail trade; repair of motor vehicles, motorcycles and personal and household goods : Females : Luxembourg",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T06:16:34Z",
+      "urlize_name": "Percentage-of-IVT-participants-to-persons-employed-in-IVT-enterprises-by-NACE-Percentage-of-total-Wholesale-and-retail-trade-repair-of-motor-vehicles-motorcycles-and-personal-and-household-goods-Females-Luxembourg"
+    },
+    {
+      "code": "FAO_133MALI157SUGARBEET",
+      "column_names": [
+        "Year",
+        "Gross Production Value (constant 2004-2006 1000 I$) (1000 Int. $)"
+      ],
+      "description": "The Agricultural Production domain covers quantity produced, producer price, value at farmgate, area harvested, yield per hectare. Users may note that a new methodology for imputing non-reported/missing Production domain data has been implemented in 2011.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Value_of_Production_E_Africa_1.zip",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 7633375,
+      "name": "Value of Production: Sugar beet - Mali",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T03:54:09Z",
+      "urlize_name": "Value-of-Production-Sugar-beet-Mali"
+    },
+    {
+      "code": "LGF_FUTUREANNUALREPAYMENTOFOBLIGATIONANDLOANSDUETOTAL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: FutureAnnualRepaymentOfObligationAndLoansDueTotal",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-06-30",
+      "id": 10261170,
+      "name": "LIONS GATE ENTERTAINMENT CORP /CN/  (LGF): Quarterly Future Annual Repayment Of Obligation And Loans Due Total",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T19:46:02Z",
+      "urlize_name": "LIONS-GATE-ENTERTAINMENT-CORP-CN-LGF-Quarterly-Future-Annual-Repayment-Of-Obligation-And-Loans-Due-Total"
+    },
+    {
+      "code": "TRNG_ENT04S_63",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "CVTS2 and CVTS3 data were collected with reference year 1 1999 and 2005 and published by Eurostat in order to:\r\nProvide the Commission with harmonised, reliable and relevant statistical information needed to define, implement, monitor and evaluate Commission policies in the continuing vocational training in enterprises sector.\r\nProvide the EU institutions, national administrations, enterprises, professional associations and EU citizens with high quality statistical services and products in the field of training.\r\nCVTS3 provides comparable statistics on training enterprises, the participation to training, the volume of CVT courses and its costs, and moreover information on Initial vocational training (IVT) courses.\r\nCVTS2 provides comparable statistical results on training and non-training enterprises, the supply of and the demand for vocational skills, the need for CVT and the forms, content and volume of CVT, the use of enterprises' own training resources and of external providers, and the cost of CVT courses.\r\nThe CVTS1 was the first survey on continuing vocational training in enterprises carried out on the EU level in a co-ordinated form (outline questionnaire, common definitions, and common recommendations with the respect to the fieldwork). The survey therefore was of pioneering nature, and is not any longer disseminated.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_cvts_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_ent04s.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 618892,
+      "name": "Percentage of all enterprises providing CVT courses by type of course and size class  : Percentage of total : External course : Euro Area : Total",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "1999-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T16:35:45Z",
+      "urlize_name": "Percentage-of-all-enterprises-providing-CVT-courses-by-type-of-course-and-size-class-Percentage-of-total-External-course-Euro-Area-Total"
+    },
+    {
+      "code": "POP_22_CUB_BTH_RUR_85TO89",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 2659498,
+      "name": "Population - Both Sexes / Age 85 to 89 / Rural Areas - Cuba",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-09-10T10:13:09Z",
+      "urlize_name": "Population-Both-Sexes-Age-85-to-89-Rural-Areas-Cuba"
+    },
+    {
+      "code": "CAM_TRADEACCOUNTSRECEIVABLES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: TradeAccountsReceivables",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10261134,
+      "name": "CAMERON INTERNATIONAL CORP  (CAM): Quarterly Trade Accounts Receivables",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2011-09-30",
+      "type": null,
+      "updated_at": "2014-03-07T21:06:56Z",
+      "urlize_name": "CAMERON-INTERNATIONAL-CORP-CAM-Quarterly-Trade-Accounts-Receivables"
+    },
+    {
+      "code": "SLXP_ENTITYPUBLICFLOAT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EntityPublicFloat",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-06-30",
+      "id": 10261201,
+      "name": "SALIX PHARMACEUTICALS LTD  (SLXP): Annual Entity Public Float",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-06-28",
+      "type": null,
+      "updated_at": "2014-03-06T19:42:18Z",
+      "urlize_name": "SALIX-PHARMACEUTICALS-LTD-SLXP-Annual-Entity-Public-Float"
+    },
+    {
+      "code": "HMNF_LOANSANDLEASESRECEIVABLEGROSSCARRYINGAMOUNTCONSUMERAUTOS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LoansAndLeasesReceivableGrossCarryingAmountConsumerAutos",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 10261208,
+      "name": "HMN FINANCIAL INC  (HMNF): Annual Loans And Leases Receivable Gross Carrying Amount Consumer Autos",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T19:34:33Z",
+      "urlize_name": "HMN-FINANCIAL-INC-HMNF-Annual-Loans-And-Leases-Receivable-Gross-Carrying-Amount-Consumer-Autos"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "concurrency": 20,
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration",
+      "use_proxy": false
+    },
+    {
+      "code": "FAO",
+      "concurrency": 20,
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations",
+      "use_proxy": false
+    },
+    {
+      "code": "UNDATA",
+      "concurrency": 20,
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "un.org",
+      "id": 5449,
+      "name": "United Nations",
+      "use_proxy": false
+    },
+    {
+      "code": "BEA",
+      "concurrency": 60,
+      "datasets_count": 107459,
+      "description": "No description for this source yet",
+      "host": "www.bea.gov",
+      "id": 95,
+      "name": "Bureau of Economic Analysis",
+      "use_proxy": false
+    },
+    {
+      "code": "SNB",
+      "concurrency": 20,
+      "datasets_count": 39406,
+      "description": "No description for this source yet",
+      "host": "www.snb.ch",
+      "id": 615,
+      "name": "Swiss National Bank",
+      "use_proxy": false
+    },
+    {
+      "code": "UN",
+      "concurrency": 10000,
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations",
+      "use_proxy": false
+    },
+    {
+      "code": "EUROSTAT",
+      "concurrency": 100,
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat",
+      "use_proxy": false
+    },
+    {
+      "code": "SEC",
+      "concurrency": 20,
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission",
+      "use_proxy": false
+    },
+    {
+      "code": "BLS",
+      "concurrency": 10,
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics",
+      "use_proxy": false
+    },
+    {
+      "code": "ILOSTAT",
+      "concurrency": 20,
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "ilo.org2",
+      "id": 10437,
+      "name": "ILOSTAT Database",
+      "use_proxy": false
+    }
+  ],
+  "total_count": 10148784
+}

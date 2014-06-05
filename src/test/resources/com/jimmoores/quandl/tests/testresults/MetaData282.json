@@ -1,0 +1,21 @@
+{
+  "code": "HSW_MI04_329",
+  "column_names": [
+    "Date",
+    "Value"
+  ],
+  "description": "The harmonised data on accidents at work are collected in the framework of the European Statistics on Accidents at Work (ESAW), on the basis of a methodology developed in 1990.\r\nAn accident at work is \"a discrete occurrence in the course of work which leads to physical or mental harm\". The data include only accidents involving more than 3 calendar days of absence from work, also called 'serious accidents'.\r\nA fatal accident at work is defined as an accident which leads to the death of a victim within one year of the accident. .\r\nThe variables collected  on accidents at work include:\r\nEconomic activity of the employer and Size of the enterprise \r\nEmployment status, Occupation, Age, Sex and Nationality of victim \r\nthe Geographical location of the accident, Date andTtime of the accident \r\nType of Injury, Body part injured and the Severity of the accident (days lost). \r\ncauses and circumstances of the accident: Workstation, Working environment, Working process, Specific physical activity, Material agent of the Specific Physical Activity, Deviation and Material agent of Deviation, Contact - mode of injury and Material agent of Contact - Mode of injury.\r\nThe national ESAW sources are the declarations of accidents at work, either to the public (Social Security) or private specific insurance for accidents at work, or to other relevant national authorities (Labour Inspection, etc.) for countries having a \"universal\" Social Security system. For the Netherlands only survey data are available for the non-fatal accidents at work (a special module in the national labour force survey).\r\nFrom 2008 onwards data are disseminated in new structured tables providing more details with the selection of indicators displayed.\r\nData are disseminated in 2 sections: 'Main Indicators' and 'Details by economic sector NACE Rev2'. Depending on the table, data are broken down by NACE 'main sectors' or NACE 2 digit codes, ISCO group, country level, severity, sex, age, employment status, size  of the enterprise, body part injured and type of injury.\r\nThe indicators used are the numbers, percentage distributions, incidence rates and standardised incidence rates of serious and fatal accidents at work.\r\nThe percentage distribution of serious accidents at work and fatal accidents at work is within each break down dimension.\r\nThe incidence rate of serious accidents at work is the number of persons involved in accidents at work with more than 3 days' absence per 100,000 persons in employment.\r\nThe incidence rate of fatal accidents at work is the number of persons with fatal accidents at work per 100,000 persons in employment.\r\nThe incidence rate is the indicator showing the relative importance of serious or fatal accidents at work in the working population. For serious and fatal accidents at work the numerator is the number of persons involved in either serious or fatal accidents that occurred during the year. The denominator is the number of persons in employment (the reference population) expressed in 100 000 persons.\r\nThe data relating to the number of persons in employment (the reference population covered by the ESAW reporting) are provided by the Labour Force Survey - LFS (with some corrections for Belgium, Bulgaria, Czech Republic, Denmark, Spain, France, Latvia, Luxembourg, Portugal and Slovenia).\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/hsw_acc_work_esms.htm",
+  "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fhsw_mi04.sdmx.zip",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "2008-12-31",
+  "id": 740386,
+  "name": "Accidents at work by size of enterprise NACE Rev 2 A_CN  : Number : Total : More than 3 days lost (4 days absence or more) : Luxembourg",
+  "private": false,
+  "source_code": "EUROSTAT",
+  "source_name": "EuroStat",
+  "to_date": "2010-12-31",
+  "type": null,
+  "updated_at": "2014-01-13T09:04:54Z",
+  "urlize_name": "Accidents-at-work-by-size-of-enterprise-NACE-Rev-2-A_CN-Number-Total-More-than-3-days-lost-4-days-absence-or-more-Luxembourg"
+}

@@ -1,0 +1,526 @@
+{
+  "current_page": 393186,
+  "docs": [
+    {
+      "code": "ELEC_PLANT_CONS_TOT_BTU_10701_DFO_ALL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.10701-DFO-ALL.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.10701-DFO-ALL.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2004-01-31",
+      "id": 5007292,
+      "name": "Fuel Consumption Mmbtus : Wausau Papers Of New Hampshire : Distillate Fuel Oil : All Primemovers : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T00:07:10Z",
+      "urlize_name": "Fuel-Consumption-Mmbtus-Wausau-Papers-Of-New-Hampshire-Distillate-Fuel-Oil-All-Primemovers-Quarterly"
+    },
+    {
+      "code": "ELEC_PLANT_GEN_4072_SUB_ALL_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.4072-SUB-ALL.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.4072-SUB-ALL.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4842555,
+      "name": "Net Generation : Pulliam : Subbituminous Coal : All Primemovers : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T23:54:13Z",
+      "urlize_name": "Net-Generation-Pulliam-Subbituminous-Coal-All-Primemovers-Annual"
+    },
+    {
+      "code": "254_0006_YARMOUTH_NOVA_SCOTIA_ROYAL_CANADIAN_MOUNTED_POLICE_MUNICIPAL",
+      "column_names": [
+        "Date",
+        "Constables-Both sexes-Number of police officers",
+        "Constables-Both sexes-Percentage of police officers",
+        "Constables-Females-Number of police officers",
+        "Constables-Females-Percentage of police officers",
+        "Constables-Males-Number of police officers",
+        "Constables-Males-Percentage of police officers",
+        "Non-commissioned officers-Both sexes-Number of police officers",
+        "Non-commissioned officers-Both sexes-Percentage of police officers",
+        "Non-commissioned officers-Females-Number of police officers",
+        "Non-commissioned officers-Females-Percentage of police officers",
+        "Non-commissioned officers-Males-Number of police officers",
+        "Non-commissioned officers-Males-Percentage of police officers",
+        "Senior officers-Both sexes-Number of police officers",
+        "Senior officers-Both sexes-Percentage of police officers",
+        "Senior officers-Females-Number of police officers",
+        "Senior officers-Females-Percentage of police officers",
+        "Senior officers-Males-Number of police officers",
+        "Senior officers-Males-Percentage of police officers",
+        "Total number of police officers-Both sexes-Number of police officers",
+        "Total number of police officers-Both sexes-Percentage of police officers",
+        "Total number of police officers-Females-Number of police officers",
+        "Total number of police officers-Females-Percentage of police officers",
+        "Total number of police officers-Males-Number of police officers",
+        "Total number of police officers-Males-Percentage of police officers"
+      ],
+      "description": "Police officers by rank and gender, municipal police services, annual [Geography: Yarmouth, Nova Scotia, Royal Canadian Mounted Police, municipal]",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a26?lang=eng&retrLang=eng&id=2540006&tabMode=dataTable&srchLan=-1&p1=-1&p2=9",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 8359078,
+      "name": "Police officers by rank and gender, municipal police services, annual [Geography: Yarmouth, Nova Scotia, Royal Canadian Mounted Police, municipal]",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T10:20:01Z",
+      "urlize_name": "Police-officers-by-rank-and-gender-municipal-police-services-annual-Geography-Yarmouth-Nova-Scotia-Royal-Canadian-Mounted-Police-municipal"
+    },
+    {
+      "code": "COMM_73_HOTROLLEDSTAINLESSSTEELCOILW600MMT47510M_IMPORT_ARG",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 4132574,
+      "name": "Commodity Imports - Iron And Steel / Hot rolled stainless steel coil, w >600mm, t 4.75-10m - Argentina",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T12:58:19Z",
+      "urlize_name": "Commodity-Imports-Iron-And-Steel-Hot-rolled-stainless-steel-coil-w-600mm-t-4-75-10m-Argentina"
+    },
+    {
+      "code": "NPO_NUMBEROFCLAIMANTSACKNOWLEDGINGNONDISEASE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: NumberOfClaimantsAcknowledgingNonDisease",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10783726,
+      "name": "ENPRO INDUSTRIES, INC  (NPO): Annual Number Of Claimants Acknowledging Non Disease",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T13:14:33Z",
+      "urlize_name": "ENPRO-INDUSTRIES-INC-NPO-Annual-Number-Of-Claimants-Acknowledging-Non-Disease"
+    },
+    {
+      "code": "FSCI_INTERESTPAID_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: InterestPaid",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10782762,
+      "name": "FISHER COMMUNICATIONS INC  (FSCI): Annual Interest Paid",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T13:14:35Z",
+      "urlize_name": "FISHER-COMMUNICATIONS-INC-FSCI-Annual-Interest-Paid"
+    },
+    {
+      "code": "MHL_UIS_E_4",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Enrolment in post-secondary non tertiary. Public and private. All programmes. Total is the total number of students enrolled in public and private post-secondary/non-tertiary education institutions.\nEnrolment in post-secondary non tertiary. Public and private. All programmes. Total",
+      "display_url": "http://api.worldbank.org/countries/MHL/indicators/UIS.E.4?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 2125696,
+      "name": "Marshall Islands: Enrolment in post-secondary non tertiary. Public and private. All programmes. Total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "1999-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T07:49:27Z",
+      "urlize_name": "Marshall-Islands-Enrolment-in-post-secondary-non-tertiary-Public-and-private-All-programmes-Total"
+    },
+    {
+      "code": "ESA_A_FR_N_1000_UNLAHW_0000_2M_N_D_N_I",
+      "column_names": [
+        "Date",
+        "2005"
+      ],
+      "description": " France - Hourly unit labour costs: Professional, scientific and technical activities; administrative and support service activities, Deflator, National currency, Neither seasonally nor working day adjusted, Index , :, Dataset:ESA : ESA95 National Accounts Explanation page (Series and Dataset Level Information), Reference area:France (FR), Decimals:Two (2), Collection indicator:Average of observations through period (A), Compilation:$REBASE(ESA.A.FR.N.1000.UNLAHW.0000.2M_N.D.N.A,2005)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2120786&SERIES_KEY=119.ESA.A.FR.N.1000.UNLAHW.0000.2M_N.D.N.I&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "1949-12-31",
+      "id": 11486428,
+      "name": "France Hourly unit labour costs: Professional, scientific and technical activities; administrative and support service activities, Deflator, National currency, Index",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T23:07:27Z",
+      "urlize_name": "France-Hourly-unit-labour-costs-Professional-scientific-and-technical-activities-administrative-and-support-service-activities-Deflator-National-currency-Index"
+    },
+    {
+      "code": "UNE_TUNE_NB_SEX_F_DUR_DETAILS_MGE24_Q_BGR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2001-03-31",
+      "id": 12797467,
+      "name": "Unemployment Women - Quarterly - Bulgaria",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-30T10:22:08Z",
+      "urlize_name": "Unemployment-Women-Quarterly-Bulgaria"
+    },
+    {
+      "code": "UIS_GROSSINTAKERATETOTHELASTGRADEOFPRIMARY__MALE_GRD",
+      "column_names": [
+        "Year",
+        "Percent"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1978-12-31",
+      "id": 3565416,
+      "name": "Gross intake rate to the last grade of Primary / Male - Grenada",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T13:57:11Z",
+      "urlize_name": "Gross-intake-rate-to-the-last-grade-of-Primary-Male-Grenada"
+    },
+    {
+      "code": "ATX_LIABILITIESCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LiabilitiesCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-01-01",
+      "id": 11071237,
+      "name": "COSTA INC  (ATX): Quarterly Liabilities Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-28",
+      "type": null,
+      "updated_at": "2014-03-13T19:47:44Z",
+      "urlize_name": "COSTA-INC-ATX-Quarterly-Liabilities-Current"
+    },
+    {
+      "code": "ATX_SALESREVENUEGOODSNET_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: SalesRevenueGoodsNet",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-07-02",
+      "id": 11071245,
+      "name": "COSTA INC  (ATX): Quarterly Sales Revenue Goods Net",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-28",
+      "type": null,
+      "updated_at": "2014-03-13T19:47:59Z",
+      "urlize_name": "COSTA-INC-ATX-Quarterly-Sales-Revenue-Goods-Net"
+    },
+    {
+      "code": "1235_001574714_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1235",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1978-12-31",
+      "id": 8031109,
+      "name": "Annual national accounts (base 2000) - Fixed assets - National economy - Electrical and electronic components - Current price - End-period gross outstanding amounts (market value) - Stopped series",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T06:46:35Z",
+      "urlize_name": "Annual-national-accounts-base-2000-Fixed-assets-National-economy-Electrical-and-electronic-components-Current-price-End-period-gross-outstanding-amounts-market-value-Stopped-series"
+    },
+    {
+      "code": "IGOI_ADVERTISINGEXPENSE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AdvertisingExpense",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10782971,
+      "name": "iGo, Inc.  (IGOI): Annual Advertising Expense",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T13:13:08Z",
+      "urlize_name": "iGo-Inc-IGOI-Annual-Advertising-Expense"
+    },
+    {
+      "code": "DPL_MARKETABLESECURITIESCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: MarketableSecuritiesCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-06-30",
+      "id": 10781693,
+      "name": "DPL INC  (DPL): Quarterly Marketable Securities Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2011-09-30",
+      "type": null,
+      "updated_at": "2014-03-07T13:13:08Z",
+      "urlize_name": "DPL-INC-DPL-Quarterly-Marketable-Securities-Current"
+    },
+    {
+      "code": "HOW_WHAW_SEX_STE_ECO1_NB_SEX_F_STE_EMPEES_EES_ECO_ISIC4_S_DNK",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 6131138,
+      "name": "Mean Weekly Hours Actually Worked For Total Employment And Employees By Sex And Economic Activity, Female, Employees, Other Service Activities - Denmark",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-18T12:55:50Z",
+      "urlize_name": "Mean-Weekly-Hours-Actually-Worked-For-Total-Employment-And-Employees-By-Sex-And-Economic-Activity-Female-Employees-Other-Service-Activities-Denmark"
+    },
+    {
+      "code": "COMM_85_STATICCONVERTERSNES_IMPORT_THA",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1988-12-31",
+      "id": 5652744,
+      "name": "Commodity Imports - Electrical, Electronic Equipment / Static converters, nes - Thailand",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T02:19:37Z",
+      "urlize_name": "Commodity-Imports-Electrical-Electronic-Equipment-Static-converters-nes-Thailand"
+    },
+    {
+      "code": "POP_22_LTU_BTH_URB_30",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "1981-12-31",
+      "id": 2713796,
+      "name": "Population - Both Sexes / Age 30 / Urban Areas - Lithuania",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T06:35:20Z",
+      "urlize_name": "Population-Both-Sexes-Age-30-Urban-Areas-Lithuania"
+    },
+    {
+      "code": "PSS_A_FI_F000_I41_P101_VT_D3_32_EUR_E",
+      "column_names": [
+        "Date",
+        "Millions of Euro"
+      ],
+      "description": " Finland - All transactions - Payment instruments other than cards (received), credit transfers - Payments processing system - large value - TARGET2/TARGET component - Value - EU 25 (fixed composition) - System (same system, another component) counterpart - Euro - denominated in Euro , :, Dataset:PSS : Payments and Settlement Systems Statistics Explanation page (Series and Dataset Level Information), Reference area:Finland (FI), Decimals:Three (3), Collection indicator:Summed through period (S), Methodology reference:unspecified",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=3447416&SERIES_KEY=169.PSS.A.FI.F000.I41.P101.VT.D3.32.EUR.E&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 11457287,
+      "name": "Finland All transactions Payment instruments other than cards , credit transfers Payments processing system large value TARGET2/TARGET component Value EU 25 System counterpart Euro denominated in Euro",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T10:14:20Z",
+      "urlize_name": "Finland-All-transactions-Payment-instruments-other-than-cards-credit-transfers-Payments-processing-system-large-value-TARGET2-TARGET-component-Value-EU-25-System-counterpart-Euro-denominated-in-Euro"
+    },
+    {
+      "code": "1379_001641452_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Current euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1379",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1978-12-31",
+      "id": 8030077,
+      "name": "Annual national accounts base 2005 - Non-residential buildings - Households - Total of branches - Current price - Other volume changes and adjustments",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T06:46:09Z",
+      "urlize_name": "Annual-national-accounts-base-2005-Non-residential-buildings-Households-Total-of-branches-Current-price-Other-volume-changes-and-adjustments"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "concurrency": 20,
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration",
+      "use_proxy": false
+    },
+    {
+      "code": "ILO",
+      "concurrency": 20,
+      "datasets_count": 228980,
+      "description": "No description for this source yet",
+      "host": "www.ilo.org",
+      "id": 686,
+      "name": "International Labour Organization",
+      "use_proxy": false
+    },
+    {
+      "code": "ECB",
+      "concurrency": 20,
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "sdw.ecb.europa.eu",
+      "id": 8917,
+      "name": "European Central Bank",
+      "use_proxy": false
+    },
+    {
+      "code": "CANSIM",
+      "concurrency": 10,
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "www20.statcan.gc.ca",
+      "id": 1199,
+      "name": "Statistics Canada",
+      "use_proxy": false
+    },
+    {
+      "code": "UN",
+      "concurrency": 10000,
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations",
+      "use_proxy": false
+    },
+    {
+      "code": "SEC",
+      "concurrency": 20,
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission",
+      "use_proxy": false
+    },
+    {
+      "code": "INSEE",
+      "concurrency": 20,
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)",
+      "use_proxy": false
+    },
+    {
+      "code": "ILOSTAT",
+      "concurrency": 20,
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "ilo.org2",
+      "id": 10437,
+      "name": "ILOSTAT Database",
+      "use_proxy": false
+    },
+    {
+      "code": "WORLDBANK",
+      "concurrency": 400,
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank",
+      "use_proxy": false
+    }
+  ],
+  "total_count": 10148784
+}

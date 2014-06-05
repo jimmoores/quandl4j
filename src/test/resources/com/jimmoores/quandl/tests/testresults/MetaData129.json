@@ -1,0 +1,500 @@
+{
+  "current_page": 343032,
+  "docs": [
+    {
+      "code": "COAL_SHIPMENT_SULFUR_1513306_564_BIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Percent. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_SULFUR.1513306-564-BIT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_SULFUR.1513306-564-BIT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_SULFUR.1513306-564-BIT.Q&out=xml",
+      "frequency": "quarterly",
+      "from_date": "2010-09-30",
+      "id": 11949346,
+      "name": "Coal Shipment Sulfur Content : Stonecoal Tipple (t-3) To Stanton Energy Center : Bituminous : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-05-16T01:58:42Z",
+      "urlize_name": "Coal-Shipment-Sulfur-Content-Stonecoal-Tipple-t-3-To-Stanton-Energy-Center-Bituminous-Quarterly"
+    },
+    {
+      "code": "ASBC_STOCKANDWARRANTSISSUEDDURINGPERIODVALUEPREFERREDSTOCKANDWARRANTS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: StockAndWarrantsIssuedDuringPeriodValuePreferredStockAndWarrants",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2008-11-30",
+      "id": 11046877,
+      "name": "ASSOCIATED BANC-CORP  (ASBC): Quarterly Stock And Warrants Issued During Period Value Preferred Stock And Warrants",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2008-11-30",
+      "type": null,
+      "updated_at": "2014-03-12T13:37:41Z",
+      "urlize_name": "ASSOCIATED-BANC-CORP-ASBC-Quarterly-Stock-And-Warrants-Issued-During-Period-Value-Preferred-Stock-And-Warrants"
+    },
+    {
+      "code": "0_0_40_216",
+      "column_names": [
+        "Year",
+        "Ozone Depleting Potential (ODP) Tons"
+      ],
+      "description": null,
+      "display_url": "http://geocompendium.grid.unep.ch/data_sets/atmosphere/data/ozone_bic.htm",
+      "frequency": "annual",
+      "from_date": "1989-12-31",
+      "id": 1062720,
+      "name": "Consumption of Ozone-Depleting Substances (ODS) / Annex B, Group I: Other fully Halogenated CFCs (Syrian Arab Republic)",
+      "private": false,
+      "source_code": "GEOCOMP",
+      "source_name": "Geo3 Data Compendium",
+      "to_date": "1995-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T09:02:20Z",
+      "urlize_name": "Consumption-of-Ozone-Depleting-Substances-ODS-Annex-B-Group-I-Other-fully-Halogenated-CFCs-Syrian-Arab-Republic"
+    },
+    {
+      "code": "COMM_63_WOMENSGIRLSENSEMBLESOFCOTTONNOTKNIT_REIMPORT_VEN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 3978446,
+      "name": "Commodity Re-Imports - Articles Of Apparel, Accessories, Not Knit Or Crochet / Womens, girls ensembles, of cotton, not knit - Venezuela (Bolivarian Republic of)",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-01-25T12:03:24Z",
+      "urlize_name": "Commodity-Re-Imports-Articles-Of-Apparel-Accessories-Not-Knit-Or-Crochet-Womens-girls-ensembles-of-cotton-not-knit-Venezuela-Bolivarian-Republic-of"
+    },
+    {
+      "code": "IND_SYNTHETICFILAMENTTOWANDSTAPLEFIBERSNOTCARDEDORCOMBED_THOUSANDMETRICTONS_BR",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 3347569,
+      "name": "Industrial Commodities / Synthetic Filament Tow And Staple Fibers, Not Carded Or Combed / Thousand Metric Tons - Brazil",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T11:00:38Z",
+      "urlize_name": "Industrial-Commodities-Synthetic-Filament-Tow-And-Staple-Fibers-Not-Carded-Or-Combed-Thousand-Metric-Tons-Brazil"
+    },
+    {
+      "code": "BSTAMON_KS_BETRIEBSG_M16_15676",
+      "column_names": [
+        "Month",
+        "Million CHF"
+      ],
+      "description": "Credit volume statistics, 3Ca Domestic, to companies by company size and type of loan, Lending to companies with 50 to 249 employees: All banks (monthly). More detailed information at http://www.snb.ch/ext/stats/bstamon/pdf/deen/Kreditstatistik_Betriebsgroessen.pdf",
+      "display_url": "http://www.snb.ch/ext/stats/bstamon/xls/en/bstamon_KS_BetriebsG_M16.xls",
+      "frequency": "monthly",
+      "from_date": "2002-01-31",
+      "id": 4546096,
+      "name": "Credit volume statistics, 3Ca Domestic, to companies by company size and type of loan: Utilisation",
+      "private": false,
+      "source_code": "SNB",
+      "source_name": "Swiss National Bank",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2014-01-09T10:49:49Z",
+      "urlize_name": "Credit-volume-statistics-3Ca-Domestic-to-companies-by-company-size-and-type-of-loan-Utilisation"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_EG_BTU_58017_SUN_PV_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.58017-SUN-PV.M",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.58017-SUN-PV.M&out=xml",
+      "frequency": "monthly",
+      "from_date": "2012-07-31",
+      "id": 5114081,
+      "name": "Electric Fuel Consumption Mmbtus : Copper Mountain Solar 2 : Solar : Photovoltaic : Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2014-01-10T00:21:52Z",
+      "urlize_name": "Electric-Fuel-Consumption-Mmbtus-Copper-Mountain-Solar-2-Solar-Photovoltaic-Monthly"
+    },
+    {
+      "code": "HOW_TEMP_NB_SEX_M_ECO_ISIC4_T_M_HRV",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": null,
+      "id": 12622242,
+      "name": "Hours Of Work Of Total Employment Men In T. Activities Of Households As Employers; Undifferentiated Goods And Services-Producing Activities Of Households For Own Use - Monthly - Croatia",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2014-05-29T10:37:48Z",
+      "urlize_name": "Hours-Of-Work-Of-Total-Employment-Men-In-T-Activities-Of-Households-As-Employers-Undifferentiated-Goods-And-Services-Producing-Activities-Of-Households-For-Own-Use-Monthly-Croatia"
+    },
+    {
+      "code": "COMM_93_SIGNALPISTOLSETCHUMANEKILLERSETC_IMPORT_HND",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 5865404,
+      "name": "Commodity Imports - Arms And Ammunition, Parts And Accessories Thereof / Signal pistols, etc, humane killers, etc - Honduras",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T06:15:21Z",
+      "urlize_name": "Commodity-Imports-Arms-And-Ammunition-Parts-And-Accessories-Thereof-Signal-pistols-etc-humane-killers-etc-Honduras"
+    },
+    {
+      "code": "IND_BABIESGARMENTSANDCLOTHINGACCESSORIESNOTKNITTEDORCROCHETED_THOUSANDUNITS_IR",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 3338111,
+      "name": "Industrial Commodities / Babies' Garments And Clothing Accessories, Not Knitted Or Crocheted / Thousand Units - Iran (islamic Republic Of)",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T17:35:29Z",
+      "urlize_name": "Industrial-Commodities-Babies-Garments-And-Clothing-Accessories-Not-Knitted-Or-Crocheted-Thousand-Units-Iran-islamic-Republic-Of"
+    },
+    {
+      "code": "ENV_RLU_14",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fenv_rlu.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 886021,
+      "name": "Specific land use parameters NUTS2  : Sites classified as contaminated / potentially contaminated sites : Hectares : Prov. Limburg (BE)",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T04:43:35Z",
+      "urlize_name": "Specific-land-use-parameters-NUTS2-Sites-classified-as-contaminated-potentially-contaminated-sites-Hectares-Prov-Limburg-BE"
+    },
+    {
+      "code": "COMM_78_LEADUNWROUGHTCONTAININGMOSTLYANTIMONY_EXPORT_GBR",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 4346848,
+      "name": "Commodity Exports - Lead And Articles Thereof / Lead unwrought containing mostly antimony - United Kingdom of Great Britain and Northern Ireland",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-04-14T03:02:11Z",
+      "urlize_name": "Commodity-Exports-Lead-And-Articles-Thereof-Lead-unwrought-containing-mostly-antimony-United-Kingdom-of-Great-Britain-and-Northern-Ireland"
+    },
+    {
+      "code": "UIS_PRIMARYEDUCATIONISCED1REPETITIONRATEGRADE5__MALE_TLS",
+      "column_names": [
+        "Year",
+        "Percent"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 3556037,
+      "name": "Primary education (ISCED 1) Repetition rate Grade 5 / Male - Timor-Leste",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T09:02:20Z",
+      "urlize_name": "Primary-education-ISCED-1-Repetition-rate-Grade-5-Male-Timor-Leste"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_EG_1914_NG_GT_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mcf. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG.1914-NG-GT.M",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG.1914-NG-GT.M&out=xml",
+      "frequency": "monthly",
+      "from_date": "2003-01-31",
+      "id": 4931284,
+      "name": "Electric Fuel Consumption Quantity : Key City : Natural Gas : Combustion (gas) Turbine (including Jet Engine Design) : Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T01:57:21Z",
+      "urlize_name": "Electric-Fuel-Consumption-Quantity-Key-City-Natural-Gas-Combustion-gas-Turbine-including-Jet-Engine-Design-Monthly"
+    },
+    {
+      "code": "0_3_44_40",
+      "column_names": [
+        "Year",
+        "Number of People"
+      ],
+      "description": null,
+      "display_url": "http://geocompendium.grid.unep.ch/data_sets/disasters/data/extreme_temp_injured.htm",
+      "frequency": "annual",
+      "from_date": "1975-12-31",
+      "id": 1077599,
+      "name": "Extreme Temperatures - Injured People (Cape Verde)",
+      "private": false,
+      "source_code": "GEOCOMP",
+      "source_name": "Geo3 Data Compendium",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T09:04:33Z",
+      "urlize_name": "Extreme-Temperatures-Injured-People-Cape-Verde"
+    },
+    {
+      "code": "ISOC_SKE_ITSP_E_19",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The data given in this domain is collected by the National Statistical Institutes or Ministries and is based on Eurostat's annual model surveys on ICT (Information and Communication Technologies) usage in households and by individuals. Part of the data collected is used in the context of the eEurope i2010 initiative, which seeks to further boost efficiency throughout the economy through wider use of ICTs. As a follow-up of the 2005 Action Plan a list of benchmarking indicators has been defined in the i2010 High Level Group Benchmarking Framework.\r\nThe aim of the European ICT surveys is to collect and disseminate harmonised and comparable information on the use of Information and Communication Technologies in households and by individuals and in enterprises at European level. Data for this collection are supplied directly from the surveys with no separate treatment.\r\nICT usage in enterprises \r\nThe aim of this survey is the timely provision of statistics on enterprises and the information society. This module provides a framework for the requirements in terms of coverage, duration and periodicity, subjects covered, breakdowns of data provision and any necessary pilot studies.This survey covers enterprises having their main economic activity in NACE sections as specified under section 3.3 \"Sector Coverage\" below.\r\nCoverage:\r\nThe characteristics for this domain are drawn from the specific module on e-skills in the 2007 survey. These cover among others the following subjects: \r\n-         Employment of IT/ICT specialists\r\n-         Recruitment of personnel for jobs requiring ICT skills\r\n-         Main reasons for hard-to-fill vacancies for ICT specialist jobs\r\n-         Enterprises which provided training to develop/upgrade ICT skills of their personnel\r\n-         Enterprises where external suppliers performed ICT functions\r\nBreakdowns: \r\n- by size class- by NACE heading- by region: regional breakdowns are limited to no more than three groupings.\r\n \r\nICT usage in households and by individuals\r\nThe aim of this survey is the timely provision of statistics on individuals, households and the information society. This module provides a framework for the requirements in terms of coverage, duration and periodicity, subjects covered, breakdowns of data provision and any necessary pilot studies.\r\nCoverage:\r\nThe characteristics for this domain are drawn from the specific module on e-skills (e.g. Module E in 2005 and previous questionnaires, F in 2006 questionnaires).  They cover among others the following subjects: \r\n-         Last training course on computer use\r\n-         Which computer related activities have already been carried out\r\n-         Which Internet related activities have already been carried out\r\n-         How have the skills been obtained?\r\n-         Reasons for not having taken a computer course\r\nBreakdowns: \r\n- by age group,- by gender,- by educational level,- by occupation,- by employment situation,- by degree of urbanisation,- by bandwidth (broadband, non-broadband),- by region\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/isoc_sk_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fisoc_ske_itsp_e.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 802015,
+      "name": "Enterprises who employed ICTIT specialists  : Percentage of enterprises : Manufacturing (10 employed persons or more) : Ireland",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T00:08:43Z",
+      "urlize_name": "Enterprises-who-employed-ICTIT-specialists-Percentage-of-enterprises-Manufacturing-10-employed-persons-or-more-Ireland"
+    },
+    {
+      "code": "103_RWA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEX: Female.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=27",
+      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/WHOSIS_000008&filter=SEX:FMLE;COUNTRY:RWA;\n",
+      "frequency": "annual",
+      "from_date": "1992-12-31",
+      "id": 9504295,
+      "name": "Children aged <5 years underweight (%) Female - Rwanda",
+      "private": false,
+      "source_code": "WHO",
+      "source_name": "World Health Organization",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T01:20:18Z",
+      "urlize_name": "Children-aged-5-years-underweight-Female-Rwanda"
+    },
+    {
+      "code": "COMM_63_WOMENSGIRLSENSEMBLESOFWOOLORHAIRNOTKNIT_IMPORT_SWE",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 3966425,
+      "name": "Commodity Imports - Articles Of Apparel, Accessories, Not Knit Or Crochet / Womens, girls ensembles, of wool or hair, not knit - Sweden",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-04-14T03:12:46Z",
+      "urlize_name": "Commodity-Imports-Articles-Of-Apparel-Accessories-Not-Knit-Or-Crochet-Womens-girls-ensembles-of-wool-or-hair-not-knit-Sweden"
+    },
+    {
+      "code": "ASBC_LOANEXPENSE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: Loanexpense",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 11047220,
+      "name": "ASSOCIATED BANC-CORP  (ASBC): Quarterly Loanexpense",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-12T14:26:01Z",
+      "urlize_name": "ASSOCIATED-BANC-CORP-ASBC-Quarterly-Loanexpense"
+    },
+    {
+      "code": "401_0022_PORTELGIN_ONTARIO",
+      "column_names": [
+        "Date",
+        "Maximum take-off weight, 18,001 to 35,000 kilograms",
+        "Maximum take-off weight, 2,000 kilograms and under",
+        "Maximum take-off weight, 2,001 to 4,000 kilograms",
+        "Maximum take-off weight, 35,001 kilograms and over",
+        "Maximum take-off weight, 4,001 to 5,670 kilograms",
+        "Maximum take-off weight, 5,671 to 9,000 kilograms",
+        "Maximum take-off weight, 9,001 to 18,000 kilograms",
+        "Power plant, gliders",
+        "Power plant, helicopters",
+        "Power plant, jet engines",
+        "Power plant, piston engines",
+        "Power plant, turbo-propellers"
+      ],
+      "description": "Monthly itinerant movements, by weight group and type of power plant, airports without air traffic control towers, occasional (Number) [Airports: PortElgin,Ontario]",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a26?lang=eng&retrLang=eng&id=4010022&tabMode=dataTable&srchLan=-1&p1=-1&p2=9",
+      "frequency": "monthly",
+      "from_date": "1997-05-31",
+      "id": 8418253,
+      "name": "Monthly itinerant movements, by weight group and type of power plant, airports without air traffic control towers, occasional (Number) [Airports: PortElgin,Ontario]",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "1998-11-30",
+      "type": null,
+      "updated_at": "2014-01-08T06:43:55Z",
+      "urlize_name": "Monthly-itinerant-movements-by-weight-group-and-type-of-power-plant-airports-without-air-traffic-control-towers-occasional-Number-Airports-PortElgin-Ontario"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "GEOCOMP",
+      "datasets_count": 47348,
+      "description": "No description for this source yet",
+      "host": "geocompendium.grid.unep.ch",
+      "id": 203,
+      "name": "Geo3 Data Compendium"
+    },
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "CANSIM",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "www20.statcan.gc.ca",
+      "id": 1199,
+      "name": "Statistics Canada"
+    },
+    {
+      "code": "WHO",
+      "datasets_count": 21456,
+      "description": "",
+      "host": "apps.who.int",
+      "id": 525,
+      "name": "World Health Organization"
+    },
+    {
+      "code": "SNB",
+      "datasets_count": 39406,
+      "description": "No description for this source yet",
+      "host": "www.snb.ch",
+      "id": 615,
+      "name": "Swiss National Bank"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "ILOSTAT",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "ilo.org2",
+      "id": 10437,
+      "name": "ILOSTAT Database"
+    }
+  ],
+  "total_count": 10148784
+}

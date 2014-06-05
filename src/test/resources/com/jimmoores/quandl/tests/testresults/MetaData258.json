@@ -1,0 +1,21 @@
+{
+  "code": "WFSC_CASH",
+  "column_names": [
+    "Date",
+    "Cash"
+  ],
+  "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "2000-12-31",
+  "id": 5566813,
+  "name": "Weststar Financial Services Co ( WFSC ) - Cash",
+  "private": false,
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2012-12-31",
+  "type": null,
+  "updated_at": "2014-03-21T19:53:27Z",
+  "urlize_name": "Weststar-Financial-Services-Co-WFSC-Cash"
+}

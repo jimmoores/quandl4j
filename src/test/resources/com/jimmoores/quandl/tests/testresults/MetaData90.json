@@ -1,0 +1,506 @@
+{
+  "current_page": 361087,
+  "docs": [
+    {
+      "code": "AM_PROCEEDSFROMREVOLVINGLINEOFCREDITANDLONGTERMDEBT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ProceedsFromRevolvingLineOfCreditAndLongTermDebt",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-05-31",
+      "id": 10066126,
+      "name": "AMERICAN GREETINGS CORP  (AM): Quarterly Proceeds From Revolving Line Of Credit And Long Term Debt",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-05-31",
+      "type": null,
+      "updated_at": "2014-02-21T19:22:26Z",
+      "urlize_name": "AMERICAN-GREETINGS-CORP-AM-Quarterly-Proceeds-From-Revolving-Line-Of-Credit-And-Long-Term-Debt"
+    },
+    {
+      "code": "AM_PURCHASEOFSENIORSECUREDDEBT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PurchaseOfSeniorSecuredDebt",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-05-25",
+      "id": 10066111,
+      "name": "AMERICAN GREETINGS CORP  (AM): Quarterly Purchase Of Senior Secured Debt",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-05-25",
+      "type": null,
+      "updated_at": "2014-02-21T19:23:21Z",
+      "urlize_name": "AMERICAN-GREETINGS-CORP-AM-Quarterly-Purchase-Of-Senior-Secured-Debt"
+    },
+    {
+      "code": "FAO_5207SOUTHAMERICATOTAL235PREPAREDNUTSEXCGROUNDNUTS",
+      "column_names": [
+        "Year",
+        "Import Quantity (tonnes)",
+        "Import Value (1000 US$)",
+        "Export Quantity (tonnes)",
+        "Export Value (1000 US$)"
+      ],
+      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_All_Area_Groups_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7763195,
+      "name": "Trade Crops Livestock: Prepared Nuts (Exc.Groundnuts) - South America + (Total)",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-07-26T23:24:06Z",
+      "urlize_name": "Trade-Crops-Livestock-Prepared-Nuts-Exc-Groundnuts-South-America-Total"
+    },
+    {
+      "code": "CSHICPMTA156NRUG",
+      "column_names": [
+        "Date",
+        "CSHICPMTA156NRUG_2013-07-03"
+      ],
+      "description": "Percent Not Seasonally Adjusted, Source ID: csh_i  When using these data in your research, please make the following reference: Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2013), \"The Next Generation of the Penn World Table\" available for download at www.ggdc.net/pwt  For more information, see http://www.rug.nl/research/ggdc/data/penn-world-table. ",
+      "display_url": "http://alfred.stlouisfed.org/series/downloaddata?seid=CSHICPMTA156NRUG",
+      "frequency": "annual",
+      "from_date": "1954-01-01",
+      "id": 9089825,
+      "name": "Share of Gross Capital Formation at Current Purchasing Power Parities for Malta",
+      "private": false,
+      "source_code": "ALFRED",
+      "source_name": "Archival Federal Reserve Economic Data",
+      "to_date": "2011-01-01",
+      "type": null,
+      "updated_at": "2014-01-10T11:29:24Z",
+      "urlize_name": "Share-of-Gross-Capital-Formation-at-Current-Purchasing-Power-Parities-for-Malta"
+    },
+    {
+      "code": "BO_532479",
+      "column_names": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume",
+        "Adjusted Close"
+      ],
+      "description": "Exchange : Bombay Stock Exchange. Key Statistics Currency: INR",
+      "display_url": "http://ichart.finance.yahoo.com/table.csv?s=532479.BO&d=31&e=12&f=2039&g=d&a=3&b=7&c=1902&ignore=.csv",
+      "frequency": "daily",
+      "from_date": null,
+      "id": 7958028,
+      "name": "532479: ISMT LTD - Bombay Stock Exchange",
+      "private": false,
+      "source_code": "YAHOO",
+      "source_name": "Yahoo Finance",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2013-11-26T09:49:57Z",
+      "urlize_name": "532479-ISMT-LTD-Bombay-Stock-Exchange"
+    },
+    {
+      "code": "IIUEHSSP1EHS38850",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Rate of injury and illness cases per 100 full-time workers; Case type: Other recordable cases; Industry: Education and health services; Supersector: Education and health services; Area: Local government, Vermont; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUEHSSP1EHS38850",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 9207321,
+      "name": "Rate of injury and illness cases per 100 full-time workers for Education and health services, Local government, Vermont",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-11-17T23:56:30Z",
+      "urlize_name": "Rate-of-injury-and-illness-cases-per-100-full-time-workers-for-Education-and-health-services-Local-government-Vermont"
+    },
+    {
+      "code": "EMP_DWAP_RT_SEX_F_AGE_AGGREGATE_TOTAL_LVA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 12554087,
+      "name": "Employment-To-Population Ratio Women - Annual - Latvia",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-29T05:43:39Z",
+      "urlize_name": "Employment-To-Population-Ratio-Women-Annual-Latvia"
+    },
+    {
+      "code": "V31238470",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "{\"Geography\"=>\"Canada\", \"Companies\"=>\"Vitamin C\", \"Employees and employee compensation\"=>\"Nutrients available\", \"Major occupational group\"=>\"Unspecified vegetables, canned\"}",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+      "frequency": "annual",
+      "from_date": "1976-12-31",
+      "id": 9856952,
+      "name": "003-0080: Railway transport survey, employees and employee compensation, by major occupational group",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-02-18T22:05:23Z",
+      "urlize_name": "003-0080-Railway-transport-survey-employees-and-employee-compensation-by-major-occupational-group"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_BTU_2123_DFO_IC_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.2123-DFO-IC.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.2123-DFO-IC.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 4999593,
+      "name": "Fuel Consumption Mmbtus : Columbia : Distillate Fuel Oil : Internal Combustion (diesel, Piston) Engine : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T01:45:42Z",
+      "urlize_name": "Fuel-Consumption-Mmbtus-Columbia-Distillate-Fuel-Oil-Internal-Combustion-diesel-Piston-Engine-Annual"
+    },
+    {
+      "code": "1293_001610951_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Without object, Power=1. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1293",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 8035462,
+      "name": "Statistical discrepancy: output side - Italy - Millions of euro, chain-linked volumes, reference year 2000 (at 2000 exchange rates)",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-08-27T10:07:22Z",
+      "urlize_name": "Statistical-discrepancy-output-side-Italy-Millions-of-euro-chain-linked-volumes-reference-year-2000-at-2000-exchange-rates"
+    },
+    {
+      "code": "NCU0099571720704",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Licensed practical nurses; Skills: Level 04 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU0099571720704",
+      "frequency": "annual",
+      "from_date": "2003-07-31",
+      "id": 8978362,
+      "name": "Compensation for Licensed practical nurses in Level 04",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-06-30",
+      "type": null,
+      "updated_at": "2013-11-14T21:09:06Z",
+      "urlize_name": "Compensation-for-Licensed-practical-nurses-in-Level-04"
+    },
+    {
+      "code": "POP_323_MAR_FEM_149",
+      "column_names": [
+        "Year",
+        "Total",
+        "Employer",
+        "Own account worker",
+        "Employee",
+        "Contributing family members",
+        "Unknown"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 2625719,
+      "name": "Employed Population by Status and Industry - Female / Manufacturing  (ISIC Rev.2: Major Division 3) Industry - Morocco",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2013-09-10T03:35:17Z",
+      "urlize_name": "Employed-Population-by-Status-and-Industry-Female-Manufacturing-ISIC-Rev-2-Major-Division-3-Industry-Morocco"
+    },
+    {
+      "code": "FAO_5101EASTERNAFRICATOTAL1800VEGETABLESMELONSTOTALTOTAL",
+      "column_names": [
+        "Year",
+        "Area Harvested (Ha)",
+        "Yield (Hg/Ha)",
+        "Production Quantity (tonnes)"
+      ],
+      "description": "The Agricultural Production domain covers quantity produced, producer price, value at farmgate, area harvested, yield per hectare. Users may note that a new methodology for imputing non-reported/missing Production domain data has been implemented in 2011.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Production_Crops_E_All_Area_Groups_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7645256,
+      "name": "Production Crops: Vegetables&Melons, Total + (Total) - Eastern Africa + (Total)",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T02:39:52Z",
+      "urlize_name": "Production-Crops-Vegetables-Melons-Total-Total-Eastern-Africa-Total"
+    },
+    {
+      "code": "AM_SHAREBASEDCOMPENSATIONARRANGEMENTBYSHAREBASEDPAYMENTAWARDFAIRVALUEASSUMPTIONSEXPECTEDTERM_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedTerm",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-02-28",
+      "id": 10066512,
+      "name": "AMERICAN GREETINGS CORP  (AM): Annual Share Based Compensation Arrangement By Share Based Payment Award Fair Value Assumptions Expected Term",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2011-02-28",
+      "type": null,
+      "updated_at": "2014-02-21T19:24:55Z",
+      "urlize_name": "AMERICAN-GREETINGS-CORP-AM-Annual-Share-Based-Compensation-Arrangement-By-Share-Based-Payment-Award-Fair-Value-Assumptions-Expected-Term"
+    },
+    {
+      "code": "COMM_83_LOCKPARTSETCOFBASEMETAL_EXPORT_BRA",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1989-12-31",
+      "id": 4423830,
+      "name": "Commodity Exports - Miscellaneous Articles Of Base Metal / Lock parts, etc, of base metal, - Brazil",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-12-29T01:27:19Z",
+      "urlize_name": "Commodity-Exports-Miscellaneous-Articles-Of-Base-Metal-Lock-parts-etc-of-base-metal-Brazil"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_3148_NG_ST_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mcf. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.3148-NG-ST.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.3148-NG-ST.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4878310,
+      "name": "Fuel Consumption Quantity : Ppl Martins Creek : Natural Gas : Steam Turbine : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T14:38:13Z",
+      "urlize_name": "Fuel-Consumption-Quantity-Ppl-Martins-Creek-Natural-Gas-Steam-Turbine-Annual"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_BTU_2146_DFO_ALL_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.2146-DFO-ALL.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.2146-DFO-ALL.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4999702,
+      "name": "Fuel Consumption Mmbtus : Monroe : Distillate Fuel Oil : All Primemovers : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T23:28:13Z",
+      "urlize_name": "Fuel-Consumption-Mmbtus-Monroe-Distillate-Fuel-Oil-All-Primemovers-Annual"
+    },
+    {
+      "code": "V61612963",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "{\"Geography\"=>\"Kawartha Lakes, Ontario\", \"North American Industry Classification System (NAICS)\"=>\"All families\", \"Type of client\"=>\"Families with 2 children\", nil=>\"Median total income (dollars)\"}",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 9856953,
+      "name": "111-0011: Commercial and industrial machinery and equipment rental and leasing, sales, by type of client based on the North American Industry Classification System (NAICS)",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-02-18T22:05:23Z",
+      "urlize_name": "111-0011-Commercial-and-industrial-machinery-and-equipment-rental-and-leasing-sales-by-type-of-client-based-on-the-North-American-Industry-Classification-System-NAICS"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_BTU_2162_DFO_ALL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.2162-DFO-ALL.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.2162-DFO-ALL.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2001-01-31",
+      "id": 5030884,
+      "name": "Fuel Consumption Mmbtus : Main Street : Distillate Fuel Oil : All Primemovers : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T23:35:27Z",
+      "urlize_name": "Fuel-Consumption-Mmbtus-Main-Street-Distillate-Fuel-Oil-All-Primemovers-Quarterly"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_BTU_2215_NG_ALL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT_BTU.2215-NG-ALL.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT_BTU.2215-NG-ALL.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2001-01-31",
+      "id": 5031010,
+      "name": "Fuel Consumption Mmbtus : Auburn : Natural Gas : All Primemovers : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T22:09:45Z",
+      "urlize_name": "Fuel-Consumption-Mmbtus-Auburn-Natural-Gas-All-Primemovers-Quarterly"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
+    },
+    {
+      "code": "CANSIM",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "www20.statcan.gc.ca",
+      "id": 1199,
+      "name": "Statistics Canada"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
+      "code": "ALFRED",
+      "datasets_count": 0,
+      "description": "ALFRED® provides vintage versions of historical economic data.",
+      "host": "alfred.stlouisfed.org",
+      "id": 2393,
+      "name": "Archival Federal Reserve Economic Data"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "YAHOO",
+      "datasets_count": 39271,
+      "description": "This data is NOT sourced directly from Yahoo.  It is however validated against Yahoo's data each day.",
+      "host": "ichart.finance.yahoo.com",
+      "id": 394,
+      "name": "Yahoo Finance"
+    },
+    {
+      "code": "ILOSTAT",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "ilo.org2",
+      "id": 10437,
+      "name": "ILOSTAT Database"
+    }
+  ],
+  "total_count": 10148784
+}

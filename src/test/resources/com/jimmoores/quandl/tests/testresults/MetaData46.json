@@ -1,0 +1,462 @@
+{
+  "current_page": 42238,
+  "docs": [
+    {
+      "code": "SWE_WP11656_1",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who currently have a loan they took out to purchase their home or apartment (% age 15+)\nOutstanding loan to purchase a home  (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/SWE/indicators/WP11656.1?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6454176,
+      "name": "Sweden: Outstanding loan to purchase a home  (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T06:35:43Z",
+      "urlize_name": "Sweden-Outstanding-loan-to-purchase-a-home-age-15"
+    },
+    {
+      "code": "DZA_DT_DIS_DLXF_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Disbursements on long-term debt are drawings by the borrower on loan commitments during the year specified. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in foreign currency, goods, or services. Data are in current U.S. dollars.\nDisbursements on external debt, long-term (DIS, current US$)",
+      "display_url": "http://api.worldbank.org/countries/DZA/indicators/DT.DIS.DLXF.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 297203,
+      "name": "Algeria: Disbursements on external debt, long-term (DIS, current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T21:53:18Z",
+      "urlize_name": "Algeria-Disbursements-on-external-debt-long-term-DIS-current-US"
+    },
+    {
+      "code": "SCST_PE_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing PE Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5334356,
+      "name": "SCS Transportation Inc ( SCST ) - Trailing PE Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T20:49:51Z",
+      "urlize_name": "SCS-Transportation-Inc-SCST-Trailing-PE-Ratio"
+    },
+    {
+      "code": "HLT_REV_GRO",
+      "column_names": [
+        "Date",
+        "Previous Year Growth in Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4554597,
+      "name": "Hilton Hotels ( HLT ) - Previous Year Growth in Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T12:53:20Z",
+      "urlize_name": "Hilton-Hotels-HLT-Previous-Year-Growth-in-Revenues"
+    },
+    {
+      "code": "MWI_MYS_PROP_7074_TER_MF",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Proportion, 70-74, total, tertiary is the proportion of the population age 70-74 with tertiary education.\nproportion, 70-74, total, tertiary",
+      "display_url": "http://api.worldbank.org/countries/MWI/indicators/MYS.PROP.7074.TER.MF?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 6575650,
+      "name": "Malawi: proportion, 70-74, total, tertiary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2050-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T18:10:34Z",
+      "urlize_name": "Malawi-proportion-70-74-total-tertiary"
+    },
+    {
+      "code": "CIRC_EBIT",
+      "column_names": [
+        "Date",
+        "Earnings Before Interest and Taxes"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 5990059,
+      "name": "CirTran Corp ( CIRC ) - Earnings Before Interest and Taxes",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T12:49:38Z",
+      "urlize_name": "CirTran-Corp-CIRC-Earnings-Before-Interest-and-Taxes"
+    },
+    {
+      "code": "IDN_WP11637_9",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who used a formal account in the past 12 months to send money to family members living elsewhere (% in the third, fourth, and fifth (highest) income quintiles (41st-100th percentile), age 15+)\nAccount used to send remittances , income quintiles III, IV, and V (highest)  (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/IDN/indicators/WP11637.9?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2239375,
+      "name": "Indonesia: Account used to send remittances , income quintiles III, IV, and V (highest)  (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T23:08:24Z",
+      "urlize_name": "Indonesia-Account-used-to-send-remittances-income-quintiles-III-IV-and-V-highest-age-15"
+    },
+    {
+      "code": "ZMB_AG_LND_CROP_HA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Permanent cropland is land cultivated with crops that occupy the land for long periods and need not be replanted after each harvest, such as cocoa, coffee, and rubber. This category includes land under flowering shrubs, fruit trees, nut trees, and vines, but excludes land under trees grown for wood or timber.\nPermanent cropland (hectares)",
+      "display_url": "http://api.worldbank.org/countries/ZMB/indicators/AG.LND.CROP.HA?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 2186022,
+      "name": "Zambia: Permanent cropland (hectares)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T22:38:06Z",
+      "urlize_name": "Zambia-Permanent-cropland-hectares"
+    },
+    {
+      "code": "DCPI_FIXED_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Fixed Assets to Total Assets"
+      ],
+      "description": "Estimated by dividing the cumulated book value of fixed assets, for the sector, by the cumulated total assets, for the sector. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5998577,
+      "name": "clark (dick) prods. ( DCPI ) - Ratio of Fixed Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T04:53:22Z",
+      "urlize_name": "clark-dick-prods-DCPI-Ratio-of-Fixed-Assets-to-Total-Assets"
+    },
+    {
+      "code": "EVRT_BETA_VL",
+      "column_names": [
+        "Date",
+        "Value Line Beta"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4407331,
+      "name": "Evertrust Fin'l Group Inc ( EVRT ) - Value Line Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T20:49:51Z",
+      "urlize_name": "Evertrust-Fin-l-Group-Inc-EVRT-Value-Line-Beta"
+    },
+    {
+      "code": "ITA_UIS_R_23_GPV_G6_F",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Repeaters in secondary. Grade 6. Female is the number of female pupils in the specified grade who are enrolled in the same grade for a second (or further) year. \nRepeaters in secondary. Grade 6. Female",
+      "display_url": "http://api.worldbank.org/countries/ITA/indicators/UIS.R.23.GPV.G6.F?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1971-12-31",
+      "id": 2240462,
+      "name": "Italy: Repeaters in secondary. Grade 6. Female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T06:58:42Z",
+      "urlize_name": "Italy-Repeaters-in-secondary-Grade-6-Female"
+    },
+    {
+      "code": "FUTURE_MPH1999",
+      "column_names": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Settle",
+        "Volume",
+        "Open Interest"
+      ],
+      "description": "Historical Futures Prices: Mexican Peso Futures, March 1999, MPH1999, Chicago Mercantile Exchange (CME). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
+      "display_url": "http://www.ofdp.org/futures/21661",
+      "frequency": "daily",
+      "from_date": "1998-03-05",
+      "id": 6846364,
+      "name": "Mexican Peso Futures, March 1999, MPH1999, CME",
+      "private": false,
+      "source_code": "OFDP",
+      "source_name": "Open Financial Data Project",
+      "to_date": "1999-03-15",
+      "type": null,
+      "updated_at": "2014-02-26T04:05:46Z",
+      "urlize_name": "Mexican-Peso-Futures-March-1999-MPH1999-CME"
+    },
+    {
+      "code": "MEX_WP11654_10",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who borrowed any money in the past 12 months from an employer (% living in an urban area, age 15+ )\nLoan from an employer in the past year, rural (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/MEX/indicators/WP11654.10?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2218875,
+      "name": "Mexico: Loan from an employer in the past year, rural (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:37:12Z",
+      "urlize_name": "Mexico-Loan-from-an-employer-in-the-past-year-rural-age-15"
+    },
+    {
+      "code": "PHL_DC_DAC_DNKL_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.\nNet bilateral aid flows from DAC donors, Denmark (current US$)",
+      "display_url": "http://api.worldbank.org/countries/PHL/indicators/DC.DAC.DNKL.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1969-12-31",
+      "id": 6599022,
+      "name": "Philippines: Net bilateral aid flows from DAC donors, Denmark (current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T02:07:56Z",
+      "urlize_name": "Philippines-Net-bilateral-aid-flows-from-DAC-donors-Denmark-current-US"
+    },
+    {
+      "code": "COKEOVENCOKEEXPORTS_ROU",
+      "column_names": [
+        "Year",
+        "Metric tons - thousand"
+      ],
+      "description": "The Energy Statistics Database contains comprehensive energy statistics on the production, trade, conversion and final consumption of primary and secondary; conventional and non-conventional; and new and renewable sources of energy. The Energy Statistics dataset, covering the period from 1990 onwards, is available at UNdata. For data prior to 1990, please refer to http://unstats.un.org/unsd/energy/edbase.htm.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 3095525,
+      "name": "Coke-oven Coke - Exports - Romania",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T20:48:23Z",
+      "urlize_name": "Coke-oven-Coke-Exports-Romania"
+    },
+    {
+      "code": "TON_UIS_XGDP_FSGOV_FDINSTADM_FFD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Total expenditure on educational institutions and administration as a % of GDP. Public sources. All levels is the expenditure coming from public sources spent education expressed as a % of GDP. This indicator excludes public transfers and payments to private entities.\nTotal expenditure on educational institutions and administration as a % of GDP. Public sources. All levels",
+      "display_url": "http://api.worldbank.org/countries/TON/indicators/UIS.XGDP.FSGOV.FDINSTADM.FFD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 2246830,
+      "name": "Tonga: Total expenditure on educational institutions and administration as a % of GDP. Public sources. All levels",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T22:56:10Z",
+      "urlize_name": "Tonga-Total-expenditure-on-educational-institutions-and-administration-as-a-of-GDP-Public-sources-All-levels"
+    },
+    {
+      "code": "14700_31",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The GHO data repository provides access to over 50 datasets on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others. More info at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=372",
+      "display_url": "http://apps.who.int/ghodata/cache/global/xls/vid.14700.xls",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 2811217,
+      "name": "Maternal mortality ratio (per 100 000 live births) - Country reported estimates - New Zealand",
+      "private": false,
+      "source_code": "WHO",
+      "source_name": "World Health Organization",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2013-06-20T19:34:33Z",
+      "urlize_name": "Maternal-mortality-ratio-per-100-000-live-births-Country-reported-estimates-New-Zealand"
+    },
+    {
+      "code": "MCITY_MEDIANSOLDPRICE_ALLHOMES_SOUTHBOROUGHMA",
+      "column_names": [
+        "Date",
+        "Southborough"
+      ],
+      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianSoldPrice_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "1996-05-31",
+      "id": 7053872,
+      "name": "Zillow Metrics (Cities): Median Sale Price - Southborough, MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:53:22Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-Sale-Price-Southborough-MA"
+    },
+    {
+      "code": "CIMA_EPS_GRO_EXP",
+      "column_names": [
+        "Date",
+        "Expected Growth in Earnings Per Share"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5989452,
+      "name": "CIMA Labs Inc ( CIMA ) - Expected Growth in Earnings Per Share",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T20:49:51Z",
+      "urlize_name": "CIMA-Labs-Inc-CIMA-Expected-Growth-in-Earnings-Per-Share"
+    },
+    {
+      "code": "YEM_UIS_T_3_V_F",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Teaching staff in upper secondary. Public and private. Full and part-time. Technical/vocational programmes. Female is the total number of female teachers in technical/vocational programmes in public and private upper secondary education institutions (ISCED 3). Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of pupils and students, irrespective of their qualifications or the delivery mechanism, i.e. face-to-face and/or at a distance. This definition excludes educational personnel who have no active teaching duties (e.g. headmasters, headmistresses or principals who do not teach) and persons who work occasionally or in a voluntary capacity in educational institutions.\nTeaching staff in upper secondary. Public and private. Full and part-time. Technical/vocational programmes. Female",
+      "display_url": "http://api.worldbank.org/countries/YEM/indicators/UIS.T.3.V.F?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 6505317,
+      "name": "Yemen, Rep.: Teaching staff in upper secondary. Public and private. Full and part-time. Technical/vocational programmes. Female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T23:08:26Z",
+      "urlize_name": "Yemen-Rep-Teaching-staff-in-upper-secondary-Public-and-private-Full-and-part-time-Technical-vocational-programmes-Female"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WHO",
+      "datasets_count": 21456,
+      "description": "",
+      "host": "apps.who.int",
+      "id": 525,
+      "name": "World Health Organization"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "OFDP",
+      "datasets_count": 898673,
+      "description": "OFDP archives and publishes financial data which is released to the public daily by trusted financial institutions.",
+      "host": "www.ofdp.org",
+      "id": 385,
+      "name": "Open Financial Data Project"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

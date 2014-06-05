@@ -1,0 +1,519 @@
+{
+  "current_page": 161111,
+  "docs": [
+    {
+      "code": "ESA_Q_NL_S_0000_LABPHW_1000_YA_B_L_N_A",
+      "column_names": [
+        "Date",
+        "2005"
+      ],
+      "description": " Netherlands - Hourly Labour Productivity: agricultural, Chain linked volumes, reference year 2005, National currency, Seasonally adjusted, not working day adjusted, , :, Dataset:ESA : ESA95 National Accounts Explanation page (Series and Dataset Level Information), Reference area:Netherlands (NL), Decimals:Two (2), Collection indicator:Summed through period (S), Compilation:ESA.Q.NL.S.0000.B1G000.1000.YA_B.L.N.A / ESA.Q.NL.S.1000.TOTEMP.0000.YA_B.N.H.A * 1000",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2120804&SERIES_KEY=119.ESA.Q.NL.S.0000.LABPHW.1000.YA_B.L.N.A&exportType=sdmx",
+      "frequency": "quarterly",
+      "from_date": "2002-03-31",
+      "id": 11522292,
+      "name": "Netherlands Hourly Labour Productivity: agricultural, Chain linked volumes, reference year 2005, National currency, Seasonally adjusted, not working day adjusted",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2011-03-31",
+      "type": null,
+      "updated_at": "2014-05-01T03:45:20Z",
+      "urlize_name": "Netherlands-Hourly-Labour-Productivity-agricultural-Chain-linked-volumes-reference-year-2005-National-currency-Seasonally-adjusted-not-working-day-adjusted"
+    },
+    {
+      "code": "POP_326_AZE_MAL_TOTAL",
+      "column_names": [
+        "Year",
+        "Total",
+        "One-person household",
+        "Nuclear household",
+        "Couple with children",
+        "Couple without children",
+        "Single parent with children",
+        "Non-nuclear household",
+        "Two or more familiy nuclei",
+        "Other"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 2627253,
+      "name": "Households by Type of Household and Age, Sex of Head - Male / Age Total - Azerbaijan",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T05:33:51Z",
+      "urlize_name": "Households-by-Type-of-Household-and-Age-Sex-of-Head-Male-Age-Total-Azerbaijan"
+    },
+    {
+      "code": "COMM_90_SLIDEPROJECTORS_IMPORT_WLF",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5833041,
+      "name": "Commodity Imports - Optical, Photo, Technical, Medical, Etc Apparatus / Slide projectors - Wallis and Futuna Islands",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T10:35:27Z",
+      "urlize_name": "Commodity-Imports-Optical-Photo-Technical-Medical-Etc-Apparatus-Slide-projectors-Wallis-and-Futuna-Islands"
+    },
+    {
+      "code": "LFSO_06REDNSAGE_367",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Results from the 2006 LFS (Labour Force Survey) ad hoc module on 'transition form work into retirement'.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/lfso_06_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Flfso_06rednsage.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 868202,
+      "name": "Number of not employed persons having reduced their working hours in a move to full retirement  by sex and age 1 000  : Not employed persons : Males : From 50 to 59 years : Not applicable : European Community (12 countries)",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2013-05-14T13:48:15Z",
+      "urlize_name": "Number-of-not-employed-persons-having-reduced-their-working-hours-in-a-move-to-full-retirement-by-sex-and-age-1-000-Not-employed-persons-Males-From-50-to-59-years-Not-applicable-European-Community-12-countries"
+    },
+    {
+      "code": "HTA_OFFERINGCOSTSTRANSFERREDTOEQUITY_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OfferingCostsTransferredToEquity",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-03-31",
+      "id": 10605922,
+      "name": "HEALTHCARE TRUST OF AMERICA, INC.  (HTA): Quarterly Offering Costs Transferred To Equity",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-07T04:33:30Z",
+      "urlize_name": "HEALTHCARE-TRUST-OF-AMERICA-INC-HTA-Quarterly-Offering-Costs-Transferred-To-Equity"
+    },
+    {
+      "code": "SPWRA_OTHERLIABILITIESCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherLiabilitiesCurrent",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2011-01-02",
+      "id": 10605918,
+      "name": "SUNPOWER CORP  (SPWRA): Quarterly Other Liabilities Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-03-07T04:42:49Z",
+      "urlize_name": "SUNPOWER-CORP-SPWRA-Quarterly-Other-Liabilities-Current"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_54569_NG_IC_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mcf. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.54569-NG-IC.M",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.54569-NG-IC.M&out=xml",
+      "frequency": "monthly",
+      "from_date": "2005-01-31",
+      "id": 4888815,
+      "name": "Fuel Consumption Quantity : Bayville Central Facility : Natural Gas : Internal Combustion (diesel, Piston) Engine : Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T01:57:31Z",
+      "urlize_name": "Fuel-Consumption-Quantity-Bayville-Central-Facility-Natural-Gas-Internal-Combustion-diesel-Piston-Engine-Monthly"
+    },
+    {
+      "code": "FVE_TAXCREDITCARRYFORWARDAMOUNT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: TaxCreditCarryforwardAmount",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10853941,
+      "name": "FIVE STAR QUALITY CARE INC  (FVE): Quarterly Tax Credit Carryforward Amount",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T16:16:32Z",
+      "urlize_name": "FIVE-STAR-QUALITY-CARE-INC-FVE-Quarterly-Tax-Credit-Carryforward-Amount"
+    },
+    {
+      "code": "COMM_72_RUBIESSAPPHIRESANDEMERALDSWORKEDBUTNOTSET_EXPORT_SVK",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 4125912,
+      "name": "Commodity Exports - Pearls, Precious Stones, Metals, Coins, Etc / Rubies, sapphires and emeralds worked but not set - Slovakia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T10:08:59Z",
+      "urlize_name": "Commodity-Exports-Pearls-Precious-Stones-Metals-Coins-Etc-Rubies-sapphires-and-emeralds-worked-but-not-set-Slovakia"
+    },
+    {
+      "code": "POP_22_MNG_MAL_TOT_98",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "1967-12-31",
+      "id": 2726021,
+      "name": "Population - Male / Age 98 / Total Areas - Mongolia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T10:44:31Z",
+      "urlize_name": "Population-Male-Age-98-Total-Areas-Mongolia"
+    },
+    {
+      "code": "IIULEHSP2AER62749",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Number of injury and illness cases (thousands); Case type: Cases involving days away from work, job restriction, or transfer; Industry: Arts, entertainment, and recreation; Supersector: Leisure and hospitality; Area: State government, Utah; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIULEHSP2AER62749",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 9394237,
+      "name": "Number of injury and illness cases (thousands) for Arts, entertainment, and recreation, State government, Utah",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2013-11-22T20:39:57Z",
+      "urlize_name": "Number-of-injury-and-illness-cases-thousands-for-Arts-entertainment-and-recreation-State-government-Utah"
+    },
+    {
+      "code": "COMM_84_CENTRALHEATINGBOILERSNES_REIMPORT_MDA",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 4824979,
+      "name": "Commodity Re-Imports - Nuclear Reactors, Boilers, Machinery, Etc / Central heating boilers nes - Republic of Moldova",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T11:00:24Z",
+      "urlize_name": "Commodity-Re-Imports-Nuclear-Reactors-Boilers-Machinery-Etc-Central-heating-boilers-nes-Republic-of-Moldova"
+    },
+    {
+      "code": "ENZ_STOCK_PX",
+      "column_names": [
+        "Date",
+        "Stock Price"
+      ],
+      "description": "Units: dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-07-31",
+      "id": 6019882,
+      "name": "Enzo Biochem ( ENZ ) - Stock Price",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-07-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:35:39Z",
+      "urlize_name": "Enzo-Biochem-ENZ-Stock-Price"
+    },
+    {
+      "code": "COMM_63_WOMENSGIRLSSUITSOFMATERIALNESNOTKNIT_EXPORT_AUT",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 3887071,
+      "name": "Commodity Exports - Articles Of Apparel, Accessories, Not Knit Or Crochet / Womens, girls suits, of material nes, not knit - Austria",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-04-15T00:11:46Z",
+      "urlize_name": "Commodity-Exports-Articles-Of-Apparel-Accessories-Not-Knit-Or-Crochet-Womens-girls-suits-of-material-nes-not-knit-Austria"
+    },
+    {
+      "code": "FAO_5301CENTRALASIATOTAL2549PULSESOTHER",
+      "column_names": [
+        "Year",
+        "Production Quantity (1000 tonnes)",
+        "Import Quantity (1000 tonnes)",
+        "Stock Variation (1000 tonnes)",
+        "Export Quantity (1000 tonnes)",
+        "Domestic supply quantity (1000 tonnes)",
+        "Feed (1000 tonnes)",
+        "Seed (1000 tonnes)",
+        "Waste (1000 tonnes)",
+        "Food (1000 tonnes)",
+        "Food supply quantity (kg/capita/yr) (Kg)",
+        "Food supply (kcal/capita/day) (kcal/capita/day)",
+        "Protein supply quantity (g/capita/day) (g/capita/day)",
+        "Fat supply quantity (g/capita/day) (g/capita/day)"
+      ],
+      "description": "A food balance sheet presents a comprehensive picture of the pattern of a country's food supply during a specified reference period. The food balance sheet shows for each food item i.e. each primary commodity availablity for human consumption which corresponds to the sources of supply and its utilisation. The total quantity of foodstuffs produced in a country added to the total quantity imported and adjusted to any change in stocks that may have occurred since the beginning of the reference period gives the supply available during that period. On the utilisation side a distinction is made between the quantities exported, fed to livestock + used for seed, losses during storage and transportation, and food supplies available for human consumption. The per capita supply of each such food item available for human consumption is then obtained by dividing the respective quantity by the related data on the population actually partaking in it. Data on per capita food supplies are expressed in terms of quantity and by applying appropriate food composition factors for all primary and processed products also in terms of dietary energy value, protein and fat content.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/FoodBalanceSheets_E_All_Area_Groups_1.zip",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 7787417,
+      "name": "Food Balance Sheets: Pulses, Other - Central Asia + (Total)",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T09:55:11Z",
+      "urlize_name": "Food-Balance-Sheets-Pulses-Other-Central-Asia-Total"
+    },
+    {
+      "code": "1033_001657337_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Without object, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1033",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "monthly",
+      "from_date": "2008-04-30",
+      "id": 8277117,
+      "name": "Hourly wage rate indice for laborers and white-collar workers - Manufacture of electrical equipment, computer, electronic products - NAF rev. 2 - Level A38 - Item CI - Base 100 in Quarter 4 of 2008",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-01-09T14:31:04Z",
+      "urlize_name": "Hourly-wage-rate-indice-for-laborers-and-white-collar-workers-Manufacture-of-electrical-equipment-computer-electronic-products-NAF-rev-2-Level-A38-Item-CI-Base-100-in-Quarter-4-of-2008"
+    },
+    {
+      "code": "COMM_63_WOMENSGIRLSSUITSOFCOTTONNOTKNIT_IMPORT_MRT",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3936479,
+      "name": "Commodity Imports - Articles Of Apparel, Accessories, Not Knit Or Crochet / Womens, girls suits, of cotton, not knit - Mauritania",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T11:10:56Z",
+      "urlize_name": "Commodity-Imports-Articles-Of-Apparel-Accessories-Not-Knit-Or-Crochet-Womens-girls-suits-of-cotton-not-knit-Mauritania"
+    },
+    {
+      "code": "SPWRA_OTHERNONOPERATINGINCOMEEXPENSE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherNonoperatingIncomeExpense",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-07-04",
+      "id": 10605963,
+      "name": "SUNPOWER CORP  (SPWRA): Quarterly Other Nonoperating Income Expense",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-29",
+      "type": null,
+      "updated_at": "2014-03-07T04:44:36Z",
+      "urlize_name": "SUNPOWER-CORP-SPWRA-Quarterly-Other-Nonoperating-Income-Expense"
+    },
+    {
+      "code": "BMU_SE_TER_GRAD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Total graduates in all programmes. Tertiary. Total is the total number of graduates in all programmes in tertiary institutions.\nGraduates, tertiary, total",
+      "display_url": "http://api.worldbank.org/countries/BMU/indicators/SE.TER.GRAD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 96832,
+      "name": "Bermuda: Graduates, tertiary, total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T19:56:52Z",
+      "urlize_name": "Bermuda-Graduates-tertiary-total"
+    },
+    {
+      "code": "UIS_PRIMARYEDUCATIONISCED1REPETITIONRATEGRADE1__ALLGENDERS_BRN",
+      "column_names": [
+        "Year",
+        "Percent"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1975-12-31",
+      "id": 3553083,
+      "name": "Primary education (ISCED 1) Repetition rate Grade 1 / All genders - Brunei Darussalam",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T14:31:42Z",
+      "urlize_name": "Primary-education-ISCED-1-Repetition-rate-Grade-1-All-genders-Brunei-Darussalam"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ECB",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "sdw.ecb.europa.eu",
+      "id": 8917,
+      "name": "European Central Bank"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

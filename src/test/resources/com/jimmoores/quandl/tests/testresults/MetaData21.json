@@ -1,0 +1,425 @@
+{
+  "current_page": 120119,
+  "docs": [
+    {
+      "code": "SDN_GB_DOD_FRGN_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Foreign debt consists of the outstanding stock or recognized, direct liabilities of the government to the rest of the world, generated in the  past and scheduled to be extinguished by government operations in the future or to continue as perpetual debt. Data are in current U.S. dollars.  \nExternal debt, end year (current US$)",
+      "display_url": "http://api.worldbank.org/countries/SDN/indicators/GB.DOD.FRGN.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 2213054,
+      "name": "Sudan: External debt, end year (current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-01-14T18:08:34Z",
+      "urlize_name": "Sudan-External-debt-end-year-current-US"
+    },
+    {
+      "code": "MZIP_PRICETORENTRATIO_ALLHOMES_41074",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7432393,
+      "name": "Zillow Metrics (Zip Codes): Price-to-Rent Ratio - 41074,Dayton,KY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:38:01Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Price-to-Rent-Ratio-41074-Dayton-KY"
+    },
+    {
+      "code": "MZIP_MEDIANPCTOFPRICEREDUCTION_ALLHOMES_11563",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the percentage of price reduction for homes whose prices have been reduced in the past full month. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianPctOfPriceReduction_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-03-31",
+      "id": 7363784,
+      "name": "Zillow Metrics (Zip Codes): Median Price Cut (%) - 11563,Lynbrook,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T11:05:37Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Price-Cut-11563-Lynbrook-NY"
+    },
+    {
+      "code": "MZIP_PRICETORENTRATIO_ALLHOMES_33921",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7433346,
+      "name": "Zillow Metrics (Zip Codes): Price-to-Rent Ratio - 33921,Boca Grande,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:38:01Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Price-to-Rent-Ratio-33921-Boca-Grande-FL"
+    },
+    {
+      "code": "MZIP_MEDIANPCTOFPRICEREDUCTION_ALLHOMES_44201",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the percentage of price reduction for homes whose prices have been reduced in the past full month. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianPctOfPriceReduction_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7366803,
+      "name": "Zillow Metrics (Zip Codes): Median Price Cut (%) - 44201,Atwater,OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-02-28",
+      "type": null,
+      "updated_at": "2014-05-08T11:05:38Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Price-Cut-44201-Atwater-OH"
+    },
+    {
+      "code": "MZIP_PRICETORENTRATIO_ALLHOMES_33472",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7429267,
+      "name": "Zillow Metrics (Zip Codes): Price-to-Rent Ratio - 33472,Boynton Beach,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T18:59:19Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Price-to-Rent-Ratio-33472-Boynton-Beach-FL"
+    },
+    {
+      "code": "MZIP_PRICETORENTRATIO_ALLHOMES_53705",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7427448,
+      "name": "Zillow Metrics (Zip Codes): Price-to-Rent Ratio - 53705,Town of Madison,WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:37:02Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Price-to-Rent-Ratio-53705-Town-of-Madison-WI"
+    },
+    {
+      "code": "MZIP_PRICETORENTRATIO_ALLHOMES_94030",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7428662,
+      "name": "Zillow Metrics (Zip Codes): Price-to-Rent Ratio - 94030,Millbrae,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:37:39Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Price-to-Rent-Ratio-94030-Millbrae-CA"
+    },
+    {
+      "code": "MZIP_PRICETORENTRATIO_ALLHOMES_34482",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7429314,
+      "name": "Zillow Metrics (Zip Codes): Price-to-Rent Ratio - 34482,Ocala,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:37:58Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Price-to-Rent-Ratio-34482-Ocala-FL"
+    },
+    {
+      "code": "FJI_SH_DYN_NMRT",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Level & Trends in Child Mortality. Estimates Developed by the UN Inter-agency Group for Child Mortality Estimation (UNICEF, WHO, World Bank, UN DESA, UNPD).\nMortality rate, neonatal (per 1,000 live births)",
+      "display_url": "http://api.worldbank.org/countries/FJI/indicators/SH.DYN.NMRT?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 323423,
+      "name": "Fiji: Mortality rate, neonatal (per 1,000 live births)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-18T23:58:04Z",
+      "urlize_name": "Fiji-Mortality-rate-neonatal-per-1-000-live-births"
+    },
+    {
+      "code": "FJI_SH_HIV_1524_MA_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Prevalence of HIV is the percentage of people who are infected with HIV. Youth rates are as a percentage of the relevant age group.\nPrevalence of HIV, male (% ages 15-24)",
+      "display_url": "http://api.worldbank.org/countries/FJI/indicators/SH.HIV.1524.MA.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 323432,
+      "name": "Fiji: Prevalence of HIV, male (% ages 15-24)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T07:46:06Z",
+      "urlize_name": "Fiji-Prevalence-of-HIV-male-ages-15-24"
+    },
+    {
+      "code": "MZIP_MEDIANPCTOFPRICEREDUCTION_ALLHOMES_49646",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the percentage of price reduction for homes whose prices have been reduced in the past full month. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianPctOfPriceReduction_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-03-31",
+      "id": 7587945,
+      "name": "Zillow Metrics (Zip Codes): Median Price Cut (%) - 49646,Kalkaska,MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T11:05:38Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Price-Cut-49646-Kalkaska-MI"
+    },
+    {
+      "code": "MZIP_PRICETORENTRATIO_ALLHOMES_33843",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7430261,
+      "name": "Zillow Metrics (Zip Codes): Price-to-Rent Ratio - 33843,Frostproof,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:36:13Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Price-to-Rent-Ratio-33843-Frostproof-FL"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_34238",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-03-31",
+      "id": 7285063,
+      "name": "Zillow Metrics (Zip Codes): Sold for Loss (%) - 34238,Vamo,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T15:17:32Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-for-Loss-34238-Vamo-FL"
+    },
+    {
+      "code": "MZIP_PRICETORENTRATIO_ALLHOMES_98601",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7433267,
+      "name": "Zillow Metrics (Zip Codes): Price-to-Rent Ratio - 98601,Amboy,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T15:55:54Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Price-to-Rent-Ratio-98601-Amboy-WA"
+    },
+    {
+      "code": "MZIP_MEDIANLISTINGPRICEPERSQFT_ALLHOMES_06037",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of list prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianListingPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7447435,
+      "name": "Zillow Metrics (Zip Codes): Median List Price per Sq. Ft. - 06037,  Berlin,  CT",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T23:50:16Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-List-Price-per-Sq-Ft-06037-Berlin-CT"
+    },
+    {
+      "code": "FJI_SE_PRM_TCHR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Teaching staff in primary. Public and private. Full and part-time. All programmes. Total is the total number of teachers in public and private primary education institutions. Teachers are persons employed full time or part time in an official capacity to guide and direct the learning experience of pupils and students, irrespective of their qualifications or the delivery mechanism, i.e. face-to-face and/or at a distance. This definition excludes educational personnel who have no active teaching duties (e.g. headmasters, headmistresses or principals who do not teach) and persons who work occasionally or in a voluntary capacity in educational institutions.\nPrimary education, teachers",
+      "display_url": "http://api.worldbank.org/countries/FJI/indicators/SE.PRM.TCHR?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1981-12-31",
+      "id": 329303,
+      "name": "Fiji: Primary education, teachers",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T00:17:33Z",
+      "urlize_name": "Fiji-Primary-education-teachers"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_92308",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-01-31",
+      "id": 7535206,
+      "name": "Zillow Metrics (Zip Codes): Sold for Loss (%) - 92308,Apple Valley,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T15:23:04Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-for-Loss-92308-Apple-Valley-CA"
+    },
+    {
+      "code": "MZIP_PRICETORENTRATIO_ALLHOMES_29054",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7431074,
+      "name": "Zillow Metrics (Zip Codes): Price-to-Rent Ratio - 29054,Gilbert,SC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:39:54Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Price-to-Rent-Ratio-29054-Gilbert-SC"
+    },
+    {
+      "code": "MZIP_MEDIANSOLDPRICE_ALLHOMES_07208",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPrice_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "1996-06-30",
+      "id": 7444544,
+      "name": "Zillow Metrics (Zip Codes): Median Sale Price - 07208,  Elizabeth,  NJ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:37:01Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-07208-Elizabeth-NJ"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

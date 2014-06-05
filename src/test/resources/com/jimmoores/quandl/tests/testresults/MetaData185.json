@@ -1,0 +1,459 @@
+{
+  "current_page": 72140,
+  "docs": [
+    {
+      "code": "LIQUEFIEDPETROLEUMGASLPGCONSUMPTIONINROADTRANSPORT_PRY",
+      "column_names": [
+        "Year",
+        "Metric tons - thousand"
+      ],
+      "description": "The Energy Statistics Database contains comprehensive energy statistics on the production, trade, conversion and final consumption of primary and secondary; conventional and non-conventional; and new and renewable sources of energy. The Energy Statistics dataset, covering the period from 1990 onwards, is available at UNdata. For data prior to 1990, please refer to http://unstats.un.org/unsd/energy/edbase.htm.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 3124280,
+      "name": "Liquefied Petroleum Gas (lpg) - Consumption In Road Transport - Paraguay",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T03:43:38Z",
+      "urlize_name": "Liquefied-Petroleum-Gas-lpg-Consumption-In-Road-Transport-Paraguay"
+    },
+    {
+      "code": "SMMF_MKT_CAP",
+      "column_names": [
+        "Date",
+        "Market Capitalization"
+      ],
+      "description": "Estimated market value of equity, obtained by multiplying the number of shares outstanding by the share price. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 5442056,
+      "name": "Summit Financial Group Inc. ( SMMF ) - Market Capitalization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T09:32:35Z",
+      "urlize_name": "Summit-Financial-Group-Inc-SMMF-Market-Capitalization"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_TUXEDONY",
+      "column_names": [
+        "Date",
+        "Tuxedo"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2012-08-31",
+      "id": 7319031,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Tuxedo, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2012-09-30",
+      "type": null,
+      "updated_at": "2014-05-15T18:33:33Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Tuxedo-NY"
+    },
+    {
+      "code": "HILL_EV_SALES",
+      "column_names": [
+        "Date",
+        "EV To Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4540333,
+      "name": "Dot Hill Systems Corp. ( HILL ) - EV To Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T09:32:55Z",
+      "urlize_name": "Dot-Hill-Systems-Corp-HILL-EV-To-Sales-Ratio"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_TAHOECITYCA",
+      "column_names": [
+        "Date",
+        "Tahoe City"
+      ],
+      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForGain_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-04-30",
+      "id": 7133463,
+      "name": "Zillow Metrics (Cities): Sold for Gain (%) - Tahoe City, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:02:30Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Gain-Tahoe-City-CA"
+    },
+    {
+      "code": "ITA_SP_POP_AG25_FE_IN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Age population, female refers to female population at the specified age level, as estimated by World Bank staff.\nAge population, age 25, female, interpolated",
+      "display_url": "http://api.worldbank.org/countries/ITA/indicators/SP.POP.AG25.FE.IN?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1960-12-31",
+      "id": 390059,
+      "name": "Italy: Age population, age 25, female, interpolated",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T22:00:40Z",
+      "urlize_name": "Italy-Age-population-age-25-female-interpolated"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESSOLD_ALLHOMES_SOUTHERNHILLSCONDOSNASHVILLETN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Total number of homes sold during the prior 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesSold_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-03-31",
+      "id": 7536674,
+      "name": "Zillow Metrics (Neighborhoods): Total Homes Sold - Southern Hills Condos,Nashville,TN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2006-06-30",
+      "type": null,
+      "updated_at": "2014-01-09T10:58:09Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Total-Homes-Sold-Southern-Hills-Condos-Nashville-TN"
+    },
+    {
+      "code": "CITY_3BEDROOM_SPRINGVALLEYTX",
+      "column_names": [
+        "Date",
+        "Spring Valley"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the city of Spring Valley, TX. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7016233,
+      "name": "Zillow Home Value Index (Cities): Three Bedroom Homes - Spring Valley, TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:03:57Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Three-Bedroom-Homes-Spring-Valley-TX"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESSOLD_ALLHOMES_OAKHURSTCHARLOTTENC",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Total number of homes sold during the prior 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesSold_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1999-11-30",
+      "id": 6933322,
+      "name": "Zillow Metrics (Neighborhoods): Total Homes Sold - Oakhurst,Charlotte,NC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2007-07-31",
+      "type": null,
+      "updated_at": "2014-01-09T10:59:00Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Total-Homes-Sold-Oakhurst-Charlotte-NC"
+    },
+    {
+      "code": "CAMP_ROE",
+      "column_names": [
+        "Date",
+        "Return on Equity"
+      ],
+      "description": "Estimated by dividing the net income by the book value of equity. If book value of equity is negative, this is not estimated. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-02-28",
+      "id": 3958442,
+      "name": "Calamp ( CAMP ) - Return on Equity",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-02-28",
+      "type": null,
+      "updated_at": "2014-03-22T09:34:29Z",
+      "urlize_name": "Calamp-CAMP-Return-on-Equity"
+    },
+    {
+      "code": "EEGC_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 6009877,
+      "name": "Empire Energy Corporation Int ( EEGC ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T14:40:02Z",
+      "urlize_name": "Empire-Energy-Corporation-Int-EEGC-Trailing-Net-Income"
+    },
+    {
+      "code": "SKUL_BV_EQTY",
+      "column_names": [
+        "Date",
+        "Book Value of Equity"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2012-12-31",
+      "id": 5429843,
+      "name": "Skullcandy Inc. ( SKUL ) - Book Value of Equity",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T01:23:06Z",
+      "urlize_name": "Skullcandy-Inc-SKUL-Book-Value-of-Equity"
+    },
+    {
+      "code": "AUS_BAR_SEC_CMPT_6569_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage of population, 65-69, total, completed secondary is the percentage of people age 65-69 who have completed secondary education.\npercentage of population (15+), 65-69, total, completed secondary",
+      "display_url": "http://api.worldbank.org/countries/AUS/indicators/BAR.SEC.CMPT.6569.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 197044,
+      "name": "Australia: percentage of population (15+), 65-69, total, completed secondary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T18:08:07Z",
+      "urlize_name": "Australia-percentage-of-population-15-65-69-total-completed-secondary"
+    },
+    {
+      "code": "ERI_IC_FRM_INNOV_T5",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percent of firms having their own Web site.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/innovation-and-technology).\nPercent of firms having their own Web site",
+      "display_url": "http://api.worldbank.org/countries/ERI/indicators/IC.FRM.INNOV.T5?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 2073706,
+      "name": "Eritrea: Percent of firms having their own Web site",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T21:03:26Z",
+      "urlize_name": "Eritrea-Percent-of-firms-having-their-own-Web-site"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESSOLD_ALLHOMES_CAMBRIACA",
+      "column_names": [
+        "Date",
+        "Cambria"
+      ],
+      "description": "Total number of homes sold during the prior 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesSold_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-08-31",
+      "id": 7208435,
+      "name": "Zillow Metrics (Cities): Total Homes Sold - Cambria, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-01-09T10:58:58Z",
+      "urlize_name": "Zillow-Metrics-Cities-Total-Homes-Sold-Cambria-CA"
+    },
+    {
+      "code": "10500_158",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The GHO data repository provides access to over 50 datasets on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others. More info at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=94",
+      "display_url": "http://apps.who.int/ghodata/cache/global/xls/vid.10500.xls",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 2802850,
+      "name": "Gross national income per capita (PPP int. $) - Indonesia",
+      "private": false,
+      "source_code": "WHO",
+      "source_name": "World Health Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-06-20T19:33:48Z",
+      "urlize_name": "Gross-national-income-per-capita-PPP-int-Indonesia"
+    },
+    {
+      "code": "GIN_MYS_PROP_4549_TER_MF",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Proportion, 45-49, total, tertiary is the proportion of the population age 45-49 with tertiary education.\nproportion, 45-49, total, tertiary",
+      "display_url": "http://api.worldbank.org/countries/GIN/indicators/MYS.PROP.4549.TER.MF?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 346441,
+      "name": "Guinea: proportion, 45-49, total, tertiary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2050-12-31",
+      "type": null,
+      "updated_at": "2014-05-18T22:59:10Z",
+      "urlize_name": "Guinea-proportion-45-49-total-tertiary"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESSOLD_ALLHOMES_LIMESTONETN",
+      "column_names": [
+        "Date",
+        "Limestone"
+      ],
+      "description": "Total number of homes sold during the prior 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesSold_AllHomes.csv",
+      "frequency": "annual",
+      "from_date": "1998-01-31",
+      "id": 7207432,
+      "name": "Zillow Metrics (Cities): Total Homes Sold - Limestone, TN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-07-31",
+      "type": null,
+      "updated_at": "2014-01-09T10:58:20Z",
+      "urlize_name": "Zillow-Metrics-Cities-Total-Homes-Sold-Limestone-TN"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_FARMINGDALENY",
+      "column_names": [
+        "Date",
+        "Farmingdale"
+      ],
+      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForGain_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7126121,
+      "name": "Zillow Metrics (Cities): Sold for Gain (%) - Farmingdale, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:33:36Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Gain-Farmingdale-NY"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESINCREASINGINVALUES_ALLHOMES_IVESESTATESFL",
+      "column_names": [
+        "Date",
+        "Ives Estates"
+      ],
+      "description": "The percentage of homes whose values have increased in the past year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesIncreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-03-31",
+      "id": 7135520,
+      "name": "Zillow Metrics (Cities): Increasing Values (%) - Ives Estates, FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:17:15Z",
+      "urlize_name": "Zillow-Metrics-Cities-Increasing-Values-Ives-Estates-FL"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "concurrency": 20,
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data",
+      "use_proxy": false
+    },
+    {
+      "code": "ZILLOW",
+      "concurrency": 20,
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research",
+      "use_proxy": false
+    },
+    {
+      "code": "WHO",
+      "concurrency": 20,
+      "datasets_count": 21456,
+      "description": "",
+      "host": "apps.who.int",
+      "id": 525,
+      "name": "World Health Organization",
+      "use_proxy": false
+    },
+    {
+      "code": "UN",
+      "concurrency": 10000,
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations",
+      "use_proxy": false
+    },
+    {
+      "code": "WORLDBANK",
+      "concurrency": 400,
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank",
+      "use_proxy": false
+    }
+  ],
+  "total_count": 10148784
+}

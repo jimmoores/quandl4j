@@ -1,0 +1,484 @@
+{
+  "current_page": 240461,
+  "docs": [
+    {
+      "code": "V65506642",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "{\"Geography\"=>\"Quebec\", \"Labour statistics\"=>\"Total compensation per job (dollars)\", \"Industry\"=>\"Traveller accommodation\"}",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 9948266,
+      "name": "383-0030: Labour statistics by business sector industry and by non-commercial activity consistent with the industry accounts, provinces and territories",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-19T01:25:51Z",
+      "urlize_name": "383-0030-Labour-statistics-by-business-sector-industry-and-by-non-commercial-activity-consistent-with-the-industry-accounts-provinces-and-territories"
+    },
+    {
+      "code": "COMM_62_WOMENSGIRLSBLOUSESSHIRTSMANMADEFIBREKNIT_EXPORT_ZAF",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3869339,
+      "name": "Commodity Exports - Articles Of Apparel, Accessories, Knit Or Crochet / Womens, girls blouses & shirts, manmade fibre, knit - South Africa",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T12:15:13Z",
+      "urlize_name": "Commodity-Exports-Articles-Of-Apparel-Accessories-Knit-Or-Crochet-Womens-girls-blouses-shirts-manmade-fibre-knit-South-Africa"
+    },
+    {
+      "code": "EMP_XEES_ECO1_OCU1_NB_ECO_ISIC4_R_OCU_ISCO08_TOTAL_ARG",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5897466,
+      "name": "Paid Employment By Economic Activity And Occupation, Arts, Entertainment And Recreation, Total - Argentina",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-21T09:02:59Z",
+      "urlize_name": "Paid-Employment-By-Economic-Activity-And-Occupation-Arts-Entertainment-And-Recreation-Total-Argentina"
+    },
+    {
+      "code": "FALC_COMMONSTOCKSHARESOUTSTANDING_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CommonStockSharesOutstanding",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 11083220,
+      "name": "FALCONSTOR SOFTWARE INC  (FALC): Annual Common Stock Shares Outstanding",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-17T22:21:28Z",
+      "urlize_name": "FALCONSTOR-SOFTWARE-INC-FALC-Annual-Common-Stock-Shares-Outstanding"
+    },
+    {
+      "code": "POP_50_LVA_FEM_TOT_35TO39",
+      "column_names": [
+        "Year",
+        "All households"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 2596099,
+      "name": "Households by Age, Sex of Head - Female / Age 35 to 39 / Total Areas - Latvia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T23:00:37Z",
+      "urlize_name": "Households-by-Age-Sex-of-Head-Female-Age-35-to-39-Total-Areas-Latvia"
+    },
+    {
+      "code": "V4335649",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "{\"Geography\"=>\"Rural Health Region, Prince Edward Island\", \"Age group\"=>\"1-4 years\", \"Sex\"=>\"Both sexes\"}",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 9789318,
+      "name": "109-5005: Population, by age group and sex, Canada, provinces, territories and health regions, *Terminated*",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "1998-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T20:14:17Z",
+      "urlize_name": "109-5005-Population-by-age-group-and-sex-Canada-provinces-territories-and-health-regions-Terminated"
+    },
+    {
+      "code": "POL_OPERATINGLEASESFUTUREMINIMUMPAYMENTSDUEINTWOYEARS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OperatingLeasesFutureMinimumPaymentsDueInTwoYears",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10152836,
+      "name": "POLYONE CORP  (POL): Quarterly Operating Leases Future Minimum Payments Due In Two Years",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T16:31:43Z",
+      "urlize_name": "POLYONE-CORP-POL-Quarterly-Operating-Leases-Future-Minimum-Payments-Due-In-Two-Years"
+    },
+    {
+      "code": "COMM_85_SIGNALGENERATORS_REEXPORT_KEN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 5597344,
+      "name": "Commodity Re-Exports - Electrical, Electronic Equipment / Signal generators - Kenya",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2013-07-11T22:39:13Z",
+      "urlize_name": "Commodity-Re-Exports-Electrical-Electronic-Equipment-Signal-generators-Kenya"
+    },
+    {
+      "code": "IIUMFG32300068115",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Number of injury and illness cases (thousands); Case type: Other recordable cases; Industry: Printing and related support activities; Supersector: Manufacturing; Area: Private industry, Hawaii; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUMFG32300068115",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 9469353,
+      "name": "Number of injury and illness cases (thousands) for Printing and related support activities, Private industry, Hawaii",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-11-28T19:20:11Z",
+      "urlize_name": "Number-of-injury-and-illness-cases-thousands-for-Printing-and-related-support-activities-Private-industry-Hawaii"
+    },
+    {
+      "code": "VAL_TOBACCOPRODUCTS_FJI",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 3300803,
+      "name": "Value Added (Local Currency) / Tobacco products - Fiji",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T17:51:24Z",
+      "urlize_name": "Value-Added-Local-Currency-Tobacco-products-Fiji"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_EG_BTU_6543_WAT_HY_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.6543-WAT-HY.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.6543-WAT-HY.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2003-01-31",
+      "id": 5051583,
+      "name": "Electric Fuel Consumption Mmbtus : Firstenergy Dam 4 : Conventional Hydroelectric : Hydraulic Turbine : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T01:01:50Z",
+      "urlize_name": "Electric-Fuel-Consumption-Mmbtus-Firstenergy-Dam-4-Conventional-Hydroelectric-Hydraulic-Turbine-Quarterly"
+    },
+    {
+      "code": "POP_24_MLI_MAL_TOT_20TO24",
+      "column_names": [
+        "Year",
+        "Total",
+        "Native",
+        "Foreign-born",
+        "Unknown"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "1998-12-31",
+      "id": 2504284,
+      "name": "Native and Foreign-Born Population - Male / Age 20 to 24 / Total Areas - Mali",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "1998-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T16:19:11Z",
+      "urlize_name": "Native-and-Foreign-Born-Population-Male-Age-20-to-24-Total-Areas-Mali"
+    },
+    {
+      "code": "COAL_SHIPMENT_SULFUR_1518390_594_BIT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Percent. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_SULFUR.1518390-594-BIT.Q>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_SULFUR.1518390-594-BIT.Q<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_SULFUR.1518390-594-BIT.Q&out=xml",
+      "frequency": "annual",
+      "from_date": "2010-03-31",
+      "id": 11942867,
+      "name": "Coal Shipment Sulfur Content : Johns Creek Energy To Indian River Generating Station : Bituminous : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2010-03-31",
+      "type": null,
+      "updated_at": "2014-05-16T00:57:29Z",
+      "urlize_name": "Coal-Shipment-Sulfur-Content-Johns-Creek-Energy-To-Indian-River-Generating-Station-Bituminous-Quarterly"
+    },
+    {
+      "code": "POP_22_BRB_FEM_TOT_8",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "1960-12-31",
+      "id": 2600644,
+      "name": "Population - Female / Age 8 / Total Areas - Barbados",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T22:03:07Z",
+      "urlize_name": "Population-Female-Age-8-Total-Areas-Barbados"
+    },
+    {
+      "code": "ELEC_PLANT_GEN_7928_NG_GT_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.7928-NG-GT.M",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.7928-NG-GT.M&out=xml",
+      "frequency": "monthly",
+      "from_date": "2003-06-30",
+      "id": 4824374,
+      "name": "Net Generation : Osawatomie : Natural Gas : Combustion (gas) Turbine (including Jet Engine Design) : Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T23:54:35Z",
+      "urlize_name": "Net-Generation-Osawatomie-Natural-Gas-Combustion-gas-Turbine-including-Jet-Engine-Design-Monthly"
+    },
+    {
+      "code": "COMM_10_COFFEENOTROASTEDDECAFFEINATED_IMPORT_SAU",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 2901145,
+      "name": "Commodity Imports - Coffee, Tea, Mate And Spices / Coffee, not roasted, decaffeinated - Saudi Arabia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T22:22:49Z",
+      "urlize_name": "Commodity-Imports-Coffee-Tea-Mate-And-Spices-Coffee-not-roasted-decaffeinated-Saudi-Arabia"
+    },
+    {
+      "code": "EXTR_NETCASHPROVIDEDBYUSEDINOPERATINGACTIVITIES_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: NetCashProvidedByUsedInOperatingActivities",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-10-02",
+      "id": 11082821,
+      "name": "EXTREME NETWORKS INC  (EXTR): Quarterly Net Cash Provided By Used In Operating Activities",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-17T22:16:49Z",
+      "urlize_name": "EXTREME-NETWORKS-INC-EXTR-Quarterly-Net-Cash-Provided-By-Used-In-Operating-Activities"
+    },
+    {
+      "code": "COMM_10_CLOVESWHOLEFRUITCLOVESANDSTEMS_IMPORT_MNG",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1998-12-31",
+      "id": 2898806,
+      "name": "Commodity Imports - Coffee, Tea, Mate And Spices / Cloves (whole fruit, cloves and stems) - Mongolia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T19:05:57Z",
+      "urlize_name": "Commodity-Imports-Coffee-Tea-Mate-And-Spices-Cloves-whole-fruit-cloves-and-stems-Mongolia"
+    },
+    {
+      "code": "CEU9093000001",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Thousands of Persons Not Seasonally Adjusted,  ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/CEU9093000001.csv",
+      "frequency": "monthly",
+      "from_date": "1955-01-01",
+      "id": 123276,
+      "name": "All Employees: Government: Local Government",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2014-04-01",
+      "type": null,
+      "updated_at": "2014-06-04T20:53:29Z",
+      "urlize_name": "All-Employees-Government-Local-Government"
+    },
+    {
+      "code": "ROAD_EQS_BUSALT_37",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Questionnaire contains aggregated annual data on Rail, Road, Inland Waterways and Oil Pipelines transport for the following:\r\nI. Infrastructure\r\nII. Transport equipment\r\nIII. Enterprises, economic performance and employment\r\nIV. Traffic\r\nV. Transport measurement\r\n(for IV and V there is a certain overlap with legal acts)\r\nNote that, for Oil Pipelines, the only source is the Common Questionnaire. Information concerning the other transport modes can be found in the documentation provided for each relevant domain.\r\nThe questionnaire is sent to the competent national authorities that are responsible for the completion. The questionnaire is not supported by any legal acts but is based on a gentlemen's agreement with the Member States and the completeness varies from country to country. The Data for the non EU Member States of the ITF and UNECE are to be found at these organisations.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/road_eqs_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Froad_eqs_busalt.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 780146,
+      "name": "Motor coaches buses and trolley buses by alternative motor energy  : Number : Natural Gas : Germany (including  former GDR from 1991)",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T16:30:48Z",
+      "urlize_name": "Motor-coaches-buses-and-trolley-buses-by-alternative-motor-energy-Number-Natural-Gas-Germany-including-former-GDR-from-1991"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ILO",
+      "datasets_count": 228980,
+      "description": "No description for this source yet",
+      "host": "www.ilo.org",
+      "id": 686,
+      "name": "International Labour Organization"
+    },
+    {
+      "code": "CANSIM",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "www20.statcan.gc.ca",
+      "id": 1199,
+      "name": "Statistics Canada"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "FRED",
+      "datasets_count": 60949,
+      "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
+      "host": "www.research.stlouisfed.org",
+      "id": 118,
+      "name": "Federal Reserve Economic Data"
+    }
+  ],
+  "total_count": 10148784
+}

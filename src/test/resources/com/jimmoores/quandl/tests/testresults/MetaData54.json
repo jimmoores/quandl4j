@@ -1,0 +1,491 @@
+{
+  "current_page": 288051,
+  "docs": [
+    {
+      "code": "OEUN000000023713051412101",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Statistic: Employment; Occupation: Welders, Cutters, Solderers, and Brazers; Industry: Power and Communication Line and Related Structures Construction; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000023713051412101",
+      "frequency": "annual",
+      "from_date": "2012-06-30",
+      "id": 8962384,
+      "name": "Employment for Welders, Cutters, Solderers, and Brazers in Power and Communication Line and Related Structures Construction in National",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2013-11-16T05:29:53Z",
+      "urlize_name": "Employment-for-Welders-Cutters-Solderers-and-Brazers-in-Power-and-Communication-Line-and-Related-Structures-Construction-in-National"
+    },
+    {
+      "code": "NRTLQ_OUTSOURCINGANDSELLINGGENERALANDADMINISTRATIVERELATEDPROVISIONS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OutsourcingAndSellingGeneralAndAdministrativeRelatedProvisions",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2011-12-31",
+      "id": 10808794,
+      "name": "NORTEL NETWORKS CORP  (NRTLQ): Quarterly Outsourcing And Selling General And Administrative Related Provisions",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-03-07T14:12:22Z",
+      "urlize_name": "NORTEL-NETWORKS-CORP-NRTLQ-Quarterly-Outsourcing-And-Selling-General-And-Administrative-Related-Provisions"
+    },
+    {
+      "code": "MDG_LITERACYRATESOF1524YEARSOLDMENPERCENTAGEUNESCO_CO",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The Millennium Development Goals Database presents official data for more than 60 indicators to measure progress towards the Millennium Development Goals. The data and analyses are the product of the work of the Inter-agency and Expert Group (IAEG), coordinated by the United Nations Statistics Division.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 3378188,
+      "name": "Literacy Rates Of 15-24 Years Old, Men, Percentage (unesco) - Colombia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T08:56:25Z",
+      "urlize_name": "Literacy-Rates-Of-15-24-Years-Old-Men-Percentage-unesco-Colombia"
+    },
+    {
+      "code": "FATS_DE_95",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "\r\n\r\nForeign Affiliates Statistics (FATS) measure the commercial presence through affiliates in foreign markets. Inward FATS describe the overall activity of foreign affiliates resident in the compiling economy.\r\nInward FATS deliver information on the following characteristics of foreign affiliates:\r\n11110 Number of enterprises (expressed in units)\r\n12110 Turnover (millions of \u20ac)\r\n12120 Production value (m\u20ac)\r\n12150 Value added at factor cost (m\u20ac)\r\n13110 Total purchases of goods and services (m\u20ac)\r\n13120 Purchases of goods and services purchased for resale in the same condition as received (m\u20ac)\r\n13310 Personnel costs (m\u20ac)\r\n15110 Gross investment in tangible goods (m\u20ac)\r\n16110 Number of persons employed (units)\r\n16130 Number of employees on a voluntary basis or if 16110 is not available (units)\r\n22110 Total intra-mural R&D expenditure (from 2003 onwards, biennial, m\u20ac)\r\n22120 Total number of R&D personnel (from 2003 onwards, biennial, m\u20ac)\r\nInward FATS data are annual. They are available from reference year 1996, but 1996-2006 data were collected on a voluntary basis and thus they were not complete in terms of country coverage. Also the methodology of data compilation was not harmonised. From reference year 2007 onwards, inward FATS has been collected according to the Regulation (EC) No. 716/2007 of the European Parliament and the Council on Community statistics on the structure and activity of foreign affiliates (FATS-Regulation).\r\nThe FATS Recommendations Manual advices on the implementation of the FATS-Regulation.\r\n\r\n\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/fats_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ffats_de.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "1998-12-31",
+      "id": 767143,
+      "name": "Foreign control of enterprises data for Germany  : Germany (including  former GDR from 1991) : Electricity, gas and water supply : Number of enterprises : United States",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "1998-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T03:54:15Z",
+      "urlize_name": "Foreign-control-of-enterprises-data-for-Germany-Germany-including-former-GDR-from-1991-Electricity-gas-and-water-supply-Number-of-enterprises-United-States"
+    },
+    {
+      "code": "HRS_PRODUCTWARRANTYACCRUAL_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ProductWarrantyAccrual",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2008-06-27",
+      "id": 10544699,
+      "name": "HARRIS CORP /DE/  (HRS): Annual Product Warranty Accrual",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-06-28",
+      "type": null,
+      "updated_at": "2014-03-07T02:21:20Z",
+      "urlize_name": "HARRIS-CORP-DE-HRS-Annual-Product-Warranty-Accrual"
+    },
+    {
+      "code": "COMM_87_AUTOMOBILESSPARKIGNITIONENGINEOF15003000CC_IMPORT_CAF",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 5689708,
+      "name": "Commodity Imports - Vehicles Other Than Railway, Tramway / Automobiles, spark ignition engine of 1500-3000 cc - Central African Republic",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-05-07T15:44:42Z",
+      "urlize_name": "Commodity-Imports-Vehicles-Other-Than-Railway-Tramway-Automobiles-spark-ignition-engine-of-1500-3000-cc-Central-African-Republic"
+    },
+    {
+      "code": "EIP_TEIP_NB_SEX_F_AGE_AGGREGATE_Y25_54_Q_DNK",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2001-03-31",
+      "id": 12522061,
+      "name": "Working Age Population Outside The Labour Force Women Ages 25-54 - Quarterly - Denmark",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-30T12:35:29Z",
+      "urlize_name": "Working-Age-Population-Outside-The-Labour-Force-Women-Ages-25-54-Quarterly-Denmark"
+    },
+    {
+      "code": "EXPMAEEF623ALLEST",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Millions of Dollars Not Seasonally Adjusted, For further information, please refer to the US Census Bureau's Annual Services release, online at http://www.census.gov/services/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/EXPMAEEF623ALLEST.csv",
+      "frequency": "annual",
+      "from_date": "2012-01-01",
+      "id": 10923596,
+      "name": "Purchased Repairs and Maintenance to Machinery and Equipment for Nursing and Residential Care Facilities, All Establishments, Employer Firms",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-11T19:37:53Z",
+      "urlize_name": "Purchased-Repairs-and-Maintenance-to-Machinery-and-Equipment-for-Nursing-and-Residential-Care-Facilities-All-Establishments-Employer-Firms"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_EG_6019_BIT_ALL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Tons. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG.6019-BIT-ALL.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG.6019-BIT-ALL.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2001-01-31",
+      "id": 4970110,
+      "name": "Electric Fuel Consumption Quantity : W H Zimmer : Bituminous Coal : All Primemovers : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-01-10T01:39:24Z",
+      "urlize_name": "Electric-Fuel-Consumption-Quantity-W-H-Zimmer-Bituminous-Coal-All-Primemovers-Quarterly"
+    },
+    {
+      "code": "EXPMAEEF51213ALLEST",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Millions of Dollars Not Seasonally Adjusted, For further information, please refer to the US Census Bureau's Annual Services release, online at http://www.census.gov/services/. ",
+      "display_url": "http://research.stlouisfed.org/fred2/data/EXPMAEEF51213ALLEST.csv",
+      "frequency": "annual",
+      "from_date": "2012-01-01",
+      "id": 10923591,
+      "name": "Purchased Repairs and Maintenance to Machinery and Equipment for Motion Picture and Video Exhibition, All Establishments, Employer Firms",
+      "private": false,
+      "source_code": "FRED",
+      "source_name": "Federal Reserve Economic Data",
+      "to_date": "2012-01-01",
+      "type": null,
+      "updated_at": "2014-03-11T19:37:50Z",
+      "urlize_name": "Purchased-Repairs-and-Maintenance-to-Machinery-and-Equipment-for-Motion-Picture-and-Video-Exhibition-All-Establishments-Employer-Firms"
+    },
+    {
+      "code": "COMM_72_BASEMETALSORSILVERCLADWITHGOLDSEMIMANUF_EXPORT_CYP",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1996-12-31",
+      "id": 4116169,
+      "name": "Commodity Exports - Pearls, Precious Stones, Metals, Coins, Etc / Base metals or silver, clad with gold, semi-manuf - Cyprus",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2013-04-14T08:06:41Z",
+      "urlize_name": "Commodity-Exports-Pearls-Precious-Stones-Metals-Coins-Etc-Base-metals-or-silver-clad-with-gold-semi-manuf-Cyprus"
+    },
+    {
+      "code": "COMM_9_BLACKWHITEORREDCURRANTSANDGOOSEBERRIESFRESH_EXPORT_CAN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 2875297,
+      "name": "Commodity Exports - Edible Fruit, Nuts, Peel Of Citrus Fruit, Melons / Black, white or red currants and gooseberries, fresh - Canada",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-09-10T03:07:44Z",
+      "urlize_name": "Commodity-Exports-Edible-Fruit-Nuts-Peel-Of-Citrus-Fruit-Melons-Black-white-or-red-currants-and-gooseberries-fresh-Canada"
+    },
+    {
+      "code": "COMM_87_AUTOMOBILESSPARKIGNITIONENGINEOF15003000CC_REEXPORT_CAF",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5689710,
+      "name": "Commodity Re-Exports - Vehicles Other Than Railway, Tramway / Automobiles, spark ignition engine of 1500-3000 cc - Central African Republic",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2013-12-28T19:12:48Z",
+      "urlize_name": "Commodity-Re-Exports-Vehicles-Other-Than-Railway-Tramway-Automobiles-spark-ignition-engine-of-1500-3000-cc-Central-African-Republic"
+    },
+    {
+      "code": "COMM_87_AUTOMOBILESSPARKIGNITIONENGINEOF3000CC_IMPORT_CAF",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 5689711,
+      "name": "Commodity Imports - Vehicles Other Than Railway, Tramway / Automobiles, spark ignition engine of >3000 cc - Central African Republic",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T23:30:18Z",
+      "urlize_name": "Commodity-Imports-Vehicles-Other-Than-Railway-Tramway-Automobiles-spark-ignition-engine-of-3000-cc-Central-African-Republic"
+    },
+    {
+      "code": "COMM_87_AUTOMOBILESSPARKIGNITIONENGINEOF3000CC_EXPORT_CAF",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 5689712,
+      "name": "Commodity Exports - Vehicles Other Than Railway, Tramway / Automobiles, spark ignition engine of >3000 cc - Central African Republic",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2013-05-07T15:46:41Z",
+      "urlize_name": "Commodity-Exports-Vehicles-Other-Than-Railway-Tramway-Automobiles-spark-ignition-engine-of-3000-cc-Central-African-Republic"
+    },
+    {
+      "code": "COMM_16_SUNFLOWERSEEDORSAFFLOWEROILCRUDE_IMPORT_EST",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1989-12-31",
+      "id": 2947286,
+      "name": "Commodity Imports - Animal,vegetable Fats And Oils, Cleavage Products, Et / Sunflower-seed or safflower oil, crude - Estonia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T08:56:25Z",
+      "urlize_name": "Commodity-Imports-Animal-vegetable-Fats-And-Oils-Cleavage-Products-Et-Sunflower-seed-or-safflower-oil-crude-Estonia"
+    },
+    {
+      "code": "COMM_85_PARTSFORRADIOTVTRANSMITRECEIVEEQUIPMENTNES_EXPORT_SVN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 5632125,
+      "name": "Commodity Exports - Electrical, Electronic Equipment / Parts for radio/tv transmit/receive equipment, nes - Slovenia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-12-28T05:48:53Z",
+      "urlize_name": "Commodity-Exports-Electrical-Electronic-Equipment-Parts-for-radio-tv-transmit-receive-equipment-nes-Slovenia"
+    },
+    {
+      "code": "COMM_87_AUTOMOBILESDIESELENGINEOF1500CC_IMPORT_CAF",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 5689714,
+      "name": "Commodity Imports - Vehicles Other Than Railway, Tramway / Automobiles, diesel engine of <1500 cc - Central African Republic",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T03:19:19Z",
+      "urlize_name": "Commodity-Imports-Vehicles-Other-Than-Railway-Tramway-Automobiles-diesel-engine-of-1500-cc-Central-African-Republic"
+    },
+    {
+      "code": "POP_1_ARE_FEM_RUR",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "1975-12-31",
+      "id": 2498746,
+      "name": "Population - Female / Rural Areas - United Arab Emirates",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "1985-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T17:47:11Z",
+      "urlize_name": "Population-Female-Rural-Areas-United-Arab-Emirates"
+    },
+    {
+      "code": "6291001_A91784F",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
+      "display_url": "http://www.abs.gov.au/ausstats/ABS@Archive.nsf/log?openagent&6291001.xls&6291.0.55.001&Time%20Series%20Spreadsheet&049F6EEBFA38DA18CA257B8F0012CE8D&0&May%202013&20.06.2013&Latest",
+      "frequency": "monthly",
+      "from_date": "1978-02-28",
+      "id": 7913650,
+      "name": "Labour force status by Social marital status, Age and Sex: Labour Force ;  Married ;  15 - 19 years ;  Males ; (000)",
+      "private": false,
+      "source_code": "AUSBS",
+      "source_name": "Australian Bureau of Statistics",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-07T14:17:07Z",
+      "urlize_name": "Labour-force-status-by-Social-marital-status-Age-and-Sex-Labour-Force-Married-15-19-years-Males-000"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "AUSBS",
+      "datasets_count": 5239,
+      "description": "Australia\u2019s official statistical organisation, the Australian Bureau of Statistics (ABS) is committed to a better informed Australia.",
+      "host": "www.abs.gov.au/",
+      "id": 719,
+      "name": "Australian Bureau of Statistics"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "ILOSTAT",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "ilo.org2",
+      "id": 10437,
+      "name": "ILOSTAT Database"
+    },
+    {
+      "code": "FRED",
+      "datasets_count": 60949,
+      "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
+      "host": "www.research.stlouisfed.org",
+      "id": 118,
+      "name": "Federal Reserve Economic Data"
+    }
+  ],
+  "total_count": 10148784
+}

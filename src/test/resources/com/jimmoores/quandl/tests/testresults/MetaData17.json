@@ -1,0 +1,475 @@
+{
+  "current_page": 491572,
+  "docs": [
+    {
+      "code": "DT_OTH_3D51_03_391",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SBS covers the Nace Rev.2 Section B to N and division S95 which are organized in four annexes, covering Industry (sections B-E), Construction (F), Trade (G) and Services (H, I, J, L, M, N and S95). Financial services are covered in three specific annexes and separate metadata files have been compiled. Up to reference year 2007 data was presented using the NACE Rev.1.1 classification. The SBS coverage was limited to NACE Rev.1.1 Sections C to K. Starting from the reference year 2008 data is available in NACE Rev.2. Double reported data in NACE Rev.1.1 for the reference year 2008 will be available in the first and second quarter of 2011.\r\nMain characteristics (variables) of the SBS data category:\r\nBusiness Demographic variables (e.g. number of enterprises)\r\n\"Output related\" variables (e.g. Turnover, Value added)\r\n\"Input related\" variables\r\n              - labour input (e.g. Employment, Hours worked)\r\n              - goods and services input (e.g. Total of purchases)\r\n              - capital input (e.g. Material investments)\r\nSeveral important derived indicators are generated in the form of ratios of certain monetary characteristics or per head values.\r\nAnnual enterprise statistics: Characteristics collected are published by country and detailed on NACE Rev 2 and NACE Rev 1.1 class level (4 digits). Some classes or groups in 'services' in NACE Rev 1.1 sections H, I, K have been aggregated.\r\nAnnual enterprise statistics broken down by size classes: Characteristics are published by country and detailed down to NACE Rev 2 and NACE Rev 1.1 group level (3-digits) and employment size class. For trade (NACE Rev2 and NACE Rev 1.1 Section G) a supplementary breakdown by turnover size class is available.\r\nAnnual regional statistics: Four characteristics are published by NUTS-2 country region and detailed on NACE Rev 2 and NACE Rev 1.1 division level (2-digits) (but to group level for the trade section).\r\nMore information on the contents of different tables: the detail level and breakdowns required starting with the reference year is defined in Commission Regulation N° 251/2009.  For previous reference years it is included in Commission Regulations (EC) N° 2701/98 and amended by N°1614/2002 and N°1669/2003.\r\nSBS data are collected primarily by National Statistical Institutes (NSI). Regulatory or controlling national offices for financial institutions or central banks often provides the information required for the financial sector (NACE Rev 2 Section K / NACE  Rev 1.1 Section J). \nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/sbs_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fdt_oth_3d51_03.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 832608,
+      "name": "Wholesale trade  Operating costs and types of customer NACE Rev11 G51 5yearly statistics from 2003 onwards  : Non-specialized wholesale of food, beverages and tobacco : Other operating costs : Cyprus",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T04:24:18Z",
+      "urlize_name": "Wholesale-trade-Operating-costs-and-types-of-customer-NACE-Rev11-G51-5yearly-statistics-from-2003-onwards-Non-specialized-wholesale-of-food-beverages-and-tobacco-Other-operating-costs-Cyprus"
+    },
+    {
+      "code": "DLTR_INITIALDELIVERYOFSHARESUNDERTHEUNCOLLAREDAGREEMENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: InitialdeliveryofsharesundertheUncollaredAgreement",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-11-02",
+      "id": 10733291,
+      "name": "DOLLAR TREE INC  (DLTR): Quarterly Initialdeliveryofsharesunderthe Uncollared Agreement",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-11-02",
+      "type": null,
+      "updated_at": "2014-03-12T16:04:30Z",
+      "urlize_name": "DOLLAR-TREE-INC-DLTR-Quarterly-Initialdeliveryofsharesunderthe-Uncollared-Agreement"
+    },
+    {
+      "code": "TRNG_CVTS3_74_665",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "CVTS2 and CVTS3 data were collected with reference year 1 1999 and 2005 and published by Eurostat in order to:\r\nProvide the Commission with harmonised, reliable and relevant statistical information needed to define, implement, monitor and evaluate Commission policies in the continuing vocational training in enterprises sector.\r\nProvide the EU institutions, national administrations, enterprises, professional associations and EU citizens with high quality statistical services and products in the field of training.\r\nCVTS3 provides comparable statistics on training enterprises, the participation to training, the volume of CVT courses and its costs, and moreover information on Initial vocational training (IVT) courses.\r\nCVTS2 provides comparable statistical results on training and non-training enterprises, the supply of and the demand for vocational skills, the need for CVT and the forms, content and volume of CVT, the use of enterprises' own training resources and of external providers, and the cost of CVT courses.\r\nThe CVTS1 was the first survey on continuing vocational training in enterprises carried out on the EU level in a co-ordinated form (outline questionnaire, common definitions, and common recommendations with the respect to the fieldwork). The survey therefore was of pioneering nature, and is not any longer disseminated.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_cvts_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_cvts3_74.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 651910,
+      "name": "Hours in CVT courses per employee CVT enterprises by sex and size class  : Number : Total : Netherlands : 250 employees or more",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2012-11-19T17:08:46Z",
+      "urlize_name": "Hours-in-CVT-courses-per-employee-CVT-enterprises-by-sex-and-size-class-Number-Total-Netherlands-250-employees-or-more"
+    },
+    {
+      "code": "FAO_217TOGO1953CASSAVAEQUIVALENTTOTAL",
+      "column_names": [
+        "Year",
+        "Import Quantity (tonnes)",
+        "Import Value (1000 US$)",
+        "Export Quantity (tonnes)",
+        "Export Value (1000 US$)"
+      ],
+      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_Africa_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7681572,
+      "name": "Trade Crops Livestock: Cassava Equivalent + (Total) - Togo",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T23:19:05Z",
+      "urlize_name": "Trade-Crops-Livestock-Cassava-Equivalent-Total-Togo"
+    },
+    {
+      "code": "POP_22_UKR_BTH_RUR_70TO79",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "1959-12-31",
+      "id": 3005335,
+      "name": "Population - Both Sexes / Age 70 to 79 / Rural Areas - Ukraine",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "1970-12-31",
+      "type": null,
+      "updated_at": "2013-03-13T14:06:35Z",
+      "urlize_name": "Population-Both-Sexes-Age-70-to-79-Rural-Areas-Ukraine"
+    },
+    {
+      "code": "SNBC_INCREASEDECREASEINCASHSURRENDERVALUEOFBANKOWNEDLIFEINSURANCE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncreaseDecreaseInCashSurrenderValueOfBankOwnedLifeInsurance",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10362255,
+      "name": "SUN BANCORP INC /NJ/  (SNBC): Annual Increase Decrease In Cash Surrender Value Of Bank Owned Life Insurance",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:04:10Z",
+      "urlize_name": "SUN-BANCORP-INC-NJ-SNBC-Annual-Increase-Decrease-In-Cash-Surrender-Value-Of-Bank-Owned-Life-Insurance"
+    },
+    {
+      "code": "EMP_TREATMENTCOATINGOFMETALS_NZL",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 3274108,
+      "name": "Employees / Treatment & coating of metals - New Zealand",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T18:11:47Z",
+      "urlize_name": "Employees-Treatment-coating-of-metals-New-Zealand"
+    },
+    {
+      "code": "RC62_UF_ALAGOAS_36_ANOS_PERC",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RC62_UF_PERC.csv&categorias=%2236%20anos%22&localidade=Alagoas",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 6392375,
+      "name": "Population and Demographics: Marriage (marriages, separations, divorces) - Marriage - by age of men - 36 years Federative Units - UF: Alagoas. Datatype: Relative",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T16:50:26Z",
+      "urlize_name": "Population-and-Demographics-Marriage-marriages-separations-divorces-Marriage-by-age-of-men-36-years-Federative-Units-UF-Alagoas-Datatype-Relative"
+    },
+    {
+      "code": "TOUR_CAP_BED_75",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Annual data on number of establishments, bedrooms and bed places in hotels and other collective accommodation establishments are provided at national and regional (NUTS3) levels.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/tour_cap_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftour_cap_bed.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 898866,
+      "name": "Bedplaces x1 000  : Number of bed-places : Thousands : Hotels and similar establishments : Slovenia",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-04-30T16:15:35Z",
+      "urlize_name": "Bedplaces-x1-000-Number-of-bed-places-Thousands-Hotels-and-similar-establishments-Slovenia"
+    },
+    {
+      "code": "ILC_SIS4_134",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The domain \"income and living conditions\" covers four topics: main indicators, income distribution and monetary poverty, living conditions, material deprivation and childcare arrangements indicators, which are again structured into collections of indicators on specific topics.\r\nThe collection \"main indicators\" houses those indicators provided under the Open Method of Coordination in the area of combating poverty and social exclusion. This group of indicators houses the following three collections: the overarching portfolio of indicators, the social inclusion portfolio and the pensions portfolio. For more details on this as well as definitions of the indicators please see http://ec.europa.eu/social/main.jsp?catId=756&langId=en\r\nThe collection \"income distribution and monetary poverty\" houses collections of indicators relating to poverty risk, poverty risk of working individuals, income of people at risk of poverty as well as the distribution of income.\r\nThe collection \"living conditions\" hosts indicators relating to characteristics and living conditions of households, characteristics of the population according to different breakdowns, health and labour conditions as well as housing conditions.\r\nThe collection \"material deprivation\" covers indicators relating to economic strain, durables, housing and environment of the dwelling.\r\nThe collection \"childcare arrangements indicators\" houses childcare related indicators.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/ilc_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Filc_sis4.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 882922,
+      "name": "Mean number of deprivation items among the deprived  Economic strain and durables dimension Source SILC  : Average : From 18 to 64 years : Females : Hungary",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T22:28:46Z",
+      "urlize_name": "Mean-number-of-deprivation-items-among-the-deprived-Economic-strain-and-durables-dimension-Source-SILC-Average-From-18-to-64-years-Females-Hungary"
+    },
+    {
+      "code": "WTZ_STOCK_PX",
+      "column_names": [
+        "Date",
+        "Stock Price"
+      ],
+      "description": "Units: dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 5584019,
+      "name": "Western Silver Corp ( WTZ ) - Stock Price",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T20:31:25Z",
+      "urlize_name": "Western-Silver-Corp-WTZ-Stock-Price"
+    },
+    {
+      "code": "FAO_213TURKMENISTAN1095CHICKENLIVEWEIGHT",
+      "column_names": [
+        "Year",
+        "Gross Production Value (constant 2004-2006 million SLC) (SLC)",
+        "Gross Production Value (current million SLC) (SLC)",
+        "Gross Production Value (current million US$) (USD)",
+        "Gross Production Value (constant 2004-2006 million US$) (USD)"
+      ],
+      "description": "The Agricultural Production domain covers quantity produced, producer price, value at farmgate, area harvested, yield per hectare. Users may note that a new methodology for imputing non-reported/missing Production domain data has been implemented in 2011.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Value_of_Production_E_Asia_1.zip",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 7667045,
+      "name": "Value of Production: Chicken Live Weight - Turkmenistan",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T12:28:37Z",
+      "urlize_name": "Value-of-Production-Chicken-Live-Weight-Turkmenistan"
+    },
+    {
+      "code": "CROPSMAIZEGREEN_AREAHARVESTED_BDI",
+      "column_names": [
+        "Year",
+        "Ha"
+      ],
+      "description": "FAOSTAT provides access to over 3 million time-series and cross sectional data relating to food and agriculture. FAOSTAT contains data for 200 countries and more than 200 primary products and inputs in its core data set. The national version of FAOSTAT, CountrySTAT, is being implemented in about 20 countries and three regions. It offers a two-way bridge amongst sub-national, national, regional and international statistics on food and agriculture.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1992-12-31",
+      "id": 3124499,
+      "name": "Crops - Maize, Green / Area Harvested - Burundi",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T09:02:07Z",
+      "urlize_name": "Crops-Maize-Green-Area-Harvested-Burundi"
+    },
+    {
+      "code": "COMM_85_STARTERMOTORS_REEXPORT_MLI",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 5604856,
+      "name": "Commodity Re-Exports - Electrical, Electronic Equipment / Starter motors - Mali",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2013-12-28T19:19:34Z",
+      "urlize_name": "Commodity-Re-Exports-Electrical-Electronic-Equipment-Starter-motors-Mali"
+    },
+    {
+      "code": "RGDPNAMEA666NRUG",
+      "column_names": [
+        "Date",
+        "RGDPNAMEA666NRUG_2013-07-03"
+      ],
+      "description": "Millions of 2005 U.S. Dollars Not Seasonally Adjusted, Source ID: rgdpna  When using these data in your research, please make the following reference: Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2013), \"The Next Generation of the Penn World Table\" available for download at www.ggdc.net/pwt  For more information, see http://www.rug.nl/research/ggdc/data/penn-world-table. ",
+      "display_url": "http://alfred.stlouisfed.org/series/downloaddata?seid=RGDPNAMEA666NRUG",
+      "frequency": "annual",
+      "from_date": "1990-01-01",
+      "id": 9088316,
+      "name": "Real GDP at Constant National Prices for Montenegro",
+      "private": false,
+      "source_code": "ALFRED",
+      "source_name": "Archival Federal Reserve Economic Data",
+      "to_date": "2011-01-01",
+      "type": null,
+      "updated_at": "2014-01-10T11:24:26Z",
+      "urlize_name": "Real-GDP-at-Constant-National-Prices-for-Montenegro"
+    },
+    {
+      "code": "DEV_INCOMESHAREHELDBYLOWEST20_MDA",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The United Nations Industrial Commodity Statistics Database provides annual statistics on the production of major industrial commodities by country. Data are provided in terms of physical quantities as well as monetary value. The online database covers the years 1995 to 2009. Additional historical data is available on request, based on a different product list, for the years 1950-2003.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1988-12-31",
+      "id": 3700362,
+      "name": "Income Share Held By Lowest 20% - Republic Of Moldova",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T03:35:18Z",
+      "urlize_name": "Income-Share-Held-By-Lowest-20-Republic-Of-Moldova"
+    },
+    {
+      "code": "APD_MINORITYINTEREST_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: MinorityInterest",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2008-09-30",
+      "id": 10357286,
+      "name": "AIR PRODUCTS &amp; CHEMICALS INC /DE/  (APD): Annual Minority Interest",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-11T04:54:45Z",
+      "urlize_name": "AIR-PRODUCTS-amp-CHEMICALS-INC-DE-APD-Annual-Minority-Interest"
+    },
+    {
+      "code": "DLTR_INITIALDELIVERYOFSHARESUNDERTHECOLLAREDAGREEMENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: InitialdeliveryofsharesundertheCollaredAgreement",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-10-05",
+      "id": 10733295,
+      "name": "DOLLAR TREE INC  (DLTR): Quarterly Initialdeliveryofsharesunderthe Collared Agreement",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-10-05",
+      "type": null,
+      "updated_at": "2014-03-12T16:04:29Z",
+      "urlize_name": "DOLLAR-TREE-INC-DLTR-Quarterly-Initialdeliveryofsharesunderthe-Collared-Agreement"
+    },
+    {
+      "code": "UBNK_OTHERCOMPREHENSIVEINCOMELOSSPENSIONANDOTHERPOSTRETIREMENTBENEFITPLANSADJUSTMENTBEFORETAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentBeforeTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10360407,
+      "name": "United Financial Bancorp, Inc.  (UBNK): Annual Other Comprehensive Income Loss Pension And Other Postretirement Benefit Plans Adjustment Before Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:02:16Z",
+      "urlize_name": "United-Financial-Bancorp-Inc-UBNK-Annual-Other-Comprehensive-Income-Loss-Pension-And-Other-Postretirement-Benefit-Plans-Adjustment-Before-Tax"
+    },
+    {
+      "code": "COMM_30_LACTICACIDITSSALTSESTERS_EXPORT_TTO",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 3413050,
+      "name": "Commodity Exports - Organic Chemicals / Lactic acid, its salts & esters - Trinidad and Tobago",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2013-04-13T23:28:27Z",
+      "urlize_name": "Commodity-Exports-Organic-Chemicals-Lactic-acid-its-salts-esters-Trinidad-and-Tobago"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "IBGE",
+      "datasets_count": 110418,
+      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
+      "host": "seriesestatisticas.ibge.gov.br",
+      "id": 725,
+      "name": "Brazilian Institute of Geography and Statistics"
+    },
+    {
+      "code": "ALFRED",
+      "datasets_count": 0,
+      "description": "ALFRED® provides vintage versions of historical economic data.",
+      "host": "alfred.stlouisfed.org",
+      "id": 2393,
+      "name": "Archival Federal Reserve Economic Data"
+    }
+  ],
+  "total_count": 10148784
+}

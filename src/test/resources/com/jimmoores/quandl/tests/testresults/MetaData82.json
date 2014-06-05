@@ -1,0 +1,473 @@
+{
+  "current_page": 76398,
+  "docs": [
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_NORTHANDOVERMA",
+      "column_names": [
+        "Date",
+        "North Andover"
+      ],
+      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForGain_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7126326,
+      "name": "Zillow Metrics (Cities): Sold for Gain (%) - North Andover, MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T15:54:23Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Gain-North-Andover-MA"
+    },
+    {
+      "code": "BDY_EPS_FWD",
+      "column_names": [
+        "Date",
+        "Forward Earnings Per Share"
+      ],
+      "description": "Units: dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 3983644,
+      "name": "Bindley Western ( BDY ) - Forward Earnings Per Share",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T17:50:11Z",
+      "urlize_name": "Bindley-Western-BDY-Forward-Earnings-Per-Share"
+    },
+    {
+      "code": "KNA_DC_DAC_KORL_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.\nNet bilateral aid flows from DAC donors, Korea, Rep. (current US$)",
+      "display_url": "http://api.worldbank.org/countries/KNA/indicators/DC.DAC.KORL.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 417539,
+      "name": "St. Kitts and Nevis: Net bilateral aid flows from DAC donors, Korea, Rep. (current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T22:42:43Z",
+      "urlize_name": "St-Kitts-and-Nevis-Net-bilateral-aid-flows-from-DAC-donors-Korea-Rep-current-US"
+    },
+    {
+      "code": "HUN_BAR_POP_3034",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population in thousands, 30-34, total is the total population of 30-34 year olds in thousands estimated by Barro-Lee.\npopulation in thousands (age 15+), 30-34, total",
+      "display_url": "http://api.worldbank.org/countries/HUN/indicators/BAR.POP.3034?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 370506,
+      "name": "Hungary: population in thousands (age 15+), 30-34, total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T12:02:29Z",
+      "urlize_name": "Hungary-population-in-thousands-age-15-30-34-total"
+    },
+    {
+      "code": "SOM_PE_NUS_FCAE",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Official exchange rate refers to the exchange rate determined by national authorities or to the rate determined in the legally sanctioned exchange market. This series shows the end period value of local currency units relative to the U.S. dollar.\nOfficial exchange rate (LCU per US$, end period)",
+      "display_url": "http://api.worldbank.org/countries/SOM/indicators/PE.NUS.FCAE?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1965-12-31",
+      "id": 2159951,
+      "name": "Somalia: Official exchange rate (LCU per US$, end period)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "1989-12-31",
+      "type": null,
+      "updated_at": "2013-06-20T18:34:52Z",
+      "urlize_name": "Somalia-Official-exchange-rate-LCU-per-US-end-period"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_19559",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "annual",
+      "from_date": "2008-09-30",
+      "id": 7571878,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 19559,Strausstown,PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2008-09-30",
+      "type": null,
+      "updated_at": "2013-11-29T19:14:01Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-19559-Strausstown-PA"
+    },
+    {
+      "code": "MCOUNTY_PRICETORENTRATIO_ALLHOMES_YAKIMAWA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 6902084,
+      "name": "Zillow Metrics (Counties): Price-to-Rent Ratio - Yakima, WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T15:54:23Z",
+      "urlize_name": "Zillow-Metrics-Counties-Price-to-Rent-Ratio-Yakima-WA"
+    },
+    {
+      "code": "SLE_WP11647_5",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who saved for emergencies or a time when they expect to have less income in the past 12 months (% age 25+)\nSaved for emergencies in the past year, older adults (% age 25+)",
+      "display_url": "http://api.worldbank.org/countries/SLE/indicators/WP11647.5?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2025800,
+      "name": "Sierra Leone: Saved for emergencies in the past year, older adults (% age 25+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T22:56:54Z",
+      "urlize_name": "Sierra-Leone-Saved-for-emergencies-in-the-past-year-older-adults-age-25"
+    },
+    {
+      "code": "STATE_4BEDROOM_DELAWARE",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is the median Zestimate valuation for a given geographic area on a given day. A Zestimate is Zillow's estimate of the current market value for a home. We have tens of millions of Zestimates - one for most homes. Our data is refreshed regularly to reflect real estate transactions that could affect you - even if you're not buying or selling a house.",
+      "display_url": "http://files.zillowstatic.com/research/public/State/State_Zhvi_4bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7434359,
+      "name": "Zillow Home Value Index: Four Bedroom Homes - Delaware",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T18:57:13Z",
+      "urlize_name": "Zillow-Home-Value-Index-Four-Bedroom-Homes-Delaware"
+    },
+    {
+      "code": "BOL_DT_DOD_ALLC_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Concessional debt to total external debt stocks. Concessional debt is defined as loans with an original grant element of 25 percent or more.\nConcessional debt (% of total external debt)",
+      "display_url": "http://api.worldbank.org/countries/BOL/indicators/DT.DOD.ALLC.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 232696,
+      "name": "Bolivia: Concessional debt (% of total external debt)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T19:56:37Z",
+      "urlize_name": "Bolivia-Concessional-debt-of-total-external-debt"
+    },
+    {
+      "code": "CPHC_BETA",
+      "column_names": [
+        "Date",
+        "3-Year Regression Beta"
+      ],
+      "description": "Estimated by regressing weekly returns on stock against NYSE composite. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 4260691,
+      "name": "Canterbury Park Holding Corp. ( CPHC ) - 3-Year Regression Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T00:39:32Z",
+      "urlize_name": "Canterbury-Park-Holding-Corp-CPHC-3-Year-Regression-Beta"
+    },
+    {
+      "code": "RMETRO_ZRI_ALLHOMES_FORTPAYNEAL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the metropolitan of Fort Payne, AL. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Metro/Metro_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-12-31",
+      "id": 6955706,
+      "name": "Zillow Rent Index (Metro Areas): Rentals All Homes - Fort Payne, AL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T15:54:46Z",
+      "urlize_name": "Zillow-Rent-Index-Metro-Areas-Rentals-All-Homes-Fort-Payne-AL"
+    },
+    {
+      "code": "SCST_CASH_REV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5334231,
+      "name": "SCS Transportation Inc ( SCST ) - Cash as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T20:49:33Z",
+      "urlize_name": "SCS-Transportation-Inc-SCST-Cash-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "RHOOD_ZRIPERSQFT_ALLHOMES_SAINTJOSEPHMILWAUKEEWI",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the neighborhood of Saint Joseph, Milwaukee, WI. This is derived by taking the estimated rent price for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_ZriPerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-11-30",
+      "id": 6858407,
+      "name": "Zillow Rent Index (Neighborhoods): Rentals ZRI Per Sq. Ft. (All Homes) - Saint Joseph,Milwaukee,WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T15:54:23Z",
+      "urlize_name": "Zillow-Rent-Index-Neighborhoods-Rentals-ZRI-Per-Sq-Ft-All-Homes-Saint-Joseph-Milwaukee-WI"
+    },
+    {
+      "code": "DZA_WP11669_8",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who currently have a loan they took out to pay for school fees (% in the first (lowest) and second income quintiles (0-40th percentile), age 15+)\nOutstanding loan to pay school fees, income quintiles I (lowest) and II (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/DZA/indicators/WP11669.8?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2066289,
+      "name": "Algeria: Outstanding loan to pay school fees, income quintiles I (lowest) and II (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T22:03:22Z",
+      "urlize_name": "Algeria-Outstanding-loan-to-pay-school-fees-income-quintiles-I-lowest-and-II-age-15"
+    },
+    {
+      "code": "SRD_IND",
+      "column_names": [
+        "Year",
+        "Gdp",
+        "Soverign Debt Crisis Domestic",
+        "Gov Revenue",
+        "Int On Gov Debt",
+        "Gov Debt",
+        "Consumption Tax Revenue",
+        "Health Expenditure",
+        "Military Spending",
+        "Foreign Debt",
+        "Inflation Crisis",
+        "Stock Market Crash",
+        "Int Expense General",
+        "Id",
+        "Debt Exports",
+        "Price Index",
+        "Avg Maturity",
+        "Gov Bond Yield",
+        "Social Insurance Spending",
+        "Outstanding Bond",
+        "Sovereign Debt Crisis External",
+        "Crisis Tally",
+        "Gov Spending General",
+        "Domestic Plus External Debt Gdp",
+        "Int Revenue",
+        "Income Tax Revenue",
+        "Short Term Interest Rate",
+        "Gov Spending",
+        "Domestic Debt",
+        "Currency Crisis",
+        "Banking Crisis",
+        "Gov Revenue General",
+        "Change Date",
+        "Public Plus Private Debt Gdp"
+      ],
+      "description": "PSCS publishes a free, public database of historical sovereign risk data. The database contains central government revenue, expenditure, public debt and interest costs from the 19th century through 2011 - along with crisis indicators taken from Reinhart and Rogoff's public database. Sources for this data include datasets provided by Reinhart and Rogoff; the Center for Financial Stability's Historical Financial Statistics; International Monetary Fund's Government Finance Statistics; Eurostat; UN Statistical Yearbook; League of Nation's Statistical Yearbook; B. R. Mitchell's International Historical Statistics; Almanach de Gotha; The Statesman's Year Book; Corporation of Foreign Bondholders Annual Reports; Statistical Abstract for the Principal and Other Foreign Countries; and nation-specific time series from various finance ministry or national statistical service websites.",
+      "display_url": "http://sovdefdata.appspot.com/fiscal_data?iso=IND",
+      "frequency": "annual",
+      "from_date": "1800-12-31",
+      "id": 2588545,
+      "name": "Sovereign Risk Data - India",
+      "private": false,
+      "source_code": "PSCS",
+      "source_name": "Public Sector Credit Solutions",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T16:46:23Z",
+      "urlize_name": "Sovereign-Risk-Data-India"
+    },
+    {
+      "code": "LAO_IT_NET_USER_P2",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Internet users are people with access to the worldwide network.\nInternet users (per 100 people)",
+      "display_url": "http://api.worldbank.org/countries/LAO/indicators/IT.NET.USER.P2?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 429785,
+      "name": "Lao PDR: Internet users (per 100 people)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T23:20:43Z",
+      "urlize_name": "Lao-PDR-Internet-users-per-100-people"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_48216",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1999-03-31",
+      "id": 7568165,
+      "name": "Zillow Metrics (Zip Codes): Decreasing Values (%) - 48216,Detroit,MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2013-11-29T21:19:15Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Decreasing-Values-48216-Detroit-MI"
+    },
+    {
+      "code": "NYIN_REV_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5287397,
+      "name": "New York Intl Commerce Group ( NYIN ) - Trailing Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T23:07:27Z",
+      "urlize_name": "New-York-Intl-Commerce-Group-NYIN-Trailing-Revenues"
+    },
+    {
+      "code": "FDS_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-08-31",
+      "id": 4429840,
+      "name": "Factset Research Systems Inc. ( FDS ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-03-22T17:52:03Z",
+      "urlize_name": "Factset-Research-Systems-Inc-FDS-Cash-as-Percentage-of-Firm-Value"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "PSCS",
+      "datasets_count": 184,
+      "description": "No description for this source yet",
+      "host": "sovdefdata.appspot.com",
+      "id": 490,
+      "name": "Public Sector Credit Solutions"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

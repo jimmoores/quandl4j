@@ -1,0 +1,504 @@
+{
+  "current_page": 360125,
+  "docs": [
+    {
+      "code": "ELEC_PLANT_CONS_EG_BTU_2003_NG_ALL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Mmbtu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG_BTU.2003-NG-ALL.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG_BTU.2003-NG-ALL.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2001-01-31",
+      "id": 5060432,
+      "name": "Electric Fuel Consumption Mmbtus : Owatonna : Natural Gas : All Primemovers : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T08:44:03Z",
+      "urlize_name": "Electric-Fuel-Consumption-Mmbtus-Owatonna-Natural-Gas-All-Primemovers-Quarterly"
+    },
+    {
+      "code": "EMP_DWAP_RT_SEX_F_AGE_5YRBANDS_Y30_34_AUT",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 12548113,
+      "name": "Employment-To-Population Ratio Women Ages 30-34 - Annual - Austria",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-29T05:15:43Z",
+      "urlize_name": "Employment-To-Population-Ratio-Women-Ages-30-34-Annual-Austria"
+    },
+    {
+      "code": "COMM_13_SUGARCANE_IMPORT_GUF",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 2928084,
+      "name": "Commodity Imports - Oil Seed, Oleagic Fruits, Grain, Seed, Fruit, Etc, Ne / Sugar cane - French Guiana",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "1995-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T01:54:35Z",
+      "urlize_name": "Commodity-Imports-Oil-Seed-Oleagic-Fruits-Grain-Seed-Fruit-Etc-Ne-Sugar-cane-French-Guiana"
+    },
+    {
+      "code": "EMP_XEES_SEX_ECO1_NB_SEX_T_ECO_ISIC3_L_CHL",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 5925416,
+      "name": "Paid Employment By Sex And Economic Activity, Total, Public Administration And Defence; Compulsory Social Security - Chile",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-21T16:21:59Z",
+      "urlize_name": "Paid-Employment-By-Sex-And-Economic-Activity-Total-Public-Administration-And-Defence-Compulsory-Social-Security-Chile"
+    },
+    {
+      "code": "FAO_5104SOUTHERNAFRICATOTAL2960FISHSEAFOODTOTAL",
+      "column_names": [
+        "Year",
+        "Production Quantity (1000 tonnes)",
+        "Import Quantity (1000 tonnes)",
+        "Stock Variation (1000 tonnes)",
+        "Export Quantity (1000 tonnes)",
+        "Domestic supply quantity (1000 tonnes)",
+        "Feed (1000 tonnes)",
+        "Food (1000 tonnes)",
+        "Other Util (1000 tonnes)",
+        "Food supply quantity (kg/capita/yr) (Kg)",
+        "Food supply (kcal/capita/day) (kcal/capita/day)",
+        "Protein supply quantity (g/capita/day) (g/capita/day)",
+        "Fat supply quantity (g/capita/day) (g/capita/day)"
+      ],
+      "description": "A food balance sheet presents a comprehensive picture of the pattern of a country's food supply during a specified reference period. The food balance sheet shows for each food item i.e. each primary commodity availablity for human consumption which corresponds to the sources of supply and its utilisation. The total quantity of foodstuffs produced in a country added to the total quantity imported and adjusted to any change in stocks that may have occurred since the beginning of the reference period gives the supply available during that period. On the utilisation side a distinction is made between the quantities exported, fed to livestock + used for seed, losses during storage and transportation, and food supplies available for human consumption. The per capita supply of each such food item available for human consumption is then obtained by dividing the respective quantity by the related data on the population actually partaking in it. Data on per capita food supplies are expressed in terms of quantity and by applying appropriate food composition factors for all primary and processed products also in terms of dietary energy value, protein and fat content.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/FoodBalanceSheets_E_All_Area_Groups_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7796695,
+      "name": "Food Balance Sheets: Fish, Seafood + (Total) - Southern Africa + (Total)",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T01:47:21Z",
+      "urlize_name": "Food-Balance-Sheets-Fish-Seafood-Total-Southern-Africa-Total"
+    },
+    {
+      "code": "GST_A_PT_N_B1300_SPR_B11U2_FB_G",
+      "column_names": [
+        "Date",
+        "Percent"
+      ],
+      "description": " Portugal - Shares and Other equity - privatisation - Corporations (ESA95)-NCBs - General government (ESA95)-NCBs - Financial flows at market value - Percentage points, series(t)/GDP(t) - Neither seasonally nor working day adjusted , :, Dataset:GST : Government Statistics Explanation page (Series and Dataset Level Information), Reference area:Portugal (PT), Decimals:Six (6), Collection indicator:Summed through period (S)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=9485649&SERIES_KEY=121.GST.A.PT.N.B1300.SPR.B11U2.FB.G&exportType=sdmx",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 11369884,
+      "name": "Portugal Shares and Other equity privatisation Corporations -NCBs General government -NCBs Financial flows at market value Percentage points, series/GDP",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-26T00:53:17Z",
+      "urlize_name": "Portugal-Shares-and-Other-equity-privatisation-Corporations-NCBs-General-government-NCBs-Financial-flows-at-market-value-Percentage-points-series-GDP"
+    },
+    {
+      "code": "EMP_XEES_SEX_ECO1_NB_SEX_T_ECO_ISIC3_L_SAU",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5925468,
+      "name": "Paid Employment By Sex And Economic Activity, Total, Public Administration And Defence; Compulsory Social Security - Saudi Arabia",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-04-21T16:23:18Z",
+      "urlize_name": "Paid-Employment-By-Sex-And-Economic-Activity-Total-Public-Administration-And-Defence-Compulsory-Social-Security-Saudi-Arabia"
+    },
+    {
+      "code": "FAO_5402NORTHERNEUROPETOTAL1103HIDESWETSALTEDHORSES",
+      "column_names": [
+        "Year",
+        "Import Quantity (tonnes)",
+        "Import Value (1000 US$)",
+        "Export Quantity (tonnes)",
+        "Export Value (1000 US$)"
+      ],
+      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_All_Area_Groups_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7760679,
+      "name": "Trade Crops Livestock: Hides Wet Salted Horses - Northern Europe + (Total)",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-07-26T21:24:08Z",
+      "urlize_name": "Trade-Crops-Livestock-Hides-Wet-Salted-Horses-Northern-Europe-Total"
+    },
+    {
+      "code": "NCU7899783400005",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Health service occupations; Skills: Level 05 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU7899783400005",
+      "frequency": "annual",
+      "from_date": "2003-06-30",
+      "id": 9238960,
+      "name": "Compensation for Health service occupations in Level 05",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2005-06-30",
+      "type": null,
+      "updated_at": "2013-11-18T22:17:26Z",
+      "urlize_name": "Compensation-for-Health-service-occupations-in-Level-05"
+    },
+    {
+      "code": "POP_22_MDV_MAL_TOT_43",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
+      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
+      "frequency": "annual",
+      "from_date": "1967-12-31",
+      "id": 2718761,
+      "name": "Population - Male / Age 43 / Total Areas - Maldives",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T20:01:59Z",
+      "urlize_name": "Population-Male-Age-43-Total-Areas-Maldives"
+    },
+    {
+      "code": "COMM_75_COPPERSCREWSBOLTSORNUTSEXCEPTWOODSCREWS_EXPORT_EST",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1997-12-31",
+      "id": 4307096,
+      "name": "Commodity Exports - Copper And Articles Thereof / Copper screws, bolts or nuts except wood screws - Estonia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T01:47:21Z",
+      "urlize_name": "Commodity-Exports-Copper-And-Articles-Thereof-Copper-screws-bolts-or-nuts-except-wood-screws-Estonia"
+    },
+    {
+      "code": "CONTACT_FOREIGNCITIENS_BLR",
+      "column_names": [
+        "Year",
+        "Count"
+      ],
+      "description": "Formal Contact with the police and/or criminal justice system may include persons suspected, or arrested or cautioned. One of the key tasks of UNODC is to produce and disseminate accurate drugs and crime statistics at the international level. UNODC also works to strengthen national capacity to produce, disseminate and use drugs and crime statistics within the framework of official statistics.",
+      "display_url": "http://www.unodc.org/unodc/en/data-and-analysis/index.html?ref=menuside",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 6012481,
+      "name": "Person Brought Into Contact with Police and/or Criminal Justice System for All Crimes (Foreign Citiens) - Belarus",
+      "private": false,
+      "source_code": "UNODC",
+      "source_name": "United Nations Office on Drugs and Crime",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T01:54:35Z",
+      "urlize_name": "Person-Brought-Into-Contact-with-Police-and-or-Criminal-Justice-System-for-All-Crimes-Foreign-Citiens-Belarus"
+    },
+    {
+      "code": "NCU2408652002307",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Accountants and auditors; Skills: Level 07 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2408652002307",
+      "frequency": "annual",
+      "from_date": "1999-07-31",
+      "id": 9113183,
+      "name": "Compensation for Accountants and auditors in Level 07",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2001-04-30",
+      "type": null,
+      "updated_at": "2013-11-16T14:22:24Z",
+      "urlize_name": "Compensation-for-Accountants-and-auditors-in-Level-07"
+    },
+    {
+      "code": "EMP_XEES_SEX_ECO1_NB_SEX_T_ECO_ISIC3_O_MUS",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5925841,
+      "name": "Paid Employment By Sex And Economic Activity, Total, Other Community, Social And Personal Service Activities - Mauritius",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-21T16:29:15Z",
+      "urlize_name": "Paid-Employment-By-Sex-And-Economic-Activity-Total-Other-Community-Social-And-Personal-Service-Activities-Mauritius"
+    },
+    {
+      "code": "GSP_SIC_ALL_I_TEXTILEMILLSANDTEXTILEPRODUCTMILLS_TEXAS",
+      "column_names": [],
+      "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+      "display_url": "http://bea.gov/regional",
+      "frequency": null,
+      "from_date": null,
+      "id": 8217277,
+      "name": "TOPI Subsidies (SIC): Textile mills and textile product mills - Texas",
+      "private": false,
+      "source_code": "BEA",
+      "source_name": "Bureau of Economic Analysis",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2013-09-13T03:05:57Z",
+      "urlize_name": "TOPI-Subsidies-SIC-Textile-mills-and-textile-product-mills-Texas"
+    },
+    {
+      "code": "EMP_XEES_SEX_ECO1_NB_SEX_T_ECO_ISIC3_X_AUS",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5926218,
+      "name": "Paid Employment By Sex And Economic Activity, Total, Not Classifiable By Economic Activity - Australia",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-21T16:36:45Z",
+      "urlize_name": "Paid-Employment-By-Sex-And-Economic-Activity-Total-Not-Classifiable-By-Economic-Activity-Australia"
+    },
+    {
+      "code": "BSI_Q_GR_N_A_A30_F_1_U3_1000_Z01_E",
+      "column_names": [
+        "Date",
+        "Millions of Euro"
+      ],
+      "description": " Greece, Outstanding amounts at the end of the period (stocks), MFIs excluding ESCB reporting sector - Securities other than shares, Up to 1 year maturity, All currencies combined - EU member states not belonging to the Euro area counterpart, MFIs sector, denominated in Euro, data Neither seasonally nor working day adjusted , :, Dataset:BSI : Balance Sheet Items Explanation page (Series and Dataset Level Information), Reference area:Greece (GR) (GR), Decimals:Zero (0), Collection indicator:End of period (E)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2019174&SERIES_KEY=117.BSI.Q.GR.N.A.A30.F.1.U3.1000.Z01.E&exportType=sdmx",
+      "frequency": "quarterly",
+      "from_date": "2003-03-31",
+      "id": 11381176,
+      "name": "Greece, Outstanding amounts at the end of the period , MFIs excluding ESCB reporting sector Securities other than shares, Up to 1 year maturity, All currencies combined EU member states not belonging to the Euro area counterpart, MFIs sector, denominated in Euro, data",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-30T23:22:28Z",
+      "urlize_name": "Greece-Outstanding-amounts-at-the-end-of-the-period-MFIs-excluding-ESCB-reporting-sector-Securities-other-than-shares-Up-to-1-year-maturity-All-currencies-combined-EU-member-states-not-belonging-to-the-Euro-area-counterpart-MFIs-sector-denominated-in-Euro-data"
+    },
+    {
+      "code": "EMP_XEES_SEX_ECO1_NB_SEX_T_ECO_ISIC3_K_DOM",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5925335,
+      "name": "Paid Employment By Sex And Economic Activity, Total, Real Estate, Renting And Business Activities - Dominican Republic",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-21T16:19:58Z",
+      "urlize_name": "Paid-Employment-By-Sex-And-Economic-Activity-Total-Real-Estate-Renting-And-Business-Activities-Dominican-Republic"
+    },
+    {
+      "code": "V61611273",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "{\"Geography\"=>\"Hawkesbury, Quebec part\", \"North American Industry Classification System (NAICS)\"=>\"All families\", \"Type of client\"=>\"Families with 1 child\", nil=>\"Older parent aged 55 to 64 years\"}",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 9848796,
+      "name": "111-0011: Commercial and industrial machinery and equipment rental and leasing, sales, by type of client based on the North American Industry Classification System (NAICS)",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-02-18T21:45:37Z",
+      "urlize_name": "111-0011-Commercial-and-industrial-machinery-and-equipment-rental-and-leasing-sales-by-type-of-client-based-on-the-North-American-Industry-Classification-System-NAICS"
+    },
+    {
+      "code": "EMP_XEES_SEX_ECO1_NB_SEX_T_ECO_ISIC3_O_BOL",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5925794,
+      "name": "Paid Employment By Sex And Economic Activity, Total, Other Community, Social And Personal Service Activities - Bolivia",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-04-21T16:28:19Z",
+      "urlize_name": "Paid-Employment-By-Sex-And-Economic-Activity-Total-Other-Community-Social-And-Personal-Service-Activities-Bolivia"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ILO",
+      "datasets_count": 228980,
+      "description": "No description for this source yet",
+      "host": "www.ilo.org",
+      "id": 686,
+      "name": "International Labour Organization"
+    },
+    {
+      "code": "UNODC",
+      "datasets_count": 9484,
+      "description": "No description for this source yet",
+      "host": "www.unodc.org",
+      "id": 692,
+      "name": "United Nations Office on Drugs and Crime"
+    },
+    {
+      "code": "ECB",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "sdw.ecb.europa.eu",
+      "id": 8917,
+      "name": "European Central Bank"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
+    },
+    {
+      "code": "BEA",
+      "datasets_count": 107459,
+      "description": "No description for this source yet",
+      "host": "www.bea.gov",
+      "id": 95,
+      "name": "Bureau of Economic Analysis"
+    },
+    {
+      "code": "CANSIM",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "www20.statcan.gc.ca",
+      "id": 1199,
+      "name": "Statistics Canada"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "ILOSTAT",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "ilo.org2",
+      "id": 10437,
+      "name": "ILOSTAT Database"
+    }
+  ],
+  "total_count": 10148784
+}

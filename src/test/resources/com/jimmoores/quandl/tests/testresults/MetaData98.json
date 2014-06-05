@@ -1,0 +1,473 @@
+{
+  "current_page": 423080,
+  "docs": [
+    {
+      "code": "PET_MLPIMP1CA2_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MLPIMP1CA2.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MLPIMP1CA2.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MLPIMP1CA2.A&out=xml",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 12085411,
+      "name": "East Coast (padd 1) Imports From Canada Of Liquified Petroleum Gases, Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-18T04:07:26Z",
+      "urlize_name": "East-Coast-padd-1-Imports-From-Canada-Of-Liquified-Petroleum-Gases-Annual"
+    },
+    {
+      "code": "EAP_TEAP_NB_SEX_T_AGE_AGGREGATE_YGE65_EDU_AGGREGATE_TOTAL_Q_DNK",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2001-03-31",
+      "id": 12412629,
+      "name": "Labour Force Ages 65+ - Quarterly - Denmark",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-30T02:13:13Z",
+      "urlize_name": "Labour-Force-Ages-65-Quarterly-Denmark"
+    },
+    {
+      "code": "EAP_TEAP_NB_SEX_T_AGE_10YRBANDS_TOTAL_EDU_AGGREGATE_INT_Q_DNK",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2001-03-31",
+      "id": 12412806,
+      "name": "Labour Force InIntermediate Education - Quarterly - Denmark",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-30T02:13:34Z",
+      "urlize_name": "Labour-Force-InIntermediate-Education-Quarterly-Denmark"
+    },
+    {
+      "code": "EAP_TEAP_NB_SEX_T_AGE_10YRBANDS_TOTAL_EDU_AGGREGATE_X_Q_DNK",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2002-03-31",
+      "id": 12412807,
+      "name": "Labour Force - Quarterly - Denmark",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-30T02:13:35Z",
+      "urlize_name": "Labour-Force-Quarterly-Denmark"
+    },
+    {
+      "code": "SXZ_SL_TLF_CACT_65UP_FE_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Labor force participation rate is the proportion of the population ages 65 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.  The participation rates are harmonized to account for differences in national data collection and tabulation methodologies as well as for other country-specific factors such as military service requirements. The series includes both nationally reported and imputed data and only estimates that are national, meaning there are no geographic limitations in coverage.\nLabor participation rate, female (% of female population ages 65+)",
+      "display_url": "http://api.worldbank.org/countries/SXZ/indicators/SL.TLF.CACT.65UP.FE.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 6456579,
+      "name": "Sub-Saharan Africa excluding South Africa: Labor participation rate, female (% of female population ages 65+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T13:24:30Z",
+      "urlize_name": "Sub-Saharan-Africa-excluding-South-Africa-Labor-participation-rate-female-of-female-population-ages-65"
+    },
+    {
+      "code": "MNA_WP11670_9",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who currently have a loan they took out for emergency or health purposes (% in the third, fourth, and fifth (highest) income quintiles (41st-100th percentile), age 15+)\nOutstanding loan for health or emergencies, income quintiles III, IV, and V (highest)  (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/MNA/indicators/WP11670.9?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2100616,
+      "name": "Middle East & North Africa (developing only): Outstanding loan for health or emergencies, income quintiles III, IV, and V (highest)  (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T13:25:11Z",
+      "urlize_name": "Middle-East-North-Africa-developing-only-Outstanding-loan-for-health-or-emergencies-income-quintiles-III-IV-and-V-highest-age-15"
+    },
+    {
+      "code": "20545",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Nonearmarked credit operations outstanding - Non-financial corporations - Discount of checks\nUnits: R$ (million)",
+      "display_url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=20545&dataInicio=31%2F12%2F1962&dataFim=09%2F11%2F2031&selTipoArqDownload=2&hdOidSeriesSelecionadas=20545",
+      "frequency": "monthly",
+      "from_date": "2007-03-31",
+      "id": 7473236,
+      "name": "Nonearmarked credit operations outstanding - Non-financial corporations - Discount of checks",
+      "private": false,
+      "source_code": "BCB",
+      "source_name": "Central Bank of Brazil",
+      "to_date": "2014-04-30",
+      "type": null,
+      "updated_at": "2014-06-04T10:46:44Z",
+      "urlize_name": "Nonearmarked-credit-operations-outstanding-Non-financial-corporations-Discount-of-checks"
+    },
+    {
+      "code": "EAP_TEAP_NB_SEX_F_AGE_AGGREGATE_Y15_24_EDU_AGGREGATE_TOTAL_Q_IRL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2001-03-31",
+      "id": 12416282,
+      "name": "Labour Force Women Ages 15-24 - Quarterly - Ireland",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-30T02:22:05Z",
+      "urlize_name": "Labour-Force-Women-Ages-15-24-Quarterly-Ireland"
+    },
+    {
+      "code": "ECA_TM_VAL_MRCH_R2_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Merchandise imports from developing economies in Europe and Central Asia are the sum of merchandise imports by the reporting economy from developing economies in the Europe and Central Asia region according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.\nMerchandise imports from developing economies in Europe & Central Asia (% of total merchandise imports)",
+      "display_url": "http://api.worldbank.org/countries/ECA/indicators/TM.VAL.MRCH.R2.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1992-12-31",
+      "id": 301900,
+      "name": "Europe & Central Asia (developing only): Merchandise imports from developing economies in Europe & Central Asia (% of total merchandise imports)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T13:24:30Z",
+      "urlize_name": "Europe-Central-Asia-developing-only-Merchandise-imports-from-developing-economies-in-Europe-Central-Asia-of-total-merchandise-imports"
+    },
+    {
+      "code": "EAP_TEAP_NB_SEX_M_AGE_AGGREGATE_TOTAL_EDU_AGGREGATE_BAS_Q_DNK",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2001-03-31",
+      "id": 12412658,
+      "name": "Labour Force Men InBasic Education - Quarterly - Denmark",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-30T02:13:50Z",
+      "urlize_name": "Labour-Force-Men-InBasic-Education-Quarterly-Denmark"
+    },
+    {
+      "code": "EAP_TEAP_NB_SEX_M_AGE_AGGREGATE_YGE65_EDU_AGGREGATE_TOTAL_Q_DNK",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2001-03-31",
+      "id": 12412711,
+      "name": "Labour Force Men Ages 65+ - Quarterly - Denmark",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-30T02:13:58Z",
+      "urlize_name": "Labour-Force-Men-Ages-65-Quarterly-Denmark"
+    },
+    {
+      "code": "EAP_TEAP_NB_SEX_F_AGE_AGGREGATE_YGE65_EDU_AGGREGATE_INT_Q_DNK",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2001-03-31",
+      "id": 12412791,
+      "name": "Labour Force Women Ages 65+ InIntermediate Education - Quarterly - Denmark",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-30T02:14:07Z",
+      "urlize_name": "Labour-Force-Women-Ages-65-InIntermediate-Education-Quarterly-Denmark"
+    },
+    {
+      "code": "EAP_TEAP_NB_SEX_F_AGE_10YRBANDS_TOTAL_EDU_AGGREGATE_ADV_Q_DNK",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2001-03-31",
+      "id": 12412837,
+      "name": "Labour Force Women InAdvanced Education - Quarterly - Denmark",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-30T02:14:14Z",
+      "urlize_name": "Labour-Force-Women-InAdvanced-Education-Quarterly-Denmark"
+    },
+    {
+      "code": "CYM_IS_SHP_GOOD_TU",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Port container traffic measures the flow of containers from land to sea transport modes., and vice versa, in twenty-foot equivalent units (TEUs), a standard-size container. Data refer to coastal shipping as well as international journeys. Transshipment traffic is counted as two lifts at the intermediate port (once to off-load and again as an outbound lift) and includes empty units.\nContainer port traffic (TEU: 20 foot equivalent units)",
+      "display_url": "http://api.worldbank.org/countries/CYM/indicators/IS.SHP.GOOD.TU?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 2167696,
+      "name": "Cayman Islands: Container port traffic (TEU: 20 foot equivalent units)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T13:24:31Z",
+      "urlize_name": "Cayman-Islands-Container-port-traffic-TEU-20-foot-equivalent-units"
+    },
+    {
+      "code": "LMC_DC_DAC_KORL_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Net bilateral aid flows from DAC donors are the net disbursements of official development assistance (ODA) or official aid from the members of the Development Assistance Committee (DAC). Net disbursements are gross disbursements of grants and loans minus repayments of principal on earlier loans. ODA consists of loans made on concessional terms (with a grant element of at least 25 percent, calculated at a rate of discount of 10 percent) and grants made to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. Official aid refers to aid flows from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data. DAC members are Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Japan, Republic of Korea, Luxembourg, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States, and European Union Institutions. Regional aggregates include data for economies not specified elsewhere. World and income group totals include aid not allocated by country or region. Data are in current U.S. dollars.\nNet bilateral aid flows from DAC donors, Korea, Rep. (current US$)",
+      "display_url": "http://api.worldbank.org/countries/LMC/indicators/DC.DAC.KORL.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1960-12-31",
+      "id": 463884,
+      "name": "Lower middle income: Net bilateral aid flows from DAC donors, Korea, Rep. (current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T13:24:32Z",
+      "urlize_name": "Lower-middle-income-Net-bilateral-aid-flows-from-DAC-donors-Korea-Rep-current-US"
+    },
+    {
+      "code": "EAP_TEAP_NB_SEX_M_AGE_AGGREGATE_Y55_64_EDU_AGGREGATE_X_Q_DNK",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2007-06-30",
+      "id": 12412703,
+      "name": "Labour Force Men Ages 55-64 - Quarterly - Denmark",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-30T02:18:35Z",
+      "urlize_name": "Labour-Force-Men-Ages-55-64-Quarterly-Denmark"
+    },
+    {
+      "code": "LFSA_ESGAED_1",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The section 'LFS series - detailed annual survey results' reports annual results from the EU-LFS. While LFS is a quarterly survey, it is also possible to produce annual results. There are several ways of doing it, see section '20.5 Data compilation' below for details.\r\nThis data collection covers all main labour market characteristics, i.e. the total population, activity and activity rates, employment, employment rates, self employed, employees, temporary employment, full-time and part-time employment, population in employment having a second job, working time, total unemployment and inactivity.\r\nGeneral information on the EU-LFS can be found in the ESMS page for 'Employment and unemployment (LFS)', see link in section 21.2. Detailed information regarding the survey methods, organization and comparability issues is available on the EU LFS webpage.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/lfsa_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Flfsa_esgaed.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "1998-12-31",
+      "id": 928699,
+      "name": "Selfemployment by sex age groups and highest level of education attained 1 000  : Females : From 15 to 19 years : Pre-primary, primary and lower secondary education (levels 0-2) : Self-employed persons : Switzerland",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T04:41:32Z",
+      "urlize_name": "Selfemployment-by-sex-age-groups-and-highest-level-of-education-attained-1-000-Females-From-15-to-19-years-Pre-primary-primary-and-lower-secondary-education-levels-0-2-Self-employed-persons-Switzerland"
+    },
+    {
+      "code": "JAM_GGXCNL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Jamaica General Government Net Lending/Borrowing, USD Billions. Units: National currency. Multiplier: Billions. Estimates begin after 2013. This data is sourced from www.opendataforafrica.org where it is offered under an open data licence (www.opendataforafrica.org/legal/termsofuse).  Net lending (+)/ borrowing (?) is calculated as revenue minus total expenditure. This is a core GFS balance that measures the extent to which general government is either putting financial resources at the disposal of other sectors in the economy and nonresidents (net lending), or utilizing the financial resources generated by other sectors and nonresidents (net borrowing). This balance may be viewed as an indicator of the financial impact of general government activity on the rest of the economy and nonresidents (GFSM 2001, paragraph 4.17). Note: Net lending (+)/borrowing (?) is also equal to net acquisition of financial assets minus net incurrence of liabilities.  Source: Ministry of Finance Latest actual data: 2012/13 Notes: All fiscal and debt series data in WEO are on fiscal year basis. Fiscal assumptions: Based on policies to be implemented under the EFF Start/end months of reporting year: April/March GFS Manual used: 1986. Public Bodies also  report in 1986 format. Basis of recording: Cash General government includes: Central Government;. The fiscal coverage is central government only Valuation of public debt: Nominal value. The debt coverage is central government and public bodies Primary domestic currency: Jamaica dollars Data last updated: 02/2014.",
+      "display_url": "http://botswana.opendataforafrica.org/IMFWEO2014Apr/imf-world-economic-outlook-april-2014",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 9674582,
+      "name": "Jamaica General Government Net Lending/Borrowing, USD Billions",
+      "private": false,
+      "source_code": "ODA",
+      "source_name": "Open Data for Africa (IMF)",
+      "to_date": "2019-12-31",
+      "type": null,
+      "updated_at": "2014-04-30T21:34:37Z",
+      "urlize_name": "Jamaica-General-Government-Net-Lending-Borrowing-USD-Billions"
+    },
+    {
+      "code": "AVG_LNGTH_STAY_CNTRY_RSDNCE_PHILIPPINES",
+      "column_names": [
+        "Year",
+        "Philippines"
+      ],
+      "description": "Average Length Of Stay By Country Of Residence (Days) - Philippines",
+      "display_url": "http://www.bps.go.id/eng/tab_sub/excel.php?id_subyek=16%20&notab=17",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 7949075,
+      "name": "Average Length Of Stay By Country Of Residence (Days) - Philippines",
+      "private": false,
+      "source_code": "STATS_INDONESIA",
+      "source_name": "Statistics Indonesia",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T19:25:40Z",
+      "urlize_name": "Average-Length-Of-Stay-By-Country-Of-Residence-Days-Philippines"
+    },
+    {
+      "code": "CITY_CHILINHHDUVIETNAM",
+      "column_names": [
+        "Year",
+        "Population"
+      ],
+      "description": "City populations from previous censuses. Latest row may be an estimate.",
+      "display_url": "http://www.citypopulation.de/Vietnam.html",
+      "frequency": "annual",
+      "from_date": "2009-04-01",
+      "id": 7995448,
+      "name": "Population of Chi Linh, HDU, Vietnam",
+      "private": false,
+      "source_code": "CITYPOP",
+      "source_name": "Thomas Brinkhoff: City Populations",
+      "to_date": "2009-04-01",
+      "type": null,
+      "updated_at": "2014-01-11T09:03:12Z",
+      "urlize_name": "Population-of-Chi-Linh-HDU-Vietnam"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "BCB",
+      "datasets_count": 11808,
+      "description": "No description for this source yet",
+      "host": "www3.bcb.gov.br",
+      "id": 35,
+      "name": "Central Bank of Brazil"
+    },
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ODA",
+      "datasets_count": 0,
+      "description": "Open Data for Africa offers two IMF databases under open data licenses:  IMF Primary Commodity Prices and IMF World Economic Outlook.",
+      "host": "www.opendataforafrica.org",
+      "id": 4443,
+      "name": "Open Data for Africa (IMF)"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "CITYPOP",
+      "datasets_count": 0,
+      "description": "City Population provides statistical data for countries, administrative areas, cities and agglomerations.",
+      "host": "www.citypopulation.de",
+      "id": 1058,
+      "name": "Thomas Brinkhoff: City Populations"
+    },
+    {
+      "code": "STATS_INDONESIA",
+      "datasets_count": 0,
+      "description": "Statistics Indonesia is a non-departmental government institution which is a pioneer of reliable statistical data.",
+      "host": "www.bps.go.id",
+      "id": 926,
+      "name": "Statistics Indonesia"
+    },
+    {
+      "code": "ILOSTAT",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "ilo.org2",
+      "id": 10437,
+      "name": "ILOSTAT Database"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

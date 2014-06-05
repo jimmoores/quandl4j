@@ -1,0 +1,439 @@
+{
+  "current_page": 84502,
+  "docs": [
+    {
+      "code": "ZIP_ALLHOMES_95236",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the zip code of 95236, Linden, CA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6754631,
+      "name": "Zillow Home Value Index (Zip Codes): All Homes - 95236,Linden,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T04:49:45Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-All-Homes-95236-Linden-CA"
+    },
+    {
+      "code": "MHOOD_MEDIANLISTINGPRICE_ALLHOMES_COBBLEHILLNEWYORKNY",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7502058,
+      "name": "Zillow Metrics (Neighborhoods): Median List Price - Cobble Hill,New York,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:41:21Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Median-List-Price-Cobble-Hill-New-York-NY"
+    },
+    {
+      "code": "LTBG_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 6112201,
+      "name": "Lightbridge Inc ( LTBG ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T14:58:06Z",
+      "urlize_name": "Lightbridge-Inc-LTBG-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "TUN_GFDD_OI_08",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Ratio of net offshore bank loans to GDP. An offshore bank is a bank located outside the country of residence of the depositor, typically in a low tax jurisdiction (or tax haven) that provides financial and legal advantages. Offshore bank loan data from October 2008 version of BIS Statistical Appendix Table 12A (Net Issues): International debt securities - all issuers. (Bank for International Settlements)\nLoans from non-resident banks (net) to GDP (%)",
+      "display_url": "http://api.worldbank.org/countries/TUN/indicators/GFDD.OI.08?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1994-12-31",
+      "id": 6481772,
+      "name": "Tunisia: Loans from non-resident banks (net) to GDP (%)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T06:29:02Z",
+      "urlize_name": "Tunisia-Loans-from-non-resident-banks-net-to-GDP"
+    },
+    {
+      "code": "TCAM_ROC",
+      "column_names": [
+        "Date",
+        "Return on Capital"
+      ],
+      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5438077,
+      "name": "Transport Corp of Amer Inc ( TCAM ) - Return on Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T00:32:19Z",
+      "urlize_name": "Transport-Corp-of-Amer-Inc-TCAM-Return-on-Capital"
+    },
+    {
+      "code": "GLOB_BETA_VL",
+      "column_names": [
+        "Date",
+        "Value Line Beta"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4474973,
+      "name": "Global Med Tech ( GLOB ) - Value Line Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T21:38:04Z",
+      "urlize_name": "Global-Med-Tech-GLOB-Value-Line-Beta"
+    },
+    {
+      "code": "MUS_MYS_MEA_YSCH_5559_MA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Mean years of schooling, 55-59, male is the mean years of schooling of the male population age 55-59.\nmean years of schooling, 55-59, male",
+      "display_url": "http://api.worldbank.org/countries/MUS/indicators/MYS.MEA.YSCH.5559.MA?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 6572506,
+      "name": "Mauritius: mean years of schooling, 55-59, male",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2050-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T11:43:51Z",
+      "urlize_name": "Mauritius-mean-years-of-schooling-55-59-male"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_04862",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7615758,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 04862,Union,ME",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-01-09T02:41:34Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-04862-Union-ME"
+    },
+    {
+      "code": "TCD_WP11651_5_7",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who borrowed any money in the past 12 months from any of the following sources: a formal financial institution, a store by using installment credit, family or friends, employer, or another private lender (% with a secondary education or more, age 15+)\nLoan in the past year, secondary education or more (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/TCD/indicators/WP11651_5.7?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2083858,
+      "name": "Chad: Loan in the past year, secondary education or more (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-14T17:46:49Z",
+      "urlize_name": "Chad-Loan-in-the-past-year-secondary-education-or-more-age-15"
+    },
+    {
+      "code": "RZIP_ZRI_ALLHOMES_19119",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the zip code of 19119, Philadelphia, PA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-11-30",
+      "id": 6854535,
+      "name": "Zillow Rent Index (Zip Codes): Rentals All Homes - 19119,Philadelphia,PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:08:18Z",
+      "urlize_name": "Zillow-Rent-Index-Zip-Codes-Rentals-All-Homes-19119-Philadelphia-PA"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_90048",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7393554,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 90048,Los Angeles,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-08T16:15:28Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-90048-Los-Angeles-CA"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_NORTHNORWICHNY",
+      "column_names": [
+        "Date",
+        "North Norwich"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7247336,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - North Norwich, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T04:42:14Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-North-Norwich-NY"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_76853",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-05-31",
+      "id": 7618805,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 76853,Lometa,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-08T16:12:21Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-76853-Lometa-TX"
+    },
+    {
+      "code": "BGR_SL_TLF_PART_FE_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Part time employment refers to regular employment in which working time is substantially less than normal. Definitions of part time employment differ by country.\nPart time employment, female (% of total female employment)",
+      "display_url": "http://api.worldbank.org/countries/BGR/indicators/SL.TLF.PART.FE.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 216537,
+      "name": "Bulgaria: Part time employment, female (% of total female employment)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T19:04:29Z",
+      "urlize_name": "Bulgaria-Part-time-employment-female-of-total-female-employment"
+    },
+    {
+      "code": "EAGB_EV",
+      "column_names": [
+        "Date",
+        "Enterprise Value"
+      ],
+      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-08-31",
+      "id": 5996832,
+      "name": "Eagle Broadband Inc ( EAGB ) - Enterprise Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-08-31",
+      "type": null,
+      "updated_at": "2014-03-22T10:03:26Z",
+      "urlize_name": "Eagle-Broadband-Inc-EAGB-Enterprise-Value"
+    },
+    {
+      "code": "COM_GFDD_DI_01",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Private credit by deposit money banks and other financial institutions to GDP, calculated using the following deflation method:  {(0.5)*[Ft/P_et + Ft-1/P_et-1]}/[GDPt/P_at] where F is credit to the private sector, P_e is end-of period CPI, and P_a is average annual CPI. Raw data are from the electronic version of the IMF\u2019s International Financial Statistics. Private credit by deposit money banks (IFS line 22d); GDP in local currency (IFS line 99B..ZF or, if not available, line 99B.CZF); end-of period CPI (IFS line 64M..ZF or, if not available, 64Q..ZF); and annual CPI (IFS line 64..ZF). (International Monetary Fund, International Financial Statistics, and World Bank GDP estimates)\nBank private credit to GDP (%)",
+      "display_url": "http://api.worldbank.org/countries/COM/indicators/GFDD.DI.01?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 6500443,
+      "name": "Comoros: Bank private credit to GDP (%)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-18T14:37:36Z",
+      "urlize_name": "Comoros-Bank-private-credit-to-GDP"
+    },
+    {
+      "code": "RZIP_ZRI_ALLHOMES_27207",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the zip code of 27207, Bear Creek, NC. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-11-30",
+      "id": 6865952,
+      "name": "Zillow Rent Index (Zip Codes): Rentals All Homes - 27207,Bear Creek,NC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T06:59:16Z",
+      "urlize_name": "Zillow-Rent-Index-Zip-Codes-Rentals-All-Homes-27207-Bear-Creek-NC"
+    },
+    {
+      "code": "SPCH_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-03-31",
+      "id": 5464473,
+      "name": "Sport Chalet ( SPCH ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-03-31",
+      "type": null,
+      "updated_at": "2014-03-22T10:03:46Z",
+      "urlize_name": "Sport-Chalet-SPCH-Trailing-Net-Income"
+    },
+    {
+      "code": "MZIP_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_55317",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-03-31",
+      "id": 7287204,
+      "name": "Zillow Metrics (Zip Codes): Sold for Loss (%) - 55317,Chanhassen,MN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T15:14:30Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-for-Loss-55317-Chanhassen-MN"
+    },
+    {
+      "code": "ECU_SI_POV_GAPS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Poverty gap is the mean shortfall from the poverty line (counting the nonpoor as having zero shortfall), expressed as a percentage of the poverty line. This measure reflects the depth of poverty as well as its incidence.\nPoverty gap at $1.25 a day (PPP) (%)",
+      "display_url": "http://api.worldbank.org/countries/ECU/indicators/SI.POV.GAPS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1987-12-31",
+      "id": 303633,
+      "name": "Ecuador: Poverty gap at $1.25 a day (PPP) (%)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T22:18:12Z",
+      "urlize_name": "Ecuador-Poverty-gap-at-1-25-a-day-PPP"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "concurrency": 20,
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data",
+      "use_proxy": false
+    },
+    {
+      "code": "ZILLOW",
+      "concurrency": 20,
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research",
+      "use_proxy": false
+    },
+    {
+      "code": "WORLDBANK",
+      "concurrency": 400,
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank",
+      "use_proxy": false
+    }
+  ],
+  "total_count": 10148784
+}

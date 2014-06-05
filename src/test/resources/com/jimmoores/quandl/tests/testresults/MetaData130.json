@@ -1,0 +1,501 @@
+{
+  "current_page": 261988,
+  "docs": [
+    {
+      "code": "COMM_29_COMMERCIALALKALIMETALSILICATESSILICATESNES_IMPORT_FJI",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1997-12-31",
+      "id": 3152357,
+      "name": "Commodity Imports - Inorganic Chemicals, Precious Metal Compound, Isotope / Commercial alkali metal silicates, silicates nes - Fiji",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T20:49:20Z",
+      "urlize_name": "Commodity-Imports-Inorganic-Chemicals-Precious-Metal-Compound-Isotope-Commercial-alkali-metal-silicates-silicates-nes-Fiji"
+    },
+    {
+      "code": "BQ1996",
+      "column_names": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Settle",
+        "Change",
+        "Wave",
+        "Volume",
+        "Prev. Day Open Interest",
+        "EFP Volume",
+        "EFS Volume",
+        "Block Volume"
+      ],
+      "description": "Historical Futures Prices: Brent Crude Oil Futures, August 1996, BQ1996, Intercontinental Exchange (ICE) Europe. Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
+      "display_url": "http://www.ofdp.org",
+      "frequency": "daily",
+      "from_date": "1995-07-17",
+      "id": 11251903,
+      "name": "Brent Crude Oil Futures, August 1996, BQ1996, ICE",
+      "private": false,
+      "source_code": "ICE",
+      "source_name": "Intercontinental Exchange",
+      "to_date": "1996-07-16",
+      "type": null,
+      "updated_at": "2014-04-11T14:51:33Z",
+      "urlize_name": "Brent-Crude-Oil-Futures-August-1996-BQ1996-ICE"
+    },
+    {
+      "code": "IIUCON2382204U117",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Number of illness cases (thousands); Case type: Total recordable cases of skin disease; Industry: Plumbing, heating, and air-conditioning contractors; Supersector: Construction; Area: Private industry, Illinois; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUCON2382204U117",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 9090107,
+      "name": "Number of illness cases (thousands) for Plumbing, heating, and air-conditioning contractors, Private industry, Illinois",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-11-15T21:31:25Z",
+      "urlize_name": "Number-of-illness-cases-thousands-for-Plumbing-heating-and-air-conditioning-contractors-Private-industry-Illinois"
+    },
+    {
+      "code": "COMM_78_LEADUNWROUGHTCONTAININGMOSTLYANTIMONY_EXPORT_PHL",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1996-12-31",
+      "id": 4345983,
+      "name": "Commodity Exports - Lead And Articles Thereof / Lead unwrought containing mostly antimony - Philippines",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T09:38:24Z",
+      "urlize_name": "Commodity-Exports-Lead-And-Articles-Thereof-Lead-unwrought-containing-mostly-antimony-Philippines"
+    },
+    {
+      "code": "HOLX_EFFECTIVEINCOMETAXRATECONTINUINGOPERATIONS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: EffectiveIncomeTaxRateContinuingOperations",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-09-24",
+      "id": 10367737,
+      "name": "HOLOGIC INC  (HOLX): Annual Effective Income Tax Rate Continuing Operations",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-28",
+      "type": null,
+      "updated_at": "2014-03-06T22:19:51Z",
+      "urlize_name": "HOLOGIC-INC-HOLX-Annual-Effective-Income-Tax-Rate-Continuing-Operations"
+    },
+    {
+      "code": "FAO_5101EASTERNAFRICATOTAL867CATTLEMEAT",
+      "column_names": [
+        "Year",
+        "Import Quantity (tonnes)",
+        "Import Value (1000 US$)",
+        "Export Quantity (tonnes)",
+        "Export Value (1000 US$)"
+      ],
+      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_All_Area_Groups_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7661520,
+      "name": "Trade Crops Livestock: Cattle meat - Eastern Africa + (Total)",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-08-29T21:13:54Z",
+      "urlize_name": "Trade-Crops-Livestock-Cattle-meat-Eastern-Africa-Total"
+    },
+    {
+      "code": "FAO_251ZAMBIA114MIXESANDDOUGHS",
+      "column_names": [
+        "Year",
+        "Import Quantity (tonnes)",
+        "Import Value (1000 US$)",
+        "Export Quantity (tonnes)",
+        "Export Value (1000 US$)"
+      ],
+      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_Africa_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7682805,
+      "name": "Trade Crops Livestock: Mixes and Doughs - Zambia",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T03:49:50Z",
+      "urlize_name": "Trade-Crops-Livestock-Mixes-and-Doughs-Zambia"
+    },
+    {
+      "code": "APD_LOSSFROMCATASTROPHES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LossFromCatastrophes",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-09-30",
+      "id": 10367736,
+      "name": "AIR PRODUCTS &amp; CHEMICALS INC /DE/  (APD): Annual Loss From Catastrophes",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2010-09-30",
+      "type": null,
+      "updated_at": "2014-03-11T04:41:52Z",
+      "urlize_name": "AIR-PRODUCTS-amp-CHEMICALS-INC-DE-APD-Annual-Loss-From-Catastrophes"
+    },
+    {
+      "code": "PRK_PROCEEDSFROMISSUANCEOFLONGTERMDEBT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ProceedsFromIssuanceOfLongTermDebt",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-03-31",
+      "id": 10367721,
+      "name": "PARK NATIONAL CORP /OH/  (PRK): Quarterly Proceeds From Issuance Of Long Term Debt",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2011-03-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:18:10Z",
+      "urlize_name": "PARK-NATIONAL-CORP-OH-PRK-Quarterly-Proceeds-From-Issuance-Of-Long-Term-Debt"
+    },
+    {
+      "code": "CXS_COMMONSTOCKPARORSTATEDVALUEPERSHARE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CommonStockParOrStatedValuePerShare",
+      "display_url": null,
+      "frequency": "quarterly",
+      "from_date": "2010-12-31",
+      "id": 10366573,
+      "name": "CreXus Investment Corp.  (CXS): Quarterly Common Stock Par Or Stated Value Per Share",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-07T22:41:58Z",
+      "urlize_name": "CreXus-Investment-Corp-CXS-Quarterly-Common-Stock-Par-Or-Stated-Value-Per-Share"
+    },
+    {
+      "code": "DLTR_ACCRUEDINCOMETAXESCURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AccruedIncomeTaxesCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-01-30",
+      "id": 10733399,
+      "name": "DOLLAR TREE INC  (DLTR): Annual Accrued Income Taxes Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-02-02",
+      "type": null,
+      "updated_at": "2014-03-12T16:35:59Z",
+      "urlize_name": "DOLLAR-TREE-INC-DLTR-Annual-Accrued-Income-Taxes-Current"
+    },
+    {
+      "code": "1451_001664765_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Without object, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1451",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "monthly",
+      "from_date": "2006-01-31",
+      "id": 8258405,
+      "name": "French services producer price indices for all markets (BtoAll) - Basic price - CPA 50A - Sea and coastal water transport services - Reference 2010",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-01-08T12:19:10Z",
+      "urlize_name": "French-services-producer-price-indices-for-all-markets-BtoAll-Basic-price-CPA-50A-Sea-and-coastal-water-transport-services-Reference-2010"
+    },
+    {
+      "code": "TRNG_AES_150_437",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Adult Education Survey is part of the EU Statistics on lifelong learning. The surveys have been carried out by countries in the EU, EFTA and candidate countries between 2005 and 2008. The EU AES is a pilot exercise which for the first time proposed a common EU framework including a standard questionnaire, tools and quality reporting.\r\nAES data from approximately half of the participating countries will be disseminated in autumn 2008 and the second part in mid 2009\r\nThe survey covers participation in education and lifelong learning activities (formal, non-formal and informal learning) including job-related activities, characteristics of learning activities, self-reported skills as well as modules on social and cultural participation, foreign language skills, IT skills and background variables related to main characteristics of the respondents.\r\nParameters and main variables\r\nThe AES in all the participating countries focused on the following parameters:\r\nParticipation in formal, non-formal and informal education (FED, NFE, INF)\r\nNon-participation and obstacles to participation in training\r\nParticipation in FED, NFE and INF activities by field of education/learning\r\nShare of the job related NFE\r\nVolume of instruction hours in FED and NFE\r\nEmployer financing and costs of learning in FED and NFE\r\nModule on language and ICT skills of the population\r\nModule on social and cultural participation of the population\r\n\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_aes_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_aes_150.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 625140,
+      "name": "Mean instruction hours spent by participant on education and training by occupation  : Hour : Unknown : Non-formal education and training : Spain",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2013-02-18T03:00:13Z",
+      "urlize_name": "Mean-instruction-hours-spent-by-participant-on-education-and-training-by-occupation-Hour-Unknown-Non-formal-education-and-training-Spain"
+    },
+    {
+      "code": "COMM_16_LARDOTHERPIGFATANDPOULTRYFATRENDERED_IMPORT_GRD",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 2948563,
+      "name": "Commodity Imports - Animal,vegetable Fats And Oils, Cleavage Products, Et / Lard, other pig fat and poultry fat, rendered - Grenada",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T05:28:56Z",
+      "urlize_name": "Commodity-Imports-Animal-vegetable-Fats-And-Oils-Cleavage-Products-Et-Lard-other-pig-fat-and-poultry-fat-rendered-Grenada"
+    },
+    {
+      "code": "COMM_34_MIXEDODORIFEROUSSUBSTANCESINDUSTRIALUSENES_IMPORT_MAC",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 3458097,
+      "name": "Commodity Imports - Essential Oils, Perfumes, Cosmetics, Toileteries / Mixed odoriferous substances - industrial use nes - China, Macao SAR",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T20:49:20Z",
+      "urlize_name": "Commodity-Imports-Essential-Oils-Perfumes-Cosmetics-Toileteries-Mixed-odoriferous-substances-industrial-use-nes-China-Macao-SAR"
+    },
+    {
+      "code": "NGL_PARTNERSCAPITALATTRIBUTABLETONONCONTROLLINGINTEREST_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PartnersCapitalAttributableToNoncontrollingInterest",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2012-03-31",
+      "id": 10364993,
+      "name": "NGL Energy Partners LP  (NGL): Quarterly Partners Capital Attributable To Noncontrolling Interest",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:12:47Z",
+      "urlize_name": "NGL-Energy-Partners-LP-NGL-Quarterly-Partners-Capital-Attributable-To-Noncontrolling-Interest"
+    },
+    {
+      "code": "ELEC_PLANT_GEN_50888_OTH_ALL_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.50888-OTH-ALL.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.50888-OTH-ALL.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 4833663,
+      "name": "Net Generation : Northampton Generating Company Lp : Other : All Primemovers : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T19:34:10Z",
+      "urlize_name": "Net-Generation-Northampton-Generating-Company-Lp-Other-All-Primemovers-Annual"
+    },
+    {
+      "code": "COMM_60_RUBBERISEDTEXTILEADHESIVETAPE20CMWIDE_EXPORT_BRB",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1997-12-31",
+      "id": 3818198,
+      "name": "Commodity Exports - Impregnated, Coated Or Laminated Textile Fabric / Rubberised textile adhesive tape < 20cm wide - Barbados",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T14:36:17Z",
+      "urlize_name": "Commodity-Exports-Impregnated-Coated-Or-Laminated-Textile-Fabric-Rubberised-textile-adhesive-tape-20cm-wide-Barbados"
+    },
+    {
+      "code": "COMM_28_PETROLEUMBITUMEN_IMPORT_NLD",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1992-12-31",
+      "id": 3081117,
+      "name": "Commodity Imports - Mineral Fuels, Oils, Distillation Products, Etc / Petroleum bitumen - Netherlands",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T20:49:20Z",
+      "urlize_name": "Commodity-Imports-Mineral-Fuels-Oils-Distillation-Products-Etc-Petroleum-bitumen-Netherlands"
+    },
+    {
+      "code": "HOLX_DEBTINSTRUMENTCONVERTIBLEEFFECTIVEINTERESTRATEONE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DebtInstrumentConvertibleEffectiveInterestRateOne",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-12-10",
+      "id": 10367725,
+      "name": "HOLOGIC INC  (HOLX): Quarterly Debt Instrument Convertible Effective Interest Rate One",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2010-12-10",
+      "type": null,
+      "updated_at": "2014-03-06T22:11:16Z",
+      "urlize_name": "HOLOGIC-INC-HOLX-Quarterly-Debt-Instrument-Convertible-Effective-Interest-Rate-One"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "ICE",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "www.data.theice.com",
+      "id": 6894,
+      "name": "Intercontinental Exchange"
+    }
+  ],
+  "total_count": 10148784
+}

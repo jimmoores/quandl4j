@@ -1,0 +1,21 @@
+{
+  "code": "PET_MLPIMP1CA2_A",
+  "column_names": [
+    "Date",
+    "Value"
+  ],
+  "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MLPIMP1CA2.A>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MLPIMP1CA2.A<\/a>",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MLPIMP1CA2.A&out=xml",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "1995-12-31",
+  "id": 12085411,
+  "name": "East Coast (padd 1) Imports From Canada Of Liquified Petroleum Gases, Annual",
+  "private": false,
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2013-12-31",
+  "type": null,
+  "updated_at": "2014-05-18T04:07:26Z",
+  "urlize_name": "East-Coast-padd-1-Imports-From-Canada-Of-Liquified-Petroleum-Gases-Annual"
+}

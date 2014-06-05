@@ -1,0 +1,517 @@
+{
+  "current_page": 262748,
+  "docs": [
+    {
+      "code": "OEUN000000033910043101101",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Statistic: Employment; Occupation: First-Line Supervisors of Office and Administrative Support Workers; Industry: Medical Equipment and Supplies Manufacturing; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000033910043101101",
+      "frequency": "annual",
+      "from_date": "2012-06-30",
+      "id": 9023071,
+      "name": "Employment for First-Line Supervisors of Office and Administrative Support Workers in Medical Equipment and Supplies Manufacturing in National",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2013-11-16T09:31:59Z",
+      "urlize_name": "Employment-for-First-Line-Supervisors-of-Office-and-Administrative-Support-Workers-in-Medical-Equipment-and-Supplies-Manufacturing-in-National"
+    },
+    {
+      "code": "COMM_30_VITAMINB12DERIVATIVESUNMIXED_IMPORT_CAN",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 3238611,
+      "name": "Commodity Imports - Organic Chemicals / Vitamin B12, derivatives, unmixed - Canada",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-24T22:53:17Z",
+      "urlize_name": "Commodity-Imports-Organic-Chemicals-Vitamin-B12-derivatives-unmixed-Canada"
+    },
+    {
+      "code": "IDA_TRADINGSECURITIESFAIRVALUEDISCLOSURE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: TradingSecuritiesFairValueDisclosure",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10734686,
+      "name": "IDACORP INC  (IDA): Annual Trading Securities Fair Value Disclosure",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-07T11:08:32Z",
+      "urlize_name": "IDACORP-INC-IDA-Annual-Trading-Securities-Fair-Value-Disclosure"
+    },
+    {
+      "code": "NCU1701000300000",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: White collar occupations, excluding sales; Skills: Overall occupation average (no work level) (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU1701000300000",
+      "frequency": "quarterly",
+      "from_date": "1999-12-31",
+      "id": 9094712,
+      "name": "Compensation for White collar occupations, excluding sales in Overall occupation average (no work level)",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2001-02-28",
+      "type": null,
+      "updated_at": "2013-11-16T02:29:48Z",
+      "urlize_name": "Compensation-for-White-collar-occupations-excluding-sales-in-Overall-occupation-average-no-work-level"
+    },
+    {
+      "code": "AEE_LIABILITIESCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: LiabilitiesCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 9972724,
+      "name": "AMEREN CORP  (AEE): Quarterly Liabilities Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-02-19T18:17:54Z",
+      "urlize_name": "AMEREN-CORP-AEE-Quarterly-Liabilities-Current"
+    },
+    {
+      "code": "EAP_TEAP_NB_SEX_T_AGE_TOTAL_Y15_64_EDU_AGGREGATE_ADV_M_POL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+      "frequency": "monthly",
+      "from_date": "2002-02-28",
+      "id": 12420022,
+      "name": "Labour Force Ages 15-64 InAdvanced Education - Monthly - Poland",
+      "private": false,
+      "source_code": "ILOSTAT",
+      "source_name": "ILOSTAT Database",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-05-28T20:51:40Z",
+      "urlize_name": "Labour-Force-Ages-15-64-InAdvanced-Education-Monthly-Poland"
+    },
+    {
+      "code": "IIUINF5112004W134",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Number of illness cases (thousands); Case type: Total recordable cases of respiratory illnesses; Industry: Software publishers; Supersector: Information; Area: Private industry, New Jersey; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUINF5112004W134",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 9256525,
+      "name": "Number of illness cases (thousands) for Software publishers, Private industry, New Jersey",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-11-20T15:22:04Z",
+      "urlize_name": "Number-of-illness-cases-thousands-for-Software-publishers-Private-industry-New-Jersey"
+    },
+    {
+      "code": "COMM_55_WOVENFABRIC85NYLONPOLYAMIDEYARNDYEDNES_EXPORT_BIH",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 3755237,
+      "name": "Commodity Exports - Manmade Filaments / Woven fabric >85% nylon, polyamide, yarn dyed,nes - Bosnia and Herzegovina",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T13:46:59Z",
+      "urlize_name": "Commodity-Exports-Manmade-Filaments-Woven-fabric-85-nylon-polyamide-yarn-dyed-nes-Bosnia-and-Herzegovina"
+    },
+    {
+      "code": "1379_001640993_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Unit of measurement=Current euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1379",
+      "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
+      "frequency": "annual",
+      "from_date": "1978-12-31",
+      "id": 8030254,
+      "name": "Annual national accounts base 2005 - Computing equipment - Total economy - Total of branches - Current price - Consumption of fixed capital",
+      "private": false,
+      "source_code": "INSEE",
+      "source_name": "National Institute of Statistics and Economic Studies (France)",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T22:52:12Z",
+      "urlize_name": "Annual-national-accounts-base-2005-Computing-equipment-Total-economy-Total-of-branches-Current-price-Consumption-of-fixed-capital"
+    },
+    {
+      "code": "PHL_UIS_G_56_F400_DCOUNT_F",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Graduates in science. Tertiary. Female is the total number of female tertiary graduates from science programs.\nGraduates in science. Tertiary. Female",
+      "display_url": "http://api.worldbank.org/countries/PHL/indicators/UIS.G.56.F400.dcount.F?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 6602945,
+      "name": "Philippines: Graduates in science. Tertiary. Female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T22:52:13Z",
+      "urlize_name": "Philippines-Graduates-in-science-Tertiary-Female"
+    },
+    {
+      "code": "AEE_INCREMENTALCOMMONSHARESATTRIBUTABLETOSHAREBASEDPAYMENTARRANGEMENTS_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncrementalCommonSharesAttributableToShareBasedPaymentArrangements",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-09-30",
+      "id": 9972721,
+      "name": "AMEREN CORP  (AEE): Quarterly Incremental Common Shares Attributable To Share Based Payment Arrangements",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-02-19T18:11:16Z",
+      "urlize_name": "AMEREN-CORP-AEE-Quarterly-Incremental-Common-Shares-Attributable-To-Share-Based-Payment-Arrangements"
+    },
+    {
+      "code": "COMM_63_GLOVESMITTENSANDMITTSTEXTILEMATERIALNOTKNIT_IMPORT_ISR",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1995-12-31",
+      "id": 3927059,
+      "name": "Commodity Imports - Articles Of Apparel, Accessories, Not Knit Or Crochet / Gloves, mittens and mitts, textile material, not knit - Israel",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-02-27T00:36:06Z",
+      "urlize_name": "Commodity-Imports-Articles-Of-Apparel-Accessories-Not-Knit-Or-Crochet-Gloves-mittens-and-mitts-textile-material-not-knit-Israel"
+    },
+    {
+      "code": "ICE_CC8",
+      "column_names": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Settle",
+        "Change",
+        "Wave",
+        "Volume",
+        "Open Interest",
+        "EFP Volume",
+        "EFS Volume",
+        "Block Volume"
+      ],
+      "description": "Historical Futures Prices: Cocoa Futures, Continuous Contract #8. Non-adjusted price based on spot-month continuous contract calculations. Raw futures data from Intercontinental Exchange (ICE) United States.",
+      "display_url": "http://www.ofdp.org",
+      "frequency": "daily",
+      "from_date": "1970-02-16",
+      "id": 11252038,
+      "name": "ICE Cocoa Futures, Continuous Contract #8 (CC8)",
+      "private": false,
+      "source_code": "CHRIS",
+      "source_name": "Chris",
+      "to_date": "2014-03-21",
+      "type": null,
+      "updated_at": "2014-04-09T18:06:09Z",
+      "urlize_name": "ICE-Cocoa-Futures-Continuous-Contract-8-CC8"
+    },
+    {
+      "code": "COMM_73_COLDROLLEDIRONORNONALLOYSTEELCOILWIDTH600MMT13MMNES_IMPORT_ZAF",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4198086,
+      "name": "Commodity Imports - Iron And Steel / Cold rolled iron or non-alloy steel, coil, width >600mm, t 1-3mm, nes - South Africa",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T08:13:18Z",
+      "urlize_name": "Commodity-Imports-Iron-And-Steel-Cold-rolled-iron-or-non-alloy-steel-coil-width-600mm-t-1-3mm-nes-South-Africa"
+    },
+    {
+      "code": "ELEC_PLANT_GEN_4021_DFO_IC_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.4021-DFO-IC.M",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.4021-DFO-IC.M&out=xml",
+      "frequency": "monthly",
+      "from_date": "2003-01-31",
+      "id": 4842270,
+      "name": "Net Generation : Grantsburg Diesel : Distillate Fuel Oil : Internal Combustion (diesel, Piston) Engine : Monthly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T23:17:45Z",
+      "urlize_name": "Net-Generation-Grantsburg-Diesel-Distillate-Fuel-Oil-Internal-Combustion-diesel-Piston-Engine-Monthly"
+    },
+    {
+      "code": "RGC320_RM_MACEIO_AL_12_ANOS_ABS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RGC320_RM_ABS.csv&categorias=%2212%20anos%22&localidade=Maceio%20-%20AL",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 6402759,
+      "name": "Population and Demographics: Marriage (marriages, separations, divorces) - Legal separations - time between dates of marriage and separation - 12 years Metropolitan Regions: Maceio - AL. Datatype: Absolute",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T22:04:16Z",
+      "urlize_name": "Population-and-Demographics-Marriage-marriages-separations-divorces-Legal-separations-time-between-dates-of-marriage-and-separation-12-years-Metropolitan-Regions-Maceio-AL-Datatype-Absolute"
+    },
+    {
+      "code": "NCU1205883645903",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Attendants, amusement and recreation facilities; Skills: Level 03 (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU1205883645903",
+      "frequency": "quarterly",
+      "from_date": "1998-04-30",
+      "id": 9074447,
+      "name": "Compensation for Attendants, amusement and recreation facilities in Level 03",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "1999-07-31",
+      "type": null,
+      "updated_at": "2013-11-15T17:19:05Z",
+      "urlize_name": "Compensation-for-Attendants-amusement-and-recreation-facilities-in-Level-03"
+    },
+    {
+      "code": "HSW_AW_NBOSV_39",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The harmonised data on accidents at work are collected in the framework of the European Statistics on Accidents at Work (ESAW), on the basis of a methodology developed in 1990.\r\nThe data refer to accidents at work resulting in more than 3 days' absence from work (serious accidents) and fatal accidents. A fatal accident is defined as an accident which leads to the death of a victim within one year of the accident.\r\nThe indicators used are the number and incidence rate of serious and fatal accidents at work.\r\nThe incidence rate of serious accidents at work is the number of persons involved in accidents at work with more than 3 days' absence per 100,000 persons in employment.\r\nThe incidence rate of fatal accidents at work is the number of persons with fatal accidents at work per 100,000 persons in employment.\r\nThe national ESAW sources are the declarations of accidents at work, either to the public (Social Security) or private specific insurance for accidents at work, or to other relevant national authority (Labour Inspection, etc.) for countries having a \"universal\" Social Security system. For the Netherlands only survey data are available for the non-fatal accidents at work (a special module in the national labour force survey).\r\nSector coverage:\r\nIn general the private sector is covered by all national reporting systems. However some important sectors are not covered by all Member States. The specification of sectors is given according to the NACE classification (NACE = Nomenclature statistique des activités économiques dans la Communauté européenne).\r\nThe incidence rate is calculated for the total of the so-called 9 common branches (See point 3.6).\r\nFor a structured metadata overview on variables, coverage of sectors and professional status please see also the annex Metadata_overview_2007.\r\nStatistical adjustments:\r\nBecause the frequency of work accidents is higher in some branches (high-risk sectors), an adjustment is performed to get more standardised incidence rates. For more details, please see the summary methodology (link at the bottom of the page).\r\nGeographical coverage:\r\nFor accidents at work, data are available for all old EU-Member States (EU 15) and Norway. The methodology has also been implemented in the New Member States and Switzerland with first data being available for the reference year 2004.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/hsw_acc7_work_esms.htm",
+      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fhsw_aw_nbosv.sdmx.zip",
+      "frequency": "annual",
+      "from_date": "1996-12-31",
+      "id": 806864,
+      "name": "Number of accidents at work by part of body injured and severity  : European Union : 7 - 13 days lost : Total",
+      "private": false,
+      "source_code": "EUROSTAT",
+      "source_name": "EuroStat",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T06:24:51Z",
+      "urlize_name": "Number-of-accidents-at-work-by-part-of-body-injured-and-severity-European-Union-7-13-days-lost-Total"
+    },
+    {
+      "code": "NGLS_SEGMENTREPORTINGINFORMATIONCAPITALEXPENDITURES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: SegmentReportingInformationCapitalExpenditures",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-12-31",
+      "id": 10370305,
+      "name": "Targa Resources Partners LP  (NGLS): Annual Segment Reporting Information Capital Expenditures",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:14:49Z",
+      "urlize_name": "Targa-Resources-Partners-LP-NGLS-Annual-Segment-Reporting-Information-Capital-Expenditures"
+    },
+    {
+      "code": "EAP_SEX_GEO_NB_SEX_T_GEO_COV_NAT_VUT",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5715750,
+      "name": "Economically Active Population By Sex And Geographical Coverage, Total, National - Vanuatu",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-04-19T04:29:53Z",
+      "urlize_name": "Economically-Active-Population-By-Sex-And-Geographical-Coverage-Total-National-Vanuatu"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ILO",
+      "datasets_count": 228980,
+      "description": "No description for this source yet",
+      "host": "www.ilo.org",
+      "id": 686,
+      "name": "International Labour Organization"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "EUROSTAT",
+      "datasets_count": 320722,
+      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
+      "host": "epp.eurostat.ec.europa.eu",
+      "id": 194,
+      "name": "EuroStat"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "CHRIS",
+      "concurrency": 20,
+      "datasets_count": 27,
+      "description": "",
+      "host": "http://www.quandl.com/CHRIS",
+      "id": 596,
+      "name": "Chris",
+      "use_proxy": false
+    },
+    {
+      "code": "INSEE",
+      "datasets_count": 0,
+      "description": "France's National Institute of Statistics and Economic Studies (Institut National de la Statistique et des Études Économiques: INSEE) is a Directorate General of the Ministry of the Economy, Finance, and Industry. It is therefore a government agency whose personnel are government employees, although not all belong to the civil service. INSEE operates under government accounting rules: it receives its funding from the State's general budget.",
+      "host": "www.insee.fr",
+      "id": 1097,
+      "name": "National Institute of Statistics and Economic Studies (France)"
+    },
+    {
+      "code": "IBGE",
+      "datasets_count": 110418,
+      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
+      "host": "seriesestatisticas.ibge.gov.br",
+      "id": 725,
+      "name": "Brazilian Institute of Geography and Statistics"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    },
+    {
+      "code": "ILOSTAT",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "ilo.org2",
+      "id": 10437,
+      "name": "ILOSTAT Database"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

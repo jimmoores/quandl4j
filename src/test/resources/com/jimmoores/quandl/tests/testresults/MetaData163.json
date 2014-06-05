@@ -1,0 +1,433 @@
+{
+  "current_page": 117075,
+  "docs": [
+    {
+      "code": "UFABE_SGA",
+      "column_names": [
+        "Date",
+        "Sales General and Administration Expenses"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5461355,
+      "name": "UNIFAB Intl Inc ( UFABE ) - Sales General and Administration Expenses",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T08:15:29Z",
+      "urlize_name": "UNIFAB-Intl-Inc-UFABE-Sales-General-and-Administration-Expenses"
+    },
+    {
+      "code": "JOR_WP11637_8",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who used a formal account in the past 12 months to send money to family members living elsewhere (% in the first (lowest) and second income quintiles (0-40th percentile), age 15+)\nAccount used to send remittances , income quintiles I (lowest) and II (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/JOR/indicators/WP11637.8?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2186726,
+      "name": "Jordan: Account used to send remittances , income quintiles I (lowest) and II (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T15:23:05Z",
+      "urlize_name": "Jordan-Account-used-to-send-remittances-income-quintiles-I-lowest-and-II-age-15"
+    },
+    {
+      "code": "JOR_SE_XPD_CUR_SECO_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage distribution of public current expenditure on education by level. Secondary is the share of public current education expenditure that is devoted to secondary education.\nPublic current education expenditure, secondary (% of current education expenditure)",
+      "display_url": "http://api.worldbank.org/countries/JOR/indicators/SE.XPD.CUR.SECO.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": null,
+      "id": 6536931,
+      "name": "Jordan: Public current education expenditure, secondary (% of current education expenditure)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2013-06-21T01:20:14Z",
+      "urlize_name": "Jordan-Public-current-education-expenditure-secondary-of-current-education-expenditure"
+    },
+    {
+      "code": "TISA_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "FCFF = EBIT(1-t) - (Capital Expenditures - Depreciation) - Change in Non-Cash Working Capital. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5466171,
+      "name": "Top Image Systems ( TISA ) - Free Cash Flow to Firm",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T01:56:40Z",
+      "urlize_name": "Top-Image-Systems-TISA-Free-Cash-Flow-to-Firm"
+    },
+    {
+      "code": "MUS_UIS_TRANRA_23_GPV_F",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Effective transition rate from primary (ISCED 1) to secondary (ISCED 2). General programmes (%). Female shows the real transition from primary to secondary regardless of repetition. This indicator better reflects situations in which pupils repeat the last grade of primary but eventually make the transition to secondary. It is defined for a given year as the number of new female entrants to the first grade of secondary in the following year expressed as a percentage of the female students enrolled in the last grade of primary education in the given year who do not repeat that grade the following year.\nEffective transition rate from primary (ISCED 1) to secondary (ISCED 2). General programmes (%). Female",
+      "display_url": "http://api.worldbank.org/countries/MUS/indicators/UIS.TRANRA.23.GPV.F?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1991-12-31",
+      "id": 6574672,
+      "name": "Mauritius: Effective transition rate from primary (ISCED 1) to secondary (ISCED 2). General programmes (%). Female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T12:19:56Z",
+      "urlize_name": "Mauritius-Effective-transition-rate-from-primary-ISCED-1-to-secondary-ISCED-2-General-programmes-Female"
+    },
+    {
+      "code": "TJK_TM_VAL_MRCH_R5_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Merchandise imports from developing economies in South Asia are the sum of merchandise imports by the reporting economy from developing economies in the South Asia region according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.\nMerchandise imports from developing economies in South Asia (% of total merchandise imports)",
+      "display_url": "http://api.worldbank.org/countries/TJK/indicators/TM.VAL.MRCH.R5.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1993-12-31",
+      "id": 2181590,
+      "name": "Tajikistan: Merchandise imports from developing economies in South Asia (% of total merchandise imports)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-08-29T19:37:35Z",
+      "urlize_name": "Tajikistan-Merchandise-imports-from-developing-economies-in-South-Asia-of-total-merchandise-imports"
+    },
+    {
+      "code": "MHOOD_PCTOFHOMESINCREASINGINVALUES_ALLHOMES_TURNERPARKTULSAOK",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes whose values have increased in the past year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfHomesIncreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2002-08-31",
+      "id": 6917875,
+      "name": "Zillow Metrics (Neighborhoods): Increasing Values (%) - Turner Park,Tulsa,OK",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:56:28Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Increasing-Values-Turner-Park-Tulsa-OK"
+    },
+    {
+      "code": "GNQ_SH_MMR_RISK_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Life time risk of maternal death is the probability that a 15-year-old female will die eventually from a maternal cause assuming that current levels of fertility and mortality (including maternal mortality) do not change in the future, taking into account competing causes of death. \nLifetime risk of maternal death (%)",
+      "display_url": "http://api.worldbank.org/countries/GNQ/indicators/SH.MMR.RISK.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 347750,
+      "name": "Equatorial Guinea: Lifetime risk of maternal death (%)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T15:23:05Z",
+      "urlize_name": "Equatorial-Guinea-Lifetime-risk-of-maternal-death"
+    },
+    {
+      "code": "CITY_SINGLEFAMILYRESIDENCE_MOSSBEACHCA",
+      "column_names": [
+        "Date",
+        "Moss Beach"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the city of Moss Beach, CA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7084820,
+      "name": "Zillow Home Value Index (Cities): Single Family Residence - Moss Beach, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:00:27Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Single-Family-Residence-Moss-Beach-CA"
+    },
+    {
+      "code": "MCITY_SALEPRICETOLISTRATIO_ALLHOMES_LYNNMA",
+      "column_names": [
+        "Date",
+        "Lynn"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_SalePriceToListRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7332934,
+      "name": "Zillow Metrics (Cities): Sale-to-List Price Ratio - Lynn, MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:06:50Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sale-to-List-Price-Ratio-Lynn-MA"
+    },
+    {
+      "code": "ATCM_REINV",
+      "column_names": [
+        "Date",
+        "Reinvestment Amount"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5969722,
+      "name": "@comm Corp ( ATCM ) - Reinvestment Amount",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T01:13:34Z",
+      "urlize_name": "-comm-Corp-ATCM-Reinvestment-Amount"
+    },
+    {
+      "code": "PLMO_CASH",
+      "column_names": [
+        "Date",
+        "Cash"
+      ],
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5383189,
+      "name": "palmOne Inc. ( PLMO ) - Cash",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T13:09:06Z",
+      "urlize_name": "palmOne-Inc-PLMO-Cash"
+    },
+    {
+      "code": "CITY_SINGLEFAMILYRESIDENCE_MOUNTSINAINY",
+      "column_names": [
+        "Date",
+        "Mount Sinai"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the city of Mount Sinai, NY. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1997-03-31",
+      "id": 7078912,
+      "name": "Zillow Home Value Index (Cities): Single Family Residence - Mount Sinai, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:12:51Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Single-Family-Residence-Mount-Sinai-NY"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_MUSKEGONHEIGHTSMI",
+      "column_names": [
+        "Date",
+        "Muskegon Heights"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-03-31",
+      "id": 7151324,
+      "name": "Zillow Metrics (Cities): Decreasing Values (%) - Muskegon Heights, MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:52:05Z",
+      "urlize_name": "Zillow-Metrics-Cities-Decreasing-Values-Muskegon-Heights-MI"
+    },
+    {
+      "code": "TRE_EV_BV",
+      "column_names": [
+        "Date",
+        "EV to Book Value Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5504562,
+      "name": "Tremont Corp. ( TRE ) - EV to Book Value Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T07:45:25Z",
+      "urlize_name": "Tremont-Corp-TRE-EV-to-Book-Value-Ratio"
+    },
+    {
+      "code": "MCITY_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_ROXBORONC",
+      "column_names": [
+        "Date",
+        "Roxboro"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-06-30",
+      "id": 7163006,
+      "name": "Zillow Metrics (Cities): Listings with Price Cuts (%) - Roxboro, NC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T08:03:56Z",
+      "urlize_name": "Zillow-Metrics-Cities-Listings-with-Price-Cuts-Roxboro-NC"
+    },
+    {
+      "code": "TISA_MKT_DC",
+      "column_names": [
+        "Date",
+        "Market Debt to Capital Ratio"
+      ],
+      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5466184,
+      "name": "Top Image Systems ( TISA ) - Market Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T20:21:46Z",
+      "urlize_name": "Top-Image-Systems-TISA-Market-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "CITY_TOPTIER_WOODBURYNJ",
+      "column_names": [
+        "Date",
+        "Woodbury"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of top tier homes within the city of Woodbury, NJ. Top tier homes are homes that fall into the top third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_TopTier.csv",
+      "frequency": "monthly",
+      "from_date": "1997-08-31",
+      "id": 7060785,
+      "name": "Zillow Home Value Index (Cities): Top Tier - Woodbury, NJ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2013-11-29T21:15:21Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Top-Tier-Woodbury-NJ"
+    },
+    {
+      "code": "MCITY_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_KENTFIELDCA",
+      "column_names": [
+        "Date",
+        "Kentfield"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-06-30",
+      "id": 7168062,
+      "name": "Zillow Metrics (Cities): Listings with Price Cuts (%) - Kentfield, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T08:03:56Z",
+      "urlize_name": "Zillow-Metrics-Cities-Listings-with-Price-Cuts-Kentfield-CA"
+    },
+    {
+      "code": "MCITY_MEDIANSOLDPRICE_ALLHOMES_WELLINGTONFL",
+      "column_names": [
+        "Date",
+        "Wellington"
+      ],
+      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianSoldPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7047077,
+      "name": "Zillow Metrics (Cities): Median Sale Price - Wellington, FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:41:54Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-Sale-Price-Wellington-FL"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

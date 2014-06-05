@@ -1,0 +1,438 @@
+{
+  "current_page": 97633,
+  "docs": [
+    {
+      "code": "ZIP_BOTTOMTIER_63080",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of bottom tier homes within the zip code of 63080, Sullivan, MO. Bottom tier homes are the homes that fall into the bottom third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_BottomTier.csv",
+      "frequency": "monthly",
+      "from_date": "1997-07-31",
+      "id": 6808084,
+      "name": "Zillow Home Value Index (Zip Codes): Bottom Tier Homes - 63080,Sullivan,MO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2013-11-30T11:05:31Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Bottom-Tier-Homes-63080-Sullivan-MO"
+    },
+    {
+      "code": "ZIP_SINGLEFAMILYRESIDENCE_07042",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the zip code of 07042, Montclair, NJ. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7451785,
+      "name": "Zillow Home Value Index (Zip Codes): Single Family Residences - 07042,Montclair,NJ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:58:42Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Single-Family-Residences-07042-Montclair-NJ"
+    },
+    {
+      "code": "FUTURE_HOZ1982",
+      "column_names": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Settle",
+        "Volume",
+        "Open Interest"
+      ],
+      "description": "Historical Futures Prices: Heating Oil Futures, December 1982, HOZ1982, New York Mercantile Exchange (NYMEX). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
+      "display_url": "http://www.ofdp.org/futures/14613",
+      "frequency": "daily",
+      "from_date": "1982-01-08",
+      "id": 2307420,
+      "name": "Heating Oil Futures, December 1982, HOZ1982, NYMEX",
+      "private": false,
+      "source_code": "OFDP",
+      "source_name": "Open Financial Data Project",
+      "to_date": "1982-11-30",
+      "type": null,
+      "updated_at": "2014-02-25T23:23:33Z",
+      "urlize_name": "Heating-Oil-Futures-December-1982-HOZ1982-NYMEX"
+    },
+    {
+      "code": "MCOUNTY_MEDIANLISTINGPRICEPERSQFT_ALLHOMES_MCKEANPA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of list prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_MedianListingPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7479994,
+      "name": "Zillow Metrics (Counties): Median List Price per Sq. Ft. - McKean, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:56:02Z",
+      "urlize_name": "Zillow-Metrics-Counties-Median-List-Price-per-Sq-Ft-McKean-PA"
+    },
+    {
+      "code": "GRC_WP11653_10",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who borrowed any money in the past 12 months from family or friends (% living in an urban area, age 15+ )\nLoan from family or friends in the past year, rural (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/GRC/indicators/WP11653.10?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2070032,
+      "name": "Greece: Loan from family or friends in the past year, rural (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:28:13Z",
+      "urlize_name": "Greece-Loan-from-family-or-friends-in-the-past-year-rural-age-15"
+    },
+    {
+      "code": "GRC_WP11629_2_5",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who make 1-2 withdrawals from their personal account(s) in a typical month. This includes cash or electronic deposits, or any  time money is put into account(s) by self or others (% age 25+, with a formal account)\n1-2 withdrawals from account in a typical month, older adults (% with an account,  age 25+)",
+      "display_url": "http://api.worldbank.org/countries/GRC/indicators/WP11629.2.5?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2075442,
+      "name": "Greece: 1-2 withdrawals from account in a typical month, older adults (% with an account,  age 25+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:28:13Z",
+      "urlize_name": "Greece-1-2-withdrawals-from-account-in-a-typical-month-older-adults-with-an-account-age-25"
+    },
+    {
+      "code": "GRD_TX_VAL_MRCH_WR_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Merchandise exports to developing economies within region are the sum of merchandise exports from the reporting economy to other developing economies in the same World Bank region as a percentage of total merchandise exports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data. No figures are shown for high-income economies, because they are a separate category in the World Bank classification of economies.\nMerchandise exports to developing economies within region (% of total merchandise exports)",
+      "display_url": "http://api.worldbank.org/countries/GRD/indicators/TX.VAL.MRCH.WR.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1973-12-31",
+      "id": 351675,
+      "name": "Grenada: Merchandise exports to developing economies within region (% of total merchandise exports)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:31:18Z",
+      "urlize_name": "Grenada-Merchandise-exports-to-developing-economies-within-region-of-total-merchandise-exports"
+    },
+    {
+      "code": "KEN_SE_XPD_TOTL_GN_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Public expenditure on education as % of GNI is the total public expenditure on education (current and capital) expressed as a percentage of the Gross National Income (GNI) in a given financial year. GNI is also referred to as Gross National Product (GNP). Public expenditure on education includes government spending on educational institutions (both public and private), education administration and subsidies for private entities (students/households and other privates entities).\nPublic education expenditure, % of GNI",
+      "display_url": "http://api.worldbank.org/countries/KEN/indicators/SE.XPD.TOTL.GN.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1971-12-31",
+      "id": 404884,
+      "name": "Kenya: Public education expenditure, % of GNI",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T13:33:09Z",
+      "urlize_name": "Kenya-Public-education-expenditure-of-GNI"
+    },
+    {
+      "code": "CITY_SINGLEFAMILYRESIDENCE_FLAGSTAFFAZ",
+      "column_names": [
+        "Date",
+        "Flagstaff"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the city of Flagstaff, AZ. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7074714,
+      "name": "Zillow Home Value Index (Cities): Single Family Residence - Flagstaff, AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T16:05:56Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Single-Family-Residence-Flagstaff-AZ"
+    },
+    {
+      "code": "GRC_WP11648_1",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who saved or set aside any money in the past 12 months using an account at a bank, credit union or another financial institution (e.g., cooperatives) or microfinance institution (% age 15+)\nSaved at a financial institution in the past year (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/GRC/indicators/WP11648.1?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6525527,
+      "name": "Greece: Saved at a financial institution in the past year (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:28:13Z",
+      "urlize_name": "Greece-Saved-at-a-financial-institution-in-the-past-year-age-15"
+    },
+    {
+      "code": "GRC_WP11674_5",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who used a mobile phone to receive money in the past 12 months (% age 25+)\nMobile phone used to receive money , older adults (% age 25+)",
+      "display_url": "http://api.worldbank.org/countries/GRC/indicators/WP11674.5?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6525645,
+      "name": "Greece: Mobile phone used to receive money , older adults (% age 25+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:28:13Z",
+      "urlize_name": "Greece-Mobile-phone-used-to-receive-money-older-adults-age-25"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_WINDSORCT",
+      "column_names": [
+        "Date",
+        "Windsor"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-03-31",
+      "id": 7148888,
+      "name": "Zillow Metrics (Cities): Decreasing Values (%) - Windsor, CT",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T04:35:16Z",
+      "urlize_name": "Zillow-Metrics-Cities-Decreasing-Values-Windsor-CT"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_31408",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7398134,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 31408,Garden City,GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-10T22:32:44Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-31408-Garden-City-GA"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_34602",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7398935,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 34602,Hill 'n Dale,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-01-09T02:41:17Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-34602-Hill-n-Dale-FL"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_40067",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7399583,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 40067,Simpsonville,KY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-08T15:51:28Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-40067-Simpsonville-KY"
+    },
+    {
+      "code": "GRC_WP11656_10",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who currently have a loan they took out to purchase their home or apartment (% living in an urban area, age 15+ )\nOutstanding loan to purchase a home , rural (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/GRC/indicators/WP11656.10?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6525593,
+      "name": "Greece: Outstanding loan to purchase a home , rural (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:28:14Z",
+      "urlize_name": "Greece-Outstanding-loan-to-purchase-a-home-rural-age-15"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_19506",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7398951,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 19506,Jefferson Township,PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-01-09T02:47:26Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-19506-Jefferson-Township-PA"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_30141",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7395733,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 30141,Hiram,GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-08T15:50:18Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-30141-Hiram-GA"
+    },
+    {
+      "code": "ZIP_SINGLEFAMILYRESIDENCE_60123",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the zip code of 60123, Elgin, IL. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1997-03-31",
+      "id": 6830514,
+      "name": "Zillow Home Value Index (Zip Codes): Single Family Residences - 60123,Elgin,IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:49:53Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Single-Family-Residences-60123-Elgin-IL"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_14464",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7398910,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 14464,Hamlin,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-10T22:33:30Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-14464-Hamlin-NY"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "OFDP",
+      "datasets_count": 898673,
+      "description": "OFDP archives and publishes financial data which is released to the public daily by trusted financial institutions.",
+      "host": "www.ofdp.org",
+      "id": 385,
+      "name": "Open Financial Data Project"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

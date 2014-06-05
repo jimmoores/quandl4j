@@ -1,0 +1,439 @@
+{
+  "current_page": 66984,
+  "docs": [
+    {
+      "code": "CRI_IC_FRM_TRD_TR4",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage of total annual sales that are domestic sales.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/trade).\nProportion of total sales that are domestic sales (%)",
+      "display_url": "http://api.worldbank.org/countries/CRI/indicators/IC.FRM.TRD.TR4?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 2107863,
+      "name": "Costa Rica: Proportion of total sales that are domestic sales (%)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-18T07:58:05Z",
+      "urlize_name": "Costa-Rica-Proportion-of-total-sales-that-are-domestic-sales"
+    },
+    {
+      "code": "DFRC_SGA",
+      "column_names": [
+        "Date",
+        "Sales General and Administration Expenses"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 6007750,
+      "name": "Diversified Financial Resourc ( DFRC ) - Sales General and Administration Expenses",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T07:57:07Z",
+      "urlize_name": "Diversified-Financial-Resourc-DFRC-Sales-General-and-Administration-Expenses"
+    },
+    {
+      "code": "MZIP_HOMESSOLDASFORECLOSURESRATIO_ALLHOMES_10280",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The number of homes per 10,000 that were foreclosed in a given month. A foreclosure is when a homeowner loses their home to their lending institution or it is sold to a third party at an auction. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_HomesSoldAsForeclosures-Ratio_AllHomes.csv",
+      "frequency": "annual",
+      "from_date": "1998-04-30",
+      "id": 7626274,
+      "name": "Zillow Metrics (Zip Codes): Homes Foreclosed (Out of 10k) - 10280,New York,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2010-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T20:58:14Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-Foreclosed-Out-of-10k-10280-New-York-NY"
+    },
+    {
+      "code": "MZIP_HOMESSOLDASFORECLOSURESRATIO_ALLHOMES_90021",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The number of homes per 10,000 that were foreclosed in a given month. A foreclosure is when a homeowner loses their home to their lending institution or it is sold to a third party at an auction. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_HomesSoldAsForeclosures-Ratio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2007-12-31",
+      "id": 7627370,
+      "name": "Zillow Metrics (Zip Codes): Homes Foreclosed (Out of 10k) - 90021,Los Angeles,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2012-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T21:00:16Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-Foreclosed-Out-of-10k-90021-Los-Angeles-CA"
+    },
+    {
+      "code": "MCOUNTY_FORSALEINVENTORYSUPPLY_ALLHOMES_LAPEERMI",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. Total number on listings on Zillow at the end of a month divided by the number of homes sold in that month. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_ForSaleInventorySupply_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7494166,
+      "name": "Zillow Metrics (Counties): Inventory Supply (Beta) - Lapeer, MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2012-03-31",
+      "type": null,
+      "updated_at": "2014-01-09T20:01:57Z",
+      "urlize_name": "Zillow-Metrics-Counties-Inventory-Supply-Beta-Lapeer-MI"
+    },
+    {
+      "code": "SGP_DB_MAX_HR_DAY",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Maximum working days per week\nMaximum working days per week",
+      "display_url": "http://api.worldbank.org/countries/SGP/indicators/db_max_hr_day?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 2092674,
+      "name": "Singapore: Maximum working days per week",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T22:39:36Z",
+      "urlize_name": "Singapore-Maximum-working-days-per-week"
+    },
+    {
+      "code": "COD_IC_CRD_PRVT_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Private credit bureau coverage reports the number of individuals or firms listed by a private credit bureau with current information on repayment history, unpaid debts, or credit outstanding. The number is expressed as a percentage of the adult population.\nPrivate credit bureau coverage (% of adults)",
+      "display_url": "http://api.worldbank.org/countries/COD/indicators/IC.CRD.PRVT.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 267045,
+      "name": "Congo, Dem. Rep.: Private credit bureau coverage (% of adults)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T23:37:28Z",
+      "urlize_name": "Congo-Dem-Rep-Private-credit-bureau-coverage-of-adults"
+    },
+    {
+      "code": "MCITY_PRICETORENTRATIO_ALLHOMES_GAINESVILLEGA",
+      "column_names": [
+        "Date",
+        "Gainesville"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-11-30",
+      "id": 7339026,
+      "name": "Zillow Metrics (Cities): Price-to-Rent Ratio - Gainesville, GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T18:01:54Z",
+      "urlize_name": "Zillow-Metrics-Cities-Price-to-Rent-Ratio-Gainesville-GA"
+    },
+    {
+      "code": "VTOR_REV_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5561548,
+      "name": "Vectoria Inc ( VTOR ) - Trailing Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T05:52:11Z",
+      "urlize_name": "Vectoria-Inc-VTOR-Trailing-Revenues"
+    },
+    {
+      "code": "MZIP_HOMESSOLDASFORECLOSURESRATIO_ALLHOMES_96062",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The number of homes per 10,000 that were foreclosed in a given month. A foreclosure is when a homeowner loses their home to their lending institution or it is sold to a third party at an auction. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_HomesSoldAsForeclosures-Ratio_AllHomes.csv",
+      "frequency": "annual",
+      "from_date": "1998-02-28",
+      "id": 7628241,
+      "name": "Zillow Metrics (Zip Codes): Homes Foreclosed (Out of 10k) - 96062,Millville,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2012-10-31",
+      "type": null,
+      "updated_at": "2014-05-15T21:00:17Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-Foreclosed-Out-of-10k-96062-Millville-CA"
+    },
+    {
+      "code": "ZAF_IQ_SCI_OVRL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Statistical Capacity Indicator (SCI) provides an overview of the statistical capacity of over 140 developing countries. It is based on a diagnostic framework developed with a view to assessing the capacity of national statistical systems and monitoring progress in statistical development over time. The framework has three dimensions: statistical methodology; source data; and periodicity and timeliness. For each dimension, a country is scored against specific criteria, using information available from the World Bank, IMF, UN, UNESCO, and WHO. A composite score for each dimension and an overall score combining all three dimensions are derived for each country on a scale of 0-100. A score of 100 indicates that the country meets all the criteria.\nOverall level of statistical capacity (scale 0 - 100)",
+      "display_url": "http://api.worldbank.org/countries/ZAF/indicators/IQ.SCI.OVRL?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 6505655,
+      "name": "South Africa: Overall level of statistical capacity (scale 0 - 100)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-14T17:53:49Z",
+      "urlize_name": "South-Africa-Overall-level-of-statistical-capacity-scale-0-100"
+    },
+    {
+      "code": "CRI_MYS_POP_4549_TER_FE",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population in thousand, 45-49, female, tertiary is the total number of females age 45-49 (in thousands) with tertiary education.\npopulation in thousand, 45-49, female, tertiary",
+      "display_url": "http://api.worldbank.org/countries/CRI/indicators/MYS.POP.4549.TER.FE?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 280444,
+      "name": "Costa Rica: population in thousand, 45-49, female, tertiary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2050-12-31",
+      "type": null,
+      "updated_at": "2014-05-18T07:58:06Z",
+      "urlize_name": "Costa-Rica-population-in-thousand-45-49-female-tertiary"
+    },
+    {
+      "code": "EXNT_NET_INC",
+      "column_names": [
+        "Date",
+        "Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-03-31",
+      "id": 4413365,
+      "name": "EnXnet Inc. ( EXNT ) - Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:19:42Z",
+      "urlize_name": "EnXnet-Inc-EXNT-Net-Income"
+    },
+    {
+      "code": "EXNT_OP_MARG",
+      "column_names": [
+        "Date",
+        "Pre-Tax Operating Margin"
+      ],
+      "description": "Estimated by dividing the pre-tax operating income by the total revenues. This is a pre-tax measure of operating profitability: Pre-tax Operating Margin = EBIT / Sales. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-03-31",
+      "id": 4413379,
+      "name": "EnXnet Inc. ( EXNT ) - Pre-Tax Operating Margin",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:19:42Z",
+      "urlize_name": "EnXnet-Inc-EXNT-Pre-Tax-Operating-Margin"
+    },
+    {
+      "code": "RHOOD_MEDIANRENTALPRICE_ALLHOMES_SILVERLAKENEWYORKNY",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the rental price for homes listed for rent on Zillow within the neighborhood of Silver Lake, New York, NY. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_MedianRentalPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-11-30",
+      "id": 7501444,
+      "name": "Zillow Rent Index (Neighborhoods): Rentals Median Price (All Homes) - Silver Lake,New York,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-05-15T18:53:39Z",
+      "urlize_name": "Zillow-Rent-Index-Neighborhoods-Rentals-Median-Price-All-Homes-Silver-Lake-New-York-NY"
+    },
+    {
+      "code": "HUN_UIS_R_23_GPV_G7",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Repeaters in secondary. Grade 7. Total is the number of pupils in the specified grade who are enrolled in the same grade for a second (or further) year. \nRepeaters in secondary. Grade 7. Total",
+      "display_url": "http://api.worldbank.org/countries/HUN/indicators/UIS.R.23.GPV.G7?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1971-12-31",
+      "id": 6531513,
+      "name": "Hungary: Repeaters in secondary. Grade 7. Total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "1997-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T22:43:14Z",
+      "urlize_name": "Hungary-Repeaters-in-secondary-Grade-7-Total"
+    },
+    {
+      "code": "MZIP_HOMESSOLDASFORECLOSURESRATIO_ALLHOMES_20001",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The number of homes per 10,000 that were foreclosed in a given month. A foreclosure is when a homeowner loses their home to their lending institution or it is sold to a third party at an auction. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_HomesSoldAsForeclosures-Ratio_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "1998-01-31",
+      "id": 7408127,
+      "name": "Zillow Metrics (Zip Codes): Homes Foreclosed (Out of 10k) - 20001,Washington,DC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-05-15T21:00:17Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-Foreclosed-Out-of-10k-20001-Washington-DC"
+    },
+    {
+      "code": "IBSS_DEPREC",
+      "column_names": [
+        "Date",
+        "Depreciation"
+      ],
+      "description": "Includes both depreciation and amortization, as reported in the statement of cash flows. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4566680,
+      "name": "Integrated Business Sys & Svcs ( IBSS ) - Depreciation",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T22:11:00Z",
+      "urlize_name": "Integrated-Business-Sys-Svcs-IBSS-Depreciation"
+    },
+    {
+      "code": "MCITY_MEDIANSOLDPRICEPERSQFT_ALLHOMES_CORALSPRINGSFL",
+      "column_names": [
+        "Date",
+        "Coral Springs"
+      ],
+      "description": "Median of sale prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianSoldPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7102485,
+      "name": "Zillow Metrics (Cities): Median Sale Price per Sq. Ft. - Coral Springs, FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:59:40Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-Sale-Price-per-Sq-Ft-Coral-Springs-FL"
+    },
+    {
+      "code": "TUN_SP_POP_0511_TO_UN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population, age 5-11, total is the total population age 5-11.\nPopulation, aged 5-11, total",
+      "display_url": "http://api.worldbank.org/countries/TUN/indicators/SP.POP.0511.TO.UN?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 2081632,
+      "name": "Tunisia: Population, aged 5-11, total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2015-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T23:17:58Z",
+      "urlize_name": "Tunisia-Population-aged-5-11-total"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "concurrency": 20,
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data",
+      "use_proxy": false
+    },
+    {
+      "code": "ZILLOW",
+      "concurrency": 20,
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research",
+      "use_proxy": false
+    },
+    {
+      "code": "WORLDBANK",
+      "concurrency": 400,
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank",
+      "use_proxy": false
+    }
+  ],
+  "total_count": 10148784
+}

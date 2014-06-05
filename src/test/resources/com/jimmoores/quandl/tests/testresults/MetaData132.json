@@ -1,0 +1,441 @@
+{
+  "current_page": 27402,
+  "docs": [
+    {
+      "code": "MOZ_TM_VAL_OTHR_ZS_WT",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Computer, communications and other services (% of commercial service imports) include such activities as international telecommunications, and postal and courier services; computer data; news-related service transactions between residents and nonresidents; construction services; royalties and license fees; miscellaneous business, professional, and technical services; and personal, cultural, and recreational services.\nComputer, communications and other services (% of commercial service imports)",
+      "display_url": "http://api.worldbank.org/countries/MOZ/indicators/TM.VAL.OTHR.ZS.WT?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 512845,
+      "name": "Mozambique: Computer, communications and other services (% of commercial service imports)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T04:51:51Z",
+      "urlize_name": "Mozambique-Computer-communications-and-other-services-of-commercial-service-imports"
+    },
+    {
+      "code": "CITY_SINGLEFAMILYRESIDENCE_BAYVILLENY",
+      "column_names": [
+        "Date",
+        "Bayville"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the city of Bayville, NY. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7081352,
+      "name": "Zillow Home Value Index (Cities): Single Family Residence - Bayville, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:23:32Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Single-Family-Residence-Bayville-NY"
+    },
+    {
+      "code": "UIS_TERTIARYEDUCATIONISCED5AND6ENROLMENTBYFOSHUMANITIESANDARTS__ALLGENDERS_GMB",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 3576582,
+      "name": "Tertiary education (ISCED 5 and 6) Enrolment by FOS Humanities and Arts / All genders - Gambia",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T07:29:23Z",
+      "urlize_name": "Tertiary-education-ISCED-5-and-6-Enrolment-by-FOS-Humanities-and-Arts-All-genders-Gambia"
+    },
+    {
+      "code": "MCLS_SGA",
+      "column_names": [
+        "Date",
+        "Sales General and Administration Expenses"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 6063163,
+      "name": "MediChem Life Sciences Inc ( MCLS ) - Sales General and Administration Expenses",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T14:50:33Z",
+      "urlize_name": "MediChem-Life-Sciences-Inc-MCLS-Sales-General-and-Administration-Expenses"
+    },
+    {
+      "code": "RCITY_ZRI_ALLHOMES_HINESVILLEGA",
+      "column_names": [
+        "Date",
+        "Hinesville"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the city of Hinesville, GA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-07-31",
+      "id": 6962697,
+      "name": "Zillow Rent Index (Cities): Rentals All Homes - Hinesville, GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:23:32Z",
+      "urlize_name": "Zillow-Rent-Index-Cities-Rentals-All-Homes-Hinesville-GA"
+    },
+    {
+      "code": "XLA_BETA_VL",
+      "column_names": [
+        "Date",
+        "Value Line Beta"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5580294,
+      "name": "Xcelera Inc. ( XLA ) - Value Line Beta",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T14:50:50Z",
+      "urlize_name": "Xcelera-Inc-XLA-Value-Line-Beta"
+    },
+    {
+      "code": "OMKT_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 6058024,
+      "name": "Open Market Inc ( OMKT ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T08:06:40Z",
+      "urlize_name": "Open-Market-Inc-OMKT-Trailing-Net-Income"
+    },
+    {
+      "code": "OMTK_EBIT_1T",
+      "column_names": [
+        "Date",
+        "EBIT for Previous Period"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 6060325,
+      "name": "OmniTek Engineering Corp ( OMTK ) - EBIT for Previous Period",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T08:06:40Z",
+      "urlize_name": "OmniTek-Engineering-Corp-OMTK-EBIT-for-Previous-Period"
+    },
+    {
+      "code": "ZIP_MIDDLETIER_16407",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the zip code of 16407, Corry, PA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6815725,
+      "name": "Zillow Home Value Index (Zip Codes): Middle Tier Homes - 16407,Corry,PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:23:32Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Middle-Tier-Homes-16407-Corry-PA"
+    },
+    {
+      "code": "WEFN_EBIT",
+      "column_names": [
+        "Date",
+        "Earnings Before Interest and Taxes"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5564815,
+      "name": "WebFinancial Corporation ( WEFN ) - Earnings Before Interest and Taxes",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:09:56Z",
+      "urlize_name": "WebFinancial-Corporation-WEFN-Earnings-Before-Interest-and-Taxes"
+    },
+    {
+      "code": "SGNC_BV_ASSETS",
+      "column_names": [
+        "Date",
+        "Book Value of Assets"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5410962,
+      "name": "Sanguine Corp ( SGNC ) - Book Value of Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T23:30:52Z",
+      "urlize_name": "Sanguine-Corp-SGNC-Book-Value-of-Assets"
+    },
+    {
+      "code": "NANO_NCWC",
+      "column_names": [
+        "Date",
+        "Non-Cash Working Capital"
+      ],
+      "description": "Non-Cash Working Capital = Inventory + Other Current Assets + Accounts Receivable - Accounts Payable - Other Current Liabilities.  Current Assets excludes cash.  Current Liabilities excludes interest bearing debt. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4670796,
+      "name": "Nanometrics Inc. ( NANO ) - Non-Cash Working Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T21:01:28Z",
+      "urlize_name": "Nanometrics-Inc-NANO-Non-Cash-Working-Capital"
+    },
+    {
+      "code": "NSRGY_MKT_DE",
+      "column_names": [
+        "Date",
+        "Market Debt to Equity Ratio"
+      ],
+      "description": "Debt is defined as including both short term and long term debt (but not accounts payable or non-interest bearing liabilities), and the book value of debt is used as a proxy for market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2012-12-31",
+      "id": 6126807,
+      "name": "Nestle SA ADS ( NSRGY ) - Market Debt to Equity Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:24:07Z",
+      "urlize_name": "Nestle-SA-ADS-NSRGY-Market-Debt-to-Equity-Ratio"
+    },
+    {
+      "code": "OMTK_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "FCFF = EBIT(1-t) - (Capital Expenditures - Depreciation) - Change in Non-Cash Working Capital. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 6060342,
+      "name": "OmniTek Engineering Corp ( OMTK ) - Free Cash Flow to Firm",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T08:06:58Z",
+      "urlize_name": "OmniTek-Engineering-Corp-OMTK-Free-Cash-Flow-to-Firm"
+    },
+    {
+      "code": "PZZI_EPS_GRO_EXP",
+      "column_names": [
+        "Date",
+        "Expected Growth in Earnings Per Share"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-06-26",
+      "id": 5436736,
+      "name": "Pizza Inn Inc. ( PZZI ) - Expected Growth in Earnings Per Share",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-06-26",
+      "type": null,
+      "updated_at": "2014-03-22T00:40:06Z",
+      "urlize_name": "Pizza-Inn-Inc-PZZI-Expected-Growth-in-Earnings-Per-Share"
+    },
+    {
+      "code": "UIS_LASTGRADEPRIMARYSCHOOLAGEPOPULATION__ALLGENDERS_SLE",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1975-12-31",
+      "id": 3502966,
+      "name": "Last Grade Primary School age population / All genders - Sierra Leone",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T20:24:20Z",
+      "urlize_name": "Last-Grade-Primary-School-age-population-All-genders-Sierra-Leone"
+    },
+    {
+      "code": "CITY_SINGLEFAMILYRESIDENCE_PARKVILLEMD",
+      "column_names": [
+        "Date",
+        "Parkville"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the city of Parkville, MD. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7076257,
+      "name": "Zillow Home Value Index (Cities): Single Family Residence - Parkville, MD",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:23:32Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Single-Family-Residence-Parkville-MD"
+    },
+    {
+      "code": "KMK_TO_FLOAT",
+      "column_names": [
+        "Date",
+        "Number of Shares Outstanding"
+      ],
+      "description": "Units: million shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 6059300,
+      "name": "Continental Minerals Corp ( KMK.TO ) - Number of Shares Outstanding",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T08:06:40Z",
+      "urlize_name": "Continental-Minerals-Corp-KMK-TO-Number-of-Shares-Outstanding"
+    },
+    {
+      "code": "PZZI_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "FCFF = EBIT(1-t) - (Capital Expenditures - Depreciation) - Change in Non-Cash Working Capital. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-06-26",
+      "id": 5436737,
+      "name": "Pizza Inn Inc. ( PZZI ) - Free Cash Flow to Firm",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-06-26",
+      "type": null,
+      "updated_at": "2014-03-22T00:40:07Z",
+      "urlize_name": "Pizza-Inn-Inc-PZZI-Free-Cash-Flow-to-Firm"
+    },
+    {
+      "code": "SIF_FIXED_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Fixed Assets to Total Assets"
+      ],
+      "description": "Estimated by dividing the cumulated book value of fixed assets, for the sector, by the cumulated total assets, for the sector. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-09-30",
+      "id": 5420192,
+      "name": "Sifco Industries ( SIF ) - Ratio of Fixed Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-09-30",
+      "type": null,
+      "updated_at": "2014-03-22T00:40:08Z",
+      "urlize_name": "Sifco-Industries-SIF-Ratio-of-Fixed-Assets-to-Total-Assets"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

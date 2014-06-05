@@ -1,0 +1,433 @@
+{
+  "current_page": 75538,
+  "docs": [
+    {
+      "code": "DNE_EV_EBITDA",
+      "column_names": [
+        "Date",
+        "EV to EBITDA Ratio"
+      ],
+      "description": "Estimated by dividing the market value of debt and equity by the EBITDA.  Value/EBITDA = (Market Value of Equity + Value of Debt-Cash) / EBITDA.  We use the book value of debt as a proxy for the market value. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 4222910,
+      "name": "Dune Energy Inc. ( DNE ) - EV to EBITDA Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T13:58:58Z",
+      "urlize_name": "Dune-Energy-Inc-DNE-EV-to-EBITDA-Ratio"
+    },
+    {
+      "code": "DIGL_TRAD_VOL",
+      "column_names": [
+        "Date",
+        "Trading Volume"
+      ],
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4201177,
+      "name": "Digital Lightwave ( DIGL ) - Trading Volume",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:39:54Z",
+      "urlize_name": "Digital-Lightwave-DIGL-Trading-Volume"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_64048",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7400025,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 64048,Holt,MO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-08T15:47:36Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-64048-Holt-MO"
+    },
+    {
+      "code": "NOBLQ_NET_INC_TRAIL",
+      "column_names": [
+        "Date",
+        "Trailing Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 4714940,
+      "name": "Noble Intl Ltd ( NOBLQ ) - Trailing Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T23:24:19Z",
+      "urlize_name": "Noble-Intl-Ltd-NOBLQ-Trailing-Net-Income"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_83811",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7619313,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 83811,Clark Fork,ID",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-10T22:43:44Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-83811-Clark-Fork-ID"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_32609",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7396621,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 32609,Gainesville,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-08T15:53:09Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-32609-Gainesville-FL"
+    },
+    {
+      "code": "STMI_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5503722,
+      "name": "STM Wireless Inc ( STMI ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T11:40:37Z",
+      "urlize_name": "STM-Wireless-Inc-STMI-Correlation-with-the-Market"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORRENT_ALLHOMES_80018",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-07-31",
+      "id": 7407028,
+      "name": "Zillow Metrics (Zip Codes): Homes for Rent (Beta) - 80018,Aurora,CO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T14:49:43Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Rent-Beta-80018-Aurora-CO"
+    },
+    {
+      "code": "KOR_IQ_FRH_GEFF_XQ",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Effective and accountable government index (0=lowest; 7=highest) is a Freedom House indicator that attempts to capture how resources are managed using the following questions: (1) Are the executive, legislative, and judicial branches of government able to oversee the actions of one another and hold each other accountable for any excessive exercise of power? (2) Does the state system ensure that people's political choices are free from domination by the specific interests of power groups (e.g., the military, foreign powers, totalitarian parties, regional hierarchies, and/or economic oligarchies)? (3) Is the civil service selected, promoted, and dismissed on the basis of open competition and by merit? (4) Is the state engaged in issues reflecting the interests of women; ethnic, religious, and other distinct groups; and disabled people?\nEffective and accountable government index (0=lowest; 7=highest)",
+      "display_url": "http://api.worldbank.org/countries/KOR/indicators/IQ.FRH.GEFF.XQ?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2012-12-31",
+      "id": 6544783,
+      "name": "Korea, Rep.: Effective and accountable government index (0=lowest; 7=highest)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T22:34:05Z",
+      "urlize_name": "Korea-Rep-Effective-and-accountable-government-index-0-lowest-7-highest"
+    },
+    {
+      "code": "MZIP_MEDIANSOLDPRICEPERSQFT_ALLHOMES_85251",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of sale prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7268706,
+      "name": "Zillow Metrics (Zip Codes): Median Sale Price per Sq. Ft. - 85251,Scottsdale,AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:17:00Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-per-Sq-Ft-85251-Scottsdale-AZ"
+    },
+    {
+      "code": "KIR_UIS_REPR_1_G4_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Repetition rate in primary. Grade 4. Male is the proportion of male pupils from a cohort enrolled in a given grade at a given school year who study in the same grade in the following school year.\nRepetition rate in primary. Grade 4. Male",
+      "display_url": "http://api.worldbank.org/countries/KIR/indicators/UIS.REPR.1.G4.M?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1989-12-31",
+      "id": 2033079,
+      "name": "Kiribati: Repetition rate in primary. Grade 4. Male",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "1991-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T13:39:03Z",
+      "urlize_name": "Kiribati-Repetition-rate-in-primary-Grade-4-Male"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORSALE_ALLHOMES_CASTLEWOODATLANTAGA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2009-05-31",
+      "id": 7549378,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Sale (Beta) - Castlewood,Atlanta,GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2012-11-30",
+      "type": null,
+      "updated_at": "2014-01-09T12:13:01Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Sale-Beta-Castlewood-Atlanta-GA"
+    },
+    {
+      "code": "DPL_INST_HOLD",
+      "column_names": [
+        "Date",
+        "Institutional Holdings"
+      ],
+      "description": "Number of shares held by mutual funds, pension funds and trusts as a percent of total stock outstanding. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4232810,
+      "name": "DPL Inc. ( DPL ) - Institutional Holdings",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T15:22:31Z",
+      "urlize_name": "DPL-Inc-DPL-Institutional-Holdings"
+    },
+    {
+      "code": "RUSHB_CHG_NCWC",
+      "column_names": [
+        "Date",
+        "Change in Non-Cash Working Capital"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5390537,
+      "name": "Rush Enterprises Inc ( RUSHB ) - Change in Non-Cash Working Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T09:52:45Z",
+      "urlize_name": "Rush-Enterprises-Inc-RUSHB-Change-in-Non-Cash-Working-Capital"
+    },
+    {
+      "code": "DIGE_TRAD_VOL",
+      "column_names": [
+        "Date",
+        "Trading Volume"
+      ],
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-06-30",
+      "id": 4200385,
+      "name": "Digene Corp. ( DIGE ) - Trading Volume",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T18:50:45Z",
+      "urlize_name": "Digene-Corp-DIGE-Trading-Volume"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_06518",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7466666,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 06518,Hamden,CT",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-10T22:32:38Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-06518-Hamden-CT"
+    },
+    {
+      "code": "GHA_WP11648_7",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who saved or set aside any money in the past 12 months using an account at a bank, credit union or another financial institution (e.g., cooperatives) or microfinance institution (% with a secondary education or more, age 15+)\nSaved at a financial institution in the past year, secondary education or more (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/GHA/indicators/WP11648.7?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6520605,
+      "name": "Ghana: Saved at a financial institution in the past year, secondary education or more (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:11:16Z",
+      "urlize_name": "Ghana-Saved-at-a-financial-institution-in-the-past-year-secondary-education-or-more-age-15"
+    },
+    {
+      "code": "DYNE_CHG_NCWC",
+      "column_names": [
+        "Date",
+        "Change in Non-Cash Working Capital"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-06-30",
+      "id": 4272452,
+      "name": "Dyntek Inc ( DYNE ) - Change in Non-Cash Working Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T17:30:52Z",
+      "urlize_name": "Dyntek-Inc-DYNE-Change-in-Non-Cash-Working-Capital"
+    },
+    {
+      "code": "CSC_EV_EBITDA",
+      "column_names": [
+        "Date",
+        "EV to EBITDA Ratio"
+      ],
+      "description": "Estimated by dividing the market value of debt and equity by the EBITDA.  Value/EBITDA = (Market Value of Equity + Value of Debt-Cash) / EBITDA.  We use the book value of debt as a proxy for the market value. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-03-30",
+      "id": 4304651,
+      "name": "Computer Sciences Corp. ( CSC ) - EV to EBITDA Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-03-30",
+      "type": null,
+      "updated_at": "2014-03-22T15:24:26Z",
+      "urlize_name": "Computer-Sciences-Corp-CSC-EV-to-EBITDA-Ratio"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_78520",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7608400,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 78520,Brownsville,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-10T22:39:53Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-78520-Brownsville-TX"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

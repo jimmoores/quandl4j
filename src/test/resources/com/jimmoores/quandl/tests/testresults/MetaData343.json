@@ -1,0 +1,21 @@
+{
+  "code": "TXBI_MKT_DC",
+  "column_names": [
+    "Date",
+    "Market Debt to Capital Ratio"
+  ],
+  "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "2001-12-31",
+  "id": 5531308,
+  "name": "Texas Biotechnology ( TXBI ) - Market Debt to Capital Ratio",
+  "private": false,
+  "source_code": "DMDRN",
+  "source_name": "Damodaran Financial Data",
+  "to_date": "2002-12-31",
+  "type": null,
+  "updated_at": "2014-03-14T10:49:20Z",
+  "urlize_name": "Texas-Biotechnology-TXBI-Market-Debt-to-Capital-Ratio"
+}

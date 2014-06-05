@@ -1,0 +1,439 @@
+{
+  "current_page": 94438,
+  "docs": [
+    {
+      "code": "CITY_TOPTIER_CAPITOLACA",
+      "column_names": [
+        "Date",
+        "Capitola"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of top tier homes within the city of Capitola, CA. Top tier homes are homes that fall into the top third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_TopTier.csv",
+      "frequency": "monthly",
+      "from_date": "1997-08-31",
+      "id": 7061070,
+      "name": "Zillow Home Value Index (Cities): Top Tier - Capitola, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:26:58Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Top-Tier-Capitola-CA"
+    },
+    {
+      "code": "MCITY_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_STONYBROOKWILSHIREPA",
+      "column_names": [
+        "Date",
+        "Stonybrook-Wilshire"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-06-30",
+      "id": 7167927,
+      "name": "Zillow Metrics (Cities): Listings with Price Cuts (%) - Stonybrook-Wilshire, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T08:01:34Z",
+      "urlize_name": "Zillow-Metrics-Cities-Listings-with-Price-Cuts-Stonybrook-Wilshire-PA"
+    },
+    {
+      "code": "MHOOD_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_NORTHSANJOSESANJOSECA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 6923399,
+      "name": "Zillow Metrics (Neighborhoods): Listings with Price Cuts (%) - North San Jose,San Jose,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:58:12Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Listings-with-Price-Cuts-North-San-Jose-San-Jose-CA"
+    },
+    {
+      "code": "IATV_FIRM_VAL",
+      "column_names": [
+        "Date",
+        "Firm Value"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4563963,
+      "name": "ACTV Inc ( IATV ) - Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T04:36:07Z",
+      "urlize_name": "ACTV-Inc-IATV-Firm-Value"
+    },
+    {
+      "code": "VSTY_CASH_REV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5560510,
+      "name": "Varsity Group Inc ( VSTY ) - Cash as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T06:19:03Z",
+      "urlize_name": "Varsity-Group-Inc-VSTY-Cash-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "SPGR_CASH_REV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-06-30",
+      "id": 5467557,
+      "name": "Superior Galleries Inc ( SPGR ) - Cash as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T17:39:40Z",
+      "urlize_name": "Superior-Galleries-Inc-SPGR-Cash-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "MCITY_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_TOWNOFNORTHCOLLINSNY",
+      "column_names": [
+        "Date",
+        "Town of North Collins"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-06-30",
+      "id": 7171522,
+      "name": "Zillow Metrics (Cities): Listings with Price Cuts (%) - Town of North Collins, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T08:05:45Z",
+      "urlize_name": "Zillow-Metrics-Cities-Listings-with-Price-Cuts-Town-of-North-Collins-NY"
+    },
+    {
+      "code": "CITY_TOPTIER_SENOIAGA",
+      "column_names": [
+        "Date",
+        "Senoia"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of top tier homes within the city of Senoia, GA. Top tier homes are homes that fall into the top third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_TopTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7065640,
+      "name": "Zillow Home Value Index (Cities): Top Tier - Senoia, GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:25:43Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Top-Tier-Senoia-GA"
+    },
+    {
+      "code": "GEO_DT_DOD_DLBN_CD_NB",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Member Country\n272_T1.2_Gross External Debt, Nonbank financial corporations, Bonds and notes (LT)",
+      "display_url": "http://api.worldbank.org/countries/GEO/indicators/DT.DOD.DLBN.CD.NB?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2010-03-31",
+      "id": 336359,
+      "name": "Georgia: 272_T1.2_Gross External Debt, Nonbank financial corporations, Bonds and notes (LT)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:03:15Z",
+      "urlize_name": "Georgia-272_T1-2_Gross-External-Debt-Nonbank-financial-corporations-Bonds-and-notes-LT"
+    },
+    {
+      "code": "MHOOD_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_KINGIRVINGDESMOINESIA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 6925721,
+      "name": "Zillow Metrics (Neighborhoods): Listings with Price Cuts (%) - King Irving,Des Moines,IA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:38:52Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Listings-with-Price-Cuts-King-Irving-Des-Moines-IA"
+    },
+    {
+      "code": "MHOOD_PCTOFHOMESSELLINGFORGAIN_ALLHOMES_SHERMANVILLAGETOWNOFMADISONWI",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes sold for more than their previous purchase price (e.g. a home purchased for $225k and then sold for $250k). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfHomesSellingForGain_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-07-31",
+      "id": 6915105,
+      "name": "Zillow Metrics (Neighborhoods): Sold for Gain (%) - Sherman Village,Town of Madison,WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:37:14Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Sold-for-Gain-Sherman-Village-Town-of-Madison-WI"
+    },
+    {
+      "code": "CITY_MIDDLETIER_MISSIONTX",
+      "column_names": [
+        "Date",
+        "Mission"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the city of Mission, TX. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-06-30",
+      "id": 7042911,
+      "name": "Zillow Home Value Index (Cities): Middle Tier - Mission, TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:57:33Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Middle-Tier-Mission-TX"
+    },
+    {
+      "code": "SHOP_EV_EBITDA",
+      "column_names": [
+        "Date",
+        "EV to EBITDA Ratio"
+      ],
+      "description": "Estimated by dividing the market value of debt and equity by the EBITDA.  Value/EBITDA = (Market Value of Equity + Value of Debt-Cash) / EBITDA.  We use the book value of debt as a proxy for the market value. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5416763,
+      "name": "Shopsmith Inc ( SHOP ) - EV to EBITDA Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T00:35:27Z",
+      "urlize_name": "Shopsmith-Inc-SHOP-EV-to-EBITDA-Ratio"
+    },
+    {
+      "code": "CITY_MEDIANVALUEPERSQFT_ALLHOMES_GRIDLEYCA",
+      "column_names": [
+        "Date",
+        "Gridley"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the city of Gridley, CA. This number is derived by taking the estimated home value for each home and dividing it by the home's square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianValuePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7091847,
+      "name": "Zillow Home Value Index (Cities): Median Value Per Sq. Ft. (All Homes) - Gridley, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:09:36Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Median-Value-Per-Sq-Ft-All-Homes-Gridley-CA"
+    },
+    {
+      "code": "GEO_DT_DOD_DSTL_CD_CB",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Member Country\n030_T1_Gross External Debt, Loans (ST, Banks)",
+      "display_url": "http://api.worldbank.org/countries/GEO/indicators/DT.DOD.DSTL.CD.CB?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2007-03-31",
+      "id": 336633,
+      "name": "Georgia: 030_T1_Gross External Debt, Loans (ST, Banks)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:03:17Z",
+      "urlize_name": "Georgia-030_T1_Gross-External-Debt-Loans-ST-Banks"
+    },
+    {
+      "code": "GEO_DT_DOD_DSOA_CD_CB_TD_NV",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Member Country\n225_T1.1_Traded Gross External Debt, Arrears (if applicable) (Banks, nominal value)",
+      "display_url": "http://api.worldbank.org/countries/GEO/indicators/DT.DOD.DSOA.CD.CB.TD.NV?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2010-06-30",
+      "id": 336511,
+      "name": "Georgia: 225_T1.1_Traded Gross External Debt, Arrears (if applicable) (Banks, nominal value)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:03:16Z",
+      "urlize_name": "Georgia-225_T1-1_Traded-Gross-External-Debt-Arrears-if-applicable-Banks-nominal-value"
+    },
+    {
+      "code": "GEO_UIS_REPR_1_G1",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Repetition rate in primary. Grade 1. Total is the proportion of pupils from a cohort enrolled in a given grade at a given school year who study in the same grade in the following school year.\nRepetition rate in primary. Grade 1. Total",
+      "display_url": "http://api.worldbank.org/countries/GEO/indicators/UIS.REPR.1.G1?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1996-12-31",
+      "id": 2189611,
+      "name": "Georgia: Repetition rate in primary. Grade 1. Total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:05:08Z",
+      "urlize_name": "Georgia-Repetition-rate-in-primary-Grade-1-Total"
+    },
+    {
+      "code": "GEO_HH_MICS_OOST_L_Q2",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Typology of out-of-school children. Primary. Late entry. Quintile 2 is defined as the proportion of quintile 2 out-of-school children who are currently out of school but are expected to enter the education system later than they should. It is calculated based on UNESCO's methodology as the proportion leftover from those estimated as never in school, expressed as a percent of the proportion out-of-school for children younger than the age with the highest attendance rate. \nMICS: Typology of out-of-school children. Primary. Late entry. Quintile 2",
+      "display_url": "http://api.worldbank.org/countries/GEO/indicators/HH.MICS.OOST.L.Q2?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 2045542,
+      "name": "Georgia: MICS: Typology of out-of-school children. Primary. Late entry. Quintile 2",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:03:16Z",
+      "urlize_name": "Georgia-MICS-Typology-of-out-of-school-children-Primary-Late-entry-Quintile-2"
+    },
+    {
+      "code": "GEO_UIS_ROFST_2_M",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Out-of-school rate for children of lower secondary school age (%). Male is the number of males of official lower secondary school age who are not enrolled in lower secondary school expressed as a percentage of the male population of official lower secondary school age.\nOut-of-school rate for children of lower secondary school age (%). Male",
+      "display_url": "http://api.worldbank.org/countries/GEO/indicators/UIS.ROFST.2.M?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1996-12-31",
+      "id": 2060072,
+      "name": "Georgia: Out-of-school rate for children of lower secondary school age (%). Male",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:05:08Z",
+      "urlize_name": "Georgia-Out-of-school-rate-for-children-of-lower-secondary-school-age-Male"
+    },
+    {
+      "code": "ESCI_MKT_DC",
+      "column_names": [
+        "Date",
+        "Market Debt to Capital Ratio"
+      ],
+      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4374112,
+      "name": "Earth Sciences Inc ( ESCI ) - Market Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T16:28:50Z",
+      "urlize_name": "Earth-Sciences-Inc-ESCI-Market-Debt-to-Capital-Ratio"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "concurrency": 20,
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data",
+      "use_proxy": false
+    },
+    {
+      "code": "ZILLOW",
+      "concurrency": 20,
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research",
+      "use_proxy": false
+    },
+    {
+      "code": "WORLDBANK",
+      "concurrency": 400,
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank",
+      "use_proxy": false
+    }
+  ],
+  "total_count": 10148784
+}

@@ -1,0 +1,441 @@
+{
+  "current_page": 46485,
+  "docs": [
+    {
+      "code": "PRTWZ_OP_MARG",
+      "column_names": [
+        "Date",
+        "Pre-Tax Operating Margin"
+      ],
+      "description": "Estimated by dividing the pre-tax operating income by the total revenues. This is a pre-tax measure of operating profitability: Pre-tax Operating Margin = EBIT / Sales. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5411868,
+      "name": "Printware Inc ( PRTWZ ) - Pre-Tax Operating Margin",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:47:26Z",
+      "urlize_name": "Printware-Inc-PRTWZ-Pre-Tax-Operating-Margin"
+    },
+    {
+      "code": "CITY_MIDDLETIER_SOUTHDENNISMA",
+      "column_names": [
+        "Date",
+        "South Dennis"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the city of South Dennis, MA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7049540,
+      "name": "Zillow Home Value Index (Cities): Middle Tier - South Dennis, MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-11T18:35:24Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Middle-Tier-South-Dennis-MA"
+    },
+    {
+      "code": "RESIDUALFUELOILCHANGESINSTOCKS_BHR",
+      "column_names": [
+        "Year",
+        "Metric tons - thousand"
+      ],
+      "description": "The Energy Statistics Database contains comprehensive energy statistics on the production, trade, conversion and final consumption of primary and secondary; conventional and non-conventional; and new and renewable sources of energy. The Energy Statistics dataset, covering the period from 1990 onwards, is available at UNdata. For data prior to 1990, please refer to http://unstats.un.org/unsd/energy/edbase.htm.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 3140929,
+      "name": "Residual Fuel Oil - Changes In Stocks - Bahrain",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T09:01:40Z",
+      "urlize_name": "Residual-Fuel-Oil-Changes-In-Stocks-Bahrain"
+    },
+    {
+      "code": "MEX_GER_PRE_POP_ATTN_5559_MA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population by educational attainment, no-school, male (aged 55-59) is the total number of males age 55-59 with no education.\nPopulation by educational attainment, no-school, male (aged 55-59)",
+      "display_url": "http://api.worldbank.org/countries/MEX/indicators/GER.PRE.POP.ATTN.5559.MA?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 476286,
+      "name": "Mexico: Population by educational attainment, no-school, male (aged 55-59)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2025-12-31",
+      "type": null,
+      "updated_at": "2013-06-20T17:11:23Z",
+      "urlize_name": "Mexico-Population-by-educational-attainment-no-school-male-aged-55-59"
+    },
+    {
+      "code": "MHUT_NET_INC",
+      "column_names": [
+        "Date",
+        "Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6121400,
+      "name": "Medi-Hut Co Inc ( MHUT ) - Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:47:09Z",
+      "urlize_name": "Medi-Hut-Co-Inc-MHUT-Net-Income"
+    },
+    {
+      "code": "REF_REV_LAST",
+      "column_names": [
+        "Date",
+        "Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 5324878,
+      "name": "REFAC ( REF ) - Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:47:08Z",
+      "urlize_name": "REFAC-REF-Revenues"
+    },
+    {
+      "code": "PER_WP11671_8",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who currently have a loan they took out for funerals or weddings (% in the first (lowest) and second income quintiles (0-40th percentile), age 15+)\nOutstanding loan for funerals or weddings, income quintiles I (lowest) and II (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/PER/indicators/WP11671.8?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6598163,
+      "name": "Peru: Outstanding loan for funerals or weddings, income quintiles I (lowest) and II (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-18T22:41:32Z",
+      "urlize_name": "Peru-Outstanding-loan-for-funerals-or-weddings-income-quintiles-I-lowest-and-II-age-15"
+    },
+    {
+      "code": "MZIP_SALEPRICETOLISTRATIO_ALLHOMES_23222",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_SalePriceToListRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2009-01-31",
+      "id": 7422180,
+      "name": "Zillow Metrics (Zip Codes): Sale-to-List Price Ratio - 23222,Richmond,VA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:50:03Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Sale-to-List-Price-Ratio-23222-Richmond-VA"
+    },
+    {
+      "code": "RNDR_INTANG_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Intangible Assets to Total Assets"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2012-12-31",
+      "id": 5370934,
+      "name": "Rounder Inc ( RNDR ) - Ratio of Intangible Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T22:47:08Z",
+      "urlize_name": "Rounder-Inc-RNDR-Ratio-of-Intangible-Assets-to-Total-Assets"
+    },
+    {
+      "code": "RZIP_MEDIANRENTALPRICE_ALLHOMES_60661",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the rental price for homes listed for rent on Zillow within the zip code of 60661,Chicago,IL. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianRentalPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-02-28",
+      "id": 7522224,
+      "name": "Zillow Rent Index (Zip Codes): Rentals Median Price (All Homes) - 60661,Chicago,IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T18:41:23Z",
+      "urlize_name": "Zillow-Rent-Index-Zip-Codes-Rentals-Median-Price-All-Homes-60661-Chicago-IL"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_10970",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7356528,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 10970,Mount Ivy,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T22:58:50Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-10970-Mount-Ivy-NY"
+    },
+    {
+      "code": "CZE_WP11630_3_9",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults whose usual mode of access to put cash (paper or coins) into their account(s) is over the counter at a retail store (% in the third, fourth, and fifth (highest) income quintiles (41st-100th percentile), age 15+, with a formal account)\nRetail store is main mode of withdrawal from account, income quintiles III, IV, and V (highest)  (% with an account,  age 15+)",
+      "display_url": "http://api.worldbank.org/countries/CZE/indicators/WP11630.3.9?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6506879,
+      "name": "Czech Republic: Retail store is main mode of withdrawal from account, income quintiles III, IV, and V (highest)  (% with an account,  age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T15:18:28Z",
+      "urlize_name": "Czech-Republic-Retail-store-is-main-mode-of-withdrawal-from-account-income-quintiles-III-IV-and-V-highest-with-an-account-age-15"
+    },
+    {
+      "code": "BJ_NET_INC",
+      "column_names": [
+        "Date",
+        "Net Income"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-01-29",
+      "id": 4078690,
+      "name": "BJ's Wholesale Club ( BJ ) - Net Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-01-29",
+      "type": null,
+      "updated_at": "2014-03-22T19:36:12Z",
+      "urlize_name": "BJ-s-Wholesale-Club-BJ-Net-Income"
+    },
+    {
+      "code": "COUNTY_3BEDROOM_NEVADACA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the county of Nevada, CA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7115753,
+      "name": "Zillow Home Value Index (Counties): Three Bedroom Homes - Nevada, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T15:56:30Z",
+      "urlize_name": "Zillow-Home-Value-Index-Counties-Three-Bedroom-Homes-Nevada-CA"
+    },
+    {
+      "code": "MOZ_EN_POP_EL5M_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population below 5m is the percentage of the total population living in areas where the elevation is 5 meters or less.\nPopulation living in areas where elevation is below 5 meters (% of total population)",
+      "display_url": "http://api.worldbank.org/countries/MOZ/indicators/EN.POP.EL5M.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 518772,
+      "name": "Mozambique: Population living in areas where elevation is below 5 meters (% of total population)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T22:30:25Z",
+      "urlize_name": "Mozambique-Population-living-in-areas-where-elevation-is-below-5-meters-of-total-population"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORSALE_ALLHOMES_LOMETATX",
+      "column_names": [
+        "Date",
+        "Lometa"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-05-31",
+      "id": 7297845,
+      "name": "Zillow Metrics (Cities): Homes for Sale (Beta) - Lometa, TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-11T20:23:49Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Sale-Beta-Lometa-TX"
+    },
+    {
+      "code": "MHOOD_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_CRESTWOODPORTLANDOR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 6922505,
+      "name": "Zillow Metrics (Neighborhoods): Decreasing Values (%) - Crestwood,Portland,OR",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T12:44:28Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Decreasing-Values-Crestwood-Portland-OR"
+    },
+    {
+      "code": "COL_IC_FRM_INFRA_IN3",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Duration of a typical power outage, in hours.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/infrastructure).\nDuration of a typical electrical outage (hours)",
+      "display_url": "http://api.worldbank.org/countries/COL/indicators/IC.FRM.INFRA.IN3?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 2074929,
+      "name": "Colombia: Duration of a typical electrical outage (hours)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-18T00:01:10Z",
+      "urlize_name": "Colombia-Duration-of-a-typical-electrical-outage-hours"
+    },
+    {
+      "code": "ZIP_4BEDROOM_40065",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of four bedroom homes within the zip code of 40065, Shelbyville, KY. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_4bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 6795466,
+      "name": "Zillow Home Value Index (Zip Codes): Four Bedroom Homes - 40065,Shelbyville,KY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2013-08-21T02:32:20Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Four-Bedroom-Homes-40065-Shelbyville-KY"
+    },
+    {
+      "code": "RSE_EV",
+      "column_names": [
+        "Date",
+        "Enterprise Value"
+      ],
+      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5383486,
+      "name": "Rouse Co. ( RSE ) - Enterprise Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T19:36:13Z",
+      "urlize_name": "Rouse-Co-RSE-Enterprise-Value"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

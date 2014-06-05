@@ -1,0 +1,446 @@
+{
+  "current_page": 90548,
+  "docs": [
+    {
+      "code": "RWA_MYS_MEA_YSCH_25UP_MA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Mean years of schooling, 25+, male is the mean years of schooling of the female population over age 25.\nmean years of schooling, 25+, male",
+      "display_url": "http://api.worldbank.org/countries/RWA/indicators/MYS.MEA.YSCH.25UP.MA?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 6614443,
+      "name": "Rwanda: mean years of schooling, 25+, male",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2050-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T20:38:16Z",
+      "urlize_name": "Rwanda-mean-years-of-schooling-25-male"
+    },
+    {
+      "code": "ARG_MYS_PROP_2529_NED_MF",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Proportion, 25-29, total, no education is the proportion of the population age 25-29 with no education.\nproportion, 25 - 29, total, no education",
+      "display_url": "http://api.worldbank.org/countries/ARG/indicators/MYS.PROP.2529.NED.MF?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 194714,
+      "name": "Argentina: proportion, 25 - 29, total, no education",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2050-12-31",
+      "type": null,
+      "updated_at": "2014-01-14T00:31:00Z",
+      "urlize_name": "Argentina-proportion-25-29-total-no-education"
+    },
+    {
+      "code": "OZRK_EFF_TAX_INC",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate on Income"
+      ],
+      "description": "This is the effective tax rate, obtained by dividing the taxes paid by the taxable income as reported to the stockholders. We would rather have used marginal tax rates, but these are not reported. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5324006,
+      "name": "Bank Of The Ozarks ( OZRK ) - Effective Tax Rate on Income",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T23:41:48Z",
+      "urlize_name": "Bank-Of-The-Ozarks-OZRK-Effective-Tax-Rate-on-Income"
+    },
+    {
+      "code": "LSTR_TRAD_VOL",
+      "column_names": [
+        "Date",
+        "Trading Volume"
+      ],
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-29",
+      "id": 6112014,
+      "name": "Landstar System ( LSTR ) - Trading Volume",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-29",
+      "type": null,
+      "updated_at": "2014-03-21T20:47:16Z",
+      "urlize_name": "Landstar-System-LSTR-Trading-Volume"
+    },
+    {
+      "code": "TSOH_ROC",
+      "column_names": [
+        "Date",
+        "Return on Capital"
+      ],
+      "description": "Estimated by dividing the after-tax operating income by the book value of invested capital. ROC = EBIT (1-t) / (BV of Debt + BV of Equity-Cash). Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 5517908,
+      "name": "Tri-State 1st Bank Inc ( TSOH ) - Return on Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T07:14:37Z",
+      "urlize_name": "Tri-State-1st-Bank-Inc-TSOH-Return-on-Capital"
+    },
+    {
+      "code": "RWA_IC_BUS_NDNS_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "New businesses registered are the number of new limited liability corporations registered in the calendar year.\nNew business density (new registrations per 1,000 people ages 15-64)",
+      "display_url": "http://api.worldbank.org/countries/RWA/indicators/IC.BUS.NDNS.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 6613799,
+      "name": "Rwanda: New business density (new registrations per 1,000 people ages 15-64)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T00:27:36Z",
+      "urlize_name": "Rwanda-New-business-density-new-registrations-per-1-000-people-ages-15-64"
+    },
+    {
+      "code": "IRN_BAR_TER_ICMP_5559_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage of population, 55-59, total, incomplete tertiary is the percentage of the population age 55-59 who did not complete tertiary education.\npercentage of population (15+), 55-59, total, incomplete tertiary",
+      "display_url": "http://api.worldbank.org/countries/IRN/indicators/BAR.TER.ICMP.5559.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 382937,
+      "name": "Iran, Islamic Rep.: percentage of population (15+), 55-59, total, incomplete tertiary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T18:10:59Z",
+      "urlize_name": "Iran-Islamic-Rep-percentage-of-population-15-55-59-total-incomplete-tertiary"
+    },
+    {
+      "code": "STATE_MIDDLETIER_UTAH",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is the median Zestimate valuation for a given geographic area on a given day. A Zestimate is Zillow's estimate of the current market value for a home. We have tens of millions of Zestimates - one for most homes. Our data is refreshed regularly to reflect real estate transactions that could affect you - even if you're not buying or selling a house.",
+      "display_url": "http://files.zillowstatic.com/research/public/State/State_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7434479,
+      "name": "Zillow Home Value Index: Middle Tier - Utah",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T06:38:24Z",
+      "urlize_name": "Zillow-Home-Value-Index-Middle-Tier-Utah"
+    },
+    {
+      "code": "FUTURE_CDZ1989",
+      "column_names": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Settle",
+        "Volume",
+        "Open Interest"
+      ],
+      "description": "Historical Futures Prices: Canadian Dollar Futures, December 1989, CDZ1989, Chicago Mercantile Exchange (CME). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
+      "display_url": "http://www.ofdp.org/futures/13331",
+      "frequency": "daily",
+      "from_date": "1988-08-29",
+      "id": 2306690,
+      "name": "Canadian Dollar Futures, December 1989, CDZ1989, CME",
+      "private": false,
+      "source_code": "OFDP",
+      "source_name": "Open Financial Data Project",
+      "to_date": "1989-12-18",
+      "type": null,
+      "updated_at": "2014-02-25T22:22:42Z",
+      "urlize_name": "Canadian-Dollar-Futures-December-1989-CDZ1989-CME"
+    },
+    {
+      "code": "LBR_UIS_GGR_2_GPV",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Gross lower secondary graduation ratio. General programmes. Total is the number of graduates regardless of age in general programmes of lower secondary education expressed as a percentage of the population at the theoretical graduation age in general programmes of lower secondary education.\nGross lower secondary graduation ratio. General programmes. Total",
+      "display_url": "http://api.worldbank.org/countries/LBR/indicators/UIS.GGR.2.GPV?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6549439,
+      "name": "Liberia: Gross lower secondary graduation ratio. General programmes. Total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T04:16:10Z",
+      "urlize_name": "Liberia-Gross-lower-secondary-graduation-ratio-General-programmes-Total"
+    },
+    {
+      "code": "SRB_GFDD_AI_07",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage of adults who report borrowing any money from a bank, credit union, microfinance institution, or another financial institution such as a cooperative in the past 12 months. (Aslı Demirgüç-Kunt and Leora Klapper, 2012. \u201cMeasuring Financial Inclusion: The Global Findex,\u201d World Bank Policy Research Working Paper 6025)\nAdults borrowing from a formal fin. inst. in the past year to total adults  (HH survey) (%)",
+      "display_url": "http://api.worldbank.org/countries/SRB/indicators/GFDD.AI.07?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6432504,
+      "name": "Serbia: Adults borrowing from a formal fin. inst. in the past year to total adults  (HH survey) (%)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T22:21:36Z",
+      "urlize_name": "Serbia-Adults-borrowing-from-a-formal-fin-inst-in-the-past-year-to-total-adults-HH-survey"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_48750",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7611416,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 48750,Au Sable Township,MI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-01-09T10:44:48Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-48750-Au-Sable-Township-MI"
+    },
+    {
+      "code": "MAR_MYS_PROP_1544_SEC_MA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Proportion, 15-44, male, secondary is the proportion of the male population age 15-44 with secondary education.\nproportion, 15-44, male, secondary",
+      "display_url": "http://api.worldbank.org/countries/MAR/indicators/MYS.PROP.1544.SEC.MA?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 464738,
+      "name": "Morocco: proportion, 15-44, male, secondary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2050-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T04:16:00Z",
+      "urlize_name": "Morocco-proportion-15-44-male-secondary"
+    },
+    {
+      "code": "AIT_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "FCFF = EBIT(1-t) - (Capital Expenditures - Depreciation) - Change in Non-Cash Working Capital. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-06-30",
+      "id": 3913691,
+      "name": "Applied Industrial Technologies ( AIT ) - Free Cash Flow to Firm",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T13:16:03Z",
+      "urlize_name": "Applied-Industrial-Technologies-AIT-Free-Cash-Flow-to-Firm"
+    },
+    {
+      "code": "ZMB_TM_VAL_MRCH_R3_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Merchandise imports from developing economies in Latin America and the Caribbean are the sum of merchandise imports by the reporting economy from developing economies in the Latin America and the Caribbean region according to the World Bank classification of economies. Data are expressed as a percentage of total merchandise imports by the economy. Data are computed only if at least half of the economies in the partner country group had non-missing data.\nMerchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports)",
+      "display_url": "http://api.worldbank.org/countries/ZMB/indicators/TM.VAL.MRCH.R3.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1964-12-31",
+      "id": 2205235,
+      "name": "Zambia: Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T04:20:25Z",
+      "urlize_name": "Zambia-Merchandise-imports-from-developing-economies-in-Latin-America-the-Caribbean-of-total-merchandise-imports"
+    },
+    {
+      "code": "KOR_DB_PAID_VACATION_5YR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Paid annual leave for a worker with 5 years of tenure (in working days)\nPaid annual leave for a worker with 5 years of tenure (in working days)",
+      "display_url": "http://api.worldbank.org/countries/KOR/indicators/db_paid_vacation_5yr?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 2179121,
+      "name": "Korea, Rep.: Paid annual leave for a worker with 5 years of tenure (in working days)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T20:38:16Z",
+      "urlize_name": "Korea-Rep-Paid-annual-leave-for-a-worker-with-5-years-of-tenure-in-working-days"
+    },
+    {
+      "code": "CRI_WP11623_4_1",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults with an account (self or together with someone else) at a bank, credit union, another financial institution (e.g., cooperatives, microfinance institutions) or the post office (if applicable) including respondents who reported having a debit card (% age 15+)\nAccount at a formal financial institution (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/CRI/indicators/WP11623_4.1?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2077735,
+      "name": "Costa Rica: Account at a formal financial institution (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T20:38:16Z",
+      "urlize_name": "Costa-Rica-Account-at-a-formal-financial-institution-age-15"
+    },
+    {
+      "code": "LSO_HH_DHS_GAR_456_Q3",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Gross attendance rate. Post Secondary. Quintile 3 is the number of quintile 3 post-secondary school pupils of any age, expressed as a percentage of the quintile 3 population of post-secondary school age. Post-secondary school age is defined as the age range from graduation from secondary school till the maximum age set as a parameter of the educational system.\nDHS: Gross attendance rate. Post Secondary. Quintile 3",
+      "display_url": "http://api.worldbank.org/countries/LSO/indicators/HH.DHS.GAR.456.Q3?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 2084979,
+      "name": "Lesotho: DHS: Gross attendance rate. Post Secondary. Quintile 3",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T04:20:25Z",
+      "urlize_name": "Lesotho-DHS-Gross-attendance-rate-Post-Secondary-Quintile-3"
+    },
+    {
+      "code": "LLTC_STDEV",
+      "column_names": [
+        "Date",
+        "3-year Standard Deviation of Stock Price"
+      ],
+      "description": "The standard deviation in monthly stock prices, annualized. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-07-03",
+      "id": 6080989,
+      "name": "Linear Technology Corp. ( LLTC ) - 3-year Standard Deviation of Stock Price",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-07-03",
+      "type": null,
+      "updated_at": "2014-03-21T21:36:36Z",
+      "urlize_name": "Linear-Technology-Corp-LLTC-3-year-Standard-Deviation-of-Stock-Price"
+    },
+    {
+      "code": "COMT_CASH_ASSETS",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Total Assets"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 4245388,
+      "name": "Comamtech Inc ( COMT ) - Cash as Percentage of Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T04:44:50Z",
+      "urlize_name": "Comamtech-Inc-COMT-Cash-as-Percentage-of-Total-Assets"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "OFDP",
+      "datasets_count": 898673,
+      "description": "OFDP archives and publishes financial data which is released to the public daily by trusted financial institutions.",
+      "host": "www.ofdp.org",
+      "id": 385,
+      "name": "Open Financial Data Project"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

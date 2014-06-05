@@ -17,7 +17,7 @@ public final class TabularResult {
   private List<Row> _rows;
 
   /**
-   * Private constructor, use static factory of().
+   * Private constructor, use static factory {@code of()}.
    * @param headerDefinition a list of the column headers
    * @param rows a list of rows
    */
@@ -30,7 +30,7 @@ public final class TabularResult {
    * Create a tabular result set from a header definition and an ordered list of rows.
    * @param headerDefinition the definition of the header row, not null
    * @param rows a list of rows, not null
-   * @return the TabularResult instance
+   * @return the {@code TabularResult} instance
    */
   public static TabularResult of(final HeaderDefinition headerDefinition, final List<Row> rows) {
     ArgumentChecker.notNull(headerDefinition, "headerDefinition");
@@ -48,12 +48,28 @@ public final class TabularResult {
   
   /**
    * Get a row, indexed from zero (excluding the header).
-   * Throws an IndexOutOfBoundsException if index >= size()
+   * Throws an {@code IndexOutOfBoundsException} {@literal if index >= size()} 
    * @param index the index of the row
    * @return the row, not null
    */
   public Row get(final int index) {
     return _rows.get(index);
+  }
+  
+  /**
+   * Get the number of rows in this {@code TabularResult}.
+   * @return the number of rows
+   */
+  public int size() {
+    return _rows.size();
+  }
+  
+  /**
+   * Return whether the result set empty.
+   * @return true, if the result set is empty
+   */
+  public boolean isEmpty() {
+    return _rows.isEmpty();
   }
   
   /**

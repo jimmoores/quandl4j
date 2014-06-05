@@ -2,6 +2,7 @@ package com.jimmoores.quandl.util;
 
 import java.util.Arrays;
 import java.util.Iterator;
+import java.util.Map;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -22,7 +23,7 @@ public final class PrettyPrinter {
   private static final String NULL = "null";
   private static final int NULL_SIZE = NULL.length();
   private static final int JSON_INDENT = 2;
-  private static final String LINE_SEPARATOR = String.format("%n");
+  private static final String LINE_SEPARATOR = "\n";
 
   private PrettyPrinter() {
   }
@@ -61,6 +62,37 @@ public final class PrettyPrinter {
       s_logger.error("Problem converting JSONObject to String", ex);
       throw new QuandlRuntimeException("Problem converting JSONObject to String", ex);
     }
+  }
+  
+  /**
+   * Pretty print a map of String to HeaderDefinition (see QuandlSession.getMultipleHeaderDefinition)
+   * Throws a QuandlRuntimeException if it can't render the JSONObject to a String.
+   * @param multiHeaderDefinitionResult the pre-parsed JSON object to pretty-print, not null
+   * @return a String representation of the object, probably multi-line.
+   */
+  public static String toPrettyPrintedString(final Map<String, HeaderDefinition> multiHeaderDefinitionResult) {
+    ArgumentChecker.notNull(multiHeaderDefinitionResult, "multiHeaderDefinitionResult");
+    StringBuilder sb = new StringBuilder();
+    int max = 0;
+    for (String each : multiHeaderDefinitionResult.keySet()) {
+      max = Math.max(max, each.length());
+    }
+    for (Map.Entry<String, HeaderDefinition> entry : multiHeaderDefinitionResult.entrySet()) {
+      String quandlCode = entry.getKey();
+      HeaderDefinition headerDefinition = entry.getValue();
+      sb.append(quandlCode);
+      sb.append(repeat(max - quandlCode.length(), ' ')); // indent
+      sb.append(" => ");
+      Iterator<String> iterator = headerDefinition.iterator();
+      while (iterator.hasNext()) {
+        sb.append(iterator.next());
+        if (iterator.hasNext()) {
+          sb.append(", ");
+        }
+      }
+      sb.append("\n");
+    }
+    return sb.toString();
   }
   /**
    * Pretty print a TabularResult in a text-based table format.

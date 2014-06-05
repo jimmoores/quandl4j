@@ -1,0 +1,441 @@
+{
+  "current_page": 60583,
+  "docs": [
+    {
+      "code": "TPTI_P_BV",
+      "column_names": [
+        "Date",
+        "Price to Book Value Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5499888,
+      "name": "TippingPoint Technologies ( TPTI ) - Price to Book Value Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T09:00:44Z",
+      "urlize_name": "TippingPoint-Technologies-TPTI-Price-to-Book-Value-Ratio"
+    },
+    {
+      "code": "ZIP_3BEDROOM_20170",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the zip code of 20170, Herndon, VA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6778930,
+      "name": "Zillow Home Value Index (Zip Codes): Three Bedroom Homes - 20170,Herndon,VA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:19:41Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Three-Bedroom-Homes-20170-Herndon-VA"
+    },
+    {
+      "code": "HOOD_SINGLEFAMILYRESIDENCE_GREENLAKESEATTLEWA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the neighborhood of Green Lake, Seattle, WA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6780830,
+      "name": "Zillow Home Value Index (Neighborhoods): Single Family Residences - Green Lake,Seattle,WA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:24:23Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Single-Family-Residences-Green-Lake-Seattle-WA"
+    },
+    {
+      "code": "BEL_BAR_PRM_CMPT_25UP_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage of population, 25+, total, completed primary is the percentage of people age 25+ who have completed primary education.\npercentage of population (15+), 25+, total, completed primary",
+      "display_url": "http://api.worldbank.org/countries/BEL/indicators/BAR.PRM.CMPT.25UP.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 204850,
+      "name": "Belgium: percentage of population (15+), 25+, total, completed primary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T18:29:02Z",
+      "urlize_name": "Belgium-percentage-of-population-15-25-total-completed-primary"
+    },
+    {
+      "code": "RCOUNTY_ZRI_ALLHOMES_GREENEOH",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of rentals all homes within the county of Greene, OH. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-11-30",
+      "id": 6847958,
+      "name": "Zillow Rent Index (Counties): Rentals All Homes - Greene, OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T14:48:36Z",
+      "urlize_name": "Zillow-Rent-Index-Counties-Rentals-All-Homes-Greene-OH"
+    },
+    {
+      "code": "MCOUNTY_NUMBEROFHOMESFORSALE_ALLHOMES_CLINTONIA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7495675,
+      "name": "Zillow Metrics (Counties): Homes for Sale (Beta) - Clinton, IA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-11T06:42:00Z",
+      "urlize_name": "Zillow-Metrics-Counties-Homes-for-Sale-Beta-Clinton-IA"
+    },
+    {
+      "code": "HOOD_MEDIANVALUEPERSQFT_ALLHOMES_SUNSETCLIFFSSANDIEGOCA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the neighborhood of Sunset Cliffs, San Diego, CA. This number is derived by taking the estimated home value for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_MedianValuePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6790093,
+      "name": "Zillow Home Value Index (Neighborhoods): Median Value Per Sq. Ft. (All Homes) - Sunset Cliffs,San Diego,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:52:35Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Median-Value-Per-Sq-Ft-All-Homes-Sunset-Cliffs-San-Diego-CA"
+    },
+    {
+      "code": "WLRF_EFF_TAX",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5572543,
+      "name": "WLR Foods ( WLRF ) - Effective Tax Rate",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T15:42:14Z",
+      "urlize_name": "WLR-Foods-WLRF-Effective-Tax-Rate"
+    },
+    {
+      "code": "MCOUNTY_PCTOFHOMESDECREASINGINVALUES_ALLHOMES_NYENV",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of all homes whose value has fallen in the last year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/County/County_PctOfHomesDecreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2001-04-30",
+      "id": 7485730,
+      "name": "Zillow Metrics (Counties): Decreasing Values (%) - Nye, NV",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:47:23Z",
+      "urlize_name": "Zillow-Metrics-Counties-Decreasing-Values-Nye-NV"
+    },
+    {
+      "code": "AUT_DT_DOD_DIAO_CD_IL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Member Country\n061_T1_Gross External Debt, Liabilities.to.direct.investors (Dir. Inv. Intercomp. Lending), Other",
+      "display_url": "http://api.worldbank.org/countries/AUT/indicators/DT.DOD.DIAO.CD.IL?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2003-06-30",
+      "id": 199363,
+      "name": "Austria: 061_T1_Gross External Debt, Liabilities.to.direct.investors (Dir. Inv. Intercomp. Lending), Other",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T18:13:59Z",
+      "urlize_name": "Austria-061_T1_Gross-External-Debt-Liabilities-to-direct-investors-Dir-Inv-Intercomp-Lending-Other"
+    },
+    {
+      "code": "STP_UIS_GAP_1_F",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Graduation age population. Primary. Female is the female population of the age-group theoretically corresponding to the primary school graduation age as indicated by theoretical entrance age and duration.\nGraduation age population. Primary. Female",
+      "display_url": "http://api.worldbank.org/countries/STP/indicators/UIS.GAP.1.F?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 2250947,
+      "name": "Sao Tome and Principe: Graduation age population. Primary. Female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T07:13:38Z",
+      "urlize_name": "Sao-Tome-and-Principe-Graduation-age-population-Primary-Female"
+    },
+    {
+      "code": "CITY_MIDDLETIER_CLIFTONPARKNY",
+      "column_names": [
+        "Date",
+        "Clifton Park"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the city of Clifton Park, NY. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7043333,
+      "name": "Zillow Home Value Index (Cities): Middle Tier - Clifton Park, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:52:35Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Middle-Tier-Clifton-Park-NY"
+    },
+    {
+      "code": "MZIP_MEDIANLISTINGPRICE_ALLHOMES_21771",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the list price for homes listed on Zillow, or the asking price. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianListingPrice_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-10-31",
+      "id": 7211780,
+      "name": "Zillow Metrics (Zip Codes): Median List Price - 21771, Mount Airy, MD",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T18:06:48Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-List-Price-21771-Mount-Airy-MD"
+    },
+    {
+      "code": "AZE_WP11625_6",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who use their account at a financial institution for business purposes or for both business purposes and personal transactions (% with a primary education or less, age 15+)\nAccount used for business purposes, primary education or less (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/AZE/indicators/WP11625.6?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2084102,
+      "name": "Azerbaijan: Account used for business purposes, primary education or less (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T18:20:23Z",
+      "urlize_name": "Azerbaijan-Account-used-for-business-purposes-primary-education-or-less-age-15"
+    },
+    {
+      "code": "UIS_SCHOOLLIFEEXPECTANCYISCED23__ALLGENDERS_CHN",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "The UIS Data Centre contains indicators and raw data on education, literacy, science, culture and communication. The UIS collects these data from more than 200 countries and international organizations. The UIS is the primary data source of education, literacy and science data for leading publications and databases.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1975-12-31",
+      "id": 3539660,
+      "name": "School life expectancy ISCED 2+3 / All genders - China",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T03:33:38Z",
+      "urlize_name": "School-life-expectancy-ISCED-2-3-All-genders-China"
+    },
+    {
+      "code": "ZIP_SINGLEFAMILYRESIDENCE_80440",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the zip code of 80440, Fairplay, CO. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6837462,
+      "name": "Zillow Home Value Index (Zip Codes): Single Family Residences - 80440,Fairplay,CO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:52:35Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Single-Family-Residences-80440-Fairplay-CO"
+    },
+    {
+      "code": "HOOD_MEDIANVALUEPERSQFT_ALLHOMES_GLENBROOKCOLUMBUSOH",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the neighborhood of Glenbrook, Columbus, OH. This number is derived by taking the estimated home value for each home and dividing it by the homes square footage. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_MedianValuePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6788108,
+      "name": "Zillow Home Value Index (Neighborhoods): Median Value Per Sq. Ft. (All Homes) - Glenbrook,Columbus,OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:54:13Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Median-Value-Per-Sq-Ft-All-Homes-Glenbrook-Columbus-OH"
+    },
+    {
+      "code": "MCITY_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_GROVELANDNY",
+      "column_names": [
+        "Date",
+        "Groveland"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2001-07-31",
+      "id": 7124649,
+      "name": "Zillow Metrics (Cities): Sold for Loss (%) - Groveland, NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2001-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T19:00:46Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-for-Loss-Groveland-NY"
+    },
+    {
+      "code": "AUT_WP11631_2_6",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults whose usual mode of access to get cash (paper or coins) from their account(s) is over the counter in a branch of one's bank or financial institution (% with a primary education or less, age 15+, with a formal account)\nBank teller is main mode of deposit into account, primary education or less (% with an account,  age 15+)",
+      "display_url": "http://api.worldbank.org/countries/AUT/indicators/WP11631.2.6?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2161752,
+      "name": "Austria: Bank teller is main mode of deposit into account, primary education or less (% with an account,  age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T18:14:42Z",
+      "urlize_name": "Austria-Bank-teller-is-main-mode-of-deposit-into-account-primary-education-or-less-with-an-account-age-15"
+    },
+    {
+      "code": "MZIP_MEDIANPCTOFPRICEREDUCTION_ALLHOMES_44062",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the percentage of price reduction for homes whose prices have been reduced in the past full month. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianPctOfPriceReduction_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-03-31",
+      "id": 7365669,
+      "name": "Zillow Metrics (Zip Codes): Median Price Cut (%) - 44062,Middlefield,OH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T18:10:41Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Price-Cut-44062-Middlefield-OH"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

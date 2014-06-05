@@ -1,0 +1,504 @@
+{
+  "current_page": 358303,
+  "docs": [
+    {
+      "code": "NCU2101610605900",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Occupation: Engineers, n.e.c.; Skills: Overall occupation average (no work level) (higher level = more skill); Not Seasonally Adjusted;Source: BLS National Compensation Survey. For more information see <a href=\"http://www.bls.gov/ncs/summary.htm\">http://www.bls.gov/ncs/summary.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/NCU2101610605900",
+      "frequency": "annual",
+      "from_date": "2002-09-30",
+      "id": 9106069,
+      "name": "Compensation for Engineers, n.e.c. in Overall occupation average (no work level)",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2002-09-30",
+      "type": null,
+      "updated_at": "2013-11-16T10:30:33Z",
+      "urlize_name": "Compensation-for-Engineers-n-e-c-in-Overall-occupation-average-no-work-level"
+    },
+    {
+      "code": "SMU17000005051700001",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Statistic: All Employees, In Thousands; Industry: Telecommunications; Super-Sector: Information; Not Seasonally Adjusted; Source: Current Employment Statistics (CES), State and Area Level Survey; For more information see <a href=\"http://www.bls.gov/sae/790over.htm\">http://www.bls.gov/sae/790over.htm.",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/SMU17000005051700001",
+      "frequency": "monthly",
+      "from_date": "1990-01-31",
+      "id": 8459334,
+      "name": "All Employees, In Thousands; Telecommunications industry; Illinois statewide",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2013-12-13T01:56:30Z",
+      "urlize_name": "All-Employees-In-Thousands-Telecommunications-industry-Illinois-statewide"
+    },
+    {
+      "code": "RC78_RM_PORTO_ALEGRE_RS_30_A_34_ANOS_PERC",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RC78_RM_PERC.csv&categorias=%2230%20a%2034%20anos%22&localidade=Porto%20Alegre%20-%20RS",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 6378361,
+      "name": "Population and Demographics: Births and deaths - Violent deaths occurred in the year by age - Men - 30 to 34 Metropolitan Areas: Porto Alegre - RS. Datatype: Relative",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T01:22:03Z",
+      "urlize_name": "Population-and-Demographics-Births-and-deaths-Violent-deaths-occurred-in-the-year-by-age-Men-30-to-34-Metropolitan-Areas-Porto-Alegre-RS-Datatype-Relative"
+    },
+    {
+      "code": "OEUN000000081111049904001",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Statistic: Employment; Occupation: Industrial Machinery Installation, Repair, and Maintenance Workers; Industry: Automotive Mechanical and Electrical Repair and Maintenance; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000081111049904001",
+      "frequency": "annual",
+      "from_date": "2012-06-30",
+      "id": 9189303,
+      "name": "Employment for Industrial Machinery Installation, Repair, and Maintenance Workers in Automotive Mechanical and Electrical Repair and Maintenance in National",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2013-11-17T14:06:01Z",
+      "urlize_name": "Employment-for-Industrial-Machinery-Installation-Repair-and-Maintenance-Workers-in-Automotive-Mechanical-and-Electrical-Repair-and-Maintenance-in-National"
+    },
+    {
+      "code": "V61609070",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "{\"Geography\"=>\"Shawinigan, Quebec\", \"North American Industry Classification System (NAICS)\"=>\"All families\", \"Type of client\"=>\"Families with or without children\", nil=>\"Older parent aged 25 to 34 years\"}",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 9841535,
+      "name": "111-0011: Commercial and industrial machinery and equipment rental and leasing, sales, by type of client based on the North American Industry Classification System (NAICS)",
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-02-18T21:28:17Z",
+      "urlize_name": "111-0011-Commercial-and-industrial-machinery-and-equipment-rental-and-leasing-sales-by-type-of-client-based-on-the-North-American-Industry-Classification-System-NAICS"
+    },
+    {
+      "code": "EMP_XEES_SEX_OCU2_NB_SEX_F_OCU_ISCO08_1_11_SWE",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+      "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 5944871,
+      "name": "Paid Employment By Sex And Occupation (selected Isco Level 2), Female, Chief Executives, Senior Officials And Legislators - Sweden",
+      "private": false,
+      "source_code": "ILO",
+      "source_name": "International Labour Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2013-04-22T05:57:03Z",
+      "urlize_name": "Paid-Employment-By-Sex-And-Occupation-selected-Isco-Level-2-Female-Chief-Executives-Senior-Officials-And-Legislators-Sweden"
+    },
+    {
+      "code": "AMP_OTHERCOMPREHENSIVEINCOMELOSSRECLASSIFICATIONADJUSTMENTONDERIVATIVESINCLUDEDINNETINCOMEBEFORETAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossReclassificationAdjustmentOnDerivativesIncludedInNetIncomeBeforeTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10083200,
+      "name": "AMERIPRISE FINANCIAL INC  (AMP): Annual Other Comprehensive Income Loss Reclassification Adjustment On Derivatives Included In Net Income Before Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T22:02:29Z",
+      "urlize_name": "AMERIPRISE-FINANCIAL-INC-AMP-Annual-Other-Comprehensive-Income-Loss-Reclassification-Adjustment-On-Derivatives-Included-In-Net-Income-Before-Tax"
+    },
+    {
+      "code": "PD268_UF_ACRE_TINHAM_PERC",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PD268_UF_PERC.csv&categorias=%22Tinham%22&localidade=Acre",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6336908,
+      "name": "Families and Households: Characteristics of Households - Sewage - Had Federative Units - UF: Acre. Datatype: Relative",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T01:20:34Z",
+      "urlize_name": "Families-and-Households-Characteristics-of-Households-Sewage-Had-Federative-Units-UF-Acre-Datatype-Relative"
+    },
+    {
+      "code": "ELEC_PLANT_CONS_TOT_50240_BIT_ALL_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Tons. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.50240-BIT-ALL.Q",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.50240-BIT-ALL.Q&out=xml",
+      "frequency": "monthly",
+      "from_date": "2001-01-31",
+      "id": 4877403,
+      "name": "Fuel Consumption Quantity : Purdue University : Bituminous Coal : All Primemovers : Quarterly",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-01-11T12:51:14Z",
+      "urlize_name": "Fuel-Consumption-Quantity-Purdue-University-Bituminous-Coal-All-Primemovers-Quarterly"
+    },
+    {
+      "code": "BBK01_USMB37",
+      "column_names": [
+        "Month",
+        "Value"
+      ],
+      "description": "Units:DM/EURO, Multiplier:billion, More info at: http://www.bundesbank.de/Navigation/EN/Statistics/Time_series_databases/Macro_economic_time_series/its_list_node.html?listId=www_s311_b40223",
+      "display_url": "http://www.bundesbank.de/cae/servlet/CsvDownload?tsId=BBK01.USMB37&its_csvFormat=en&mode=its",
+      "frequency": "monthly",
+      "from_date": "1991-01-31",
+      "id": 1942793,
+      "name": "Germany / Turnover / Public sector construction and road construction / Seasonally adjusted",
+      "private": false,
+      "source_code": "BUNDESBANK",
+      "source_name": "Bundesbank",
+      "to_date": "2013-07-31",
+      "type": null,
+      "updated_at": "2014-01-08T10:02:07Z",
+      "urlize_name": "Germany-Turnover-Public-sector-construction-and-road-construction-Seasonally-adjusted"
+    },
+    {
+      "code": "1152_CYP",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SUBSTANCETYPEDISORDER: Drug use disorders.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2540",
+      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/RSUD_46&filter=SUBSTANCETYPEDISORDER:DRUG_USE_DISORDERS;COUNTRY:CYP;\n",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 9602745,
+      "name": "Length of stay for inpatient detoxification, days Drug use disorders - Cyprus",
+      "private": false,
+      "source_code": "WHO",
+      "source_name": "World Health Organization",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-01-10T10:47:20Z",
+      "urlize_name": "Length-of-stay-for-inpatient-detoxification-days-Drug-use-disorders-Cyprus"
+    },
+    {
+      "code": "SEDS_KSRCB_MO_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Billion Btu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.KSRCB.MO.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.KSRCB.MO.A&out=xml",
+      "frequency": "annual",
+      "from_date": "1960-12-31",
+      "id": 4795561,
+      "name": "Kerosene Consumed By The Residential Sector, Missouri",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T12:51:14Z",
+      "urlize_name": "Kerosene-Consumed-By-The-Residential-Sector-Missouri"
+    },
+    {
+      "code": "BKN_M_LT_NC10_B_20P1_C0_S_N",
+      "column_names": [
+        "Date",
+        "Thousands of Lithuanian litas"
+      ],
+      "description": " Lithuania - Net Circulation - number of banknotes/coins in circulation (for banknotes it has to be calculated, and equals created notes less destroyed notes less stocks of the NCB) - Banknotes - 20 - Current currency - Stock - denominated in National currency , :, Dataset:BKN : Banknotes statistics Explanation page (Series and Dataset Level Information), Reference area:Lithuania (LT), Decimals:One (1), Collection indicator:End of period (E)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=3447408&SERIES_KEY=195.BKN.M.LT.NC10.B.20P1.C0.S.N&exportType=sdmx",
+      "frequency": "monthly",
+      "from_date": "2000-01-31",
+      "id": 11329507,
+      "name": "Lithuania Net Circulation Banknotes 20 Current currency Stock denominated in National currency",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-04-24T17:23:09Z",
+      "urlize_name": "Lithuania-Net-Circulation-Banknotes-20-Current-currency-Stock-denominated-in-National-currency"
+    },
+    {
+      "code": "AAWW_TOTALMINIMUMDRYLEASEINCOME_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: Totalminimumdryleaseincome",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 9841574,
+      "name": "ATLAS AIR WORLDWIDE HOLDINGS INC  (AAWW): Annual Totalminimumdryleaseincome",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-02-18T21:33:00Z",
+      "urlize_name": "ATLAS-AIR-WORLDWIDE-HOLDINGS-INC-AAWW-Annual-Totalminimumdryleaseincome"
+    },
+    {
+      "code": "IIUCON2389004U110",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Number of illness cases (thousands); Case type: Total recordable cases of skin disease; Industry: Other specialty trade contractors; Supersector: Construction; Area: Private industry, Delaware; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUCON2389004U110",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 9099606,
+      "name": "Number of illness cases (thousands) for Other specialty trade contractors, Private industry, Delaware",
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-11-16T06:56:50Z",
+      "urlize_name": "Number-of-illness-cases-thousands-for-Other-specialty-trade-contractors-Private-industry-Delaware"
+    },
+    {
+      "code": "AMP_OTHERCOMPREHENSIVEINCOMELOSSDERIVATIVESQUALIFYINGASHEDGESTAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherComprehensiveIncomeLossDerivativesQualifyingAsHedgesTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10083199,
+      "name": "AMERIPRISE FINANCIAL INC  (AMP): Annual Other Comprehensive Income Loss Derivatives Qualifying As Hedges Tax",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-24T22:02:29Z",
+      "urlize_name": "AMERIPRISE-FINANCIAL-INC-AMP-Annual-Other-Comprehensive-Income-Loss-Derivatives-Qualifying-As-Hedges-Tax"
+    },
+    {
+      "code": "DHIL_PORTIONOFNETPARTNERSHIPASSETS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PortionOfNetPartnershipAssets",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10673627,
+      "name": "DIAMOND HILL INVESTMENT GROUP INC  (DHIL): Annual Portion Of Net Partnership Assets",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-03-11T19:37:54Z",
+      "urlize_name": "DIAMOND-HILL-INVESTMENT-GROUP-INC-DHIL-Annual-Portion-Of-Net-Partnership-Assets"
+    },
+    {
+      "code": "FAO_5815LOWINCOMEFOODDEFICITCOUNTRIESTOTAL175ISOGLUCOSE",
+      "column_names": [
+        "Year",
+        "Import Quantity (tonnes)",
+        "Import Value (1000 US$)",
+        "Export Quantity (tonnes)",
+        "Export Value (1000 US$)"
+      ],
+      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_All_Area_Groups_1.zip",
+      "frequency": "annual",
+      "from_date": "1961-12-31",
+      "id": 7755308,
+      "name": "Trade Crops Livestock: Isoglucose - Low Income Food Deficit Countries + (Total)",
+      "private": false,
+      "source_code": "FAO",
+      "source_name": "Food and Agriculture Organization of the United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2013-07-26T23:08:34Z",
+      "urlize_name": "Trade-Crops-Livestock-Isoglucose-Low-Income-Food-Deficit-Countries-Total"
+    },
+    {
+      "code": "COMM_29_MONOORDISODIUMPHOSPHATES_IMPORT_LKA",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 3216222,
+      "name": "Commodity Imports - Inorganic Chemicals, Precious Metal Compound, Isotope / Mono- or di-sodium phosphates - Sri Lanka",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T18:18:00Z",
+      "urlize_name": "Commodity-Imports-Inorganic-Chemicals-Precious-Metal-Compound-Isotope-Mono-or-di-sodium-phosphates-Sri-Lanka"
+    },
+    {
+      "code": "COMM_73_COLDROLLEDSTAINLESSSTEELW600MMT1030MM_IMPORT_DMA",
+      "column_names": [
+        "Year",
+        "Trade (USD)",
+        "Weight (kg)",
+        "Quantity"
+      ],
+      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 4156188,
+      "name": "Commodity Imports - Iron And Steel / Cold rolled stainless steel, w >600mm, t 1.0-3.0 mm - Dominica",
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T09:46:01Z",
+      "urlize_name": "Commodity-Imports-Iron-And-Steel-Cold-rolled-stainless-steel-w-600mm-t-1-0-3-0-mm-Dominica"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ILO",
+      "datasets_count": 228980,
+      "description": "No description for this source yet",
+      "host": "www.ilo.org",
+      "id": 686,
+      "name": "International Labour Organization"
+    },
+    {
+      "code": "ECB",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "sdw.ecb.europa.eu",
+      "id": 8917,
+      "name": "European Central Bank"
+    },
+    {
+      "code": "FAO",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "faostat3.fao.org",
+      "id": 863,
+      "name": "Food and Agriculture Organization of the United Nations"
+    },
+    {
+      "code": "CANSIM",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "www20.statcan.gc.ca",
+      "id": 1199,
+      "name": "Statistics Canada"
+    },
+    {
+      "code": "WHO",
+      "datasets_count": 21456,
+      "description": "",
+      "host": "apps.who.int",
+      "id": 525,
+      "name": "World Health Organization"
+    },
+    {
+      "code": "BUNDESBANK",
+      "datasets_count": 29010,
+      "description": "No description for this source yet",
+      "host": "www.bundesbank.de",
+      "id": 231,
+      "name": "Bundesbank"
+    },
+    {
+      "code": "UN",
+      "datasets_count": 2100274,
+      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "host": "data.un.org",
+      "id": 488,
+      "name": "United Nations"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "IBGE",
+      "datasets_count": 110418,
+      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
+      "host": "seriesestatisticas.ibge.gov.br",
+      "id": 725,
+      "name": "Brazilian Institute of Geography and Statistics"
+    },
+    {
+      "code": "BLS",
+      "datasets_count": 5888,
+      "description": "The Bureau of Labor Statistics of the US Department of Labor produces some of the Nation\u2019s most widely followed economic measures.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics"
+    }
+  ],
+  "total_count": 10148784
+}

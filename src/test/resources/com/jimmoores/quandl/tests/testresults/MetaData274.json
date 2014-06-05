@@ -1,0 +1,21 @@
+{
+  "code": "MCITY_NUMBEROFHOMESFORSALE_ALLHOMES_HADDONFIELDNJ",
+  "column_names": [
+    "Date",
+    "Haddonfield"
+  ],
+  "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForSale_AllHomes.csv",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "2008-11-30",
+  "id": 7275890,
+  "name": "Zillow Metrics (Cities): Homes for Sale (Beta) - Haddonfield, NJ",
+  "private": false,
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-01-31",
+  "type": null,
+  "updated_at": "2014-03-11T20:23:56Z",
+  "urlize_name": "Zillow-Metrics-Cities-Homes-for-Sale-Beta-Haddonfield-NJ"
+}

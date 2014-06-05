@@ -1,0 +1,21 @@
+{
+  "code": "PET_MBCIM_R30_NCH_2_M",
+  "column_names": [
+    "Date",
+    "Value"
+  ],
+  "description": "Units = Thousand Barrels Per Day. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MBCIM_R30-NCH_2.M>http://www.eia.gov/beta/api/qb.cfm?sdid=PET.MBCIM_R30-NCH_2.M<\/a>",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=PET.MBCIM_R30-NCH_2.M&out=xml",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "1995-01-31",
+  "id": 12087717,
+  "name": "Gulf Coast (padd 3) Imports From China Of Gasoline Blending Components, Monthly",
+  "private": false,
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration",
+  "to_date": "2010-01-31",
+  "type": null,
+  "updated_at": "2014-05-18T00:40:53Z",
+  "urlize_name": "Gulf-Coast-padd-3-Imports-From-China-Of-Gasoline-Blending-Components-Monthly"
+}

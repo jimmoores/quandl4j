@@ -1,0 +1,433 @@
+{
+  "current_page": 57575,
+  "docs": [
+    {
+      "code": "ZIP_3BEDROOM_65604",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the zip code of 65604, Ash Grove, MO. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6792076,
+      "name": "Zillow Home Value Index (Zip Codes): Three Bedroom Homes - 65604,Ash Grove,MO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:20:32Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Three-Bedroom-Homes-65604-Ash-Grove-MO"
+    },
+    {
+      "code": "PRT_BAR_SCHL_2529_FE",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Average years of total schooling, 25-29, female is the average years of education completed among females age 25-29. \naverage years of total schooling, 25-29, female",
+      "display_url": "http://api.worldbank.org/countries/PRT/indicators/BAR.SCHL.2529.FE?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 2183923,
+      "name": "Portugal: average years of total schooling, 25-29, female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-14T00:27:12Z",
+      "urlize_name": "Portugal-average-years-of-total-schooling-25-29-female"
+    },
+    {
+      "code": "LPX_MKT_DC",
+      "column_names": [
+        "Date",
+        "Market Debt to Capital Ratio"
+      ],
+      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 6105168,
+      "name": "Louisiana-Pacific Corp. ( LPX ) - Market Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T10:54:03Z",
+      "urlize_name": "Louisiana-Pacific-Corp-LPX-Market-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "BEL_SH_HIV_TOTL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults and children living with HIV refers to the number of people ages 0-49 (adult ages 15-49 and children ages 0-14) who are infected with HIV.\nAdults (ages 15+) and children (0-14 years) living with HIV",
+      "display_url": "http://api.worldbank.org/countries/BEL/indicators/SH.HIV.TOTL?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 203825,
+      "name": "Belgium: Adults (ages 15+) and children (0-14 years) living with HIV",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-08-30T20:47:08Z",
+      "urlize_name": "Belgium-Adults-ages-15-and-children-0-14-years-living-with-HIV"
+    },
+    {
+      "code": "KNA_NY_GNS_ICTR_CN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Gross savings are calculated as gross national income less total consumption, plus net transfers. Data are in current local currency.\nGross savings (current LCU)",
+      "display_url": "http://api.worldbank.org/countries/KNA/indicators/NY.GNS.ICTR.CN?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1980-12-31",
+      "id": 421455,
+      "name": "St. Kitts and Nevis: Gross savings (current LCU)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T15:15:45Z",
+      "urlize_name": "St-Kitts-and-Nevis-Gross-savings-current-LCU"
+    },
+    {
+      "code": "KEN_DP_DOD_DECX_CR_CG_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Member Country\n061.Central Govt. Public Sector Debt, External creditors US$",
+      "display_url": "http://api.worldbank.org/countries/KEN/indicators/DP.DOD.DECX.CR.CG.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2009-06-30",
+      "id": 408646,
+      "name": "Kenya: 061.Central Govt. Public Sector Debt, External creditors US$",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2014-05-20T10:34:40Z",
+      "urlize_name": "Kenya-061-Central-Govt-Public-Sector-Debt-External-creditors-US"
+    },
+    {
+      "code": "ZIP_3BEDROOM_33579",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the zip code of 33579, Riverview, FL. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6784165,
+      "name": "Zillow Home Value Index (Zip Codes): Three Bedroom Homes - 33579,Riverview,FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:20:32Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Three-Bedroom-Homes-33579-Riverview-FL"
+    },
+    {
+      "code": "ZWE_WP11653_9",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who borrowed any money in the past 12 months from family or friends (% in the third, fourth, and fifth (highest) income quintiles (41st-100th percentile), age 15+)\nLoan from family or friends in the past year, income quintiles III, IV, and V (highest)  (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/ZWE/indicators/WP11653.9?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 6507653,
+      "name": "Zimbabwe: Loan from family or friends in the past year, income quintiles III, IV, and V (highest)  (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T13:33:51Z",
+      "urlize_name": "Zimbabwe-Loan-from-family-or-friends-in-the-past-year-income-quintiles-III-IV-and-V-highest-age-15"
+    },
+    {
+      "code": "MHOOD_PCTOFHOMESINCREASINGINVALUES_ALLHOMES_MOUNTAINRANCHMESAAZ",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes whose values have increased in the past year. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfHomesIncreasingInValues_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2004-01-31",
+      "id": 7523679,
+      "name": "Zillow Metrics (Neighborhoods): Increasing Values (%) - Mountain Ranch,Mesa,AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-06-30",
+      "type": null,
+      "updated_at": "2013-11-29T12:52:36Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Increasing-Values-Mountain-Ranch-Mesa-AZ"
+    },
+    {
+      "code": "KRO_EPS_GRO_EXP",
+      "column_names": [
+        "Date",
+        "Expected Growth in Earnings Per Share"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 6083914,
+      "name": "Kronos Worldwide Inc ( KRO ) - Expected Growth in Earnings Per Share",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T10:54:03Z",
+      "urlize_name": "Kronos-Worldwide-Inc-KRO-Expected-Growth-in-Earnings-Per-Share"
+    },
+    {
+      "code": "QRES_REV_12M",
+      "column_names": [
+        "Date",
+        "Trailing 12-month Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 5306624,
+      "name": "Quest Resource Corp ( QRES ) - Trailing 12-month Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T15:19:11Z",
+      "urlize_name": "Quest-Resource-Corp-QRES-Trailing-12-month-Revenues"
+    },
+    {
+      "code": "ZIP_3BEDROOM_02779",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the zip code of 02779, Berkley, MA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 7441057,
+      "name": "Zillow Home Value Index (Zip Codes): Three Bedroom Homes - 02779,Berkley,MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:19:48Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Three-Bedroom-Homes-02779-Berkley-MA"
+    },
+    {
+      "code": "YEM_DT_TDS_DECT_CD_CB_24P",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Member Country\n202_T3_Debt-Service Payment Schedule, Banks (Banks) (2 years or more)",
+      "display_url": "http://api.worldbank.org/countries/YEM/indicators/DT.TDS.DECT.CD.CB.24P?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2010-03-31",
+      "id": 2075222,
+      "name": "Yemen, Rep.: 202_T3_Debt-Service Payment Schedule, Banks (Banks) (2 years or more)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-09-30",
+      "type": null,
+      "updated_at": "2014-05-20T10:34:33Z",
+      "urlize_name": "Yemen-Rep-202_T3_Debt-Service-Payment-Schedule-Banks-Banks-2-years-or-more"
+    },
+    {
+      "code": "ZIP_3BEDROOM_75238",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the zip code of 75238, Dallas, TX. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1997-02-28",
+      "id": 6779660,
+      "name": "Zillow Home Value Index (Zip Codes): Three Bedroom Homes - 75238,Dallas,TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:20:32Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Three-Bedroom-Homes-75238-Dallas-TX"
+    },
+    {
+      "code": "KRO_EV_EBIT",
+      "column_names": [
+        "Date",
+        "EV to EBIT Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 6083902,
+      "name": "Kronos Worldwide Inc ( KRO ) - EV to EBIT Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T10:54:04Z",
+      "urlize_name": "Kronos-Worldwide-Inc-KRO-EV-to-EBIT-Ratio"
+    },
+    {
+      "code": "KGZ_SH_DYN_AIDS_DH",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "AIDS deaths are the estimated number of adults and children who died due to AIDS-related causes.\nAIDS estimated deaths (UNAIDS estimates)",
+      "display_url": "http://api.worldbank.org/countries/KGZ/indicators/SH.DYN.AIDS.DH?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 406973,
+      "name": "Kyrgyz Republic: AIDS estimated deaths (UNAIDS estimates)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T06:54:47Z",
+      "urlize_name": "Kyrgyz-Republic-AIDS-estimated-deaths-UNAIDS-estimates"
+    },
+    {
+      "code": "BEL_SP_POP_AG00_FE_UN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population, age 0, female refers to the female population at the specified age.\nPopulation, aged  0, female",
+      "display_url": "http://api.worldbank.org/countries/BEL/indicators/SP.POP.AG00.FE.UN?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 204232,
+      "name": "Belgium: Population, aged  0, female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2015-12-31",
+      "type": null,
+      "updated_at": "2014-01-14T16:37:06Z",
+      "urlize_name": "Belgium-Population-aged-0-female"
+    },
+    {
+      "code": "SOM_UIS_R_23_GPV_G5",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Repeaters in secondary. Grade 5. Total is the number of pupils in the specified grade who are enrolled in the same grade for a second (or further) year. \nRepeaters in secondary. Grade 5. Total",
+      "display_url": "http://api.worldbank.org/countries/SOM/indicators/UIS.R.23.GPV.G5?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 2149158,
+      "name": "Somalia: Repeaters in secondary. Grade 5. Total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T10:33:11Z",
+      "urlize_name": "Somalia-Repeaters-in-secondary-Grade-5-Total"
+    },
+    {
+      "code": "ZIP_3BEDROOM_85206",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the zip code of 85206, Mesa, AZ. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6777718,
+      "name": "Zillow Home Value Index (Zip Codes): Three Bedroom Homes - 85206,Mesa,AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T05:20:32Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Three-Bedroom-Homes-85206-Mesa-AZ"
+    },
+    {
+      "code": "SMTX_REV_12M",
+      "column_names": [
+        "Date",
+        "Trailing 12-month Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5444935,
+      "name": "SMTC Corp ( SMTX ) - Trailing 12-month Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T10:57:47Z",
+      "urlize_name": "SMTC-Corp-SMTX-Trailing-12-month-Revenues"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

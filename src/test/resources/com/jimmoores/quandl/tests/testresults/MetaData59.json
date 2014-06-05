@@ -1,0 +1,439 @@
+{
+  "current_page": 16567,
+  "docs": [
+    {
+      "code": "MCITY_NUMBEROFHOMESFORSALE_ALLHOMES_HADDONFIELDNJ",
+      "column_names": [
+        "Date",
+        "Haddonfield"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7275890,
+      "name": "Zillow Metrics (Cities): Homes for Sale (Beta) - Haddonfield, NJ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-11T20:23:56Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Sale-Beta-Haddonfield-NJ"
+    },
+    {
+      "code": "BMR_DIV",
+      "column_names": [
+        "Date",
+        "Dividends"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 5954111,
+      "name": "Biomed Realty Trust ( BMR ) - Dividends",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T20:34:53Z",
+      "urlize_name": "Biomed-Realty-Trust-BMR-Dividends"
+    },
+    {
+      "code": "PAK_GER_SEC_POP_ATTN_5559_MA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population by educational attainment, secondary, male (aged 55-59) is the total number of males age 55-59 with secondary education.\nPopulation by educational attainment, secondary, male (aged 55-59)",
+      "display_url": "http://api.worldbank.org/countries/PAK/indicators/GER.SEC.POP.ATTN.5559.MA?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 2209832,
+      "name": "Pakistan: Population by educational attainment, secondary, male (aged 55-59)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2025-12-31",
+      "type": null,
+      "updated_at": "2013-06-20T18:42:24Z",
+      "urlize_name": "Pakistan-Population-by-educational-attainment-secondary-male-aged-55-59"
+    },
+    {
+      "code": "PAK_UIS_R_1_G4",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Repeaters in primary. Grade 4. Total is the number of pupils in the specified grade who are enrolled in the same grade for a second (or further) year. \nRepeaters in primary. Grade 4.  Total",
+      "display_url": "http://api.worldbank.org/countries/PAK/indicators/UIS.R.1.G4?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 2240897,
+      "name": "Pakistan: Repeaters in primary. Grade 4.  Total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T10:36:36Z",
+      "urlize_name": "Pakistan-Repeaters-in-primary-Grade-4-Total"
+    },
+    {
+      "code": "CITY_SINGLEFAMILYRESIDENCE_OREMUT",
+      "column_names": [
+        "Date",
+        "Orem"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of single family residences within the city of Orem, UT. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_SingleFamilyResidence.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7074679,
+      "name": "Zillow Home Value Index (Cities): Single Family Residence - Orem, UT",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:13:16Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Single-Family-Residence-Orem-UT"
+    },
+    {
+      "code": "CALY_TOT_DEBT",
+      "column_names": [
+        "Date",
+        "Total Debt"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 3956019,
+      "name": "Calypte Biomedical ( CALY ) - Total Debt",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T06:55:47Z",
+      "urlize_name": "Calypte-Biomedical-CALY-Total-Debt"
+    },
+    {
+      "code": "EXPR_PAYOUT",
+      "column_names": [
+        "Date",
+        "Payout Ratio"
+      ],
+      "description": "Units: . Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-02-01",
+      "id": 4414390,
+      "name": "Express ( EXPR ) - Payout Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-02-01",
+      "type": null,
+      "updated_at": "2014-03-21T23:26:00Z",
+      "urlize_name": "Express-EXPR-Payout-Ratio"
+    },
+    {
+      "code": "AXA_TO_BOOK_DC",
+      "column_names": [
+        "Date",
+        "Book Debt to Capital Ratio"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 4179336,
+      "name": "Eiger Technology Inc. ( AXA.TO ) - Book Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:22:43Z",
+      "urlize_name": "Eiger-Technology-Inc-AXA-TO-Book-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "CRWN_EV_EBIT",
+      "column_names": [
+        "Date",
+        "EV to EBIT Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4295902,
+      "name": "Crown Media Holdings ( CRWN ) - EV to EBIT Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T23:25:59Z",
+      "urlize_name": "Crown-Media-Holdings-CRWN-EV-to-EBIT-Ratio"
+    },
+    {
+      "code": "MEX_DT_GRE_DPPG",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The grant element of a loan is the grant equivalent expressed as a percentage of the amount committed. It is used as a measure of the overall cost of borrowing. To obtain the average, the grant elements for all public and publicly guaranteed loans have been weighted by the amounts of the loans. The grant equivalent of a loan is its commitment (present) value, less the discounted present value of its contractual debt service; conventionally, future service payments are discounted at 10 percent. Commitments cover the total amount of loans for which contracts were signed in the year specified. Public debt is an external obligation of a public debtor, including the national government, a political subdivision (or an agency of either), and autonomous public bodies. Publicly guaranteed debt is an external obligation of a private debtor that is guaranteed for repayment by a public entity. Data for private nonguaranteed debt are not available.\nAverage grant element on new external debt commitments (%)",
+      "display_url": "http://api.worldbank.org/countries/MEX/indicators/DT.GRE.DPPG?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 475771,
+      "name": "Mexico: Average grant element on new external debt commitments (%)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T13:30:09Z",
+      "urlize_name": "Mexico-Average-grant-element-on-new-external-debt-commitments"
+    },
+    {
+      "code": "OTE_EFF_TAX",
+      "column_names": [
+        "Date",
+        "Effective Tax Rate"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5313050,
+      "name": "Hellenic Telecom Org. SA (OTE) ( OTE ) - Effective Tax Rate",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T10:22:45Z",
+      "urlize_name": "Hellenic-Telecom-Org-SA-OTE-OTE-Effective-Tax-Rate"
+    },
+    {
+      "code": "AWRE_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4177736,
+      "name": "Aware ( AWRE ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T17:44:31Z",
+      "urlize_name": "Aware-AWRE-Correlation-with-the-Market"
+    },
+    {
+      "code": "MZIP_PRICETORENTRATIO_ALLHOMES_02188",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7472030,
+      "name": "Zillow Metrics (Zip Codes): Price-to-Rent Ratio - 02188,Weymouth,MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:04:58Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Price-to-Rent-Ratio-02188-Weymouth-MA"
+    },
+    {
+      "code": "HOOD_MIDDLETIER_PALMSFREMONTCA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of middle tier homes within the neighborhood of 28 Palms, Fremont, CA. Middle tier homes are homes that fall into the middle third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_MiddleTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6768947,
+      "name": "Zillow Home Value Index (Neighborhoods): Middle Tier Homes - 28 Palms,Fremont,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T19:39:08Z",
+      "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Middle-Tier-Homes-28-Palms-Fremont-CA"
+    },
+    {
+      "code": "BRLI_MKT_DE",
+      "column_names": [
+        "Date",
+        "Market Debt to Equity Ratio"
+      ],
+      "description": "Debt is defined as including both short term and long term debt (but not accounts payable or non-interest bearing liabilities), and the book value of debt is used as a proxy for market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-10-31",
+      "id": 5959369,
+      "name": "Bio-Reference Laboratories ( BRLI ) - Market Debt to Equity Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-10-31",
+      "type": null,
+      "updated_at": "2014-03-22T14:13:49Z",
+      "urlize_name": "Bio-Reference-Laboratories-BRLI-Market-Debt-to-Equity-Ratio"
+    },
+    {
+      "code": "NLD_SP_POP_AG05_MA_UN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population, age 5, male refers to the male population at the specified age.\nPopulation, aged  5, male",
+      "display_url": "http://api.worldbank.org/countries/NLD/indicators/SP.POP.AG05.MA.UN?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1990-12-31",
+      "id": 6582703,
+      "name": "Netherlands: Population, aged  5, male",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2015-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T12:53:23Z",
+      "urlize_name": "Netherlands-Population-aged-5-male"
+    },
+    {
+      "code": "LGF_CASH_FV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Firm Value"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-03-31",
+      "id": 6058054,
+      "name": "Lions Gate Entertainment Corp. ( LGF ) - Cash as Percentage of Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-21T23:05:51Z",
+      "urlize_name": "Lions-Gate-Entertainment-Corp-LGF-Cash-as-Percentage-of-Firm-Value"
+    },
+    {
+      "code": "MHOOD_FORSALEINVENTORYSUPPLY_ALLHOMES_COOLEYSTATIONGILBERTAZ",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. Total number on listings on Zillow at the end of a month divided by the number of homes sold in that month. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_ForSaleInventorySupply_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2009-02-28",
+      "id": 6940374,
+      "name": "Zillow Metrics (Neighborhoods): Inventory Supply (Beta) - Cooley Station,Gilbert,AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2010-03-31",
+      "type": null,
+      "updated_at": "2014-01-09T20:41:18Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Inventory-Supply-Beta-Cooley-Station-Gilbert-AZ"
+    },
+    {
+      "code": "MZIP_PRICETORENTRATIO_ALLHOMES_03077",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PriceToRentRatio_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-10-31",
+      "id": 7472230,
+      "name": "Zillow Metrics (Zip Codes): Price-to-Rent Ratio - 03077,Town of Raymond,NH",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T18:57:51Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Price-to-Rent-Ratio-03077-Town-of-Raymond-NH"
+    },
+    {
+      "code": "OSI_BOOK_DC",
+      "column_names": [
+        "Date",
+        "Book Debt to Capital Ratio"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5308317,
+      "name": "Outback Steakhouse ( OSI ) - Book Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T21:32:39Z",
+      "urlize_name": "Outback-Steakhouse-OSI-Book-Debt-to-Capital-Ratio"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "concurrency": 20,
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data",
+      "use_proxy": false
+    },
+    {
+      "code": "ZILLOW",
+      "concurrency": 20,
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research",
+      "use_proxy": false
+    },
+    {
+      "code": "WORLDBANK",
+      "concurrency": 400,
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank",
+      "use_proxy": false
+    }
+  ],
+  "total_count": 10148784
+}

@@ -1,0 +1,433 @@
+{
+  "current_page": 61354,
+  "docs": [
+    {
+      "code": "CILE_TRAD_VOL",
+      "column_names": [
+        "Date",
+        "Trading Volume"
+      ],
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 5989423,
+      "name": "China Intelligent Lghtg & Elec ( CILE ) - Trading Volume",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-13T20:48:49Z",
+      "urlize_name": "China-Intelligent-Lghtg-Elec-CILE-Trading-Volume"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_PENROSECO",
+      "column_names": [
+        "Date",
+        "Penrose"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2004-07-31",
+      "id": 7232069,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Penrose, CO",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T13:12:40Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Penrose-CO"
+    },
+    {
+      "code": "CHL_DT_DOD_DLTT_CD_NF",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Member Country\n285_T1.2_Gross External Debt, Nonfinancial corporations, Trade credits (LT)",
+      "display_url": "http://api.worldbank.org/countries/CHL/indicators/DT.DOD.DLTT.CD.NF?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2003-03-31",
+      "id": 253487,
+      "name": "Chile: 285_T1.2_Gross External Debt, Nonfinancial corporations, Trade credits (LT)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T22:29:36Z",
+      "urlize_name": "Chile-285_T1-2_Gross-External-Debt-Nonfinancial-corporations-Trade-credits-LT"
+    },
+    {
+      "code": "NUCO_MKT_DC",
+      "column_names": [
+        "Date",
+        "Market Debt to Capital Ratio"
+      ],
+      "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-06-30",
+      "id": 6140374,
+      "name": "NuCo2 Inc ( NUCO ) - Market Debt to Capital Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2007-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T17:34:36Z",
+      "urlize_name": "NuCo2-Inc-NUCO-Market-Debt-to-Capital-Ratio"
+    },
+    {
+      "code": "RANKY_REV_12M",
+      "column_names": [
+        "Date",
+        "Trailing 12-month Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5297893,
+      "name": "Rank Group ADR ( RANKY ) - Trailing 12-month Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T15:47:27Z",
+      "urlize_name": "Rank-Group-ADR-RANKY-Trailing-12-month-Revenues"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_CLEBURNETX",
+      "column_names": [
+        "Date",
+        "Cleburne"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7222419,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Cleburne, TX",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T13:12:54Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Cleburne-TX"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_GREENBAYWI",
+      "column_names": [
+        "Date",
+        "Green Bay"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7217753,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Green Bay, WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T13:13:45Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Green-Bay-WI"
+    },
+    {
+      "code": "MEHO_EV_EBITDA",
+      "column_names": [
+        "Date",
+        "EV to EBITDA Ratio"
+      ],
+      "description": "Estimated by dividing the market value of debt and equity by the EBITDA.  Value/EBITDA = (Market Value of Equity + Value of Debt-Cash) / EBITDA.  We use the book value of debt as a proxy for the market value. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6098903,
+      "name": "Meridian Holdings Inc ( MEHO ) - EV to EBITDA Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T12:49:32Z",
+      "urlize_name": "Meridian-Holdings-Inc-MEHO-EV-to-EBITDA-Ratio"
+    },
+    {
+      "code": "GOLX_INV_CAP",
+      "column_names": [
+        "Date",
+        "Invested Capital"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4488885,
+      "name": "Global Online India Inc ( GOLX ) - Invested Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T15:47:27Z",
+      "urlize_name": "Global-Online-India-Inc-GOLX-Invested-Capital"
+    },
+    {
+      "code": "MZIP_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_30087",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7350470,
+      "name": "Zillow Metrics (Zip Codes): Listings with Price Cuts (%) - 30087,Stone Mountain,GA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T21:12:08Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Listings-with-Price-Cuts-30087-Stone-Mountain-GA"
+    },
+    {
+      "code": "CHL_DT_DOD_DLXF_CD_HH",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Member Country\n293_T1.2_Gross External Debt, HH and nonprofit inst. serving, HH (NPISH) (LT)",
+      "display_url": "http://api.worldbank.org/countries/CHL/indicators/DT.DOD.DLXF.CD.HH?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2003-03-31",
+      "id": 253508,
+      "name": "Chile: 293_T1.2_Gross External Debt, HH and nonprofit inst. serving, HH (NPISH) (LT)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T22:30:02Z",
+      "urlize_name": "Chile-293_T1-2_Gross-External-Debt-HH-and-nonprofit-inst-serving-HH-NPISH-LT"
+    },
+    {
+      "code": "CHL_DB_NOTICE_20YR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Notice period for redundancy dismissal (for a worker with 20 years of tenure, in salary weeks)\nNotice period for redundancy dismissal (for a worker with 20 years of tenure, in salary weeks)",
+      "display_url": "http://api.worldbank.org/countries/CHL/indicators/db_notice_20yr?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 2239653,
+      "name": "Chile: Notice period for redundancy dismissal (for a worker with 20 years of tenure, in salary weeks)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-14T00:49:21Z",
+      "urlize_name": "Chile-Notice-period-for-redundancy-dismissal-for-a-worker-with-20-years-of-tenure-in-salary-weeks"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_SILETZOR",
+      "column_names": [
+        "Date",
+        "Siletz"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2005-04-30",
+      "id": 7243869,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Siletz, OR",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T13:12:56Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Siletz-OR"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_FRUITVILLEFL",
+      "column_names": [
+        "Date",
+        "Fruitville"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7227313,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Fruitville, FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T13:12:30Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Fruitville-FL"
+    },
+    {
+      "code": "CHL_DT_DOD_DSTC_CD_NB",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Member Country\n266_T1.2_Gross External Debt, Nonbank financial corporations (ST)",
+      "display_url": "http://api.worldbank.org/countries/CHL/indicators/DT.DOD.DSTC.CD.NB?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2003-03-31",
+      "id": 253565,
+      "name": "Chile: 266_T1.2_Gross External Debt, Nonbank financial corporations (ST)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T22:29:45Z",
+      "urlize_name": "Chile-266_T1-2_Gross-External-Debt-Nonbank-financial-corporations-ST"
+    },
+    {
+      "code": "KAZ_WP11634_6",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults who used a formal account in the past 12 months to receive money or payments for work or from selling goods (% with a primary education or less, age 15+)\nAccount used to receive wages, primary education or less (% age 15+)",
+      "display_url": "http://api.worldbank.org/countries/KAZ/indicators/WP11634.6?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2248121,
+      "name": "Kazakhstan: Account used to receive wages, primary education or less (% age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T22:48:27Z",
+      "urlize_name": "Kazakhstan-Account-used-to-receive-wages-primary-education-or-less-age-15"
+    },
+    {
+      "code": "FSNN_REV_12M",
+      "column_names": [
+        "Date",
+        "Trailing 12-month Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2009-09-30",
+      "id": 6135280,
+      "name": "Fusion Telecom. Int'l Inc ( FSNN ) - Trailing 12-month Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-09-30",
+      "type": null,
+      "updated_at": "2014-03-21T20:40:33Z",
+      "urlize_name": "Fusion-Telecom-Int-l-Inc-FSNN-Trailing-12-month-Revenues"
+    },
+    {
+      "code": "GOLX_FIXED_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Fixed Assets to Total Assets"
+      ],
+      "description": "Estimated by dividing the cumulated book value of fixed assets, for the sector, by the cumulated total assets, for the sector. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4488883,
+      "name": "Global Online India Inc ( GOLX ) - Ratio of Fixed Assets to Total Assets",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T15:47:27Z",
+      "urlize_name": "Global-Online-India-Inc-GOLX-Ratio-of-Fixed-Assets-to-Total-Assets"
+    },
+    {
+      "code": "NOV_CASH_REV",
+      "column_names": [
+        "Date",
+        "Cash as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 6113323,
+      "name": "National Oilwell Varco ( NOV ) - Cash as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T23:48:47Z",
+      "urlize_name": "National-Oilwell-Varco-NOV-Cash-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "HSAC_EBITDA",
+      "column_names": [
+        "Date",
+        "Earnings Before Interest Taxes Depreciation and Amortization"
+      ],
+      "description": "Estimated by adding depreciation and amortization back to operating income (EBIT). Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4578842,
+      "name": "High Speed Access Corp ( HSAC ) - Earnings Before Interest Taxes Depreciation and Amortization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T15:47:46Z",
+      "urlize_name": "High-Speed-Access-Corp-HSAC-Earnings-Before-Interest-Taxes-Depreciation-and-Amortization"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

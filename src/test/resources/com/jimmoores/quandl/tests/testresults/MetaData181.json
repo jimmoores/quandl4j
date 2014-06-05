@@ -1,0 +1,469 @@
+{
+  "current_page": 429590,
+  "docs": [
+    {
+      "code": "RGC305_RM_CURITIBA_PR_3_FILHOS_PERC",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RGC305_RM_PERC.csv&categorias=%223%20filhos%22&localidade=Curitiba%20-%20PR",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 6404831,
+      "name": "Population and Demographics: Marriage (marriages, separations, divorces) - Legal separations - granted to couples with minor children - 3 sons Metropolitan Regions: Curitiba - PR. Datatype: Relative",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T20:33:10Z",
+      "urlize_name": "Population-and-Demographics-Marriage-marriages-separations-divorces-Legal-separations-granted-to-couples-with-minor-children-3-sons-Metropolitan-Regions-Curitiba-PR-Datatype-Relative"
+    },
+    {
+      "code": "STATMON_O4_3A_M1_5017",
+      "column_names": [
+        "Year",
+        "Index"
+      ],
+      "description": "Prices and salaries/wages, O4_3a Real estate price indices - by market area, Real estate price indices ( Indices of Wüest & Partner AG): Residential space (annually). More detailed information at http://www.snb.ch/ext/stats/statmon/pdf/deen/O4_3_a_Immobilienpreisindizes.pdf",
+      "display_url": "http://www.snb.ch/ext/stats/statmon/xls/en/statmon_O4_3a_M1.xls",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 4526258,
+      "name": "Prices and salaries/wages, O4_3a Real estate price indices - by market area: Eastern Switzerland",
+      "private": false,
+      "source_code": "SNB",
+      "source_name": "Swiss National Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T19:21:33Z",
+      "urlize_name": "Prices-and-salaries-wages-O4_3a-Real-estate-price-indices-by-market-area-Eastern-Switzerland"
+    },
+    {
+      "code": "PD336_RM_RIO_DE_JANEIRO_RJ_BRANCA_ABS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=PD336_RM_ABS.csv&categorias=%22Branca%22&localidade=Rio%20de%20Janeiro%20-%20RJ",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6365225,
+      "name": "Population and Demographics: General Characteristics Population - Resident population, by color or race - White Metropolitan Regions: Rio de Janeiro - RJ. Datatype: Absolute",
+      "private": false,
+      "source_code": "IBGE",
+      "source_name": "Brazilian Institute of Geography and Statistics",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T06:40:46Z",
+      "urlize_name": "Population-and-Demographics-General-Characteristics-Population-Resident-population-by-color-or-race-White-Metropolitan-Regions-Rio-de-Janeiro-RJ-Datatype-Absolute"
+    },
+    {
+      "code": "ESA_Q_EE_N_0000_LABPRO_1000_2C_C_L_N_I",
+      "column_names": [
+        "Date",
+        "2005"
+      ],
+      "description": " Estonia - Labour productivity: Manufacturing, Chain linked, National currency, Neither seasonally nor working day adjusted, Index , :, Dataset:ESA : ESA95 National Accounts Explanation page (Series and Dataset Level Information), Reference area:Estonia (EE), Decimals:Two (2), Collection indicator:Average of observations through period (A), Compilation:$REBASE(ESA.A.EE.N.0000.LABPRO.1000.2C_C.L.N.A,2005)",
+      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2120804&SERIES_KEY=119.ESA.Q.EE.N.0000.LABPRO.1000.2C_C.L.N.I&exportType=sdmx",
+      "frequency": "quarterly",
+      "from_date": "1995-03-31",
+      "id": 11511921,
+      "name": "Estonia Labour productivity: Manufacturing, Chain linked, National currency, Index",
+      "private": false,
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-06-04T23:22:45Z",
+      "urlize_name": "Estonia-Labour-productivity-Manufacturing-Chain-linked-National-currency-Index"
+    },
+    {
+      "code": "PINK_BSOI",
+      "column_names": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "description": "Bison Instruments, Inc. was engaged in the manufacture and sale of electronic instrumentation. The Company sold substantially all of its operating assets. Andus Inc. (Andus) owns approximately 67.05% of the Company's common stock. Andus is a subsidiary of Androcan Inc. of Toronto, Canada. The Company does not hold investments in real estate or mortgages relating to real estate. The Company did not generate any revenues for the fiscal year ended October 31, 2012(fiscal 2012).",
+      "display_url": "http://www.google.com/finance/historical?q=PINK%3ABSOI&startdate=Jan+1%2C+1990&output=csv",
+      "frequency": "daily",
+      "from_date": "2012-02-24",
+      "id": 5640496,
+      "name": "Bison Instruments Inc. (BSOI)",
+      "private": false,
+      "source_code": "GOOG",
+      "source_name": "Google Finance",
+      "to_date": "2012-03-19",
+      "type": null,
+      "updated_at": "2013-08-27T12:57:01Z",
+      "urlize_name": "Bison-Instruments-Inc-BSOI"
+    },
+    {
+      "code": "SLM_BANKASSETSPRIVATEEDUCATIONLOANS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: BankAssetsPrivateEducationLoans",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10218529,
+      "name": "SLM CORP  (SLM): Annual Bank Assets Private Education Loans",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T18:14:04Z",
+      "urlize_name": "SLM-CORP-SLM-Annual-Bank-Assets-Private-Education-Loans"
+    },
+    {
+      "code": "STATMON_O4_3A_M2_5070",
+      "column_names": [
+        "Year",
+        "Index"
+      ],
+      "description": "Prices and salaries/wages, O4_3a Real estate price indices - by market area, Real estate price indices ( Indices of Wüest & Partner AG): Residential space: Change from previous year (annually). More detailed information at http://www.snb.ch/ext/stats/statmon/pdf/deen/O4_3_a_Immobilienpreisindizes.pdf",
+      "display_url": "http://www.snb.ch/ext/stats/statmon/xls/en/statmon_O4_3a_M2.xls",
+      "frequency": "annual",
+      "from_date": "1971-12-31",
+      "id": 4526331,
+      "name": "Prices and salaries/wages, O4_3a Real estate price indices - by market area: Zurich area",
+      "private": false,
+      "source_code": "SNB",
+      "source_name": "Swiss National Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T09:55:49Z",
+      "urlize_name": "Prices-and-salaries-wages-O4_3a-Real-estate-price-indices-by-market-area-Zurich-area"
+    },
+    {
+      "code": "17_AFR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "GBDCHILDCAUSES: HIV/AIDS.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=89",
+      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/MORT_300&filter=GBDCHILDCAUSES:CH2;REGION:AFR;\n",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 9492453,
+      "name": "Distribution of causes of death among children aged < 5 years (%) HIV/AIDS - Africa",
+      "private": false,
+      "source_code": "WHO",
+      "source_name": "World Health Organization",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-12T23:30:51Z",
+      "urlize_name": "Distribution-of-causes-of-death-among-children-aged-5-years-HIV-AIDS-Africa"
+    },
+    {
+      "code": "NDSN_STANDARDPRODUCTWARRANTYPERIOD_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: StandardProductWarrantyPeriod",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-10-31",
+      "id": 10216741,
+      "name": "NORDSON CORP  (NDSN): Annual Standard Product Warranty Period",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2014-03-06T18:17:13Z",
+      "urlize_name": "NORDSON-CORP-NDSN-Annual-Standard-Product-Warranty-Period"
+    },
+    {
+      "code": "FCAL_TIMEDEPOSITS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: TimeDeposits",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-12-31",
+      "id": 10222846,
+      "name": "First California Financial Group, Inc.  (FCAL): Annual Time Deposits",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T18:22:46Z",
+      "urlize_name": "First-California-Financial-Group-Inc-FCAL-Annual-Time-Deposits"
+    },
+    {
+      "code": "AAPL_OTHERASSETSNONCURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherAssetsNoncurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2008-09-27",
+      "id": 9804948,
+      "name": "APPLE INC  (AAPL): Annual Other Assets Noncurrent",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-09-28",
+      "type": null,
+      "updated_at": "2014-03-24T21:52:16Z",
+      "urlize_name": "APPLE-INC-AAPL-Annual-Other-Assets-Noncurrent"
+    },
+    {
+      "code": "NDSN_PROCEEDSFROMSHORTTERMDEBT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: ProceedsFromShortTermDebt",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-10-31",
+      "id": 10216509,
+      "name": "NORDSON CORP  (NDSN): Annual Proceeds From Short Term Debt",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-10-31",
+      "type": null,
+      "updated_at": "2014-03-06T18:22:05Z",
+      "urlize_name": "NORDSON-CORP-NDSN-Annual-Proceeds-From-Short-Term-Debt"
+    },
+    {
+      "code": "ANGO_OTHERNONCASHINCOMEEXPENSE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherNoncashIncomeExpense",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-08-31",
+      "id": 10218038,
+      "name": "ANGIODYNAMICS INC  (ANGO): Quarterly Other Noncash Income Expense",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-03-07T20:33:22Z",
+      "urlize_name": "ANGIODYNAMICS-INC-ANGO-Quarterly-Other-Noncash-Income-Expense"
+    },
+    {
+      "code": "LEI_DUETORELATEDPARTIESCURRENT_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DueToRelatedPartiesCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-03-31",
+      "id": 10217042,
+      "name": "LUCAS ENERGY, INC.  (LEI): Quarterly Due To Related Parties Current",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-03-31",
+      "type": null,
+      "updated_at": "2014-03-06T18:18:17Z",
+      "urlize_name": "LUCAS-ENERGY-INC-LEI-Quarterly-Due-To-Related-Parties-Current"
+    },
+    {
+      "code": "COAL_SHIPMENT_QTY_3605018_3399_TOT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units = Short Tons. For more information, please see <a href=http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3605018-3399-TOT.A>http://www.eia.gov/beta/api/qb.cfm?sdid=COAL.SHIPMENT_QTY.3605018-3399-TOT.A<\/a>",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=COAL.SHIPMENT_QTY.3605018-3399-TOT.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 11925094,
+      "name": "Coal Shipment Quantity : Cumberland Mine To Cumberland : All : Annual",
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T18:17:47Z",
+      "urlize_name": "Coal-Shipment-Quantity-Cumberland-Mine-To-Cumberland-All-Annual"
+    },
+    {
+      "code": "ANGO_FAIRVALUEINPUTSDISCOUNTRATE_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: FairValueInputsDiscountRate",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2013-05-31",
+      "id": 10219091,
+      "name": "ANGIODYNAMICS INC  (ANGO): Annual Fair Value Inputs Discount Rate",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-05-31",
+      "type": null,
+      "updated_at": "2014-03-07T20:28:19Z",
+      "urlize_name": "ANGIODYNAMICS-INC-ANGO-Annual-Fair-Value-Inputs-Discount-Rate"
+    },
+    {
+      "code": "SLM_AMOUNTACCRUEDCASESETTLEMENTFUND_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: AmountAccruedCaseSettlementFund",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-06-30",
+      "id": 10217570,
+      "name": "SLM CORP  (SLM): Quarterly Amount Accrued Case Settlement Fund",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T18:25:38Z",
+      "urlize_name": "SLM-CORP-SLM-Quarterly-Amount-Accrued-Case-Settlement-Fund"
+    },
+    {
+      "code": "HLX_REPAYMENTSOFOTHERDEBT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: RepaymentsOfOtherDebt",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2010-12-31",
+      "id": 10219623,
+      "name": "HELIX ENERGY SOLUTIONS GROUP INC  (HLX): Annual Repayments Of Other Debt",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T18:21:15Z",
+      "urlize_name": "HELIX-ENERGY-SOLUTIONS-GROUP-INC-HLX-Annual-Repayments-Of-Other-Debt"
+    },
+    {
+      "code": "ANGO_PREFERREDSTOCKSHARESISSUED_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PreferredStockSharesIssued",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": null,
+      "id": 10219502,
+      "name": "ANGIODYNAMICS INC  (ANGO): Annual Preferred Stock Shares Issued",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2014-03-07T20:30:58Z",
+      "urlize_name": "ANGIODYNAMICS-INC-ANGO-Annual-Preferred-Stock-Shares-Issued"
+    },
+    {
+      "code": "ANGO_OTHERLIABILITIESNONCURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: OtherLiabilitiesNoncurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2012-05-31",
+      "id": 10219433,
+      "name": "ANGIODYNAMICS INC  (ANGO): Annual Other Liabilities Noncurrent",
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "U.S. Securities and Exchange Commission",
+      "to_date": "2013-05-31",
+      "type": null,
+      "updated_at": "2014-03-07T20:30:53Z",
+      "urlize_name": "ANGIODYNAMICS-INC-ANGO-Annual-Other-Liabilities-Noncurrent"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "EIA",
+      "datasets_count": 427809,
+      "description": "No description for this source yet",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration"
+    },
+    {
+      "code": "ECB",
+      "datasets_count": 0,
+      "description": "No description for this source yet",
+      "host": "sdw.ecb.europa.eu",
+      "id": 8917,
+      "name": "European Central Bank"
+    },
+    {
+      "code": "WHO",
+      "datasets_count": 21456,
+      "description": "",
+      "host": "apps.who.int",
+      "id": 525,
+      "name": "World Health Organization"
+    },
+    {
+      "code": "SNB",
+      "datasets_count": 39406,
+      "description": "No description for this source yet",
+      "host": "www.snb.ch",
+      "id": 615,
+      "name": "Swiss National Bank"
+    },
+    {
+      "code": "SEC",
+      "datasets_count": 4867,
+      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "host": "www.sec.gov",
+      "id": 651,
+      "name": "U.S. Securities and Exchange Commission"
+    },
+    {
+      "code": "IBGE",
+      "datasets_count": 110418,
+      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
+      "host": "seriesestatisticas.ibge.gov.br",
+      "id": 725,
+      "name": "Brazilian Institute of Geography and Statistics"
+    },
+    {
+      "code": "GOOG",
+      "datasets_count": 43144,
+      "description": "This data is NOT sourced directly from Google.  It is however verified against their numbers.\r\n\r\nwww.quandl.com/WIKI is a better source.",
+      "host": "www.google.com",
+      "id": 393,
+      "name": "Google Finance"
+    }
+  ],
+  "total_count": 10148784
+}

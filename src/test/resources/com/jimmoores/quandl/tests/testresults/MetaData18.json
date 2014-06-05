@@ -1,0 +1,439 @@
+{
+  "current_page": 12576,
+  "docs": [
+    {
+      "code": "ZIP_BOTTOMTIER_23464",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of bottom tier homes within the zip code of 23464, Virginia Beach, VA. Bottom tier homes are the homes that fall into the bottom third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_BottomTier.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6804056,
+      "name": "Zillow Home Value Index (Zip Codes): Bottom Tier Homes - 23464,Virginia Beach,VA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T18:11:09Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Bottom-Tier-Homes-23464-Virginia-Beach-VA"
+    },
+    {
+      "code": "MHOOD_NUMBEROFHOMESFORSALE_ALLHOMES_WALLENCHASEFORTWAYNEIN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-12-31",
+      "id": 7550078,
+      "name": "Zillow Metrics (Neighborhoods): Homes for Sale (Beta) - Wallen Chase,Fort Wayne,IN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2010-01-31",
+      "type": null,
+      "updated_at": "2014-01-09T14:29:21Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Homes-for-Sale-Beta-Wallen-Chase-Fort-Wayne-IN"
+    },
+    {
+      "code": "MCITY_MEDIANSOLDPRICE_ALLHOMES_NORTHMIDDLETONPA",
+      "column_names": [
+        "Date",
+        "North Middleton"
+      ],
+      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianSoldPrice_AllHomes.csv",
+      "frequency": "annual",
+      "from_date": "2004-06-30",
+      "id": 7054960,
+      "name": "Zillow Metrics (Cities): Median Sale Price - North Middleton, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2010-05-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:53:45Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-Sale-Price-North-Middleton-PA"
+    },
+    {
+      "code": "ANCI_DIV",
+      "column_names": [
+        "Date",
+        "Dividends"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2007-12-31",
+      "id": 3964941,
+      "name": "American Caresource Holdings ( ANCI ) - Dividends",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:48:08Z",
+      "urlize_name": "American-Caresource-Holdings-ANCI-Dividends"
+    },
+    {
+      "code": "MHOOD_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_WINDSORSHADOWSMESAAZ",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7531513,
+      "name": "Zillow Metrics (Neighborhoods): Listings with Price Cuts (%) - Windsor Shadows,Mesa,AZ",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2011-03-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:54:45Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Listings-with-Price-Cuts-Windsor-Shadows-Mesa-AZ"
+    },
+    {
+      "code": "GML_CASH",
+      "column_names": [
+        "Date",
+        "Cash"
+      ],
+      "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 4477062,
+      "name": "SPDR S&P Emerging Latin America ( GML ) - Cash",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:47:48Z",
+      "urlize_name": "SPDR-S-P-Emerging-Latin-America-GML-Cash"
+    },
+    {
+      "code": "MCITY_MEDIANSOLDPRICEPERSQFT_ALLHOMES_HOTSPRINGSAR",
+      "column_names": [
+        "Date",
+        "Hot Springs"
+      ],
+      "description": "Median of sale prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianSoldPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7103477,
+      "name": "Zillow Metrics (Cities): Median Sale Price per Sq. Ft. - Hot Springs, AR",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T18:12:23Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-Sale-Price-per-Sq-Ft-Hot-Springs-AR"
+    },
+    {
+      "code": "WSC_NCWC_REV",
+      "column_names": [
+        "Date",
+        "Non-Cash Working Capital as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5578883,
+      "name": "Wesco Financial Corp. ( WSC ) - Non-Cash Working Capital as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2009-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:48:08Z",
+      "urlize_name": "Wesco-Financial-Corp-WSC-Non-Cash-Working-Capital-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_15312",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2009-08-31",
+      "id": 7400183,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 15312,Independence,PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-09T04:48:57Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-15312-Independence-PA"
+    },
+    {
+      "code": "TEK_REV_LAST",
+      "column_names": [
+        "Date",
+        "Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 5446931,
+      "name": "Tektronix, Inc. ( TEK ) - Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:48:15Z",
+      "urlize_name": "Tektronix-Inc-TEK-Revenues"
+    },
+    {
+      "code": "QCOM_EPS_FWD",
+      "column_names": [
+        "Date",
+        "Forward Earnings Per Share"
+      ],
+      "description": "Units: dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-09-25",
+      "id": 5293340,
+      "name": "Qualcomm Inc. ( QCOM ) - Forward Earnings Per Share",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-09-25",
+      "type": null,
+      "updated_at": "2014-03-22T22:48:09Z",
+      "urlize_name": "Qualcomm-Inc-QCOM-Forward-Earnings-Per-Share"
+    },
+    {
+      "code": "HIRE_CORREL",
+      "column_names": [
+        "Date",
+        "Correlation with the Market"
+      ],
+      "description": "This is the correlation of stock returns with the market index, using the same time period as the beta estimation. Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 4542982,
+      "name": "Webhire Inc ( HIRE ) - Correlation with the Market",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:51:07Z",
+      "urlize_name": "Webhire-Inc-HIRE-Correlation-with-the-Market"
+    },
+    {
+      "code": "MCITY_MEDIANSOLDPRICE_ALLHOMES_ADAMSVILLEAL",
+      "column_names": [
+        "Date",
+        "Adamsville"
+      ],
+      "description": "Median of the price for homes that have sold. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianSoldPrice_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "1999-03-31",
+      "id": 7056680,
+      "name": "Zillow Metrics (Cities): Median Sale Price - Adamsville, AL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2008-07-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:53:45Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-Sale-Price-Adamsville-AL"
+    },
+    {
+      "code": "EDT_REV_12M",
+      "column_names": [
+        "Date",
+        "Trailing 12-month Revenues"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 6008243,
+      "name": "Entergy Texas Inc ( EDT ) - Trailing 12-month Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:47:50Z",
+      "urlize_name": "Entergy-Texas-Inc-EDT-Trailing-12-month-Revenues"
+    },
+    {
+      "code": "ZOOX_DIV",
+      "column_names": [
+        "Date",
+        "Dividends"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 5590697,
+      "name": "Gadzoox Networks Inc ( ZOOX ) - Dividends",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T01:49:23Z",
+      "urlize_name": "Gadzoox-Networks-Inc-ZOOX-Dividends"
+    },
+    {
+      "code": "MHOOD_PCTOFLISTINGSWITHPRICEREDUCTIONS_ALLHOMES_CANERIDGEFARMSNASHVILLETN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of current listings on Zillow whose price has been reduced in the last 30 days. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfListingsWithPriceReductions_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-05-31",
+      "id": 7531614,
+      "name": "Zillow Metrics (Neighborhoods): Listings with Price Cuts (%) - Cane Ridge Farms,Nashville,TN",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-05-15T18:53:45Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Listings-with-Price-Cuts-Cane-Ridge-Farms-Nashville-TN"
+    },
+    {
+      "code": "CEMI_TOT_DEBT",
+      "column_names": [
+        "Date",
+        "Total Debt"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4110180,
+      "name": "Chembio Diagnostics ( CEMI ) - Total Debt",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:47:50Z",
+      "urlize_name": "Chembio-Diagnostics-CEMI-Total-Debt"
+    },
+    {
+      "code": "MFC_CAPEX",
+      "column_names": [
+        "Date",
+        "Capital Expenditures"
+      ],
+      "description": "This is the cumulated capital spending, as reported in the statement of cash flows, for the sector. It generally does not include acquisitions. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 6108135,
+      "name": "Manulife Financial Corp ( MFC ) - Capital Expenditures",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:47:50Z",
+      "urlize_name": "Manulife-Financial-Corp-MFC-Capital-Expenditures"
+    },
+    {
+      "code": "FMFN_INV_CAP",
+      "column_names": [
+        "Date",
+        "Invested Capital"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 4454168,
+      "name": "First Montauk Finl ( FMFN ) - Invested Capital",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T22:48:11Z",
+      "urlize_name": "First-Montauk-Finl-FMFN-Invested-Capital"
+    },
+    {
+      "code": "PAK_WP11631_4_7",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Adults whose usual mode of access to get cash (paper or coins) from their account(s) is from some other person who is associated with one's bank or financial institution (% with a secondary education or more, age 15+, with a formal account)\nBank agent is main mode of deposit into account, secondary education or more (% with an account,  age 15+)",
+      "display_url": "http://api.worldbank.org/countries/PAK/indicators/WP11631.4.7?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2011-12-31",
+      "id": 2208131,
+      "name": "Pakistan: Bank agent is main mode of deposit into account, secondary education or more (% with an account,  age 15+)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-20T05:10:29Z",
+      "urlize_name": "Pakistan-Bank-agent-is-main-mode-of-deposit-into-account-secondary-education-or-more-with-an-account-age-15"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "concurrency": 20,
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data",
+      "use_proxy": false
+    },
+    {
+      "code": "ZILLOW",
+      "concurrency": 20,
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research",
+      "use_proxy": false
+    },
+    {
+      "code": "WORLDBANK",
+      "concurrency": 400,
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank",
+      "use_proxy": false
+    }
+  ],
+  "total_count": 10148784
+}

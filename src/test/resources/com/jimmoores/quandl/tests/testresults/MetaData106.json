@@ -1,0 +1,433 @@
+{
+  "current_page": 84273,
+  "docs": [
+    {
+      "code": "MCITY_NUMBEROFHOMESFORSALE_ALLHOMES_WRENTHAMMA",
+      "column_names": [
+        "Date",
+        "Wrentham"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7275977,
+      "name": "Zillow Metrics (Cities): Homes for Sale (Beta) - Wrentham, MA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-01-31",
+      "type": null,
+      "updated_at": "2014-03-11T20:18:08Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Sale-Beta-Wrentham-MA"
+    },
+    {
+      "code": "SYR_DT_DOD_DIMF_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Use of IMF credit denotes members' drawings on the IMF other than amounts drawn against the country's reserve tranche position. Use of IMF credit includes purchases and drawings under Stand-By, Extended, Structural Adjustment, Enhanced Structural Adjustment, and Systemic Transformation Facility Arrangements as well as Trust Fund loans. SDR allocations are also included in this category. Note: Data related to the operations of the IMF are provided by the IMF Treasurer\u2019s Department. They are converted from special drawing rights into dollars using end-of-period exchange rates for stocks and average-over-the-period exchange rates for flows. Data are in current U.S. dollars.\nUse of IMF credit (DOD, current US$)",
+      "display_url": "http://api.worldbank.org/countries/SYR/indicators/DT.DOD.DIMF.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 6460344,
+      "name": "Syrian Arab Republic: Use of IMF credit (DOD, current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T14:10:01Z",
+      "urlize_name": "Syrian-Arab-Republic-Use-of-IMF-credit-DOD-current-US"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_LIGHTHOUSEPOINTFL",
+      "column_names": [
+        "Date",
+        "Lighthouse Point"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7230298,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Lighthouse Point, FL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T04:46:52Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Lighthouse-Point-FL"
+    },
+    {
+      "code": "FIN_MYS_POP_3539_NED_MF",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population in thousand, 35-39, total, no education is the total number of people age 35-39 (in thousands) with no education.\npopulation in thousand, 35-39, total, no education",
+      "display_url": "http://api.worldbank.org/countries/FIN/indicators/MYS.POP.3539.NED.MF?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 325933,
+      "name": "Finland: population in thousand, 35-39, total, no education",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2050-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T22:44:53Z",
+      "urlize_name": "Finland-population-in-thousand-35-39-total-no-education"
+    },
+    {
+      "code": "TNTX_HILO",
+      "column_names": [
+        "Date",
+        "Hi-Lo Risk"
+      ],
+      "description": "Units: none. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 5489749,
+      "name": "T-NETIX Inc ( TNTX ) - Hi-Lo Risk",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T04:59:10Z",
+      "urlize_name": "T-NETIX-Inc-TNTX-Hi-Lo-Risk"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_HICKMANCA",
+      "column_names": [
+        "Date",
+        "Hickman"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2001-03-31",
+      "id": 7247377,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Hickman, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T04:46:53Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Hickman-CA"
+    },
+    {
+      "code": "RZIP_ZRI_ALLHOMES_28739",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the zip code of 28739, Hendersonville, NC. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-11-30",
+      "id": 6857412,
+      "name": "Zillow Rent Index (Zip Codes): Rentals All Homes - 28739,Hendersonville,NC",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T20:23:33Z",
+      "urlize_name": "Zillow-Rent-Index-Zip-Codes-Rentals-All-Homes-28739-Hendersonville-NC"
+    },
+    {
+      "code": "CHE_MYS_POP_2024_NED_MF",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Population in thousand, 20-24, total, no education is the total number of people age 20-24 (in thousands) with no education.\npopulation in thousand, 20 - 24,total, no education",
+      "display_url": "http://api.worldbank.org/countries/CHE/indicators/MYS.POP.2024.NED.MF?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 252142,
+      "name": "Switzerland: population in thousand, 20 - 24,total, no education",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2000-12-31",
+      "type": null,
+      "updated_at": "2014-05-17T22:24:57Z",
+      "urlize_name": "Switzerland-population-in-thousand-20-24-total-no-education"
+    },
+    {
+      "code": "FJI_IC_TAX_OTHR_CP_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Other taxes payable by businesses include the amounts paid for property taxes, turnover taxes, and other small taxes such as municipal fees and vehicle and fuel taxes.\nOther taxes payable by businesses (% of commercial profits)",
+      "display_url": "http://api.worldbank.org/countries/FJI/indicators/IC.TAX.OTHR.CP.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2012-12-31",
+      "id": 327536,
+      "name": "Fiji: Other taxes payable by businesses (% of commercial profits)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T20:41:46Z",
+      "urlize_name": "Fiji-Other-taxes-payable-by-businesses-of-commercial-profits"
+    },
+    {
+      "code": "MZIP_NUMBEROFHOMESFORSALE_ALLHOMES_69334",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_NumberOfHomesForSale_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2011-02-28",
+      "id": 7617792,
+      "name": "Zillow Metrics (Zip Codes): Homes for Sale (Beta) - 69334,Bayard,NE",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-11-30",
+      "type": null,
+      "updated_at": "2014-01-09T02:41:24Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Homes-for-Sale-Beta-69334-Bayard-NE"
+    },
+    {
+      "code": "NOPT_REV_GRO",
+      "column_names": [
+        "Date",
+        "Previous Year Growth in Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 4716450,
+      "name": "NEON Communications Inc ( NOPT ) - Previous Year Growth in Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2001-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T14:57:20Z",
+      "urlize_name": "NEON-Communications-Inc-NOPT-Previous-Year-Growth-in-Revenues"
+    },
+    {
+      "code": "MCITY_TURNOVER_ALLHOMES_WAYNEOK",
+      "column_names": [
+        "Date",
+        "Wayne"
+      ],
+      "description": "The percentage of all homes that were sold in the past 12 months. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Turnover_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-02-28",
+      "id": 7241088,
+      "name": "Zillow Metrics (Cities): Sold in the Past Year (%) - Wayne, OK",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T04:46:53Z",
+      "urlize_name": "Zillow-Metrics-Cities-Sold-in-the-Past-Year-Wayne-OK"
+    },
+    {
+      "code": "RZIP_ZRI_ALLHOMES_06488",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Rental Index is Zillow's estimate of the median rental price of all homes within the zip code of 06488, Southbury, CT. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zri_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2010-11-30",
+      "id": 7435110,
+      "name": "Zillow Rent Index (Zip Codes): Rentals All Homes - 06488,Southbury,CT",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T06:59:06Z",
+      "urlize_name": "Zillow-Rent-Index-Zip-Codes-Rentals-All-Homes-06488-Southbury-CT"
+    },
+    {
+      "code": "HKG_LO_PISA_SCI_FE",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "PISA: Mean performance on the science scale, female is the average score of 15-year-old female students on science literacy scale.\nPISA:Mean performance on the science scale, female",
+      "display_url": "http://api.worldbank.org/countries/HKG/indicators/LO.PISA.SCI.FE?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2000-12-31",
+      "id": 364485,
+      "name": "Hong Kong SAR, China: PISA:Mean performance on the science scale, female",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T23:43:23Z",
+      "urlize_name": "Hong-Kong-SAR-China-PISA-Mean-performance-on-the-science-scale-female"
+    },
+    {
+      "code": "UGA_SP_PRE_TOTL_MA_IN",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "School age population. Pre-primary. Male is the male population of the age-group theoretically corresponding to pre-primary education as indicated by theoretical entrance age and duration.\nPopulation, pre-primary, male",
+      "display_url": "http://api.worldbank.org/countries/UGA/indicators/SP.PRE.TOTL.MA.IN?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 6491824,
+      "name": "Uganda: Population, pre-primary, male",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2013-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T15:20:07Z",
+      "urlize_name": "Uganda-Population-pre-primary-male"
+    },
+    {
+      "code": "SVK_BAR_TER_SCHL_3539",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Average years of tertiary schooling, 35-39, total is the average years of tertiary education completed among people age 35-39. \naverage years of tertiary schooling, 35-39, total",
+      "display_url": "http://api.worldbank.org/countries/SVK/indicators/BAR.TER.SCHL.3539?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 2207635,
+      "name": "Slovak Republic: average years of tertiary schooling, 35-39, total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-11T00:00:14Z",
+      "urlize_name": "Slovak-Republic-average-years-of-tertiary-schooling-35-39-total"
+    },
+    {
+      "code": "PNG_BAR_PRM_ICMP_15UP_FE_ZS",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Percentage of population, 15+, female, incomplete primary is the percentage of the female population over age 15 who did not complete primary education.\npercentage of population (15+), 15+, female, incomplete primary",
+      "display_url": "http://api.worldbank.org/countries/PNG/indicators/BAR.PRM.ICMP.15UP.FE.ZS?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 6604213,
+      "name": "Papua New Guinea: percentage of population (15+), 15+, female, incomplete primary",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-01-13T11:41:15Z",
+      "urlize_name": "Papua-New-Guinea-percentage-of-population-15-15-female-incomplete-primary"
+    },
+    {
+      "code": "ESP_BAR_PRM_SCHL_3034",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Average years of primary schooling, 30-34, total is the average years of primary education completed among people age 30-34. \naverage years of primary schooling, 30-34, total",
+      "display_url": "http://api.worldbank.org/countries/ESP/indicators/BAR.PRM.SCHL.3034?per_page=1000",
+      "frequency": "annual",
+      "from_date": "1970-12-31",
+      "id": 312766,
+      "name": "Spain: average years of primary schooling, 30-34, total",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T19:20:57Z",
+      "urlize_name": "Spain-average-years-of-primary-schooling-30-34-total"
+    },
+    {
+      "code": "PETD_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "FCFF = EBIT(1-t) - (Capital Expenditures - Depreciation) - Change in Non-Cash Working Capital. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 5347881,
+      "name": "Petroleum Development Corp. ( PETD ) - Free Cash Flow to Firm",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T11:53:36Z",
+      "urlize_name": "Petroleum-Development-Corp-PETD-Free-Cash-Flow-to-Firm"
+    },
+    {
+      "code": "LSZ_TO_EV",
+      "column_names": [
+        "Date",
+        "Enterprise Value"
+      ],
+      "description": "Market Value of Equity + Market Value of Debt - Cash Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6112120,
+      "name": "La Senza Corp ( LSZ.TO ) - Enterprise Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T14:57:01Z",
+      "urlize_name": "La-Senza-Corp-LSZ-TO-Enterprise-Value"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}

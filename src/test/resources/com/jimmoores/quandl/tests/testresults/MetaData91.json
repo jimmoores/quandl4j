@@ -1,0 +1,433 @@
+{
+  "current_page": 8895,
+  "docs": [
+    {
+      "code": "ZIP_ALLHOMES_23227",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of all homes within the zip code of 23227, Richmond, VA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1996-04-30",
+      "id": 6742612,
+      "name": "Zillow Home Value Index (Zip Codes): All Homes - 23227,Richmond,VA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-08T07:33:46Z",
+      "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-All-Homes-23227-Richmond-VA"
+    },
+    {
+      "code": "SEGU_PE_CURR",
+      "column_names": [
+        "Date",
+        "Current PE Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2004-12-31",
+      "id": 5359474,
+      "name": "Segue Software Inc ( SEGU ) - Current PE Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2004-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:40:26Z",
+      "urlize_name": "Segue-Software-Inc-SEGU-Current-PE-Ratio"
+    },
+    {
+      "code": "ADBL_EBITDA",
+      "column_names": [
+        "Date",
+        "Earnings Before Interest Taxes Depreciation and Amortization"
+      ],
+      "description": "Estimated by adding depreciation and amortization back to operating income (EBIT). Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-31",
+      "id": 3886601,
+      "name": "Audible Inc ( ADBL ) - Earnings Before Interest Taxes Depreciation and Amortization",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2006-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T21:36:17Z",
+      "urlize_name": "Audible-Inc-ADBL-Earnings-Before-Interest-Taxes-Depreciation-and-Amortization"
+    },
+    {
+      "code": "MZIP_MEDIANSOLDPRICEPERSQFT_ALLHOMES_92655",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of sale prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPricePerSqft_AllHomes.csv",
+      "frequency": "annual",
+      "from_date": "1999-06-30",
+      "id": 7278519,
+      "name": "Zillow Metrics (Zip Codes): Median Sale Price per Sq. Ft. - 92655,Westminster,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2003-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:35:56Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-per-Sq-Ft-92655-Westminster-CA"
+    },
+    {
+      "code": "HCBN_TRAD_VOL",
+      "column_names": [
+        "Date",
+        "Trading Volume"
+      ],
+      "description": "Units: shares. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 4510365,
+      "name": "HCB Financial ( HCBN ) - Trading Volume",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-14T01:00:35Z",
+      "urlize_name": "HCB-Financial-HCBN-Trading-Volume"
+    },
+    {
+      "code": "CITY_3BEDROOM_KILLINGWORTHCT",
+      "column_names": [
+        "Date",
+        "Killingworth"
+      ],
+      "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the city of Killingworth, CT. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_3bedroom.csv",
+      "frequency": "monthly",
+      "from_date": "1996-05-31",
+      "id": 7012885,
+      "name": "Zillow Home Value Index (Cities): Three Bedroom Homes - Killingworth, CT",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:53:39Z",
+      "urlize_name": "Zillow-Home-Value-Index-Cities-Three-Bedroom-Homes-Killingworth-CT"
+    },
+    {
+      "code": "MHOOD_FORSALEINVENTORYSUPPLY_ALLHOMES_BLACOWFREMONTCA",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "This metric is currently in beta. Total number on listings on Zillow at the end of a month divided by the number of homes sold in that month. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_ForSaleInventorySupply_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2009-05-31",
+      "id": 6939020,
+      "name": "Zillow Metrics (Neighborhoods): Inventory Supply (Beta) - Blacow,Fremont,CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-01-09T05:12:33Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Inventory-Supply-Beta-Blacow-Fremont-CA"
+    },
+    {
+      "code": "ARD_FIRM_VAL",
+      "column_names": [
+        "Date",
+        "Firm Value"
+      ],
+      "description": "Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-12-31",
+      "id": 4060489,
+      "name": "Arena Resources Inc ( ARD ) - Firm Value",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2008-12-31",
+      "type": null,
+      "updated_at": "2014-03-21T17:36:02Z",
+      "urlize_name": "Arena-Resources-Inc-ARD-Firm-Value"
+    },
+    {
+      "code": "MHOOD_MEDIANSOLDPRICEPERSQFT_ALLHOMES_MELROSEALBANYNY",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of sale prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_MedianSoldPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2001-06-30",
+      "id": 6909227,
+      "name": "Zillow Metrics (Neighborhoods): Median Sale Price per Sq. Ft. - Melrose,Albany,NY",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2002-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T20:28:04Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Median-Sale-Price-per-Sq-Ft-Melrose-Albany-NY"
+    },
+    {
+      "code": "ARRY_NCWC_REV",
+      "column_names": [
+        "Date",
+        "Non-Cash Working Capital as Percentage of Revenues"
+      ],
+      "description": "Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2006-06-30",
+      "id": 4087357,
+      "name": "Array Biopharma Inc. ( ARRY ) - Non-Cash Working Capital as Percentage of Revenues",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-03-22T21:36:08Z",
+      "urlize_name": "Array-Biopharma-Inc-ARRY-Non-Cash-Working-Capital-as-Percentage-of-Revenues"
+    },
+    {
+      "code": "CHE_BN_RES_INCL_CD",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Reserves and related items is the net change in a country's holdings of international reserves resulting from transactions on the current, capital, and financial accounts. Reserve assets are those external assets that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, and include holdings of monetary gold, special drawing rights (SDRs), reserve position in the International Monetary Fund (IMF), and other reserve assets. Also included are net credit and loans from the IMF (excluding reserve position) and total exceptional financing. Data are in current U.S. dollars.\nReserves and related items (BoP, current US$)",
+      "display_url": "http://api.worldbank.org/countries/CHE/indicators/BN.RES.INCL.CD?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 250008,
+      "name": "Switzerland: Reserves and related items (BoP, current US$)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-05-16T20:05:26Z",
+      "urlize_name": "Switzerland-Reserves-and-related-items-BoP-current-US"
+    },
+    {
+      "code": "MHOOD_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_GOLDCOASTCHICAGOIL",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_PctOfHomesSellingForLoss_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "1998-01-31",
+      "id": 7516474,
+      "name": "Zillow Metrics (Neighborhoods): Sold for Loss (%) - Gold  Coast,Chicago,IL",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2014-03-31",
+      "type": null,
+      "updated_at": "2014-05-07T17:53:39Z",
+      "urlize_name": "Zillow-Metrics-Neighborhoods-Sold-for-Loss-Gold-Coast-Chicago-IL"
+    },
+    {
+      "code": "LBR_NE_EXP_GNFS_KN_ZG",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "\"The annual rate of growth of exports of goods and non-financial services, as calculated from the constant local currency series.  Exports of goods and services represent the value of all goods and other market services provided to or received from the rest of the world. Included is the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services.  Data are in constant local currency.   \"\nExports of goods and non-financial services, growth (%, constant LCU)",
+      "display_url": "http://api.worldbank.org/countries/LBR/indicators/NE.EXP.GNFS.KN.ZG?per_page=1000",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6548917,
+      "name": "Liberia: Exports of goods and non-financial services, growth (%, constant LCU)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2014-05-19T15:18:54Z",
+      "urlize_name": "Liberia-Exports-of-goods-and-non-financial-services-growth-constant-LCU"
+    },
+    {
+      "code": "MZIP_MEDIANSOLDPRICEPERSQFT_ALLHOMES_53168",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Median of sale prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_MedianSoldPricePerSqft_AllHomes.csv",
+      "frequency": "quarterly",
+      "from_date": "1996-04-30",
+      "id": 7277758,
+      "name": "Zillow Metrics (Zip Codes): Median Sale Price per Sq. Ft. - 53168,Paddock Lake,WI",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:35:56Z",
+      "urlize_name": "Zillow-Metrics-Zip-Codes-Median-Sale-Price-per-Sq-Ft-53168-Paddock-Lake-WI"
+    },
+    {
+      "code": "TOF_P_S",
+      "column_names": [
+        "Date",
+        "Price to Sales Ratio"
+      ],
+      "description": "Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "1999-12-26",
+      "id": 5491493,
+      "name": "Tofutti Brands Inc. ( TOF ) - Price to Sales Ratio",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2012-12-26",
+      "type": null,
+      "updated_at": "2014-03-22T21:35:49Z",
+      "urlize_name": "Tofutti-Brands-Inc-TOF-Price-to-Sales-Ratio"
+    },
+    {
+      "code": "COG_IC_WAT_SS_HR",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "\nAverage duration of insufficient water supply (hours)",
+      "display_url": "http://api.worldbank.org/countries/COG/indicators/IC.WAT.SS.HR?per_page=1000",
+      "frequency": "annual",
+      "from_date": null,
+      "id": 270067,
+      "name": "Congo, Rep.: Average duration of insufficient water supply (hours)",
+      "private": false,
+      "source_code": "WORLDBANK",
+      "source_name": "World Bank",
+      "to_date": null,
+      "type": null,
+      "updated_at": "2013-06-20T16:47:47Z",
+      "urlize_name": "Congo-Rep-Average-duration-of-insufficient-water-supply-hours"
+    },
+    {
+      "code": "MCITY_PCTTRANSACTIONSTHATAREPREVIOUSLYFORECLOSUREDHOMES_ALLHOMES_BERNTOWNSHIPPA",
+      "column_names": [
+        "Date",
+        "Bern Township"
+      ],
+      "description": "The percentage of home sales in a given month where the home was foreclosed upon within the previous 12 months (e.g. sales of bank-owned homes after the bank repossessed a home during a foreclosure). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_PctTransactionsThatArePreviouslyForeclosuredHomes_AllHomes.csv",
+      "frequency": "annual",
+      "from_date": "2006-02-28",
+      "id": 7330361,
+      "name": "Zillow Metrics (Cities): Foreclosure Resales (%) - Bern Township, PA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2012-09-30",
+      "type": null,
+      "updated_at": "2014-05-15T18:33:52Z",
+      "urlize_name": "Zillow-Metrics-Cities-Foreclosure-Resales-Bern-Township-PA"
+    },
+    {
+      "code": "LNR_EPS_FWD",
+      "column_names": [
+        "Date",
+        "Forward Earnings Per Share"
+      ],
+      "description": "Units: dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+      "frequency": "annual",
+      "from_date": "2001-12-31",
+      "id": 6092358,
+      "name": "LNR Property ( LNR ) - Forward Earnings Per Share",
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Damodaran Financial Data",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-03-22T21:35:50Z",
+      "urlize_name": "LNR-Property-LNR-Forward-Earnings-Per-Share"
+    },
+    {
+      "code": "MCITY_NUMBEROFHOMESFORRENT_ALLHOMES_GRAFTONVT",
+      "column_names": [
+        "Date",
+        "Grafton"
+      ],
+      "description": "This metric is currently in beta. The number of homes for rent on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForRent_AllHomes.csv",
+      "frequency": "annual",
+      "from_date": "2012-10-31",
+      "id": 7319545,
+      "name": "Zillow Metrics (Cities): Homes for Rent (Rent) - Grafton, VT",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2012-10-31",
+      "type": null,
+      "updated_at": "2014-05-15T18:33:52Z",
+      "urlize_name": "Zillow-Metrics-Cities-Homes-for-Rent-Rent-Grafton-VT"
+    },
+    {
+      "code": "MCITY_MEDIANLISTINGPRICEPERSQFT_ALLHOMES_LOSALAMOSCA",
+      "column_names": [
+        "Date",
+        "Los Alamos"
+      ],
+      "description": "Median of list prices when divided by the square footage of a home. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+      "display_url": "http://files.zillowstatic.com/research/public/City/City_MedianListingPricePerSqft_AllHomes.csv",
+      "frequency": "monthly",
+      "from_date": "2008-11-30",
+      "id": 7100279,
+      "name": "Zillow Metrics (Cities): Median List Price per Sq. Ft. - Los Alamos, CA",
+      "private": false,
+      "source_code": "ZILLOW",
+      "source_name": "Zillow Real Estate Research",
+      "to_date": "2013-08-31",
+      "type": null,
+      "updated_at": "2014-05-15T20:48:53Z",
+      "urlize_name": "Zillow-Metrics-Cities-Median-List-Price-per-Sq-Ft-Los-Alamos-CA"
+    }
+  ],
+  "per_page": 20,
+  "sources": [
+    {
+      "code": "DMDRN",
+      "datasets_count": 0,
+      "description": "",
+      "host": "pages.stern.nyu.edu/~adamodar/",
+      "id": 6946,
+      "name": "Damodaran Financial Data"
+    },
+    {
+      "code": "ZILLOW",
+      "datasets_count": 216313,
+      "description": "Zillow is an online real estate database that was founded in 2005 and created by Rich Barton and Lloyd Frink, former Microsoft executives and founders of Microsoft spin-off Expedia. Spencer Rascoff is the current CEO of Zillow, Inc.",
+      "host": "files.zillowstatic.com",
+      "id": 797,
+      "name": "Zillow Real Estate Research"
+    },
+    {
+      "code": "WORLDBANK",
+      "datasets_count": 792087,
+      "description": "Data on economic development, poverty, health and society, for every country in the world.  Monthly commodity price data.",
+      "host": "api.worldbank.org",
+      "id": 66,
+      "name": "World Bank"
+    }
+  ],
+  "total_count": 10148784
+}
