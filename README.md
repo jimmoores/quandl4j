@@ -426,7 +426,7 @@ Quandl code DMDRN/AAPL_CASH matched
 Available columns are: HeaderDefinition[Date,Cash]
 ```
 ### Documentation
-An addition to the tutorial, there is extra documentation at the package and class level within the [JavaDocs, which are hosted in GitHub Pages](http://github.io/jimmoores/quandl4j).
+An addition to the tutorial, there is extra documentation at the package and class level within the [JavaDocs, which are hosted in GitHub Pages](http://jimmoores.github.io/quandl4j/apidocs).
 
 ### Roadmap
 Some future plans for incorporation include:
