@@ -17,10 +17,15 @@ Quandl4J : A Quandl library for Java
  - [Copyright and license](#copyright-and-license)
 
 ### Quick Start
+The minimum pre-requisites are:
+ - OpenJDK 7, Oracle JDK 7 & 8 are tested.
+ - Maven 3.
 
 Three options are available:
  - ~~[Download the latest release](https://github.com/jimmoores/quandl4j/archive/v0.9.zip)~~ **COMING SOON**
  - Clone the repository: `git clone https://github.com/jimmoores/quandl4j.git`
+   - Run `mvn install` to build the libray and install to your local Maven repository.
+   - Run `mvn javadoc:javadoc` to build the documentation.
  - ~~Add the following fragment to your Maven POM file~~ **COMING SOON**
 ```xml
 <dependency>
