@@ -7,8 +7,28 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>quandl</name>
-  <url>http://github.com/jimmoores/quandl4j</url>
+  <name>Quandl4J</name>
+  <description>Quandl REST API wrapper for Java</description>
+  <url>http://quandl4j.org</url>
+  
+  <licenses>
+	  <license>
+	    <name>Apache License, Version 2.0</name>
+	    <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+	    <distribution>repo</distribution>
+	    <comments>A business-friendly OSS license</comments>
+	  </license>
+  </licenses>
+  
+  <developers>
+    <developer>
+	    <id>jimmoores</id>
+	    <name>Jim Moores</name>
+	    <email>jim.moores@gmail.com</email>
+	    <url>http://github.com/jimmoores</url>
+	    <timezone>0</timezone> 
+    </developer>
+  </developers>
 
   <scm>
     <connection>scm:git:git://github.com/jimmoores/quandl4j</connection>
@@ -34,7 +54,7 @@
     <tests.testng.parallel>classes</tests.testng.parallel>
     <tests.testng.threads>1</tests.testng.threads>
     <tests.testng.includedgroups>unit</tests.testng.includedgroups>
-    <tests.testng.excludedgroups>integration,unitdb,unitslow</tests.testng.excludedgroups>
+    <tests.testng.excludedgroups>integration,unitslow</tests.testng.excludedgroups>
     <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
     <maven.compiler.compilerVersion>1.7</maven.compiler.compilerVersion>
     <!--maven.compiler.source>1.7</maven.compiler.source-->
@@ -200,6 +220,7 @@
       </plugins>
     </pluginManagement>
   </build>
+  <!-- We want to get rid of these eventually -->
   <repositories>
     <repository>
       <id>og-public</id>
