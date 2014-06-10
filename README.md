@@ -22,16 +22,16 @@ The minimum pre-requisites are:
  - Maven 3.
 
 Three options are available:
- - ~~[Download the latest release](https://github.com/jimmoores/quandl4j/archive/v0.9.zip)~~ **COMING SOON**
+ - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v0.8.1.zip)
  - Clone the repository: `git clone https://github.com/jimmoores/quandl4j.git`
-   - Run `mvn install` to build the libray and install to your local Maven repository.
+   - Run `mvn install` to build the libray, test, javadoc and source jars and install to your local Maven repository.
    - Run `mvn javadoc:javadoc` to build the documentation.
- - ~~Add the following fragment to your Maven POM file~~ **COMING SOON**
+ - Add the following fragment to your Maven POM file
 ```xml
 <dependency>
   <groupId>com.jimmoores</groupId>
-  <artifactId>quandl4j</artifactId>
-  <version>0.9</version>
+  <artifactId>quandl</artifactId>
+  <version>0.8.1</version>
 </dependency>
 ```
 ### Design Principles
