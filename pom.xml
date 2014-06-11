@@ -12,21 +12,21 @@
   <url>http://quandl4j.org</url>
   
   <licenses>
-	  <license>
-	    <name>Apache License, Version 2.0</name>
-	    <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-	    <distribution>repo</distribution>
-	    <comments>A business-friendly OSS license</comments>
-	  </license>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
   </licenses>
   
   <developers>
     <developer>
-	    <id>jimmoores</id>
-	    <name>Jim Moores</name>
-	    <email>jim.moores@gmail.com</email>
-	    <url>http://github.com/jimmoores</url>
-	    <timezone>0</timezone> 
+      <id>jimmoores</id>
+      <name>Jim Moores</name>
+      <email>jim.moores@gmail.com</email>
+      <url>http://github.com/jimmoores</url>
+      <timezone>0</timezone> 
     </developer>
   </developers>
 
@@ -59,6 +59,7 @@
     <maven.compiler.compilerVersion>1.7</maven.compiler.compilerVersion>
     <!--maven.compiler.source>1.7</maven.compiler.source-->
     <maven.compiler.target>1.7</maven.compiler.target>  
+    <gpg.skip>true</gpg.skip>
   </properties>
   
   <build>
