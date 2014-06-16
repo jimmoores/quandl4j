@@ -1,7 +1,7 @@
 Quandl4J : A Quandl library for Java
 ====================================
 
-[Quandl](http://quandl.com) is an source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
+[Quandl](http://quandl.com) is a source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
 
 Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform continuous builds.  The current status is ![Master Branch Build Status](https://travis-ci.org/jimmoores/quandl4j.svg?branch=master)
 
