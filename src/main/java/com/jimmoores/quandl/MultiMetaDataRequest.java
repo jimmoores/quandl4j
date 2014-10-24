@@ -46,6 +46,13 @@ public final class MultiMetaDataRequest {
     return new MultiMetaDataRequest(Arrays.asList(quandlCodes));
   }
   
+  /**
+   * @return the list of quandl codes contained in this request.
+   */
+  public List<String> getQuandlCodes() {
+	return _quandlCodes;
+  }
+  
   private String buildCodeList(final List<String> quandlCodes) {
     StringBuilder sb = new StringBuilder();
     Iterator<String> iter = quandlCodes.iterator();

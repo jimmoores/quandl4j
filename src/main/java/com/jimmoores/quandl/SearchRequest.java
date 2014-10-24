@@ -86,6 +86,27 @@ public final class SearchRequest {
   };
   
   /**
+   * @return the query string, not null
+   */
+  public String getQuery() {
+    return _query;
+  }
+  
+  /**
+   * @return the page number, or null if not set
+   */
+  public Integer getPageNumber() {
+    return _pageNumber;
+  }
+  
+  /**
+   * @return the maximum number of results to return per page
+   */
+  public Integer getMaxPerPage() {
+    return _maxDocsPerPage;
+  }
+  
+  /**
    * Append any specified parameters to the provided WebTarget.
    * @param webTarget a web target used by the Jersey Client API, not null
    * @return the WebTarget with any path and query parameters appended
