@@ -6,9 +6,8 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.ws.rs.client.WebTarget;
-
 import com.jimmoores.quandl.util.ArgumentChecker;
+import com.sun.jersey.api.client.WebResource;
 
 /**
  * A class that packages the request for MetaData from Quandl.
@@ -75,9 +74,9 @@ public final class MultiMetaDataRequest {
    * @param webTarget a web target used by the Jersey Client API, not null
    * @return the WebTarget with any path and query parameters appended, not null
    */
-  public WebTarget appendPathAndQueryParameters(final WebTarget webTarget) {
+  public WebResource appendPathAndQueryParameters(final WebResource webTarget) {
     ArgumentChecker.notNull(webTarget, "webTarget");
-    WebTarget resultTarget = webTarget;
+    WebResource resultTarget = webTarget;
     resultTarget = resultTarget.path(MULTI_SET_NAME + EXTENSION);
     resultTarget = resultTarget.queryParam(COLUMNS_PARAM, buildCodeList(_quandlCodes));
     // This is a hack that stops Quandl from returning all the data as part of the query

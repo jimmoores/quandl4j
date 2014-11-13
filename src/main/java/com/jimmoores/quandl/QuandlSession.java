@@ -7,9 +7,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.UriBuilder;
 
 import org.json.JSONObject;
@@ -18,6 +15,8 @@ import org.slf4j.LoggerFactory;
 
 import com.jimmoores.quandl.util.ArgumentChecker;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.WebResource;
 
 /**
  * Quandl session class.
@@ -100,14 +99,14 @@ public final class QuandlSession {
    * @return a Jersey Client
    */
   protected Client getClient() {
-    return ClientBuilder.newClient();
+    return Client.create();
   }
   
   /**
    * Add authorization token to the web target.
    * @param target the web target
    */
-  private WebTarget withAuthToken(final WebTarget target) {
+  private WebResource withAuthToken(final WebResource target) {
     if (_sessionOptions.getAuthToken() != null) {
       return target.queryParam(AUTH_TOKEN_PARAM_NAME, _sessionOptions.getAuthToken());
     } else {
@@ -123,7 +122,7 @@ public final class QuandlSession {
   public TabularResult getDataSet(final DataSetRequest request) {
     ArgumentChecker.notNull(request, "request");
     Client client = getClient();
-    WebTarget target = client.target(API_BASE_URL);
+    WebResource target = client.resource(API_BASE_URL.build());
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
     return _sessionOptions.getRESTDataProvider().getTabularResponse(target);
@@ -136,8 +135,8 @@ public final class QuandlSession {
    */
   public MetaDataResult getMetaData(final MetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
-    Client client = ClientBuilder.newClient();
-    WebTarget target = client.target(API_BASE_URL);
+    Client client = getClient();
+    WebResource target = client.resource(API_BASE_URL.build());
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
     JSONObject object = _sessionOptions.getRESTDataProvider().getJSONResponse(target);
@@ -154,7 +153,7 @@ public final class QuandlSession {
   public TabularResult getDataSets(final MultiDataSetRequest request) {
     ArgumentChecker.notNull(request, "request");
     Client client = getClient();
-    WebTarget target = client.target(API_BASE_URL);
+    WebResource target = client.resource(API_BASE_URL.build());
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
     return _sessionOptions.getRESTDataProvider().getTabularResponse(target);
@@ -167,8 +166,8 @@ public final class QuandlSession {
    */
   public MetaDataResult getMetaData(final MultiMetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
-    Client client = ClientBuilder.newClient();
-    WebTarget target = client.target(API_BASE_URL);
+    Client client = getClient();
+    WebResource target = client.resource(API_BASE_URL.build());
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
     return MetaDataResult.of(_sessionOptions.getRESTDataProvider().getJSONResponse(target));
@@ -233,8 +232,8 @@ public final class QuandlSession {
    * @return the search result, not null
    */
   public SearchResult search(final SearchRequest request) {
-    Client client = ClientBuilder.newClient();
-    WebTarget target = client.target(API_BASE_URL);
+    Client client = getClient();
+    WebResource target = client.resource(API_BASE_URL.build());
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
     return SearchResult.of(_sessionOptions.getRESTDataProvider().getJSONResponse(target));

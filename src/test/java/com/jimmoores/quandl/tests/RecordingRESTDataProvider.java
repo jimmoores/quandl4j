@@ -13,8 +13,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import javax.ws.rs.client.Invocation.Builder;
-import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.Response;
 
 import org.json.JSONException;
@@ -34,6 +32,9 @@ import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 import com.jimmoores.quandl.util.QuandlUnprocessableEntityException;
 import com.jimmoores.quandl.util.RESTDataProvider;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+import com.sun.jersey.api.client.WebResource.Builder;
 
 /**
  * RESTDataProvider that creates local file system copies of the files it gets
@@ -127,15 +128,15 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
    * Throws a QuandlUnprocessableEntityException if Quandl returned a response code that indicates a nonsensical request
    * Throws a QuandlTooManyRequestsException if Quandl returned a response code indicating the client had made too many requests
    * Throws a QuandlRuntimeException if there was a CSV parsing problem or response code was unusual
-   * @param target the WebTarget describing the call to make, not null
+   * @param target the WebResource describing the call to make, not null
    * @return the parsed JSON object
    */
-  public JSONObject getJSONResponse(final WebTarget target) {
-    Builder requestBuilder = target.request();
-    Response response = requestBuilder.buildGet().invoke();
+  public JSONObject getJSONResponse(final WebResource target) {
+    Builder requestBuilder = target.getRequestBuilder();
+    ClientResponse response = requestBuilder.get(ClientResponse.class);
     File file = new File(_rootPath, "Response" + _reponseNumber.getAndIncrement() + ".json");
     if (response.getStatus() == Response.Status.OK.getStatusCode()) {
-      InputStream inputStream = response.readEntity(InputStream.class);
+      InputStream inputStream = response.getEntityInputStream();
       try {
         saveFile(file, inputStream);
         // should we be buffering this?
@@ -153,15 +154,15 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
         throw ex;
       }
     } else if (response.getStatus() == UNPROCESSABLE_ENTITY) {
-      QuandlUnprocessableEntityException ex = new QuandlUnprocessableEntityException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
+      QuandlUnprocessableEntityException ex = new QuandlUnprocessableEntityException("Response code to " + target.getURI() + " was " + response.getStatus());
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     } else if (response.getStatus() == TOO_MANY_REQUESTS) {
-      QuandlTooManyRequestsException ex = new QuandlTooManyRequestsException("Response code to " + target.getUri() + " was " + response.getStatusInfo());      
+      QuandlTooManyRequestsException ex = new QuandlTooManyRequestsException("Response code to " + target.getURI() + " was " + response.getStatus());      
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     } else {
-      QuandlRuntimeException ex = new QuandlRuntimeException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
+      QuandlRuntimeException ex = new QuandlRuntimeException("Response code to " + target.getURI() + " was " + response.getStatus());
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     }
@@ -190,15 +191,15 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
    * Throws a QuandlUnprocessableEntityException if Quandl returned a response code that indicates a nonsensical request
    * Throws a QuandlTooManyRequestsException if Quandl returned a response code indicating the client had made too many requests
    * Throws a QuandlRuntimeException if there was a JSON parsing problem, network issue or response code was unusual
-   * @param target the WebTarget describing the call to make, not null
+   * @param target the WebResource describing the call to make, not null
    * @return the parsed TabularResult
    */
-  public TabularResult getTabularResponse(final WebTarget target) {
-    Builder requestBuilder = target.request();
-    Response response = requestBuilder.buildGet().invoke();
+  public TabularResult getTabularResponse(final WebResource target) {
+    Builder requestBuilder = target.getRequestBuilder();
+    ClientResponse response = requestBuilder.get(ClientResponse.class);
     File file = new File(_rootPath, "Response" + _reponseNumber.getAndIncrement() + ".csv");
     if (response.getStatus() == Response.Status.OK.getStatusCode()) {
-      InputStream inputStream = response.readEntity(InputStream.class);
+      InputStream inputStream = response.getEntityInputStream();
       try {
         saveFile(file, inputStream);
         // should we be buffering this?
@@ -229,15 +230,15 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
         throw qex;
       }
     } else if (response.getStatus() == UNPROCESSABLE_ENTITY) {
-      QuandlUnprocessableEntityException ex = new QuandlUnprocessableEntityException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
+      QuandlUnprocessableEntityException ex = new QuandlUnprocessableEntityException("Response code to " + target.getURI() + " was " + response.getStatus());
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     } else if (response.getStatus() == TOO_MANY_REQUESTS) {
-      QuandlTooManyRequestsException ex = new QuandlTooManyRequestsException("Response code to " + target.getUri() + " was " + response.getStatusInfo());      
+      QuandlTooManyRequestsException ex = new QuandlTooManyRequestsException("Response code to " + target.getURI() + " was " + response.getStatus());      
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     } else {
-      QuandlRuntimeException ex = new QuandlRuntimeException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
+      QuandlRuntimeException ex = new QuandlRuntimeException("Response code to " + target.getURI() + " was " + response.getStatus());
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     }

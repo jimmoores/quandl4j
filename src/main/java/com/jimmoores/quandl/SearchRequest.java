@@ -1,8 +1,7 @@
 package com.jimmoores.quandl;
 
-import javax.ws.rs.client.WebTarget;
-
 import com.jimmoores.quandl.util.ArgumentChecker;
+import com.sun.jersey.api.client.WebResource;
 
 /**
  * A class that packages the request for search query from Quandl.
@@ -111,16 +110,16 @@ public final class SearchRequest {
    * @param webTarget a web target used by the Jersey Client API, not null
    * @return the WebTarget with any path and query parameters appended
    */
-  public WebTarget appendPathAndQueryParameters(final WebTarget webTarget) {
+  public WebResource appendPathAndQueryParameters(final WebResource webTarget) {
     ArgumentChecker.notNull(webTarget, "webTarget");
-    WebTarget resultTarget = webTarget;
+    WebResource resultTarget = webTarget;
     resultTarget = resultTarget.path(DATASETS_RELATIVE_URL + EXTENSION);
     resultTarget = resultTarget.queryParam(QUERY_PARAM, _query);
     if (_pageNumber != null) {
-      resultTarget = resultTarget.queryParam(PAGE_PARAM, _pageNumber);
+      resultTarget = resultTarget.queryParam(PAGE_PARAM, _pageNumber.toString());
     }
     if (_maxDocsPerPage != null) {
-      resultTarget = resultTarget.queryParam(PER_PAGE_PARAM, _maxDocsPerPage);
+      resultTarget = resultTarget.queryParam(PER_PAGE_PARAM, _maxDocsPerPage.toString());
     }
     return resultTarget;
   }

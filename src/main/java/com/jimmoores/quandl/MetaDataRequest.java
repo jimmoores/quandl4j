@@ -1,8 +1,7 @@
 package com.jimmoores.quandl;
 
-import javax.ws.rs.client.WebTarget;
-
 import com.jimmoores.quandl.util.ArgumentChecker;
+import com.sun.jersey.api.client.WebResource;
 
 /**
  * A class that packages the request for MetaData from Quandl.
@@ -40,9 +39,9 @@ public final class MetaDataRequest {
    * @param webTarget a web target used by the Jersey Client API, not null
    * @return the WebTarget with any path and query parameters appended
    */
-  public WebTarget appendPathAndQueryParameters(final WebTarget webTarget) {
+  public WebResource appendPathAndQueryParameters(final WebResource webTarget) {
     ArgumentChecker.notNull(webTarget, "webTarget");
-    WebTarget resultTarget = webTarget;
+    WebResource resultTarget = webTarget;
     resultTarget = resultTarget.path(DATASETS_RELATIVE_URL);
     resultTarget = resultTarget.path(_quandlCode + EXTENSION);
     resultTarget = resultTarget.queryParam(EXCLUDE_DATA_PARAM, Boolean.TRUE.toString());

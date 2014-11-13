@@ -3,8 +3,6 @@ package com.jimmoores.quandl.tests;
 import java.net.URI;
 import java.util.Collections;
 
-import javax.ws.rs.client.WebTarget;
-
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -28,6 +26,7 @@ import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.Transform;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.RESTDataProvider;
+import com.sun.jersey.api.client.WebResource;
 
 /**
  * Tests to test the generation of URLs.
@@ -50,13 +49,13 @@ public class URLGenerationTests {
       _expectedURL = expectedURL;
     }
     
-    public JSONObject getJSONResponse(final WebTarget target) {
+    public JSONObject getJSONResponse(final WebResource target) {
       URI uri = target.getUriBuilder().build();
       Assert.assertEquals(_expectedURL, uri.toString());
       return new JSONObject();
     }
 
-    public TabularResult getTabularResponse(final WebTarget target) {
+    public TabularResult getTabularResponse(final WebResource target) {
       URI uri = target.getUriBuilder().build();
       Assert.assertEquals(_expectedURL, uri.toString());
       return TEST_TABULAR_RESULT;

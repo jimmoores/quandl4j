@@ -13,8 +13,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import javax.ws.rs.client.WebTarget;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
@@ -29,6 +27,7 @@ import com.jimmoores.quandl.Row;
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.RESTDataProvider;
+import com.sun.jersey.api.client.WebResource;
 
 /**
  * RESTDataProvider that creates local file system copies of the files it gets
@@ -120,7 +119,7 @@ public final class FileRESTDataProvider implements RESTDataProvider {
    * @param target the WebTarget describing the call to make, not null
    * @return the parsed JSON object
    */
-  public JSONObject getJSONResponse(final WebTarget target) {
+  public JSONObject getJSONResponse(final WebResource target) {
     String uri = removeAPIToken(target.getUriBuilder().build());
     if (_urlFileNameMap.containsKey(uri)) {
       // we have a file name to read from
@@ -157,7 +156,7 @@ public final class FileRESTDataProvider implements RESTDataProvider {
    * @param target the WebTarget describing the call to make, not null
    * @return the parsed TabularResult
    */
-  public TabularResult getTabularResponse(final WebTarget target) {
+  public TabularResult getTabularResponse(final WebResource target) {
     String uri = removeAPIToken(target.getUriBuilder().build());
     if (_urlFileNameMap.containsKey(uri)) {
       // we have a file name to read from

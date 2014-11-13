@@ -4,11 +4,10 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.ws.rs.client.WebTarget;
-
 import org.threeten.bp.LocalDate;
 
 import com.jimmoores.quandl.util.ArgumentChecker;
+import com.sun.jersey.api.client.WebResource;
 
 /**
  * Builder class for a tabular data set request to Quandl.  
@@ -241,9 +240,9 @@ public final class MultiDataSetRequest {
    * @param webTarget a web target used by the Jersey Client API, not null
    * @return the WebTarget with any path and query parameters appended, not null
    */
-  public WebTarget appendPathAndQueryParameters(final WebTarget webTarget) {
+  public WebResource appendPathAndQueryParameters(final WebResource webTarget) {
     ArgumentChecker.notNull(webTarget, "webTarget");
-    WebTarget resultTarget = webTarget;
+    WebResource resultTarget = webTarget;
     resultTarget = resultTarget.path(MULTI_SET_NAME + EXTENSION);
     resultTarget = resultTarget.queryParam(COLUMNS_PARAM, buildCodeList(_quandlCodeRequests));
     if (_startDate != null) {
@@ -256,7 +255,7 @@ public final class MultiDataSetRequest {
       resultTarget = resultTarget.queryParam(FREQUENCY_PARAM, _frequency.getQuandlString());
     }
     if (_maxRows != null) {
-      resultTarget = resultTarget.queryParam(MAX_ROWS_PARAM, _maxRows);
+      resultTarget = resultTarget.queryParam(MAX_ROWS_PARAM, _maxRows.toString());
     }
     if (_transform != null) {
       resultTarget = resultTarget.queryParam(TRANSFORM_PARAM, _transform.getQuandlString());

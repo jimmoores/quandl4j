@@ -1,10 +1,9 @@
 package com.jimmoores.quandl;
 
-import javax.ws.rs.client.WebTarget;
-
 import org.threeten.bp.LocalDate;
 
 import com.jimmoores.quandl.util.ArgumentChecker;
+import com.sun.jersey.api.client.WebResource;
 
 /**
  * Class for a tabular data set request to Quandl.  
@@ -174,9 +173,9 @@ public final class DataSetRequest {
    * @param webTarget a web target used by the Jersey Client API
    * @return the WebTarget with any path and query parameters appended
    */
-  public WebTarget appendPathAndQueryParameters(final WebTarget webTarget) {
+  public WebResource appendPathAndQueryParameters(final WebResource webTarget) {
     ArgumentChecker.notNull(webTarget, "webTarget");
-    WebTarget resultTarget = webTarget;
+    WebResource resultTarget = webTarget;
     resultTarget = resultTarget.path(DATASETS_RELATIVE_URL);
     resultTarget = resultTarget.path(_quandlCode + EXTENSION);
     if (_startDate != null) {
@@ -186,13 +185,13 @@ public final class DataSetRequest {
       resultTarget = resultTarget.queryParam(END_DATE_PARAM, _endDate.toString());
     }
     if (_columnIndex != null) {
-      resultTarget = resultTarget.queryParam(COLUMN_INDEX_PARAM, _columnIndex);
+      resultTarget = resultTarget.queryParam(COLUMN_INDEX_PARAM, _columnIndex.toString());
     }
     if (_frequency != null) {
       resultTarget = resultTarget.queryParam(FREQUENCY_PARAM, _frequency.getQuandlString());
     }
     if (_maxRows != null) {
-      resultTarget = resultTarget.queryParam(MAX_ROWS_PARAM, _maxRows);
+      resultTarget = resultTarget.queryParam(MAX_ROWS_PARAM, _maxRows.toString());
     }
     if (_transform != null) {
       resultTarget = resultTarget.queryParam(TRANSFORM_PARAM, _transform.getQuandlString());

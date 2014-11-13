@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.jimmoores</groupId>
-  <artifactId>quandl</artifactId>
+  <artifactId>quandl-jersey1</artifactId>
   <version>0.9.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -285,11 +285,6 @@
   </pluginRepositories>
   <dependencies>
     <dependency>
-      <groupId>javax.ws.rs</groupId>
-      <artifactId>javax.ws.rs-api</artifactId>
-      <version>2.0</version>
-    </dependency>
-    <dependency>
       <groupId>org.threeten</groupId>
       <artifactId>threetenbp</artifactId>
       <version>0.9</version>
@@ -303,12 +298,6 @@
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
       <version>6.8.8</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.glassfish.jersey.core</groupId>
-      <artifactId>jersey-client</artifactId>
-      <version>2.8</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -330,6 +319,11 @@
       <groupId>commons-cli</groupId>
       <artifactId>commons-cli</artifactId>
       <version>1.2</version>
+    </dependency>
+    <dependency>
+    	<groupId>com.sun.jersey</groupId>
+    	<artifactId>jersey-client</artifactId>
+    	<version>1.18.2</version>
     </dependency>
   </dependencies>
   <profiles>
