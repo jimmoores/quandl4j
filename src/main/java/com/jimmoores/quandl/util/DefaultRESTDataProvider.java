@@ -45,7 +45,7 @@ public final class DefaultRESTDataProvider implements RESTDataProvider {
         throw new QuandlRuntimeException("Problem parsing JSON reply", jsone);
       }
     } else {
-      throw new QuandlRuntimeException("Response code to " + target.getURI() + " was " + response.getStatusInfo());
+      throw new QuandlRuntimeException("Response code to " + target.getURI() + " was " + response.getStatus());
     }  
   }
   
@@ -84,11 +84,11 @@ public final class DefaultRESTDataProvider implements RESTDataProvider {
         throw new QuandlRuntimeException("Problem reading result stream", ex);
       }
     }  else if (response.getStatus() == UNPROCESSABLE_ENTITY) {
-      throw new QuandlUnprocessableEntityException("Response code to " + target.getURI() + " was " + response.getStatusInfo());
+      throw new QuandlUnprocessableEntityException("Response code to " + target.getURI() + " was " + response.getStatus());
     } else if (response.getStatus() == TOO_MANY_REQUESTS) {
-      throw new QuandlTooManyRequestsException("Response code to " + target.getURI() + " was " + response.getStatusInfo());      
+      throw new QuandlTooManyRequestsException("Response code to " + target.getURI() + " was " + response.getStatus());      
     } else {
-      throw new QuandlRuntimeException("Response code to " + target.getURI() + " was " + response.getStatusInfo());
+      throw new QuandlRuntimeException("Response code to " + target.getURI() + " was " + response.getStatus());
     }
     
   }

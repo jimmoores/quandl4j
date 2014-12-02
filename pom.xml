@@ -63,9 +63,19 @@
   </properties>
   
   <distributionManagement>
-    <snapshotRepository>
+    <!--snapshotRepository>
       <id>ossrh</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository-->
+    <repository>
+      <id>private</id>
+      <name>McLeod Moores private maven repository</name>
+      <url>http://maven.mcleodmoores.com:8081/content/repositories/private</url>
+    </repository>
+    <snapshotRepository>
+      <id>private-snapshot</id>
+      <name>McLeod Moores private maven snapshot repository</name>
+      <url>http://maven.mcleodmoores.com:8081/content/repositories/private-snapshot</url>
     </snapshotRepository>
   </distributionManagement>
 
@@ -271,6 +281,19 @@
   <!-- We want to get rid of these eventually -->
   <repositories>
     <repository>
+      <id>private</id>
+      <name>McLeod Moores private maven repository</name>
+      <url>http://maven.mcleodmoores.com:8081/content/repositories/private</url>
+    </repository>
+    <repository>
+      <id>private-snapshot</id>
+      <name>McLeod Moores private maven snapshot repository</name>
+      <url>http://maven.mcleodmoores.com:8081/content/repositories/private-snapshot</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+    <repository>
       <id>og-public</id>
       <name>OG Public</name>
       <url>http://maven.opengamma.com/nexus/content/groups/public</url>
@@ -287,7 +310,7 @@
     <dependency>
       <groupId>org.threeten</groupId>
       <artifactId>threetenbp</artifactId>
-      <version>0.9</version>
+      <version>1.1</version>
     </dependency>
     <dependency>
       <groupId>com.opengamma.external.json</groupId>
@@ -323,7 +346,7 @@
     <dependency>
     	<groupId>com.sun.jersey</groupId>
     	<artifactId>jersey-client</artifactId>
-    	<version>1.18.2</version>
+    	<version>1.17.1</version>
     </dependency>
   </dependencies>
   <profiles>
