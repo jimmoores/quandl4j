@@ -69,6 +69,7 @@ import com.jimmoores.quandl.util.RESTDataProvider;
  *                   results if used as the sequences of requests and reponses will no longer match.
  */
 public final class RegressionTests {
+  private static final int ONE_MINUTE = 60000;
   private static Logger s_logger = LoggerFactory.getLogger(RegressionTests.class);
   private static final int DAYS_PER_YEAR = 365;
   private static final int MAX_COLUMN = 5;
@@ -101,6 +102,7 @@ public final class RegressionTests {
   private static final String REQUESTS_OPTION_SHORT = "req";
   private static final String SEED_OPTION_LONG = "seed";
   private static final String SEED_OPTION_SHORT = "s";
+  private static final int MAX_RETRIES = 0;
   
   private Random _random;
   private String _apiKey;
@@ -308,10 +310,26 @@ public final class RegressionTests {
       int pageRequired = _random.nextInt(totalPages);
       SearchRequest req = SearchRequest.Builder.of("").withPageNumber(pageRequired).build();
       System.out.println("About to run " + req);
-      SearchResult searchResult = session.search(req);
-      resultProcessor.processResult(searchResult);
-      MetaDataResult metaDataResult = searchResult.getMetaDataResultList().get(0);
-      quandlCodes.add(metaDataResult.getQuandlCode());
+      int retries = 0;
+      SearchResult searchResult = null;
+      do {
+        try {
+          searchResult = session.search(req);
+          resultProcessor.processResult(searchResult);
+          MetaDataResult metaDataResult = searchResult.getMetaDataResultList().get(0);
+          quandlCodes.add(metaDataResult.getQuandlCode());
+        } catch (QuandlRuntimeException qre) {
+          s_logger.error("Error performing search request, backing off for a bit");
+          retries ++;
+          try {
+            Thread.sleep(ONE_MINUTE);
+          } catch (InterruptedException ex) {
+          } // one minute
+        }
+      } while (searchResult == null && retries < MAX_RETRIES);
+      if (searchResult == null) {
+        s_logger.error("Giving up on this page request (" + pageRequired + ")");
+      }
     }
     return quandlCodes;
   }

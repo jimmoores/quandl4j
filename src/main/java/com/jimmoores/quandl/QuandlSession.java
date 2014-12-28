@@ -12,6 +12,8 @@ import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.UriBuilder;
 
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,6 +35,13 @@ import com.jimmoores.quandl.util.QuandlRuntimeException;
  * Then call one of the methods to fetch data!
  */
 public final class QuandlSession {
+  private static final String JSON_TO_DATE_FIELD = "to_date";
+  private static final String JSON_FROM_DATE_FIELD = "from_date";
+  private static final String JSON_FREQUENCY_FIELD = "frequency";
+  private static final String JSON_ERRORS_FIELD = "errors";
+  private static final String JSON_DATA_FIELD = "data";
+  private static final String JSON_COLUMNS_FIELD = "columns";
+  private static final String JSON_COLUMN_NAMES_FIELD = "column_names";
   private static final String DATE_COLUMN = "Date";
 
   private static Logger s_logger = LoggerFactory.getLogger(QuandlSession.class);
@@ -167,11 +176,32 @@ public final class QuandlSession {
    */
   public MetaDataResult getMetaData(final MultiMetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
-    Client client = ClientBuilder.newClient();
-    WebTarget target = client.target(API_BASE_URL);
-    target = withAuthToken(target);
-    target = request.appendPathAndQueryParameters(target);
-    return MetaDataResult.of(_sessionOptions.getRESTDataProvider().getJSONResponse(target));
+    Map<String, HeaderDefinition> multipleHeaderDefinition = getMultipleHeaderDefinition(request);
+    try {
+      JSONObject result = new JSONObject();
+      if (multipleHeaderDefinition.size() > 0) {
+        result.append(JSON_COLUMN_NAMES_FIELD, DATE_COLUMN);
+        result.append(JSON_COLUMNS_FIELD, DATE_COLUMN);
+      }
+      for (Map.Entry<String, HeaderDefinition> entry : multipleHeaderDefinition.entrySet()) {
+        String quandlCode = entry.getKey();
+        HeaderDefinition headerDef = entry.getValue();
+        for (String columnName : headerDef.getColumnNames()) {
+          if (!columnName.equals(DATE_COLUMN)) { // skip Date column for each data set.
+            result.append(JSON_COLUMN_NAMES_FIELD, quandlCode + " - " + columnName);
+            result.append(JSON_COLUMNS_FIELD, columnName);
+          }
+        }
+      }
+      result.put(JSON_DATA_FIELD, new JSONArray());
+      result.put(JSON_ERRORS_FIELD, Collections.emptyMap());
+      result.put(JSON_FREQUENCY_FIELD, (Object) null);
+      result.put(JSON_FROM_DATE_FIELD, (Object) null);
+      result.put(JSON_TO_DATE_FIELD, (Object) null);
+      return MetaDataResult.of(result);
+    } catch (JSONException ex) {
+      throw new QuandlRuntimeException("Problem building JSON response", ex);
+    }
   }
   
   /**
