@@ -107,7 +107,11 @@ public class ResultChecker implements ResultProcessor {
       String value = PrettyPrinter.toPrettyPrintedString(jsonObject);
       String expected = readFile(file);
       outputDiff(value, expected);
-      Assert.assertEquals(value, expected);
+      try {
+        Assert.assertEquals(value, expected);
+      } catch (AssertionError ae) {
+        s_logger.error("Value exected was \n{}\n rather than \n{}\n as expected", value, expected); 
+      }
     } else {
       Assert.fail("File " + file + " does not exist");
     }

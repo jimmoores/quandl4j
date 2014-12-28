@@ -70,10 +70,11 @@ import com.jimmoores.quandl.util.RESTDataProvider;
  */
 public final class RegressionTests {
   private static final int ONE_MINUTE = 60000;
+  private static final int TWO_SECONDS = 2000;
   private static Logger s_logger = LoggerFactory.getLogger(RegressionTests.class);
   private static final int DAYS_PER_YEAR = 365;
   private static final int MAX_COLUMN = 5;
-  private static final int DEFAULT_NUM_REQUESTS = 200;
+  private static final int DEFAULT_NUM_REQUESTS = 5;
   
   private static final double WITH_COLUMN_PROBABILITY = 0.1;
   private static final double WITH_FREQUENCY_PROBABILITY = 0.2;
@@ -319,14 +320,9 @@ public final class RegressionTests {
           MetaDataResult metaDataResult = searchResult.getMetaDataResultList().get(0);
           quandlCodes.add(metaDataResult.getQuandlCode());
         } catch (QuandlRuntimeException qre) {
-          s_logger.error("Error performing search request, backing off for a bit");
-          retries ++;
-          try {
-            Thread.sleep(ONE_MINUTE);
-          } catch (InterruptedException ex) {
-          } // one minute
+          retries++;
         }
-      } while (searchResult == null && retries < MAX_RETRIES);
+      } while (searchResult == null && retries < 1);
       if (searchResult == null) {
         s_logger.error("Giving up on this page request (" + pageRequired + ")");
       }
