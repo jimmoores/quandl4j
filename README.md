@@ -1,7 +1,12 @@
 Quandl4J : A Quandl library for Java
 ====================================
 
-[Quandl](http://quandl.com) is an source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
+**Announcement: There will be a new version of Quandl4J in the next few days to handle the recent deprecation of multisets
+from the Quandl REST API**
+
+[Quandl](http://quandl.com) is a source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
+
+Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform continuous builds.  The current status is ![Master Branch Build Status](https://travis-ci.org/jimmoores/quandl4j.svg?branch=master)
 
 # Table of Contents
  - [Quick start](#quick-start)
@@ -22,16 +27,16 @@ The minimum pre-requisites are:
  - Maven 3.
 
 Three options are available:
- - ~~[Download the latest release](https://github.com/jimmoores/quandl4j/archive/v0.9.zip)~~ **COMING SOON**
+ - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v0.8.1.zip)
  - Clone the repository: `git clone https://github.com/jimmoores/quandl4j.git`
-   - Run `mvn install` to build the libray and install to your local Maven repository.
+   - Run `mvn install` to build the libray, test, javadoc and source jars and install to your local Maven repository.
    - Run `mvn javadoc:javadoc` to build the documentation.
- - ~~Add the following fragment to your Maven POM file~~ **COMING SOON**
+ - Add the following fragment to your Maven POM file
 ```xml
 <dependency>
   <groupId>com.jimmoores</groupId>
-  <artifactId>quandl4j</artifactId>
-  <version>0.9</version>
+  <artifactId>quandl</artifactId>
+  <version>0.8.1</version>
 </dependency>
 ```
 ### Design Principles

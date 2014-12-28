@@ -170,7 +170,55 @@ public final class MultiDataSetRequest {
       return new MultiDataSetRequest(this);
     }
   }
+  /**
+   * @return the list of quandl code requests (code + column)
+   */
+  public List<QuandlCodeRequest> getQuandlCodeRequests() {
+  	return _quandlCodeRequests;
+  }
   
+  /**
+   * @return the start date, or null if not set
+   */
+  public LocalDate getStartDate() {
+  	return _startDate;
+  }
+  
+  /**
+   * @return the end date, or null if not set
+   */
+  public LocalDate getEndDate() {
+  	return _endDate;
+  }
+  
+  /**
+   * @return the frequency, or null if not set
+   */
+  public Frequency getFrequency() {
+  	return _frequency;
+  }
+  
+  /**
+   * @return the maximum number of rows to be returned, or null if not set
+   */
+  public Integer getMaxRows() {
+  	return _maxRows;
+  }
+  
+  /**
+   * @return the transform requested, or null if not set
+   */
+  public Transform getTransform() {
+  	return _transform;
+  }
+  
+  /**
+   * @return the sort order, or null if not set
+   */
+  public SortOrder getSortOrder() {
+  	return _sortOrder;
+  }
+
   private String buildCodeList(final List<QuandlCodeRequest> quandlCodeRequests) {
     StringBuilder sb = new StringBuilder();
     Iterator<QuandlCodeRequest> iter = quandlCodeRequests.iterator();

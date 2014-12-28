@@ -2,10 +2,14 @@ package com.jimmoores.quandl;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.SortedMap;
+import java.util.TreeMap;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -17,9 +21,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.threeten.bp.LocalDate;
 
+import com.jimmoores.quandl.DataSetRequest.Builder;
 import com.jimmoores.quandl.util.ArgumentChecker;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
+import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 
 /**
  * Quandl session class.
@@ -152,21 +159,140 @@ public final class QuandlSession {
     JSONObject object = _sessionOptions.getRESTDataProvider().getJSONResponse(target);
     return MetaDataResult.of(object);
   }
-  
-
-  
+    
   /**
    * Get a multiple data sets from quandl and return as single tabular result.
    * @param request the multi data set request object containing details of what is required
    * @return a single TabularResult set containing all requested results
    */
-  public TabularResult getDataSets(final MultiDataSetRequest request) {
+  private TabularResult getDataSetsDeprecated(final MultiDataSetRequest request) {
     ArgumentChecker.notNull(request, "request");
     Client client = getClient();
     WebTarget target = client.target(API_BASE_URL);
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
     return _sessionOptions.getRESTDataProvider().getTabularResponse(target);
+  }
+  
+  /**
+   * Get a multiple data sets from quandl and return as single tabular result.
+   * @param request the multi data set request object containing details of what is required
+   * @return a single TabularResult set containing all requested results
+   * @deprecated this call is provided for compatibility purposes and is deprecated, please use the single request mechanism
+   */  
+  public TabularResult getDataSets(final MultiDataSetRequest request) {
+    final List<QuandlCodeRequest> quandlCodeRequests = request.getQuandlCodeRequests();
+    final Map<QuandlCodeRequest, TabularResult> results = new LinkedHashMap<QuandlCodeRequest, TabularResult>();
+    for (final QuandlCodeRequest quandlCodeRequest : quandlCodeRequests) {
+      final Builder builder = DataSetRequest.Builder.of(quandlCodeRequest.getQuandlCode());
+      if (quandlCodeRequest.isSingleColumnRequest()) {
+        builder.withColumn(quandlCodeRequest.getColumnNumber());
+      }
+      if (request.getEndDate() != null) {
+        builder.withEndDate(request.getEndDate());
+      }
+      if (request.getStartDate() != null) {
+        builder.withStartDate(request.getStartDate());
+      }
+      if (request.getFrequency() != null) {
+        builder.withFrequency(request.getFrequency());
+      }
+      if (request.getMaxRows() != null) {
+        builder.withMaxRows(request.getMaxRows());
+      }
+      if (request.getSortOrder() != null) {
+        builder.withSortOrder(request.getSortOrder());
+      }
+      if (request.getTransform() != null) {
+        builder.withTransform(request.getTransform());
+      }
+      final DataSetRequest dataSetRequest = builder.build();
+      TabularResult tabularResult = null;
+      final Integer retries = 0;
+      do {
+        try {
+          tabularResult = getDataSet(dataSetRequest);
+        } catch (final QuandlTooManyRequestsException tooManyReqs) {
+          backOff(retries);
+        } catch (final QuandlRuntimeException qre) {
+          s_logger.error("Can't process request for {}, giving up and skipping.  Full request is {}", quandlCodeRequest.getQuandlCode(), dataSetRequest);
+          break;
+        }
+      } while (tabularResult == null);
+      if (tabularResult != null) {
+        results.put(quandlCodeRequest, tabularResult);
+      }
+    }
+    return mergeTables(results, request.getSortOrder());
+  }
+
+  private TabularResult mergeTables(final Map<QuandlCodeRequest, TabularResult> results, final SortOrder sortOrder) {
+    int resultTableWidth = 1; // the date!
+    final Map<QuandlCodeRequest, Integer> initialOffset = new HashMap<QuandlCodeRequest, Integer>();
+    final List<String> columnNames = new ArrayList<String>();
+    columnNames.add("Date");
+    for (final Map.Entry<QuandlCodeRequest, TabularResult> entry : results.entrySet()) {
+      final QuandlCodeRequest codeRequest = entry.getKey();
+      final TabularResult table = entry.getValue();
+      if (!initialOffset.containsKey(codeRequest)) {
+        initialOffset.put(codeRequest, resultTableWidth); // record the offset for each table
+      }
+      resultTableWidth += table.getHeaderDefinition().size() - 1; // exclude the date column.
+      final List<String> names = table.getHeaderDefinition().getColumnNames();
+      final Iterator<String> iter = names.iterator();
+      if (!iter.hasNext()) { throw new QuandlRuntimeException("table has no columns, expected at least date"); }
+      iter.next(); // discard date column name
+      while (iter.hasNext()) {
+        final String colName = iter.next();
+        columnNames.add(codeRequest.getQuandlCode() + " - " + colName);
+      }
+    }
+    final SortedMap<LocalDate, String[]> rows =
+        new TreeMap<LocalDate, String[]>(sortOrder == SortOrder.ASCENDING ? LocalDate.timeLineOrder() : Collections.reverseOrder(LocalDate.timeLineOrder()));
+    for (final Map.Entry<QuandlCodeRequest, TabularResult> mapEntry : results.entrySet()) {
+      final QuandlCodeRequest codeRequest = mapEntry.getKey();
+      final TabularResult table1 = mapEntry.getValue();
+      final Iterator<Row> rowIter = table1.iterator();
+      while (rowIter.hasNext()) {
+        final Row row = rowIter.next();
+        final LocalDate date = row.getLocalDate(0);
+        final String dateStr = row.getString(0);
+        if (date != null) {
+          String[] bigRow;
+          if (rows.containsKey(date)) {
+            bigRow = rows.get(date);
+          } else {
+            bigRow = new String[resultTableWidth];
+            rows.put(date, bigRow);
+          }
+          for (int i = 1; i < row.size(); i++) {
+            bigRow[initialOffset.get(codeRequest) + (i - 1)] = row.getString(i); // (i-1 is becuase initialOffset index already includes initial 1 offset)
+          }
+          bigRow[0] = dateStr; // (re)write the date string at the start of the big table.
+        }
+      }
+    }
+    final List<Row> combinedRows = new ArrayList<Row>();
+    final HeaderDefinition headerDefinition = HeaderDefinition.of(columnNames);
+    for (final Entry<LocalDate, String[]> entry : rows.entrySet()) {
+      final Row row = Row.of(headerDefinition, entry.getValue());
+      combinedRows.add(row);
+    }
+    return TabularResult.of(headerDefinition, combinedRows);
+  }
+  
+  /**
+   * Get meta data from Quandl about a range of quandlCodes returned as a single MetaDataResult.
+   * @param request the request object containing details of what is required
+   * @return a TabularResult set
+   */
+  private MetaDataResult getMetaDataDeprecated(final MultiMetaDataRequest request) {
+    ArgumentChecker.notNull(request, "request");
+    Client client = ClientBuilder.newClient();
+    WebTarget target = client.target(API_BASE_URL);
+    target = withAuthToken(target);
+    target = request.appendPathAndQueryParameters(target);
+    return MetaDataResult.of(_sessionOptions.getRESTDataProvider().getJSONResponse(target));
   }
   
   /**
@@ -211,7 +337,7 @@ public final class QuandlSession {
    * @param request the request object containing details of what is required, not null
    * @return an unmodifiable Map of Quandl codes to MetaDataResult for each code, keys ordered according to request, not null
    */
-  public Map<String, HeaderDefinition> getMultipleHeaderDefinition(final MultiMetaDataRequest request) {
+  private Map<String, HeaderDefinition> getMultipleHeaderDefinitionDeprecated(final MultiMetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
     MetaDataResult result = getMetaData(request);
     HeaderDefinition headerDefinition = result.getHeaderDefinition();
@@ -255,6 +381,50 @@ public final class QuandlSession {
       results.put(key, HeaderDefinition.of(columnList));
     }
     return Collections.unmodifiableMap(results);
+  }
+  
+  /**
+   * Get header definitions from Quandl about a range of quandlCodes returned as a Map of Quandl code to HeaderDefinition.
+   * The keys of the map will retain the order of the request and are backed by an unmodifiable LinkedHashMap.
+   * Throws a QuandlRuntimeException if it can't find a parsable quandl code or Date column in the result.
+   * @deprecated this now uses single calls to simulate multisets to support legacy code
+   * @param request the request object containing details of what is required, not null
+   * @return an unmodifiable Map of Quandl codes to MetaDataResult for each code, keys ordered according to request, not null
+   */
+  public Map<String, HeaderDefinition> getMultipleHeaderDefinition(final MultiMetaDataRequest request) {
+    final Map<String, HeaderDefinition> bulkMetaData = new LinkedHashMap<String, HeaderDefinition>();
+    for (final String quandlCode : request.getQuandlCodes()) {
+      Integer retries = 0;
+      MetaDataResult metaData = null;
+      do {
+        try {
+          metaData = getMetaData(MetaDataRequest.of(quandlCode));
+          bulkMetaData.put(quandlCode, metaData.getHeaderDefinition());
+          retries ++;
+        } catch (final QuandlTooManyRequestsException tooManyReqs) {
+          backOff(retries); // note this modifies retries.
+        } catch (final QuandlRuntimeException qre) {
+          s_logger.error("There was a problem requesting metadata for {}, skipping", quandlCode, qre);
+          break;
+        }
+      } while (metaData == null || retries < 5);
+    }
+    return bulkMetaData;
+  }
+  
+  private static final long BACKOFF_PERIOD_MILLIS = 60 * 1000;
+  
+  private static void backOff(Integer retries) {
+    try {
+      if (retries++ < 5) {
+        s_logger.warn("Quandl indicated too many requests have been made.  Backing off for one minute.");
+        Thread.sleep(BACKOFF_PERIOD_MILLIS);
+      } else {
+        s_logger.warn("Quandl indicated too many requests have been made.  Giving up because tried 5 retries and limit unlikely to be reset until tomorrow.");
+        throw new QuandlRuntimeException("Giving up because request limit unlikely to be reset until tomorrow.");
+      }
+    } catch (final InterruptedException ie) { }
+
   }
   
   /**

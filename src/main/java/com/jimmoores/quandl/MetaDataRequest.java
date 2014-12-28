@@ -29,6 +29,13 @@ public final class MetaDataRequest {
   }
   
   /**
+   * @return the quandl code
+   */
+  public String getQuandlCode() {
+    return _quandlCode;
+  }
+  
+  /**
    * Append any specified parameters to the provided WebTarget.
    * @param webTarget a web target used by the Jersey Client API, not null
    * @return the WebTarget with any path and query parameters appended
