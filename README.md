@@ -10,7 +10,7 @@ Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform co
 # Table of Contents
  - [Quick start](#quick-start)
  - [Design Principles](#design-principles)
- - [Release Notes 1.0.0](#release-notes-1.0.0)
+ - [Release Notes](#release-notes)
  - [Tutorial](#tutorial)
  - [Documentation](#documentation)
  - [Roadmap](#roadmap)
@@ -52,7 +52,8 @@ The core design principles are:
  - Provide concrete examples.
  - Provide comprehensive documentation and JavaDocs.
 
-### Release Notes 1.0.0
+## Release Notes
+### Version 1.0.0
  - NOTE: NOT YET RELEASED 
  - Handle deprecation of all multi-request APIs.  This release emulates the old behaviour of the multiset APIs by issuing
    multiple single requests and aggregating results into the same structure as returned before.  This should allow existing 
