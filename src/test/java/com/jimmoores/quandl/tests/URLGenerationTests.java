@@ -118,29 +118,6 @@ public class URLGenerationTests {
     Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
   }
   
-  // test getDataSets URL gen
-  @Test
-  public void testLargeMultiDataSetRequest() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/multisets.csv?columns=OFDP.FUTURE_CL1,WIKI.LIFE.4,BUNDESBANK.BBK01_WT5511.1");
-    TabularResult tabularResult = session.getDataSets(MultiDataSetRequest.Builder.of(QuandlCodeRequest.allColumns("OFDP/FUTURE_CL1"), QuandlCodeRequest.singleColumn("WIKI/LIFE", CLOSE_COLUMN), QuandlCodeRequest.singleColumn("BUNDESBANK/BBK01_WT5511", PRICE_COLUMN)).build());
-    Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
-  }
-  
-  @Test
-  public void testLargeMultiDataSetRequestWithExtraFiltersAndTransforms() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/multisets.csv?columns=OFDP.FUTURE_CL1,WIKI.LIFE.4,BUNDESBANK.BBK01_WT5511.1&collapse=monthly&transformation=normalize");
-    TabularResult tabularResult = session.getDataSets(
-        MultiDataSetRequest.Builder.of(
-          QuandlCodeRequest.allColumns("OFDP/FUTURE_CL1"), 
-          QuandlCodeRequest.singleColumn("WIKI/LIFE", CLOSE_COLUMN), 
-          QuandlCodeRequest.singleColumn("BUNDESBANK/BBK01_WT5511", PRICE_COLUMN)
-        )
-        .withFrequency(Frequency.MONTHLY)
-        .withTransform(Transform.NORMALIZE)
-        .build());
-    Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
-  }
-  
   @Test(expectedExceptions = QuandlRuntimeException.class)
   public void testLargeMultiDataSetRequestWithEmpty() {
     QuandlSession session = getTestSession("http://quandl.com/api/v1/multisets.csv?columns=&collapse=monthly&transformation=normalize");
@@ -152,38 +129,11 @@ public class URLGenerationTests {
     Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
   }
   
-  @Test
-  public void testMultiItemQueryWithAllOptions() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/multisets.csv?columns=OFDP.FUTURE_CL1,WIKI.LIFE.4,BUNDESBANK.BBK01_WT5511.1&trim_start=2009-01-01&trim_end=2011-01-01&collapse=monthly&rows=5&transformation=normalize&sort_order=desc");
-    TabularResult tabularResult = session.getDataSets(
-        MultiDataSetRequest.Builder.of(
-          QuandlCodeRequest.allColumns("OFDP/FUTURE_CL1"), 
-          QuandlCodeRequest.singleColumn("WIKI/LIFE", CLOSE_COLUMN), 
-          QuandlCodeRequest.singleColumn("BUNDESBANK/BBK01_WT5511", PRICE_COLUMN)
-        )
-        .withFrequency(Frequency.MONTHLY)
-        .withStartDate(LocalDate.of(2009, 1, 1))
-        .withEndDate(LocalDate.of(2011, 1, 1))
-        .withSortOrder(SortOrder.DESCENDING)
-        .withMaxRows(5)
-        .withTransform(Transform.NORMALIZE)
-        .build());
-    Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
-  }
-
   // test getMetaData
   @Test
   public void testSimpleGetMetaData() {
     QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets/WIKI/MSFT.json?exclude_data=true");
     MetaDataResult result = session.getMetaData(MetaDataRequest.of("WIKI/MSFT"));
-    Assert.assertEquals(result, MetaDataResult.of(new JSONObject()));
-  }
-  
-  // test getMetaData(multiple data sets)
-  @Test
-  public void testSimpleGetMultiMetaData() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/multisets.json?columns=WIKI.MSFT,OFDP.FUTURE_CL1,WIKI.LIFE&trim_start=2100-01-01");
-    MetaDataResult result = session.getMetaData(MultiMetaDataRequest.of("WIKI/MSFT", "OFDP/FUTURE_CL1", "WIKI/LIFE"));
     Assert.assertEquals(result, MetaDataResult.of(new JSONObject()));
   }
   
