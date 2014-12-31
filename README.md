@@ -1,8 +1,7 @@
 Quandl4J : A Quandl library for Java
 ====================================
 
-**Announcement: There will be a new version of Quandl4J in the next few days to handle the recent deprecation of multisets
-from the Quandl REST API**
+**Announcement: There is a new version of Quandl4J in the master branch (1.0.0) that will be released into Maven central shortly that handles the recent deprecation of multisets from the Quandl REST API and provides for automatic resilience to transient errors**
 
 [Quandl](http://quandl.com) is a source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
 
@@ -51,6 +50,28 @@ The core design principles are:
  - Publish maven artifacts on [Maven Central](http://search.maven.org/).
  - Provide concrete examples.
  - Provide comprehensive documentation and JavaDocs.
+
+### Release Notes 1.0.0 (NOT YET RELEASED)
+ - Handle deprecation of all multi-request APIs.  This release emulates the old behaviour of the multiset APIs by issuing
+   multiple single requests and aggregating results into the same structure as returned before.  This should allow existing 
+   applications to adjust seamlessly, abeit probably at reduced performance.  Please note though, that these APIs are now
+   deprecated and you should plan for their eventual removal.
+ - High loads on the Quandl servers have lead to an increase in the number of requests that return errors asking the client
+   to throttle requests apart from when user maximum request counts are exceeded.  The QuandlSession will now retry requests
+   that are likely to be transient (503 Service Unavailable and 429 Too Many Requests) according to a `RetryPolicy` that
+   can be set in the SessionOptions.  The default is to back off for 1, 5, 20 and then 60 seconds and then give up.  Custom 
+   policies can be put in place by subclassing `RetryPolicy`.  Some examples are available via factory methods on    
+   `RetryPolicy`.
+ - The new retry behaviour means that there are times that would previously have thrown a generic `QuandlRuntimeException`
+   will now return `QuandlFailedRequestException` (which is thrown after receiving multiple   
+   `QuandlTooManyRequestsException` or `QuandlServiceUnavailableException`).  Note that previously a bug prevented the 
+   correct throwing of `QuandlTooManyRequestsException`.
+ - To revert as closely as possible to the old behaviour (turn off retries), use `RetryPolicy.createNoRetryPolicy()` and
+   set in the `SessionOptions`.
+ - `getMetaData(final MultiMetaDataRequest request)` does it's best to emulate the JSON response from Quandl, but may be
+   have fields like `Frequency` set to null rather than values that Quandl returned.
+ - A missing dependency for Java 7 users has been added that allows the examples to run cleanly.
+ - Version 0.9.0 was skipped because it was used internally by the author in a private Maven repository.
 
 ## Tutorial
 ### A First Taste of the API
