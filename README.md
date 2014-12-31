@@ -10,6 +10,7 @@ Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform co
 # Table of Contents
  - [Quick start](#quick-start)
  - [Design Principles](#design-principles)
+ - [Release Notes 1.0.0](#release-notes-1.0.0)
  - [Tutorial](#tutorial)
  - [Documentation](#documentation)
  - [Roadmap](#roadmap)
@@ -51,7 +52,8 @@ The core design principles are:
  - Provide concrete examples.
  - Provide comprehensive documentation and JavaDocs.
 
-### Release Notes 1.0.0 (NOT YET RELEASED)
+### Release Notes 1.0.0
+ - NOTE: NOT YET RELEASED 
  - Handle deprecation of all multi-request APIs.  This release emulates the old behaviour of the multiset APIs by issuing
    multiple single requests and aggregating results into the same structure as returned before.  This should allow existing 
    applications to adjust seamlessly, abeit probably at reduced performance.  Please note though, that these APIs are now
@@ -71,7 +73,9 @@ The core design principles are:
  - `getMetaData(final MultiMetaDataRequest request)` does it's best to emulate the JSON response from Quandl, but may be
    have fields like `Frequency` set to null rather than values that Quandl returned.
  - A missing dependency for Java 7 users has been added that allows the examples to run cleanly.
- - Version 0.9.0 was skipped because it was used internally by the author in a private Maven repository.
+ - Test files were regenerated.
+ - Version 0.9.0 was skipped because it was used internally by the author in a private Maven repository for an intermediate
+   version.
 
 ## Tutorial
 ### A First Taste of the API
