@@ -15,7 +15,7 @@ public class QuandlTooManyRequestsException extends QuandlRuntimeException {
   /**
    * Constructor when another exception is being included.
    * @param message a message describing the exception, not null
-   * @param cause the cause of the expection if there is one, not null
+   * @param cause the cause of the exception if there is one, not null
    */
   public QuandlTooManyRequestsException(final String message, final Throwable cause) {
     super(message, cause);
@@ -49,6 +49,7 @@ public class QuandlTooManyRequestsException extends QuandlRuntimeException {
    * @param retryAfter  the number of seconds the server has told the client to retry after, or null if not available
    * @param rateLimitLimit  the server reported total number of requests allowed in this session in total (presumably one day), or null if not available
    * @param rateLimitRemaining  the server reported remaining number of requests allowed in this session (presumably reset each day), or null if not available
+   * @param cause the cause of the exception if there is one, not null
    */  
   public QuandlTooManyRequestsException(final String message, final Long retryAfter, final Long rateLimitLimit, final Long rateLimitRemaining, Throwable cause) {
     super(message, cause);
@@ -79,7 +80,7 @@ public class QuandlTooManyRequestsException extends QuandlRuntimeException {
   }
   
   /**
-   * @return true, if the server has stated that the number of requests remaining for this client is <= 0 or the server did not specify.
+   * @return true, if the server has stated that the number of requests remaining for this client is &lt;= 0 or the server did not specify.
    */
   public boolean isDataExhausted() {
     return _rateLimitRemaining != null && _rateLimitRemaining <= 0L;
