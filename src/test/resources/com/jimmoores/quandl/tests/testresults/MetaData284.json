@@ -1,26 +1,22 @@
 {
-  "code": "FUND_ANOIX",
+  "code": "ELEC_GEN_PC_WSC_1_M",
   "column_names": [
     "Date",
-    "Open",
-    "High",
-    "Low",
-    "Close",
-    "Volume",
-    "Adjusted Close"
+    "Value"
   ],
-  "description": "The investment seeks long-term capital growth.\n Under normal market conditions, the fund invests at least 80% of its assets in small cap companies. The portfolio managers consider small cap companies to include those with a market capitalization that does not exceed that of the largest company in the Russell 2000 Growth Index. The portfolio managers look for stocks of smaller-sized companies they believe will increase in value over time, using an investment strategy developed by American Century Investments.",
-  "display_url": "http://ichart.finance.yahoo.com/table.csv?s=ANOIX&a=1&b=1&c=1902&d=07&e=4&f=2039&g=d&ignore=.csv",
+  "description": "Units=Thousand Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.GEN.PC-WSC-1.M",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.GEN.PC-WSC-1.M&out=xml",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2001-05-31",
-  "id": 2329445,
-  "name": "ANOIX: American Century Small Cap Growth Fund - Investo",
+  "frequency": "monthly",
+  "from_date": "2001-01-31",
+  "id": 5181230,
+  "name": "Net Generation : Petroleum Coke : West South Central : Electric Utility : Monthly",
+  "premium": false,
   "private": false,
-  "source_code": "YAHOO",
-  "source_name": "Yahoo Finance",
-  "to_date": "2014-06-04",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration Data",
+  "to_date": "2013-10-31",
   "type": null,
-  "updated_at": "2014-06-05T06:02:14Z",
-  "urlize_name": "ANOIX-American-Century-Small-Cap-Growth-Fund-Investo"
+  "updated_at": "2014-01-10T01:51:49.701Z",
+  "urlize_name": "Net-Generation-Petroleum-Coke-West-South-Central-Electric-Utility-Monthly"
 }

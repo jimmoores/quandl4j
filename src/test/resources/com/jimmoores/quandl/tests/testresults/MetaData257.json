@@ -1,21 +1,22 @@
 {
-  "code": "INN_CASHANDCASHEQUIVALENTSATCARRYINGVALUE_A",
+  "code": "UNE_TUNE_NB_SEX_F_AGE_10YRBANDS_YGE65_M_CAN",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEC Name: CashAndCashEquivalentsAtCarryingValue",
-  "display_url": null,
+  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2009-12-31",
-  "id": 10862654,
-  "name": "Summit Hotel Properties, Inc.  (INN): Annual Cash And Cash Equivalents At Carrying Value",
+  "frequency": "monthly",
+  "from_date": "2001-01-31",
+  "id": 12787473,
+  "name": "Unemployment Women Ages 65+ - Monthly - Canada",
+  "premium": false,
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2012-12-31",
+  "source_code": "ILOSTAT",
+  "source_name": "ILOSTAT Database",
+  "to_date": "2014-04-30",
   "type": null,
-  "updated_at": "2014-03-18T21:38:19Z",
-  "urlize_name": "Summit-Hotel-Properties-Inc-INN-Annual-Cash-And-Cash-Equivalents-At-Carrying-Value"
+  "updated_at": "2014-05-29T20:33:59.184Z",
+  "urlize_name": "Unemployment-Women-Ages-65-Monthly-Canada"
 }

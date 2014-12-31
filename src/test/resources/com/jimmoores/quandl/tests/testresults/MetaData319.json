@@ -1,21 +1,24 @@
 {
-  "code": "LICLIAQ027S",
+  "code": "1212_28255000_2",
   "column_names": [
     "Date",
-    "Value"
+    "Quantity 1 (Q1)",
+    "Value (NOK)",
+    "Quantity 2 (Q2)"
   ],
-  "description": "Millions of Dollars Seasonally Adjusted Annual Rate, The source ID is FL543077003.Q  This data appear in Table S.3.q of the 'Integrated Macroeconomic Accounts for the United States.'  These tables present a sequence of accounts that relate production, income and spending, capital formation, financial transactions, and asset revaluations to changes in net worth between balance sheets for the major sectors of the U.S. economy. They are part of an interagency effort to further harmonize the BEA National Income and Product Accounts (NIPAs) and the Federal Reserve Board Flow of Funds Accounts (FFAs). The structure of these tables is based on the internationally accepted set of guidelines for the compilation of national accounts that are offered in the System of National Accounts 1993 (SNA).  Cautionary note on the use of the integrated macroeconomic accounts (IMA) - The estimates that are provided on this page are based on a unique set of accounting standards that are founded on the SNA. Accordingly, some of the estimates in in the IMA tables will differ from the official estimates that are published in the NIPAs and FFAs due to conceptual differences. There will also be some statistical differences between the estimates in these tables and those in the related accounts. For further information on the conceptual differences, see the paper at http://www.bea.gov/national/pdf/Integratedmac.pdf. ",
-  "display_url": "http://research.stlouisfed.org/fred2/data/LICLIAQ027S.csv",
+  "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
+  "display_url": "http://data.ssb.no/api/v0/dataset/1212.csv?lang=en",
   "errors": {},
-  "frequency": "quarterly",
-  "from_date": "1945-10-01",
-  "id": 8514184,
-  "name": "Life insurance companies; deferred and unpaid life insurance premiums; asset, Level",
+  "frequency": "monthly",
+  "from_date": "2011-12-31",
+  "id": 7875080,
+  "name": "Export of goods, HS 28-29 Products of the chemical or allied industies. Value and Quantity, latest 13 months - (q1=kg, q2=none) Copper oxides and hydroxides - Exports",
+  "premium": false,
   "private": false,
-  "source_code": "FRED",
-  "source_name": "Federal Reserve Economic Data",
-  "to_date": "2013-07-01",
+  "source_code": "STATNOR",
+  "source_name": "Statistics Norway",
+  "to_date": "2014-11-30",
   "type": null,
-  "updated_at": "2014-03-12T11:00:07Z",
-  "urlize_name": "Life-insurance-companies-deferred-and-unpaid-life-insurance-premiums-asset-Level"
+  "updated_at": "2014-12-19T02:12:42.620Z",
+  "urlize_name": "Export-of-goods-HS-28-29-Products-of-the-chemical-or-allied-industies-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Copper-oxides-and-hydroxides-Exports"
 }

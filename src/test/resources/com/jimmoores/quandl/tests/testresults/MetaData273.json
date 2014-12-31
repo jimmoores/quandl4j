@@ -1,21 +1,22 @@
 {
-  "code": "HND_DT_COM_OFFT_CD",
+  "code": "V4341788",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Commitments are the amount of long-term loans for which contracts were signed in the year specified. Debt from official creditors includes loans from international organizations (multilateral loans) and loans from governments (bilateral loans). Loans from international organization include loans and credits from the World Bank, regional development banks, and other multilateral and intergovernmental agencies. Excluded are loans from funds administered by an international organization on behalf of a single donor government; these are classified as loans from governments. Government loans include loans from governments and their agencies (including central banks), loans from autonomous bodies, and direct loans from official export credit agencies. Long-term external debt is defined as debt that has an original or extended maturity of more than one year and that is owed to nonresidents by residents of an economy and repayable in foreign currency, goods, or services. Data are in current U.S. dollars.\nCommitments, official creditors (COM, current US$)",
-  "display_url": "http://api.worldbank.org/countries/HND/indicators/DT.COM.OFFT.CD?per_page=1000",
+  "description": "{\"Geography\"=>\"Marquette, Manitoba\", \"Age group\"=>\"45-49 years\", \"Sex\"=>\"Males\"}",
+  "display_url": "http://www5.statcan.gc.ca/cansim/a08",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1970-12-31",
-  "id": 364866,
-  "name": "Honduras: Commitments, official creditors (COM, current US$)",
+  "from_date": "1995-12-31",
+  "id": 9800113,
+  "name": "109-5005: Population, by age group and sex, Canada, provinces, territories and health regions, *Terminated*",
+  "premium": false,
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
-  "to_date": "2012-12-31",
+  "source_code": "CANSIM",
+  "source_name": "Statistics Canada",
+  "to_date": "1998-12-31",
   "type": null,
-  "updated_at": "2014-05-16T21:52:51Z",
-  "urlize_name": "Honduras-Commitments-official-creditors-COM-current-US"
+  "updated_at": "2014-03-07T22:28:09.969Z",
+  "urlize_name": "109-5005-Population-by-age-group-and-sex-Canada-provinces-territories-and-health-regions-Terminated"
 }

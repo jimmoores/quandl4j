@@ -1,21 +1,24 @@
 {
-  "code": "DRC_WEIGHTEDAVERAGENUMBERDILUTEDSHARESOUTSTANDINGADJUSTMENT_A",
+  "code": "COMM_90_PARTSANDACCESSFORMEASURINGCHECKINGEQUIPMENTNE_IMPORT_HKG",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "SEC Name: WeightedAverageNumberDilutedSharesOutstandingAdjustment",
-  "display_url": null,
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2011-12-31",
-  "id": 10803353,
-  "name": "Dresser-Rand Group Inc.  (DRC): Annual Weighted Average Number Diluted Shares Outstanding Adjustment",
+  "frequency": "annual",
+  "from_date": "1993-12-31",
+  "id": 5768637,
+  "name": "Commodity Imports - Optical, Photo, Technical, Medical, Etc Apparatus / Parts and access for measuring, checking equipment ne - China, Hong Kong SAR",
+  "premium": false,
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
+  "source_code": "UN",
+  "source_name": "United Nations",
   "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-03-07T13:56:19Z",
-  "urlize_name": "Dresser-Rand-Group-Inc-DRC-Annual-Weighted-Average-Number-Diluted-Shares-Outstanding-Adjustment"
+  "updated_at": "2014-09-09T09:41:04.800Z",
+  "urlize_name": "Commodity-Imports-Optical-Photo-Technical-Medical-Etc-Apparatus-Parts-and-access-for-measuring-checking-equipment-ne-China-Hong-Kong-SAR"
 }

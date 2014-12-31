@@ -1,21 +1,22 @@
 {
-  "code": "NFKI",
+  "code": "HOOD_5BEDROOMORMORE_WASHINGTONPARKPROVIDENCERI",
   "column_names": [
-    "Year",
+    "Date",
     "Value"
   ],
-  "description": "seasonal_adjustment='NSA', base_period='-', price='CURR', index_period='-'. The Blue Book is a key annual publication of National Accounts statistics and the essential data source for anyone concerned with macro-economic policies and studies. These National Statistics are produced to high professional standards and released according to the arrangements approved by the UK Statistics Authority.",
-  "display_url": "http://www.ons.gov.uk/ons/datasets-and-tables/downloads/csv.csv?dataset=bb",
+  "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of five or more bedroom homes within the neighborhood of Washington Park, Providence, RI. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Neighborhood/Neighborhood_Zhvi_5BedroomOrMore.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1987-12-31",
-  "id": 3736488,
-  "name": "Other Intermediaries:AS:FLOW:Bonds issued by Rest of the World: CP NSA",
+  "frequency": "monthly",
+  "from_date": "1997-07-31",
+  "id": 6760431,
+  "name": "Zillow Home Value Index (Neighborhoods): Five or More Bedroom Homes - Washington Park,Providence,RI",
+  "premium": false,
   "private": false,
-  "source_code": "UKONS",
-  "source_name": "United Kingdom Office of National Statistics",
-  "to_date": "2012-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2013-10-31",
   "type": null,
-  "updated_at": "2014-01-11T01:46:27Z",
-  "urlize_name": "Other-Intermediaries-AS-FLOW-Bonds-issued-by-Rest-of-the-World-CP-NSA"
+  "updated_at": "2013-11-30T07:48:32.763Z",
+  "urlize_name": "Zillow-Home-Value-Index-Neighborhoods-Five-or-More-Bedroom-Homes-Washington-Park-Providence-RI"
 }

@@ -1,21 +1,22 @@
 {
-  "code": "TXBI_MKT_DC",
+  "code": "T01A095E01L001002_AUSTRIA",
   "column_names": [
     "Date",
-    "Market Debt to Capital Ratio"
+    "Value"
   ],
-  "description": "This is the market value estimate of the debt ratio, obtained by dividing the cumulated value of debt by the cumulated value of debt plus the cumulated market value of equity. We assume that the book value of debt is roughly equal to the market value of debt. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": " index: 2000 = 100.\n",
+  "display_url": "http://www.ine.es/pcaxisdl//t01/a095/e01/l1/01002.px",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2001-12-31",
-  "id": 5531308,
-  "name": "Texas Biotechnology ( TXBI ) - Market Debt to Capital Ratio",
+  "from_date": "1990-12-31",
+  "id": 7949894,
+  "name": "Animal products Producer price indices by country, period and type - Austria",
+  "premium": false,
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2002-12-31",
+  "source_code": "NSIS",
+  "source_name": "National Statistics Institute of Spain",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-03-14T10:49:20Z",
-  "urlize_name": "Texas-Biotechnology-TXBI-Market-Debt-to-Capital-Ratio"
+  "updated_at": "2014-09-18T13:50:42.117Z",
+  "urlize_name": "Animal-products-Producer-price-indices-by-country-period-and-type-Austria"
 }

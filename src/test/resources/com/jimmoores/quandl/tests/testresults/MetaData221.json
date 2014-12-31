@@ -1,29 +1,22 @@
 {
-  "code": "026_0006_SASKATOON_SASKATCHEWAN",
+  "code": "C01889_3B",
   "column_names": [
     "Date",
-    "All areas-Commercial (x 1,000)",
-    "All areas-Industrial (x 1,000)",
-    "All areas-Institutional and governmental (x 1,000)",
-    "All areas-Multiples (units)",
-    "All areas-Non-residential (x 1,000)",
-    "All areas-Residential (x 1,000)",
-    "All areas-Singles (units)",
-    "All areas-Total dwellings (units)",
-    "All areas-Total residential and non-residential (x 1,000)"
+    "Value"
   ],
-  "description": "Building permits, by type of structure and area, seasonally adjusted, monthly (Dollars) [Geography: Saskatoon, Saskatchewan]",
-  "display_url": "http://www5.statcan.gc.ca/cansim/a26?lang=eng&retrLang=eng&id=0260006&tabMode=dataTable&srchLan=-1&p1=-1&p2=9",
+  "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of three bedroom homes within the city of Laguna Beach, CA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": null,
   "errors": {},
   "frequency": "monthly",
-  "from_date": "1989-01-31",
-  "id": 8345080,
-  "name": "Building permits, by type of structure and area, seasonally adjusted, monthly (Dollars) [Geography: Saskatoon, Saskatchewan]",
+  "from_date": "1996-04-30",
+  "id": 15345348,
+  "name": "Zillow Home Value Index (Cities): Three Bedroom Homes - Laguna Beach, CA",
+  "premium": false,
   "private": false,
-  "source_code": "CANSIM",
-  "source_name": "Statistics Canada",
-  "to_date": "2014-03-31",
+  "source_code": "ZILL",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-09-30",
   "type": null,
-  "updated_at": "2014-06-04T07:28:37Z",
-  "urlize_name": "Building-permits-by-type-of-structure-and-area-seasonally-adjusted-monthly-Dollars-Geography-Saskatoon-Saskatchewan"
+  "updated_at": "2014-11-30T03:50:52.384Z",
+  "urlize_name": "Zillow-Home-Value-Index-Cities-Three-Bedroom-Homes-Laguna-Beach-CA"
 }

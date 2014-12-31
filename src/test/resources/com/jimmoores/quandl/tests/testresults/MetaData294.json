@@ -1,23 +1,22 @@
 {
-  "code": "COMM_69_WORKEDSLATEARTICLESOFSLATEORAGGLOMERATEDSLATE_EXPORT_SVK",
+  "code": "LAKE_FCFF",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Free Cash Flow to Firm"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "This dataset is no longer being updated. See database home page for details.",
+  "display_url": null,
   "errors": {},
   "frequency": "annual",
-  "from_date": "1994-12-31",
-  "id": 4060742,
-  "name": "Commodity Exports - Stone, Plaster, Cement, Asbestos, Mica, Etc Articles / Worked slate, articles of slate or agglomerated slate - Slovakia",
+  "from_date": "2000-01-31",
+  "id": 4647313,
+  "name": "Lakeland Industries ( LAKE ) - Free Cash Flow to Firm",
+  "premium": false,
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2011-12-31",
+  "source_code": "DMDRN",
+  "source_name": "Financial Ratios",
+  "to_date": "2013-01-31",
   "type": null,
-  "updated_at": "2014-01-11T03:12:41Z",
-  "urlize_name": "Commodity-Exports-Stone-Plaster-Cement-Asbestos-Mica-Etc-Articles-Worked-slate-articles-of-slate-or-agglomerated-slate-Slovakia"
+  "updated_at": "2014-12-17T23:06:22.805Z",
+  "urlize_name": "Lakeland-Industries-LAKE-Free-Cash-Flow-to-Firm"
 }

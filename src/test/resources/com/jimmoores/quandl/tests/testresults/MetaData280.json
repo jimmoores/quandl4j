@@ -1,23 +1,22 @@
 {
-  "code": "COMM_29_RAREGASESOTHERTHANARGON_EXPORT_CRI",
+  "code": "CGDPE_KWT",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Source: Penn World Table v8.0. For more information, please see <a href=\"http://www.rug.nl/research/ggdc/data/penn-world-table\">http://www.rug.nl/research/ggdc/data/penn-world-table<\/a>.",
+  "display_url": "http://www.rug.nl/research/GGDC/data/pwt/V80/pwt80.xlsx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1994-12-31",
-  "id": 3134471,
-  "name": "Commodity Exports - Inorganic Chemicals, Precious Metal Compound, Isotope / Rare gases other than argon - Costa Rica",
+  "from_date": "1970-12-31",
+  "id": 8605892,
+  "name": "Expenditure-side real GDP at current PPPs (in mil. 2005US$) - Kuwait",
+  "premium": false,
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
+  "source_code": "GGDC",
+  "source_name": "Groningen Growth and Development Centre",
   "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2013-04-13T21:38:53Z",
-  "urlize_name": "Commodity-Exports-Inorganic-Chemicals-Precious-Metal-Compound-Isotope-Rare-gases-other-than-argon-Costa-Rica"
+  "updated_at": "2013-11-18T22:48:41.639Z",
+  "urlize_name": "Expenditure-side-real-GDP-at-current-PPPs-in-mil-2005US-Kuwait"
 }

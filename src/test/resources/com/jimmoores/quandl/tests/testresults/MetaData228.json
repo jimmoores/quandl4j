@@ -1,23 +1,25 @@
 {
-  "code": "COMM_69_ASBESTOSCLOTHINGACCESSORIESFOOTANDHEADWEAR_IMPORT_POL",
+  "code": "FAO_49CUBA909PRODOFNATMILKCONSTIT",
   "column_names": [
     "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Import Quantity (tonnes)",
+    "Import Value (1000 US$)",
+    "Export Quantity (tonnes)",
+    "Export Value (1000 US$)"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
+  "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_Americas_1.zip",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1994-12-31",
-  "id": 4058035,
-  "name": "Commodity Imports - Stone, Plaster, Cement, Asbestos, Mica, Etc Articles / Asbestos clothing, accessories, foot and headwear - Poland",
+  "from_date": "1961-12-31",
+  "id": 7688339,
+  "name": "Trade Crops Livestock: Prod.of Nat.Milk Constit - Cuba",
+  "premium": false,
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2011-12-31",
+  "source_code": "FAO",
+  "source_name": "Food and Agriculture Organization of the United Nations",
+  "to_date": "2009-12-31",
   "type": null,
-  "updated_at": "2013-04-14T04:42:59Z",
-  "urlize_name": "Commodity-Imports-Stone-Plaster-Cement-Asbestos-Mica-Etc-Articles-Asbestos-clothing-accessories-foot-and-headwear-Poland"
+  "updated_at": "2013-08-30T14:33:34.360Z",
+  "urlize_name": "Trade-Crops-Livestock-Prod-of-Nat-Milk-Constit-Cuba"
 }

@@ -1,21 +1,22 @@
 {
-  "code": "AM_PROCEEDSFROMREVOLVINGLINEOFCREDITANDLONGTERMDEBT_Q",
+  "code": "EMAG_REV_12M",
   "column_names": [
     "Date",
-    "Value"
+    "Trailing 12-month Revenues"
   ],
-  "description": "SEC Name: ProceedsFromRevolvingLineOfCreditAndLongTermDebt",
+  "description": "This dataset is no longer being updated. See database home page for details.",
   "display_url": null,
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2013-05-31",
-  "id": 10066126,
-  "name": "AMERICAN GREETINGS CORP  (AM): Quarterly Proceeds From Revolving Line Of Credit And Long Term Debt",
+  "frequency": "annual",
+  "from_date": "2005-12-31",
+  "id": 4292881,
+  "name": "Emageon Inc. ( EMAG ) - Trailing 12-month Revenues",
+  "premium": false,
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-05-31",
+  "source_code": "DMDRN",
+  "source_name": "Financial Ratios",
+  "to_date": "2007-12-31",
   "type": null,
-  "updated_at": "2014-02-21T19:22:26Z",
-  "urlize_name": "AMERICAN-GREETINGS-CORP-AM-Quarterly-Proceeds-From-Revolving-Line-Of-Credit-And-Long-Term-Debt"
+  "updated_at": "2014-12-17T19:30:12.624Z",
+  "urlize_name": "Emageon-Inc-EMAG-Trailing-12-month-Revenues"
 }

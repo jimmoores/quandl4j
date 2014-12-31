@@ -1,21 +1,22 @@
 {
-  "code": "RWA_MYS_MEA_YSCH_25UP_MA",
+  "code": "MZIP_PCTOFHOMESSELLINGFORLOSS_ALLHOMES_90606",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Mean years of schooling, 25+, male is the mean years of schooling of the female population over age 25.\nmean years of schooling, 25+, male",
-  "display_url": "http://api.worldbank.org/countries/RWA/indicators/MYS.MEA.YSCH.25UP.MA?per_page=1000",
+  "description": "The percentage of homes that sold for less than the previous purchase price (e.g. a home purchased for $250k and then sold for $225k). This excludes foreclosure transactions. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PctOfHomesSellingForLoss_AllHomes.csv",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1970-12-31",
-  "id": 6614443,
-  "name": "Rwanda: mean years of schooling, 25+, male",
+  "frequency": "monthly",
+  "from_date": "1998-01-31",
+  "id": 7286472,
+  "name": "Zillow Metrics (Zip Codes): Sold for Loss (%) - 90606,West Whittier-Los Nietos,CA",
+  "premium": false,
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
-  "to_date": "2050-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-08-31",
   "type": null,
-  "updated_at": "2014-05-16T20:38:16Z",
-  "urlize_name": "Rwanda-mean-years-of-schooling-25-male"
+  "updated_at": "2014-10-17T14:57:15.596Z",
+  "urlize_name": "Zillow-Metrics-Zip-Codes-Sold-for-Loss-90606-West-Whittier-Los-Nietos-CA"
 }

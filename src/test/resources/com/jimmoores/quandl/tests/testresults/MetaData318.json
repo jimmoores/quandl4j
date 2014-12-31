@@ -1,21 +1,22 @@
 {
-  "code": "SEDS_PCTCD_IL_A",
+  "code": "ELEC_PLANT_CONS_TOT_2720_WDS_ST_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Units=Dollars Per Million Btu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.PCTCD.IL.A",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.PCTCD.IL.A&out=xml",
+  "description": "Units=Tons. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.2720-WDS-ST.A",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.2720-WDS-ST.A&out=xml",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1970-12-31",
-  "id": 4777701,
-  "name": "Petroleum Coke Average Price, All Sectors, Illinois",
+  "from_date": "2009-12-31",
+  "id": 4889410,
+  "name": "Fuel Consumption Quantity : Buck : Wood/wood Waste Solids : Steam Turbine : Annual",
+  "premium": false,
   "private": false,
   "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
-  "to_date": "2011-12-31",
+  "source_name": "U.S. Energy Information Administration Data",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-01-09T23:16:22Z",
-  "urlize_name": "Petroleum-Coke-Average-Price-All-Sectors-Illinois"
+  "updated_at": "2014-09-22T21:28:31.661Z",
+  "urlize_name": "Fuel-Consumption-Quantity-Buck-Wood-wood-Waste-Solids-Steam-Turbine-Annual"
 }

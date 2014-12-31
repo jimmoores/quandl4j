@@ -1,23 +1,22 @@
 {
-  "code": "COMM_28_COALBRIQUETTESOVOIDSSIMILARMADESOLIDFUELS_IMPORT_ARE",
+  "code": "92_000668821_A",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Unit of measurement=Euros and converted euros, Power=6. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=92",
+  "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1991-12-31",
-  "id": 3085730,
-  "name": "Commodity Imports - Mineral Fuels, Oils, Distillation Products, Etc / Coal briquettes, ovoids, similar made solid fuels - United Arab Emirates",
+  "from_date": "1978-12-31",
+  "id": 8289440,
+  "name": "Annual accounts, base 1995 - P52A - Changes in producer stocks - All products - Value in current euro - Stopped series",
+  "premium": false,
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2008-12-31",
+  "source_code": "INSEE",
+  "source_name": "National Institute of Statistics and Economic Studies (France)",
+  "to_date": "2002-12-31",
   "type": null,
-  "updated_at": "2014-01-11T16:29:19Z",
-  "urlize_name": "Commodity-Imports-Mineral-Fuels-Oils-Distillation-Products-Etc-Coal-briquettes-ovoids-similar-made-solid-fuels-United-Arab-Emirates"
+  "updated_at": "2014-09-19T14:42:55.213Z",
+  "urlize_name": "Annual-accounts-base-1995-P52A-Changes-in-producer-stocks-All-products-Value-in-current-euro-Stopped-series"
 }

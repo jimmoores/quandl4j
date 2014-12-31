@@ -1,21 +1,24 @@
 {
-  "code": "OEUN000000033910043101101",
+  "code": "COMM_64_LIFEJACKETSANDLIFEBELTSTEXTILEMATERIAL_EXPORT_ARG",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Statistic: Employment; Occupation: First-Line Supervisors of Office and Administrative Support Workers; Industry: Medical Equipment and Supplies Manufacturing; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000033910043101101",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2012-06-30",
-  "id": 9023071,
-  "name": "Employment for First-Line Supervisors of Office and Administrative Support Workers in Medical Equipment and Supplies Manufacturing in National",
+  "from_date": "1993-12-31",
+  "id": 3981548,
+  "name": "Commodity Exports - Other Made Textile Articles, Sets, Worn Clothing Etc / Life jackets and life belts, textile material - Argentina",
+  "premium": false,
   "private": false,
-  "source_code": "BLS",
-  "source_name": "Bureau of Labor Statistics",
-  "to_date": "2012-06-30",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2013-11-16T09:31:59Z",
-  "urlize_name": "Employment-for-First-Line-Supervisors-of-Office-and-Administrative-Support-Workers-in-Medical-Equipment-and-Supplies-Manufacturing-in-National"
+  "updated_at": "2014-09-10T15:58:35.972Z",
+  "urlize_name": "Commodity-Exports-Other-Made-Textile-Articles-Sets-Worn-Clothing-Etc-Life-jackets-and-life-belts-textile-material-Argentina"
 }

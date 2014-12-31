@@ -1,21 +1,22 @@
 {
-  "code": "SWYC_STDEV",
+  "code": "V54470297",
   "column_names": [
     "Date",
-    "3-year Standard Deviation of Stock Price"
+    "Value"
   ],
-  "description": "The standard deviation in monthly stock prices, annualized. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "{\" Geography\"=>\"Newfoundland and Labrador\", \" Institution type\"=>\"University\", \" Pan-Canadian Standard Classification of Education (PCSCE)\"=>\"Postsecondary short general, career, technical or professional education or equivalent\", \" Classification of Instructional Programs, Primary Grouping (CIP_PG)\"=>\"Architecture, engineering and related technologies\", \" Sex\"=>\"Males\", \" Immigration status\"=>\"Total, immigration status\"}",
+  "display_url": "http://www5.statcan.gc.ca/cansim/a08",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2004-12-31",
-  "id": 5522108,
-  "name": "Skyway Communications Hdg Corp ( SWYC ) - 3-year Standard Deviation of Stock Price",
+  "from_date": "1992-12-31",
+  "id": 13839348,
+  "name": "477-0020: 1, 2, 3, 4, 5: Postsecondary graduates, by Pan-Canadian Standard Classification of Education (PCSCE), Classification of Instructional Programs, Primary Grouping (CIP_PG), sex and immigration status: annual (number)",
+  "premium": false,
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2004-12-31",
+  "source_code": "CANSIM",
+  "source_name": "Statistics Canada",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-03-14T12:46:04Z",
-  "urlize_name": "Skyway-Communications-Hdg-Corp-SWYC-3-year-Standard-Deviation-of-Stock-Price"
+  "updated_at": "2014-07-31T14:47:24.561Z",
+  "urlize_name": "477-0020-1-2-3-4-5-Postsecondary-graduates-by-Pan-Canadian-Standard-Classification-of-Education-PCSCE-Classification-of-Instructional-Programs-Primary-Grouping-CIP_PG-sex-and-immigration-status-annual-number"
 }

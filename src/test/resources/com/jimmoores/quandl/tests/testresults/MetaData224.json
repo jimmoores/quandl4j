@@ -1,21 +1,24 @@
 {
-  "code": "HOW_XEES_NB_SEX_F_ECO_ISIC4_D_Q_BGR",
+  "code": "COMM_41_PNEUMATICTYRESNEWOFRUBBERNES_EXPORT_ZAF",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2008-03-31",
-  "id": 12632040,
-  "name": "Hours Of Work Of Employees Women In D. Electricity, Gas, Steam And Air Conditioning Supply - Quarterly - Bulgaria",
+  "frequency": "annual",
+  "from_date": "2000-12-31",
+  "id": 3634927,
+  "name": "Commodity Exports - Rubber And Articles Thereof / Pneumatic tyres new of rubber nes - South Africa",
+  "premium": false,
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
+  "source_code": "UN",
+  "source_name": "United Nations",
   "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-05-30T14:49:05Z",
-  "urlize_name": "Hours-Of-Work-Of-Employees-Women-In-D-Electricity-Gas-Steam-And-Air-Conditioning-Supply-Quarterly-Bulgaria"
+  "updated_at": "2014-09-09T06:03:04.265Z",
+  "urlize_name": "Commodity-Exports-Rubber-And-Articles-Thereof-Pneumatic-tyres-new-of-rubber-nes-South-Africa"
 }

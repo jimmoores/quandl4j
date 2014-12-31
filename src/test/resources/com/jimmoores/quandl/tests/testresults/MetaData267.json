@@ -1,21 +1,22 @@
 {
-  "code": "OEUN000000044310011202101",
+  "code": "ATG_EN_MAM_THRD_NO",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Statistic: Employment; Occupation: Marketing Managers; Industry: Electronics and Appliance Stores; Area: National; Source: BLS Occupational Employment Statistics (OES) program. For more information see <a href=\"http://www.bls.gov/oes/oes_emp.htm\">http://www.bls.gov/oes/oes_emp.htm.<\/a>",
-  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/OEUN000000044310011202101",
+  "description": "Mammal species are mammals excluding whales and porpoises. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.\nMammal species, threatened",
+  "display_url": "http://api.worldbank.org/countries/ATG/indicators/EN.MAM.THRD.NO?per_page=1000",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2012-06-30",
-  "id": 9038881,
-  "name": "Employment for Marketing Managers in Electronics and Appliance Stores in National",
+  "from_date": "2012-12-31",
+  "id": 198712,
+  "name": "Antigua and Barbuda: Mammal species, threatened",
+  "premium": false,
   "private": false,
-  "source_code": "BLS",
-  "source_name": "Bureau of Labor Statistics",
-  "to_date": "2012-06-30",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank Cross Country Data",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2013-11-16T12:36:29Z",
-  "urlize_name": "Employment-for-Marketing-Managers-in-Electronics-and-Appliance-Stores-in-National"
+  "updated_at": "2014-08-27T14:12:10.854Z",
+  "urlize_name": "Antigua-and-Barbuda-Mammal-species-threatened"
 }

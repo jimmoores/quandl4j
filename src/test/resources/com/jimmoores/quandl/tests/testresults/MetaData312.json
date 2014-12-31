@@ -1,21 +1,22 @@
 {
-  "code": "CSHICPGBA156NRUG",
+  "code": "IIUCON23600034121",
   "column_names": [
     "Date",
-    "CSHICPGBA156NRUG_2013-07-03"
+    "Value"
   ],
-  "description": "Percent Not Seasonally Adjusted, Source ID: csh_i  When using these data in your research, please make the following reference: Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2013), \"The Next Generation of the Penn World Table\" available for download at www.ggdc.net/pwt  For more information, see http://www.rug.nl/research/ggdc/data/penn-world-table. ",
-  "display_url": "http://alfred.stlouisfed.org/series/downloaddata?seid=CSHICPGBA156NRUG",
+  "description": "Measure: Rate of injury and illness cases per 100 full-time workers; Case type: Cases involving days of job transfer or restriction; Industry: Construction of buildings; Supersector: Construction; Area: Private industry, Kentucky; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUCON23600034121",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1950-01-01",
-  "id": 9089912,
-  "name": "Share of Gross Capital Formation at Current Purchasing Power Parities for United Kingdom",
+  "from_date": "2009-12-31",
+  "id": 8994895,
+  "name": "Rate of injury and illness cases per 100 full-time workers for Construction of buildings, Private industry, Kentucky",
+  "premium": false,
   "private": false,
-  "source_code": "ALFRED",
-  "source_name": "Archival Federal Reserve Economic Data",
-  "to_date": "2011-01-01",
+  "source_code": "BLS",
+  "source_name": "Bureau of Labor Statistics Key Indicators",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-01-10T11:28:37Z",
-  "urlize_name": "Share-of-Gross-Capital-Formation-at-Current-Purchasing-Power-Parities-for-United-Kingdom"
+  "updated_at": "2013-11-14T23:25:31.826Z",
+  "urlize_name": "Rate-of-injury-and-illness-cases-per-100-full-time-workers-for-Construction-of-buildings-Private-industry-Kentucky"
 }

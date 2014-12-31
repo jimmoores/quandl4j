@@ -1,23 +1,22 @@
 {
-  "code": "COMM_46_WASTECORKCRUSHEDGRANULATEDORGROUND_IMPORT_DEU",
+  "code": "1304_001567079_M",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Unit of measurement=Without object, Power=0. For more detailed information, please see http://www.bdm.insee.fr/bdm2/documentationGroupe.action?codeGroupe=1304",
+  "display_url": "http://www.bdm.insee.fr/bdm2/exporterSeries.action",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1991-12-31",
-  "id": 3681200,
-  "name": "Commodity Imports - Cork And Articles Of Cork / Waste cork, crushed, granulated or ground - Germany",
+  "frequency": "monthly",
+  "from_date": "1995-01-31",
+  "id": 8266925,
+  "name": "Turnover value index - Base 100 in 2005 - Other research and experimental development on natural sciences and engineering (NAF rev. 2, lev. Sub-class, item 72.19Z) - SA-WDA data - Stopped series",
+  "premium": false,
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
+  "source_code": "INSEE",
+  "source_name": "National Institute of Statistics and Economic Studies (France)",
   "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-11T02:22:58Z",
-  "urlize_name": "Commodity-Imports-Cork-And-Articles-Of-Cork-Waste-cork-crushed-granulated-or-ground-Germany"
+  "updated_at": "2014-01-08T11:20:29.483Z",
+  "urlize_name": "Turnover-value-index-Base-100-in-2005-Other-research-and-experimental-development-on-natural-sciences-and-engineering-NAF-rev-2-lev-Sub-class-item-72-19Z-SA-WDA-data-Stopped-series"
 }

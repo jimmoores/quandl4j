@@ -1,21 +1,22 @@
 {
-  "code": "AIQ_REPAYMENTSOFLONGTERMEQUIPMENTOBLIGATIONS_Q",
+  "code": "V1811001",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEC Name: RepaymentsOfLongTermEquipmentObligations",
-  "display_url": null,
+  "description": "{\" Geography\"=>\"Northwest Territories\", \" North American Industry Classification System (NAICS)\"=>\"Social assistance\"}",
+  "display_url": "http://www5.statcan.gc.ca/cansim/a08",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2012-03-31",
-  "id": 10009871,
-  "name": "Alliance HealthCare Services, Inc  (AIQ): Quarterly Repayments Of Long Term Equipment Obligations",
+  "frequency": "monthly",
+  "from_date": "1995-12-31",
+  "id": 13702364,
+  "name": "281-0035: 4, 14, 15, 16, 17, 19: Average hourly earnings for salaried employees (paid a fixed salary) (SEPH), including overtime, unadjusted for seasonal variation, for selected industries classified using the North American Industry Classification System (NAICS): monthly (current dollars)",
+  "premium": false,
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-03-31",
+  "source_code": "CANSIM",
+  "source_name": "Statistics Canada",
+  "to_date": "2014-04-30",
   "type": null,
-  "updated_at": "2014-02-19T21:47:40Z",
-  "urlize_name": "Alliance-HealthCare-Services-Inc-AIQ-Quarterly-Repayments-Of-Long-Term-Equipment-Obligations"
+  "updated_at": "2014-08-17T19:42:45.839Z",
+  "urlize_name": "281-0035-4-14-15-16-17-19-Average-hourly-earnings-for-salaried-employees-paid-a-fixed-salary-SEPH-including-overtime-unadjusted-for-seasonal-variation-for-selected-industries-classified-using-the-North-American-Industry-Classification-System-NAICS-monthly-current-dollars"
 }

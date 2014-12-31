@@ -1,21 +1,26 @@
 {
-  "code": "CITY_TOPTIER_CAPITOLACA",
+  "code": "MULTIPLX",
   "column_names": [
-    "Date",
-    "Capitola"
+    "date",
+    "Followers",
+    "Following",
+    "Favorites",
+    "Tweets",
+    "Listed"
   ],
-  "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of top tier homes within the city of Capitola, CA. Top tier homes are homes that fall into the top third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-  "display_url": "http://files.zillowstatic.com/research/public/City/City_Zhvi_TopTier.csv",
+  "description": "Everything you want to read; news, your favorite blogs, art and more in one convenient place designed for you.",
+  "display_url": "http://twitter.com/Multiplx",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "1997-08-31",
-  "id": 7061070,
-  "name": "Zillow Home Value Index (Cities): Top Tier - Capitola, CA",
+  "frequency": "daily",
+  "from_date": "2014-07-31",
+  "id": 13785774,
+  "name": "MultiPLX Twitter Metrics",
+  "premium": false,
   "private": false,
-  "source_code": "ZILLOW",
-  "source_name": "Zillow Real Estate Research",
-  "to_date": "2014-03-31",
+  "source_code": "TWITTER",
+  "source_name": "Twitter Inc.",
+  "to_date": "2014-12-18",
   "type": null,
-  "updated_at": "2014-05-07T19:26:58Z",
-  "urlize_name": "Zillow-Home-Value-Index-Cities-Top-Tier-Capitola-CA"
+  "updated_at": "2014-12-18T20:40:00.151Z",
+  "urlize_name": "MultiPLX-Twitter-Metrics"
 }

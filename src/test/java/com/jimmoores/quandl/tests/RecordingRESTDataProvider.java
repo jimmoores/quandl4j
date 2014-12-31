@@ -31,6 +31,7 @@ import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.Row;
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
+import com.jimmoores.quandl.util.QuandlServiceUnavailableException;
 import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 import com.jimmoores.quandl.util.QuandlUnprocessableEntityException;
 import com.jimmoores.quandl.util.RESTDataProvider;
@@ -160,7 +161,12 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
       QuandlTooManyRequestsException ex = new QuandlTooManyRequestsException("Response code to " + target.getUri() + " was " + response.getStatusInfo());      
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
+    } else if (response.getStatus() == SERVICE_UNAVAILABLE) {
+      QuandlServiceUnavailableException ex = new QuandlServiceUnavailableException("Response code to " + target.getUri() + " was " + response.getStatusInfo());      
+      writeIndexEntry(target.getUriBuilder().build(), file, ex);
+      throw ex;
     } else {
+      s_logger.error("Error, reponse code was " + response.getStatus());
       QuandlRuntimeException ex = new QuandlRuntimeException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
@@ -234,6 +240,10 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
       throw ex;
     } else if (response.getStatus() == TOO_MANY_REQUESTS) {
       QuandlTooManyRequestsException ex = new QuandlTooManyRequestsException("Response code to " + target.getUri() + " was " + response.getStatusInfo());      
+      writeIndexEntry(target.getUriBuilder().build(), file, ex);
+      throw ex;
+    } else if (response.getStatus() == SERVICE_UNAVAILABLE) {
+      QuandlServiceUnavailableException ex = new QuandlServiceUnavailableException("Response code to " + target.getUri() + " was " + response.getStatusInfo());      
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     } else {

@@ -1,21 +1,22 @@
 {
-  "code": "GMP45500_REAL_SECURITIESCOMMODITYCONTRACTSINVESTMENTS_TEXARKANATXTEXARKANAAR",
+  "code": "ARS_EV_SALES",
   "column_names": [
-    "Year",
-    "Securities, Commodity Contracts, Investments"
+    "Date",
+    "EV To Sales Ratio"
   ],
-  "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
-  "display_url": "http://bea.gov/regional",
+  "description": "This dataset is no longer being updated. See database home page for details.",
+  "display_url": null,
   "errors": {},
   "frequency": "annual",
-  "from_date": "2001-12-31",
-  "id": 6693815,
-  "name": "Real GDP: Securities, commodity contracts, investments - Texarkana, TX-Texarkana, AR",
+  "from_date": "2003-12-31",
+  "id": 4087756,
+  "name": "Aleris International Inc ( ARS ) - EV To Sales Ratio",
+  "premium": false,
   "private": false,
-  "source_code": "BEA",
-  "source_name": "Bureau of Economic Analysis",
-  "to_date": "2010-12-31",
+  "source_code": "DMDRN",
+  "source_name": "Financial Ratios",
+  "to_date": "2005-12-31",
   "type": null,
-  "updated_at": "2014-01-13T19:36:06Z",
-  "urlize_name": "Real-GDP-Securities-commodity-contracts-investments-Texarkana-TX-Texarkana-AR"
+  "updated_at": "2014-12-17T17:25:47.291Z",
+  "urlize_name": "Aleris-International-Inc-ARS-EV-To-Sales-Ratio"
 }

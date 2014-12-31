@@ -1,21 +1,22 @@
 {
-  "code": "ALG_WEIGHTEDAVERAGENUMBEROFDILUTEDSHARESOUTSTANDING_A",
+  "code": "MCITY_NUMBEROFHOMESFORSALE_ALLHOMES_NORWOODYOUNGAMERICAMN",
   "column_names": [
     "Date",
-    "Value"
+    "Norwood Young America"
   ],
-  "description": "SEC Name: WeightedAverageNumberOfDilutedSharesOutstanding",
-  "display_url": null,
+  "description": "This metric is currently in beta. The number of homes for sale on Zillow. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/City/City_NumberOfHomesForSale_AllHomes.csv",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2011-12-31",
-  "id": 10032130,
-  "name": "ALAMO GROUP INC  (ALG): Annual Weighted Average Number Of Diluted Shares Outstanding",
+  "frequency": "monthly",
+  "from_date": "2009-04-30",
+  "id": 7297307,
+  "name": "Zillow Metrics (Cities): Homes for Sale (Beta) - Norwood Young America, MN",
+  "premium": false,
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2012-12-31",
+  "source_code": "ZILLOW",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-02-20T17:46:14Z",
-  "urlize_name": "ALAMO-GROUP-INC-ALG-Annual-Weighted-Average-Number-Of-Diluted-Shares-Outstanding"
+  "updated_at": "2014-03-11T20:38:35.892Z",
+  "urlize_name": "Zillow-Metrics-Cities-Homes-for-Sale-Beta-Norwood-Young-America-MN"
 }

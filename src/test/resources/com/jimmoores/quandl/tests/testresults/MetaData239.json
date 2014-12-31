@@ -1,21 +1,24 @@
 {
-  "code": "EXPEMFEF488ALLEST",
+  "code": "COMM_4_TUNANESFRESHORCHILLEDWHOLE_EXPORT_TUN",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Millions of Dollars Not Seasonally Adjusted, For further information, please refer to the US Census Bureau's Annual Services release, online at http://www.census.gov/services/. ",
-  "display_url": "http://research.stlouisfed.org/fred2/data/EXPEMFEF488ALLEST.csv",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2012-01-01",
-  "id": 10922162,
-  "name": "Purchased Fuels (Except Motor Fuels) for Support Activities for Transportation, All Establishments, Employer Firms",
+  "from_date": "1991-12-31",
+  "id": 2816602,
+  "name": "Commodity Exports - Fish, Crustaceans, Molluscs, Aquatic Invertebrates Ne / Tuna nes, fresh or chilled, whole - Tunisia",
+  "premium": false,
   "private": false,
-  "source_code": "FRED",
-  "source_name": "Federal Reserve Economic Data",
-  "to_date": "2012-01-01",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-03-11T19:33:30Z",
-  "urlize_name": "Purchased-Fuels-Except-Motor-Fuels-for-Support-Activities-for-Transportation-All-Establishments-Employer-Firms"
+  "updated_at": "2014-09-10T14:03:58.042Z",
+  "urlize_name": "Commodity-Exports-Fish-Crustaceans-Molluscs-Aquatic-Invertebrates-Ne-Tuna-nes-fresh-or-chilled-whole-Tunisia"
 }

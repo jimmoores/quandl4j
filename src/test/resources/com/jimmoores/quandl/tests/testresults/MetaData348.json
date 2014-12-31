@@ -1,18 +1,22 @@
 {
-  "code": "GSP_SIC_ALL_P_MACHINERYMANUFACTURING_SOUTHEAST",
-  "column_names": [],
-  "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
-  "display_url": "http://bea.gov/regional",
+  "code": "CITY_GEYLANGCSINGAPORE",
+  "column_names": [
+    "Year",
+    "Population"
+  ],
+  "description": "City populations from previous censuses. Latest row may be an estimate.",
+  "display_url": "http://www.citypopulation.de/Singapore.html",
   "errors": {},
-  "frequency": null,
-  "from_date": null,
-  "id": 8202271,
-  "name": "Gross Operating Surplus (SIC): Machinery manufacturing - Southeast",
+  "frequency": "annual",
+  "from_date": "2000-06-30",
+  "id": 7994859,
+  "name": "Population of Geylang, C, Singapore",
+  "premium": false,
   "private": false,
-  "source_code": "BEA",
-  "source_name": "Bureau of Economic Analysis",
-  "to_date": null,
+  "source_code": "CITYPOP",
+  "source_name": "Thomas Brinkhoff: City Populations",
+  "to_date": "2010-06-30",
   "type": null,
-  "updated_at": "2013-09-13T01:43:28Z",
-  "urlize_name": "Gross-Operating-Surplus-SIC-Machinery-manufacturing-Southeast"
+  "updated_at": "2014-09-25T13:33:42.344Z",
+  "urlize_name": "Population-of-Geylang-C-Singapore"
 }

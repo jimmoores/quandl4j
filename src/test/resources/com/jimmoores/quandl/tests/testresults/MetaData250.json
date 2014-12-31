@@ -1,21 +1,22 @@
 {
-  "code": "ELEC_PLANT_CONS_EG_50406_SLW_ST_A",
+  "code": "RGC401_UF_CEARA_4_FILHOS_ABS",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Units=Tons. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_EG.50406-SLW-ST.A",
-  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_EG.50406-SLW-ST.A&out=xml",
+  "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
+  "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RGC401_UF_ABS.csv&categorias=%224%20filhos%22&localidade=Ceara",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2004-12-31",
-  "id": 4934891,
-  "name": "Electric Fuel Consumption Quantity : Somerset Plant : Sludge Waste : Steam Turbine : Annual",
+  "from_date": "2003-12-31",
+  "id": 6407190,
+  "name": "Population and Demographics: Marriage (marriages, separations, divorces) - Divorces granted - in 1st instance to childless couples with children under age - 4 children Federative Units - UF: Ceara. Datatype: Absolute",
+  "premium": false,
   "private": false,
-  "source_code": "EIA",
-  "source_name": "U.S. Energy Information Administration",
-  "to_date": "2012-12-31",
+  "source_code": "IBGE",
+  "source_name": "Brazilian Institute of Geography and Statistics",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-01-10T01:12:14Z",
-  "urlize_name": "Electric-Fuel-Consumption-Quantity-Somerset-Plant-Sludge-Waste-Steam-Turbine-Annual"
+  "updated_at": "2014-09-19T13:47:16.043Z",
+  "urlize_name": "Population-and-Demographics-Marriage-marriages-separations-divorces-Divorces-granted-in-1st-instance-to-childless-couples-with-children-under-age-4-children-Federative-Units-UF-Ceara-Datatype-Absolute"
 }

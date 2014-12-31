@@ -1,21 +1,22 @@
 {
-  "code": "EMP_TEMP_NB_SEX_F_AGE_5YRBANDS_TOTAL_ITA",
+  "code": "CTO_STOCKHOLDERSEQUITY_Q",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "SEC Name: StockholdersEquity",
+  "display_url": null,
   "errors": {},
   "frequency": "annual",
-  "from_date": "2001-12-31",
-  "id": 12583156,
-  "name": "Employment Women - Annual - Italy",
+  "from_date": "2008-12-31",
+  "id": 11269605,
+  "name": "CONSOLIDATED TOMOKA LAND CO  (CTO): Quarterly Stockholders Equity",
+  "premium": false,
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2013-12-31",
+  "source_code": "SEC",
+  "source_name": "Securities and Exchange Commission Filings",
+  "to_date": "2014-09-30",
   "type": null,
-  "updated_at": "2014-05-29T07:41:42Z",
-  "urlize_name": "Employment-Women-Annual-Italy"
+  "updated_at": "2014-11-19T22:23:50.985Z",
+  "urlize_name": "CONSOLIDATED-TOMOKA-LAND-CO-CTO-Quarterly-Stockholders-Equity"
 }

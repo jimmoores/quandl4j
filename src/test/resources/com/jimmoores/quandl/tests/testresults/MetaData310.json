@@ -1,23 +1,22 @@
 {
-  "code": "COMM_75_FOILOFREFINEDCOPPERNOTBACKEDT015MM_IMPORT_PAN",
+  "code": "POP_XWAP_NB_SEX_F_AGE_TOTAL_YGE15_EDU_AGGREGATE_TOTAL_HUN",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
+  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1995-12-31",
-  "id": 4315534,
-  "name": "Commodity Imports - Copper And Articles Thereof / Foil of refined copper, not backed, t < 0.15mm - Panama",
+  "from_date": "2001-12-31",
+  "id": 12656758,
+  "name": "Working-Age Population Women Ages 15+ - Annual - Hungary",
+  "premium": false,
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2011-12-31",
+  "source_code": "ILOSTAT",
+  "source_name": "ILOSTAT Database",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2013-03-06T18:43:21Z",
-  "urlize_name": "Commodity-Imports-Copper-And-Articles-Thereof-Foil-of-refined-copper-not-backed-t-0-15mm-Panama"
+  "updated_at": "2014-05-29T12:36:53.297Z",
+  "urlize_name": "Working-Age-Population-Women-Ages-15-Annual-Hungary"
 }

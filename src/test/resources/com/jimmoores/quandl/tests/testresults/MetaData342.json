@@ -1,28 +1,22 @@
 {
-  "code": "OJU2004",
+  "code": "AMD_UNRECOGNIZEDTAXBENEFITSINCOMETAXPENALTIESACCRUED_A",
   "column_names": [
     "Date",
-    "Open",
-    "High",
-    "Low",
-    "Last",
-    "Change",
-    "Settle",
-    "Volume",
-    "Prev. Day Open Interest"
+    "Value"
   ],
-  "description": "Historical Futures Prices: Orange Juice Futures, September 2004, OJU2004, Intercontinental Exchange (ICE) United States. Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
-  "display_url": "http://www.ofdp.org",
+  "description": "SEC Name: UnrecognizedTaxBenefitsIncomeTaxPenaltiesAccrued",
+  "display_url": null,
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2003-02-04",
-  "id": 10951825,
-  "name": "Orange Juice Futures, September 2004, OJU2004, ICE",
+  "frequency": "annual",
+  "from_date": "2009-12-26",
+  "id": 10075230,
+  "name": "ADVANCED MICRO DEVICES INC  (AMD): Annual Unrecognized Tax Benefits Income Tax Penalties Accrued",
+  "premium": false,
   "private": false,
-  "source_code": "CME",
-  "source_name": "Chigaco Mercantile Exchange",
-  "to_date": "2004-09-13",
+  "source_code": "SEC",
+  "source_name": "Securities and Exchange Commission Filings",
+  "to_date": "2013-12-28",
   "type": null,
-  "updated_at": "2014-04-11T14:31:39Z",
-  "urlize_name": "Orange-Juice-Futures-September-2004-OJU2004-ICE"
+  "updated_at": "2014-02-24T21:06:12.802Z",
+  "urlize_name": "ADVANCED-MICRO-DEVICES-INC-AMD-Annual-Unrecognized-Tax-Benefits-Income-Tax-Penalties-Accrued"
 }

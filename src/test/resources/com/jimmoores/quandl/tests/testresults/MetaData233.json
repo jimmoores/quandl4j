@@ -1,21 +1,22 @@
 {
-  "code": "ZIP_BOTTOMTIER_23464",
+  "code": "MZIP_PRICETORENTRATIO_ALLHOMES_48036",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of bottom tier homes within the zip code of 23464, Virginia Beach, VA. Bottom tier homes are the homes that fall into the bottom third of home values within the region. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
-  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_Zhvi_BottomTier.csv",
+  "description": "Median of the ratio between the sale price and the list price for all homes (e.g. if a home with a list price of $200k sells for $250k, its ratio would be 5:4 or 1.25). This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": "http://files.zillowstatic.com/research/public/Zip/Zip_PriceToRentRatio_AllHomes.csv",
   "errors": {},
   "frequency": "monthly",
-  "from_date": "1996-04-30",
-  "id": 6804056,
-  "name": "Zillow Home Value Index (Zip Codes): Bottom Tier Homes - 23464,Virginia Beach,VA",
+  "from_date": "2010-10-31",
+  "id": 7428529,
+  "name": "Zillow Metrics (Zip Codes): Price-to-Rent Ratio - 48036,Clinton Township,MI",
+  "premium": false,
   "private": false,
   "source_code": "ZILLOW",
   "source_name": "Zillow Real Estate Research",
-  "to_date": "2014-03-31",
+  "to_date": "2014-08-31",
   "type": null,
-  "updated_at": "2014-05-07T18:11:09Z",
-  "urlize_name": "Zillow-Home-Value-Index-Zip-Codes-Bottom-Tier-Homes-23464-Virginia-Beach-VA"
+  "updated_at": "2014-10-17T22:28:35.939Z",
+  "urlize_name": "Zillow-Metrics-Zip-Codes-Price-to-Rent-Ratio-48036-Clinton-Township-MI"
 }

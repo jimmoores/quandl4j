@@ -1,522 +1,437 @@
 {
-  "current_page": 184704,
+  "current_page": 88073,
   "docs": [
     {
-      "code": "POP_22_UGA_BTH_TOT_76",
-      "column_names": [
-        "Year",
-        "Number"
-      ],
-      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
-      "frequency": "annual",
-      "from_date": "1966-12-31",
-      "id": 2999753,
-      "name": "Population - Both Sexes / Age 76 / Total Areas - Uganda",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2002-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T08:12:00Z",
-      "urlize_name": "Population-Both-Sexes-Age-76-Total-Areas-Uganda"
-    },
-    {
-      "code": "COMM_4_ROCKLOBSTERANDOTHERSEACRAWFISHFROZEN_REEXPORT_ZWE",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 2823821,
-      "name": "Commodity Re-Exports - Fish, Crustaceans, Molluscs, Aquatic Invertebrates Ne / Rock lobster and other sea crawfish, frozen - Zimbabwe",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2008-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T11:30:38Z",
-      "urlize_name": "Commodity-Re-Exports-Fish-Crustaceans-Molluscs-Aquatic-Invertebrates-Ne-Rock-lobster-and-other-sea-crawfish-frozen-Zimbabwe"
-    },
-    {
-      "code": "COMM_19_CHOCOLATEANDOTHERFOODPREPSCONTAININGCOCOA2K_EXPORT_GMB",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1998-12-31",
-      "id": 2979192,
-      "name": "Commodity Exports - Cocoa And Cocoa Preparations / Chocolate and other food preps containing cocoa > 2 k - Gambia",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T11:34:06Z",
-      "urlize_name": "Commodity-Exports-Cocoa-And-Cocoa-Preparations-Chocolate-and-other-food-preps-containing-cocoa-2-k-Gambia"
-    },
-    {
-      "code": "COMM_9_ALMONDSINSHELLFRESHORDRIED_IMPORT_MNE",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 2883325,
-      "name": "Commodity Imports - Edible Fruit, Nuts, Peel Of Citrus Fruit, Melons / Almonds in shell fresh or dried - Montenegro",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T11:36:07Z",
-      "urlize_name": "Commodity-Imports-Edible-Fruit-Nuts-Peel-Of-Citrus-Fruit-Melons-Almonds-in-shell-fresh-or-dried-Montenegro"
-    },
-    {
-      "code": "INTG_PROCEEDSFROMSTOCKOPTIONSEXERCISED_Q",
+      "code": "ARS_EV_SALES",
       "column_names": [
         "Date",
-        "Value"
+        "EV To Sales Ratio"
       ],
-      "description": "SEC Name: ProceedsFromStockOptionsExercised",
+      "description": "This dataset is no longer being updated. See database home page for details.",
       "display_url": null,
-      "frequency": "daily",
-      "from_date": "2013-07-31",
-      "id": 10882254,
-      "name": "INTERGROUP CORP  (INTG): Quarterly Proceeds From Stock Options Exercised",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-07-31",
-      "type": null,
-      "updated_at": "2014-03-07T17:47:51Z",
-      "urlize_name": "INTERGROUP-CORP-INTG-Quarterly-Proceeds-From-Stock-Options-Exercised"
-    },
-    {
-      "code": "TBE_EMORTEXCTBHIVNUM_IDN",
-      "column_names": [
-        "Year",
-        "Value"
-      ],
-      "description": "This includes WHO-generated estimates of TB mortality, prevalence, incidence (including incidence of HIV+TB) and case detection rate.",
-      "display_url": "https://extranet.who.int/tme/generateCSV.asp?ds=estimates",
-      "frequency": "annual",
-      "from_date": "1990-12-31",
-      "id": 8241252,
-      "name": "Tuberculosis Burden Estimates: Estimated number of deaths from TB (all forms, excluding HIV) - Indonesia",
-      "private": false,
-      "source_code": "WHO_TB",
-      "source_name": "World Health Organization (TB)",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-11T06:47:07Z",
-      "urlize_name": "Tuberculosis-Burden-Estimates-Estimated-number-of-deaths-from-TB-all-forms-excluding-HIV-Indonesia"
-    },
-    {
-      "code": "EIA_TOTALOILSUPPLY_M_BANGLADESH195",
-      "column_names": [
-        "Month",
-        "Thousand Barrels Per Day"
-      ],
-      "description": "Units=Thousand Barrels Per Day. The U.S. Energy Information Administration (EIA) collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA provides a wide range of information and data products covering energy production, stocks, demand, imports, exports, and prices; and prepares analyses and special reports on topics of current interest.",
-      "display_url": "http://www.eia.gov/cfapps/ipdbproject/XMLinclude_3.cfm?tid=50&pid=53&mpid=00&aid=1&cid=&titleStr=Total%20Oil%20Supply%20(Thousand%20Barrels%20Per%20Day)&syid=2008&eyid=2012&form=&freq=M&defaultid=3",
-      "frequency": "monthly",
-      "from_date": "2008-01-31",
-      "id": 2316648,
-      "name": "Total Oil Supply - Bangladesh",
-      "private": false,
-      "source_code": "DOE",
-      "source_name": "US Department of Energy",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-08T09:57:43Z",
-      "urlize_name": "Total-Oil-Supply-Bangladesh"
-    },
-    {
-      "code": "640108_A2331761F",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/AUSSTATS/ABS@Archive.nsf/log?openagent&640108.xls&6470.0&Time%20Series%20Spreadsheet&D604CD225FC16376CA257912001713BE&0&2011&22.09.2011&Latest",
-      "frequency": "quarterly",
-      "from_date": "1989-09-30",
-      "id": 7928388,
-      "name": "Group, Sub-group and Expenditure Class, Index Numbers by Capital City: Index Numbers ;  Waters, soft drinks and juices ;  Adelaide ; (Index Numbers)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "2013-03-31",
-      "type": null,
-      "updated_at": "2013-07-14T02:17:12Z",
-      "urlize_name": "Group-Sub-group-and-Expenditure-Class-Index-Numbers-by-Capital-City-Index-Numbers-Waters-soft-drinks-and-juices-Adelaide-Index-Numbers"
-    },
-    {
-      "code": "COMM_10_CAPSICUMORPIMENTADRIEDCRUSHEDORGROUND_EXPORT_HND",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1994-12-31",
-      "id": 2896320,
-      "name": "Commodity Exports - Coffee, Tea, Mate And Spices / Capsicum or Pimenta, dried, crushed or ground - Honduras",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2012-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T21:08:03Z",
-      "urlize_name": "Commodity-Exports-Coffee-Tea-Mate-And-Spices-Capsicum-or-Pimenta-dried-crushed-or-ground-Honduras"
-    },
-    {
-      "code": "COMM_21_ORANGEJUICEFROZENNOTFERMENTEDORSPIRITED_IMPORT_GUF",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1994-12-31",
-      "id": 2997839,
-      "name": "Commodity Imports - Vegetable, Fruit, Nut, Etc Food Preparations / Orange juice, frozen, not fermented or spirited - French Guiana",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "1995-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T08:12:00Z",
-      "urlize_name": "Commodity-Imports-Vegetable-Fruit-Nut-Etc-Food-Preparations-Orange-juice-frozen-not-fermented-or-spirited-French-Guiana"
-    },
-    {
-      "code": "640108_A2327576A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/AUSSTATS/ABS@Archive.nsf/log?openagent&640108.xls&6470.0&Time%20Series%20Spreadsheet&D604CD225FC16376CA257912001713BE&0&2011&22.09.2011&Latest",
-      "frequency": "quarterly",
-      "from_date": "1980-09-30",
-      "id": 7928391,
-      "name": "Group, Sub-group and Expenditure Class, Index Numbers by Capital City: Index Numbers ;  Take away and fast foods ;  Adelaide ; (Index Numbers)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "2013-03-31",
-      "type": null,
-      "updated_at": "2013-07-14T02:20:43Z",
-      "urlize_name": "Group-Sub-group-and-Expenditure-Class-Index-Numbers-by-Capital-City-Index-Numbers-Take-away-and-fast-foods-Adelaide-Index-Numbers"
-    },
-    {
-      "code": "640108_A2326721T",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-      "display_url": "http://www.abs.gov.au/AUSSTATS/ABS@Archive.nsf/log?openagent&640108.xls&6470.0&Time%20Series%20Spreadsheet&D604CD225FC16376CA257912001713BE&0&2011&22.09.2011&Latest",
-      "frequency": "quarterly",
-      "from_date": "1972-09-30",
-      "id": 7928393,
-      "name": "Group, Sub-group and Expenditure Class, Index Numbers by Capital City: Index Numbers ;  Alcoholic beverages ;  Adelaide ; (Index Numbers)",
-      "private": false,
-      "source_code": "AUSBS",
-      "source_name": "Australian Bureau of Statistics",
-      "to_date": "2013-03-31",
-      "type": null,
-      "updated_at": "2013-07-14T02:18:23Z",
-      "urlize_name": "Group-Sub-group-and-Expenditure-Class-Index-Numbers-by-Capital-City-Index-Numbers-Alcoholic-beverages-Adelaide-Index-Numbers"
-    },
-    {
-      "code": "USA_NET_MARG",
-      "column_names": [
-        "Date",
-        "Net Margin"
-      ],
-      "description": "Estimated by dividing the net income by the total revenues. Units: %. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 5483575,
-      "name": "Liberty All-Star ( USA ) - Net Margin",
-      "private": false,
-      "source_code": "DMDRN",
-      "source_name": "Damodaran Financial Data",
-      "to_date": "2000-12-31",
-      "type": null,
-      "updated_at": "2014-03-14T03:11:55Z",
-      "urlize_name": "Liberty-All-Star-USA-Net-Margin"
-    },
-    {
-      "code": "CDI_INCREASEDECREASEINACCRUEDINCOMETAXESPAYABLE_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: IncreaseDecreaseInAccruedIncomeTaxesPayable",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2011-12-31",
-      "id": 10971531,
-      "name": "CDI CORP  (CDI): Annual Increase Decrease In Accrued Income Taxes Payable",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-03-11T22:55:26Z",
-      "urlize_name": "CDI-CORP-CDI-Annual-Increase-Decrease-In-Accrued-Income-Taxes-Payable"
-    },
-    {
-      "code": "SMU48191005552410001A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Thousands of Persons Not Seasonally Adjusted ",
-      "display_url": "http://research.stlouisfed.org/fred2/data/SMU48191005552410001A.csv",
-      "frequency": "annual",
-      "from_date": "1990-01-01",
-      "id": 10972726,
-      "name": "All Employees: Financial Activities: Insurance Carriers in Dallas-Fort Worth-Arlington, TX (MSA)",
-      "private": false,
-      "source_code": "FRED",
-      "source_name": "Federal Reserve Economic Data",
-      "to_date": "2012-01-01",
-      "type": null,
-      "updated_at": "2014-03-11T22:46:12Z",
-      "urlize_name": "All-Employees-Financial-Activities-Insurance-Carriers-in-Dallas-Fort-Worth-Arlington-TX-MSA"
-    },
-    {
-      "code": "POP_22_TUR_MAL_RUR_87",
-      "column_names": [
-        "Year",
-        "Number"
-      ],
-      "description": "The United Nations Demographic Yearbook collects, compiles and disseminates official statistics on a wide range of topics. Data have been collected from national statistical authorities since 1948 through a set of questionnaires dispatched annually by the United Nations Statistics Division to over 230 national statistical offices. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce on an annual basis. Demographic Yearbook special topics issues cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing, ethnicity and language, among others.",
-      "display_url": "http://unstats.un.org/unsd/demographic/products/dyb/dybcensusdata.htm",
-      "frequency": "annual",
-      "from_date": "2000-12-31",
-      "id": 2995182,
-      "name": "Population - Male / Age 87 / Rural Areas - Turkey",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2000-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T08:12:00Z",
-      "urlize_name": "Population-Male-Age-87-Rural-Areas-Turkey"
-    },
-    {
-      "code": "INTG_ALLOWANCEFORDOUBTFULACCOUNTSRECEIVABLE_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: AllowanceForDoubtfulAccountsReceivable",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2012-06-30",
-      "id": 10882260,
-      "name": "INTERGROUP CORP  (INTG): Quarterly Allowance For Doubtful Accounts Receivable",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-06-30",
-      "type": null,
-      "updated_at": "2014-03-07T17:47:52Z",
-      "urlize_name": "INTERGROUP-CORP-INTG-Quarterly-Allowance-For-Doubtful-Accounts-Receivable"
-    },
-    {
-      "code": "EIP_TEIP_NB_SEX_F_EDU_AGGREGATE_TOTAL_BGR",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
-      "frequency": "annual",
-      "from_date": "2001-12-31",
-      "id": 12530034,
-      "name": "Working Age Population Outside The Labour Force Women - Annual - Bulgaria",
-      "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2013-12-31",
-      "type": null,
-      "updated_at": "2014-05-29T04:00:28Z",
-      "urlize_name": "Working-Age-Population-Outside-The-Labour-Force-Women-Annual-Bulgaria"
-    },
-    {
-      "code": "FAO_5204CENTRALAMERICATOTAL391PASTEOFTOMATOES",
-      "column_names": [
-        "Year",
-        "Import Quantity (tonnes)",
-        "Import Value (1000 US$)",
-        "Export Quantity (tonnes)",
-        "Export Value (1000 US$)"
-      ],
-      "description": "The Agricultural Trade domain covers detailed food and agriculture trade data: Export/Import quantity, Export/Import unit value, Export/Import Value, Trade matrix. The Trade module provides comprehensive, comparable and up-to-date annual trade statistics by country, region and economic country groups for about 600 individual food and agriculture commodities since 1961.",
-      "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Trade_Crops_Livestock_E_All_Area_Groups_1.zip",
-      "frequency": "annual",
-      "from_date": "1961-12-31",
-      "id": 7747801,
-      "name": "Trade Crops Livestock: Paste of Tomatoes - Central America + (Total)",
-      "private": false,
-      "source_code": "FAO",
-      "source_name": "Food and Agriculture Organization of the United Nations",
-      "to_date": "2009-12-31",
-      "type": null,
-      "updated_at": "2013-07-27T06:44:39Z",
-      "urlize_name": "Trade-Crops-Livestock-Paste-of-Tomatoes-Central-America-Total"
-    },
-    {
-      "code": "RGC409_GR_NORTE_75_ANOS_OU_MAIS_PERC",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
-      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RGC409_GR_PERC.csv&categorias=%2275%20anos%20ou%20mais%22&localidade=Norte",
       "frequency": "annual",
       "from_date": "2003-12-31",
-      "id": 6409181,
-      "name": "Population and Demographics: Marriage (marriages, separations, divorces) - Divorces granted - by age of women - 1st instance - 75 years or more Major Regions: North. Datatype: Relative",
+      "id": 4087756,
+      "name": "Aleris International Inc ( ARS ) - EV To Sales Ratio",
+      "premium": false,
       "private": false,
-      "source_code": "IBGE",
-      "source_name": "Brazilian Institute of Geography and Statistics",
-      "to_date": "2011-12-31",
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2005-12-31",
       "type": null,
-      "updated_at": "2014-01-13T04:51:48Z",
-      "urlize_name": "Population-and-Demographics-Marriage-marriages-separations-divorces-Divorces-granted-by-age-of-women-1st-instance-75-years-or-more-Major-Regions-North-Datatype-Relative"
+      "updated_at": "2014-12-17T17:25:47.291Z",
+      "urlize_name": "Aleris-International-Inc-ARS-EV-To-Sales-Ratio"
+    },
+    {
+      "code": "BKH_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2000-01-28",
+      "id": 4087759,
+      "name": "Black Hills Corp. ( BKH ) - Free Cash Flow to Firm",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2013-01-28",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:47.715Z",
+      "urlize_name": "Black-Hills-Corp-BKH-Free-Cash-Flow-to-Firm"
+    },
+    {
+      "code": "ARS_EV_SALESTR",
+      "column_names": [
+        "Date",
+        "EV to Trailing Sales Ratio"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4087761,
+      "name": "Aleris International Inc ( ARS ) - EV to Trailing Sales Ratio",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:47.783Z",
+      "urlize_name": "Aleris-International-Inc-ARS-EV-to-Trailing-Sales-Ratio"
+    },
+    {
+      "code": "CDWI_EV_SALES",
+      "column_names": [
+        "Date",
+        "EV To Sales Ratio"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4087765,
+      "name": "CD Wholesale ( CDWI ) - EV To Sales Ratio",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:47.834Z",
+      "urlize_name": "CD-Wholesale-CDWI-EV-To-Sales-Ratio"
+    },
+    {
+      "code": "ARS_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4087766,
+      "name": "Aleris International Inc ( ARS ) - Free Cash Flow to Firm",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:47.892Z",
+      "urlize_name": "Aleris-International-Inc-ARS-Free-Cash-Flow-to-Firm"
+    },
+    {
+      "code": "CDWI_FCFF",
+      "column_names": [
+        "Date",
+        "Free Cash Flow to Firm"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4087769,
+      "name": "CD Wholesale ( CDWI ) - Free Cash Flow to Firm",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:47.943Z",
+      "urlize_name": "CD-Wholesale-CDWI-Free-Cash-Flow-to-Firm"
+    },
+    {
+      "code": "BKH_FIRM_VAL",
+      "column_names": [
+        "Date",
+        "Firm Value"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2000-01-28",
+      "id": 4087771,
+      "name": "Black Hills Corp. ( BKH ) - Firm Value",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2013-01-28",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:48.000Z",
+      "urlize_name": "Black-Hills-Corp-BKH-Firm-Value"
+    },
+    {
+      "code": "BKH_FIXED_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Fixed Assets to Total Assets"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2000-01-28",
+      "id": 4087775,
+      "name": "Black Hills Corp. ( BKH ) - Ratio of Fixed Assets to Total Assets",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2012-01-28",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:48.055Z",
+      "urlize_name": "Black-Hills-Corp-BKH-Ratio-of-Fixed-Assets-to-Total-Assets"
+    },
+    {
+      "code": "CDWI_FIRM_VAL",
+      "column_names": [
+        "Date",
+        "Firm Value"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4087778,
+      "name": "CD Wholesale ( CDWI ) - Firm Value",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:48.128Z",
+      "urlize_name": "CD-Wholesale-CDWI-Firm-Value"
+    },
+    {
+      "code": "ARS_FIRM_VAL",
+      "column_names": [
+        "Date",
+        "Firm Value"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4087779,
+      "name": "Aleris International Inc ( ARS ) - Firm Value",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:48.196Z",
+      "urlize_name": "Aleris-International-Inc-ARS-Firm-Value"
+    },
+    {
+      "code": "CDWI_FIXED_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Fixed Assets to Total Assets"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4087784,
+      "name": "CD Wholesale ( CDWI ) - Ratio of Fixed Assets to Total Assets",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:48.288Z",
+      "urlize_name": "CD-Wholesale-CDWI-Ratio-of-Fixed-Assets-to-Total-Assets"
+    },
+    {
+      "code": "BKH_EPS_FWD",
+      "column_names": [
+        "Date",
+        "Forward Earnings Per Share"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2002-01-28",
+      "id": 4087785,
+      "name": "Black Hills Corp. ( BKH ) - Forward Earnings Per Share",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2012-01-28",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:48.368Z",
+      "urlize_name": "Black-Hills-Corp-BKH-Forward-Earnings-Per-Share"
+    },
+    {
+      "code": "ARS_FIXED_TOT",
+      "column_names": [
+        "Date",
+        "Ratio of Fixed Assets to Total Assets"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4087786,
+      "name": "Aleris International Inc ( ARS ) - Ratio of Fixed Assets to Total Assets",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:48.452Z",
+      "urlize_name": "Aleris-International-Inc-ARS-Ratio-of-Fixed-Assets-to-Total-Assets"
+    },
+    {
+      "code": "CDWI_REV_GRO",
+      "column_names": [
+        "Date",
+        "Previous Year Growth in Revenues"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4087790,
+      "name": "CD Wholesale ( CDWI ) - Previous Year Growth in Revenues",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:48.510Z",
+      "urlize_name": "CD-Wholesale-CDWI-Previous-Year-Growth-in-Revenues"
+    },
+    {
+      "code": "BKH_PE_FWD",
+      "column_names": [
+        "Date",
+        "Forward PE Ratio"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2001-01-28",
+      "id": 4087791,
+      "name": "Black Hills Corp. ( BKH ) - Forward PE Ratio",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2013-01-28",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:48.563Z",
+      "urlize_name": "Black-Hills-Corp-BKH-Forward-PE-Ratio"
+    },
+    {
+      "code": "ARS_EPS_GRO",
+      "column_names": [
+        "Date",
+        "Growth in Earnings Per Share"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4087795,
+      "name": "Aleris International Inc ( ARS ) - Growth in Earnings Per Share",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:48.621Z",
+      "urlize_name": "Aleris-International-Inc-ARS-Growth-in-Earnings-Per-Share"
+    },
+    {
+      "code": "CDWI_INSIDER",
+      "column_names": [
+        "Date",
+        "Insider Holdings"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2002-12-31",
+      "id": 4087796,
+      "name": "CD Wholesale ( CDWI ) - Insider Holdings",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2002-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:48.705Z",
+      "urlize_name": "CD-Wholesale-CDWI-Insider-Holdings"
+    },
+    {
+      "code": "BKH_EPS_GRO",
+      "column_names": [
+        "Date",
+        "Growth in Earnings Per Share"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2002-01-28",
+      "id": 4087799,
+      "name": "Black Hills Corp. ( BKH ) - Growth in Earnings Per Share",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2012-01-28",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:48.784Z",
+      "urlize_name": "Black-Hills-Corp-BKH-Growth-in-Earnings-Per-Share"
+    },
+    {
+      "code": "ARS_REV_GRO",
+      "column_names": [
+        "Date",
+        "Previous Year Growth in Revenues"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4087800,
+      "name": "Aleris International Inc ( ARS ) - Previous Year Growth in Revenues",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2005-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:49.213Z",
+      "urlize_name": "Aleris-International-Inc-ARS-Previous-Year-Growth-in-Revenues"
+    },
+    {
+      "code": "ARS_HILO",
+      "column_names": [
+        "Date",
+        "Hi-Lo Risk"
+      ],
+      "description": "This dataset is no longer being updated. See database home page for details.",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2003-12-31",
+      "id": 4087805,
+      "name": "Aleris International Inc ( ARS ) - Hi-Lo Risk",
+      "premium": false,
+      "private": false,
+      "source_code": "DMDRN",
+      "source_name": "Financial Ratios",
+      "to_date": "2003-12-31",
+      "type": null,
+      "updated_at": "2014-12-17T17:25:49.308Z",
+      "urlize_name": "Aleris-International-Inc-ARS-Hi-Lo-Risk"
     }
   ],
   "per_page": 20,
-  "sources": [
-    {
-      "code": "DMDRN",
-      "concurrency": 20,
-      "datasets_count": 0,
-      "description": "",
-      "host": "pages.stern.nyu.edu/~adamodar/",
-      "id": 6946,
-      "name": "Damodaran Financial Data",
-      "use_proxy": false
-    },
-    {
-      "code": "WHO_TB",
-      "concurrency": 20,
-      "datasets_count": 0,
-      "description": "No description for this source yet",
-      "host": "extranet.who.int",
-      "id": 1192,
-      "name": "World Health Organization (TB)",
-      "use_proxy": false
-    },
-    {
-      "code": "FAO",
-      "concurrency": 20,
-      "datasets_count": 0,
-      "description": "No description for this source yet",
-      "host": "faostat3.fao.org",
-      "id": 863,
-      "name": "Food and Agriculture Organization of the United Nations",
-      "use_proxy": false
-    },
-    {
-      "code": "DOE",
-      "concurrency": 20,
-      "datasets_count": 11923,
-      "description": "Governmental department whose mission is to advance energy technology and promote related innovation in the United States.",
-      "host": "www.eia.gov",
-      "id": 43,
-      "name": "US Department of Energy",
-      "use_proxy": false
-    },
-    {
-      "code": "UN",
-      "concurrency": 10000,
-      "datasets_count": 2100274,
-      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
-      "host": "data.un.org",
-      "id": 488,
-      "name": "United Nations",
-      "use_proxy": false
-    },
-    {
-      "code": "SEC",
-      "concurrency": 20,
-      "datasets_count": 4867,
-      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
-      "host": "www.sec.gov",
-      "id": 651,
-      "name": "U.S. Securities and Exchange Commission",
-      "use_proxy": false
-    },
-    {
-      "code": "IBGE",
-      "concurrency": 20,
-      "datasets_count": 110418,
-      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
-      "host": "seriesestatisticas.ibge.gov.br",
-      "id": 725,
-      "name": "Brazilian Institute of Geography and Statistics",
-      "use_proxy": false
-    },
-    {
-      "code": "AUSBS",
-      "concurrency": 10,
-      "datasets_count": 5239,
-      "description": "Australia\u2019s official statistical organisation, the Australian Bureau of Statistics (ABS) is committed to a better informed Australia.",
-      "host": "www.abs.gov.au/",
-      "id": 719,
-      "name": "Australian Bureau of Statistics",
-      "use_proxy": false
-    },
-    {
-      "code": "ILOSTAT",
-      "concurrency": 20,
-      "datasets_count": 0,
-      "description": "No description for this source yet",
-      "host": "ilo.org2",
-      "id": 10437,
-      "name": "ILOSTAT Database",
-      "use_proxy": false
-    },
-    {
-      "code": "FRED",
-      "concurrency": 8,
-      "datasets_count": 60949,
-      "description": "The Federal Reserve Bank of St. Louis was established in 1914, after the creation of the Federal Reserve System in 1913. The Eighth Federal Reserve District is headquartered in St. Louis and has branches in Little Rock, Ark., Louisville, Ky., and Memphis, Tenn.",
-      "host": "www.research.stlouisfed.org",
-      "id": 118,
-      "name": "Federal Reserve Economic Data",
-      "use_proxy": false
-    }
-  ],
-  "total_count": 10148784
+  "sources": [{
+    "code": "DMDRN",
+    "datasets_count": 878156,
+    "description": "Fundamental indicators and financial ratios for 10000 US companies. No longer updated due to legal injunction.",
+    "host": "pages.stern.nyu.edu/~adamodar/",
+    "id": 6946,
+    "name": "Financial Ratios",
+    "premium": false,
+    "subscribed": false
+  }],
+  "total_count": 12140935
 }

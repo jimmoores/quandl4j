@@ -1,21 +1,22 @@
 {
-  "code": "5206028_SFD_NT_A2298530V",
+  "code": "ARLP_ASSETSACQUIREDBYCAPITALLEASE_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "The ABS provides a comprehensive statistical service relevant to Australia. This service provides timely, accurate and objective statistics for use by government, industry and the community. The ABS collects, compiles and disseminates data on all major economic fields. Government and industry use this economic data to understand trends in the Australian economy, identify drivers of economic growth, evaluate economic performance, and for the formulation and assessment of economic policy.",
-  "display_url": "http://www.abs.gov.au/ausstats/meisubs.NSF/log?openagent&5206028_sfd_nt.xls&5206.0&Time%20Series%20Spreadsheet&36EEDE50ACF02743CA257B800013293E&0&Mar%202013&05.06.2013&Latest",
+  "description": "SEC Name: AssetsAcquiredByCapitalLease",
+  "display_url": null,
   "errors": {},
-  "frequency": "quarterly",
-  "from_date": "1985-09-30",
-  "id": 7742486,
-  "name": "State Final Demand, Detailed Components: Northern Territory: Private ;  Gross fixed capital formation - Non-dwelling construction - New building: Chain volume measures ; ($ Millions)",
+  "frequency": "daily",
+  "from_date": "2011-12-31",
+  "id": 10535242,
+  "name": "ALLIANCE RESOURCE PARTNERS LP  (ARLP): Annual Assets Acquired By Capital Lease",
+  "premium": false,
   "private": false,
-  "source_code": "AUSBS",
-  "source_name": "Australian Bureau of Statistics",
-  "to_date": "2012-03-31",
+  "source_code": "SEC",
+  "source_name": "Securities and Exchange Commission Filings",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-06-03T20:18:19Z",
-  "urlize_name": "State-Final-Demand-Detailed-Components-Northern-Territory-Private-Gross-fixed-capital-formation-Non-dwelling-construction-New-building-Chain-volume-measures-Millions"
+  "updated_at": "2014-03-12T01:06:41.769Z",
+  "urlize_name": "ALLIANCE-RESOURCE-PARTNERS-LP-ARLP-Annual-Assets-Acquired-By-Capital-Lease"
 }

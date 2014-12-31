@@ -1,21 +1,22 @@
 {
-  "code": "WFSC_CASH",
+  "code": "HEALTH_REAC_HEDUNUGR_RTOALLNB_ITA",
   "column_names": [
     "Date",
-    "Cash"
+    "Value"
   ],
-  "description": "Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "http://stats.oecd.org/wbos/fileview2.aspx?IDFile=80130ebd-5f8d-482f-9613-2891b0fc0fcf. The database includes key indicators covering Health status, Health resources and utilisation: Life expectancy, Maternal and infant mortality, Health employment, In-patient beds, Medical technology, Immunisation, Average length of stay, Discharges, Surgical procedures, and Transplants and dialyses. Indicators on Health expenditure include Total expenditure on health, Prevention and public health, Expenditure on in-patient care, Expenditure on out-patient care, Expenditure on home care, Pharmaceuticals and other medical non-durables, Therapeutic appliances and other medical durables, Current health expenditure by provider, along with data on Health expenditure by financing agent/scheme..",
+  "display_url": "http://stats.oecd.org/restsdmx/sdmx.ashx/GetData/HEALTH_REAC/HEDUNUGR.RTOALLNB.ITA/OECD?startTime=1986&endTime=2020",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2000-12-31",
-  "id": 5566813,
-  "name": "Weststar Financial Services Co ( WFSC ) - Cash",
+  "from_date": "1997-12-31",
+  "id": 1981547,
+  "name": "Italy Graduates Nursing Graduates Per 100 000 Population",
+  "premium": false,
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2012-12-31",
+  "source_code": "OECD",
+  "source_name": "Organisation for Economic Co-operation and Development",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-03-21T19:53:27Z",
-  "urlize_name": "Weststar-Financial-Services-Co-WFSC-Cash"
+  "updated_at": "2013-12-29T07:30:56.047Z",
+  "urlize_name": "Italy-Graduates-Nursing-Graduates-Per-100-000-Population"
 }

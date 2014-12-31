@@ -1,471 +1,489 @@
 {
-  "current_page": 257881,
+  "current_page": 137834,
   "docs": [
     {
-      "code": "UBSH_COMMONSTOCKSHARESISSUED_Q",
+      "code": "ELEC_PLANT_CONS_TOT_2720_WDS_ST_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "SEC Name: CommonStockSharesIssued",
-      "display_url": null,
-      "frequency": "quarterly",
-      "from_date": "2010-06-30",
-      "id": 10375738,
-      "name": "UNION FIRST MARKET BANKSHARES CORP  (UBSH): Quarterly Common Stock Shares Issued",
+      "description": "Units=Tons. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.2720-WDS-ST.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.2720-WDS-ST.A&out=xml",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 4889410,
+      "name": "Fuel Consumption Quantity : Buck : Wood/wood Waste Solids : Steam Turbine : Annual",
+      "premium": false,
       "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-09-30",
-      "type": null,
-      "updated_at": "2014-03-06T22:31:37Z",
-      "urlize_name": "UNION-FIRST-MARKET-BANKSHARES-CORP-UBSH-Quarterly-Common-Stock-Shares-Issued"
-    },
-    {
-      "code": "ESA_Q_DE_S_1000_COMPHW_0000_YJ_K_V_N_I",
-      "column_names": [
-        "Date",
-        "No base reference"
-      ],
-      "description": " Germany - Hourly Compensation: financial intermediation, Current prices, National currency, Seasonally adjusted, not working day adjusted, Index , :, Dataset:ESA : ESA95 National Accounts Explanation page (Series and Dataset Level Information), Reference area:Germany (DE), Decimals:Two (2), Collection indicator:Average of observations through period (A), Compilation:$REBASE(ESA.Q.DE.S.1000.COMPHW.0000.YJ_K.V.N.A,2005)",
-      "display_url": "http://sdw.ecb.europa.eu/export.do?node=2120785&SERIES_KEY=119.ESA.Q.DE.S.1000.COMPHW.0000.YJ_K.V.N.I&exportType=sdmx",
-      "frequency": "quarterly",
-      "from_date": "1991-03-31",
-      "id": 11478523,
-      "name": "Germany Hourly Compensation: financial intermediation, Current prices, National currency, Seasonally adjusted, not working day adjusted, Index",
-      "private": false,
-      "source_code": "ECB",
-      "source_name": "European Central Bank",
-      "to_date": "2011-03-31",
-      "type": null,
-      "updated_at": "2014-04-30T20:45:11Z",
-      "urlize_name": "Germany-Hourly-Compensation-financial-intermediation-Current-prices-National-currency-Seasonally-adjusted-not-working-day-adjusted-Index"
-    },
-    {
-      "code": "EES_TEES_NB_SEX_T_ECO_ISIC3_C_M_EST",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
-      "frequency": "monthly",
-      "from_date": "2002-08-31",
-      "id": 12461576,
-      "name": "Employees In C. Mining And Quarrying - Monthly - Estonia",
-      "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
-      "to_date": "2007-11-30",
-      "type": null,
-      "updated_at": "2014-05-28T23:52:26Z",
-      "urlize_name": "Employees-In-C-Mining-And-Quarrying-Monthly-Estonia"
-    },
-    {
-      "code": "EMP_DWAP_RT_SEX_F_AGE_5YRBANDS_Y45_49_Q_HUN",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-      "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
-      "frequency": "monthly",
-      "from_date": "2001-03-31",
-      "id": 12552145,
-      "name": "Employment-To-Population Ratio Women Ages 45-49 - Quarterly - Hungary",
-      "private": false,
-      "source_code": "ILOSTAT",
-      "source_name": "ILOSTAT Database",
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration Data",
       "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-05-30T06:15:30Z",
-      "urlize_name": "Employment-To-Population-Ratio-Women-Ages-45-49-Quarterly-Hungary"
+      "updated_at": "2014-09-22T21:28:31.661Z",
+      "urlize_name": "Fuel-Consumption-Quantity-Buck-Wood-wood-Waste-Solids-Steam-Turbine-Annual"
     },
     {
-      "code": "AEY_DEFERREDTAXASSETSACCOUNTSRECEIVABLE_A",
+      "code": "ADS_UNRECOGNIZEDTAXBENEFITSINCREASESRESULTINGFROMPRIORPERIODTAXPOSITIONS_A",
       "column_names": [
         "Date",
         "Value"
       ],
-      "description": "SEC Name: DeferredTaxAssetsAccountsReceivable",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2011-09-30",
-      "id": 9983230,
-      "name": "ADDVANTAGE TECHNOLOGIES GROUP INC  (AEY): Annual Deferred Tax Assets Accounts Receivable",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-09-30",
-      "type": null,
-      "updated_at": "2014-02-19T19:18:45Z",
-      "urlize_name": "ADDVANTAGE-TECHNOLOGIES-GROUP-INC-AEY-Annual-Deferred-Tax-Assets-Accounts-Receivable"
-    },
-    {
-      "code": "AEY_ACCRUALFORTAXESOTHERTHANINCOMETAXESCURRENT_Q",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: AccrualForTaxesOtherThanIncomeTaxesCurrent",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2011-09-30",
-      "id": 9983243,
-      "name": "ADDVANTAGE TECHNOLOGIES GROUP INC  (AEY): Quarterly Accrual For Taxes Other Than Income Taxes Current",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-09-30",
-      "type": null,
-      "updated_at": "2014-02-19T19:18:47Z",
-      "urlize_name": "ADDVANTAGE-TECHNOLOGIES-GROUP-INC-AEY-Quarterly-Accrual-For-Taxes-Other-Than-Income-Taxes-Current"
-    },
-    {
-      "code": "AEY_SALESREVENUEGOODSNET_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: SalesRevenueGoodsNet",
+      "description": "SEC Name: UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions",
       "display_url": null,
       "frequency": "daily",
-      "from_date": "2011-09-30",
-      "id": 9983150,
-      "name": "ADDVANTAGE TECHNOLOGIES GROUP INC  (AEY): Annual Sales Revenue Goods Net",
+      "from_date": "2011-12-31",
+      "id": 9967192,
+      "name": "ALLIANCE DATA SYSTEMS CORP  (ADS): Annual Unrecognized Tax Benefits Increases Resulting From Prior Period Tax Positions",
+      "premium": false,
       "private": false,
       "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-09-30",
-      "type": null,
-      "updated_at": "2014-02-19T19:19:17Z",
-      "urlize_name": "ADDVANTAGE-TECHNOLOGIES-GROUP-INC-AEY-Annual-Sales-Revenue-Goods-Net"
-    },
-    {
-      "code": "COMM_64_USEDORNEWRAGSTEXTILEMATERIALNOTSORTED_EXPORT_US2",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "1994-12-31",
-      "id": 4012919,
-      "name": "Commodity Exports - Other Made Textile Articles, Sets, Worn Clothing Etc / Used or new rags textile material, not sorted - United States of America (after 1980 - incl. VI)",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
+      "source_name": "Securities and Exchange Commission Filings",
       "to_date": "2012-12-31",
       "type": null,
-      "updated_at": "2014-01-10T14:37:43Z",
-      "urlize_name": "Commodity-Exports-Other-Made-Textile-Articles-Sets-Worn-Clothing-Etc-Used-or-new-rags-textile-material-not-sorted-United-States-of-America-after-1980-incl-VI"
+      "updated_at": "2014-02-19T17:40:13.648Z",
+      "urlize_name": "ALLIANCE-DATA-SYSTEMS-CORP-ADS-Annual-Unrecognized-Tax-Benefits-Increases-Resulting-From-Prior-Period-Tax-Positions"
     },
     {
-      "code": "RGC409_RM_SALVADOR_BA_30_A_34_ANOS_ABS",
+      "code": "DEBTSEC_QCAG11AAATO13PCU",
       "column_names": [
-        "Date",
-        "Value"
+        "Quarter",
+        "USD Billions"
       ],
-      "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
-      "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RGC409_RM_ABS.csv&categorias=%2230%20a%2034%20anos%22&localidade=Salvador%20-%20BA",
-      "frequency": "annual",
-      "from_date": "2003-12-31",
-      "id": 6410312,
-      "name": "Population and Demographics: Marriage (marriages, separations, divorces) - Divorces granted - by age of women - 1st instance - 30 to 34 Metropolitan Areas: Savior - BA. Datatype: Absolute",
-      "private": false,
-      "source_code": "IBGE",
-      "source_name": "Brazilian Institute of Geography and Statistics",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T23:10:27Z",
-      "urlize_name": "Population-and-Demographics-Marriage-marriages-separations-divorces-Divorces-granted-by-age-of-women-1st-instance-30-to-34-Metropolitan-Areas-Savior-BA-Datatype-Absolute"
-    },
-    {
-      "code": "IDC_BUSINESSCOMBINATIONTRANSACTIONCOST_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: BusinessCombinationTransactionCost",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2010-12-31",
-      "id": 10737079,
-      "name": "INTERACTIVE DATA CORP/MA/  (IDC): Annual Business Combination Transaction Cost",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-03-07T11:14:11Z",
-      "urlize_name": "INTERACTIVE-DATA-CORP-MA-IDC-Annual-Business-Combination-Transaction-Cost"
-    },
-    {
-      "code": "AEY_ASSETS_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: Assets",
-      "display_url": null,
-      "frequency": "annual",
-      "from_date": "2010-09-30",
-      "id": 9983129,
-      "name": "ADDVANTAGE TECHNOLOGIES GROUP INC  (AEY): Annual Assets",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2013-09-30",
-      "type": null,
-      "updated_at": "2014-02-19T19:19:13Z",
-      "urlize_name": "ADDVANTAGE-TECHNOLOGIES-GROUP-INC-AEY-Annual-Assets"
-    },
-    {
-      "code": "TRNG_CVTS3_44_351",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "CVTS2 and CVTS3 data were collected with reference year 1 1999 and 2005 and published by Eurostat in order to:\r\nProvide the Commission with harmonised, reliable and relevant statistical information needed to define, implement, monitor and evaluate Commission policies in the continuing vocational training in enterprises sector.\r\nProvide the EU institutions, national administrations, enterprises, professional associations and EU citizens with high quality statistical services and products in the field of training.\r\nCVTS3 provides comparable statistics on training enterprises, the participation to training, the volume of CVT courses and its costs, and moreover information on Initial vocational training (IVT) courses.\r\nCVTS2 provides comparable statistical results on training and non-training enterprises, the supply of and the demand for vocational skills, the need for CVT and the forms, content and volume of CVT, the use of enterprises' own training resources and of external providers, and the cost of CVT courses.\r\nThe CVTS1 was the first survey on continuing vocational training in enterprises carried out on the EU level in a co-ordinated form (outline questionnaire, common definitions, and common recommendations with the respect to the fieldwork). The survey therefore was of pioneering nature, and is not any longer disseminated.\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/trng_cvts_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Ftrng_cvts3_44.sdmx.zip",
-      "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 748345,
-      "name": "Percentage of employees all enterprises participating in CVT courses by SIZE and age  : Percentage of total : From 25 to 54 years : Italy : From 10 to 19 employees",
-      "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T23:10:27Z",
-      "urlize_name": "Percentage-of-employees-all-enterprises-participating-in-CVT-courses-by-SIZE-and-age-Percentage-of-total-From-25-to-54-years-Italy-From-10-to-19-employees"
-    },
-    {
-      "code": "AEY_DOCUMENTFISCALPERIODFOCUS_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: DocumentFiscalPeriodFocus",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": null,
-      "id": 9983213,
-      "name": "ADDVANTAGE TECHNOLOGIES GROUP INC  (AEY): Annual Document Fiscal Period Focus",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": null,
-      "type": null,
-      "updated_at": "2014-02-19T19:19:24Z",
-      "urlize_name": "ADDVANTAGE-TECHNOLOGIES-GROUP-INC-AEY-Annual-Document-Fiscal-Period-Focus"
-    },
-    {
-      "code": "UBSH_CERTAINLOANSACQUIREDINTRANSFERACCOUNTEDFORASDEBTSECURITIESACQUIREDDURINGPERIODATACQUISITIONATFAIRVALUE_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: CertainLoansAcquiredInTransferAccountedForAsDebtSecuritiesAcquiredDuringPeriodAtAcquisitionAtFairValue",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2011-12-31",
-      "id": 10378265,
-      "name": "UNION FIRST MARKET BANKSHARES CORP  (UBSH): Annual Certain Loans Acquired In Transfer Accounted For As Debt Securities Acquired During Period At Acquisition At Fair Value",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-03-06T22:26:47Z",
-      "urlize_name": "UNION-FIRST-MARKET-BANKSHARES-CORP-UBSH-Annual-Certain-Loans-Acquired-In-Transfer-Accounted-For-As-Debt-Securities-Acquired-During-Period-At-Acquisition-At-Fair-Value"
-    },
-    {
-      "code": "IDC_CHANGEINACCOUNTINGESTIMATEEFFECTOFCHANGEONINCOMEFROMOPERATIONS_A",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEC Name: ChangeInAccountingEstimateEffectOfChangeOnIncomeFromOperations",
-      "display_url": null,
-      "frequency": "daily",
-      "from_date": "2011-12-31",
-      "id": 10737080,
-      "name": "INTERACTIVE DATA CORP/MA/  (IDC): Annual Change In Accounting Estimate Effect Of Change On Income From Operations",
-      "private": false,
-      "source_code": "SEC",
-      "source_name": "U.S. Securities and Exchange Commission",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-03-07T11:14:29Z",
-      "urlize_name": "INTERACTIVE-DATA-CORP-MA-IDC-Annual-Change-In-Accounting-Estimate-Effect-Of-Change-On-Income-From-Operations"
-    },
-    {
-      "code": "COMM_62_WOMENSGIRLSSLIPSORPETTICOATSMATERIALNESKNIT_REIMPORT_GBR",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2005-12-31",
-      "id": 3877915,
-      "name": "Commodity Re-Imports - Articles Of Apparel, Accessories, Knit Or Crochet / Womens, girls slips or petticoats, material nes knit - United Kingdom of Great Britain and Northern Ireland",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2005-12-31",
-      "type": null,
-      "updated_at": "2013-04-15T05:11:17Z",
-      "urlize_name": "Commodity-Re-Imports-Articles-Of-Apparel-Accessories-Knit-Or-Crochet-Womens-girls-slips-or-petticoats-material-nes-knit-United-Kingdom-of-Great-Britain-and-Northern-Ireland"
-    },
-    {
-      "code": "1062_NRU",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=378",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/TOBACCO_0000000431&filter=COUNTRY:NRU;\n",
-      "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9596783,
-      "name": "Most sold brand of cigarettes - price in US$ at official exchange rates - Nauru",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2010-12-31",
-      "type": null,
-      "updated_at": "2014-01-10T10:21:14Z",
-      "urlize_name": "Most-sold-brand-of-cigarettes-price-in-US-at-official-exchange-rates-Nauru"
-    },
-    {
-      "code": "881_RUS",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "SEX: Male.. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends. More detailed information on this dataset may be found at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2383",
-      "display_url": "http://apps.who.int/gho/athena/data/data.csv?target=GHO/CHOL_05&filter=SEX:MLE;COUNTRY:RUS;\n",
-      "frequency": "annual",
-      "from_date": "2008-12-31",
-      "id": 9575794,
-      "name": "Raised total cholesterol (? 6.2 mmol/L) (age-standardized estimate) Male - Russian Federation",
-      "private": false,
-      "source_code": "WHO",
-      "source_name": "World Health Organization",
-      "to_date": "2008-12-31",
-      "type": null,
-      "updated_at": "2014-01-13T20:18:31Z",
-      "urlize_name": "Raised-total-cholesterol-6-2-mmol-L-age-standardized-estimate-Male-Russian-Federation"
-    },
-    {
-      "code": "COMM_83_CASTORSOFBASEMETAL_IMPORT_VUT",
-      "column_names": [
-        "Year",
-        "Trade (USD)",
-        "Weight (kg)",
-        "Quantity"
-      ],
-      "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-      "display_url": "http://data.un.org/browse.aspx",
-      "frequency": "annual",
-      "from_date": "2006-12-31",
-      "id": 4439119,
-      "name": "Commodity Imports - Miscellaneous Articles Of Base Metal / Castors of base metal - Vanuatu",
-      "private": false,
-      "source_code": "UN",
-      "source_name": "United Nations",
-      "to_date": "2011-12-31",
-      "type": null,
-      "updated_at": "2014-01-12T04:05:58Z",
-      "urlize_name": "Commodity-Imports-Miscellaneous-Articles-Of-Base-Metal-Castors-of-base-metal-Vanuatu"
-    },
-    {
-      "code": "TEINA434_R2_47",
-      "column_names": [
-        "Date",
-        "Value"
-      ],
-      "description": "\r\n\r\nNational accounts are a coherent and consistent set of macroeconomic indicators, which provide an overall picture of the economic situation and are largely used for economic analysis and forecasting, policy design and policy making. Eurostat publishes annual and quarterly national accounts, annual and quarterly sector accounts as well as supply, use and input-output tables, which are each presented with associated metadata.\r\nQuarterly national accounts are compiled in accordance with the European System of Accounts - ESA 1995 (Council Regulation 2223/96). Annex B of the Regulation consists of a comprehensive list of the variables calculated and their timeliness, which has been updated by Regulation (EC) N° 1392/2007 of the European Parliament and of the Council (new ESA95 transmission programme).\r\nQuarterly national accounts comprise the main aggregates on quarterly national accounts, including: GDP and its components, employment, final consumption aggregates, income, saving and net lending/borrowing, exports and imports. Breakdowns exist for certain variables by economic activity (industries), investment products and final consumption purpose (COICOP).\r\nThe domain consists of the following collections:\r\nGDP and main aggregates. The data are recorded at current and constant prices and include the corresponding implicit price indices.\r\nFinal consumption aggregates, including the split into household and government consumption. The data are recorded at current and constant prices and include the corresponding implicit price indices.\r\nIncome, saving and net lending / net borrowing at current prices. Disposable income is also shown in real terms.\r\nExports and imports by Member States of the EU/third countries. The data are recorded at current and constant prices and include the corresponding implicit price indices.\r\nBreakdowns of gross value added, compensation of employees, wages and salaries, operating surplus and employment (domestic scope) by 6 and 17 branches; gross fixed capital formation by 6 asset types and household final consumption expenditure by consumption purposes (COICOP). The data are recorded at current and constant prices and include the corresponding implicit price indices.\r\nAuxiliary indicators: Population and employment (national) data, contributions to GDP growth, labour productivity, unit labour cost and GDP per capita.\r\nThe geographical entities covered are the European Union, the euro area, EU Member States, Candidate Countries, EFTA countries, US and Japan, and possibly other countries on an ad-hoc basis.\r\nThe data are published:\r\nin ECU/euro and in national currencies;\r\nat current prices and in volume terms;\r\nPopulation and employment are measured in persons. Employment is also measured in total hours worked.\r\nUnadjusted (NSA) and seasonally adjusted (SA). For some countries, the seasonal adjustment includes a working day correction.\r\nData sources: National Statistical Institutes\r\n\r\n\nFull metadata at: http://epp.eurostat.ec.europa.eu/cache/ITY_SDDS/EN/namq_esms.htm",
-      "display_url": "http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?sort=2&downfile=data%2Fteina434_r2.sdmx.zip",
+      "description": "International debt securities in billions of US dollars.",
+      "display_url": "http://www.bis.org/statistics/qcsv/anx11.csv",
       "frequency": "quarterly",
-      "from_date": "2010-06-30",
-      "id": 601243,
-      "name": "Gross value added  NACE Rev2 L  volumes  : Percentage change q/q-4 (NSA) : Hungary",
+      "from_date": "1993-12-31",
+      "id": 2289096,
+      "name": "International Debt Securities, By residence of Issuer, Net Issues: Cuba",
+      "premium": false,
       "private": false,
-      "source_code": "EUROSTAT",
-      "source_name": "EuroStat",
+      "source_code": "BIS",
+      "source_name": "Bank for International Settlements",
+      "to_date": "2009-03-31",
+      "type": null,
+      "updated_at": "2014-01-08T07:00:51.385Z",
+      "urlize_name": "International-Debt-Securities-By-residence-of-Issuer-Net-Issues-Cuba"
+    },
+    {
+      "code": "FOXA_DISCONTINUEDOPERATIONGAINLOSSONDISPOSALOFDISCONTINUEDOPERATIONNETOFTAX_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTax",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-06-30",
+      "id": 10733085,
+      "name": "TWENTY-FIRST CENTURY FOX, INC.  (FOXA): Annual Discontinued Operation Gain Loss On Disposal Of Discontinued Operation Net Of Tax",
+      "premium": false,
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "Securities and Exchange Commission Filings",
+      "to_date": "2012-06-30",
+      "type": null,
+      "updated_at": "2014-03-07T11:02:51.318Z",
+      "urlize_name": "TWENTY-FIRST-CENTURY-FOX-INC-FOXA-Annual-Discontinued-Operation-Gain-Loss-On-Disposal-Of-Discontinued-Operation-Net-Of-Tax"
+    },
+    {
+      "code": "ADS_INCOMELOSSFROMCONTINUINGOPERATIONSBEFOREINCOMETAXESDOMESTIC_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 9967144,
+      "name": "ALLIANCE DATA SYSTEMS CORP  (ADS): Annual Income Loss From Continuing Operations Before Income Taxes Domestic",
+      "premium": false,
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "Securities and Exchange Commission Filings",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-19T17:40:08.257Z",
+      "urlize_name": "ALLIANCE-DATA-SYSTEMS-CORP-ADS-Annual-Income-Loss-From-Continuing-Operations-Before-Income-Taxes-Domestic"
+    },
+    {
+      "code": "ADS_INCREMENTALCOMMONSHARESATTRIBUTABLETOCALLOPTIONSANDWARRANTS_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncrementalCommonSharesAttributableToCallOptionsAndWarrants",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 9966928,
+      "name": "ALLIANCE DATA SYSTEMS CORP  (ADS): Annual Incremental Common Shares Attributable To Call Options And Warrants",
+      "premium": false,
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "Securities and Exchange Commission Filings",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-19T17:40:06.569Z",
+      "urlize_name": "ALLIANCE-DATA-SYSTEMS-CORP-ADS-Annual-Incremental-Common-Shares-Attributable-To-Call-Options-And-Warrants"
+    },
+    {
+      "code": "SEDS_WYEGB_WV_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Units=Billion Btu. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=SEDS.WYEGB.WV.A",
+      "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=SEDS.WYEGB.WV.A&out=xml",
+      "frequency": "annual",
+      "from_date": "1960-12-31",
+      "id": 4810675,
+      "name": "Electricity Produced From Wind Energy By The Electric Power Sector, West Virginia",
+      "premium": false,
+      "private": false,
+      "source_code": "EIA",
+      "source_name": "U.S. Energy Information Administration Data",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-09-21T14:02:11.172Z",
+      "urlize_name": "Electricity-Produced-From-Wind-Energy-By-The-Electric-Power-Sector-West-Virginia"
+    },
+    {
+      "code": "ADS_INCREMENTALCOMMONSHARESATTRIBUTABLETOCONVERSIONOFDEBTSECURITIES_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncrementalCommonSharesAttributableToConversionOfDebtSecurities",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 9966927,
+      "name": "ALLIANCE DATA SYSTEMS CORP  (ADS): Annual Incremental Common Shares Attributable To Conversion Of Debt Securities",
+      "premium": false,
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "Securities and Exchange Commission Filings",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-19T17:39:52.604Z",
+      "urlize_name": "ALLIANCE-DATA-SYSTEMS-CORP-ADS-Annual-Incremental-Common-Shares-Attributable-To-Conversion-Of-Debt-Securities"
+    },
+    {
+      "code": "ADS_CURRENTINCOMETAXEXPENSEBENEFIT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CurrentIncomeTaxExpenseBenefit",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 9967150,
+      "name": "ALLIANCE DATA SYSTEMS CORP  (ADS): Annual Current Income Tax Expense Benefit",
+      "premium": false,
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "Securities and Exchange Commission Filings",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-19T17:40:08.616Z",
+      "urlize_name": "ALLIANCE-DATA-SYSTEMS-CORP-ADS-Annual-Current-Income-Tax-Expense-Benefit"
+    },
+    {
+      "code": "V61835185",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "{\" Geography\"=>\"Brockville, Ontario\", \" Family type\"=>\"Couple families\", \" Age of oldest individual\"=>\"65 years and over\", \" Family type characteristics\"=>\"Amount of income\", \" Source of income\"=>\"Private pensions (x 1,000)\"}",
+      "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+      "frequency": "annual",
+      "from_date": "2008-12-31",
+      "id": 13647127,
+      "name": "111-0034: 1, 2, 3, 4, 6, 7, 8: Seniors' characteristics, by family type, age of oldest individual and source of income: annual (dollars unless otherwise noted)",
+      "premium": false,
+      "private": false,
+      "source_code": "CANSIM",
+      "source_name": "Statistics Canada",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-07-27T09:33:43.995Z",
+      "urlize_name": "111-0034-1-2-3-4-6-7-8-Seniors-characteristics-by-family-type-age-of-oldest-individual-and-source-of-income-annual-dollars-unless-otherwise-noted"
+    },
+    {
+      "code": "CATO_PREPAIDEXPENSECURRENT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PrepaidExpenseCurrent",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2011-01-29",
+      "id": 10364028,
+      "name": "CATO CORP  (CATO): Annual Prepaid Expense Current",
+      "premium": false,
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "Securities and Exchange Commission Filings",
+      "to_date": "2014-02-01",
+      "type": null,
+      "updated_at": "2014-04-29T23:48:56.264Z",
+      "urlize_name": "CATO-CORP-CATO-Annual-Prepaid-Expense-Current"
+    },
+    {
+      "code": "IIUFIASP1FIA01106",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "Measure: Rate of illness cases per 10,000 full-time workers; Case type: Total recordable cases; Industry: Financial activities; Supersector: Financial activities; Area: Private industry, California; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+      "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUFIASP1FIA01106",
+      "frequency": "annual",
+      "from_date": "2009-12-31",
+      "id": 9248842,
+      "name": "Rate of illness cases per 10,000 full-time workers for Financial activities, Private industry, California",
+      "premium": false,
+      "private": false,
+      "source_code": "BLS",
+      "source_name": "Bureau of Labor Statistics Key Indicators",
+      "to_date": "2011-12-31",
+      "type": null,
+      "updated_at": "2013-11-20T08:01:22.448Z",
+      "urlize_name": "Rate-of-illness-cases-per-10-000-full-time-workers-for-Financial-activities-Private-industry-California"
+    },
+    {
+      "code": "SNBC_INTERESTINCOMESECURITIESTAXEXEMPT_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: InterestIncomeSecuritiesTaxExempt",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2011-12-31",
+      "id": 10363235,
+      "name": "SUN BANCORP INC /NJ/  (SNBC): Annual Interest Income Securities Tax Exempt",
+      "premium": false,
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "Securities and Exchange Commission Filings",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-03-06T22:08:49.089Z",
+      "urlize_name": "SUN-BANCORP-INC-NJ-SNBC-Annual-Interest-Income-Securities-Tax-Exempt"
+    },
+    {
+      "code": "CXPO_INCOMETAXESPAID_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: IncomeTaxesPaid",
+      "display_url": null,
+      "frequency": "daily",
+      "from_date": "2012-03-31",
+      "id": 10365087,
+      "name": "CRIMSON EXPLORATION INC.  (CXPO): Quarterly Income Taxes Paid",
+      "premium": false,
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "Securities and Exchange Commission Filings",
+      "to_date": "2012-09-30",
+      "type": null,
+      "updated_at": "2014-03-07T22:38:17.709Z",
+      "urlize_name": "CRIMSON-EXPLORATION-INC-CXPO-Quarterly-Income-Taxes-Paid"
+    },
+    {
+      "code": "ADS_DEFERREDTAXASSETSDEFERREDINCOME_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: DeferredTaxAssetsDeferredIncome",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 9967165,
+      "name": "ALLIANCE DATA SYSTEMS CORP  (ADS): Annual Deferred Tax Assets Deferred Income",
+      "premium": false,
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "Securities and Exchange Commission Filings",
+      "to_date": "2012-12-31",
+      "type": null,
+      "updated_at": "2014-02-19T17:40:10.517Z",
+      "urlize_name": "ALLIANCE-DATA-SYSTEMS-CORP-ADS-Annual-Deferred-Tax-Assets-Deferred-Income"
+    },
+    {
+      "code": "MAN_TRUCKS_MILUSD_CHL",
+      "column_names": [
+        "Year",
+        "Value"
+      ],
+      "description": "The Global Indicator Database is comprised of a wide range of important statistics and metadata drawn from the United Nations, UN agencies and other international sources. It covers key economic, social, financial and development topics, broadly based on the structure of the UN Statistical Yearbook (SYB). Series are grouped under the headings agriculture, forestry and fishing, balance of payments, culture and communication, development assistance, education, environment, financial statistics, gender, international finance, international merchandise trade, international tourism and transport, labour force, manufacturing, national accounts and industrial production, nutrition, population, wages and prices.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 3219518,
+      "name": "Manufacturing - Trucks / Mil. USD - Chile",
+      "premium": false,
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-09-10T11:30:30.417Z",
+      "urlize_name": "Manufacturing-Trucks-Mil-USD-Chile"
+    },
+    {
+      "code": "DEPO_COMMONSTOCKSHARESOUTSTANDING_A",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: CommonStockSharesOutstanding",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10620291,
+      "name": "DEPOMED INC  (DEPO): Annual Common Stock Shares Outstanding",
+      "premium": false,
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "Securities and Exchange Commission Filings",
       "to_date": "2013-12-31",
       "type": null,
-      "updated_at": "2014-05-31T14:11:20Z",
-      "urlize_name": "Gross-value-added-NACE-Rev2-L-volumes-Percentage-change-q-q-4-NSA-Hungary"
+      "updated_at": "2014-04-30T01:19:56.160Z",
+      "urlize_name": "DEPOMED-INC-DEPO-Annual-Common-Stock-Shares-Outstanding"
+    },
+    {
+      "code": "AQQ_PREFERREDSTOCKPARORSTATEDVALUEPERSHARE_Q",
+      "column_names": [
+        "Date",
+        "Value"
+      ],
+      "description": "SEC Name: PreferredStockParOrStatedValuePerShare",
+      "display_url": null,
+      "frequency": "annual",
+      "from_date": "2010-12-31",
+      "id": 10441335,
+      "name": "AMERICAN SPECTRUM REALTY INC  (AQQ): Quarterly Preferred Stock Par Or Stated Value Per Share",
+      "premium": false,
+      "private": false,
+      "source_code": "SEC",
+      "source_name": "Securities and Exchange Commission Filings",
+      "to_date": "2013-09-30",
+      "type": null,
+      "updated_at": "2014-03-11T14:52:49.698Z",
+      "urlize_name": "AMERICAN-SPECTRUM-REALTY-INC-AQQ-Quarterly-Preferred-Stock-Par-Or-Stated-Value-Per-Share"
+    },
+    {
+      "code": "EMP_OTHERELECTRICALEQUIPMENTNEC_NOR",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 3278018,
+      "name": "Employees / Other electrical equipment n.e.c. - Norway",
+      "premium": false,
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2007-12-31",
+      "type": null,
+      "updated_at": "2014-09-09T23:08:59.035Z",
+      "urlize_name": "Employees-Other-electrical-equipment-n-e-c-Norway"
+    },
+    {
+      "code": "EST_RAILWAYTRAMWAYLOCOMOTIVESROLLINGSTOCK_ISR",
+      "column_names": [
+        "Year",
+        "Number"
+      ],
+      "description": "United Nations Industrial Development Organization (UNIDO). INDSTAT4-Rev.3 contains time series data on five selected data items for the period covering 2005 - 2009. The data are arranged at the 3- and 4-digit level of ISIC (Revision 3) pertaining to the manufacturing sector, which comprises 151 manufacturing categories.",
+      "display_url": "http://data.un.org/browse.aspx",
+      "frequency": "annual",
+      "from_date": "2005-12-31",
+      "id": 3285636,
+      "name": "Establishments / Railway/tramway locomotives & rolling stock - Israel",
+      "premium": false,
+      "private": false,
+      "source_code": "UN",
+      "source_name": "United Nations",
+      "to_date": "2010-12-31",
+      "type": null,
+      "updated_at": "2014-09-10T22:16:02.138Z",
+      "urlize_name": "Establishments-Railway-tramway-locomotives-rolling-stock-Israel"
     }
   ],
   "per_page": 20,
   "sources": [
     {
-      "code": "ECB",
-      "datasets_count": 0,
-      "description": "No description for this source yet",
-      "host": "sdw.ecb.europa.eu",
-      "id": 8917,
-      "name": "European Central Bank"
+      "code": "BLS",
+      "datasets_count": 395007,
+      "description": "US national and state-level data on employment, wages, benefits, spending, prices, inflation, productivity, work conditions and workplace injuries.",
+      "host": "www.bls.gov",
+      "id": 162,
+      "name": "Bureau of Labor Statistics Key Indicators",
+      "premium": false,
+      "subscribed": false
     },
     {
-      "code": "WHO",
-      "datasets_count": 21456,
-      "description": "",
-      "host": "apps.who.int",
-      "id": 525,
-      "name": "World Health Organization"
+      "code": "BIS",
+      "datasets_count": 3472,
+      "description": "BIS serves central banks with administration of monetary and financial stability, fosters international cooperation, and acts as bank for central banks.",
+      "host": "www.bis.org",
+      "id": 379,
+      "name": "Bank for International Settlements",
+      "premium": false,
+      "subscribed": false
     },
     {
       "code": "UN",
-      "datasets_count": 2100274,
-      "description": "The United Nations (UN) is an intergovernmental organization established on 24 October 1945 to promote international co-operation.",
+      "datasets_count": 2025514,
+      "description": "This database has been deprecated in favour of www.quandl.com/UNDATA which has the same data but is better organized and labelled.",
       "host": "data.un.org",
       "id": 488,
-      "name": "United Nations"
-    },
-    {
-      "code": "EUROSTAT",
-      "datasets_count": 320722,
-      "description": "Eurostat's mission: to be the leading provider of high quality statistics on Europe. \r\n\r\nEurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with statistics at European level that enable comparisons between countries and regions. ",
-      "host": "epp.eurostat.ec.europa.eu",
-      "id": 194,
-      "name": "EuroStat"
+      "name": "United Nations",
+      "premium": false,
+      "subscribed": false
     },
     {
       "code": "SEC",
-      "datasets_count": 4867,
-      "description": "The Securities and Exchange commission is an agency of the United States government.\r\n\r\n\r\nTheir purpose is to regulate stock markets, and in doing so collect and distribute data on all publicly listed companies. ",
+      "datasets_count": 1056978,
+      "description": "Stock fundamentals and dividends data for almost all publicly listed companies, extracted from their SEC 10K and 10Q filings. Not harmonized.",
       "host": "www.sec.gov",
       "id": 651,
-      "name": "U.S. Securities and Exchange Commission"
+      "name": "Securities and Exchange Commission Filings",
+      "premium": false,
+      "subscribed": false
     },
     {
-      "code": "IBGE",
-      "datasets_count": 110418,
-      "description": "The Brazilian Institute of Geography and Statistics - IBGE is the main provider of data and information in the country, serving the needs of different segments of civil society, as well as organs of federal, state and local government levels.",
-      "host": "seriesestatisticas.ibge.gov.br",
-      "id": 725,
-      "name": "Brazilian Institute of Geography and Statistics"
+      "code": "EIA",
+      "datasets_count": 702039,
+      "description": "US national and state data on production, consumption and other indicators on all major energy products, such as electricity, coal, natural gas and petroleum.",
+      "host": "www.api.eia.gov",
+      "id": 661,
+      "name": "U.S. Energy Information Administration Data",
+      "premium": false,
+      "subscribed": false
     },
     {
-      "code": "ILOSTAT",
-      "datasets_count": 0,
-      "description": "No description for this source yet",
-      "host": "ilo.org2",
-      "id": 10437,
-      "name": "ILOSTAT Database"
+      "code": "CANSIM",
+      "datasets_count": 693135,
+      "description": "Statistics Canada's primary database of socioeconomic data on employment, population, trade, and other key indicators. Data is updated on fixed release dates.",
+      "host": "www20.statcan.gc.ca",
+      "id": 1199,
+      "name": "Statistics Canada",
+      "premium": false,
+      "subscribed": false
     }
   ],
-  "total_count": 10148784
+  "total_count": 12140935
 }

@@ -1,23 +1,22 @@
 {
-  "code": "COMM_40_STYRENEACRYLONITRILESANCOPOLYMERSPRIMARYFORMS_IMPORT_NPL",
+  "code": "C03016_FR",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of foreclosure resales (%) within the city of Princess Anne, MD. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": null,
   "errors": {},
   "frequency": "annual",
-  "from_date": "1999-12-31",
-  "id": 3599722,
-  "name": "Commodity Imports - Plastics And Articles Thereof / Styrene-acrylonitrile (SAN) copolymers, primary forms - Nepal",
+  "from_date": "2000-06-30",
+  "id": 15515131,
+  "name": "Zillow Home Value Index (Cities): Foreclosure Resales (%) - Princess Anne, MD",
+  "premium": false,
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2010-12-31",
+  "source_code": "ZILL",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2013-06-30",
   "type": null,
-  "updated_at": "2013-05-14T09:41:25Z",
-  "urlize_name": "Commodity-Imports-Plastics-And-Articles-Thereof-Styrene-acrylonitrile-SAN-copolymers-primary-forms-Nepal"
+  "updated_at": "2014-11-30T08:23:00.624Z",
+  "urlize_name": "Zillow-Home-Value-Index-Cities-Foreclosure-Resales-Princess-Anne-MD"
 }

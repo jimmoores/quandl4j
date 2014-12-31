@@ -1,21 +1,22 @@
 {
-  "code": "NJR_DERIVATIVEINSTRUMENTSGAINLOSSRECOGNIZEDINOTHERCOMPREHENSIVEINCOMEEFFECTIVEPORTIONNET_Q",
+  "code": "IIUCON23814041125",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEC Name: DerivativeInstrumentsGainLossRecognizedInOtherComprehensiveIncomeEffectivePortionNet",
-  "display_url": null,
+  "description": "Measure: Number of illness cases (thousands); Case type: Total recordable cases; Industry: Masonry contractors; Supersector: Construction; Area: Private industry, Massachusetts; Not Seasonally Adjusted; Source: BLS Injuries, Illnesses and Fatalities (IIF) program. For more information see <a href=\"http://www.bls.gov/iif/oshover.htm\">http://www.bls.gov/iif/oshover.htm.<\/a>",
+  "display_url": "http://api.bls.gov/publicAPI/v1/timeseries/data/IIUCON23814041125",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2011-06-30",
-  "id": 10438009,
-  "name": "NEW JERSEY RESOURCES CORP  (NJR): Quarterly Derivative Instruments Gain Loss Recognized In Other Comprehensive Income Effective Portion Net",
+  "frequency": "monthly",
+  "from_date": "2011-12-31",
+  "id": 9057163,
+  "name": "Number of illness cases (thousands) for Masonry contractors, Private industry, Massachusetts",
+  "premium": false,
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2011-06-30",
+  "source_code": "BLS",
+  "source_name": "Bureau of Labor Statistics Key Indicators",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-03-06T23:41:47Z",
-  "urlize_name": "NEW-JERSEY-RESOURCES-CORP-NJR-Quarterly-Derivative-Instruments-Gain-Loss-Recognized-In-Other-Comprehensive-Income-Effective-Portion-Net"
+  "updated_at": "2013-11-15T13:47:23.479Z",
+  "urlize_name": "Number-of-illness-cases-thousands-for-Masonry-contractors-Private-industry-Massachusetts"
 }

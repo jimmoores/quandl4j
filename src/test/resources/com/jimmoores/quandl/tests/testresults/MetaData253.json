@@ -1,21 +1,22 @@
 {
-  "code": "UNE_TUNE_NB_SEX_M_EDU_AGGREGATE_INT_M_CZE",
+  "code": "BSI_M_DE_N_A_L20_A_1_U2_2220_Z01_E",
   "column_names": [
     "Date",
-    "Value"
+    "Millions of Euro"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": " Germany, Outstanding amounts at the end of the period (stocks), MFIs excluding ESCB reporting sector - Deposit liabilities, Total maturity, All currencies combined - Euro area (changing composition) counterpart, Insurance corporations and pension funds (S.125) sector, denominated in Euro, data Neither seasonally nor working day adjusted , :, Dataset:BSI : Balance Sheet Items Explanation page (Series and Dataset Level Information), Reference area:Germany (DE), Decimals:Zero (0), Collection indicator:End of period (E)",
+  "display_url": "http://sdw.ecb.europa.eu/export.do?node=2116080&SERIES_KEY=117.BSI.M.DE.N.A.L20.A.1.U2.2220.Z01.E&exportType=sdmx",
   "errors": {},
   "frequency": "monthly",
-  "from_date": "2002-02-28",
-  "id": 12801176,
-  "name": "Unemployment Men InIntermediate Education - Monthly - Czech Republic",
+  "from_date": "2003-01-31",
+  "id": 11387741,
+  "name": "Germany, Outstanding amounts at the end of the period , MFIs excluding ESCB reporting sector Deposit liabilities, Total maturity, All currencies combined Euro area counterpart, Insurance corporations and pension funds sector, denominated in Euro, data",
+  "premium": false,
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2013-11-30",
+  "source_code": "ECB",
+  "source_name": "European Central Bank",
+  "to_date": "2014-10-31",
   "type": null,
-  "updated_at": "2014-05-29T21:39:04Z",
-  "urlize_name": "Unemployment-Men-InIntermediate-Education-Monthly-Czech-Republic"
+  "updated_at": "2014-12-30T07:07:03.313Z",
+  "urlize_name": "Germany-Outstanding-amounts-at-the-end-of-the-period-MFIs-excluding-ESCB-reporting-sector-Deposit-liabilities-Total-maturity-All-currencies-combined-Euro-area-counterpart-Insurance-corporations-and-pension-funds-sector-denominated-in-Euro-data"
 }

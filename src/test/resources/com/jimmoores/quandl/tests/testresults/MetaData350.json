@@ -1,21 +1,22 @@
 {
-  "code": "APU_INVENTORYCONTRACTPERIODMINIMUM_A",
+  "code": "ELEC_PLANT_CONS_TOT_8227_DFO_GT_A",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEC Name: InventoryContractPeriodMinimum",
-  "display_url": null,
+  "description": "Units=Barrels. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.CONS_TOT.8227-DFO-GT.A",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.CONS_TOT.8227-DFO-GT.A&out=xml",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2011-09-30",
-  "id": 10436257,
-  "name": "AMERIGAS PARTNERS LP  (APU): Annual Inventory Contract Period Minimum",
+  "frequency": "annual",
+  "from_date": "2003-12-31",
+  "id": 4895405,
+  "name": "Fuel Consumption Quantity : Glenn Gardner : Distillate Fuel Oil : Combustion (gas) Turbine (including Jet Engine Design) : Annual",
+  "premium": false,
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-09-30",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration Data",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-03-11T14:17:12Z",
-  "urlize_name": "AMERIGAS-PARTNERS-LP-APU-Annual-Inventory-Contract-Period-Minimum"
+  "updated_at": "2014-09-18T14:19:14.660Z",
+  "urlize_name": "Fuel-Consumption-Quantity-Glenn-Gardner-Distillate-Fuel-Oil-Combustion-gas-Turbine-including-Jet-Engine-Design-Annual"
 }

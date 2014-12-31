@@ -19,7 +19,11 @@ public interface RESTDataProvider {
    * HTTP Response code returned when the client has made too many request - it is an indication of rate limiting on the 
    * server-side.
    */
-  int TOO_MANY_REQUESTS = 422; // response code returned in some cases
+  int TOO_MANY_REQUESTS = 429; // response code returned in some cases
+  /**
+   * HTTP Response code returned when the service is unavailable - it is an indication of a probably temporary error or load problem on the server
+   */
+  int SERVICE_UNAVAILABLE = 503;
 
   /**
    * Invoke a GET call on the web target and return the result as a parsed JSON object.

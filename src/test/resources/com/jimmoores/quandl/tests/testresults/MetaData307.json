@@ -1,23 +1,22 @@
 {
-  "code": "RE_CS_HRV",
+  "code": "ELEC_PLANT_GEN_6421_WAT_HY_M",
   "column_names": [
-    "Year",
-    "Individual Consumption Expenditure by Households",
-    "Collective Consumption Expenditure by Government",
-    "Gross Fixed Capital Formation"
+    "Date",
+    "Value"
   ],
-  "description": "Real Expenditures Country Shares - Croatia. World=100, EKS Method. ICP data studies the GDP of various world economies to calculate their comparative sizes, productivities, and material well-being. For more detailed information, please see <a href=http://siteresources.worldbank.org/ICPINT/Resources/ICP_final-results.pdf>http://siteresources.worldbank.org/ICPINT/Resources/ICP_final-results.pdf<\/a>",
-  "display_url": null,
+  "description": "Units=Megawatthours. More info at http://www.eia.gov/beta/api/qb.cfm?sdid=ELEC.PLANT.GEN.6421-WAT-HY.M",
+  "display_url": "http://api.eia.gov/series/data?api_key=EE01025CF155E957411F0BE8170D7637&series_id=ELEC.PLANT.GEN.6421-WAT-HY.M&out=xml",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2005-12-31",
-  "id": 11824595,
-  "name": "Real Expenditures Country Shares - Croatia",
+  "frequency": "monthly",
+  "from_date": "2003-01-31",
+  "id": 4870292,
+  "name": "Net Generation : Lemolo 2 : Conventional Hydroelectric : Hydraulic Turbine : Monthly",
+  "premium": false,
   "private": false,
-  "source_code": "ICP2005",
-  "source_name": "International Comparison Program 2005",
-  "to_date": "2005-12-31",
+  "source_code": "EIA",
+  "source_name": "U.S. Energy Information Administration Data",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-05-08T18:02:24Z",
-  "urlize_name": "Real-Expenditures-Country-Shares-Croatia"
+  "updated_at": "2014-01-09T19:31:46.410Z",
+  "urlize_name": "Net-Generation-Lemolo-2-Conventional-Hydroelectric-Hydraulic-Turbine-Monthly"
 }

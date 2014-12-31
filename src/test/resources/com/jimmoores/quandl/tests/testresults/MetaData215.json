@@ -1,23 +1,22 @@
 {
-  "code": "1212_29155010_2",
+  "code": "V65807257",
   "column_names": [
     "Date",
-    "Quantity 1 (Q1)",
-    "Value (NOK)",
-    "Quantity 2 (Q2)"
+    "Value"
   ],
-  "description": "Statistics Norway has overall responsibility for official statistics in Norway, and carries out extensive research and analysis activities. New statistics and analyses are published on a daily basis on ssb.no.",
-  "display_url": "http://data.ssb.no/api/v0/dataset/1212.csv?lang=en",
+  "description": "{\" Geography\"=>\"Grand-mere, Quebec, municipal\", \" Statistics\"=>\"Total number of civilian and other personnel\"}",
+  "display_url": "http://www5.statcan.gc.ca/cansim/a08",
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2011-12-31",
-  "id": 7875456,
-  "name": "Export of goods, HS 28-29 Products of the chemical or allied industies. Value and Quantity, latest 13 months - (q1=kg, q2=none) Subgroup of: 291550 Propionic acid, its salts and esters - Exports",
+  "frequency": "annual",
+  "from_date": "2000-12-31",
+  "id": 13151713,
+  "name": "254-0004: Police personnel and selected crime statistics, municipal police services: annual",
+  "premium": false,
   "private": false,
-  "source_code": "STATNOR",
-  "source_name": "Statistics Norway",
-  "to_date": "2014-04-30",
+  "source_code": "CANSIM",
+  "source_name": "Statistics Canada",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-06-04T11:07:27Z",
-  "urlize_name": "Export-of-goods-HS-28-29-Products-of-the-chemical-or-allied-industies-Value-and-Quantity-latest-13-months-q1-kg-q2-none-Subgroup-of-291550-Propionic-acid-its-salts-and-esters-Exports"
+  "updated_at": "2014-07-22T17:58:29.147Z",
+  "urlize_name": "254-0004-Police-personnel-and-selected-crime-statistics-municipal-police-services-annual"
 }

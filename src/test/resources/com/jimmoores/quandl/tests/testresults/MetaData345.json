@@ -1,23 +1,22 @@
 {
-  "code": "COMM_29_COMMERCIALALKALIMETALSILICATESSILICATESNES_IMPORT_FJI",
+  "code": "V66447407",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "{\" Geography\"=>\"Russell County (Rockland), Ontario, Ontario Provincial Police, rural\", \" Statistics\"=>\"Percent change in non-violent crime severity index\"}",
+  "display_url": "http://www5.statcan.gc.ca/cansim/a08",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1997-12-31",
-  "id": 3152357,
-  "name": "Commodity Imports - Inorganic Chemicals, Precious Metal Compound, Isotope / Commercial alkali metal silicates, silicates nes - Fiji",
+  "from_date": "1998-12-31",
+  "id": 13439074,
+  "name": "252-0085: 1, 2, 15: Crime severity index and weighted clearance rates, by police service, Ontario: annual (index unless otherwise noted)",
+  "premium": false,
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2012-12-31",
+  "source_code": "CANSIM",
+  "source_name": "Statistics Canada",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-01-13T20:49:20Z",
-  "urlize_name": "Commodity-Imports-Inorganic-Chemicals-Precious-Metal-Compound-Isotope-Commercial-alkali-metal-silicates-silicates-nes-Fiji"
+  "updated_at": "2014-07-23T23:12:34.647Z",
+  "urlize_name": "252-0085-1-2-15-Crime-severity-index-and-weighted-clearance-rates-by-police-service-Ontario-annual-index-unless-otherwise-noted"
 }

@@ -1,21 +1,24 @@
 {
-  "code": "EIP_TEIP_NB_SEX_F_AGE_5YRBANDS_Y60_64_USA",
+  "code": "COMM_29_BROMIDESANDBROMIDEOXIDESOFNONALKALIMETALS_EXPORT_KOR",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
+  "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2001-12-31",
-  "id": 12529854,
-  "name": "Working Age Population Outside The Labour Force Women Ages 60-64 - Annual - United States",
+  "from_date": "1993-12-31",
+  "id": 3204281,
+  "name": "Commodity Exports - Inorganic Chemicals, Precious Metal Compound, Isotope / Bromides and bromide oxides of non-alkali metals - Republic of Korea",
+  "premium": false,
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2013-12-31",
+  "source_code": "UN",
+  "source_name": "United Nations",
+  "to_date": "2011-12-31",
   "type": null,
-  "updated_at": "2014-05-29T04:00:01Z",
-  "urlize_name": "Working-Age-Population-Outside-The-Labour-Force-Women-Ages-60-64-Annual-United-States"
+  "updated_at": "2013-05-13T08:23:58.622Z",
+  "urlize_name": "Commodity-Exports-Inorganic-Chemicals-Precious-Metal-Compound-Isotope-Bromides-and-bromide-oxides-of-non-alkali-metals-Republic-of-Korea"
 }

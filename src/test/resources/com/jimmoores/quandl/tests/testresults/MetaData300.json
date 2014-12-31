@@ -1,26 +1,22 @@
 {
-  "code": "FUTURE_TTK2014",
+  "code": "SYR_FM_LBL_BMNY_IR_ZS",
   "column_names": [
     "Date",
-    "Open",
-    "High",
-    "Low",
-    "Settle",
-    "Volume",
-    "Open Interest"
+    "Value"
   ],
-  "description": "Historical Futures Prices: Cotton Futures, May 2014, TTK2014, New York Mercantile Exchange (NYMEX). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
-  "display_url": "http://www.ofdp.org/futures/2868",
+  "description": "Broad money (IFS line 35L..ZK) is the sum of currency outside banks; demand deposits other than those of the central government; the time, savings, and foreign currency deposits of resident sectors other than the central government; bank and traveler\u2019s checks; and other securities such as certificates of deposit and commercial paper.\nBroad money to total reserves ratio",
+  "display_url": "http://api.worldbank.org/countries/SYR/indicators/FM.LBL.BMNY.IR.ZS?per_page=1000",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2011-06-01",
-  "id": 2308617,
-  "name": "Cotton Futures, May 2014, TTK2014, NYMEX",
+  "frequency": "annual",
+  "from_date": "1960-12-31",
+  "id": 6460677,
+  "name": "Syrian Arab Republic: Broad money to total reserves ratio",
+  "premium": false,
   "private": false,
-  "source_code": "OFDP",
-  "source_name": "Open Financial Data Project",
-  "to_date": "2014-04-23",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank Cross Country Data",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-06-05T08:10:08Z",
-  "urlize_name": "Cotton-Futures-May-2014-TTK2014-NYMEX"
+  "updated_at": "2014-11-21T19:23:27.583Z",
+  "urlize_name": "Syrian-Arab-Republic-Broad-money-to-total-reserves-ratio"
 }

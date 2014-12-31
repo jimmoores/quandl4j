@@ -1,21 +1,22 @@
 {
-  "code": "DNE_EV_EBITDA",
+  "code": "POP_SEX_AGE_EDU_NB_SEX_F_AGE_10YEARSBANDPLUSCHILD_35_54_EDU_ISCED97_X_FRA",
   "column_names": [
-    "Date",
-    "EV to EBITDA Ratio"
+    "Year",
+    "Value"
   ],
-  "description": "Estimated by dividing the market value of debt and equity by the EBITDA.  Value/EBITDA = (Market Value of Equity + Value of Debt-Cash) / EBITDA.  We use the book value of debt as a proxy for the market value. Units: ratio. Corporate Finance data is collected and calculated by Prof. Aswath\nDamodaran, Professor of Finance at the Stern School of Business, New\nYork University.  The raw data is available here:\nhttp://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
-  "display_url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html",
+  "description": "The unique tripartite structure of the ILO gives an equal voice to workers, employers and governments to ensure that the views of the social partners are closely reflected in labour standards and in shaping policies and programmes. The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.",
+  "display_url": "http://www.ilo.org/global/statistics-and-databases/lang--en/index.htm",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2008-12-31",
-  "id": 4222910,
-  "name": "Dune Energy Inc. ( DNE ) - EV to EBITDA Ratio",
+  "from_date": "2009-12-31",
+  "id": 6210015,
+  "name": "Population By Sex, Age And Education, Female, 35-54, No Schooling - France",
+  "premium": false,
   "private": false,
-  "source_code": "DMDRN",
-  "source_name": "Damodaran Financial Data",
-  "to_date": "2009-12-31",
+  "source_code": "ILO",
+  "source_name": "International Labour Organization",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-03-14T13:58:58Z",
-  "urlize_name": "Dune-Energy-Inc-DNE-EV-to-EBITDA-Ratio"
+  "updated_at": "2013-04-20T01:07:37.790Z",
+  "urlize_name": "Population-By-Sex-Age-And-Education-Female-35-54-No-Schooling-France"
 }

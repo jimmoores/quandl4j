@@ -1,21 +1,22 @@
 {
-  "code": "RC54_UF_ALAGOAS_35_A_39_ANOS_PERC",
+  "code": "BANKENCH_BDURCHVERZ_D53_M4_26249",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Percent"
   ],
-  "description": "The Database & Statistics Series Historical Series aims to disseminate to a diverse audience (government, private sector, academia, students, NGOs), information from official data come from surveys of IBGE, for the most part, and other government sources. Ordered according to a time interval, this information being Historical statistics are series, in many cases, long series (longer than 20 years). Such series are characterized by the nature of their socio-economic and demographic information and also for presenting the concepts of variables involved, as well as the changes it underwent over the period considered, in addition to notification, whenever appropriate, to methodological changes in the survey generating the data. The themes covered by the series Statistics & Historical Data gather a wealth of information on the Brazilian reality in its social (education, housing, work, health, family organization), demographic (population characteristics, population dynamics and demographic indicators) and economic ( system of national accounts, price indices, production and trade, agriculture), without excluding the data of recent years, covering periods as long as possible.",
-  "display_url": "http://seriesestatisticas.ibge.gov.br/exportador.aspx?arquivo=RC54_UF_PERC.csv&categorias=%2235%20a%2039%20anos%22&localidade=Alagoas",
+  "description": "Average rates of interest for selected balance sheet items, 53 Average rate of interest, individual asset items, 4.00 Raiffeisen banks (annually). More detailed information at http://www.snb.ch/ext/stats/bankench/pdf/deen/Stat53.pdf",
+  "display_url": "http://www.snb.ch/ext/stats/bankench/xls/en/bankench_bDurchVerz_D53_M4.xls",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1984-12-31",
-  "id": 6413811,
-  "name": "Population and Demographics: Marriage (marriages, separations, divorces) - Divorces granted by age of men - 1st instance - 35 to 39 Federative Units - UF: Alagoas. Datatype: Relative",
+  "from_date": "1983-12-31",
+  "id": 4559451,
+  "name": "Average rates of interest for selected balance sheet items, 53 Average rate of interest, individual asset items: Domestic mortgage claims, in CHF",
+  "premium": false,
   "private": false,
-  "source_code": "IBGE",
-  "source_name": "Brazilian Institute of Geography and Statistics",
-  "to_date": "2002-12-31",
+  "source_code": "SNB",
+  "source_name": "Swiss National Bank",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-01-12T20:26:41Z",
-  "urlize_name": "Population-and-Demographics-Marriage-marriages-separations-divorces-Divorces-granted-by-age-of-men-1st-instance-35-to-39-Federative-Units-UF-Alagoas-Datatype-Relative"
+  "updated_at": "2014-09-18T12:05:40.711Z",
+  "urlize_name": "Average-rates-of-interest-for-selected-balance-sheet-items-53-Average-rate-of-interest-individual-asset-items-Domestic-mortgage-claims-in-CHF"
 }

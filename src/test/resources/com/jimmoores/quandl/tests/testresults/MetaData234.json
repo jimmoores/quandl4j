@@ -1,23 +1,22 @@
 {
-  "code": "COMM_26_NATURALBORATESETCNESNATURALBORICACID85_EXPORT_PRT",
+  "code": "C00733_MSPSF",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "The Zillow Home Value Index is Zillow's estimate of the median market value of median sale price per sq. ft. within the city of Gig Harbor, WA. This data is calculated by Zillow Real Estate Research (www.zillow.com/research) using their database of 110 million homes.",
+  "display_url": null,
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1989-12-31",
-  "id": 3058487,
-  "name": "Commodity Exports - Salt, Sulphur, Earth, Stone, Plaster, Lime And Cement / Natural borates etc nes, natural boric acid (<85%) - Portugal",
+  "frequency": "monthly",
+  "from_date": "1996-04-30",
+  "id": 15378119,
+  "name": "Zillow Home Value Index (Cities): Median Sale Price per Sq. Ft. - Gig Harbor, WA",
+  "premium": false,
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2012-12-31",
+  "source_code": "ZILL",
+  "source_name": "Zillow Real Estate Research",
+  "to_date": "2014-09-30",
   "type": null,
-  "updated_at": "2014-01-10T08:33:44Z",
-  "urlize_name": "Commodity-Exports-Salt-Sulphur-Earth-Stone-Plaster-Lime-And-Cement-Natural-borates-etc-nes-natural-boric-acid-85-Portugal"
+  "updated_at": "2014-11-30T06:45:09.588Z",
+  "urlize_name": "Zillow-Home-Value-Index-Cities-Median-Sale-Price-per-Sq-Ft-Gig-Harbor-WA"
 }

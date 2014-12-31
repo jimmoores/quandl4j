@@ -30,6 +30,7 @@ import com.jimmoores.quandl.MultiDataSetRequest;
 import com.jimmoores.quandl.MultiMetaDataRequest;
 import com.jimmoores.quandl.QuandlCodeRequest;
 import com.jimmoores.quandl.QuandlSession;
+import com.jimmoores.quandl.RetryPolicy;
 import com.jimmoores.quandl.SearchRequest;
 import com.jimmoores.quandl.SearchResult;
 import com.jimmoores.quandl.SessionOptions;
@@ -74,7 +75,7 @@ public final class RegressionTests {
   private static Logger s_logger = LoggerFactory.getLogger(RegressionTests.class);
   private static final int DAYS_PER_YEAR = 365;
   private static final int MAX_COLUMN = 5;
-  private static final int DEFAULT_NUM_REQUESTS = 5;
+  private static final int DEFAULT_NUM_REQUESTS = 200;
   
   private static final double WITH_COLUMN_PROBABILITY = 0.1;
   private static final double WITH_FREQUENCY_PROBABILITY = 0.2;
@@ -121,7 +122,7 @@ public final class RegressionTests {
   }
 
   private void runRecording() {
-    runTests(new RecordingRESTDataProvider(_apiKey), new ResultSaver());
+    runTests(new RecordingRESTDataProvider(_apiKey), new ResultSaver(), RetryPolicy.createSequenceRetryPolicy(new long[] { 1, 5, 20, 60 }));
   }
 
   /**
@@ -129,24 +130,28 @@ public final class RegressionTests {
    */
   @Test(groups = { "unit" })
   public void runFileBasedTests() {
-    runTests(new FileRESTDataProvider(_apiKey), new ResultChecker());
+    runTests(new FileRESTDataProvider(_apiKey), new ResultChecker(), RetryPolicy.createSequenceRetryPolicy(new long[] { 1, 1, 1, 1 }));
   }
 
   private void runDirectTests() {
-    runTests(new DefaultRESTDataProvider(), new ResultChecker());
+    runTests(new DefaultRESTDataProvider(), new ResultChecker(), RetryPolicy.createSequenceRetryPolicy(new long[] { 1, 5, 20, 60 }));
   }
 
-  private void runTests(final RESTDataProvider restDataProvider, final ResultProcessor resultProcessor) {
+  private void runTests(final RESTDataProvider restDataProvider, final ResultProcessor resultProcessor, final RetryPolicy retryPolicy) {
     SessionOptions options;
     if (_apiKey != null) {
+      s_logger.info("Creating Quandl Session using API key {}", _apiKey);
       options = SessionOptions.Builder
         .withAuthToken(_apiKey)
         .withRESTDataProvider(restDataProvider)
+        .withRetryPolicy(retryPolicy)
         .build();
     } else {
+      s_logger.warn("Creating Quandl Session without an API key");
       options = SessionOptions.Builder
           .withoutAuthToken()
           .withRESTDataProvider(restDataProvider)
+          .withRetryPolicy(retryPolicy)
           .build();
     }
     QuandlSession session = QuandlSession.create(options);
@@ -318,7 +323,11 @@ public final class RegressionTests {
           searchResult = session.search(req);
           resultProcessor.processResult(searchResult);
           MetaDataResult metaDataResult = searchResult.getMetaDataResultList().get(0);
-          quandlCodes.add(metaDataResult.getQuandlCode());
+          if (metaDataResult.getQuandlCode() != null) {
+            quandlCodes.add(metaDataResult.getQuandlCode());
+          } else {
+            s_logger.error("Meta data result (for req {}) returned without embedded Quandl code, result was {}", req, metaDataResult);
+          }
         } catch (QuandlRuntimeException qre) {
           retries++;
         }

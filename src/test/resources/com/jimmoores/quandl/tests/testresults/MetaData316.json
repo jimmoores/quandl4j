@@ -1,21 +1,30 @@
 {
-  "code": "CSH_I_ARM",
+  "code": "NAE_GDPKN_MDV",
   "column_names": [
     "Date",
-    "Value"
+    "Final consumption expenditure",
+    "Household consumption expenditure (including Non-profit institutions serving households)",
+    "General government final consumption expenditure",
+    "Gross capital formation",
+    "Gross fixed capital formation (including Acquisitions less disposals of valuables)",
+    "Changes in inventories",
+    "Exports of goods and services",
+    "Imports of goods and services",
+    "Gross Domestic Product (GDP)"
   ],
-  "description": "Source: Penn World Table v8.0. For more information, please see <a href=\"http://www.rug.nl/research/ggdc/data/penn-world-table\">http://www.rug.nl/research/ggdc/data/penn-world-table<\/a>.",
-  "display_url": "http://www.rug.nl/research/GGDC/data/pwt/V80/pwt80.xlsx",
+  "description": "Maldives GDP by Type of Expenditure at constant (2005) prices - national currency. The National Accounts Main Aggregates database is produced and maintained by the Economic Statistics Branch of the United Nations Statistics Division (UNSD), with input from the UNSD, international organizations, and the national statistical agencies of more than 200 countries.  The database consists of a complete and consistent record of the main National Accounts of each UN member state, from 1970 onwards.  Records are based on official country data reported to the UNSD, supplemented with estimates for any years and countries with incomplete or inconsistent information.  The database is updated in December of each year. For more about the National Accounts Main Aggregates database, see http://unstats.un.org/unsd/snaama/introduction.asp.  To see country-specific metadata, see <a href=http://unstats.un.org/unsd/snaama/metasearch.asp?letter=M>http://unstats.un.org/unsd/snaama/metasearch.asp?letter=M.",
+  "display_url": null,
   "errors": {},
   "frequency": "annual",
-  "from_date": "1990-12-31",
-  "id": 8650477,
-  "name": "Share of gross capital formation at current PPPs - Armenia",
+  "from_date": "1970-12-31",
+  "id": 9779983,
+  "name": "GDP - Constant 2005 Prices, National Currency - Maldives",
+  "premium": false,
   "private": false,
-  "source_code": "GGDC",
-  "source_name": "Groningen Growth and Development Centre",
-  "to_date": "2011-12-31",
+  "source_code": "UNDATA",
+  "source_name": "United Nations Statistics Division Data",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-11T09:45:51Z",
-  "urlize_name": "Share-of-gross-capital-formation-at-current-PPPs-Armenia"
+  "updated_at": "2014-02-11T17:05:53.071Z",
+  "urlize_name": "GDP-Constant-2005-Prices-National-Currency-Maldives"
 }

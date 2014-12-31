@@ -1,23 +1,22 @@
 {
-  "code": "COMM_45_PARQUETPANELSANDTILESOFWOOD_REEXPORT_CYP",
+  "code": "V63628039",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "{\" Geography\"=>\"Yukon\", \" Trade flow detail\"=>\"To Ontario\", \" Commodity\"=>\"Total services (x 1,000,000)\"}",
+  "display_url": "http://www5.statcan.gc.ca/cansim/a08",
   "errors": {},
   "frequency": "annual",
-  "from_date": "1994-12-31",
-  "id": 3666410,
-  "name": "Commodity Re-Exports - Wood And Articles Of Wood, Wood Charcoal / Parquet panels and tiles, of wood - Cyprus",
+  "from_date": "2007-12-31",
+  "id": 13943766,
+  "name": "386-0003: 1, 2, 3, 4, 8: Provincial input-output tables, international and interprovincial trade flows, summary level, basic prices: annual (dollars x 1,000,000)",
+  "premium": false,
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2011-12-31",
+  "source_code": "CANSIM",
+  "source_name": "Statistics Canada",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-01-13T09:16:38Z",
-  "urlize_name": "Commodity-Re-Exports-Wood-And-Articles-Of-Wood-Wood-Charcoal-Parquet-panels-and-tiles-of-wood-Cyprus"
+  "updated_at": "2014-08-11T01:33:53.500Z",
+  "urlize_name": "386-0003-1-2-3-4-8-Provincial-input-output-tables-international-and-interprovincial-trade-flows-summary-level-basic-prices-annual-dollars-x-1-000-000"
 }

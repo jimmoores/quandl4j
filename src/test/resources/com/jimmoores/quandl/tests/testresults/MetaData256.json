@@ -1,21 +1,22 @@
 {
-  "code": "FOXA_DERIVATIVEASSETS_Q",
+  "code": "VNM_BAR_PRM_CMPT_6064_FE_ZS",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "SEC Name: DerivativeAssets",
-  "display_url": null,
+  "description": "Percentage of population, 60-64, female, completed primary is the percentage of females age 60-64 who have completed primary education.\npercentage of population (15+), 60-64, female, completed primary",
+  "display_url": "http://api.worldbank.org/countries/VNM/indicators/BAR.PRM.CMPT.6064.FE.ZS?per_page=1000",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2011-09-30",
-  "id": 10732268,
-  "name": "TWENTY-FIRST CENTURY FOX, INC.  (FOXA): Quarterly Derivative Assets",
+  "frequency": "annual",
+  "from_date": "1970-12-31",
+  "id": 2264583,
+  "name": "Vietnam: percentage of population (15+), 60-64, female, completed primary",
+  "premium": false,
   "private": false,
-  "source_code": "SEC",
-  "source_name": "U.S. Securities and Exchange Commission",
-  "to_date": "2013-06-30",
+  "source_code": "WORLDBANK",
+  "source_name": "World Bank Cross Country Data",
+  "to_date": "2010-12-31",
   "type": null,
-  "updated_at": "2014-03-07T11:02:05Z",
-  "urlize_name": "TWENTY-FIRST-CENTURY-FOX-INC-FOXA-Quarterly-Derivative-Assets"
+  "updated_at": "2014-11-22T20:45:16.395Z",
+  "urlize_name": "Vietnam-percentage-of-population-15-60-64-female-completed-primary"
 }

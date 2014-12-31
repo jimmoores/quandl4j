@@ -1,21 +1,24 @@
 {
-  "code": "VEGETALWASTECONSUMPTIONBYHOUSEHOLDS_MDA",
+  "code": "COMM_69_WORKEDGRANITE_IMPORT_NAM",
   "column_names": [
     "Year",
-    "Metric tons - thousand"
+    "Trade (USD)",
+    "Weight (kg)",
+    "Quantity"
   ],
-  "description": "The Energy Statistics Database contains comprehensive energy statistics on the production, trade, conversion and final consumption of primary and secondary; conventional and non-conventional; and new and renewable sources of energy. The Energy Statistics dataset, covering the period from 1990 onwards, is available at UNdata. For data prior to 1990, please refer to http://unstats.un.org/unsd/energy/edbase.htm.",
+  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
   "display_url": "http://data.un.org/browse.aspx",
   "errors": {},
   "frequency": "annual",
-  "from_date": "2003-12-31",
-  "id": 3151447,
-  "name": "Vegetal Waste - Consumption By Households - Republic of Moldova",
+  "from_date": "2000-12-31",
+  "id": 4055628,
+  "name": "Commodity Imports - Stone, Plaster, Cement, Asbestos, Mica, Etc Articles / Worked granite - Namibia",
+  "premium": false,
   "private": false,
   "source_code": "UN",
   "source_name": "United Nations",
-  "to_date": "2010-12-31",
+  "to_date": "2012-12-31",
   "type": null,
-  "updated_at": "2014-01-10T09:08:21Z",
-  "urlize_name": "Vegetal-Waste-Consumption-By-Households-Republic-of-Moldova"
+  "updated_at": "2014-09-09T13:05:33.099Z",
+  "urlize_name": "Commodity-Imports-Stone-Plaster-Cement-Asbestos-Mica-Etc-Articles-Worked-granite-Namibia"
 }

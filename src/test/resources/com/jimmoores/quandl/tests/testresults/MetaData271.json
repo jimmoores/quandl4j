@@ -1,23 +1,22 @@
 {
-  "code": "COMM_96_PENNIBSNIBPOINTSNES_IMPORT_PER",
+  "code": "PES_GROSSPROFIT_Q",
   "column_names": [
-    "Year",
-    "Trade (USD)",
-    "Weight (kg)",
-    "Quantity"
+    "Date",
+    "Value"
   ],
-  "description": "The United Nations Commodity Trade Statistics Database (UN Comtrade) stores more than 1 billion trade data records from 1962. Over 140 reporter countries provide the United Nations Statistics Division with their annual international trade statistics detailed by commodities and partner countries. These data are subsequently transformed into the United Nations Statistics Division standard format with consistent coding and valuation using the UN/OECD CoprA internal processing system.",
-  "display_url": "http://data.un.org/browse.aspx",
+  "description": "SEC Name: GrossProfit",
+  "display_url": null,
   "errors": {},
-  "frequency": "annual",
-  "from_date": "1992-12-31",
-  "id": 5924730,
-  "name": "Commodity Imports - Miscellaneous Manufactured Articles / Pen nibs, nib points nes - Peru",
+  "frequency": "daily",
+  "from_date": "2013-06-30",
+  "id": 11156746,
+  "name": "PIONEER ENERGY SERVICES CORP  (PES): Quarterly Gross Profit",
+  "premium": false,
   "private": false,
-  "source_code": "UN",
-  "source_name": "United Nations",
-  "to_date": "2011-12-31",
+  "source_code": "SEC",
+  "source_name": "Securities and Exchange Commission Filings",
+  "to_date": "2014-09-30",
   "type": null,
-  "updated_at": "2013-04-14T13:43:21Z",
-  "urlize_name": "Commodity-Imports-Miscellaneous-Manufactured-Articles-Pen-nibs-nib-points-nes-Peru"
+  "updated_at": "2014-11-19T22:31:28.382Z",
+  "urlize_name": "PIONEER-ENERGY-SERVICES-CORP-PES-Quarterly-Gross-Profit"
 }

@@ -1,21 +1,22 @@
 {
-  "code": "HOW_TEMP_NB_SEX_M_ECO_AGGREGATE_CON_M_BEL",
+  "code": "HOLX_RESTRUCTURINGCHARGESINCREASEDECREASECHANGEINASSUMPTION_Q",
   "column_names": [
     "Date",
     "Value"
   ],
-  "description": "Numbers of person are in thousands and rates are in percentage. This data is generated monthy and represents short-term indicators by country on labour markets and consumer prices. Numbers are not seasonally adjusted unless otherwise indicated.",
-  "display_url": "http://www.ilo.org/ilostat/faces/home/statisticaldata/data_by_country?_adf.ctrl-state=hcz1jxi65_4&_afrLoop=1314240154188034",
+  "description": "SEC Name: RestructuringChargesIncreaseDecreaseChangeInAssumption",
+  "display_url": null,
   "errors": {},
-  "frequency": "monthly",
-  "from_date": "2002-02-28",
-  "id": 12616588,
-  "name": "Hours Of Work Of Total Employment Men In Construction - Monthly - Belgium",
+  "frequency": "daily",
+  "from_date": "2013-06-29",
+  "id": 10368654,
+  "name": "HOLOGIC INC  (HOLX): Quarterly Restructuring Charges Increase Decrease Change In Assumption",
+  "premium": false,
   "private": false,
-  "source_code": "ILOSTAT",
-  "source_name": "ILOSTAT Database",
-  "to_date": "2013-11-30",
+  "source_code": "SEC",
+  "source_name": "Securities and Exchange Commission Filings",
+  "to_date": "2013-06-29",
   "type": null,
-  "updated_at": "2014-05-29T10:11:45Z",
-  "urlize_name": "Hours-Of-Work-Of-Total-Employment-Men-In-Construction-Monthly-Belgium"
+  "updated_at": "2014-03-06T22:12:44.460Z",
+  "urlize_name": "HOLOGIC-INC-HOLX-Quarterly-Restructuring-Charges-Increase-Decrease-Change-In-Assumption"
 }

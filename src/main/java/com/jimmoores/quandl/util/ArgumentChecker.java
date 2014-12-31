@@ -22,7 +22,7 @@ public final class ArgumentChecker {
   public static void notNull(final Object argument, final String name) {
     if (argument == null) {
       s_logger.error("Argument {} was null", name);
-      throw new QuandlRuntimeException("Value " + name + " was not null");
+      throw new QuandlRuntimeException("Value " + name + " was null");
     }
   }
   
@@ -35,7 +35,7 @@ public final class ArgumentChecker {
   public static <E> void notNullOrEmpty(final E[] argument, final String name) {
     if (argument == null) {
       s_logger.error("Argument {} was null", name);
-      throw new QuandlRuntimeException("Value " + name + " was not null");
+      throw new QuandlRuntimeException("Value " + name + " was null");
     } else if (argument.length == 0) {
       s_logger.error("Argument {} was empty array", name);
       throw new QuandlRuntimeException("Value " + name + " was empty array");
@@ -51,7 +51,7 @@ public final class ArgumentChecker {
   public static <E> void notNullOrEmpty(final Collection<E> argument, final String name) {
     if (argument == null) {
       s_logger.error("Argument {} was null", name);
-      throw new QuandlRuntimeException("Value " + name + " was not null");
+      throw new QuandlRuntimeException("Value " + name + " was null");
     } else if (argument.size() == 0) {
       s_logger.error("Argument {} was empty collection", name);
       throw new QuandlRuntimeException("Value " + name + " was empty collection");
@@ -66,7 +66,7 @@ public final class ArgumentChecker {
   public static void notNullOrEmpty(final String argument, final String name) {
     if (argument == null) {
       s_logger.error("Argument {} was null", name);
-      throw new QuandlRuntimeException("Value " + name + " was not null");
+      throw new QuandlRuntimeException("Value " + name + " was null");
     } else if (argument.length() == 0) {
       s_logger.error("Argument {} was empty string", name);
       throw new QuandlRuntimeException("Value " + name + " was empty string");

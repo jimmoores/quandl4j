@@ -1,21 +1,22 @@
 {
-  "code": "MUS_MYS_PROP_15UP_SEC_FE",
+  "code": "UKEA_HBRT_Q",
   "column_names": [
-    "Date",
+    "Year",
     "Value"
   ],
-  "description": "Proportion, 15+, female, secondary is the proportion of the female population over age 15 with secondary education.\nproportion, 15+, female, secondary",
-  "display_url": "http://api.worldbank.org/countries/MUS/indicators/MYS.PROP.15UP.SEC.FE?per_page=1000",
+  "description": "seasonal_adjustment='NSA', base_period='-', price='CURR', index_period='-'",
+  "display_url": "http://www.ons.gov.uk/ons/datasets-and-tables/downloads/csv.csv?dataset=ukea",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2000-12-31",
-  "id": 2052469,
-  "name": "Mauritius: proportion, 15+, female, secondary",
+  "frequency": "quarterly",
+  "from_date": "1987-03-31",
+  "id": 7981900,
+  "name": "BoP FA PI Liability flow bonds and notes issued by other sectors NSA £m (Quarterly)",
+  "premium": false,
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
-  "to_date": "2050-12-31",
+  "source_code": "UKONS",
+  "source_name": "United Kingdom Office of National Statistics",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-05-16T19:31:56Z",
-  "urlize_name": "Mauritius-proportion-15-female-secondary"
+  "updated_at": "2014-05-06T15:34:22.677Z",
+  "urlize_name": "BoP-FA-PI-Liability-flow-bonds-and-notes-issued-by-other-sectors-NSA-m-Quarterly"
 }

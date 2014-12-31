@@ -1,21 +1,22 @@
 {
-  "code": "CRI_IC_FRM_TRD_TR4",
+  "code": "GMP39820_REAL_FORESTRYFISHINGANDRELATEDACTIVITIES_REDDINGCA",
   "column_names": [
-    "Date",
-    "Value"
+    "Year",
+    "Forestry, Fishing, And Related Activities"
   ],
-  "description": "Percentage of total annual sales that are domestic sales.   Source:World Bank, Enterprise Surveys Project(http://www.enterprisesurveys.org/Data/ExploreTopics/trade).\nProportion of total sales that are domestic sales (%)",
-  "display_url": "http://api.worldbank.org/countries/CRI/indicators/IC.FRM.TRD.TR4?per_page=1000",
+  "description": "Millions of Current Dollars. BEA's national economic statistics provide a comprehensive view of U.S. production, consumption, investment, exports and imports, and income and saving. These statistics are best known by summary measures such as gross domestic product (GDP), corporate profits, personal income and spending, and personal saving.",
+  "display_url": "http://bea.gov/regional",
   "errors": {},
   "frequency": "annual",
   "from_date": "2005-12-31",
-  "id": 2107863,
-  "name": "Costa Rica: Proportion of total sales that are domestic sales (%)",
+  "id": 6681844,
+  "name": "Real GDP: Forestry, fishing, and related activities - Redding, CA",
+  "premium": false,
   "private": false,
-  "source_code": "WORLDBANK",
-  "source_name": "World Bank",
-  "to_date": "2010-12-31",
+  "source_code": "BEA",
+  "source_name": "Bureau of Economic Analysis",
+  "to_date": "2006-12-31",
   "type": null,
-  "updated_at": "2014-05-18T07:58:05Z",
-  "urlize_name": "Costa-Rica-Proportion-of-total-sales-that-are-domestic-sales"
+  "updated_at": "2014-01-13T10:59:04.431Z",
+  "urlize_name": "Real-GDP-Forestry-fishing-and-related-activities-Redding-CA"
 }
