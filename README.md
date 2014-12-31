@@ -75,8 +75,13 @@ The core design principles are:
    have fields like `Frequency` set to null rather than values that Quandl returned.
  - A missing dependency for Java 7 users has been added that allows the examples to run cleanly.
  - Test files were regenerated.
- - Version 0.9.0 was skipped because it was used internally by the author in a private Maven repository for an intermediate
-   version.
+### Version 0.9.0
+ - Skipped because it was used internally by the author in a private Maven repository for an intermediate version and never
+   curated for Maven Central.
+### Version 0.8.1
+ - Fixed some POM issues.
+### Version 0.8.0
+ - Initial public release.
 
 ## Tutorial
 ### A First Taste of the API
