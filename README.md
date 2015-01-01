@@ -470,19 +470,20 @@ Available columns are: HeaderDefinition[Date,Cash]
 ```
 
 ### Quandl API Key and Session Options
-To be allowed to use more than 50 requests per day it is necessary to [sign up for an account at quandl.com](https://www.quandl.com/users/sign_up).  This typically allows up to 50,000 requests per day.  When you've created your account, you can find your 'Auth Token' on your account details page.  There are several ways to pass this into Quandl4J
-1. Set the Java sytem property `quandl.auth.token` to your Auth Token (-D when launching the JVM) and then call `QuandlSession.create()`.
+To be allowed to use more than 50 requests per day it is necessary to [sign up for an account at quandl.com](https://www.quandl.com/users/sign_up).  This typically allows up to 50,000 requests per day.  When you've created your account, you can find your 'Auth Token' on your account details page.  There are several ways to pass this into Quandl4J:
+
+1. Set the Java sytem property `quandl.auth.token` to your Auth Token (`-Dquandl.auth.token=MYAUTHTOKEN` when launching the JVM using the `java` launcher) and then call `QuandlSession.create()`.
 2. Pass the token as a `String` parameter to `QuandlSession.create(String)` when you create the session.
 3. Create a `SessionOptions` object using it's builder and pass your Auth Token into the `withAuthToken(String)` method and then pass the resulting `SessionOptions` object into the `QuandlSession.create(SessionOptions)` method.
 
-Other aspects of `SessionOptions` are the `RESTDataProvider` which is used to allow the use of a testing class that records
-requests in files, and `RetryPolicy`, which tells the session how to deal with failed requests.  Out of the box, there are three `RetryPolicy` types available:
+Other properties of `SessionOptions` are the `RESTDataProvider` which is used to allow the use of a testing class that records requests in files, and `RetryPolicy` (`withRetryPolicy(RetryPolicy)` in the builder), which tells the session how to deal with failed requests.  Out of the box, there are three `RetryPolicy` types available:
 
  - `NoRetryPolicy`, created using `RetryPolicy.createNoRetryPolicy()`.  This doesn't retry and all and throws exceptions immediately.
  - `FixedRetryPolicy`, created using `RetryPolocy.createFixedRetryPolicy(int, long)`.  This will retry a maximum of <int> number of times, with a delay of <long> between each one.
  - `SequenceRetryPolicy`, createed using `RetryPolicy.createSequenceRetryPolocy(long[])`.  This will retry, waiting the number of milliseconds in each array element, until the array is exhausted, at which point the policy will give up.
  
-The default policy is `SequenceRetryPolicy(new long[] {1, 5, 20, 60})`.
+The default policy is `SequenceRetryPolicy(new long[] {1000, 5000, 20000, 60000})`, which will back off first by 1 second, then 5, then 20 and finally a full minute.  Custom policies can be created by subclassing `RetryPolicy` yourself.
+
 ### Documentation
 An addition to the tutorial, there is extra documentation at the package and class level within the [JavaDocs, which are hosted in GitHub Pages](http://jimmoores.github.io/quandl4j/apidocs).
 
