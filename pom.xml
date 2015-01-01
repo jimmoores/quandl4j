@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.jimmoores</groupId>
@@ -41,7 +40,7 @@
     <!-- Properties for maven-javadoc-plugin -->
     <windowtitle>Quandl4J API</windowtitle>
     <doctitle><![CDATA[<h1>Quandl Java Client API</h1>]]></doctitle>
-    <bottom><![CDATA[<i>Copyright 2014-Present by Jim Moores</i><br/><i>${javadoc.footer.license}</i>]]></bottom>
+    <bottom><![CDATA[<i>Copyright 2014-Present by Jim Moores</i><br /><i>${javadoc.footer.license}</i>]]></bottom>
     <!-- Properties for buildnumber-maven-plugin -->
     <maven.buildNumber.getRevisionOnlyOnce>true</maven.buildNumber.getRevisionOnlyOnce>
     <!-- Version properties -->
@@ -59,7 +58,7 @@
     <maven.compiler.compilerVersion>1.7</maven.compiler.compilerVersion>
     <!--maven.compiler.source>1.7</maven.compiler.source-->
     <maven.compiler.target>1.7</maven.compiler.target>  
-    <gpg.skip>true</gpg.skip>
+    <gpg.skip>false</gpg.skip>
   </properties>
   
   <distributionManagement>
