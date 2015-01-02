@@ -64,6 +64,8 @@ The core design principles are:
    can be set in the SessionOptions.  The default is to back off for 1, 5, 20 and then 60 seconds and then give up.  Custom 
    policies can be put in place by subclassing `RetryPolicy`.  Some examples are available via factory methods on    
    `RetryPolicy`.
+ - Emulated multiset queries (both Tabular and Metadata) now return Quandl codes of the form PROVIDER/CODE rather than
+   PROVIDER.CODE.  This was only noticed after release.  If this causes big problems for you, please open a ticket and I will    provide the facility to revert to the old behaviour in a new release.
  - The new retry behaviour means that there are times that would previously have thrown a generic `QuandlRuntimeException`
    will now return `QuandlFailedRequestException` (which is thrown after receiving multiple   
    `QuandlTooManyRequestsException` or `QuandlServiceUnavailableException`).  Note that previously a bug prevented the 
@@ -165,7 +167,7 @@ System.out.println(tabularResultMulti.toPrettyPrintedString());
 which returns all results in a single `TabularResult`
 ```
 +------------+-------------------+------------------+
-| Date       | WIKI.AAPL - Close | DOE.RWTC - Value |
+| Date       | WIKI/AAPL - Close | DOE/RWTC - Value |
 +------------+-------------------+------------------+
 | 2014-06-30 | 637.54            |                  |
 | 2014-05-31 | 633.0             | 103.37           |
@@ -207,13 +209,13 @@ Iterator<Row> iter = tabularResultMulti.iterator();
 while (iter.hasNext()) {
   Row row = iter.next();
   LocalDate date = row.getLocalDate("Date");
-  Double value = row.getDouble("DOE.RWTC - Value");
+  Double value = row.getDouble("DOE/RWTC - Value");
   System.out.println("Value on date " + date + " was " + value);
 } 
 ```
 produces:
 ```
-Header definition: HeaderDefinition[Date,WIKI.AAPL - Close,DOE.RWTC - Value]
+Header definition: HeaderDefinition[Date,WIKI/AAPL - Close,DOE/RWTC - Value]
 Value on date 2014-06-30 was null
 Value on date 2014-05-31 was 103.37
 Value on date 2014-04-30 was 100.07
@@ -291,31 +293,31 @@ which returns a large JSON document wrapped in a normal MetaDataResult object.
 {
   "column_names": [
     "Date",
-    "WIKI.AAPL - Open",
-    "WIKI.AAPL - High",
-    "WIKI.AAPL - Low",
-    "WIKI.AAPL - Close",
-    "WIKI.AAPL - Volume",
-    "WIKI.AAPL - Ex-Dividend",
-    "WIKI.AAPL - Split Ratio",
-    "WIKI.AAPL - Adj. Open",
-    "WIKI.AAPL - Adj. High",
-    "WIKI.AAPL - Adj. Low",
-    "WIKI.AAPL - Adj. Close",
-    "WIKI.AAPL - Adj. Volume",
-    "DOE.RWTC - Value",
-    "WIKI.MSFT - Open",
-    "WIKI.MSFT - High",
-    "WIKI.MSFT - Low",
-    "WIKI.MSFT - Close",
-    "WIKI.MSFT - Volume",
-    "WIKI.MSFT - Ex-Dividend",
-    "WIKI.MSFT - Split Ratio",
-    "WIKI.MSFT - Adj. Open",
-    "WIKI.MSFT - Adj. High",
-    "WIKI.MSFT - Adj. Low",
-    "WIKI.MSFT - Adj. Close",
-    "WIKI.MSFT - Adj. Volume"
+    "WIKI/AAPL - Open",
+    "WIKI/AAPL - High",
+    "WIKI/AAPL - Low",
+    "WIKI/AAPL - Close",
+    "WIKI/AAPL - Volume",
+    "WIKI/AAPL - Ex-Dividend",
+    "WIKI/AAPL - Split Ratio",
+    "WIKI/AAPL - Adj. Open",
+    "WIKI/AAPL - Adj. High",
+    "WIKI/AAPL - Adj. Low",
+    "WIKI/AAPL - Adj. Close",
+    "WIKI/AAPL - Adj. Volume",
+    "DOE/RWTC - Value",
+    "WIKI/MSFT - Open",
+    "WIKI/MSFT - High",
+    "WIKI/MSFT - Low",
+    "WIKI/MSFT - Close",
+    "WIKI/MSFT - Volume",
+    "WIKI/MSFT - Ex-Dividend",
+    "WIKI/MSFT - Split Ratio",
+    "WIKI/MSFT - Adj. Open",
+    "WIKI/MSFT - Adj. High",
+    "WIKI/MSFT - Adj. Low",
+    "WIKI/MSFT - Adj. Close",
+    "WIKI/MSFT - Adj. Volume"
   ],
   "columns": [
     "Date",
@@ -361,9 +363,9 @@ System.out.println(PrettyPrinter.toPrettyPrintedString(headers));
 ```
 which returns the following map (`PrettyPrinter` contains a PrettyPrinter for these maps too):
 ```
-WIKI.AAPL => Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
-DOE.RWTC  => Date, Value
-WIKI.MSFT => Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
+WIKI/AAPL => Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
+DOE/RWTC  => Date, Value
+WIKI/MSFT => Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
 ```
 ### Searching
 We can also make generalised free-text search requests to Quandl.  For this we use the `search(SearchRequest)` method.  This allows us to specify the maximum number of results per page, and also the page we want.  Note that queries with high page numbers are slow, presumably due to the server-side database having to project the entire result set of several million documents just to get the single page you want.  Try not to add to server load by making these requests excessively.
