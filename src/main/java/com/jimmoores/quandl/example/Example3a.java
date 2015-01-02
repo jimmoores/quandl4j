@@ -43,7 +43,7 @@ public final class Example3a {
     while (iter.hasNext()) {
       Row row = iter.next();
       LocalDate date = row.getLocalDate("Date");
-      Double value = row.getDouble("DOE.RWTC - Value");
+      Double value = row.getDouble("DOE/RWTC - Value");
       System.out.println("Value on date " + date + " was " + value);
     } 
   }
