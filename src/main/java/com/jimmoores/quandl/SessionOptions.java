@@ -1,8 +1,8 @@
 package com.jimmoores.quandl;
 
+import com.jimmoores.quandl.caching.RetentionPolicy;
 import com.jimmoores.quandl.util.ArgumentChecker;
 import com.jimmoores.quandl.util.DefaultRESTDataProvider;
-import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.RESTDataProvider;
 
 /**
@@ -12,13 +12,17 @@ public final class SessionOptions {
   private String _authToken;
   private RESTDataProvider _restDataProvider;
   private RetryPolicy _retryPolicy;
-  
+  private String _cacheDir;
+  private RetentionPolicy _defaultRetentionPolicy;
+
   private SessionOptions(final Builder builder) {
     _authToken = builder._authToken;
     _restDataProvider = builder._restDataProvider;
     _retryPolicy = builder._retryPolicy;
+    _cacheDir = builder._cacheDir;
+    _defaultRetentionPolicy = builder._defaultRetentionPolicy;
   }
-  
+
   /**
    * Internal Builder class.
    */
@@ -31,11 +35,13 @@ public final class SessionOptions {
     private String _authToken;
     private RESTDataProvider _restDataProvider = new DefaultRESTDataProvider();
     private RetryPolicy _retryPolicy = RetryPolicy.createSequenceRetryPolicy(new long[] { ONE_SECOND, FIVE_SECONDS, TWENTY_SECONDS, SIXTY_SECONDS });
+    private String _cacheDir;
+    private RetentionPolicy _defaultRetentionPolicy;
 
     private Builder(final String authToken) {
       _authToken = authToken;
     }
-    
+
     /**
      * Specify a specific auth token.
      * @param authToken your auth token
@@ -53,7 +59,7 @@ public final class SessionOptions {
     public static Builder withoutAuthToken() {
       return new Builder(null);
     }
-    
+
     /**
      * Specify a custom RESTDataProvider for the session to use when sending requests, intended for testing purposes.
      * @param restDataProvider a RESTDataProvider for the session
@@ -64,7 +70,7 @@ public final class SessionOptions {
       _restDataProvider = restDataProvider;
       return this;
     }
-    
+
     /**
      * Specify the number of retries to execute before giving up on a request.
      * @param retryPolicy  the policy to follow regarding retries
@@ -75,7 +81,7 @@ public final class SessionOptions {
       _retryPolicy = retryPolicy;
       return this;
     }
-    
+
     /**
      * Specify the length of time to wait before retrying
      */
@@ -86,8 +92,22 @@ public final class SessionOptions {
     public SessionOptions build() {
       return new SessionOptions(this);
     }
+
+    public Builder withCacheDir(String cacheDir_)
+    {
+      ArgumentChecker.notNull(cacheDir_, "cacheDir");
+      _cacheDir = cacheDir_;
+      return this;
+    }
+
+    public Builder withDefaultRetentionPolicy(RetentionPolicy policy_)
+    {
+      ArgumentChecker.notNull(policy_, "defaultRetentionPolicy");
+      _defaultRetentionPolicy = policy_;
+      return this;
+    }
   }
-  
+
   /**
    * Get the Quandl auth token stored in this SessionOptions, or null if none was specified.
    * @return the quandl API auth token String, or null if none was specified
@@ -95,7 +115,7 @@ public final class SessionOptions {
   public String getAuthToken() {
     return _authToken;
   }
-  
+
   /**
    * Get the REST data provider to use when sending API requests to Quandl.
    * @return the REST data provider, not null
@@ -103,7 +123,7 @@ public final class SessionOptions {
   public RESTDataProvider getRESTDataProvider() {
     return _restDataProvider;
   }
-  
+
   /**
    * Get the RetryPolicy to use in determining retry behaviour when calls to Quandl fail.
    * The default is a four stage back-off of 1 second, 5 seconds, 20 seconds and lastly 60 seconds.
@@ -112,4 +132,20 @@ public final class SessionOptions {
   public RetryPolicy getRetryPolicy() {
     return _retryPolicy;
   }
+
+  /**
+   *
+   * @return the directory where quandl4j should place data for caching. Null if not set.
+   */
+  public String getCacheDir()
+  {
+    return _cacheDir;
+  }
+
+  public RetentionPolicy getDefaultRetentionPolicy()
+  {
+    return _defaultRetentionPolicy;
+  }
+
+
 }

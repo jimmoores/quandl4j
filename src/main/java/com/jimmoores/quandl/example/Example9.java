@@ -1,12 +1,13 @@
-package main.java.com.jimmoores.quandl.example;
+package com.jimmoores.quandl.example;
 
-import com.jimmoores.quandl.MetaDataResult;
-import com.jimmoores.quandl.QuandlSession;
-import com.jimmoores.quandl.SearchRequest;
-import com.jimmoores.quandl.SearchResult;
+import com.jimmoores.quandl.*;
+import com.jimmoores.quandl.caching.RetentionPolicy;
+
+import java.io.FileNotFoundException;
 
 /**
  * Example 8.
+ * Demonstrates caching
  */
 public final class Example9
 {
@@ -21,14 +22,20 @@ public final class Example9
    * The main body of the code.
    */
   private void run() {
-    QuandlSession session = QuandlSession.create();
-    SearchResult searchResult = session.search(SearchRequest.Builder.of("Apple").withMaxPerPage(2).build());
-    System.out.println("Current page:" + searchResult.getCurrentPage());
-    System.out.println("Documents per page:" + searchResult.getDocumentsPerPage());
-    System.out.println("Total matching documents:" + searchResult.getTotalDocuments());
-    for (MetaDataResult document : searchResult.getMetaDataResultList()) {
-      System.out.println("Quandl code " + document.getQuandlCode() + " matched");
-      System.out.println("Available columns are: " + document.getHeaderDefinition());
+    SessionOptions sessionOptions = SessionOptions.Builder.withoutAuthToken()
+      .withCacheDir(".")
+      .withDefaultRetentionPolicy(RetentionPolicy.Day)
+      .build();
+    QuandlSession session = QuandlSession.create(sessionOptions);
+    TabularResult tabularResult = null;
+    try
+    {
+      tabularResult = session.getDataSet(
+        DataSetRequest.Builder.of("WIKI/AAPL").build());
+      System.out.println(tabularResult.toPrettyPrintedString());
+    } catch (FileNotFoundException e)
+    {
+      e.printStackTrace();
     }
   }
 
@@ -37,7 +44,7 @@ public final class Example9
    * @param args command line arguments
    */
   public static void main(final String[] args) {
-    com.jimmoores.quandl.example.Example8 example = new com.jimmoores.quandl.example.Example8();
+    Example9 example = new Example9();
     example.run();
   }
 }

@@ -58,6 +58,23 @@ public final class DataSetRequest {
   }
 
   /**
+   *
+   * @return the quandl code corresponding with the request
+   */
+  public String getQuandlCode()
+  {
+    return _quandlCode;
+  }
+
+  /**
+   *
+   * @return the Frequency that was set
+   */
+  public Frequency getFrequency()
+  {
+    return _frequency;
+  }
+  /**
    * Inner builder class.  Create an instance using of("QUANDL/CODE"), call any other
    * methods you need, and finish by calling build().
    */

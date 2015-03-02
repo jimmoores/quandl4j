@@ -1,5 +1,7 @@
 package com.jimmoores.quandl;
 
+import java.io.FileNotFoundException;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -16,6 +18,8 @@ import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.UriBuilder;
 
+import com.jimmoores.quandl.caching.CacheManager;
+import com.jimmoores.quandl.caching.RetentionPolicy;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -42,6 +46,10 @@ import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
  *   QuandlSession.of();
  * </pre>
  * Then call one of the methods to fetch data!
+ *
+ * You can either invoke withDefaultRetentionPolicy() on the session or withFrequency() on the
+ * DataSetRequest to hint the CacheManager whether it should load over the network or retrieve data from
+ * the cache
  */
 public final class QuandlSession {
   private static final String JSON_TO_DATE_FIELD = "to_date";
@@ -63,8 +71,18 @@ public final class QuandlSession {
    */
   public static final String AUTH_TOKEN_PARAM_NAME = "auth_token";
 
+  /**
+   * the object responsible for caching data
+   */
+  private CacheManager _cacheManager = null;
+
   private QuandlSession(final SessionOptions sessionOptions) {
     _sessionOptions = sessionOptions;
+    // create the cache directory if set, and not exists:
+    if (_sessionOptions.getCacheDir() != null)
+    {
+      _cacheManager = new CacheManager(_sessionOptions.getCacheDir());
+    }
   }
   
   /**
@@ -138,8 +156,25 @@ public final class QuandlSession {
    * @param request the request object containing details of what is required
    * @return a TabularResult set
    */
-  public TabularResult getDataSet(final DataSetRequest request) {
+  public TabularResult getDataSet(final DataSetRequest request) throws FileNotFoundException
+  {
     ArgumentChecker.notNull(request, "request");
+
+    if (_cacheManager != null)
+    {
+      // check if we already have the data in the cache
+      RetentionPolicy retentionPolicy = RetentionPolicy.create(request.getFrequency());
+      if (retentionPolicy == null)
+      {
+        retentionPolicy = _sessionOptions.getDefaultRetentionPolicy();
+      }
+      TabularResult result = _cacheManager.load(request.getQuandlCode(), retentionPolicy);
+      if (result != null)
+      {
+        return result;
+      }
+    }
+
     Client client = getClient();
     WebTarget target = client.target(API_BASE_URL);
     target = withAuthToken(target);
@@ -159,6 +194,19 @@ public final class QuandlSession {
       }
       // note checkRetries always returns true or throws an exception so we won't get tabularReponse == null
     } while (tabularResponse == null && _sessionOptions.getRetryPolicy().checkRetries(retries++));
+
+    if (_cacheManager != null)
+    {
+      // dump the tabularResponse as a json object
+      try
+      {
+        _cacheManager.store(request.getQuandlCode(), tabularResponse);
+      } catch (UnsupportedEncodingException e)
+      {
+        s_logger.debug("Quandl caching unavailable or misconfigured: " + e.getMessage());
+      }
+    }
+
     return tabularResponse;
   }
   
@@ -197,7 +245,8 @@ public final class QuandlSession {
    * @return a single TabularResult set containing all requested results
    * @deprecated this call is provided for compatibility purposes and is deprecated, please use the single request mechanism
    */  
-  public TabularResult getDataSets(final MultiDataSetRequest request) {
+  public TabularResult getDataSets(final MultiDataSetRequest request) throws FileNotFoundException
+  {
     final List<QuandlCodeRequest> quandlCodeRequests = request.getQuandlCodeRequests();
     final Map<QuandlCodeRequest, TabularResult> results = new LinkedHashMap<QuandlCodeRequest, TabularResult>();
     for (final QuandlCodeRequest quandlCodeRequest : quandlCodeRequests) {
