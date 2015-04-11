@@ -1,16 +1,16 @@
 package com.jimmoores.quandl.example;
 
-import com.jimmoores.quandl.*;
+import com.jimmoores.quandl.DataSetRequest;
+import com.jimmoores.quandl.QuandlSession;
+import com.jimmoores.quandl.SessionOptions;
+import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.caching.RetentionPolicy;
-
-import java.io.FileNotFoundException;
 
 /**
  * Example 8.
  * Demonstrates caching
  */
-public final class Example9
-{
+public final class Example9 {
 
   /**
    * Private default constructor.
@@ -24,19 +24,12 @@ public final class Example9
   private void run() {
     SessionOptions sessionOptions = SessionOptions.Builder.withoutAuthToken()
       .withCacheDir(".")
-      .withDefaultRetentionPolicy(RetentionPolicy.Day)
+      .withDefaultRetentionPolicy(RetentionPolicy.DAY)
       .build();
     QuandlSession session = QuandlSession.create(sessionOptions);
-    TabularResult tabularResult = null;
-    try
-    {
-      tabularResult = session.getDataSet(
+    TabularResult tabularResult = session.getDataSet(
         DataSetRequest.Builder.of("WIKI/AAPL").build());
-      System.out.println(tabularResult.toPrettyPrintedString());
-    } catch (FileNotFoundException e)
-    {
-      e.printStackTrace();
-    }
+    System.out.println(tabularResult.toPrettyPrintedString());
   }
 
   /**

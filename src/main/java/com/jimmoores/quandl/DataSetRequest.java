@@ -58,20 +58,16 @@ public final class DataSetRequest {
   }
 
   /**
-   *
    * @return the quandl code corresponding with the request
    */
-  public String getQuandlCode()
-  {
+  public String getQuandlCode() {
     return _quandlCode;
   }
 
   /**
-   *
    * @return the Frequency that was set
    */
-  public Frequency getFrequency()
-  {
+  public Frequency getFrequency() {
     return _frequency;
   }
   /**

@@ -6,8 +6,6 @@ import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.Transform;
 
-import java.io.FileNotFoundException;
-
 /**
  * Example 2.
  */
@@ -25,20 +23,13 @@ public final class Example2 {
    */
   private void run() {
     QuandlSession session = QuandlSession.create();
-    TabularResult tabularResult = null;
-    try
-    {
-      tabularResult = session.getDataSet(
+    TabularResult tabularResult = session.getDataSet(
         DataSetRequest.Builder
           .of("WIKI/AAPL")
           .withFrequency(Frequency.QUARTERLY)
           .withColumn(CLOSE_COLUMN)
           .withTransform(Transform.NORMALIZE)
           .build());
-    } catch (FileNotFoundException e)
-    {
-      e.printStackTrace();
-    }
     System.out.println(tabularResult.toPrettyPrintedString());  }
 
   /**

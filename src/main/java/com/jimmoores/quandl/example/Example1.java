@@ -4,8 +4,6 @@ import com.jimmoores.quandl.DataSetRequest;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.TabularResult;
 
-import java.io.FileNotFoundException;
-
 /**
  * Example 1.
  */
@@ -21,16 +19,9 @@ public final class Example1 {
    */
   private void run() {
     QuandlSession session = QuandlSession.create();
-    TabularResult tabularResult = null;
-    try
-    {
-      tabularResult = session.getDataSet(
+    TabularResult tabularResult = session.getDataSet(
         DataSetRequest.Builder.of("WIKI/AAPL").build());
-      System.out.println(tabularResult.toPrettyPrintedString());
-    } catch (FileNotFoundException e)
-    {
-      e.printStackTrace();
-    }
+    System.out.println(tabularResult.toPrettyPrintedString());
   }
 
   /**

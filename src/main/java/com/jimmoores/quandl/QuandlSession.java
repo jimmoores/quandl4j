@@ -1,9 +1,8 @@
 package com.jimmoores.quandl;
 
-import java.io.FileNotFoundException;
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
@@ -18,16 +17,17 @@ import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.UriBuilder;
 
-import com.jimmoores.quandl.caching.CacheManager;
-import com.jimmoores.quandl.caching.RetentionPolicy;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.threeten.bp.LocalDate;
+import org.threeten.bp.chrono.ChronoLocalDate;
 
 import com.jimmoores.quandl.DataSetRequest.Builder;
+import com.jimmoores.quandl.caching.CacheManager;
+import com.jimmoores.quandl.caching.RetentionPolicy;
 import com.jimmoores.quandl.util.ArgumentChecker;
 import com.jimmoores.quandl.util.QuandlRequestFailedException;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
@@ -72,15 +72,14 @@ public final class QuandlSession {
   public static final String AUTH_TOKEN_PARAM_NAME = "auth_token";
 
   /**
-   * the object responsible for caching data
+   * the object responsible for caching data.
    */
   private CacheManager _cacheManager = null;
 
   private QuandlSession(final SessionOptions sessionOptions) {
     _sessionOptions = sessionOptions;
     // create the cache directory if set, and not exists:
-    if (_sessionOptions.getCacheDir() != null)
-    {
+    if (_sessionOptions.getCacheDir() != null) {
       _cacheManager = new CacheManager(_sessionOptions.getCacheDir());
     }
   }
@@ -156,21 +155,17 @@ public final class QuandlSession {
    * @param request the request object containing details of what is required
    * @return a TabularResult set
    */
-  public TabularResult getDataSet(final DataSetRequest request) throws FileNotFoundException
-  {
+  public TabularResult getDataSet(final DataSetRequest request) {
     ArgumentChecker.notNull(request, "request");
 
-    if (_cacheManager != null)
-    {
+    if (_cacheManager != null) {
       // check if we already have the data in the cache
       RetentionPolicy retentionPolicy = RetentionPolicy.create(request.getFrequency());
-      if (retentionPolicy == null)
-      {
+      if (retentionPolicy == null) {
         retentionPolicy = _sessionOptions.getDefaultRetentionPolicy();
       }
       TabularResult result = _cacheManager.load(request.getQuandlCode(), retentionPolicy);
-      if (result != null)
-      {
+      if (result != null) {
         return result;
       }
     }
@@ -195,16 +190,9 @@ public final class QuandlSession {
       // note checkRetries always returns true or throws an exception so we won't get tabularReponse == null
     } while (tabularResponse == null && _sessionOptions.getRetryPolicy().checkRetries(retries++));
 
-    if (_cacheManager != null)
-    {
+    if (_cacheManager != null) {
       // dump the tabularResponse as a json object
-      try
-      {
-        _cacheManager.store(request.getQuandlCode(), tabularResponse);
-      } catch (UnsupportedEncodingException e)
-      {
-        s_logger.debug("Quandl caching unavailable or misconfigured: " + e.getMessage());
-      }
+      _cacheManager.store(request.getQuandlCode(), tabularResponse);
     }
 
     return tabularResponse;
@@ -245,8 +233,7 @@ public final class QuandlSession {
    * @return a single TabularResult set containing all requested results
    * @deprecated this call is provided for compatibility purposes and is deprecated, please use the single request mechanism
    */  
-  public TabularResult getDataSets(final MultiDataSetRequest request) throws FileNotFoundException
-  {
+  public TabularResult getDataSets(final MultiDataSetRequest request) {
     final List<QuandlCodeRequest> quandlCodeRequests = request.getQuandlCodeRequests();
     final Map<QuandlCodeRequest, TabularResult> results = new LinkedHashMap<QuandlCodeRequest, TabularResult>();
     for (final QuandlCodeRequest quandlCodeRequest : quandlCodeRequests) {
@@ -310,8 +297,13 @@ public final class QuandlSession {
         columnNames.add(codeRequest.getQuandlCode() + " - " + colName);
       }
     }
-    final SortedMap<LocalDate, String[]> rows =
-        new TreeMap<LocalDate, String[]>(sortOrder == SortOrder.ASCENDING ? LocalDate.timeLineOrder() : Collections.reverseOrder(LocalDate.timeLineOrder()));
+    final Comparator<ChronoLocalDate> comparator;
+    if (sortOrder == SortOrder.ASCENDING) {
+      comparator = LocalDate.timeLineOrder();
+    } else {
+      comparator = Collections.reverseOrder(LocalDate.timeLineOrder());
+    }
+    final SortedMap<LocalDate, String[]> rows = new TreeMap<LocalDate, String[]>(comparator);
     for (final Map.Entry<QuandlCodeRequest, TabularResult> mapEntry : results.entrySet()) {
       final QuandlCodeRequest codeRequest = mapEntry.getKey();
       final TabularResult table1 = mapEntry.getValue();

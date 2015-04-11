@@ -93,17 +93,25 @@ public final class SessionOptions {
       return new SessionOptions(this);
     }
 
-    public Builder withCacheDir(String cacheDir_)
-    {
-      ArgumentChecker.notNull(cacheDir_, "cacheDir");
-      _cacheDir = cacheDir_;
+    /**
+     * Specify the path to the cache directory, if required.
+     * @param cacheDir  the path to the cache directory
+     * @return this builder
+     */
+    public Builder withCacheDir(final String cacheDir) {
+      ArgumentChecker.notNull(cacheDir, "cacheDir");
+      _cacheDir = cacheDir;
       return this;
     }
 
-    public Builder withDefaultRetentionPolicy(RetentionPolicy policy_)
-    {
-      ArgumentChecker.notNull(policy_, "defaultRetentionPolicy");
-      _defaultRetentionPolicy = policy_;
+    /**
+     * Specify the default retention policy, if required.
+     * @param policy  the default retention policy
+     * @return this builder
+     */
+    public Builder withDefaultRetentionPolicy(final RetentionPolicy policy) {
+      ArgumentChecker.notNull(policy, "policy");
+      _defaultRetentionPolicy = policy;
       return this;
     }
   }
@@ -134,18 +142,16 @@ public final class SessionOptions {
   }
 
   /**
-   *
-   * @return the directory where quandl4j should place data for caching. Null if not set.
+   * @return the directory where quandl4j should place data for caching or null if not set.
    */
-  public String getCacheDir()
-  {
+  public String getCacheDir() {
     return _cacheDir;
   }
-
-  public RetentionPolicy getDefaultRetentionPolicy()
-  {
+  
+  /**
+   * @return the default retention policy, or null if not set.
+   */
+  public RetentionPolicy getDefaultRetentionPolicy() {
     return _defaultRetentionPolicy;
   }
-
-
 }

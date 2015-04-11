@@ -16,8 +16,6 @@ import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.Transform;
 import com.jimmoores.quandl.util.PrettyPrinter;
 
-import java.io.FileNotFoundException;
-
 /**
  * Demo using Quandl library.
  */
@@ -42,26 +40,22 @@ public final class Demo {
       System.out.println(PrettyPrinter.toPrettyPrintedString(metaData.getRawJSON()));
     }
     TabularResult tabularResult = null;
-    try
-    {
-      tabularResult = quandl.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL").withFrequency(Frequency.QUARTERLY)
-                                                                            .withColumn(CLOSE_COLUMN).withTransform(Transform.NORMALIZE).build());
-      System.out.println(PrettyPrinter.toPrettyPrintedString(tabularResult));
-      TabularResult tabularResultMulti = quandl.getDataSets(
-                                         MultiDataSetRequest.Builder.of(
-                                           QuandlCodeRequest.allColumns("WIKI/AAPL"), 
-                                           QuandlCodeRequest.allColumns("DOE/RWTC")
-                                         ).withStartDate(RECENTISH_DATE)
-                                         .build());
-      System.out.println(PrettyPrinter.toPrettyPrintedString(tabularResultMulti));
-      MetaDataResult metaData = quandl.getMetaData(MetaDataRequest.of("WIKI/AAPL"));
-      System.out.println(PrettyPrinter.toPrettyPrintedString(metaData.getRawJSON()));
-      MetaDataResult metaData2 = quandl.getMetaData(MultiMetaDataRequest.of("WIKI/AAPL", "DOE/RWTC", "WIKI/MSFT"));
-      System.out.println(PrettyPrinter.toPrettyPrintedString(metaData2.getRawJSON()));
-    } catch (FileNotFoundException e)
-    {
-      e.printStackTrace();
-    }
+
+    tabularResult = quandl.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL").withFrequency(Frequency.QUARTERLY)
+                                                                          .withColumn(CLOSE_COLUMN).withTransform(Transform.NORMALIZE).build());
+    System.out.println(PrettyPrinter.toPrettyPrintedString(tabularResult));
+    @SuppressWarnings("deprecation")
+    TabularResult tabularResultMulti = quandl.getDataSets(
+                                       MultiDataSetRequest.Builder.of(
+                                         QuandlCodeRequest.allColumns("WIKI/AAPL"), 
+                                         QuandlCodeRequest.allColumns("DOE/RWTC")
+                                       ).withStartDate(RECENTISH_DATE)
+                                       .build());
+    System.out.println(PrettyPrinter.toPrettyPrintedString(tabularResultMulti));
+    MetaDataResult metaData = quandl.getMetaData(MetaDataRequest.of("WIKI/AAPL"));
+    System.out.println(PrettyPrinter.toPrettyPrintedString(metaData.getRawJSON()));
+    MetaDataResult metaData2 = quandl.getMetaData(MultiMetaDataRequest.of("WIKI/AAPL", "DOE/RWTC", "WIKI/MSFT"));
+    System.out.println(PrettyPrinter.toPrettyPrintedString(metaData2.getRawJSON()));
   }
 
   /**

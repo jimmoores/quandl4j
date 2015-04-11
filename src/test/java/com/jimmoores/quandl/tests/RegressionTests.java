@@ -1,6 +1,5 @@
 package com.jimmoores.quandl.tests;
 
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
@@ -71,8 +70,6 @@ import com.jimmoores.quandl.util.RESTDataProvider;
  *                   results if used as the sequences of requests and reponses will no longer match.
  */
 public final class RegressionTests {
-  private static final int ONE_MINUTE = 60000;
-  private static final int TWO_SECONDS = 2000;
   private static Logger s_logger = LoggerFactory.getLogger(RegressionTests.class);
   private static final int DAYS_PER_YEAR = 365;
   private static final int MAX_COLUMN = 5;
@@ -105,8 +102,6 @@ public final class RegressionTests {
   private static final String REQUESTS_OPTION_SHORT = "req";
   private static final String SEED_OPTION_LONG = "seed";
   private static final String SEED_OPTION_SHORT = "s";
-  private static final int MAX_RETRIES = 0;
-  
   private Random _random;
   private String _apiKey;
   private int _numRequests;
@@ -184,10 +179,6 @@ public final class RegressionTests {
       } catch (QuandlRuntimeException qre) {
         s_logger.warn("Caught" + qre);
         s_logger.info("Continuing...");
-      } catch (FileNotFoundException e)
-      {
-        s_logger.warn("Caught" + e);
-        s_logger.info("Continuing...");
       }
     }
   }
@@ -236,16 +227,13 @@ public final class RegressionTests {
       }
       MultiDataSetRequest req = fuzz(MultiDataSetRequest.Builder.of(chunk)).build();
       try {
+        @SuppressWarnings("deprecation")
         TabularResult dataSet = session.getDataSets(req);
         resultProcessor.processResult(dataSet);
         s_logger.info(req.toString());
         s_logger.info(PrettyPrinter.toPrettyPrintedString(dataSet));
       } catch (QuandlRuntimeException qre) {
         s_logger.warn("Caught exception", qre);
-        s_logger.info("Continuing...");
-      } catch (FileNotFoundException e)
-      {
-        s_logger.warn("Caught exception", e);
         s_logger.info("Continuing...");
       }
     }
@@ -296,6 +284,7 @@ public final class RegressionTests {
       }
       MultiMetaDataRequest req = MultiMetaDataRequest.of(chunk);
       try {
+        @SuppressWarnings("deprecation")
         Map<String, HeaderDefinition> metaData = session.getMultipleHeaderDefinition(req);
         resultProcessor.processResult(metaData);
         s_logger.info(req.toString());

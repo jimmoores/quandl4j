@@ -3,41 +3,71 @@ package com.jimmoores.quandl;
 import com.jimmoores.quandl.util.QuandlRequestFailedException;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 
+/**
+ * Class containing multiple retry policies.
+ */
 public abstract class RetryPolicy {
 
+  /**
+   * Check if we should retry given current number of retries.
+   * @param retries  the current number of retries that have occurred
+   * @return true, if the caller should retry
+   */
   public abstract boolean checkRetries(int retries);
   
+  /**
+   * Create a retry policy that never retries.
+   * @return the retry policy
+   */
   public static RetryPolicy createNoRetryPolicy() {
     return new NoRetryPolicy();
   }
   
-  public static RetryPolicy createFixedRetryPolicy(int maxRetries, long backOffPeriod) {
+  /**
+   * Create a retry policy that retries a fixed number of times with a fixed interval.
+   * @param maxRetries  the maximum allowable number of retries
+   * @param backOffPeriod  the period to wait before retrying, in milliseconds
+   * @return the retry policy
+   */
+  public static RetryPolicy createFixedRetryPolicy(final int maxRetries, final long backOffPeriod) {
     return new FixedRetryPolicy(maxRetries, backOffPeriod);
   }
   
-  public static RetryPolicy createSequenceRetryPolicy(long[] backOffPeriods) {
+  /**
+   * Create a retry policy that retries with a provided set of back off periods.  This 
+   * allows the user to perform an exponential backoff, for example.
+   * @param backOffPeriods  an array of times to wait between retries, in milliseconds
+   * @return the retry policy
+   */
+  public static RetryPolicy createSequenceRetryPolicy(final long[] backOffPeriods) {
     return new SequenceRetryPolicy(backOffPeriods);
   }
   
-  private static class NoRetryPolicy extends RetryPolicy {
+  /**
+   * No Retry Policy.
+   */
+  private static final class NoRetryPolicy extends RetryPolicy {
     private NoRetryPolicy() {
     }
     
-    public boolean checkRetries(int retries) {
+    public boolean checkRetries(final int retries) {
       throw new QuandlRuntimeException("Request failed, policy is no retry.");
     }
   }
   
-  private static class FixedRetryPolicy extends RetryPolicy {
+  /**
+   * Fixed retry policy.
+   */
+  private static final class FixedRetryPolicy extends RetryPolicy {
     private int _maxRetries;
     private long _backOffPeriod;
 
-    private FixedRetryPolicy(int maxRetries, long backOffPeriod) {
+    private FixedRetryPolicy(final int maxRetries, final long backOffPeriod) {
       _maxRetries = maxRetries;
       _backOffPeriod = backOffPeriod;
     }
     
-    public boolean checkRetries(int retries) {
+    public boolean checkRetries(final int retries) {
       if (retries < _maxRetries && retries >= 0) {
         try {
           Thread.sleep(_backOffPeriod);
@@ -51,16 +81,19 @@ public abstract class RetryPolicy {
     }
   }
   
-  private static class SequenceRetryPolicy extends RetryPolicy {
+  /**
+   * Sequence retry policy.
+   */
+  private static final class SequenceRetryPolicy extends RetryPolicy {
     private int _maxRetries;
     private long[] _backOffPeriods;
 
-    private SequenceRetryPolicy(long[] backOffPeriods) {
+    private SequenceRetryPolicy(final long[] backOffPeriods) {
       _maxRetries = backOffPeriods.length;
       _backOffPeriods = backOffPeriods;
     }
     
-    public boolean checkRetries(int retries) {
+    public boolean checkRetries(final int retries) {
       if (retries < _maxRetries && retries >= 0) {
         try {
           Thread.sleep(_backOffPeriods[retries]);

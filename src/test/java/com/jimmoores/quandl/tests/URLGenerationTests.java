@@ -1,6 +1,5 @@
 package com.jimmoores.quandl.tests;
 
-import java.io.FileNotFoundException;
 import java.net.URI;
 import java.util.Collections;
 
@@ -35,6 +34,7 @@ import com.jimmoores.quandl.util.RESTDataProvider;
 public class URLGenerationTests {
   
   private static final int CLOSE_COLUMN = 4;
+  @SuppressWarnings("unused")
   private static final int PRICE_COLUMN = 1;
   private static final HeaderDefinition TEST_HEADER_DEFINITION = HeaderDefinition.of("Date", "Close");
   private static final TabularResult TEST_TABULAR_RESULT = TabularResult.of(TEST_HEADER_DEFINITION, Collections.singletonList(Row.of(TEST_HEADER_DEFINITION, new String[] { "Value1", "Value2"})));
@@ -73,94 +73,60 @@ public class URLGenerationTests {
   @Test
   public void testSimpleGetDataSet() {
     QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets/WIKI/MSFT.csv");
-    TabularResult tabularResult = null;
-    try
-    {
-      tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/MSFT").build());
-      Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
-    } catch (FileNotFoundException e)
-    {
-      e.printStackTrace();
-    }
+    TabularResult tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/MSFT").build());
+    Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
   }
   
   @Test
   public void testMoreComplexGetDataSet() {
     QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets/WIKI/AAPL.csv?column=4&collapse=quarterly&transformation=normalize");
-    TabularResult tabularResult = null;
-    try
-    {
-      tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL")
-                                                                             .withFrequency(Frequency.QUARTERLY)
-                                                                             .withColumn(CLOSE_COLUMN)
-                                                                             .withTransform(Transform.NORMALIZE)
-                                                                             .build());
-      Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
-    } catch (FileNotFoundException e)
-    {
-      e.printStackTrace();
-    }
+    TabularResult tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL")
+                                                                           .withFrequency(Frequency.QUARTERLY)
+                                                                           .withColumn(CLOSE_COLUMN)
+                                                                           .withTransform(Transform.NORMALIZE)
+                                                                           .build());
+    Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
   }
   
   @Test
   public void testMostComplexGetDataSet() {
     QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets/WIKI/AAPL.csv?trim_start=2009-01-01&trim_end=2010-12-31&column=4&collapse=quarterly&rows=10&transformation=normalize");
-    TabularResult tabularResult = null;
-    try
-    {
-      tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL")
-                                                                             .withStartDate(LocalDate.of(2009, 1, 1))
-                                                                             .withEndDate(LocalDate.of(2010, 12, 31))
-                                                                             .withMaxRows(10)
-                                                                             .withFrequency(Frequency.QUARTERLY)
-                                                                             .withColumn(CLOSE_COLUMN)
-                                                                             .withTransform(Transform.NORMALIZE)
-                                                                             .build());
-      Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
-    } catch (FileNotFoundException e)
-    {
-      e.printStackTrace();
-    }
+    TabularResult tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL")
+                                                                           .withStartDate(LocalDate.of(2009, 1, 1))
+                                                                           .withEndDate(LocalDate.of(2010, 12, 31))
+                                                                           .withMaxRows(10)
+                                                                           .withFrequency(Frequency.QUARTERLY)
+                                                                           .withColumn(CLOSE_COLUMN)
+                                                                           .withTransform(Transform.NORMALIZE)
+                                                                           .build());
+    Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
   }
   
   @Test
   public void testMostComplexGetDataSetDifferentOrder() {
     // now try a different order
     QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets/WIKI/AAPL.csv?trim_start=2009-01-01&trim_end=2010-12-31&column=4&collapse=quarterly&rows=10&transformation=normalize");
-    TabularResult tabularResult = null;
-    try
-    {
-      tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL")
-                                                                              .withFrequency(Frequency.QUARTERLY)
-                                                                              .withColumn(CLOSE_COLUMN)
-                                                                              .withStartDate(LocalDate.of(2009, 1, 1))
-                                                                              .withEndDate(LocalDate.of(2010, 12, 31))
-                                                                              .withMaxRows(10)
-                                                                              .withTransform(Transform.NORMALIZE)
-                                                                              .build());
-      Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
-    } catch (FileNotFoundException e)
-    {
-      e.printStackTrace();
-    }
+    TabularResult tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL")
+                                                                            .withFrequency(Frequency.QUARTERLY)
+                                                                            .withColumn(CLOSE_COLUMN)
+                                                                            .withStartDate(LocalDate.of(2009, 1, 1))
+                                                                            .withEndDate(LocalDate.of(2010, 12, 31))
+                                                                            .withMaxRows(10)
+                                                                            .withTransform(Transform.NORMALIZE)
+                                                                            .build());
+    Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
   }
   
   @Test(expectedExceptions = QuandlRuntimeException.class)
   public void testLargeMultiDataSetRequestWithEmpty() {
     QuandlSession session = getTestSession("http://quandl.com/api/v1/multisets.csv?columns=&collapse=monthly&transformation=normalize");
-    TabularResult tabularResult = null;
-    try
-    {
-      tabularResult = session.getDataSets( // expect an exception here because list is empty
-          MultiDataSetRequest.Builder.of()
-          .withFrequency(Frequency.MONTHLY)
-          .withTransform(Transform.NORMALIZE)
-          .build());
-      Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
-    } catch (FileNotFoundException e)
-    {
-      e.printStackTrace();
-    }
+    @SuppressWarnings("deprecation")
+    TabularResult tabularResult = session.getDataSets( // expect an exception here because list is empty
+        MultiDataSetRequest.Builder.of()
+        .withFrequency(Frequency.MONTHLY)
+        .withTransform(Transform.NORMALIZE)
+        .build());
+    Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
   }
   
   // test getMetaData

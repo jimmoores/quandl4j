@@ -22,7 +22,8 @@
  *   <li>{@link com.jimmoores.quandl.QuandlSession#getDataSets(MultiDataSetRequest) getDataSets(MultiDataSetRequest)} - request tabular data for multiple Quandl codes/columns.</li>
  *   <li>{@link com.jimmoores.quandl.QuandlSession#getMetaData(MetaDataRequest) getMetaData(MetaDataRequest)} - request meta data for a single Quandl code.</li>
  *   <li>{@link com.jimmoores.quandl.QuandlSession#getMetaData(MultiMetaDataRequest) getMetaData(MultiMetaDataRequest)} - request meta data for multiple Quandl codes.</li>
- *   <li>{@link com.jimmoores.quandl.QuandlSession#getMultipleHeaderDefinition(MultiMetaDataRequest) getMultipleHeaderDefinition(MultiMetaDataRequest)} - request column header definitions for multiple Quandl codes.</li>
+ *   <li>{@link com.jimmoores.quandl.QuandlSession#getMultipleHeaderDefinition(MultiMetaDataRequest) getMultipleHeaderDefinition(MultiMetaDataRequest)} - request 
+ *   column header definitions for multiple Quandl codes.</li>
  *   <li>{@link com.jimmoores.quandl.QuandlSession#search(SearchRequest) search(SearchRequest)} - free text search on available data.</li>
  * </ul>
  * <p>The data types returned by these methods are:</p>
