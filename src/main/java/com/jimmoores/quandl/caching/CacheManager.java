@@ -10,11 +10,11 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.Calendar;
 import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.threeten.bp.LocalDate;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -37,6 +37,8 @@ public class CacheManager {
   private static Logger s_logger = LoggerFactory.getLogger(CacheManager.class);
 
   private static final String ENCODING = "UTF-8";
+
+  private static final long MILLIS_PER_DAY = 1000 * 3600 * 24; // milliseconds-per-second * seconds per hour * hours per day.
 
   private String _baseDir;
 
@@ -123,8 +125,7 @@ public class CacheManager {
     BasicFileAttributes attributes = null;
     try {
       attributes = Files.readAttributes(filePath, BasicFileAttributes.class);
-      Calendar creationTime = Calendar.getInstance();
-      creationTime.setTimeInMillis(attributes.creationTime().toMillis());
+      LocalDate creationTime = LocalDate.ofEpochDay(attributes.creationTime().toMillis() / MILLIS_PER_DAY);
       if (policy.shouldReload(creationTime)) {
         return null;
       }

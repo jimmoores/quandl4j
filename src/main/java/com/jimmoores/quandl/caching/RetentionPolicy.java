@@ -1,8 +1,8 @@
 package com.jimmoores.quandl.caching;
 
-import com.jimmoores.quandl.Frequency;
+import org.threeten.bp.LocalDate;
 
-import java.util.Calendar;
+import com.jimmoores.quandl.Frequency;
 
 /**
  * RetentionPolicy describes when we should reload data from quandl, instead of getting it from the cache.
@@ -13,7 +13,7 @@ public abstract class RetentionPolicy {
    * @param creationTime  the date and time when the cache file was created as a Calendar object
    * @return true if based on this RetentionPolicy the cached data is too old
    */
-  abstract boolean shouldReload(Calendar creationTime);
+  abstract boolean shouldReload(LocalDate creationTime);
 
   /**
    * Create a retention policy given a frequency.
@@ -47,24 +47,23 @@ public abstract class RetentionPolicy {
    */
   public static final RetentionPolicy DAY = new RetentionPolicy() {
     @Override
-    public boolean shouldReload(final Calendar creationTime) {
-      Calendar now = Calendar.getInstance();
-      return !((now.get(Calendar.YEAR) == creationTime.get(Calendar.YEAR))
-        && (now.get(Calendar.MONTH) == creationTime.get(Calendar.MONTH))
-        && (now.get(Calendar.DAY_OF_MONTH) == creationTime.get(Calendar.DAY_OF_MONTH)));
+    public boolean shouldReload(final LocalDate creationTime) {
+      LocalDate now = LocalDate.now();
+      return !now.equals(creationTime);
     }
   };
+
+  private static final int ONE_WEEK = 7;
 
   /**
    * A retention policy that reloads if a different week from the data.
    */
   public static final RetentionPolicy WEEK = new RetentionPolicy() {
     @Override
-    public boolean shouldReload(final Calendar creationTime) {
-      Calendar now = Calendar.getInstance();
-      return !((now.get(Calendar.YEAR) == creationTime.get(Calendar.YEAR))
-        && (now.get(Calendar.WEEK_OF_YEAR) == creationTime.get(Calendar.WEEK_OF_YEAR))
-      );
+    public boolean shouldReload(final LocalDate creationTime) {
+      LocalDate now = LocalDate.now();
+      return creationTime.until(now).getDays() > ONE_WEEK;
+
     }
   };
 
@@ -73,23 +72,21 @@ public abstract class RetentionPolicy {
    */
   public static final RetentionPolicy MONTH = new RetentionPolicy() {
     @Override
-    public boolean shouldReload(final Calendar creationTime) {
-      Calendar now = Calendar.getInstance();
-      return !((now.get(Calendar.YEAR) == creationTime.get(Calendar.YEAR))
-        && (now.get(Calendar.MONTH) == creationTime.get(Calendar.MONTH))
-      );
+    public boolean shouldReload(final LocalDate creationTime) {
+      LocalDate now = LocalDate.now();
+      return creationTime.until(now).toTotalMonths() > 1;
     }
   };
+
+  private static final long TWELVE_MONTHS = 12;
 
   /**
    * A retention policy that reloads if a different year from the data.
    */
   public static final RetentionPolicy YEAR = new RetentionPolicy() {
-    @Override
-    public boolean shouldReload(final Calendar creationTime) {
-      Calendar now = Calendar.getInstance();
-      return !((now.get(Calendar.YEAR) == creationTime.get(Calendar.YEAR))
-      );
+    public boolean shouldReload(final LocalDate creationTime) {
+      LocalDate now = LocalDate.now();
+      return creationTime.until(now).toTotalMonths() > TWELVE_MONTHS;
     }
   };
 
@@ -98,7 +95,7 @@ public abstract class RetentionPolicy {
    */
   public static final RetentionPolicy NEVER = new RetentionPolicy() {
     @Override
-    public boolean shouldReload(final Calendar creationTime) {
+    public boolean shouldReload(final LocalDate creationTime) {
       return true;
     }
   };
