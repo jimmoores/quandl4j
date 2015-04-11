@@ -1,4 +1,4 @@
-List of Contributers
+List of Contributors
 ====================
 
 | Name             | GitHub User | Contribution         |
