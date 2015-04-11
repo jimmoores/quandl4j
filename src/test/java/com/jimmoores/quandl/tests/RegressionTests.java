@@ -1,5 +1,6 @@
 package com.jimmoores.quandl.tests;
 
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
@@ -183,6 +184,10 @@ public final class RegressionTests {
       } catch (QuandlRuntimeException qre) {
         s_logger.warn("Caught" + qre);
         s_logger.info("Continuing...");
+      } catch (FileNotFoundException e)
+      {
+        s_logger.warn("Caught" + e);
+        s_logger.info("Continuing...");
       }
     }
   }
@@ -237,6 +242,10 @@ public final class RegressionTests {
         s_logger.info(PrettyPrinter.toPrettyPrintedString(dataSet));
       } catch (QuandlRuntimeException qre) {
         s_logger.warn("Caught exception", qre);
+        s_logger.info("Continuing...");
+      } catch (FileNotFoundException e)
+      {
+        s_logger.warn("Caught exception", e);
         s_logger.info("Continuing...");
       }
     }

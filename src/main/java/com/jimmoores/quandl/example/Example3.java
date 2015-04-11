@@ -8,6 +8,8 @@ import com.jimmoores.quandl.QuandlCodeRequest;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.TabularResult;
 
+import java.io.FileNotFoundException;
+
 /**
  * Example 3.
  */
@@ -26,16 +28,23 @@ public final class Example3 {
    */
   private void run() {
     QuandlSession session = QuandlSession.create();
-    TabularResult tabularResultMulti = session.getDataSets(
-        MultiDataSetRequest.Builder
-          .of(
-            QuandlCodeRequest.singleColumn("WIKI/AAPL", CLOSE_COLUMN), 
-            QuandlCodeRequest.allColumns("DOE/RWTC")
-          )
-          .withStartDate(RECENTISH_DATE)
-          .withFrequency(Frequency.MONTHLY)
-          .build());
-    System.out.println(tabularResultMulti.toPrettyPrintedString());  
+    TabularResult tabularResultMulti = null;
+    try
+    {
+      tabularResultMulti = session.getDataSets(
+          MultiDataSetRequest.Builder
+            .of(
+              QuandlCodeRequest.singleColumn("WIKI/AAPL", CLOSE_COLUMN),
+              QuandlCodeRequest.allColumns("DOE/RWTC")
+            )
+            .withStartDate(RECENTISH_DATE)
+            .withFrequency(Frequency.MONTHLY)
+            .build());
+      System.out.println(tabularResultMulti.toPrettyPrintedString());
+    } catch (FileNotFoundException e)
+    {
+      e.printStackTrace();
+    }
   }
 
   /**
