@@ -48,7 +48,7 @@
     <jacoco-maven-plugin.version>0.6.3.201306030806</jacoco-maven-plugin.version>
     <jersey.version>1.17.1</jersey.version>
     <!-- Testing properties -->
-    <tests.testng.maxheap>2G</tests.testng.maxheap>
+    <tests.testng.maxheap>1G</tests.testng.maxheap>
     <tests.testng.logback>com/jimmoores/quandl/util/warn-logback.xml</tests.testng.logback>
     <tests.testng.parallel>classes</tests.testng.parallel>
     <tests.testng.threads>1</tests.testng.threads>
