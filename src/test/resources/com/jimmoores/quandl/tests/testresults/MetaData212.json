@@ -1,22 +1,27 @@
 {
-  "code": "V28530766",
+  "code": "FUTURE_ED1",
   "column_names": [
     "Date",
-    "Value"
+    "Open",
+    "High",
+    "Low",
+    "Settle",
+    "Volume",
+    "Open Interest"
   ],
-  "description": "{\" Geography\"=>\"St. Catharines-Niagara, Ontario\", \" Family type\"=>\"Lone-parent families and persons not in census families\", \" Age of oldest individual\"=>\"55 to 64 years\", \" Family type characteristics\"=>\"Number in family type\", \" Source of income\"=>\"Self-employment\"}",
-  "display_url": "http://www5.statcan.gc.ca/cansim/a08",
+  "description": "Historical Futures Prices: Eurodollar Futures, Continuous Contract #1. Non-adjusted price based on spot-month continuous contract calculations. Raw futures data from Chicago Mercantile Exchange (CME).",
+  "display_url": "http://www.ofdp.org/continuous_contracts/data?exchange=CME&symbol=ED&depth=1",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2000-12-31",
-  "id": 13650333,
-  "name": "111-0034: 1, 2, 3, 4, 6, 7, 8: Seniors' characteristics, by family type, age of oldest individual and source of income: annual (dollars unless otherwise noted)",
+  "frequency": "daily",
+  "from_date": "1982-02-01",
+  "id": 2299333,
+  "name": "CME Eurodollar Futures, Continuous Contract #1 (ED1) (Front Month)",
   "premium": false,
   "private": false,
-  "source_code": "CANSIM",
-  "source_name": "Statistics Canada",
-  "to_date": "2012-12-31",
+  "source_code": "OFDP",
+  "source_name": "Open Financial Data Project",
+  "to_date": "2015-05-27",
   "type": null,
-  "updated_at": "2014-07-27T11:57:31.098Z",
-  "urlize_name": "111-0034-1-2-3-4-6-7-8-Seniors-characteristics-by-family-type-age-of-oldest-individual-and-source-of-income-annual-dollars-unless-otherwise-noted"
+  "updated_at": "2015-05-28T02:03:26.334Z",
+  "urlize_name": "CME-Eurodollar-Futures-Continuous-Contract-1-ED1-Front-Month"
 }

@@ -74,6 +74,7 @@ public final class RegressionTests {
   private static final int DAYS_PER_YEAR = 365;
   private static final int MAX_COLUMN = 5;
   private static final int DEFAULT_NUM_REQUESTS = 200;
+  private static final int MAX_PAGE = 100;
   
   private static final double WITH_COLUMN_PROBABILITY = 0.1;
   private static final double WITH_FREQUENCY_PROBABILITY = 0.2;
@@ -311,7 +312,7 @@ public final class RegressionTests {
     final int totalPages = totalDocs / docsPerPage;
     Set<String> quandlCodes = new LinkedHashSet<String>();
     for (int i = 0; i < _numRequests; i++) {
-      int pageRequired = _random.nextInt(totalPages);
+      int pageRequired = _random.nextInt(totalPages % MAX_PAGE);
       SearchRequest req = SearchRequest.Builder.of("").withPageNumber(pageRequired).build();
       System.out.println("About to run " + req);
       int retries = 0;
@@ -320,11 +321,15 @@ public final class RegressionTests {
         try {
           searchResult = session.search(req);
           resultProcessor.processResult(searchResult);
-          MetaDataResult metaDataResult = searchResult.getMetaDataResultList().get(0);
-          if (metaDataResult.getQuandlCode() != null) {
-            quandlCodes.add(metaDataResult.getQuandlCode());
+          if (searchResult.getMetaDataResultList().size() > 0) {
+            MetaDataResult metaDataResult = searchResult.getMetaDataResultList().get(0);
+            if (metaDataResult.getQuandlCode() != null) {
+              quandlCodes.add(metaDataResult.getQuandlCode());
+            } else {
+              s_logger.error("Meta data result (for req {}) returned without embedded Quandl code, result was {}", req, metaDataResult);
+            }
           } else {
-            s_logger.error("Meta data result (for req {}) returned without embedded Quandl code, result was {}", req, metaDataResult);
+            s_logger.error("No results on page {}, skipping", pageRequired);
           }
         } catch (QuandlRuntimeException qre) {
           retries++;

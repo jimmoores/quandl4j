@@ -72,14 +72,14 @@ public class URLGenerationTests {
 
   @Test
   public void testSimpleGetDataSet() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets/WIKI/MSFT.csv");
+    QuandlSession session = getTestSession("https://quandl.com/api/v1/datasets/WIKI/MSFT.csv");
     TabularResult tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/MSFT").build());
     Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
   }
   
   @Test
   public void testMoreComplexGetDataSet() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets/WIKI/AAPL.csv?column=4&collapse=quarterly&transformation=normalize");
+    QuandlSession session = getTestSession("https://quandl.com/api/v1/datasets/WIKI/AAPL.csv?column=4&collapse=quarterly&transformation=normalize");
     TabularResult tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL")
                                                                            .withFrequency(Frequency.QUARTERLY)
                                                                            .withColumn(CLOSE_COLUMN)
@@ -90,7 +90,7 @@ public class URLGenerationTests {
   
   @Test
   public void testMostComplexGetDataSet() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets/WIKI/AAPL.csv?trim_start=2009-01-01&trim_end=2010-12-31&column=4&collapse=quarterly&rows=10&transformation=normalize");
+    QuandlSession session = getTestSession("https://quandl.com/api/v1/datasets/WIKI/AAPL.csv?trim_start=2009-01-01&trim_end=2010-12-31&column=4&collapse=quarterly&rows=10&transformation=normalize");
     TabularResult tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL")
                                                                            .withStartDate(LocalDate.of(2009, 1, 1))
                                                                            .withEndDate(LocalDate.of(2010, 12, 31))
@@ -105,7 +105,7 @@ public class URLGenerationTests {
   @Test
   public void testMostComplexGetDataSetDifferentOrder() {
     // now try a different order
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets/WIKI/AAPL.csv?trim_start=2009-01-01&trim_end=2010-12-31&column=4&collapse=quarterly&rows=10&transformation=normalize");
+    QuandlSession session = getTestSession("https://quandl.com/api/v1/datasets/WIKI/AAPL.csv?trim_start=2009-01-01&trim_end=2010-12-31&column=4&collapse=quarterly&rows=10&transformation=normalize");
     TabularResult tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL")
                                                                             .withFrequency(Frequency.QUARTERLY)
                                                                             .withColumn(CLOSE_COLUMN)
@@ -119,7 +119,7 @@ public class URLGenerationTests {
   
   @Test(expectedExceptions = QuandlRuntimeException.class)
   public void testLargeMultiDataSetRequestWithEmpty() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/multisets.csv?columns=&collapse=monthly&transformation=normalize");
+    QuandlSession session = getTestSession("https://quandl.com/api/v1/multisets.csv?columns=&collapse=monthly&transformation=normalize");
     @SuppressWarnings("deprecation")
     TabularResult tabularResult = session.getDataSets( // expect an exception here because list is empty
         MultiDataSetRequest.Builder.of()
@@ -132,14 +132,14 @@ public class URLGenerationTests {
   // test getMetaData
   @Test
   public void testSimpleGetMetaData() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets/WIKI/MSFT.json?exclude_data=true");
+    QuandlSession session = getTestSession("https://quandl.com/api/v1/datasets/WIKI/MSFT.json?exclude_data=true");
     MetaDataResult result = session.getMetaData(MetaDataRequest.of("WIKI/MSFT"));
     Assert.assertEquals(result, MetaDataResult.of(new JSONObject()));
   }
   
   @Test(expectedExceptions = QuandlRuntimeException.class)
   public void testEmptyGetMultiMetaData() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/multisets.json?columns=WIKI.MSFT,OFDP.FUTURE_CL1,WIKI.LIFE&trim_start=2100-01-01");
+    QuandlSession session = getTestSession("https://quandl.com/api/v1/multisets.json?columns=WIKI.MSFT,OFDP.FUTURE_CL1,WIKI.LIFE&trim_start=2100-01-01");
     MetaDataResult result = session.getMetaData(MultiMetaDataRequest.of()); // expect this to throw an exception
     Assert.assertEquals(result, MetaDataResult.of(new JSONObject()));
   }
@@ -147,21 +147,21 @@ public class URLGenerationTests {
   // test search
   @Test
   public void testSimpleSearch() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets.json?query=Crude+Oil");
+    QuandlSession session = getTestSession("https://quandl.com/api/v1/datasets.json?query=Crude+Oil");
     SearchResult result = session.search(SearchRequest.Builder.of("Crude Oil").build());
     Assert.assertEquals(result, SearchResult.of(new JSONObject()));
   }
   
   @Test
   public void testPagedSearch() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets.json?query=Crude+Oil&page=2");
+    QuandlSession session = getTestSession("https://quandl.com/api/v1/datasets.json?query=Crude+Oil&page=2");
     SearchResult result = session.search(SearchRequest.Builder.of("Crude Oil").withPageNumber(2).build());
     Assert.assertEquals(result, SearchResult.of(new JSONObject()));
   }
   
   @Test
   public void testPagedSearchMax() {
-    QuandlSession session = getTestSession("http://quandl.com/api/v1/datasets.json?query=Crude+Oil&page=2&per_page=100");
+    QuandlSession session = getTestSession("https://quandl.com/api/v1/datasets.json?query=Crude+Oil&page=2&per_page=100");
     SearchResult result = session.search(SearchRequest.Builder.of("Crude Oil").withPageNumber(2).withMaxPerPage(100).build());
     Assert.assertEquals(result, SearchResult.of(new JSONObject()));
   }
