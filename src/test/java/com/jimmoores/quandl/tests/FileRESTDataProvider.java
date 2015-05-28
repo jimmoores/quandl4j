@@ -128,14 +128,18 @@ public final class FileRESTDataProvider implements RESTDataProvider {
       File file = new File(_rootPath, fileName);
       // should we be buffering this?
       try {
-        JSONTokener tokeniser = new JSONTokener(new FileReader(file));
+        FileReader fileReader = new FileReader(file);
+        JSONTokener tokeniser = new JSONTokener(fileReader);
         JSONObject object = new JSONObject(tokeniser);
+        fileReader.close();
         return object;
       } catch (JSONException je) {
         throw new QuandlRuntimeException("Problem parsing JSON", je);
       } catch (FileNotFoundException ex) {
         throw new QuandlRuntimeException("File named " + fileName + " in index cannot be found", ex);
-      }
+      } catch (IOException ex) {
+        throw new QuandlRuntimeException("Exception when closing file", ex);
+    }
     } else if (_urlExceptionMap.containsKey(uri)) {
       Exception e = _urlExceptionMap.get(uri);
       e.fillInStackTrace();
@@ -165,7 +169,8 @@ public final class FileRESTDataProvider implements RESTDataProvider {
       File file = new File(_rootPath, fileName);
       // should we be buffering this?
       try {
-        CSVReader reader = new CSVReader(new FileReader(file));
+        FileReader fileReader = new FileReader(file);
+        CSVReader reader = new CSVReader(fileReader);
         String[] headerRow = reader.readNext();
         if (headerRow != null) {
           HeaderDefinition headerDef = HeaderDefinition.of(Arrays.asList(headerRow));

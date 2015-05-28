@@ -175,8 +175,8 @@ public final class RegressionTests {
       DataSetRequest req = fuzz(DataSetRequest.Builder.of(quandlCode)).build();
       try {
         TabularResult dataSet = session.getDataSet(req);
-        s_logger.info(req.toString());
-        s_logger.info(PrettyPrinter.toPrettyPrintedString(dataSet));
+        //s_logger.info(req.toString());
+        //s_logger.info(PrettyPrinter.toPrettyPrintedString(dataSet));
       } catch (QuandlRuntimeException qre) {
         s_logger.warn("Caught" + qre);
         s_logger.info("Continuing...");
@@ -196,8 +196,8 @@ public final class RegressionTests {
       try {
         MetaDataResult dataSet = session.getMetaData(req);
         resultProcessor.processResult(dataSet);
-        s_logger.info(req.toString());
-        s_logger.info(PrettyPrinter.toPrettyPrintedString(dataSet.getRawJSON()));
+        //s_logger.info(req.toString());
+        //s_logger.info(PrettyPrinter.toPrettyPrintedString(dataSet.getRawJSON()));
       } catch (QuandlRuntimeException qre) {
         s_logger.warn("Caught" + qre);
         s_logger.info("Continuing...");
@@ -231,8 +231,8 @@ public final class RegressionTests {
         @SuppressWarnings("deprecation")
         TabularResult dataSet = session.getDataSets(req);
         resultProcessor.processResult(dataSet);
-        s_logger.info(req.toString());
-        s_logger.info(PrettyPrinter.toPrettyPrintedString(dataSet));
+        //s_logger.info(req.toString());
+        //s_logger.info(PrettyPrinter.toPrettyPrintedString(dataSet));
       } catch (QuandlRuntimeException qre) {
         s_logger.warn("Caught exception", qre);
         s_logger.info("Continuing...");
@@ -259,8 +259,8 @@ public final class RegressionTests {
       try {
         MetaDataResult metaData = session.getMetaData(req);
         resultProcessor.processResult(metaData);
-        s_logger.info(req.toString());
-        s_logger.info(PrettyPrinter.toPrettyPrintedString(metaData.getRawJSON()));
+        //s_logger.info(req.toString());
+        //s_logger.info(PrettyPrinter.toPrettyPrintedString(metaData.getRawJSON()));
       } catch (QuandlRuntimeException qre) {
         s_logger.warn("Caught exception", qre);
         s_logger.info("Continuing...");
@@ -288,8 +288,8 @@ public final class RegressionTests {
         @SuppressWarnings("deprecation")
         Map<String, HeaderDefinition> metaData = session.getMultipleHeaderDefinition(req);
         resultProcessor.processResult(metaData);
-        s_logger.info(req.toString());
-        s_logger.info(PrettyPrinter.toPrettyPrintedString(metaData));
+        //s_logger.info(req.toString());
+        //s_logger.info(PrettyPrinter.toPrettyPrintedString(metaData));
       } catch (QuandlRuntimeException qre) {
         s_logger.warn("Caught exception", qre);
         s_logger.info("Continuing...");
