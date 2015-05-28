@@ -1,6 +1,5 @@
 package com.jimmoores.quandl;
 
-import com.jimmoores.quandl.caching.RetentionPolicy;
 import com.jimmoores.quandl.util.ArgumentChecker;
 import com.jimmoores.quandl.util.DefaultRESTDataProvider;
 import com.jimmoores.quandl.util.RESTDataProvider;
@@ -12,15 +11,11 @@ public final class SessionOptions {
   private String _authToken;
   private RESTDataProvider _restDataProvider;
   private RetryPolicy _retryPolicy;
-  private String _cacheDir;
-  private RetentionPolicy _defaultRetentionPolicy;
 
   private SessionOptions(final Builder builder) {
     _authToken = builder._authToken;
     _restDataProvider = builder._restDataProvider;
     _retryPolicy = builder._retryPolicy;
-    _cacheDir = builder._cacheDir;
-    _defaultRetentionPolicy = builder._defaultRetentionPolicy;
   }
 
   /**
@@ -35,8 +30,6 @@ public final class SessionOptions {
     private String _authToken;
     private RESTDataProvider _restDataProvider = new DefaultRESTDataProvider();
     private RetryPolicy _retryPolicy = RetryPolicy.createSequenceRetryPolicy(new long[] { ONE_SECOND, FIVE_SECONDS, TWENTY_SECONDS, SIXTY_SECONDS });
-    private String _cacheDir;
-    private RetentionPolicy _defaultRetentionPolicy;
 
     private Builder(final String authToken) {
       _authToken = authToken;
@@ -92,28 +85,6 @@ public final class SessionOptions {
     public SessionOptions build() {
       return new SessionOptions(this);
     }
-
-    /**
-     * Specify the path to the cache directory, if required.
-     * @param cacheDir  the path to the cache directory
-     * @return this builder
-     */
-    public Builder withCacheDir(final String cacheDir) {
-      ArgumentChecker.notNull(cacheDir, "cacheDir");
-      _cacheDir = cacheDir;
-      return this;
-    }
-
-    /**
-     * Specify the default retention policy, if required.
-     * @param policy  the default retention policy
-     * @return this builder
-     */
-    public Builder withDefaultRetentionPolicy(final RetentionPolicy policy) {
-      ArgumentChecker.notNull(policy, "policy");
-      _defaultRetentionPolicy = policy;
-      return this;
-    }
   }
 
   /**
@@ -139,19 +110,5 @@ public final class SessionOptions {
    */
   public RetryPolicy getRetryPolicy() {
     return _retryPolicy;
-  }
-
-  /**
-   * @return the directory where quandl4j should place data for caching or null if not set.
-   */
-  public String getCacheDir() {
-    return _cacheDir;
-  }
-  
-  /**
-   * @return the default retention policy, or null if not set.
-   */
-  public RetentionPolicy getDefaultRetentionPolicy() {
-    return _defaultRetentionPolicy;
   }
 }

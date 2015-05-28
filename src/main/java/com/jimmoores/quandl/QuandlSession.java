@@ -26,8 +26,6 @@ import org.threeten.bp.LocalDate;
 import org.threeten.bp.chrono.ChronoLocalDate;
 
 import com.jimmoores.quandl.DataSetRequest.Builder;
-import com.jimmoores.quandl.caching.CacheManager;
-import com.jimmoores.quandl.caching.RetentionPolicy;
 import com.jimmoores.quandl.util.ArgumentChecker;
 import com.jimmoores.quandl.util.QuandlRequestFailedException;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
@@ -71,17 +69,8 @@ public final class QuandlSession {
    */
   public static final String AUTH_TOKEN_PARAM_NAME = "auth_token";
 
-  /**
-   * the object responsible for caching data.
-   */
-  private CacheManager _cacheManager = null;
-
   private QuandlSession(final SessionOptions sessionOptions) {
     _sessionOptions = sessionOptions;
-    // create the cache directory if set, and not exists:
-    if (_sessionOptions.getCacheDir() != null) {
-      _cacheManager = new CacheManager(_sessionOptions.getCacheDir());
-    }
   }
   
   /**
@@ -158,18 +147,6 @@ public final class QuandlSession {
   public TabularResult getDataSet(final DataSetRequest request) {
     ArgumentChecker.notNull(request, "request");
 
-    if (_cacheManager != null) {
-      // check if we already have the data in the cache
-      RetentionPolicy retentionPolicy = RetentionPolicy.create(request.getFrequency());
-      if (retentionPolicy == null) {
-        retentionPolicy = _sessionOptions.getDefaultRetentionPolicy();
-      }
-      TabularResult result = _cacheManager.load(request.getQuandlCode(), retentionPolicy);
-      if (result != null) {
-        return result;
-      }
-    }
-
     Client client = getClient();
     WebTarget target = client.target(API_BASE_URL);
     target = withAuthToken(target);
@@ -189,11 +166,6 @@ public final class QuandlSession {
       }
       // note checkRetries always returns true or throws an exception so we won't get tabularReponse == null
     } while (tabularResponse == null && _sessionOptions.getRetryPolicy().checkRetries(retries++));
-
-    if (_cacheManager != null) {
-      // dump the tabularResponse as a json object
-      _cacheManager.store(request.getQuandlCode(), tabularResponse);
-    }
 
     return tabularResponse;
   }
