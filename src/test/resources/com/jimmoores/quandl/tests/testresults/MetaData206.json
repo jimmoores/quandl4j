@@ -1,0 +1,27 @@
+{
+  "code": "FUTURE_LNG2005",
+  "column_names": [
+    "Date",
+    "Open",
+    "High",
+    "Low",
+    "Settle",
+    "Volume",
+    "Open Interest"
+  ],
+  "description": "Historical Futures Prices: Lean Hogs Futures, February 2005, LNG2005, Chicago Mercantile Exchange (CME). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
+  "display_url": "http://www.ofdp.org/futures/9775",
+  "errors": {},
+  "frequency": "daily",
+  "from_date": "2003-12-15",
+  "id": 2309886,
+  "name": "Lean Hogs Futures, February 2005, LNG2005, CME",
+  "premium": false,
+  "private": false,
+  "source_code": "OFDP",
+  "source_name": "Open Financial Data Project",
+  "to_date": "2005-02-14",
+  "type": null,
+  "updated_at": "2014-02-25T19:37:27.223Z",
+  "urlize_name": "Lean-Hogs-Futures-February-2005-LNG2005-CME"
+}

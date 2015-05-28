@@ -1,0 +1,27 @@
+{
+  "code": "FUTURE_SMF1960",
+  "column_names": [
+    "Date",
+    "Open",
+    "High",
+    "Low",
+    "Settle",
+    "Volume",
+    "Open Interest"
+  ],
+  "description": "Historical Futures Prices: Soybean Meal Futures, January 1960, SMF1960, Chicago Board of Trade (CBOT). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
+  "display_url": "http://www.ofdp.org/futures/16470",
+  "errors": {},
+  "frequency": "daily",
+  "from_date": "1959-07-02",
+  "id": 2308493,
+  "name": "Soybean Meal Futures, January 1960, SMF1960, CBOT",
+  "premium": false,
+  "private": false,
+  "source_code": "OFDP",
+  "source_name": "Open Financial Data Project",
+  "to_date": "1960-01-20",
+  "type": null,
+  "updated_at": "2014-02-26T01:47:00.824Z",
+  "urlize_name": "Soybean-Meal-Futures-January-1960-SMF1960-CBOT"
+}

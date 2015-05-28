@@ -1,0 +1,27 @@
+{
+  "code": "FUTURE_CN2013",
+  "column_names": [
+    "Date",
+    "Open",
+    "High",
+    "Low",
+    "Settle",
+    "Volume",
+    "Open Interest"
+  ],
+  "description": "Historical Futures Prices: Corn Futures, July 2013, CN2013, Chicago Board of Trade (CBOT). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
+  "display_url": "http://www.ofdp.org/futures/1741",
+  "errors": {},
+  "frequency": "daily",
+  "from_date": "2009-12-14",
+  "id": 2308539,
+  "name": "Corn Futures, July 2013, CN2013, CBOT",
+  "premium": false,
+  "private": false,
+  "source_code": "OFDP",
+  "source_name": "Open Financial Data Project",
+  "to_date": "2013-07-12",
+  "type": null,
+  "updated_at": "2014-02-25T16:56:39.360Z",
+  "urlize_name": "Corn-Futures-July-2013-CN2013-CBOT"
+}
