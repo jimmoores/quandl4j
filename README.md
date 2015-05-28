@@ -1,7 +1,7 @@
 Quandl4J : A Quandl library for Java
 ====================================
 
-**News: There is a new version of Quandl4J (1.0.0) that has been released into Maven central that handles the recent deprecation of multisets from the Quandl REST API and provides for automatic resilience to transient errors.**
+**News: There is a new version of Quandl4J (1.1.0) that has been released into Maven central that handles the recent dropping of support for HTTP in favour of HTTPS. NOTE:NOT YET!**
 
 [Quandl](http://quandl.com) is a source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
 
