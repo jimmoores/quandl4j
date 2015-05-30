@@ -55,6 +55,7 @@ The core design principles are:
 ## Release Notes
 ### Version 1.1.0
  - Switch to HTTPS, regenerate test data.
+
 ### Version 1.0.0
  - Handle deprecation of all multi-request APIs.  This release emulates the old behaviour of the multiset APIs by issuing
    multiple single requests and aggregating results into the same structure as returned before.  This should allow existing 
