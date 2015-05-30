@@ -1,45 +1,33 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Quandl4j : A Quandl API wrapper for Java">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Quandl4j</title>
+    <meta charset="UTF-8">
+    <title>Quandl4j by jimmoores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
+    <section class="page-header">
+      <h1 class="project-name">Quandl4j</h1>
+      <h2 class="project-tagline">A Quandl API wrapper for Java</h2>
+      <a href="https://github.com/jimmoores/quandl4j" class="btn">View on GitHub</a>
+      <a href="https://github.com/jimmoores/quandl4j/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/jimmoores/quandl4j/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/jimmoores/quandl4j">View on GitHub</a>
-
-          <h1 id="project_title">Quandl4j</h1>
-          <h2 id="project_tagline">A Quandl API wrapper for Java</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/jimmoores/quandl4j/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/jimmoores/quandl4j/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
+    <section class="main-content">
+      <h1>
 <a id="quandl4j--a-quandl-library-for-java" class="anchor" href="#quandl4j--a-quandl-library-for-java" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quandl4J : A Quandl library for Java</h1>
 
-<p><strong>Announcement: There will be a new version of Quandl4J in the next few days to handle the recent deprecation of multisets
-from the Quandl REST API</strong></p>
+<p><strong>NEWS: Version 1.1.0 has just been released to Maven central which switches
+Quandl4J to use HTTPS now that HTTP support has been deprecated.</strong></p>
 
 <p><a href="http://quandl.com">Quandl</a> is a source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  <strong>Quandl4j</strong> is a Java 7+ client-side wrapper for this API provided under the commercially friendly <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache V2 license</a>.  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.</p>
 
-<p>Quandl4J uses <a href="http://travis-ci.org/jimmoores/quandl4j">Travis CI</a> to perform continuous builds.  The current status is <img src="https://travis-ci.org/jimmoores/quandl4j.svg?branch=master" alt="Master Branch Build Status"></p>
+<p>Quandl4J uses <a href="http://travis-ci.org/jimmoores/quandl4j">Travis CI</a> to perform continuous builds.  The current status is <a href="https://travis-ci.org/jimmoores/quandl4j"><img src="https://travis-ci.org/jimmoores/quandl4j.svg?branch=master" alt="Build Status"></a></p>
 
 <h1>
 <a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Table of Contents</h1>
@@ -47,6 +35,7 @@ from the Quandl REST API</strong></p>
 <ul>
 <li><a href="#quick-start">Quick start</a></li>
 <li><a href="#design-principles">Design Principles</a></li>
+<li><a href="#release-notes">Release Notes</a></li>
 <li><a href="#tutorial">Tutorial</a></li>
 <li><a href="#documentation">Documentation</a></li>
 <li><a href="#roadmap">Roadmap</a></li>
@@ -71,7 +60,7 @@ from the Quandl REST API</strong></p>
 <p>Three options are available:</p>
 
 <ul>
-<li><a href="https://github.com/jimmoores/quandl4j/archive/rel/v0.8.1.zip">Download the latest release</a></li>
+<li><a href="https://github.com/jimmoores/quandl4j/archive/rel/v1.0.0.zip">Download the latest release</a></li>
 <li>Clone the repository: <code>git clone https://github.com/jimmoores/quandl4j.git</code>
 
 <ul>
@@ -85,7 +74,7 @@ from the Quandl REST API</strong></p>
 <div class="highlight highlight-xml"><pre>&lt;<span class="pl-ent">dependency</span>&gt;
   &lt;<span class="pl-ent">groupId</span>&gt;com.jimmoores&lt;/<span class="pl-ent">groupId</span>&gt;
   &lt;<span class="pl-ent">artifactId</span>&gt;quandl&lt;/<span class="pl-ent">artifactId</span>&gt;
-  &lt;<span class="pl-ent">version</span>&gt;0.8.1&lt;/<span class="pl-ent">version</span>&gt;
+  &lt;<span class="pl-ent">version</span>&gt;1.1.0&lt;/<span class="pl-ent">version</span>&gt;
 &lt;/<span class="pl-ent">dependency</span>&gt;</pre></div>
 
 <h3>
@@ -107,6 +96,67 @@ be reused by user applications without hitting the Quandl backend.</li>
 </ul>
 
 <h2>
+<a id="release-notes" class="anchor" href="#release-notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Release Notes</h2>
+
+<h3>
+<a id="version-110" class="anchor" href="#version-110" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 1.1.0</h3>
+
+<ul>
+<li>Switch to HTTPS, regenerate test data.</li>
+</ul>
+
+<h3>
+<a id="version-100" class="anchor" href="#version-100" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 1.0.0</h3>
+
+<ul>
+<li>Handle deprecation of all multi-request APIs.  This release emulates the old behaviour of the multiset APIs by issuing
+multiple single requests and aggregating results into the same structure as returned before.  This should allow existing 
+applications to adjust seamlessly, abeit probably at reduced performance.  Please note though, that these APIs are now
+deprecated and you should plan for their eventual removal.</li>
+<li>High loads on the Quandl servers have lead to an increase in the number of requests that return errors asking the client
+to throttle requests apart from when user maximum request counts are exceeded.  The QuandlSession will now retry requests
+that are likely to be transient (503 Service Unavailable and 429 Too Many Requests) according to a <code>RetryPolicy</code> that
+can be set in the SessionOptions.  The default is to back off for 1, 5, 20 and then 60 seconds and then give up.  Custom 
+policies can be put in place by subclassing <code>RetryPolicy</code>.  Some examples are available via factory methods on<br>
+<code>RetryPolicy</code>.</li>
+<li>Emulated multiset queries (both Tabular and Metadata) now return Quandl codes of the form PROVIDER/CODE rather than
+PROVIDER.CODE.  This was only noticed after release.  If this causes big problems for you, please open a ticket and I will    provide the facility to revert to the old behaviour in a new release.</li>
+<li>The new retry behaviour means that there are times that would previously have thrown a generic <code>QuandlRuntimeException</code>
+will now return <code>QuandlFailedRequestException</code> (which is thrown after receiving multiple<br>
+<code>QuandlTooManyRequestsException</code> or <code>QuandlServiceUnavailableException</code>).  Note that previously a bug prevented the 
+correct throwing of <code>QuandlTooManyRequestsException</code>.</li>
+<li>To revert as closely as possible to the old behaviour (turn off retries), use <code>RetryPolicy.createNoRetryPolicy()</code> and
+set in the <code>SessionOptions</code>.</li>
+<li>
+<code>getMetaData(final MultiMetaDataRequest request)</code> does it's best to emulate the JSON response from Quandl, but may be
+have fields like <code>Frequency</code> set to null rather than values that Quandl returned.</li>
+<li>A missing dependency for Java 7 users has been added that allows the examples to run cleanly.</li>
+<li>Test files were regenerated.</li>
+</ul>
+
+<h3>
+<a id="version-090" class="anchor" href="#version-090" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 0.9.0</h3>
+
+<ul>
+<li>Skipped because it was used internally by the author in a private Maven repository for an intermediate version and never
+curated for Maven Central.</li>
+</ul>
+
+<h3>
+<a id="version-081" class="anchor" href="#version-081" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 0.8.1</h3>
+
+<ul>
+<li>Fixed some POM issues.</li>
+</ul>
+
+<h3>
+<a id="version-080" class="anchor" href="#version-080" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 0.8.0</h3>
+
+<ul>
+<li>Initial public release.</li>
+</ul>
+
+<h2>
 <a id="tutorial" class="anchor" href="#tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tutorial</h2>
 
 <h3>
@@ -115,10 +165,10 @@ be reused by user applications without hitting the Quandl backend.</li>
 <p>The following gets the complete data history (with Date, Open, High, Low, Volume, Ex-Dividend, Split Ratio, And Adjusted Open, High, Low Close and Volume columns) of AAPL (Apple Inc).  The symbol <code>WIKI/AAPL</code> is what is known as the <strong>Quandl code</strong> and is made up of a data source (in this case <code>WIKI</code>) and a data source specific code (in this case the exchange code for Apple Inc, which is <code>AAPL</code>).</p>
 
 <div class="highlight highlight-java"><pre><span class="pl-c">// Example1.java</span>
-<span class="pl-stj">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-stj">QuandlSession</span><span class="pl-k">.</span>create();
-<span class="pl-stj">TabularResult</span> tabularResult <span class="pl-k">=</span> session<span class="pl-k">.</span>getDataSet(
-  <span class="pl-stj">DataSetRequest</span><span class="pl-k">.</span><span class="pl-stj">Builder</span><span class="pl-k">.</span>of(<span class="pl-s1"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>)<span class="pl-k">.</span>build());
-<span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(tabularResult<span class="pl-k">.</span>toPrettyPrintedString());</pre></div>
+<span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
+<span class="pl-smi">TabularResult</span> tabularResult <span class="pl-k">=</span> session<span class="pl-k">.</span>getDataSet(
+  <span class="pl-smi">DataSetRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span><span class="pl-k">.</span>of(<span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>)<span class="pl-k">.</span>build());
+<span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(tabularResult<span class="pl-k">.</span>toPrettyPrintedString());</pre></div>
 
 <p>which produces</p>
 
@@ -144,15 +194,15 @@ be reused by user applications without hitting the Quandl backend.</li>
 request AAPL again, but this time sampled Quarterly, returning only the close column (CLOSE_COLUMN here is actually the integer constant 4), and performing a normalization pre-process step on the server side before returning the results.</p>
 
 <div class="highlight highlight-java"><pre><span class="pl-c">// Example2.java</span>
-<span class="pl-stj">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-stj">QuandlSession</span><span class="pl-k">.</span>create();
-<span class="pl-stj">TabularResult</span> tabularResult <span class="pl-k">=</span> session<span class="pl-k">.</span>getDataSet(
-  <span class="pl-stj">DataSetRequest</span><span class="pl-k">.</span><span class="pl-stj">Builder</span>
-    .of(<span class="pl-s1"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>)
-    .withFrequency(<span class="pl-stj">Frequency</span><span class="pl-c1"><span class="pl-k">.</span>QUARTERLY</span>)
+<span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
+<span class="pl-smi">TabularResult</span> tabularResult <span class="pl-k">=</span> session<span class="pl-k">.</span>getDataSet(
+  <span class="pl-smi">DataSetRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span>
+    .of(<span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>)
+    .withFrequency(<span class="pl-smi">Frequency</span><span class="pl-c1"><span class="pl-k">.</span>QUARTERLY</span>)
     .withColumn(<span class="pl-c1">CLOSE_COLUMN</span>)
-    .withTransform(<span class="pl-stj">Transform</span><span class="pl-c1"><span class="pl-k">.</span>NORMALIZE</span>)
+    .withTransform(<span class="pl-smi">Transform</span><span class="pl-c1"><span class="pl-k">.</span>NORMALIZE</span>)
     .build());
-<span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(tabularResult<span class="pl-k">.</span>toPrettyPrintedString());</pre></div>
+<span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(tabularResult<span class="pl-k">.</span>toPrettyPrintedString());</pre></div>
 
 <p>which will return something like</p>
 
@@ -182,22 +232,22 @@ request AAPL again, but this time sampled Quarterly, returning only the close co
 <p>To retrieve data for multiple codes, we need a different request structure.  In particular we need to say which Quandl codes we want data retrieved for, but also which columns are required for each.  This is done using the <code>QuandlCodeRequest</code>, which has two factory methods: <code>singleColumn(String quandlCode, int columnIndex)</code> and <code>allColumns(String quandlCode)</code>.  It's worth noting we're allowed to use the normal form of Quandl codes here, in the REST API, the forward slash gets replaced with a full-stop/period in this context:</p>
 
 <div class="highlight highlight-java"><pre><span class="pl-c">// Example3.java</span>
-<span class="pl-stj">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-stj">QuandlSession</span><span class="pl-k">.</span>create();
-<span class="pl-stj">TabularResult</span> tabularResultMulti <span class="pl-k">=</span> session<span class="pl-k">.</span>getDataSets(
-    <span class="pl-stj">MultiDataSetRequest</span><span class="pl-k">.</span><span class="pl-stj">Builder</span>
+<span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
+<span class="pl-smi">TabularResult</span> tabularResultMulti <span class="pl-k">=</span> session<span class="pl-k">.</span>getDataSets(
+    <span class="pl-smi">MultiDataSetRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span>
       .of(
-        <span class="pl-stj">QuandlCodeRequest</span><span class="pl-k">.</span>singleColumn(<span class="pl-s1"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>, <span class="pl-c1">CLOSE_COLUMN</span>), 
-        <span class="pl-stj">QuandlCodeRequest</span><span class="pl-k">.</span>allColumns(<span class="pl-s1"><span class="pl-pds">"</span>DOE/RWTC<span class="pl-pds">"</span></span>)
+        <span class="pl-smi">QuandlCodeRequest</span><span class="pl-k">.</span>singleColumn(<span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>, <span class="pl-c1">CLOSE_COLUMN</span>), 
+        <span class="pl-smi">QuandlCodeRequest</span><span class="pl-k">.</span>allColumns(<span class="pl-s"><span class="pl-pds">"</span>DOE/RWTC<span class="pl-pds">"</span></span>)
       )
       .withStartDate(<span class="pl-c1">RECENTISH_DATE</span>)
-      .withFrequency(<span class="pl-stj">Frequency</span><span class="pl-c1"><span class="pl-k">.</span>MONTHLY</span>)
+      .withFrequency(<span class="pl-smi">Frequency</span><span class="pl-c1"><span class="pl-k">.</span>MONTHLY</span>)
       .build());
-<span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(tabularResultMulti<span class="pl-k">.</span>toPrettyPrintedString()); </pre></div>
+<span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(tabularResultMulti<span class="pl-k">.</span>toPrettyPrintedString()); </pre></div>
 
 <p>which returns all results in a single <code>TabularResult</code></p>
 
 <pre><code>+------------+-------------------+------------------+
-| Date       | WIKI.AAPL - Close | DOE.RWTC - Value |
+| Date       | WIKI/AAPL - Close | DOE/RWTC - Value |
 +------------+-------------------+------------------+
 | 2014-06-30 | 637.54            |                  |
 | 2014-05-31 | 633.0             | 103.37           |
@@ -228,28 +278,28 @@ request AAPL again, but this time sampled Quarterly, returning only the close co
 <p>The type <code>TabularResult</code> is made up of a <code>HeaderDefinition</code>, which is essentially a list of column names (plus the facility to map from name to column index), plus a list of <code>Row</code> objects, each of which is linked to their common <code>HeaderDefinition</code>.  This allows individual <code>Row</code> objects to address their data using the column name rather than just the index as is the underlying API.  <code>Row</code> also contains methods to parse and cast data into various types (String, LocalDate, Double).  Here is an example</p>
 
 <div class="highlight highlight-java"><pre><span class="pl-c">// Example3a.java</span>
-<span class="pl-stj">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-stj">QuandlSession</span><span class="pl-k">.</span>create();
-<span class="pl-stj">TabularResult</span> tabularResultMulti <span class="pl-k">=</span> session<span class="pl-k">.</span>getDataSets(
-    <span class="pl-stj">MultiDataSetRequest</span><span class="pl-k">.</span><span class="pl-stj">Builder</span>
+<span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
+<span class="pl-smi">TabularResult</span> tabularResultMulti <span class="pl-k">=</span> session<span class="pl-k">.</span>getDataSets(
+    <span class="pl-smi">MultiDataSetRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span>
       .of(
-        <span class="pl-stj">QuandlCodeRequest</span><span class="pl-k">.</span>singleColumn(<span class="pl-s1"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>, <span class="pl-c1">CLOSE_COLUMN</span>), 
-        <span class="pl-stj">QuandlCodeRequest</span><span class="pl-k">.</span>allColumns(<span class="pl-s1"><span class="pl-pds">"</span>DOE/RWTC<span class="pl-pds">"</span></span>)
+        <span class="pl-smi">QuandlCodeRequest</span><span class="pl-k">.</span>singleColumn(<span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>, <span class="pl-c1">CLOSE_COLUMN</span>), 
+        <span class="pl-smi">QuandlCodeRequest</span><span class="pl-k">.</span>allColumns(<span class="pl-s"><span class="pl-pds">"</span>DOE/RWTC<span class="pl-pds">"</span></span>)
       )
       .withStartDate(<span class="pl-c1">RECENTISH_DATE</span>)
-      .withFrequency(<span class="pl-stj">Frequency</span><span class="pl-c1"><span class="pl-k">.</span>MONTHLY</span>)
+      .withFrequency(<span class="pl-smi">Frequency</span><span class="pl-c1"><span class="pl-k">.</span>MONTHLY</span>)
       .build());
-<span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s1"><span class="pl-pds">"</span>Header definition: <span class="pl-pds">"</span></span> <span class="pl-k">+</span> tabularResultMulti<span class="pl-k">.</span>getHeaderDefinition());
-<span class="pl-st">Iterator&lt;<span class="pl-stj">Row</span>&gt;</span> iter <span class="pl-k">=</span> tabularResultMulti<span class="pl-k">.</span>iterator();
+<span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">"</span>Header definition: <span class="pl-pds">"</span></span> <span class="pl-k">+</span> tabularResultMulti<span class="pl-k">.</span>getHeaderDefinition());
+<span class="pl-k">Iterator&lt;<span class="pl-smi">Row</span>&gt;</span> iter <span class="pl-k">=</span> tabularResultMulti<span class="pl-k">.</span>iterator();
 <span class="pl-k">while</span> (iter<span class="pl-k">.</span>hasNext()) {
-  <span class="pl-stj">Row</span> row <span class="pl-k">=</span> iter<span class="pl-k">.</span>next();
-  <span class="pl-stj">LocalDate</span> date <span class="pl-k">=</span> row<span class="pl-k">.</span>getLocalDate(<span class="pl-s1"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>);
-  <span class="pl-stj">Double</span> value <span class="pl-k">=</span> row<span class="pl-k">.</span>getDouble(<span class="pl-s1"><span class="pl-pds">"</span>DOE.RWTC - Value<span class="pl-pds">"</span></span>);
-  <span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s1"><span class="pl-pds">"</span>Value on date <span class="pl-pds">"</span></span> <span class="pl-k">+</span> date <span class="pl-k">+</span> <span class="pl-s1"><span class="pl-pds">"</span> was <span class="pl-pds">"</span></span> <span class="pl-k">+</span> value);
+  <span class="pl-smi">Row</span> row <span class="pl-k">=</span> iter<span class="pl-k">.</span>next();
+  <span class="pl-smi">LocalDate</span> date <span class="pl-k">=</span> row<span class="pl-k">.</span>getLocalDate(<span class="pl-s"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>);
+  <span class="pl-smi">Double</span> value <span class="pl-k">=</span> row<span class="pl-k">.</span>getDouble(<span class="pl-s"><span class="pl-pds">"</span>DOE/RWTC - Value<span class="pl-pds">"</span></span>);
+  <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">"</span>Value on date <span class="pl-pds">"</span></span> <span class="pl-k">+</span> date <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">"</span> was <span class="pl-pds">"</span></span> <span class="pl-k">+</span> value);
 } </pre></div>
 
 <p>produces:</p>
 
-<pre><code>Header definition: HeaderDefinition[Date,WIKI.AAPL - Close,DOE.RWTC - Value]
+<pre><code>Header definition: HeaderDefinition[Date,WIKI/AAPL - Close,DOE/RWTC - Value]
 Value on date 2014-06-30 was null
 Value on date 2014-05-31 was 103.37
 Value on date 2014-04-30 was 100.07
@@ -282,36 +332,36 @@ System.out.println(metaData.toPrettyPrintedString());
 <p>which prints out the raw JSON of the underlying message</p>
 
 <div class="highlight highlight-json"><pre>{
-  <span class="pl-s1"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>AAPL<span class="pl-pds">"</span></span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>column_names<span class="pl-pds">"</span></span>: [
-    <span class="pl-s1"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Open<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>High<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Low<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Close<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Volume<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Ex-Dividend<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Split Ratio<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. Open<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. High<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. Low<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. Close<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. Volume<span class="pl-pds">"</span></span>
+  <span class="pl-s"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>AAPL<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>column_names<span class="pl-pds">"</span></span>: [
+    <span class="pl-s"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Open<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>High<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Low<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Close<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Volume<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Ex-Dividend<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Split Ratio<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. Open<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. High<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. Low<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. Close<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. Volume<span class="pl-pds">"</span></span>
   ],
-  <span class="pl-s1"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span><span class="pl-cce">\r\n</span>&lt;p&gt;End of day open, high, low, close and volume, dividends and splits, and split/dividend adjusted open, high, low close and volume for Apple Inc. (AAPL). Ex-Dividend is non-zero on ex-dividend dates. Split Ratio is 1 on non-split dates. Adjusted prices are calculated per CRSP (&lt;a href=<span class="pl-cce">\"</span>http://www.crsp.com/products/documentation/crsp-calculations<span class="pl-cce">\"</span> rel=<span class="pl-cce">\"</span>nofollow<span class="pl-cce">\"</span> target=<span class="pl-cce">\"</span>blank<span class="pl-cce">\"</span>&gt;www.crsp.com/products/documentation/crsp-calculations&lt;<span class="pl-cce">\/</span>a&gt;)&lt;<span class="pl-cce">\/</span>p&gt;<span class="pl-cce">\r\n\r\n</span>&lt;p&gt;This data is in the public domain. You may copy, distribute, disseminate or include the data in other products for commercial and/or noncommercial purposes.&lt;<span class="pl-cce">\/</span>p&gt;<span class="pl-cce">\r\n\r\n</span>&lt;p&gt;This data is part of Quandl's Wiki initiative to get financial data permanently into the public domain. Quandl relies on users like you to flag errors and provide data where data is wrong or missing. Get involved: &lt;a href=<span class="pl-cce">\"</span>mailto:connect@quandl.com<span class="pl-cce">\"</span> rel=<span class="pl-cce">\"</span>nofollow<span class="pl-cce">\"</span> target=<span class="pl-cce">\"</span>blank<span class="pl-cce">\"</span>&gt;connect@quandl.com&lt;<span class="pl-cce">\/</span>a&gt;<span class="pl-cce">\r\n</span>&lt;<span class="pl-cce">\/</span>p&gt;<span class="pl-cce">\r\n</span><span class="pl-pds">"</span></span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>display_url<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>http://www.quandl.com/WIKI/AAPL<span class="pl-pds">"</span></span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>errors<span class="pl-pds">"</span></span>: {},
-  <span class="pl-s1"><span class="pl-pds">"</span>frequency<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>daily<span class="pl-pds">"</span></span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>from_date<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>1980-12-12<span class="pl-pds">"</span></span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>id<span class="pl-pds">"</span></span>: <span class="pl-c1">9775409</span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Apple Inc. (AAPL) Prices, Dividends, Splits and Trading Volume<span class="pl-pds">"</span></span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>private<span class="pl-pds">"</span></span>: <span class="pl-c1">false</span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>source_code<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>WIKI<span class="pl-pds">"</span></span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>source_name<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Quandl Open Data<span class="pl-pds">"</span></span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>to_date<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>2014-06-03<span class="pl-pds">"</span></span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>type<span class="pl-pds">"</span></span>: <span class="pl-c1">null</span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>updated_at<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>2014-06-03T20:58:42Z<span class="pl-pds">"</span></span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>urlize_name<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Apple-Inc-AAPL-Prices-Dividends-Splits-and-Trading-Volume<span class="pl-pds">"</span></span>
+  <span class="pl-s"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span><span class="pl-cce">\r\n</span>&lt;p&gt;End of day open, high, low, close and volume, dividends and splits, and split/dividend adjusted open, high, low close and volume for Apple Inc. (AAPL). Ex-Dividend is non-zero on ex-dividend dates. Split Ratio is 1 on non-split dates. Adjusted prices are calculated per CRSP (&lt;a href=<span class="pl-cce">\"</span>http://www.crsp.com/products/documentation/crsp-calculations<span class="pl-cce">\"</span> rel=<span class="pl-cce">\"</span>nofollow<span class="pl-cce">\"</span> target=<span class="pl-cce">\"</span>blank<span class="pl-cce">\"</span>&gt;www.crsp.com/products/documentation/crsp-calculations&lt;<span class="pl-cce">\/</span>a&gt;)&lt;<span class="pl-cce">\/</span>p&gt;<span class="pl-cce">\r\n\r\n</span>&lt;p&gt;This data is in the public domain. You may copy, distribute, disseminate or include the data in other products for commercial and/or noncommercial purposes.&lt;<span class="pl-cce">\/</span>p&gt;<span class="pl-cce">\r\n\r\n</span>&lt;p&gt;This data is part of Quandl's Wiki initiative to get financial data permanently into the public domain. Quandl relies on users like you to flag errors and provide data where data is wrong or missing. Get involved: &lt;a href=<span class="pl-cce">\"</span>mailto:connect@quandl.com<span class="pl-cce">\"</span> rel=<span class="pl-cce">\"</span>nofollow<span class="pl-cce">\"</span> target=<span class="pl-cce">\"</span>blank<span class="pl-cce">\"</span>&gt;connect@quandl.com&lt;<span class="pl-cce">\/</span>a&gt;<span class="pl-cce">\r\n</span>&lt;<span class="pl-cce">\/</span>p&gt;<span class="pl-cce">\r\n</span><span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>display_url<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>http://www.quandl.com/WIKI/AAPL<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>errors<span class="pl-pds">"</span></span>: {},
+  <span class="pl-s"><span class="pl-pds">"</span>frequency<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>daily<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>from_date<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>1980-12-12<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>id<span class="pl-pds">"</span></span>: <span class="pl-c1">9775409</span>,
+  <span class="pl-s"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Apple Inc. (AAPL) Prices, Dividends, Splits and Trading Volume<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>private<span class="pl-pds">"</span></span>: <span class="pl-c1">false</span>,
+  <span class="pl-s"><span class="pl-pds">"</span>source_code<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>WIKI<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>source_name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Quandl Open Data<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>to_date<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>2014-06-03<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>type<span class="pl-pds">"</span></span>: <span class="pl-c1">null</span>,
+  <span class="pl-s"><span class="pl-pds">"</span>updated_at<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>2014-06-03T20:58:42Z<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>urlize_name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Apple-Inc-AAPL-Prices-Dividends-Splits-and-Trading-Volume<span class="pl-pds">"</span></span>
 }</pre></div>
 
 <p>The raw JSON message is accessible, but the intention is for the user to mostly use the convenience methods available to extract named fields (with type casts) and process the <code>column_names</code> array into a <code>HeaderDefinition</code>.</p>
@@ -322,88 +372,88 @@ System.out.println(metaData.toPrettyPrintedString());
 <p>This uses an undocumented feature of Quandl, which allows you to make requests for JSON to the multisets endpoint.  To this we add the parameter to limit the start date to a date far in the future.  This means we only get the meta-data.  It's limited to only providing enough data to determine the available columns, but that's quite useful in itself.  There are two calls that can process this <code>MultiMetaDataRequest</code>.  The first is an overloaded version of <code>getMetaData</code>.  Again, it's worth noting we're allowed to use the normal form of Quandl codes here: in the REST API, the forward slash gets replaced with a full-stop/period in this context.</p>
 
 <div class="highlight highlight-java"><pre><span class="pl-c">// Example5.java</span>
-<span class="pl-stj">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-stj">QuandlSession</span><span class="pl-k">.</span>create();
-<span class="pl-stj">MetaDataResult</span> metaData <span class="pl-k">=</span> session<span class="pl-k">.</span>getMetaData(<span class="pl-stj">MultiMetaDataRequest</span><span class="pl-k">.</span>of(<span class="pl-s1"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>, <span class="pl-s1"><span class="pl-pds">"</span>DOE/RWTC<span class="pl-pds">"</span></span>, <span class="pl-s1"><span class="pl-pds">"</span>WIKI/MSFT<span class="pl-pds">"</span></span>));
-<span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(metaData<span class="pl-k">.</span>toPrettyPrintedString());</pre></div>
+<span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
+<span class="pl-smi">MetaDataResult</span> metaData <span class="pl-k">=</span> session<span class="pl-k">.</span>getMetaData(<span class="pl-smi">MultiMetaDataRequest</span><span class="pl-k">.</span>of(<span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>DOE/RWTC<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT<span class="pl-pds">"</span></span>));
+<span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(metaData<span class="pl-k">.</span>toPrettyPrintedString());</pre></div>
 
 <p>which returns a large JSON document wrapped in a normal MetaDataResult object.</p>
 
 <div class="highlight highlight-json"><pre>{
-  <span class="pl-s1"><span class="pl-pds">"</span>column_names<span class="pl-pds">"</span></span>: [
-    <span class="pl-s1"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.AAPL - Open<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.AAPL - High<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.AAPL - Low<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.AAPL - Close<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.AAPL - Volume<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.AAPL - Ex-Dividend<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.AAPL - Split Ratio<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.AAPL - Adj. Open<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.AAPL - Adj. High<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.AAPL - Adj. Low<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.AAPL - Adj. Close<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.AAPL - Adj. Volume<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>DOE.RWTC - Value<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.MSFT - Open<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.MSFT - High<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.MSFT - Low<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.MSFT - Close<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.MSFT - Volume<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.MSFT - Ex-Dividend<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.MSFT - Split Ratio<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.MSFT - Adj. Open<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.MSFT - Adj. High<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.MSFT - Adj. Low<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.MSFT - Adj. Close<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>WIKI.MSFT - Adj. Volume<span class="pl-pds">"</span></span>
+  <span class="pl-s"><span class="pl-pds">"</span>column_names<span class="pl-pds">"</span></span>: [
+    <span class="pl-s"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - Open<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - High<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - Low<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - Close<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - Volume<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - Ex-Dividend<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - Split Ratio<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - Adj. Open<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - Adj. High<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - Adj. Low<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - Adj. Close<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - Adj. Volume<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>DOE/RWTC - Value<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT - Open<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT - High<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT - Low<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT - Close<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT - Volume<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT - Ex-Dividend<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT - Split Ratio<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT - Adj. Open<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT - Adj. High<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT - Adj. Low<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT - Adj. Close<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT - Adj. Volume<span class="pl-pds">"</span></span>
   ],
-  <span class="pl-s1"><span class="pl-pds">"</span>columns<span class="pl-pds">"</span></span>: [
-    <span class="pl-s1"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Open<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>High<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Low<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Close<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Volume<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Ex-Dividend<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Split Ratio<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. Open<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. High<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. Low<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. Close<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. Volume<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Value<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Open<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>High<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Low<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Close<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Volume<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Ex-Dividend<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Split Ratio<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. Open<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. High<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. Low<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. Close<span class="pl-pds">"</span></span>,
-    <span class="pl-s1"><span class="pl-pds">"</span>Adj. Volume<span class="pl-pds">"</span></span>
+  <span class="pl-s"><span class="pl-pds">"</span>columns<span class="pl-pds">"</span></span>: [
+    <span class="pl-s"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Open<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>High<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Low<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Close<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Volume<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Ex-Dividend<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Split Ratio<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. Open<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. High<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. Low<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. Close<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. Volume<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Value<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Open<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>High<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Low<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Close<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Volume<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Ex-Dividend<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Split Ratio<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. Open<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. High<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. Low<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. Close<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>Adj. Volume<span class="pl-pds">"</span></span>
   ],
-  <span class="pl-s1"><span class="pl-pds">"</span>data<span class="pl-pds">"</span></span>: [],
-  <span class="pl-s1"><span class="pl-pds">"</span>errors<span class="pl-pds">"</span></span>: {},
-  <span class="pl-s1"><span class="pl-pds">"</span>frequency<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>annual<span class="pl-pds">"</span></span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>from_date<span class="pl-pds">"</span></span>: <span class="pl-c1">null</span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>to_date<span class="pl-pds">"</span></span>: <span class="pl-c1">null</span>
+  <span class="pl-s"><span class="pl-pds">"</span>data<span class="pl-pds">"</span></span>: [],
+  <span class="pl-s"><span class="pl-pds">"</span>errors<span class="pl-pds">"</span></span>: {},
+  <span class="pl-s"><span class="pl-pds">"</span>frequency<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>annual<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>from_date<span class="pl-pds">"</span></span>: <span class="pl-c1">null</span>,
+  <span class="pl-s"><span class="pl-pds">"</span>to_date<span class="pl-pds">"</span></span>: <span class="pl-c1">null</span>
 }</pre></div>
 
 <p>A more generally useful method though, is to use the <code>getMultipleHeaderDefinition()</code> method</p>
 
 <div class="highlight highlight-java"><pre><span class="pl-c">// Example6.java</span>
-<span class="pl-stj">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-stj">QuandlSession</span><span class="pl-k">.</span>create();
-<span class="pl-st">Map&lt;<span class="pl-stj">String</span>, <span class="pl-stj">HeaderDefinition</span>&gt;</span> headers <span class="pl-k">=</span> session<span class="pl-k">.</span>getMultipleHeaderDefinition(<span class="pl-stj">MultiMetaDataRequest</span><span class="pl-k">.</span>of(<span class="pl-s1"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>, <span class="pl-s1"><span class="pl-pds">"</span>DOE/RWTC<span class="pl-pds">"</span></span>, <span class="pl-s1"><span class="pl-pds">"</span>WIKI/MSFT<span class="pl-pds">"</span></span>));
-<span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-stj">PrettyPrinter</span><span class="pl-k">.</span>toPrettyPrintedString(headers));</pre></div>
+<span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
+<span class="pl-k">Map&lt;<span class="pl-smi">String</span>, <span class="pl-smi">HeaderDefinition</span>&gt;</span> headers <span class="pl-k">=</span> session<span class="pl-k">.</span>getMultipleHeaderDefinition(<span class="pl-smi">MultiMetaDataRequest</span><span class="pl-k">.</span>of(<span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>DOE/RWTC<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT<span class="pl-pds">"</span></span>));
+<span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-smi">PrettyPrinter</span><span class="pl-k">.</span>toPrettyPrintedString(headers));</pre></div>
 
 <p>which returns the following map (<code>PrettyPrinter</code> contains a PrettyPrinter for these maps too):</p>
 
-<pre><code>WIKI.AAPL =&gt; Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
-DOE.RWTC  =&gt; Date, Value
-WIKI.MSFT =&gt; Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
+<pre><code>WIKI/AAPL =&gt; Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
+DOE/RWTC  =&gt; Date, Value
+WIKI/MSFT =&gt; Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
 </code></pre>
 
 <h3>
@@ -412,93 +462,93 @@ WIKI.MSFT =&gt; Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, 
 <p>We can also make generalised free-text search requests to Quandl.  For this we use the <code>search(SearchRequest)</code> method.  This allows us to specify the maximum number of results per page, and also the page we want.  Note that queries with high page numbers are slow, presumably due to the server-side database having to project the entire result set of several million documents just to get the single page you want.  Try not to add to server load by making these requests excessively.</p>
 
 <div class="highlight highlight-java"><pre><span class="pl-c">// Example7.java</span>
-<span class="pl-stj">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-stj">QuandlSession</span><span class="pl-k">.</span>create();
-<span class="pl-stj">SearchResult</span> searchResult <span class="pl-k">=</span> session<span class="pl-k">.</span>search(<span class="pl-stj">SearchRequest</span><span class="pl-k">.</span><span class="pl-stj">Builder</span><span class="pl-k">.</span>of(<span class="pl-s1"><span class="pl-pds">"</span>Apple<span class="pl-pds">"</span></span>)<span class="pl-k">.</span>withMaxPerPage(<span class="pl-c1">2</span>)<span class="pl-k">.</span>build());
-<span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(searchResult<span class="pl-k">.</span>toPrettyPrintedString());</pre></div>
+<span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
+<span class="pl-smi">SearchResult</span> searchResult <span class="pl-k">=</span> session<span class="pl-k">.</span>search(<span class="pl-smi">SearchRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span><span class="pl-k">.</span>of(<span class="pl-s"><span class="pl-pds">"</span>Apple<span class="pl-pds">"</span></span>)<span class="pl-k">.</span>withMaxPerPage(<span class="pl-c1">2</span>)<span class="pl-k">.</span>build());
+<span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(searchResult<span class="pl-k">.</span>toPrettyPrintedString());</pre></div>
 
 <p>results in</p>
 
 <div class="highlight highlight-json"><pre>{
-  <span class="pl-s1"><span class="pl-pds">"</span>current_page<span class="pl-pds">"</span></span>: <span class="pl-c1">1</span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>docs<span class="pl-pds">"</span></span>: [
+  <span class="pl-s"><span class="pl-pds">"</span>current_page<span class="pl-pds">"</span></span>: <span class="pl-c1">1</span>,
+  <span class="pl-s"><span class="pl-pds">"</span>docs<span class="pl-pds">"</span></span>: [
     {
-      <span class="pl-s1"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>NASDAQ_AAPL<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>column_names<span class="pl-pds">"</span></span>: [
-        <span class="pl-s1"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>,
-        <span class="pl-s1"><span class="pl-pds">"</span>Open<span class="pl-pds">"</span></span>,
-        <span class="pl-s1"><span class="pl-pds">"</span>High<span class="pl-pds">"</span></span>,
-        <span class="pl-s1"><span class="pl-pds">"</span>Low<span class="pl-pds">"</span></span>,
-        <span class="pl-s1"><span class="pl-pds">"</span>Close<span class="pl-pds">"</span></span>,
-        <span class="pl-s1"><span class="pl-pds">"</span>Volume<span class="pl-pds">"</span></span>
+      <span class="pl-s"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>NASDAQ_AAPL<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>column_names<span class="pl-pds">"</span></span>: [
+        <span class="pl-s"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>Open<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>High<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>Low<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>Close<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>Volume<span class="pl-pds">"</span></span>
       ],
-      <span class="pl-s1"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Apple Inc. (Apple) designs, manufactures and markets mobile communication and media devices, personal computers, and portable digital music players, and a variety of related software, services, peripherals, networking solutions, and third-party digital content and applications. The Company's products and services include iPhone, iPad, Mac, iPod, Apple TV, a portfolio of consumer and professional software applications, the iOS and OS X operating systems, iCloud, and a variety of accessory, service and support offerings. The Company also delivers digital content and applications through the iTunes Store, App StoreSM, iBookstoreSM, and Mac App Store. The Company distributes its products worldwide through its retail stores, online stores, and direct sales force, as well as through third-party cellular network carriers, wholesalers, retailers, and value-added resellers. In February 2012, the Company acquired app-search engine Chomp.<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>display_url<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>http://www.google.com/finance/historical?q=NASDAQ%3AAAPL&amp;startdate=Jan+1%2C+1990&amp;output=csv<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>frequency<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>daily<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>from_date<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>1981-03-11<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>id<span class="pl-pds">"</span></span>: <span class="pl-c1">2318865</span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Apple Inc. (AAPL)<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>private<span class="pl-pds">"</span></span>: <span class="pl-c1">false</span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>source_code<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>GOOG<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>source_name<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Google Finance<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>to_date<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>2014-06-03<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>type<span class="pl-pds">"</span></span>: <span class="pl-c1">null</span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>updated_at<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>2014-06-04T02:27:30Z<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>urlize_name<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Apple-Inc-AAPL<span class="pl-pds">"</span></span>
+      <span class="pl-s"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Apple Inc. (Apple) designs, manufactures and markets mobile communication and media devices, personal computers, and portable digital music players, and a variety of related software, services, peripherals, networking solutions, and third-party digital content and applications. The Company's products and services include iPhone, iPad, Mac, iPod, Apple TV, a portfolio of consumer and professional software applications, the iOS and OS X operating systems, iCloud, and a variety of accessory, service and support offerings. The Company also delivers digital content and applications through the iTunes Store, App StoreSM, iBookstoreSM, and Mac App Store. The Company distributes its products worldwide through its retail stores, online stores, and direct sales force, as well as through third-party cellular network carriers, wholesalers, retailers, and value-added resellers. In February 2012, the Company acquired app-search engine Chomp.<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>display_url<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>http://www.google.com/finance/historical?q=NASDAQ%3AAAPL&amp;startdate=Jan+1%2C+1990&amp;output=csv<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>frequency<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>daily<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>from_date<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>1981-03-11<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>id<span class="pl-pds">"</span></span>: <span class="pl-c1">2318865</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Apple Inc. (AAPL)<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>private<span class="pl-pds">"</span></span>: <span class="pl-c1">false</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>source_code<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>GOOG<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>source_name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Google Finance<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>to_date<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>2014-06-03<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>type<span class="pl-pds">"</span></span>: <span class="pl-c1">null</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>updated_at<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>2014-06-04T02:27:30Z<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>urlize_name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Apple-Inc-AAPL<span class="pl-pds">"</span></span>
     },
     {
-      <span class="pl-s1"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>AAPL_CASH<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>column_names<span class="pl-pds">"</span></span>: [
-        <span class="pl-s1"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>,
-        <span class="pl-s1"><span class="pl-pds">"</span>Cash<span class="pl-pds">"</span></span>
+      <span class="pl-s"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>AAPL_CASH<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>column_names<span class="pl-pds">"</span></span>: [
+        <span class="pl-s"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>Cash<span class="pl-pds">"</span></span>
       ],
-      <span class="pl-s1"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath<span class="pl-cce">\n</span>Damodaran, Professor of Finance at the Stern School of Business, New<span class="pl-cce">\n</span>York University.  The raw data is available here:<span class="pl-cce">\n</span>http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>display_url<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>frequency<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>annual<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>from_date<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>2000-09-27<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>id<span class="pl-pds">"</span></span>: <span class="pl-c1">3861439</span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Apple Inc. ( AAPL ) - Cash<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>private<span class="pl-pds">"</span></span>: <span class="pl-c1">false</span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>source_code<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>DMDRN<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>source_name<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Damodaran Financial Data<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>to_date<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>2013-09-27<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>type<span class="pl-pds">"</span></span>: <span class="pl-c1">null</span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>updated_at<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>2014-05-15T18:07:39Z<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>urlize_name<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Apple-Inc-AAPL-Cash<span class="pl-pds">"</span></span>
+      <span class="pl-s"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Cash and Marketable Securities reported in the balance sheet. Units: millions of dollars. Corporate Finance data is collected and calculated by Prof. Aswath<span class="pl-cce">\n</span>Damodaran, Professor of Finance at the Stern School of Business, New<span class="pl-cce">\n</span>York University.  The raw data is available here:<span class="pl-cce">\n</span>http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>display_url<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>frequency<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>annual<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>from_date<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>2000-09-27<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>id<span class="pl-pds">"</span></span>: <span class="pl-c1">3861439</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Apple Inc. ( AAPL ) - Cash<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>private<span class="pl-pds">"</span></span>: <span class="pl-c1">false</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>source_code<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>DMDRN<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>source_name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Damodaran Financial Data<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>to_date<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>2013-09-27<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>type<span class="pl-pds">"</span></span>: <span class="pl-c1">null</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>updated_at<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>2014-05-15T18:07:39Z<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>urlize_name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Apple-Inc-AAPL-Cash<span class="pl-pds">"</span></span>
     }
   ],
-  <span class="pl-s1"><span class="pl-pds">"</span>per_page<span class="pl-pds">"</span></span>: <span class="pl-c1">2</span>,
-  <span class="pl-s1"><span class="pl-pds">"</span>sources<span class="pl-pds">"</span></span>: [
+  <span class="pl-s"><span class="pl-pds">"</span>per_page<span class="pl-pds">"</span></span>: <span class="pl-c1">2</span>,
+  <span class="pl-s"><span class="pl-pds">"</span>sources<span class="pl-pds">"</span></span>: [
     {
-      <span class="pl-s1"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>DMDRN<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>datasets_count<span class="pl-pds">"</span></span>: <span class="pl-c1">0</span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>host<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>pages.stern.nyu.edu/~adamodar/<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>id<span class="pl-pds">"</span></span>: <span class="pl-c1">6946</span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Damodaran Financial Data<span class="pl-pds">"</span></span>
+      <span class="pl-s"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>DMDRN<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>datasets_count<span class="pl-pds">"</span></span>: <span class="pl-c1">0</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>host<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>pages.stern.nyu.edu/~adamodar/<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>id<span class="pl-pds">"</span></span>: <span class="pl-c1">6946</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Damodaran Financial Data<span class="pl-pds">"</span></span>
     },
     {
-      <span class="pl-s1"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>GOOG<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>datasets_count<span class="pl-pds">"</span></span>: <span class="pl-c1">43144</span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>This data is NOT sourced directly from Google.  It is however verified against their numbers.<span class="pl-cce">\r\n\r\n</span>www.quandl.com/WIKI is a better source.<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>host<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>www.google.com<span class="pl-pds">"</span></span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>id<span class="pl-pds">"</span></span>: <span class="pl-c1">393</span>,
-      <span class="pl-s1"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s1"><span class="pl-pds">"</span>Google Finance<span class="pl-pds">"</span></span>
+      <span class="pl-s"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>GOOG<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>datasets_count<span class="pl-pds">"</span></span>: <span class="pl-c1">43144</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>This data is NOT sourced directly from Google.  It is however verified against their numbers.<span class="pl-cce">\r\n\r\n</span>www.quandl.com/WIKI is a better source.<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>host<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>www.google.com<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>id<span class="pl-pds">"</span></span>: <span class="pl-c1">393</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Google Finance<span class="pl-pds">"</span></span>
     }
   ],
-  <span class="pl-s1"><span class="pl-pds">"</span>total_count<span class="pl-pds">"</span></span>: <span class="pl-c1">4563</span>
+  <span class="pl-s"><span class="pl-pds">"</span>total_count<span class="pl-pds">"</span></span>: <span class="pl-c1">4563</span>
 }</pre></div>
 
 <p>More usefully though, there are variously helper methods on SearchResult to allow you to get the document count, number of documents per page and to extract the individual matches as separate MetaDataResult objects.  For example</p>
 
 <div class="highlight highlight-java"><pre><span class="pl-c">// Example8.java</span>
-<span class="pl-stj">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-stj">QuandlSession</span><span class="pl-k">.</span>create();
-<span class="pl-stj">SearchResult</span> searchResult <span class="pl-k">=</span> session<span class="pl-k">.</span>search(<span class="pl-stj">SearchRequest</span><span class="pl-k">.</span><span class="pl-stj">Builder</span><span class="pl-k">.</span>of(<span class="pl-s1"><span class="pl-pds">"</span>Apple<span class="pl-pds">"</span></span>)<span class="pl-k">.</span>withMaxPerPage(<span class="pl-c1">2</span>)<span class="pl-k">.</span>build());
-<span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s1"><span class="pl-pds">"</span>Current page:<span class="pl-pds">"</span></span> <span class="pl-k">+</span> searchResult<span class="pl-k">.</span>getCurrentPage());
-<span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s1"><span class="pl-pds">"</span>Documents per page:<span class="pl-pds">"</span></span> <span class="pl-k">+</span> searchResult<span class="pl-k">.</span>getDocumentsPerPage());
-<span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s1"><span class="pl-pds">"</span>Total matching documents:<span class="pl-pds">"</span></span> <span class="pl-k">+</span> searchResult<span class="pl-k">.</span>getTotalDocuments());
-<span class="pl-k">for</span> (<span class="pl-stj">MetaDataResult</span> document <span class="pl-k">:</span> searchResult<span class="pl-k">.</span>getMetaDataResultList()) {
-  <span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s1"><span class="pl-pds">"</span>Quandl code <span class="pl-pds">"</span></span> <span class="pl-k">+</span> document<span class="pl-k">.</span>getQuandlCode() <span class="pl-k">+</span> <span class="pl-s1"><span class="pl-pds">"</span> matched<span class="pl-pds">"</span></span>);
-  <span class="pl-stj">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s1"><span class="pl-pds">"</span>Available columns are: <span class="pl-pds">"</span></span> <span class="pl-k">+</span> document<span class="pl-k">.</span>getHeaderDefinition());
+<span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
+<span class="pl-smi">SearchResult</span> searchResult <span class="pl-k">=</span> session<span class="pl-k">.</span>search(<span class="pl-smi">SearchRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span><span class="pl-k">.</span>of(<span class="pl-s"><span class="pl-pds">"</span>Apple<span class="pl-pds">"</span></span>)<span class="pl-k">.</span>withMaxPerPage(<span class="pl-c1">2</span>)<span class="pl-k">.</span>build());
+<span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">"</span>Current page:<span class="pl-pds">"</span></span> <span class="pl-k">+</span> searchResult<span class="pl-k">.</span>getCurrentPage());
+<span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">"</span>Documents per page:<span class="pl-pds">"</span></span> <span class="pl-k">+</span> searchResult<span class="pl-k">.</span>getDocumentsPerPage());
+<span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">"</span>Total matching documents:<span class="pl-pds">"</span></span> <span class="pl-k">+</span> searchResult<span class="pl-k">.</span>getTotalDocuments());
+<span class="pl-k">for</span> (<span class="pl-smi">MetaDataResult</span> document <span class="pl-k">:</span> searchResult<span class="pl-k">.</span>getMetaDataResultList()) {
+  <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">"</span>Quandl code <span class="pl-pds">"</span></span> <span class="pl-k">+</span> document<span class="pl-k">.</span>getQuandlCode() <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">"</span> matched<span class="pl-pds">"</span></span>);
+  <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">"</span>Available columns are: <span class="pl-pds">"</span></span> <span class="pl-k">+</span> document<span class="pl-k">.</span>getHeaderDefinition());
 }</pre></div>
 
 <p>produces</p>
@@ -511,6 +561,30 @@ Available columns are: HeaderDefinition[Date,Open,High,Low,Close,Volume]
 Quandl code DMDRN/AAPL_CASH matched
 Available columns are: HeaderDefinition[Date,Cash]
 </code></pre>
+
+<h3>
+<a id="quandl-api-key-and-session-options" class="anchor" href="#quandl-api-key-and-session-options" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quandl API Key and Session Options</h3>
+
+<p>To be allowed to use more than 50 requests per day it is necessary to <a href="https://www.quandl.com/users/sign_up">sign up for an account at quandl.com</a>.  This typically allows up to 50,000 requests per day.  When you've created your account, you can find your 'Auth Token' on your account details page.  There are several ways to pass this into Quandl4J:</p>
+
+<ol>
+<li>Set the Java sytem property <code>quandl.auth.token</code> to your Auth Token (<code>-Dquandl.auth.token=MYAUTHTOKEN</code> when launching the JVM using the <code>java</code> launcher) and then call <code>QuandlSession.create()</code>.</li>
+<li>Pass the token as a <code>String</code> parameter to <code>QuandlSession.create(String)</code> when you create the session.</li>
+<li>Create a <code>SessionOptions</code> object using it's builder and pass your Auth Token into the <code>withAuthToken(String)</code> method and then pass the resulting <code>SessionOptions</code> object into the <code>QuandlSession.create(SessionOptions)</code> method.</li>
+</ol>
+
+<p>Other properties of <code>SessionOptions</code> are the <code>RESTDataProvider</code> which is used to allow the use of a testing class that records requests in files, and <code>RetryPolicy</code> (<code>withRetryPolicy(RetryPolicy)</code> in the builder), which tells the session how to deal with failed requests.  Out of the box, there are three <code>RetryPolicy</code> types available:</p>
+
+<ul>
+<li>
+<code>NoRetryPolicy</code>, created using <code>RetryPolicy.createNoRetryPolicy()</code>.  This doesn't retry and all and throws exceptions immediately.</li>
+<li>
+<code>FixedRetryPolicy</code>, created using <code>RetryPolocy.createFixedRetryPolicy(int, long)</code>.  This will retry a maximum of  number of times, with a delay of  between each one.</li>
+<li>
+<code>SequenceRetryPolicy</code>, createed using <code>RetryPolicy.createSequenceRetryPolocy(long[])</code>.  This will retry, waiting the number of milliseconds in each array element, until the array is exhausted, at which point the policy will give up.</li>
+</ul>
+
+<p>The default policy is <code>SequenceRetryPolicy(new long[] {1000, 5000, 20000, 60000})</code>, which will back off first by 1 second, then 5, then 20 and finally a full minute.  Custom policies can be created by subclassing <code>RetryPolicy</code> yourself.</p>
 
 <h3>
 <a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentation</h3>
@@ -572,18 +646,16 @@ performing a metadata request prior to a data request.</li>
 <a id="copyright-and-license" class="anchor" href="#copyright-and-license" aria-hidden="true"><span class="octicon octicon-link"></span></a>Copyright and license</h3>
 
 <p>Code and documentation Copyright (C) 2014 Jim Moores.  Code and documentation released under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</a></p>
-      </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Quandl4j maintained by <a href="https://github.com/jimmoores">jimmoores</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/jimmoores/quandl4j">Quandl4j</a> is maintained by <a href="https://github.com/jimmoores">jimmoores</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
 
-              <script type="text/javascript">
+    </section>
+
+            <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -594,6 +666,6 @@ performing a metadata request prior to a data request.</li>
             } catch(err) {}
           </script>
 
-
   </body>
 </html>
+
