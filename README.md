@@ -1,7 +1,8 @@
 Quandl4J : A Quandl library for Java
 ====================================
-**NEWS: Version 1.1.0 has just been released to Maven central which switches
-Quandl4J to use HTTPS now that HTTP support has been deprecated.**
+**NEWS: Version 1.2.0 has just been released to Maven central which fixes an issue with the TLS certificate for HTTPS
+where Quandl4J uses quandl.com as it's base URL and the certificate is for www.quandl.com.  This only showed up with
+Apache CXF and RESTEasy and not Jersey.  Thanks to [capalbc](https://github.com/capalbc) for tracking down the source of the problem and [spawzing](https://github.com/spawzing) for indentifying the same issue on RESTEasy**.
 
 [Quandl](http://quandl.com) is a source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
 
@@ -27,7 +28,7 @@ The minimum pre-requisites are:
  - Maven 3.
 
 Three options are available:
- - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v1.0.0.zip)
+ - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v1.2.0.zip)
  - Clone the repository: `git clone https://github.com/jimmoores/quandl4j.git`
    - Run `mvn install` to build the libray, test, javadoc and source jars and install to your local Maven repository.
    - Run `mvn javadoc:javadoc` to build the documentation.
@@ -36,7 +37,7 @@ Three options are available:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl</artifactId>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
 </dependency>
 ```
 ### Design Principles
@@ -53,6 +54,9 @@ The core design principles are:
  - Provide comprehensive documentation and JavaDocs.
 
 ## Release Notes
+### Version 1.2.0
+ - Changed HTTPS URL because RESTEasy and Apache CXF can't handle redirect to https://www.quandl.com which is the address in the TLS certificate. Disabled integration test from main build because test framework misbehaving.
+
 ### Version 1.1.0
  - Switch to HTTPS, regenerate test data.
 
