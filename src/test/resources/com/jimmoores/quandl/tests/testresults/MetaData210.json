@@ -1,22 +1,22 @@
 {
-  "code": "3600_155",
+  "code": "INFLATION_DEU",
   "column_names": [
-    "Year",
-    "Value"
+    "Date",
+    "CPI"
   ],
-  "description": "The GHO data repository provides access to over 50 datasets on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others. More info at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=86",
-  "display_url": "http://apps.who.int/ghodata/cache/global/xls/vid.3600.xls",
+  "description": "This dataset has no description.",
+  "display_url": "http://www.rateinflation.com/inflation-rate/germany-inflation-rate?",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2009-12-31",
-  "id": 2787951,
-  "name": "Deaths due to HIV/AIDS (per 100 000 population) - Armenia",
+  "frequency": "monthly",
+  "from_date": "1992-01-31",
+  "id": 11319862,
+  "name": "Inflation YOY - Germany",
   "premium": false,
   "private": false,
-  "source_code": "WHO",
-  "source_name": "World Health Organization",
-  "to_date": "2009-12-31",
+  "source_code": "RATEINF",
+  "source_name": "Rate Inflation",
+  "to_date": "2014-12-31",
   "type": null,
-  "updated_at": "2013-06-20T19:32:02.377Z",
-  "urlize_name": "Deaths-due-to-HIV-AIDS-per-100-000-population-Armenia"
+  "updated_at": "2015-04-30T04:36:45.707Z",
+  "urlize_name": "Inflation-YOY-Germany"
 }

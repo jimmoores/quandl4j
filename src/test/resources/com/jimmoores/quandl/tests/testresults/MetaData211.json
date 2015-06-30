@@ -1,27 +1,25 @@
 {
-  "code": "FUTURE_SQ1990",
+  "code": "F1B142015",
   "column_names": [
     "Date",
-    "Open",
-    "High",
-    "Low",
-    "Settle",
+    "Last Price",
+    "Settlement Price",
     "Volume",
-    "Open Interest"
+    "Open Interest Previous Day"
   ],
-  "description": "Historical Futures Prices: Soybeans Futures, August 1990, SQ1990, Chicago Board of Trade (CBOT). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
-  "display_url": "http://www.ofdp.org/futures/13186",
+  "description": "Historical EEX Futures Prices - Phelix Power Futures - Base Week 14 2015, F1B142015, EEX, European Energy Exchange. Price in Euro/MWh. Volume in MWh.",
+  "display_url": "https://www.eex.com/en",
   "errors": {},
   "frequency": "daily",
-  "from_date": "1989-06-08",
-  "id": 2301028,
-  "name": "Soybeans Futures, August 1990, SQ1990, CBOT",
+  "from_date": "2015-03-09",
+  "id": 21875618,
+  "name": "Phelix Power Futures - Base Week 14 2015, F1B142015, EEX",
   "premium": false,
   "private": false,
-  "source_code": "OFDP",
-  "source_name": "Open Financial Data Project",
-  "to_date": "1990-08-22",
+  "source_code": "EEX",
+  "source_name": "European Energy Exchange",
+  "to_date": "2015-04-13",
   "type": null,
-  "updated_at": "2014-02-25T22:16:22.463Z",
-  "urlize_name": "Soybeans-Futures-August-1990-SQ1990-CBOT"
+  "updated_at": "2015-04-13T23:03:24.056Z",
+  "urlize_name": "Phelix-Power-Futures-Base-Week-14-2015-F1B142015-EEX"
 }

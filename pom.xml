@@ -3,7 +3,7 @@
 
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <packaging>jar</packaging>
 
   <name>Quandl4J</name>
@@ -486,8 +486,8 @@
         </property>
       </activation>
       <properties>
-        <tests.testng.includedgroups>unit,integration,unitdb,unitslow</tests.testng.includedgroups>
-        <tests.testng.excludedgroups>none</tests.testng.excludedgroups>
+        <tests.testng.includedgroups>unit,unitdb,unitslow</tests.testng.includedgroups>
+        <tests.testng.excludedgroups>integration</tests.testng.excludedgroups>
       </properties>
     </profile>
     <!-- setup to run tests with code coverage, activated with -Dcoverage -->

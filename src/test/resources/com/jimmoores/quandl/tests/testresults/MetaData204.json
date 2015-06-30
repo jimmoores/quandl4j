@@ -1,23 +1,28 @@
 {
-  "code": "INDEX_WSJ_BENCHMARK_2",
+  "code": "USD",
   "column_names": [
     "Date",
-    "Level",
-    "Yield"
+    "High",
+    "Low",
+    "Last",
+    "Bid",
+    "Ask",
+    "Volume",
+    "VWAP"
   ],
-  "description": "Barclays Capital Barclays Aggregate Index.&nbspSource: Wall Street Journal Market Data Centre.",
-  "display_url": "http://www.ofdp.org/benchmark_indices/2",
+  "description": "Bitcoin Price on BitStamp exchange. Updated at 6:00pm EST.",
+  "display_url": null,
   "errors": {},
   "frequency": "daily",
-  "from_date": "0015-03-09",
-  "id": 2651570,
-  "name": "Barclays Capital Barclays Aggregate Index",
+  "from_date": "2014-04-15",
+  "id": 11321277,
+  "name": "USD/BITCOIN Exchange Rate",
   "premium": false,
   "private": false,
-  "source_code": "OFDP",
-  "source_name": "Open Financial Data Project",
-  "to_date": "2015-05-27",
+  "source_code": "BITSTAMP",
+  "source_name": "Bitstamp",
+  "to_date": "2015-06-29",
   "type": null,
-  "updated_at": "2015-05-28T04:54:11.786Z",
-  "urlize_name": "Barclays-Capital-Barclays-Aggregate-Index"
+  "updated_at": "2015-06-29T22:00:06.656Z",
+  "urlize_name": "USD-BITCOIN-Exchange-Rate"
 }

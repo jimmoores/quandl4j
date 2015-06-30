@@ -1,6 +1,26 @@
 {
-  "current_page": 14,
-  "docs": [],
-  "per_page": 20,
-  "total_count": 19602505
+  "code": "FAO_59EGYPT6750NETFORESTCONVERSION",
+  "column_names": [
+    "Year",
+    "Area (1000 Ha/year)",
+    "Carbon stock in living biomass (Mg of Carbon per Ha)",
+    "Net emissions/removals (C) (Gigagrams)",
+    "Net emissions/removal (CO2eq) (Gigagrams)",
+    "Net emissions/removals (CO2) (Gigagrams)"
+  ],
+  "description": "The FAOSTAT Emissions Land Use database provides country-level estimates of greenhouse gas (GHG) emissions based on FAOSTAT activity data using Tier 1 computations, following 2006 Intergovernmental Panel on Climate Change (IPCC) Guidelines for National GHG Inventories. Technical details of specific activity data used and relevant computational steps employed, including the mapping between IPCC and FAOSTAT land use categories, are given in the Methodology and Quality Information section of the metadata for each of the sectors in the domain.",
+  "display_url": "http://faostat.fao.org/Portals/_Faostat/Downloads/zip_files/Emissions_Land_Use_Forest_Land_E_Africa_1.zip",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "1990-12-31",
+  "id": 7845212,
+  "name": "Emissions Land Use Forest Land: Net forest conversion - Egypt",
+  "premium": false,
+  "private": false,
+  "source_code": "FAO",
+  "source_name": "Food and Agriculture Organization of the United Nations",
+  "to_date": "2010-12-31",
+  "type": null,
+  "updated_at": "2014-09-25T13:34:33.716Z",
+  "urlize_name": "Emissions-Land-Use-Forest-Land-Net-forest-conversion-Egypt"
 }

@@ -1,27 +1,22 @@
 {
-  "code": "FUTURE_SMF1960",
+  "code": "0_0",
   "column_names": [
-    "Date",
-    "Open",
-    "High",
-    "Low",
-    "Settle",
-    "Volume",
-    "Open Interest"
+    "Year",
+    "Value"
   ],
-  "description": "Historical Futures Prices: Soybean Meal Futures, January 1960, SMF1960, Chicago Board of Trade (CBOT). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
-  "display_url": "http://www.ofdp.org/futures/16470",
+  "description": "Nominal GDP (million of Dollars). More info at http://www.measuringworth.com/datasets/usgdp/",
+  "display_url": "http://www.measuringworth.com/datasets/usgdp/result.php?use[]=NOMINALGDP&year_source=1790&year_result=2020",
   "errors": {},
-  "frequency": "daily",
-  "from_date": "1959-07-02",
-  "id": 2308493,
-  "name": "Soybean Meal Futures, January 1960, SMF1960, CBOT",
+  "frequency": "annual",
+  "from_date": "1790-12-31",
+  "id": 1708708,
+  "name": "United States Nominal GDP",
   "premium": false,
   "private": false,
-  "source_code": "OFDP",
-  "source_name": "Open Financial Data Project",
-  "to_date": "1960-01-20",
+  "source_code": "MWORTH",
+  "source_name": "MeasuringWorth",
+  "to_date": "2013-12-31",
   "type": null,
-  "updated_at": "2014-02-26T01:47:00.824Z",
-  "urlize_name": "Soybean-Meal-Futures-January-1960-SMF1960-CBOT"
+  "updated_at": "2014-09-08T23:09:33.854Z",
+  "urlize_name": "United-States-Nominal-GDP"
 }

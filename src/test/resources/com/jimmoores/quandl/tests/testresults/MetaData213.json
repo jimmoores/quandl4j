@@ -1,22 +1,25 @@
 {
-  "code": "20300_127",
+  "code": "EQU_SI",
   "column_names": [
-    "Year",
-    "Value"
+    "Date",
+    "Equities",
+    "10 Avg",
+    "20 Avg",
+    "50 Avg"
   ],
-  "description": "The GHO data repository provides access to over 50 datasets on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others. More info at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=48",
-  "display_url": "http://apps.who.int/ghodata/cache/global/xls/vid.20300.xls",
+  "description": "The ISE Sentiment Index is a unique put/call value that only uses opening long customer transactions to calculate bullish/bearish market direction. Opening long transactions are thought to best represent market sentiment because investors often buy call and put options to express their actual market view of a particular stock. Market maker and firm trades, which are excluded, are not considered representative of true market sentiment due to their specialized nature. As such, the ISEE calculation method allows for a more accurate measure of true investor sentiment than traditional put/call ratios.",
+  "display_url": "http://www.ise.com/MarketDataService.asmx/ISE_Get_ISee_Index_Chart",
   "errors": {},
-  "frequency": "annual",
-  "from_date": "2009-12-31",
-  "id": 2824663,
-  "name": "Total tetanus - number of reported cases - Uganda",
+  "frequency": "daily",
+  "from_date": "2006-01-03",
+  "id": 8486694,
+  "name": "ISE Sentiment Index: Equities",
   "premium": false,
   "private": false,
-  "source_code": "WHO",
-  "source_name": "World Health Organization",
-  "to_date": "2010-12-31",
+  "source_code": "ISE",
+  "source_name": "International Securities Exchange",
+  "to_date": "2015-06-29",
   "type": null,
-  "updated_at": "2013-06-20T19:35:54.888Z",
-  "urlize_name": "Total-tetanus-number-of-reported-cases-Uganda"
+  "updated_at": "2015-06-30T08:16:56.636Z",
+  "urlize_name": "ISE-Sentiment-Index-Equities"
 }

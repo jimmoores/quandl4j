@@ -1,6 +1,25 @@
 {
-  "current_page": 18,
-  "docs": [],
-  "per_page": 20,
-  "total_count": 19602505
+  "code": "F1B142015",
+  "column_names": [
+    "Date",
+    "Last Price",
+    "Settlement Price",
+    "Volume",
+    "Open Interest Previous Day"
+  ],
+  "description": "Historical EEX Futures Prices - Phelix Power Futures - Base Week 14 2015, F1B142015, EEX, European Energy Exchange. Price in Euro/MWh. Volume in MWh.",
+  "display_url": "https://www.eex.com/en",
+  "errors": {},
+  "frequency": "daily",
+  "from_date": "2015-03-09",
+  "id": 21875618,
+  "name": "Phelix Power Futures - Base Week 14 2015, F1B142015, EEX",
+  "premium": false,
+  "private": false,
+  "source_code": "EEX",
+  "source_name": "European Energy Exchange",
+  "to_date": "2015-04-13",
+  "type": null,
+  "updated_at": "2015-04-13T23:03:24.056Z",
+  "urlize_name": "Phelix-Power-Futures-Base-Week-14-2015-F1B142015-EEX"
 }

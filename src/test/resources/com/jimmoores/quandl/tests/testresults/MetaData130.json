@@ -1,104 +1,24 @@
 {
-  "current_page": 10,
-  "docs": [
-    {
-      "code": "FUTURE_LNG2005",
-      "column_names": [
-        "Date",
-        "Open",
-        "High",
-        "Low",
-        "Settle",
-        "Volume",
-        "Open Interest"
-      ],
-      "description": "Historical Futures Prices: Lean Hogs Futures, February 2005, LNG2005, Chicago Mercantile Exchange (CME). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
-      "display_url": "http://www.ofdp.org/futures/9775",
-      "frequency": "daily",
-      "from_date": "2003-12-15",
-      "id": 2309886,
-      "name": "Lean Hogs Futures, February 2005, LNG2005, CME",
-      "premium": false,
-      "private": false,
-      "source_code": "OFDP",
-      "source_name": "Open Financial Data Project",
-      "to_date": "2005-02-14",
-      "type": null,
-      "updated_at": "2014-02-25T19:37:27.223Z",
-      "urlize_name": "Lean-Hogs-Futures-February-2005-LNG2005-CME"
-    },
-    {
-      "code": "FUTURE_FFJ1990",
-      "column_names": [
-        "Date",
-        "Open",
-        "High",
-        "Low",
-        "Settle",
-        "Volume",
-        "Open Interest"
-      ],
-      "description": "Historical Futures Prices: Federal Funds Futures, April 1990, FFJ1990, Chicago Board of Trade (CBOT). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
-      "display_url": "http://www.ofdp.org/futures/13250",
-      "frequency": "daily",
-      "from_date": "1989-11-02",
-      "id": 2306664,
-      "name": "Federal Funds Futures, April 1990, FFJ1990, CBOT",
-      "premium": false,
-      "private": false,
-      "source_code": "OFDP",
-      "source_name": "Open Financial Data Project",
-      "to_date": "1990-04-30",
-      "type": null,
-      "updated_at": "2014-02-25T22:19:19.178Z",
-      "urlize_name": "Federal-Funds-Futures-April-1990-FFJ1990-CBOT"
-    },
-    {
-      "code": "WEATHER_TOTALSNOWCM_REGINASASKATCHEWAN",
-      "column_names": [
-        "Date",
-        "Total Snow (cm)"
-      ],
-      "description": "Historical weather data for Canadian Cities.",
-      "display_url": "http://www.climate.weatheroffice.gc.ca/climateData/canada_e.html",
-      "frequency": "daily",
-      "from_date": "1938-01-01",
-      "id": 2597162,
-      "name": "Weather in Regina, Saskatchewan, Canada - Total Snow (cm)",
-      "premium": false,
-      "private": false,
-      "source_code": "ENVCAN",
-      "source_name": "Environment Canada",
-      "to_date": "2007-11-30",
-      "type": null,
-      "updated_at": "2013-08-22T19:52:18.695Z",
-      "urlize_name": "Weather-in-Regina-Saskatchewan-Canada-Total-Snow-cm"
-    }
+  "code": "INDEX",
+  "column_names": [
+    "Month",
+    "Unemployment Rate",
+    "Inflation Rate",
+    "Misery Index"
   ],
-  "per_page": 20,
-  "sources": [
-    {
-      "code": "ENVCAN",
-      "concurrency": 20,
-      "datasets_count": 211,
-      "description": "Environment Canada provides weather data for different regions of Canada. This includes temperatures, precipitation levels, and wind speeds.",
-      "host": "www.climate.weatheroffice.gc.ca",
-      "id": 489,
-      "name": "Environment Canada",
-      "premium": false,
-      "use_proxy": false
-    },
-    {
-      "code": "OFDP",
-      "concurrency": 7,
-      "datasets_count": 17815,
-      "description": "OFDP publishes data on the prices of futures, metals, and other indexes.",
-      "host": "www.ofdp.org",
-      "id": 385,
-      "name": "Open Financial Data Project",
-      "premium": false,
-      "use_proxy": false
-    }
-  ],
-  "total_count": 19602505
+  "description": "How miserable do you feel? The misery index was initiated by economist Arthur Okun, an adviser to President Lyndon Johnson in the 1960's. It is simply the unemployment rate added to the inflation rate. It is assumed that both a higher rate of unemployment and a worsening of inflation both create economic and social costs for a country. A combination of rising inflation and more people out of work implies a deterioration in economic performance and a rise in the misery index.",
+  "display_url": "http://www.miseryindex.us/rawdata.aspx",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "1948-01-31",
+  "id": 2450270,
+  "name": "United States Misery Index",
+  "premium": false,
+  "private": false,
+  "source_code": "USMISERY",
+  "source_name": "United States Misery Index",
+  "to_date": "2015-05-31",
+  "type": null,
+  "updated_at": "2015-06-22T04:14:11.913Z",
+  "urlize_name": "United-States-Misery-Index"
 }

@@ -1,27 +1,22 @@
 {
-  "code": "FUTURE_LNG2005",
+  "code": "AFG_BNCABFUNDCD_",
   "column_names": [
     "Date",
-    "Open",
-    "High",
-    "Low",
-    "Settle",
-    "Volume",
-    "Open Interest"
+    "Value"
   ],
-  "description": "Historical Futures Prices: Lean Hogs Futures, February 2005, LNG2005, Chicago Mercantile Exchange (CME). Note: Data is unofficial and contains some gaps. Data is derived public sources and from price-data.com",
-  "display_url": "http://www.ofdp.org/futures/9775",
+  "description": "Current Account Balance, %GDP - Afghanistan. Current account balance is the sum of net exports of goods, services, net income, and net current transfers. Data is presented as a share of nominal GDP.",
+  "display_url": null,
   "errors": {},
-  "frequency": "daily",
-  "from_date": "2003-12-15",
-  "id": 2309886,
-  "name": "Lean Hogs Futures, February 2005, LNG2005, CME",
+  "frequency": "annual",
+  "from_date": "2011-12-31",
+  "id": 21958104,
+  "name": "Current Account Balance, %GDP - Afghanistan",
   "premium": false,
   "private": false,
-  "source_code": "OFDP",
-  "source_name": "Open Financial Data Project",
-  "to_date": "2005-02-14",
+  "source_code": "WGEP",
+  "source_name": "World Bank GEP Economic Prospects",
+  "to_date": "2017-12-31",
   "type": null,
-  "updated_at": "2014-02-25T19:37:27.223Z",
-  "urlize_name": "Lean-Hogs-Futures-February-2005-LNG2005-CME"
+  "updated_at": "2015-03-10T14:25:06.897Z",
+  "urlize_name": "Current-Account-Balance-GDP-Afghanistan"
 }

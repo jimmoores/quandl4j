@@ -73,7 +73,7 @@ public final class RegressionTests {
   private static Logger s_logger = LoggerFactory.getLogger(RegressionTests.class);
   private static final int DAYS_PER_YEAR = 365;
   private static final int MAX_COLUMN = 5;
-  private static final int DEFAULT_NUM_REQUESTS = 200;
+  private static final int DEFAULT_NUM_REQUESTS = 100;
   private static final int MAX_PAGE = 100;
   
   private static final double WITH_COLUMN_PROBABILITY = 0.1;
@@ -125,7 +125,7 @@ public final class RegressionTests {
   /**
    * Run tests using previously collected Quandl response data and compare with previously collected results.
    */
-  @Test(groups = { "unit" })
+  @Test(groups = { "integration" })
   public void runFileBasedTests() {
     runTests(new FileRESTDataProvider(_apiKey), new ResultChecker(), RetryPolicy.createSequenceRetryPolicy(new long[] { 1, 1, 1, 1 }));
   }
@@ -154,9 +154,9 @@ public final class RegressionTests {
     QuandlSession session = QuandlSession.create(options);
     Set<String> quandlCodes = sampleSearch(session, resultProcessor);
     fuzzDataSetRequests(session, resultProcessor, quandlCodes);
-    fuzzDataSetsRequests(session, resultProcessor, quandlCodes);
+    //fuzzDataSetsRequests(session, resultProcessor, quandlCodes);
     runMetaDataRequests(session, resultProcessor, quandlCodes);
-    runMultiMetaDataRequests(session, resultProcessor, quandlCodes);
+    //runMultiMetaDataRequests(session, resultProcessor, quandlCodes);
     runMultiHeaderRequests(session, resultProcessor, quandlCodes);
     if (restDataProvider instanceof RecordingRESTDataProvider) {
       RecordingRESTDataProvider recordingRESTDataProvider = (RecordingRESTDataProvider) restDataProvider;

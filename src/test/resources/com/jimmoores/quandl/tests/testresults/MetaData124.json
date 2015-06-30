@@ -1,6 +1,32 @@
 {
-  "current_page": 18,
-  "docs": [],
-  "per_page": 20,
-  "total_count": 19602505
+  "code": "RGM2014",
+  "column_names": [
+    "Date",
+    "Open",
+    "High",
+    "Low",
+    "Settle",
+    "Change",
+    "Wave",
+    "Volume",
+    "Prev. Day Open Interest",
+    "EFP Volume",
+    "EFS Volume",
+    "Block Volume"
+  ],
+  "description": "Historical ICE futures prices: Russell 1000 Growth Index Futures, Contract Size: $100 times the Index Deliverable Good: Cash settlement to a special opening calculation of the Russell 2000 Index based on the opening prices of the component stocks on the third Friday of the contract month. Please see Exchange Rules 19.04 and 19.26 for additional information. Tick Size: .10 Index points, equal to $10.00 per contract  Pricing Unit: Index points, to two decimal places",
+  "display_url": "http://www.ofdp.org",
+  "errors": {},
+  "frequency": "daily",
+  "from_date": "2013-06-24",
+  "id": 11057064,
+  "name": "Russell 1000 Growth Index Futures, June 2014 (RGM2014)",
+  "premium": false,
+  "private": false,
+  "source_code": "ICE",
+  "source_name": "Intercontinental Exchange Futures Data",
+  "to_date": "2014-06-20",
+  "type": null,
+  "updated_at": "2014-06-21T10:03:50.214Z",
+  "urlize_name": "Russell-1000-Growth-Index-Futures-June-2014-RGM2014"
 }

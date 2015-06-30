@@ -1,37 +1,30 @@
 {
-  "current_page": 21,
-  "docs": [{
-    "code": "3600_155",
-    "column_names": [
-      "Year",
-      "Value"
-    ],
-    "description": "The GHO data repository provides access to over 50 datasets on priority health topics including mortality and burden of diseases, the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity among others. More info at: http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=86",
-    "display_url": "http://apps.who.int/ghodata/cache/global/xls/vid.3600.xls",
-    "frequency": "annual",
-    "from_date": "2009-12-31",
-    "id": 2787951,
-    "name": "Deaths due to HIV/AIDS (per 100 000 population) - Armenia",
-    "premium": false,
-    "private": false,
-    "source_code": "WHO",
-    "source_name": "World Health Organization",
-    "to_date": "2009-12-31",
-    "type": null,
-    "updated_at": "2013-06-20T19:32:02.377Z",
-    "urlize_name": "Deaths-due-to-HIV-AIDS-per-100-000-population-Armenia"
-  }],
-  "per_page": 20,
-  "sources": [{
-    "code": "WHO",
-    "concurrency": 20,
-    "datasets_count": 127471,
-    "description": "Global health-related data, covering nutrition, life expectancy, mortality, communicable diseases, immunization, reproductive health, and healthcare systems. ",
-    "host": "apps.who.int",
-    "id": 525,
-    "name": "World Health Organization",
-    "premium": false,
-    "use_proxy": false
-  }],
-  "total_count": 19602505
+  "code": "PALCAP",
+  "column_names": [
+    "Date",
+    "Africa",
+    "Asia (ex China)",
+    "North America",
+    "South America",
+    "West Europe",
+    "East & Central Europe",
+    "Oceania",
+    "GCC",
+    "Reported Total"
+  ],
+  "description": "World Aluminium capacity in Thousand Metric Tonnes.",
+  "display_url": "http://www.world-aluminium.org/media/stats/primary-aluminium-capacity.csv",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "1973-01-01",
+  "id": 2741566,
+  "name": "Primary Aluminium Capacity",
+  "premium": false,
+  "private": false,
+  "source_code": "WORLDAL",
+  "source_name": "World Aluminium",
+  "to_date": "2016-01-01",
+  "type": null,
+  "updated_at": "2014-09-25T14:46:16.902Z",
+  "urlize_name": "Primary-Aluminium-Capacity"
 }
