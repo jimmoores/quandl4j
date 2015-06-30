@@ -1,11 +1,11 @@
 Quandl4J : A Quandl library for Java
 ====================================
-
-**News: There is a new version of Quandl4J (1.1.0) that has been released into Maven central that handles the recent dropping of support for HTTP in favour of HTTPS. NOTE:NOT YET!**
+**NEWS: Version 1.1.0 has just been released to Maven central which switches
+Quandl4J to use HTTPS now that HTTP support has been deprecated.**
 
 [Quandl](http://quandl.com) is a source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
 
-Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform continuous builds.  The current status is ![Master Branch Build Status](https://travis-ci.org/jimmoores/quandl4j.svg?branch=master)
+Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform continuous builds.  The current status is [![Build Status](https://travis-ci.org/jimmoores/quandl4j.svg?branch=master)](https://travis-ci.org/jimmoores/quandl4j)
 
 # Table of Contents
  - [Quick start](#quick-start)
@@ -36,7 +36,7 @@ Three options are available:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
 </dependency>
 ```
 ### Design Principles
@@ -53,6 +53,9 @@ The core design principles are:
  - Provide comprehensive documentation and JavaDocs.
 
 ## Release Notes
+### Version 1.1.0
+ - Switch to HTTPS, regenerate test data.
+
 ### Version 1.0.0
  - Handle deprecation of all multi-request APIs.  This release emulates the old behaviour of the multiset APIs by issuing
    multiple single requests and aggregating results into the same structure as returned before.  This should allow existing 

@@ -1,6 +1,6 @@
 Release Notes
 =============
-# 1.1.1
+# 1.2.0
 Changed HTTPS URL because RESTEasy and Apache CXF can't handle redirect to https://www.quandl.com which is the address in the TLS certificate.  Disabled 
 integration test from main build because test framework misbehaving.
 
