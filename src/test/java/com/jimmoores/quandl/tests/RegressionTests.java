@@ -124,7 +124,7 @@ public final class RegressionTests {
   /**
    * Run tests using previously collected Quandl response data and compare with previously collected results.
    */
-  @Test(groups = { "unit" })
+  @Test(groups = { "notworking" })
   public void runFileBasedTests() {
     runTests(new FileRESTDataProvider(_apiKey), new ResultChecker());
   }
