@@ -37,7 +37,7 @@ public final class QuandlSession {
   private static Logger s_logger = LoggerFactory.getLogger(QuandlSession.class);
   
   private SessionOptions _sessionOptions;
-  private static final UriBuilder API_BASE_URL = UriBuilder.fromPath("http://quandl.com/api/v1");
+  private static final UriBuilder API_BASE_URL = UriBuilder.fromPath("https://www.quandl.com/api/v1");
   private static final String QUANDL_AUTH_TOKEN_PROPERTY_NAME = "quandl.auth.token";
   /**
    * the parameter name for the authorization token (aka Quandl API key).
