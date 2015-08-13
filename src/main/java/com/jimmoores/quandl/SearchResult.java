@@ -120,7 +120,8 @@ public final class SearchResult {
    * To get a pretty printed version, use getRawJSON().toString(indent)
    * @return a string representation of the meta-data laid out as a JSON message (single line).
    */
-  public String toString() {
+  @Override
+public String toString() {
     return _jsonObject.toString();
   }
   

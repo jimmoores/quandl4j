@@ -50,6 +50,7 @@ public abstract class RetryPolicy {
     private NoRetryPolicy() {
     }
     
+    @Override
     public boolean checkRetries(final int retries) {
       throw new QuandlRuntimeException("Request failed, policy is no retry.");
     }
@@ -67,6 +68,7 @@ public abstract class RetryPolicy {
       _backOffPeriod = backOffPeriod;
     }
     
+    @Override
     public boolean checkRetries(final int retries) {
       if (retries < _maxRetries && retries >= 0) {
         try {
@@ -93,6 +95,7 @@ public abstract class RetryPolicy {
       _backOffPeriods = backOffPeriods;
     }
     
+    @Override
     public boolean checkRetries(final int retries) {
       if (retries < _maxRetries && retries >= 0) {
         try {
