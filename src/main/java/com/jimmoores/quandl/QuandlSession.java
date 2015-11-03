@@ -62,7 +62,8 @@ public final class QuandlSession {
   private static Logger s_logger = LoggerFactory.getLogger(QuandlSession.class);
   
   private SessionOptions _sessionOptions;
-  private static final UriBuilder API_BASE_URL = UriBuilder.fromPath("https://www.quandl.com/api/v1");
+  private static final UriBuilder API_BASE_URL_V1 = UriBuilder.fromPath("https://www.quandl.com/api/v1");
+  private static final UriBuilder API_BASE_URL_V3 = UriBuilder.fromPath("https://www.quandl.com/api/v3");
   private static final String QUANDL_AUTH_TOKEN_PROPERTY_NAME = "quandl.auth.token";
   /**
    * the parameter name for the authorization token (aka Quandl API key).
@@ -148,7 +149,7 @@ public final class QuandlSession {
     ArgumentChecker.notNull(request, "request");
 
     Client client = getClient();
-    WebTarget target = client.target(API_BASE_URL);
+    WebTarget target = client.target(API_BASE_URL_V1);
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
     TabularResult tabularResponse = null;
@@ -178,7 +179,7 @@ public final class QuandlSession {
   public MetaDataResult getMetaData(final MetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
     Client client = ClientBuilder.newClient();
-    WebTarget target = client.target(API_BASE_URL);
+    WebTarget target = client.target(API_BASE_URL_V1);
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
     JSONObject object = null;
@@ -372,7 +373,7 @@ public final class QuandlSession {
    */
   public SearchResult search(final SearchRequest request) {
     Client client = ClientBuilder.newClient();
-    WebTarget target = client.target(API_BASE_URL);
+    WebTarget target = client.target(API_BASE_URL_V3);
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
     int retries = 0;

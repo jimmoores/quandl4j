@@ -147,21 +147,21 @@ public class URLGenerationTests {
   // test search
   @Test
   public void testSimpleSearch() {
-    QuandlSession session = getTestSession("https://www.quandl.com/api/v1/datasets.json?query=Crude+Oil");
+    QuandlSession session = getTestSession("https://www.quandl.com/api/v3/datasets.json?query=Crude+Oil");
     SearchResult result = session.search(SearchRequest.Builder.of("Crude Oil").build());
     Assert.assertEquals(result, SearchResult.of(new JSONObject()));
   }
   
   @Test
   public void testPagedSearch() {
-    QuandlSession session = getTestSession("https://www.quandl.com/api/v1/datasets.json?query=Crude+Oil&page=2");
+    QuandlSession session = getTestSession("https://www.quandl.com/api/v3/datasets.json?query=Crude+Oil&page=2");
     SearchResult result = session.search(SearchRequest.Builder.of("Crude Oil").withPageNumber(2).build());
     Assert.assertEquals(result, SearchResult.of(new JSONObject()));
   }
   
   @Test
   public void testPagedSearchMax() {
-    QuandlSession session = getTestSession("https://www.quandl.com/api/v1/datasets.json?query=Crude+Oil&page=2&per_page=100");
+    QuandlSession session = getTestSession("https://www.quandl.com/api/v3/datasets.json?query=Crude+Oil&page=2&per_page=100");
     SearchResult result = session.search(SearchRequest.Builder.of("Crude Oil").withPageNumber(2).withMaxPerPage(100).build());
     Assert.assertEquals(result, SearchResult.of(new JSONObject()));
   }
