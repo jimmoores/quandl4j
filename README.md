@@ -379,7 +379,7 @@ We can also make generalised free-text search requests to Quandl.  For this we u
 ```java
 // Example7.java
 QuandlSession session = QuandlSession.create();
-SearchResult searchResult = session.search(SearchRequest.Builder.of("Apple").withMaxPerPage(2).build());
+SearchResult searchResult = session.search(new SearchRequest.Builder().withQuery("Apple").withMaxPerPage(2).build());
 System.out.println(searchResult.toPrettyPrintedString());
 ````
 results in
@@ -458,7 +458,7 @@ More usefully though, there are variously helper methods on SearchResult to allo
 ```java
 // Example8.java
 QuandlSession session = QuandlSession.create();
-SearchResult searchResult = session.search(SearchRequest.Builder.of("Apple").withMaxPerPage(2).build());
+SearchResult searchResult = session.search(new SearchRequest.Builder().withQuery("Apple").withMaxPerPage(2).build());
 System.out.println("Current page:" + searchResult.getCurrentPage());
 System.out.println("Documents per page:" + searchResult.getDocumentsPerPage());
 System.out.println("Total matching documents:" + searchResult.getTotalDocuments());
