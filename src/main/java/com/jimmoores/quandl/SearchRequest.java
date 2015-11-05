@@ -15,15 +15,18 @@ import com.jimmoores.quandl.util.ArgumentChecker;
 public final class SearchRequest {
   private static final String EXTENSION = ".json";
   private static final String DATASETS_RELATIVE_URL = "datasets";
+  private static final String DATABASE_CODE_PARAM = "database_code";
   private static final String QUERY_PARAM = "query";
   private static final String PAGE_PARAM = "page";
   private static final String PER_PAGE_PARAM = "per_page";
-  
+
+  private final String _databaseCode;
   private final String _query;
   private Integer _pageNumber;
   private Integer _maxDocsPerPage;
   
   private SearchRequest(final Builder builder) {
+    _databaseCode = builder._databaseCode;
     _query = builder._query;
     _pageNumber = builder._pageNumber;
     _maxDocsPerPage = builder._maxDocsPerPage;
@@ -38,9 +41,15 @@ public final class SearchRequest {
    * </pre>
    */
   public static final class Builder {
-    private final String _query;
+    private String _databaseCode;
+    private String _query;
     private Integer _pageNumber;
     private Integer _maxDocsPerPage;
+
+    public Builder() {
+    }
+
+    @Deprecated
     private Builder(final String query) {
       _query = query;
     }
@@ -51,9 +60,30 @@ public final class SearchRequest {
      * @param query an arbitrary query string, not null (note: can be empty string to get all documents)
      * @return an instance of this Builder for the given query string.
      */
+    @Deprecated
     public static Builder of(final String query) {
       ArgumentChecker.notNull(query, "query");
       return new Builder(query);
+    }
+
+    /**
+     * Specify the database to search within. For example WIKI
+     * @param databaseCode the database code to search within.
+     * @return this Builder, with this database code specified
+     */
+    public Builder withDatabaseCode(final String databaseCode) {
+      _databaseCode = databaseCode;
+      return this;
+    }
+
+    /**
+     * Specify the search term to use for your query. Multiple search terms can be separated by the + character.
+     * @param query the query string to use
+     * @return this Builder, with this query added
+     */
+    public Builder withQuery(final String query) {
+      _query = query;
+      return this;
     }
     
     /**
@@ -84,9 +114,16 @@ public final class SearchRequest {
       return new SearchRequest(this);
     }
   };
-  
+
   /**
-   * @return the query string, not null
+   * @return the database code, or null if not set
+   */
+  public String getDatabaseCode() {
+    return _databaseCode;
+  }
+
+  /**
+   * @return the query string, or null if not set
    */
   public String getQuery() {
     return _query;
@@ -115,7 +152,12 @@ public final class SearchRequest {
     ArgumentChecker.notNull(webTarget, "webTarget");
     WebTarget resultTarget = webTarget;
     resultTarget = resultTarget.path(DATASETS_RELATIVE_URL + EXTENSION);
-    resultTarget = resultTarget.queryParam(QUERY_PARAM, _query);
+    if (_databaseCode != null) {
+      resultTarget = resultTarget.queryParam(DATABASE_CODE_PARAM, _databaseCode);
+    }
+    if (_query != null) {
+      resultTarget = resultTarget.queryParam(QUERY_PARAM, _query);
+    }
     if (_pageNumber != null) {
       resultTarget = resultTarget.queryParam(PAGE_PARAM, _pageNumber);
     }
@@ -138,6 +180,9 @@ public final class SearchRequest {
     if (_query != null) {
       result = prime * result + _query.hashCode();
     }
+    if (_databaseCode != null) {
+      result = prime * result + _databaseCode.hashCode();
+    }
     return result;
   }
 
@@ -153,6 +198,9 @@ public final class SearchRequest {
       return false;
     }
     SearchRequest other = (SearchRequest) obj;
+    if (!_databaseCode.equals(other._databaseCode)) {
+      return false;
+    }
     if (!_query.equals(other._query)) {
       return false;
     }
@@ -168,14 +216,30 @@ public final class SearchRequest {
   @Override
   public String toString() {
     StringBuilder builder = new StringBuilder();
-    builder.append("SearchRequest[query=");
-    builder.append(_query);
+    builder.append("SearchRequest[");
+    if (_databaseCode != null) {
+      builder.append("databaseCode=");
+      builder.append(_databaseCode);
+    }
+    if (_query != null) {
+      if (builder.charAt(builder.length() - 1) != '[') {
+        builder.append(", ");
+      }
+      builder.append("query=");
+      builder.append(_query);
+    }
     if (_pageNumber != null) {
-      builder.append(", pageNumber=");
+      if (builder.charAt(builder.length() - 1) != '[') {
+        builder.append(", ");
+      }
+      builder.append("pageNumber=");
       builder.append(_pageNumber);
     }
     if (_maxDocsPerPage != null) {
-      builder.append(", maxDocsPerPage=");
+      if (builder.charAt(builder.length() - 1) != '[') {
+        builder.append(", ");
+      }
+      builder.append("maxDocsPerPage=");
       builder.append(_maxDocsPerPage);
     }
     builder.append("]");

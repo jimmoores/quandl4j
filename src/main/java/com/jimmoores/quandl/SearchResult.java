@@ -19,7 +19,8 @@ import com.jimmoores.quandl.util.QuandlRuntimeException;
  */
 public final class SearchResult {
   private static Logger s_logger = LoggerFactory.getLogger(SearchResult.class);
-  private static final String DOCUMENTS_ARRAY_FIELD = "docs";
+  private static final String META_OBJECT_FIELD = "meta";
+  private static final String DATASETS_ARRAY_FIELD = "datasets";
   private JSONObject _jsonObject;
 
   private SearchResult(final JSONObject jsonObject) {
@@ -43,7 +44,7 @@ public final class SearchResult {
    */
   public int getTotalDocuments() {
     try {
-      final int totalDocs = _jsonObject.getInt("total_count");
+      final int totalDocs = _jsonObject.getJSONObject(META_OBJECT_FIELD).getInt("total_count");
       return totalDocs;
     } catch (JSONException ex) {
       throw new QuandlRuntimeException("Could not find total_count field in results from Quandl", ex);
@@ -57,7 +58,7 @@ public final class SearchResult {
    */
   public int getDocumentsPerPage() {
     try {
-      final int perPage = _jsonObject.getInt("per_page");
+      final int perPage = _jsonObject.getJSONObject(META_OBJECT_FIELD).getInt("per_page");
       return perPage;
     } catch (JSONException ex) {
       throw new QuandlRuntimeException("Could not find total_count field in results from Quandl", ex);
@@ -71,7 +72,7 @@ public final class SearchResult {
    */
   public int getCurrentPage() {
     try {
-      final int currentPage = _jsonObject.getInt("current_page");
+      final int currentPage = _jsonObject.getJSONObject(META_OBJECT_FIELD).getInt("current_page");
       return currentPage;
     } catch (JSONException ex) {
       throw new QuandlRuntimeException("Could not find total_count field in results from Quandl", ex);
@@ -86,14 +87,14 @@ public final class SearchResult {
   public List<MetaDataResult> getMetaDataResultList() {
     JSONArray jsonArray = null;
     try {
-      jsonArray = _jsonObject.getJSONArray(DOCUMENTS_ARRAY_FIELD);
+      jsonArray = _jsonObject.getJSONArray(DATASETS_ARRAY_FIELD);
       List<MetaDataResult> metaDataResults = new ArrayList<MetaDataResult>(jsonArray.length()); 
       for (int i = 0; i < jsonArray.length(); i++) {
         metaDataResults.add(MetaDataResult.of(jsonArray.getJSONObject(i)));
       }
       return metaDataResults;
     } catch (JSONException ex) {
-      s_logger.error("Metadata had unexpected structure - could not extract docs field, was:\n{}", _jsonObject.toString());
+      s_logger.error("Metadata had unexpected structure - could not extract datasets field, was:\n{}", _jsonObject.toString());
       throw new QuandlRuntimeException("Metadata had unexpected structure", ex);
     }
   }

@@ -306,7 +306,7 @@ public final class RegressionTests {
    * @return a randmly sampled set of quandl codes.
    */
   private Set<String> sampleSearch(final QuandlSession session, final ResultProcessor resultProcessor) {
-    SearchResult result = session.search(SearchRequest.Builder.of("").build()); // return all available data sets.
+    SearchResult result = session.search(new SearchRequest.Builder().build()); // return all available data sets.
     final int totalDocs = result.getTotalDocuments();
     final int docsPerPage = result.getDocumentsPerPage();
     final int totalPages = totalDocs / docsPerPage;
