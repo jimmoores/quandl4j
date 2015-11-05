@@ -20,7 +20,7 @@ public final class Example7 {
    */
   private void run() {
     QuandlSession session = QuandlSession.create();
-    SearchResult searchResult = session.search(SearchRequest.Builder.of("Apple").withMaxPerPage(2).build());
+    SearchResult searchResult = session.search(new SearchRequest.Builder().withQuery("Apple").withMaxPerPage(2).build());
     System.out.println(searchResult.toPrettyPrintedString());
   }
 
