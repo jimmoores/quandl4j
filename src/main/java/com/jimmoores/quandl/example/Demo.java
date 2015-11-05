@@ -34,7 +34,7 @@ public final class Demo {
    */
   private void run() {
     QuandlSession quandl = QuandlSession.create();
-    SearchResult searchResult = quandl.search(SearchRequest.Builder.of("Apple").withMaxPerPage(2).build());
+    SearchResult searchResult = quandl.search(new SearchRequest.Builder().withQuery("Apple").withMaxPerPage(2).build());
     System.out.println(searchResult.toPrettyPrintedString());
     for (MetaDataResult metaData : searchResult.getMetaDataResultList()) {
       System.out.println(PrettyPrinter.toPrettyPrintedString(metaData.getRawJSON()));
