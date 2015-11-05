@@ -8,8 +8,9 @@ import com.jimmoores.quandl.util.ArgumentChecker;
  * A class that packages the request for search query from Quandl.
  * Examples:
  * <pre>
- *   SearchRequest.Builder.of("query").withPageNumber(5).withMaxPerPage(100).build();
- *   SearchRequest.Builder.of("query").build();
+ *   new SearchRequest.Builder().withQuery("query").withPageNumber(5).withMaxPerPage(100).build();
+ *   new SearchRequest.Builder().withQuery("query").build();
+ *   new SearchRequest.Builder().withDatabaseCode("databasecode").build();
  * </pre>
  */
 public final class SearchRequest {
@@ -36,8 +37,9 @@ public final class SearchRequest {
    * Builder for this class.
    * Examples:
    * <pre>
-   *   SearchRequest.Builder.of("query").withPageNumber(5).withMaxPerPage(100).build();
-   *   SearchRequest.Builder.of("query").build();
+   *   new SearchRequest.Builder().withQuery("query").withPageNumber(5).withMaxPerPage(100).build();
+   *   new SearchRequest.Builder().withQuery("query").build();
+   *   new SearchRequest.Builder().withDatabaseCode("databasecode").build();
    * </pre>
    */
   public static final class Builder {
@@ -59,6 +61,7 @@ public final class SearchRequest {
      * Use empty string to get all documents.
      * @param query an arbitrary query string, not null (note: can be empty string to get all documents)
      * @return an instance of this Builder for the given query string.
+     * @deprecated use Builder().withQuery(query) instead
      */
     @Deprecated
     public static Builder of(final String query) {
