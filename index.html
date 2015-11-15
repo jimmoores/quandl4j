@@ -5,7 +5,7 @@
     <title>Quandl4j by jimmoores</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
@@ -22,8 +22,11 @@
       <h1>
 <a id="quandl4j--a-quandl-library-for-java" class="anchor" href="#quandl4j--a-quandl-library-for-java" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quandl4J : A Quandl library for Java</h1>
 
-<p><strong>NEWS: Version 1.1.0 has just been released to Maven central which switches
-Quandl4J to use HTTPS now that HTTP support has been deprecated.</strong></p>
+<p>**NEWS: 1.3.0 released
+SearchRequest now supports the v3 API databasecode argument and makes the query
+parameter (previous of()) optional.  Docs and examples have been updated to 
+reflect this contribution from Hamel Ajay Kothari (hkothari).<br>
+Many thanks for that! More details can be found in the <a href="https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md">release notes</a>.</p>
 
 <p><a href="http://quandl.com">Quandl</a> is a source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  <strong>Quandl4j</strong> is a Java 7+ client-side wrapper for this API provided under the commercially friendly <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache V2 license</a>.  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.</p>
 
@@ -60,7 +63,7 @@ Quandl4J to use HTTPS now that HTTP support has been deprecated.</strong></p>
 <p>Three options are available:</p>
 
 <ul>
-<li><a href="https://github.com/jimmoores/quandl4j/archive/rel/v1.0.0.zip">Download the latest release</a></li>
+<li><a href="https://github.com/jimmoores/quandl4j/archive/rel/v1.3.0.zip">Download the latest release</a></li>
 <li>Clone the repository: <code>git clone https://github.com/jimmoores/quandl4j.git</code>
 
 <ul>
@@ -71,10 +74,10 @@ Quandl4J to use HTTPS now that HTTP support has been deprecated.</strong></p>
 <li>Add the following fragment to your Maven POM file</li>
 </ul>
 
-<div class="highlight highlight-xml"><pre>&lt;<span class="pl-ent">dependency</span>&gt;
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">dependency</span>&gt;
   &lt;<span class="pl-ent">groupId</span>&gt;com.jimmoores&lt;/<span class="pl-ent">groupId</span>&gt;
   &lt;<span class="pl-ent">artifactId</span>&gt;quandl&lt;/<span class="pl-ent">artifactId</span>&gt;
-  &lt;<span class="pl-ent">version</span>&gt;1.1.0&lt;/<span class="pl-ent">version</span>&gt;
+  &lt;<span class="pl-ent">version</span>&gt;1.3.0&lt;/<span class="pl-ent">version</span>&gt;
 &lt;/<span class="pl-ent">dependency</span>&gt;</pre></div>
 
 <h3>
@@ -97,6 +100,28 @@ be reused by user applications without hitting the Quandl backend.</li>
 
 <h2>
 <a id="release-notes" class="anchor" href="#release-notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Release Notes</h2>
+
+<h3>
+<a id="version-130" class="anchor" href="#version-130" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 1.3.0</h3>
+
+<ul>
+<li>SearchRequest now supports the v3 API databasecode argument and makes the query
+parameter (previous <code>of()</code>) optional.  This means the <code>of()</code> static factory method
+is now deprecated in favor of a no-arg constructor.</li>
+</ul>
+
+<div class="highlight highlight-source-java"><pre><span class="pl-smi">SearchRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span><span class="pl-k">.</span>of(<span class="pl-k">&lt;</span>query<span class="pl-k">&gt;</span>)<span class="pl-k">.</span>build();</pre></div>
+
+<p>becomes</p>
+
+<div class="highlight highlight-source-java"><pre><span class="pl-k">new</span> <span class="pl-smi">SearchRequest</span>.<span class="pl-smi">Builder</span>()<span class="pl-k">.</span>withQuery(<span class="pl-k">&lt;</span>query<span class="pl-k">&gt;</span>)<span class="pl-k">.</span>build();</pre></div>
+
+<h3>
+<a id="version-120" class="anchor" href="#version-120" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 1.2.0</h3>
+
+<ul>
+<li>Changed HTTPS URL because RESTEasy and Apache CXF can't handle redirect to <a href="https://www.quandl.com">https://www.quandl.com</a> which is the address in the TLS certificate. Disabled integration test from main build because test framework misbehaving.</li>
+</ul>
 
 <h3>
 <a id="version-110" class="anchor" href="#version-110" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version 1.1.0</h3>
@@ -164,7 +189,7 @@ curated for Maven Central.</li>
 
 <p>The following gets the complete data history (with Date, Open, High, Low, Volume, Ex-Dividend, Split Ratio, And Adjusted Open, High, Low Close and Volume columns) of AAPL (Apple Inc).  The symbol <code>WIKI/AAPL</code> is what is known as the <strong>Quandl code</strong> and is made up of a data source (in this case <code>WIKI</code>) and a data source specific code (in this case the exchange code for Apple Inc, which is <code>AAPL</code>).</p>
 
-<div class="highlight highlight-java"><pre><span class="pl-c">// Example1.java</span>
+<div class="highlight highlight-source-java"><pre><span class="pl-c">// Example1.java</span>
 <span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
 <span class="pl-smi">TabularResult</span> tabularResult <span class="pl-k">=</span> session<span class="pl-k">.</span>getDataSet(
   <span class="pl-smi">DataSetRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span><span class="pl-k">.</span>of(<span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>)<span class="pl-k">.</span>build());
@@ -193,7 +218,7 @@ curated for Maven Central.</li>
 <p>It's also possible to specify many refining options on your query.  In this next example we
 request AAPL again, but this time sampled Quarterly, returning only the close column (CLOSE_COLUMN here is actually the integer constant 4), and performing a normalization pre-process step on the server side before returning the results.</p>
 
-<div class="highlight highlight-java"><pre><span class="pl-c">// Example2.java</span>
+<div class="highlight highlight-source-java"><pre><span class="pl-c">// Example2.java</span>
 <span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
 <span class="pl-smi">TabularResult</span> tabularResult <span class="pl-k">=</span> session<span class="pl-k">.</span>getDataSet(
   <span class="pl-smi">DataSetRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span>
@@ -231,7 +256,7 @@ request AAPL again, but this time sampled Quarterly, returning only the close co
 
 <p>To retrieve data for multiple codes, we need a different request structure.  In particular we need to say which Quandl codes we want data retrieved for, but also which columns are required for each.  This is done using the <code>QuandlCodeRequest</code>, which has two factory methods: <code>singleColumn(String quandlCode, int columnIndex)</code> and <code>allColumns(String quandlCode)</code>.  It's worth noting we're allowed to use the normal form of Quandl codes here, in the REST API, the forward slash gets replaced with a full-stop/period in this context:</p>
 
-<div class="highlight highlight-java"><pre><span class="pl-c">// Example3.java</span>
+<div class="highlight highlight-source-java"><pre><span class="pl-c">// Example3.java</span>
 <span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
 <span class="pl-smi">TabularResult</span> tabularResultMulti <span class="pl-k">=</span> session<span class="pl-k">.</span>getDataSets(
     <span class="pl-smi">MultiDataSetRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span>
@@ -277,7 +302,7 @@ request AAPL again, but this time sampled Quarterly, returning only the close co
 
 <p>The type <code>TabularResult</code> is made up of a <code>HeaderDefinition</code>, which is essentially a list of column names (plus the facility to map from name to column index), plus a list of <code>Row</code> objects, each of which is linked to their common <code>HeaderDefinition</code>.  This allows individual <code>Row</code> objects to address their data using the column name rather than just the index as is the underlying API.  <code>Row</code> also contains methods to parse and cast data into various types (String, LocalDate, Double).  Here is an example</p>
 
-<div class="highlight highlight-java"><pre><span class="pl-c">// Example3a.java</span>
+<div class="highlight highlight-source-java"><pre><span class="pl-c">// Example3a.java</span>
 <span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
 <span class="pl-smi">TabularResult</span> tabularResultMulti <span class="pl-k">=</span> session<span class="pl-k">.</span>getDataSets(
     <span class="pl-smi">MultiDataSetRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span>
@@ -331,7 +356,7 @@ System.out.println(metaData.toPrettyPrintedString());
 
 <p>which prints out the raw JSON of the underlying message</p>
 
-<div class="highlight highlight-json"><pre>{
+<div class="highlight highlight-source-json"><pre>{
   <span class="pl-s"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>AAPL<span class="pl-pds">"</span></span>,
   <span class="pl-s"><span class="pl-pds">"</span>column_names<span class="pl-pds">"</span></span>: [
     <span class="pl-s"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>,
@@ -371,14 +396,14 @@ System.out.println(metaData.toPrettyPrintedString());
 
 <p>This uses an undocumented feature of Quandl, which allows you to make requests for JSON to the multisets endpoint.  To this we add the parameter to limit the start date to a date far in the future.  This means we only get the meta-data.  It's limited to only providing enough data to determine the available columns, but that's quite useful in itself.  There are two calls that can process this <code>MultiMetaDataRequest</code>.  The first is an overloaded version of <code>getMetaData</code>.  Again, it's worth noting we're allowed to use the normal form of Quandl codes here: in the REST API, the forward slash gets replaced with a full-stop/period in this context.</p>
 
-<div class="highlight highlight-java"><pre><span class="pl-c">// Example5.java</span>
+<div class="highlight highlight-source-java"><pre><span class="pl-c">// Example5.java</span>
 <span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
 <span class="pl-smi">MetaDataResult</span> metaData <span class="pl-k">=</span> session<span class="pl-k">.</span>getMetaData(<span class="pl-smi">MultiMetaDataRequest</span><span class="pl-k">.</span>of(<span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>DOE/RWTC<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT<span class="pl-pds">"</span></span>));
 <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(metaData<span class="pl-k">.</span>toPrettyPrintedString());</pre></div>
 
 <p>which returns a large JSON document wrapped in a normal MetaDataResult object.</p>
 
-<div class="highlight highlight-json"><pre>{
+<div class="highlight highlight-source-json"><pre>{
   <span class="pl-s"><span class="pl-pds">"</span>column_names<span class="pl-pds">"</span></span>: [
     <span class="pl-s"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>,
     <span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL - Open<span class="pl-pds">"</span></span>,
@@ -444,7 +469,7 @@ System.out.println(metaData.toPrettyPrintedString());
 
 <p>A more generally useful method though, is to use the <code>getMultipleHeaderDefinition()</code> method</p>
 
-<div class="highlight highlight-java"><pre><span class="pl-c">// Example6.java</span>
+<div class="highlight highlight-source-java"><pre><span class="pl-c">// Example6.java</span>
 <span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
 <span class="pl-k">Map&lt;<span class="pl-smi">String</span>, <span class="pl-smi">HeaderDefinition</span>&gt;</span> headers <span class="pl-k">=</span> session<span class="pl-k">.</span>getMultipleHeaderDefinition(<span class="pl-smi">MultiMetaDataRequest</span><span class="pl-k">.</span>of(<span class="pl-s"><span class="pl-pds">"</span>WIKI/AAPL<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>DOE/RWTC<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>WIKI/MSFT<span class="pl-pds">"</span></span>));
 <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-smi">PrettyPrinter</span><span class="pl-k">.</span>toPrettyPrintedString(headers));</pre></div>
@@ -461,14 +486,14 @@ WIKI/MSFT =&gt; Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, 
 
 <p>We can also make generalised free-text search requests to Quandl.  For this we use the <code>search(SearchRequest)</code> method.  This allows us to specify the maximum number of results per page, and also the page we want.  Note that queries with high page numbers are slow, presumably due to the server-side database having to project the entire result set of several million documents just to get the single page you want.  Try not to add to server load by making these requests excessively.</p>
 
-<div class="highlight highlight-java"><pre><span class="pl-c">// Example7.java</span>
+<div class="highlight highlight-source-java"><pre><span class="pl-c">// Example7.java</span>
 <span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
-<span class="pl-smi">SearchResult</span> searchResult <span class="pl-k">=</span> session<span class="pl-k">.</span>search(<span class="pl-smi">SearchRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span><span class="pl-k">.</span>of(<span class="pl-s"><span class="pl-pds">"</span>Apple<span class="pl-pds">"</span></span>)<span class="pl-k">.</span>withMaxPerPage(<span class="pl-c1">2</span>)<span class="pl-k">.</span>build());
+<span class="pl-smi">SearchResult</span> searchResult <span class="pl-k">=</span> session<span class="pl-k">.</span>search(<span class="pl-k">new</span> <span class="pl-smi">SearchRequest</span>.<span class="pl-smi">Builder</span>()<span class="pl-k">.</span>withQuery(<span class="pl-s"><span class="pl-pds">"</span>Apple<span class="pl-pds">"</span></span>)<span class="pl-k">.</span>withMaxPerPage(<span class="pl-c1">2</span>)<span class="pl-k">.</span>build());
 <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(searchResult<span class="pl-k">.</span>toPrettyPrintedString());</pre></div>
 
 <p>results in</p>
 
-<div class="highlight highlight-json"><pre>{
+<div class="highlight highlight-source-json"><pre>{
   <span class="pl-s"><span class="pl-pds">"</span>current_page<span class="pl-pds">"</span></span>: <span class="pl-c1">1</span>,
   <span class="pl-s"><span class="pl-pds">"</span>docs<span class="pl-pds">"</span></span>: [
     {
@@ -540,9 +565,9 @@ WIKI/MSFT =&gt; Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, 
 
 <p>More usefully though, there are variously helper methods on SearchResult to allow you to get the document count, number of documents per page and to extract the individual matches as separate MetaDataResult objects.  For example</p>
 
-<div class="highlight highlight-java"><pre><span class="pl-c">// Example8.java</span>
+<div class="highlight highlight-source-java"><pre><span class="pl-c">// Example8.java</span>
 <span class="pl-smi">QuandlSession</span> session <span class="pl-k">=</span> <span class="pl-smi">QuandlSession</span><span class="pl-k">.</span>create();
-<span class="pl-smi">SearchResult</span> searchResult <span class="pl-k">=</span> session<span class="pl-k">.</span>search(<span class="pl-smi">SearchRequest</span><span class="pl-k">.</span><span class="pl-smi">Builder</span><span class="pl-k">.</span>of(<span class="pl-s"><span class="pl-pds">"</span>Apple<span class="pl-pds">"</span></span>)<span class="pl-k">.</span>withMaxPerPage(<span class="pl-c1">2</span>)<span class="pl-k">.</span>build());
+<span class="pl-smi">SearchResult</span> searchResult <span class="pl-k">=</span> session<span class="pl-k">.</span>search(<span class="pl-k">new</span> <span class="pl-smi">SearchRequest</span>.<span class="pl-smi">Builder</span>()<span class="pl-k">.</span>withQuery(<span class="pl-s"><span class="pl-pds">"</span>Apple<span class="pl-pds">"</span></span>)<span class="pl-k">.</span>withMaxPerPage(<span class="pl-c1">2</span>)<span class="pl-k">.</span>build());
 <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">"</span>Current page:<span class="pl-pds">"</span></span> <span class="pl-k">+</span> searchResult<span class="pl-k">.</span>getCurrentPage());
 <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">"</span>Documents per page:<span class="pl-pds">"</span></span> <span class="pl-k">+</span> searchResult<span class="pl-k">.</span>getDocumentsPerPage());
 <span class="pl-smi">System</span><span class="pl-k">.</span>out<span class="pl-k">.</span>println(<span class="pl-s"><span class="pl-pds">"</span>Total matching documents:<span class="pl-pds">"</span></span> <span class="pl-k">+</span> searchResult<span class="pl-k">.</span>getTotalDocuments());
@@ -668,4 +693,3 @@ performing a metadata request prior to a data request.</li>
 
   </body>
 </html>
-
