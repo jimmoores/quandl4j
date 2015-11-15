@@ -1,8 +1,10 @@
 Quandl4J : A Quandl library for Java
 ====================================
-**NEWS: Version 1.2.0 has just been released to Maven central which fixes an issue with the TLS certificate for HTTPS
-where Quandl4J uses quandl.com as it's base URL and the certificate is for www.quandl.com.  This only showed up with
-Apache CXF and RESTEasy and not Jersey.  Thanks to [capalbc](https://github.com/capalbc) for tracking down the source of the problem and [spawzing](https://github.com/spawzing) for indentifying the same issue on RESTEasy**.
+**NEWS: 1.3.0 released
+SearchRequest now supports the v3 API databasecode argument and makes the query
+parameter (previous of()) optional.  Docs and examples have been updated to 
+reflect this contribution from Hamel Ajay Kothari (hkothari).  
+Many thanks for that! More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
 
 [Quandl](http://quandl.com) is a source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
 
@@ -28,7 +30,7 @@ The minimum pre-requisites are:
  - Maven 3.
 
 Three options are available:
- - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v1.2.0.zip)
+ - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v1.3.0.zip)
  - Clone the repository: `git clone https://github.com/jimmoores/quandl4j.git`
    - Run `mvn install` to build the libray, test, javadoc and source jars and install to your local Maven repository.
    - Run `mvn javadoc:javadoc` to build the documentation.
@@ -37,7 +39,7 @@ Three options are available:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl</artifactId>
-  <version>1.2.0</version>
+  <version>1.3.0</version>
 </dependency>
 ```
 ### Design Principles
@@ -54,6 +56,18 @@ The core design principles are:
  - Provide comprehensive documentation and JavaDocs.
 
 ## Release Notes
+### Version 1.3.0
+ - SearchRequest now supports the v3 API databasecode argument and makes the query
+parameter (previous `of()`) optional.  This means the `of()` static factory method
+is now deprecated in favor of a no-arg constructor.
+``` java
+SearchRequest.Builder.of(<query>).build();
+```
+becomes
+``` java
+new SearchRequest.Builder().withQuery(<query>).build();
+```
+
 ### Version 1.2.0
  - Changed HTTPS URL because RESTEasy and Apache CXF can't handle redirect to https://www.quandl.com which is the address in the TLS certificate. Disabled integration test from main build because test framework misbehaving.
 
