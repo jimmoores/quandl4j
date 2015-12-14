@@ -10,3 +10,4 @@ List of Contributors
 | Brian Risk         | brianrisk   | HTTPS migration     |
 | Vincent Kraeutler  | vincentk    | Code and POM clean-up |
 | Hamel Ajay Kothari | hkothari    | SearchRequest modified to support V3 API, esp. withDatabaseCode() |
+| Josef Strobel      |             | Suggested docs for Scala/SBT users |
