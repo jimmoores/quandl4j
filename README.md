@@ -42,6 +42,11 @@ Three options are available:
   <version>1.3.0</version>
 </dependency>
 ```
+
+Note to Scala/SBT users: the POM references one artifact which isn't in maven central.  I'm intending to remove it 
+eventually but for now you'll need to add `maven.opengamma.com` as a resolver - see the respositories section in the
+POM.
+
 ### Design Principles
 The core design principles are:
  - Allow full access to the functionality of the underlying API.
