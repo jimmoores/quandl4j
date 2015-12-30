@@ -17,10 +17,9 @@ Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform co
  - [Tutorial](#tutorial)
  - [Documentation](#documentation)
  - [Roadmap](#roadmap)
- - [Contributing](#contributing)
+ - [Contributions](#contributions)
  - [Community](#community)
  - [Versioning](#versioning)
- - [Bugs and feature requests](#bugs-and-feature-requests)
  - [Creator](#creator)
  - [Copyright and license](#copyright-and-license)
 
@@ -231,9 +230,7 @@ TabularResult tabularResultMulti = session.getDataSets(
       .withFrequency(Frequency.MONTHLY)
       .build());
 System.out.println("Header definition: " + tabularResultMulti.getHeaderDefinition());
-Iterator<Row> iter = tabularResultMulti.iterator();
-while (iter.hasNext()) {
-  Row row = iter.next();
+for (final Row row : tabularResultMulti) {
   LocalDate date = row.getLocalDate("Date");
   Double value = row.getDouble("DOE/RWTC - Value");
   System.out.println("Value on date " + date + " was " + value);
@@ -524,7 +521,7 @@ Some future plans for incorporation include:
  - Ability to specify column names in requests that will use cached metadata where possible or fall back to 
    performing a metadata request prior to a data request.
 
-### Contrubutions
+### Contributions
 Contributions are welcome!  Please read through the [contributing guidelines](http://github.com/jimmoores/quandl4j/blob/master/CONTRIBUTING.md).  This gives guidelines on opening issues, coding standards and testing requirements.
 
 ### Community
