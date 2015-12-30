@@ -10,7 +10,9 @@ import com.jimmoores.quandl.util.PrettyPrinter;
 /**
  * Represents a result in tabular form.
  */
-public final class TabularResult {
+public final class TabularResult
+implements Iterable<Row> 
+{
   /** definition of each column. */
   private HeaderDefinition _headerDefinition;
   /** list of rows. */
