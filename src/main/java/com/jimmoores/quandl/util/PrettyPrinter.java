@@ -106,9 +106,9 @@ public final class PrettyPrinter {
     separator(sb, maxWidths);
     header(sb, maxWidths, result.getHeaderDefinition());
     separator(sb, maxWidths);
-    Iterator<Row> iter = result.iterator();
-    while (iter.hasNext()) {
-      row(sb, maxWidths, iter.next());
+    for (final Row row : result)
+    {
+      row(sb, maxWidths, row);
     }
     separator(sb, maxWidths);
     return sb.toString();
