@@ -69,7 +69,7 @@ public final class DefaultRESTDataProvider implements RESTDataProvider {
     String value = response.getHeaderString(field);
     if (value != null) {
       try {
-        return Long.parseLong(value);
+        return Long.valueOf(value);
       } catch (NumberFormatException nfe) {
       }
     }
