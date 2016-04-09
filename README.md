@@ -22,6 +22,7 @@ Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform co
  - [Versioning](#versioning)
  - [Creator](#creator)
  - [Copyright and license](#copyright-and-license)
+ - [Gradle](#gradle)
 
 ### Quick Start
 The minimum pre-requisites are:
@@ -45,6 +46,8 @@ Three options are available:
 Note to Scala/SBT users: the POM references one artifact which isn't in maven central.  I'm intending to remove it 
 eventually but for now you'll need to add `maven.opengamma.com` as a resolver - see the respositories section in the
 POM.
+
+Gradle users should see the [notes on Gradle use](#gradle) helpfully provided by Martin Andersson.
 
 ### Design Principles
 The core design principles are:
@@ -544,5 +547,38 @@ Releases will be numbered with the format `<major>.<minor>.<patch-level>`.  When
 ### Copyright and license
 
 Code and documentation Copyright (C) 2014 Jim Moores.  Code and documentation released under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
- 
+
+### Gradle
+Because Quandl4J uses an artifact not in Maven central you'll need some extra information:
+```
+repositories {
+    maven {
+        // Quandl4j has a dependency not in Maven: 'com.opengamma.external.json:json:1.0.0.v20101106'
+        // Source of this URL: https://github.com/jimmoores/quandl4j/blob/master/pom.xml
+        url "http://maven.opengamma.com/nexus/content/groups/public"
+    }
+}
+```
+
+For completeness, here's all the magic text we need in our `build.gradle` file:
+
+```
+repositories {
+   // Or use mavenCentral(). I prefer new and cool shit + HTTPS, hence jcenter():
+    jcenter()
+}
+
+repositories {
+    maven {
+        // Quandl4j has a dependency not in Maven: 'com.opengamma.external.json:json:1.0.0.v20101106'
+        // Source of this URL: https://github.com/jimmoores/quandl4j/blob/master/pom.xml
+        url "http://maven.opengamma.com/nexus/content/groups/public"
+    }
+}
+
+dependencies {
+    compile 'com.jimmoores:quandl:1.3.0'
+}
+```
+Thanks to Martin Andersson for this contribution.
 
