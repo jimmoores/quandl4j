@@ -11,4 +11,4 @@ List of Contributors
 | Vincent Kraeutler  | vincentk              | Code and POM clean-up, Iterable TabularResult |
 | Hamel Ajay Kothari | hkothari              | SearchRequest modified to support V3 API, esp. withDatabaseCode() |
 | Josef Strobel      |                       | Suggested docs for Scala/SBT users |
-| Martin Andersson   | MartinanderssonDotcom | Code refactoring/improvements |
+| Martin Andersson   | MartinanderssonDotcom | Code refactoring/improvements, Gradle instructions |
