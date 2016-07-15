@@ -129,6 +129,19 @@ public final class Row {
   public int size() {
     return _values.length;
   }
+  
+  /**
+   * Create row with new header.
+   */
+  public Row withPaddedHeader(final HeaderDefinition headerDefinition) {
+    if (_headerDefinition != headerDefinition) {
+      String[] values = new String[headerDefinition.size()];
+      System.arraycopy(_values, 0, values, 0, _values.length);
+      return Row.of(headerDefinition, values);
+    } else {
+      return this;
+    }
+  }
 
   @Override
   public int hashCode() {
