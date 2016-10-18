@@ -1,5 +1,14 @@
 Release Notes
 =============
+# 1.4.0
+POM references to external OpenGamma Maven repository have been removed and the JSON library referred to has been switched for
+Jackson using the json.org datatype module.  This should require no code changes in users outside of perhaps a POM change if you've
+referred to the OpenGamma POM in your POM.  This change was made because I receive regular reports that the OG repo is down and it
+additionally has caused issues for SBT and Gradle users.  Now all dependencies come from Maven Central.  The issue was forced due to
+information from George Hawkins (george-hawkins-aa) and a suggestion that the project switch to Jackson.  The intention is now that 
+2.0 will move away from the json.org object model to the Jackson tree model, although the intention is to maintain a compatability API
+in parallel so users don't need to change existing code.
+
 # 1.3.0
 SearchRequest now supports the v3 API databasecode argument and makes the query
 parameter (previous `of()`) optional.  This means the `of()` static factory 
