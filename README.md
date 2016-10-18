@@ -1,10 +1,15 @@
 Quandl4J : A Quandl library for Java
 ====================================
-**NEWS: 1.3.0 released
-SearchRequest now supports the v3 API databasecode argument and makes the query
-parameter (previous of()) optional.  Docs and examples have been updated to 
-reflect this contribution from Hamel Ajay Kothari (hkothari).  
-Many thanks for that! More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
+**NEWS: 1.4.0 released
+POM references to external OpenGamma Maven repository have been removed and the JSON library referred to has been switched for
+Jackson using the json.org datatype module.  This should require no code changes in users outside of perhaps a POM change if you've
+referred to the OpenGamma POM in your POM.  This change was made because I receive regular reports that the OG repo is down and it
+additionally has caused issues for SBT and Gradle users.  Now all dependencies come from Maven Central.  The issue was forced due to
+information from George Hawkins (george-hawkins-aa) and a suggestion that the project switch to Jackson.  The intention is now that 
+2.0 will move away from the json.org object model to the Jackson tree model, although the intention is to maintain a compatability API
+in parallel so users don't need to change existing code.
+
+Many thanks for the suggestion George! More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
 
 [Quandl](http://quandl.com) is a source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
 
@@ -39,13 +44,13 @@ Three options are available:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl</artifactId>
-  <version>1.3.0</version>
+  <version>1.4.0</version>
 </dependency>
 ```
 
-Note to Scala/SBT users: the POM references one artifact which isn't in maven central.  I'm intending to remove it 
-eventually but for now you'll need to add `maven.opengamma.com` as a resolver - see the respositories section in the
-POM.
+Note to Scala/SBT users: for releases prior to 1.4.0 the POM references one artifact which isn't in maven central.  It's now been
+removed, but if you need to use older version for some reason you'll need to add `maven.opengamma.com` as a resolver - see the
+respositories section in the POM.
 
 Gradle users should see the [notes on Gradle use](#gradle) helpfully provided by Martin Andersson.
 
@@ -63,6 +68,11 @@ The core design principles are:
  - Provide comprehensive documentation and JavaDocs.
 
 ## Release Notes
+### Version 1.4.0
+ - POM references to external OpenGamma Maven repository have been removed and the JSON library referred to has been switched for
+Jackson using the json.org datatype module.  This should require no code changes in users outside of perhaps a POM change if you've
+referred to the OpenGamma POM in your POM.
+
 ### Version 1.3.0
  - SearchRequest now supports the v3 API databasecode argument and makes the query
 parameter (previous `of()`) optional.  This means the `of()` static factory method
@@ -549,7 +559,10 @@ Releases will be numbered with the format `<major>.<minor>.<patch-level>`.  When
 Code and documentation Copyright (C) 2014 Jim Moores.  Code and documentation released under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 ### Gradle
-Because Quandl4J uses an artifact not in Maven central you'll need some extra information:
+As of release 1.4.0, you should not need to add the section below, but I'm retaining it here in case anyone has issues with older 
+versions.  If you have success without this, please raise an issue and I will remove this section.
+
+Because Quandl4J prior to 1.4.0 used an artifact not in Maven central you'll need some extra information:
 ```
 repositories {
     maven {
@@ -577,6 +590,7 @@ repositories {
 }
 
 dependencies {
+    // note this is now obsolete, you should use 1.4.0 and you won't need the repositories above
     compile 'com.jimmoores:quandl:1.3.0'
 }
 ```
