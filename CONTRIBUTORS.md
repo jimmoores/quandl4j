@@ -12,3 +12,4 @@ List of Contributors
 | Hamel Ajay Kothari | hkothari              | SearchRequest modified to support V3 API, esp. withDatabaseCode() |
 | Josef Strobel      |                       | Suggested docs for Scala/SBT users |
 | Martin Andersson   | MartinanderssonDotcom | Code refactoring/improvements, Gradle instructions |
+| George Hawkins     | george-hawkins-aa     | Suggested switch to Jackson to remove OpenGamma repo dependency |
