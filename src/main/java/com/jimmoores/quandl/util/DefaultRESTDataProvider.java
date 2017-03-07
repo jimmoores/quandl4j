@@ -5,9 +5,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
 
 import javax.ws.rs.client.Invocation.Builder;
 import javax.ws.rs.client.WebTarget;
@@ -49,21 +47,39 @@ public final class DefaultRESTDataProvider implements RESTDataProvider {
       JSONTokener tokeniser = new JSONTokener(new InputStreamReader(inputStream));
       try {
         JSONObject object = new JSONObject(tokeniser);
+        response.close();
+        inputStream.close();
         return object;
       } catch (JSONException jsone) {
+        response.close();
+        try {
+           inputStream.close();
+        } catch (IOException ioe) {
+        }
         throw new QuandlRuntimeException("Problem parsing JSON reply", jsone);
-      }
+      } catch (IOException ex) {
+        response.close();
+        throw new QuandlRuntimeException("Problem closing input stream");
+    }
     } else if (response.getStatus() == UNPROCESSABLE_ENTITY) {
-      throw new QuandlUnprocessableEntityException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
+      String msg = "Response code to " + target.getUri() + " was " + response.getStatusInfo();
+      response.close();
+      throw new QuandlUnprocessableEntityException(msg);
     } else if (response.getStatus() == TOO_MANY_REQUESTS) {
       Long retryAfter = parseOptionalHeader(response, RETRY_AFTER);
       Long rateLimitLimit = parseOptionalHeader(response, X_RATELIMIT_LIMIT);
       Long rateLimitRemaining = parseOptionalHeader(response, X_RATELIMIT_REMAINING);
-      throw new QuandlTooManyRequestsException("Response code to " + target.getUri() + " was " + response.getStatusInfo(), retryAfter, rateLimitLimit, rateLimitRemaining);
+      String msg = "Response code to " + target.getUri() + " was " + response.getStatusInfo();
+      response.close();
+      throw new QuandlTooManyRequestsException(msg, retryAfter, rateLimitLimit, rateLimitRemaining);
     } else if (response.getStatus() == SERVICE_UNAVAILABLE) {
-      throw new QuandlServiceUnavailableException("Response code to " + target.getUri() + " was 503 (Service Unavailable)");
+      String msg = "Response code to " + target.getUri() + " was 503 (Service Unavailable)";
+      response.close();
+      throw new QuandlServiceUnavailableException(msg);
     } else {
-      throw new QuandlRuntimeException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
+      String msg = "Response code to " + target.getUri() + " was " + response.getStatusInfo();
+      response.close();
+      throw new QuandlRuntimeException(msg);
     }  
   }
     
@@ -86,6 +102,7 @@ public final class DefaultRESTDataProvider implements RESTDataProvider {
    * @param target the WebTarget describing the call to make, not null
    * @return the parsed TabularResult
    */
+  @SuppressWarnings("resource")
   public TabularResult getTabularResponse(final WebTarget target) {
     Builder requestBuilder = target.request();
     Response response = requestBuilder.buildGet().invoke();
@@ -99,7 +116,6 @@ public final class DefaultRESTDataProvider implements RESTDataProvider {
           HeaderDefinition headerDef = HeaderDefinition.of(Arrays.asList(headerRow));
           List<Row> rows = new ArrayList<Row>();
           String[] next = reader.readNext();
-          int maxWidth = headerRow.length;
           while (next != null) {
             if (next.length > headerRow.length) {
                 // This row is not the same length as the header row, record how long it is so we can patch in a longer header afterwards.
@@ -119,25 +135,40 @@ public final class DefaultRESTDataProvider implements RESTDataProvider {
             next = reader.readNext();
           }
           reader.close();
+          response.close();
           return TabularResult.of(headerDef, rows);
         } else {
           reader.close();
+          response.close();
           throw new QuandlRuntimeException("No data returned");
         }
       } catch (IOException ex) {
+        try {
+            reader.close();
+        } catch (IOException ex1) {
+        }
+        response.close();
         throw new QuandlRuntimeException("Problem reading result stream", ex);
       }
     }  else if (response.getStatus() == UNPROCESSABLE_ENTITY) {
-      throw new QuandlUnprocessableEntityException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
+      String msg = "Response code to " + target.getUri() + " was " + response.getStatusInfo();
+      response.close();
+      throw new QuandlUnprocessableEntityException(msg);
     } else if (response.getStatus() == TOO_MANY_REQUESTS) {
       Long retryAfter = parseOptionalHeader(response, RETRY_AFTER);
       Long rateLimitLimit = parseOptionalHeader(response, X_RATELIMIT_LIMIT);
       Long rateLimitRemaining = parseOptionalHeader(response, X_RATELIMIT_REMAINING);
-      throw new QuandlTooManyRequestsException("Response code to " + target.getUri() + " was " + response.getStatusInfo(), retryAfter, rateLimitLimit, rateLimitRemaining);
+      String msg = "Response code to " + target.getUri() + " was " + response.getStatusInfo();
+      response.close();
+      throw new QuandlTooManyRequestsException(msg, retryAfter, rateLimitLimit, rateLimitRemaining);
     } else if (response.getStatus() == SERVICE_UNAVAILABLE) {
-      throw new QuandlServiceUnavailableException("Response code to " + target.getUri() + " was 503 (Service Unavailable)");
+      String msg = "Response code to " + target.getUri() + " was 503 (Service Unavailable)";
+      response.close();
+      throw new QuandlServiceUnavailableException(msg);
     } else {
-      throw new QuandlRuntimeException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
+      String msg = "Response code to " + target.getUri() + " was " + response.getStatusInfo();
+      response.close();
+      throw new QuandlRuntimeException(msg);
     }
     
   }
