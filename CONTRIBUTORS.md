@@ -13,3 +13,4 @@ List of Contributors
 | Josef Strobel      |                       | Suggested docs for Scala/SBT users |
 | Martin Andersson   | MartinanderssonDotcom | Code refactoring/improvements, Gradle instructions |
 | George Hawkins     | george-hawkins-aa     | Suggested switch to Jackson to remove OpenGamma repo dependency |
+| Olivier            | Olivier-92            | Reported resource leak and proposed fix |
