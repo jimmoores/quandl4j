@@ -1,5 +1,10 @@
 Release Notes
 =============
+# 1.4.1
+This is a bug fix release, @Olivier-92 reported a resource leak that affects
+those using RESTEasy as a JAX-RS provider.  The request objects are now closed
+as required.
+
 # 1.4.0
 POM references to external OpenGamma Maven repository have been removed and the JSON library referred to has been switched for
 Jackson using the json.org datatype module.  This should require no code changes in users outside of perhaps a POM change if you've

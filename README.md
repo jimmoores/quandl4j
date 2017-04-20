@@ -1,15 +1,12 @@
 Quandl4J : A Quandl library for Java
 ====================================
-**NEWS: 1.4.0 released
-POM references to external OpenGamma Maven repository have been removed and the JSON library referred to has been switched for
-Jackson using the json.org datatype module.  This should require no code changes in users outside of perhaps a POM change if you've
-referred to the OpenGamma POM in your POM.  This change was made because I receive regular reports that the OG repo is down and it
-additionally has caused issues for SBT and Gradle users.  Now all dependencies come from Maven Central.  The issue was forced due to
-information from George Hawkins (george-hawkins-aa) and a suggestion that the project switch to Jackson.  The intention is now that 
-2.0 will move away from the json.org object model to the Jackson tree model, although the intention is to maintain a compatability API
-in parallel so users don't need to change existing code.
+**NEWS: 1.4.1 released
+This is a bug fix release, @Olivier-92 reported a resource leak that affects
+those using RESTEasy as a JAX-RS provider.  The request objects are now closed
+as required.  Thanks to @Olivier-92 for not only reporting the issue, but also
+providing the fix!
 
-Many thanks for the suggestion George! More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
+More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
 
 [Quandl](http://quandl.com) is a source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
 
@@ -35,7 +32,7 @@ The minimum pre-requisites are:
  - Maven 3.
 
 Three options are available:
- - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v1.3.0.zip)
+ - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v1.4.1.zip)
  - Clone the repository: `git clone https://github.com/jimmoores/quandl4j.git`
    - Run `mvn install` to build the libray, test, javadoc and source jars and install to your local Maven repository.
    - Run `mvn javadoc:javadoc` to build the documentation.
@@ -44,11 +41,11 @@ Three options are available:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl</artifactId>
-  <version>1.4.0</version>
+  <version>1.4.1</version>
 </dependency>
 ```
 
-Note to Scala/SBT users: for releases prior to 1.4.0 the POM references one artifact which isn't in maven central.  It's now been
+Note to Scala/SBT users: for releases prior to 1.4.1 the POM references one artifact which isn't in maven central.  It's now been
 removed, but if you need to use older version for some reason you'll need to add `maven.opengamma.com` as a resolver - see the
 respositories section in the POM.
 
@@ -68,6 +65,11 @@ The core design principles are:
  - Provide comprehensive documentation and JavaDocs.
 
 ## Release Notes
+### Version 1.4.1
+ - This is a bug fix release, @Olivier-92 reported a resource leak that affects
+those using RESTEasy as a JAX-RS provider.  The request objects are now closed
+as required.
+
 ### Version 1.4.0
  - POM references to external OpenGamma Maven repository have been removed and the JSON library referred to has been switched for
 Jackson using the json.org datatype module.  This should require no code changes in users outside of perhaps a POM change if you've
@@ -590,7 +592,7 @@ repositories {
 }
 
 dependencies {
-    // note this is now obsolete, you should use 1.4.0 and you won't need the repositories above
+    // note this is now obsolete, you should use 1.4.1 and you won't need the repositories above
     compile 'com.jimmoores:quandl:1.3.0'
 }
 ```
