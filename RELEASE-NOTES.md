@@ -1,5 +1,10 @@
 Release Notes
 =============
+# 1.4.2
+This is a little tweak release to update the version of Jackson used by the 
+library so it can be used with AWS.  Thanks to William Farrugia for the 
+suggestion.
+
 # 1.4.1
 This is a bug fix release, @Olivier-92 reported a resource leak that affects
 those using RESTEasy as a JAX-RS provider.  The request objects are now closed

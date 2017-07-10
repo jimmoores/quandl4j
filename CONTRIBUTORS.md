@@ -14,3 +14,4 @@ List of Contributors
 | Martin Andersson   | MartinanderssonDotcom | Code refactoring/improvements, Gradle instructions |
 | George Hawkins     | george-hawkins-aa     | Suggested switch to Jackson to remove OpenGamma repo dependency |
 | Olivier            | Olivier-92            | Reported resource leak and proposed fix |
+| William Farrugia   |                       | Suggested update of Jackson for AWS compatibility |

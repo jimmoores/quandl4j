@@ -1,10 +1,9 @@
 Quandl4J : A Quandl library for Java
 ====================================
-**NEWS: 1.4.1 released
-This is a bug fix release, @Olivier-92 reported a resource leak that affects
-those using RESTEasy as a JAX-RS provider.  The request objects are now closed
-as required.  Thanks to @Olivier-92 for not only reporting the issue, but also
-providing the fix!
+**NEWS: 1.4.2 released
+This is a minor tweak release, just updating the jackson-datatype-json-org
+dependency version so it can be used in AWS at the request of user William
+Farrugia.  Thanks for the suggestion!
 
 More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
 
@@ -41,7 +40,7 @@ Three options are available:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl</artifactId>
-  <version>1.4.1</version>
+  <version>1.4.2</version>
 </dependency>
 ```
 
@@ -65,6 +64,10 @@ The core design principles are:
  - Provide comprehensive documentation and JavaDocs.
 
 ## Release Notes
+### Version 1.4.2
+ - This is a little tweak release, user William Farrugia suggested updating 
+the version of Jackson used so it can be used with AWS.
+
 ### Version 1.4.1
  - This is a bug fix release, @Olivier-92 reported a resource leak that affects
 those using RESTEasy as a JAX-RS provider.  The request objects are now closed
