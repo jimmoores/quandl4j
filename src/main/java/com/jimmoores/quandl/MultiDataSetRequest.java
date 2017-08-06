@@ -30,13 +30,13 @@ import com.jimmoores.quandl.util.ArgumentChecker;
  */
 public final class MultiDataSetRequest {
   private static final String COLUMNS_PARAM = "columns";
-  private static final String START_DATE_PARAM = "trim_start";
-  private static final String END_DATE_PARAM = "trim_end";
+  private static final String START_DATE_PARAM = "start_date";
+  private static final String END_DATE_PARAM = "end_date";
   private static final String FREQUENCY_PARAM = "collapse";
-  private static final String MAX_ROWS_PARAM = "rows";
-  private static final String TRANSFORM_PARAM = "transformation";
-  private static final String SORT_ORDER_PARAM = "sort_order";
- 
+  private static final String MAX_ROWS_PARAM = "limit";
+  private static final String TRANSFORM_PARAM = "transform";
+  private static final String SORT_ORDER_PARAM = "order";
+
   private static final String MULTI_SET_NAME = "multisets";
   private static final String EXTENSION = ".csv";
 

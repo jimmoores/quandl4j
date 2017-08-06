@@ -72,14 +72,14 @@ public class URLGenerationTests {
 
   @Test
   public void testSimpleGetDataSet() {
-    QuandlSession session = getTestSession("https://www.quandl.com/api/v1/datasets/WIKI/MSFT.csv");
+    QuandlSession session = getTestSession("https://www.quandl.com/api/v3/datasets/WIKI/MSFT.csv");
     TabularResult tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/MSFT").build());
     Assert.assertEquals(TEST_TABULAR_RESULT, tabularResult);
   }
   
   @Test
   public void testMoreComplexGetDataSet() {
-    QuandlSession session = getTestSession("https://www.quandl.com/api/v1/datasets/WIKI/AAPL.csv?column=4&collapse=quarterly&transformation=normalize");
+    QuandlSession session = getTestSession("https://www.quandl.com/api/v3/datasets/WIKI/AAPL.csv?column_index=4&collapse=quarterly&transform=normalize");
     TabularResult tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL")
                                                                            .withFrequency(Frequency.QUARTERLY)
                                                                            .withColumn(CLOSE_COLUMN)
@@ -90,7 +90,7 @@ public class URLGenerationTests {
   
   @Test
   public void testMostComplexGetDataSet() {
-    QuandlSession session = getTestSession("https://www.quandl.com/api/v1/datasets/WIKI/AAPL.csv?trim_start=2009-01-01&trim_end=2010-12-31&column=4&collapse=quarterly&rows=10&transformation=normalize");
+    QuandlSession session = getTestSession("https://www.quandl.com/api/v3/datasets/WIKI/AAPL.csv?start_date=2009-01-01&end_date=2010-12-31&column_index=4&collapse=quarterly&limit=10&transform=normalize");
     TabularResult tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL")
                                                                            .withStartDate(LocalDate.of(2009, 1, 1))
                                                                            .withEndDate(LocalDate.of(2010, 12, 31))
@@ -105,7 +105,7 @@ public class URLGenerationTests {
   @Test
   public void testMostComplexGetDataSetDifferentOrder() {
     // now try a different order
-    QuandlSession session = getTestSession("https://www.quandl.com/api/v1/datasets/WIKI/AAPL.csv?trim_start=2009-01-01&trim_end=2010-12-31&column=4&collapse=quarterly&rows=10&transformation=normalize");
+    QuandlSession session = getTestSession("https://www.quandl.com/api/v3/datasets/WIKI/AAPL.csv?start_date=2009-01-01&end_date=2010-12-31&column_index=4&collapse=quarterly&limit=10&transform=normalize");
     TabularResult tabularResult = session.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL")
                                                                             .withFrequency(Frequency.QUARTERLY)
                                                                             .withColumn(CLOSE_COLUMN)
