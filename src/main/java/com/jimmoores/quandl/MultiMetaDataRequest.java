@@ -17,7 +17,7 @@ public final class MultiMetaDataRequest {
   private static final String COLUMNS_PARAM = "columns";
   private static final String EXTENSION = ".json";
   private static final String MULTI_SET_NAME = "multisets";
-  private static final String EXCLUDE_DATA_PARAM = "trim_start";
+  private static final String EXCLUDE_DATA_PARAM = "start_date";
   private static final String INFINITE_FUTURE = "2100-01-01";
   
   private List<String> _quandlCodes;
@@ -81,7 +81,6 @@ public final class MultiMetaDataRequest {
     resultTarget = resultTarget.path(MULTI_SET_NAME + EXTENSION);
     resultTarget = resultTarget.queryParam(COLUMNS_PARAM, buildCodeList(_quandlCodes));
     // This is a hack that stops Quandl from returning all the data as part of the query
-    // because the exclude_data=true query parameter doesn't work on this call.
     resultTarget = resultTarget.queryParam(EXCLUDE_DATA_PARAM, INFINITE_FUTURE);
     return resultTarget;
   }

@@ -119,7 +119,7 @@ public class URLGenerationTests {
   
   @Test(expectedExceptions = QuandlRuntimeException.class)
   public void testLargeMultiDataSetRequestWithEmpty() {
-    QuandlSession session = getTestSession("https://www.quandl.com/api/v1/multisets.csv?columns=&collapse=monthly&transformation=normalize");
+    QuandlSession session = getTestSession("https://www.quandl.com/api/v3/multisets.csv?columns=&collapse=monthly&transformation=normalize");
     @SuppressWarnings("deprecation")
     TabularResult tabularResult = session.getDataSets( // expect an exception here because list is empty
         MultiDataSetRequest.Builder.of()
@@ -132,14 +132,14 @@ public class URLGenerationTests {
   // test getMetaData
   @Test
   public void testSimpleGetMetaData() {
-    QuandlSession session = getTestSession("https://www.quandl.com/api/v1/datasets/WIKI/MSFT.json?exclude_data=true");
+    QuandlSession session = getTestSession("https://www.quandl.com/api/v3/datasets/WIKI/MSFT.json?start_date=2100-01-01");
     MetaDataResult result = session.getMetaData(MetaDataRequest.of("WIKI/MSFT"));
     Assert.assertEquals(result, MetaDataResult.of(new JSONObject()));
   }
   
   @Test(expectedExceptions = QuandlRuntimeException.class)
   public void testEmptyGetMultiMetaData() {
-    QuandlSession session = getTestSession("https://www.quandl.com/api/v1/multisets.json?columns=WIKI.MSFT,OFDP.FUTURE_CL1,WIKI.LIFE&trim_start=2100-01-01");
+    QuandlSession session = getTestSession("https://www.quandl.com/api/v3/multisets.json?columns=WIKI.MSFT,OFDP.FUTURE_CL1,WIKI.LIFE&trim_start=2100-01-01");
     MetaDataResult result = session.getMetaData(MultiMetaDataRequest.of()); // expect this to throw an exception
     Assert.assertEquals(result, MetaDataResult.of(new JSONObject()));
   }

@@ -26,8 +26,8 @@ public final class MetaDataResult {
   private static final String COLUMN_NAMES_FIELD = "column_names";
   private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ISO_DATE;
   private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ISO_OFFSET_DATE_TIME;
-  private static final String DATA_SOURCE_FIELD = "source_code";
-  private static final String CODE_FIELD = "code";
+  private static final String DATA_SOURCE_FIELD = "database_code";
+  private static final String CODE_FIELD = "dataset_code";
   private JSONObject _jsonObject;
 
   private MetaDataResult(final JSONObject jsonObject) {
@@ -59,7 +59,7 @@ public final class MetaDataResult {
       }
       return HeaderDefinition.of(columnNames);
     } catch (JSONException ex) {
-      s_logger.error("Metadata had unexpected structure - could not extra column_names field, was:\n{}", _jsonObject.toString());
+      s_logger.error("Metadata had unexpected structure - could not extract column_names field. Was:\n{}", _jsonObject.toString());
       throw new QuandlRuntimeException("Metadata had unexpected structure", ex);
     }
   }
