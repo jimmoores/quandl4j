@@ -25,14 +25,14 @@ import com.jimmoores.quandl.util.ArgumentChecker;
  * Quandl behavior (e.g. all columns, no row limits, etc).
  */
 public final class DataSetRequest {
-  private static final String START_DATE_PARAM = "trim_start";
-  private static final String END_DATE_PARAM = "trim_end";
-  private static final String COLUMN_INDEX_PARAM = "column";
+  private static final String START_DATE_PARAM = "start_date";
+  private static final String END_DATE_PARAM = "end_date";
+  private static final String COLUMN_INDEX_PARAM = "column_index";
   private static final String FREQUENCY_PARAM = "collapse";
-  private static final String MAX_ROWS_PARAM = "rows";
-  private static final String TRANSFORM_PARAM = "transformation";
-  private static final String SORT_ORDER_PARAM = "sort_order";
-  
+  private static final String MAX_ROWS_PARAM = "limit";
+  private static final String TRANSFORM_PARAM = "transform";
+  private static final String SORT_ORDER_PARAM = "order";
+
   private static final String EXTENSION = ".csv";
   private static final String DATASETS_RELATIVE_URL = "datasets";
 

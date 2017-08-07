@@ -149,7 +149,7 @@ public final class QuandlSession {
     ArgumentChecker.notNull(request, "request");
 
     Client client = getClient();
-    WebTarget target = client.target(API_BASE_URL_V1);
+    WebTarget target = client.target(API_BASE_URL_V3);
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
     TabularResult tabularResponse = null;
