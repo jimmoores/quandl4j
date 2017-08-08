@@ -1,9 +1,9 @@
 Quandl4J : A Quandl library for Java
 ====================================
-**NEWS: 1.4.2 released
-This is a minor tweak release, just updating the jackson-datatype-json-org
-dependency version so it can be used in AWS at the request of user William
-Farrugia.  Thanks for the suggestion!
+**NEWS: 1.5.0 released
+Many thanks to Ben McCann for a pull request updating the REST API calls to V3.  Users should notice no API changes.  Logback has been 
+removed as a dependency so users can choose their own slf4j provider more easily.  If you have build issues, try adding logback to your 
+own pom.xml.  Examples have been moved to tests, and some dependencies (commons-cli) rescoped to only be used for building tests.
 
 More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
 
@@ -41,7 +41,7 @@ Three options are available:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl</artifactId>
-  <version>1.4.2</version>
+  <version>1.5.0</version>
 </dependency>
 ```
 
@@ -65,6 +65,12 @@ The core design principles are:
  - Provide comprehensive documentation and JavaDocs.
 
 ## Release Notes
+### Version 1.5.0
+ - Calls upgraded to use V3 of the REST API for both data and metadata. No API changes. Logback is removed as a normal dependency to 
+allow users to choose their own implementation of SLF4J (which is the whole point of SLF4J!). If you have any build issues try 
+adding logback to your own pom.xml. Examples are moved to test packages and commons-cli dependency is now only a dependency for 
+test scope. Docs and contributors list updated.
+
 ### Version 1.4.2
  - This is a little tweak release, user William Farrugia suggested updating 
 the version of Jackson used so it can be used with AWS.
