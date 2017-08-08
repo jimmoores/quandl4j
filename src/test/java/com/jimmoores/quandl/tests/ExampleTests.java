@@ -15,7 +15,7 @@ import com.jimmoores.quandl.example.Example8;
 
 // CHECKSTYLE:OFF
 @Test
-public class ExmapleTests {
+public class ExampleTests {
   @Test
   public void example1Test() {
     Example1.main(new String[] {});
