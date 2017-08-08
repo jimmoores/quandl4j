@@ -15,3 +15,4 @@ List of Contributors
 | George Hawkins     | george-hawkins-aa     | Suggested switch to Jackson to remove OpenGamma repo dependency |
 | Olivier            | Olivier-92            | Reported resource leak and proposed fix |
 | William Farrugia   |                       | Suggested update of Jackson for AWS compatibility |
+| Ben McCann         | benmccann             | Multiple pull requests transitioning to V3 API plus clean up of maven deps and scopes |
