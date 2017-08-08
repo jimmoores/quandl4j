@@ -2,8 +2,9 @@ Release Notes
 =============
 # 1.5.0
 Calls upgraded to use V3 of the REST API for both data and metadata.  No API changes.  Logback is removed as a normal dependency to 
-allow users to choose their own implementation of SLF4J (which is the whole point of SLF4J!).  Examples are moved to test packages 
-and scope.  Docs and contributors list updated.
+allow users to choose their own implementation of SLF4J (which is the whole point of SLF4J!).  If you have any build issues try adding
+logback to your own pom.xml.  Examples are moved to test packages and commons-cli dependency is now only a dependency for test scope.
+Docs and contributors list updated.
 
 # 1.4.2
 This is a little tweak release to update the version of Jackson used by the 
