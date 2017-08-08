@@ -3,7 +3,7 @@ Quandl4J : A Quandl library for Java
 **NEWS: 1.5.0 released
 Many thanks to Ben McCann for a pull request updating the REST API calls to V3.  Users should notice no API changes.  Logback has been 
 removed as a dependency so users can choose their own slf4j provider more easily.  If you have build issues, try adding logback to your 
-own pom.xml.  Examples have been moved to tests, and some dependencies (commons-cli) rescoped to only be used for building tests.
+own pom.xml.  Examples have been moved to tests, and some dependencies (commons-cli) rescoped to only be used for building tests.**
 
 More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
 
