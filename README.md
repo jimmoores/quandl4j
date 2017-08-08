@@ -36,6 +36,7 @@ Three options are available:
    - Run `mvn install` to build the libray, test, javadoc and source jars and install to your local Maven repository.
    - Run `mvn javadoc:javadoc` to build the documentation.
  - Add the following fragment to your Maven POM file
+
 ```xml
 <dependency>
   <groupId>com.jimmoores</groupId>
