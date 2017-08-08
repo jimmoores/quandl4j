@@ -10,7 +10,8 @@ import com.jimmoores.quandl.util.ArgumentChecker;
 public final class MetaDataRequest {
   private static final String EXTENSION = ".json";
   private static final String DATASETS_RELATIVE_URL = "datasets";
-  private static final String EXCLUDE_DATA_PARAM = "exclude_data";
+  private static final String EXCLUDE_DATA_PARAM = "start_date";
+  private static final String INFINITE_FUTURE = "2100-01-01";
   
   private String _quandlCode;
 
@@ -45,7 +46,7 @@ public final class MetaDataRequest {
     WebTarget resultTarget = webTarget;
     resultTarget = resultTarget.path(DATASETS_RELATIVE_URL);
     resultTarget = resultTarget.path(_quandlCode + EXTENSION);
-    resultTarget = resultTarget.queryParam(EXCLUDE_DATA_PARAM, Boolean.TRUE.toString());
+    resultTarget = resultTarget.queryParam(EXCLUDE_DATA_PARAM, INFINITE_FUTURE);
     return resultTarget;
   }
 

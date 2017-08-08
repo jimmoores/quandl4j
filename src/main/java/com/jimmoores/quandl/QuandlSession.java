@@ -58,13 +58,13 @@ public final class QuandlSession {
   private static final String JSON_COLUMNS_FIELD = "columns";
   private static final String JSON_COLUMN_NAMES_FIELD = "column_names";
   private static final String DATE_COLUMN = "Date";
-
-  private static Logger s_logger = LoggerFactory.getLogger(QuandlSession.class);
-  
-  private SessionOptions _sessionOptions;
-  private static final UriBuilder API_BASE_URL_V1 = UriBuilder.fromPath("https://www.quandl.com/api/v1");
   private static final UriBuilder API_BASE_URL_V3 = UriBuilder.fromPath("https://www.quandl.com/api/v3");
   private static final String QUANDL_AUTH_TOKEN_PROPERTY_NAME = "quandl.auth.token";
+
+  private static Logger s_logger = LoggerFactory.getLogger(QuandlSession.class);
+
+  private SessionOptions _sessionOptions;
+
   /**
    * the parameter name for the authorization token (aka Quandl API key).
    */
@@ -179,7 +179,7 @@ public final class QuandlSession {
   public MetaDataResult getMetaData(final MetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
     Client client = ClientBuilder.newClient();
-    WebTarget target = client.target(API_BASE_URL_V1);
+    WebTarget target = client.target(API_BASE_URL_V3);
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
     JSONObject object = null;
