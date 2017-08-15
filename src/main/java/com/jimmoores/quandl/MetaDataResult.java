@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -33,27 +32,29 @@ public final class MetaDataResult {
   private MetaDataResult(final JSONObject jsonObject) {
     _jsonObject = jsonObject;
   }
-  
+
   /**
    * Factory method for creating and instance of a MetaDataResult.
-   * @param jsonObject the JSON object returned by Quandl, not null
+   * 
+   * @param jsonObject
+   *          the JSON object returned by Quandl, not null
    * @return a MetaDataResult instance, not null
    */
   public static MetaDataResult of(final JSONObject jsonObject) {
     ArgumentChecker.notNull(jsonObject, "jsonObject");
     return new MetaDataResult(jsonObject);
   }
-  
+
   /**
-   * Extract a HeaderDefinition from the meta data.
-   * Throws a QuandlRuntimeException if it cannot construct a valid HeaderDefinition
+   * Extract a HeaderDefinition from the meta data. Throws a QuandlRuntimeException if it cannot construct a valid HeaderDefinition
+   * 
    * @return the header definition, not null
    */
   public HeaderDefinition getHeaderDefinition() {
     JSONArray jsonArray = null;
     try {
       jsonArray = _jsonObject.getJSONArray(COLUMN_NAMES_FIELD);
-      List<String> columnNames = new ArrayList<String>(jsonArray.length()); 
+      List<String> columnNames = new ArrayList<String>(jsonArray.length());
       for (int i = 0; i < jsonArray.length(); i++) {
         columnNames.add(jsonArray.getString(i));
       }
@@ -63,9 +64,10 @@ public final class MetaDataResult {
       throw new QuandlRuntimeException("Metadata had unexpected structure", ex);
     }
   }
-  
+
   /**
    * Get the Quandl code associated with this metadata.
+   * 
    * @return the quandl code (DATASOURCE/CODE form), null if not present.
    */
   public String getQuandlCode() {
@@ -78,10 +80,12 @@ public final class MetaDataResult {
       return null;
     }
   }
+
   /**
-   * Get a String field.
-   * Throws a QuandlRuntimeException if it cannot find the field
-   * @param fieldName the name of the field
+   * Get a String field. Throws a QuandlRuntimeException if it cannot find the field
+   * 
+   * @param fieldName
+   *          the name of the field
    * @return the field value, or null if the field is null
    */
   public String getString(final String fieldName) {
@@ -91,11 +95,12 @@ public final class MetaDataResult {
       throw new RuntimeException("Cannot find field", ex);
     }
   }
-  
+
   /**
-   * Get a LocalDate field (converted from a String internally).
-   * Throws a QuandlRuntimeException if it cannot find the field
-   * @param fieldName the name of the field
+   * Get a LocalDate field (converted from a String internally). Throws a QuandlRuntimeException if it cannot find the field
+   * 
+   * @param fieldName
+   *          the name of the field
    * @return the field value, or null if the field is null
    */
   public LocalDate getLocalDate(final String fieldName) {
@@ -109,11 +114,12 @@ public final class MetaDataResult {
       throw new QuandlRuntimeException("Cannot find field", ex);
     }
   }
-  
+
   /**
-   * Get a LocalDate field (converted from a String internally).
-   * Throws a QuandlRuntimeException if it cannot find the field
-   * @param fieldName the name of the field
+   * Get a LocalDate field (converted from a String internally). Throws a QuandlRuntimeException if it cannot find the field
+   * 
+   * @param fieldName
+   *          the name of the field
    * @return the field value, or null if the field is null
    */
   public OffsetDateTime getOffsetDateTime(final String fieldName) {
@@ -127,21 +133,24 @@ public final class MetaDataResult {
       throw new QuandlRuntimeException("Cannot find field", ex);
     }
   }
-  
+
   /**
    * Return whether a field is present.
-   * @param fieldName the name of the field
+   * 
+   * @param fieldName
+   *          the name of the field
    * @return true, if the field is present
    */
   public boolean has(final String fieldName) {
     return _jsonObject.has(fieldName);
   }
-  
+
   /**
-   * Get a Double field.  This attempts to work around the stupid NaN is null behavior by
-   * explicitly testing for null.
-   * Throws a QuandlRuntimeException if it cannot find the field
-   * @param fieldName the name of the field
+   * Get a Double field. This attempts to work around the stupid NaN is null behavior by explicitly testing for null. Throws a
+   * QuandlRuntimeException if it cannot find the field
+   * 
+   * @param fieldName
+   *          the name of the field
    * @return the field value, or null if the field is null
    */
   public Double getDouble(final String fieldName) {
@@ -155,9 +164,10 @@ public final class MetaDataResult {
       throw new QuandlRuntimeException("Cannot find field", ex);
     }
   }
-  
+
   /**
    * An iterator over the string field names.
+   * 
    * @return the iterator
    */
   @SuppressWarnings("unchecked")
@@ -165,34 +175,36 @@ public final class MetaDataResult {
     // interface predates generics so need a suppress warnings here, but should be safe.
     return (Iterator<String>) _jsonObject.keys();
   }
-  
+
   /**
    * Get the underlying JSON object, useful if the data structure has changed since release.
+   * 
    * @return the underlying JSON object
    */
   public JSONObject getRawJSON() {
     return _jsonObject;
   }
-  
+
   /**
-   * Use the underlying JSON toString() to show full data structure.
-   * This means data can be seen even if it isn't in a flat structure.
-   * To get a pretty printed version, use toPrettyPrintedString()
+   * Use the underlying JSON toString() to show full data structure. This means data can be seen even if it isn't in a flat structure. To
+   * get a pretty printed version, use toPrettyPrintedString()
+   * 
    * @return a string representation of the meta-data laid out as a JSON message (single line).
    */
   @Override
-public String toString() {
+  public String toString() {
     return _jsonObject.toString();
   }
-  
+
   /**
-   * Print a nicely formatted representation of this object.  Currently prints a nicely formatted JSON representation.
+   * Print a nicely formatted representation of this object. Currently prints a nicely formatted JSON representation.
+   * 
    * @return a string containing a multi-line description of this object
    */
   public String toPrettyPrintedString() {
     return PrettyPrinter.toPrettyPrintedString(this);
   }
-  
+
   @Override
   public boolean equals(final Object obj) {
     if (this == obj) {
@@ -209,7 +221,7 @@ public String toString() {
     // it will be quite expensive, but should suffice.
     return getRawJSON().toString().equals(other.getRawJSON().toString());
   }
-  
+
   @Override
   public int hashCode() {
     // This is a work-around because JSONObject doesn't override hashCode().

@@ -23,7 +23,6 @@ public final class Example6 {
    */
   private void run() {
     QuandlSession session = QuandlSession.create();
-    @SuppressWarnings("deprecation")
     Map<String, HeaderDefinition> headers = session.getMultipleHeaderDefinition(MultiMetaDataRequest.of("WIKI/AAPL", "DOE/RWTC", "WIKI/MSFT"));
     System.out.println(PrettyPrinter.toPrettyPrintedString(headers));
   }

@@ -3,6 +3,7 @@ package com.jimmoores.quandl.example;
 import com.jimmoores.quandl.MetaDataRequest;
 import com.jimmoores.quandl.MetaDataResult;
 import com.jimmoores.quandl.QuandlSession;
+import com.jimmoores.quandl.v2.GenericQuandlSessionInterface;
 
 /**
  * Example 4.

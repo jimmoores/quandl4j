@@ -11,9 +11,9 @@ import org.threeten.bp.LocalDate;
 import com.jimmoores.quandl.util.ArgumentChecker;
 
 /**
- * Builder class for a tabular data set request to Quandl.  
- * Start by calling the static of() method on the inner Builder class and build up the request using other
- * methods as necessary.  An example:
+ * Builder class for a tabular data set request to Quandl. Start by calling the static of() method on the inner Builder class and build up
+ * the request using other methods as necessary. An example:
+ * 
  * <pre>
  *   DataSetRequest.Builder.of("WIKI/APPL")
  *                         .withColumn(4)
@@ -24,9 +24,9 @@ import com.jimmoores.quandl.util.ArgumentChecker;
  *                         .withTransform(Transform.RDIFF)
  *                         .build();
  * </pre>
- * The resulting object should be passed into one of the methods in the QuandlConnector class.  If anything is
- * not specified, it will not be included in the request and so the results will reflect the default
- * Quandl behavior (e.g. all columns, no row limits, etc).
+ * 
+ * The resulting object should be passed into one of the methods in the QuandlConnector class. If anything is not specified, it will not be
+ * included in the request and so the results will reflect the default Quandl behavior (e.g. all columns, no row limits, etc).
  */
 public final class MultiDataSetRequest {
   private static final String COLUMNS_PARAM = "columns";
@@ -59,10 +59,8 @@ public final class MultiDataSetRequest {
   }
 
   /**
-   * Inner builder class.  Create an instance using of("QUANDL/CODE"), call any other
-   * methods you need, and finish by calling build().  Note you are be able to use a
-   * slash as opposed to the period separator as specified in the Quandl REST API docs, 
-   * but either will work here.
+   * Inner builder class. Create an instance using of("QUANDL/CODE"), call any other methods you need, and finish by calling build(). Note
+   * you are be able to use a slash as opposed to the period separator as specified in the Quandl REST API docs, but either will work here.
    */
   public static final class Builder {
     private final List<QuandlCodeRequest> _quandlCodeRequests;
@@ -79,17 +77,21 @@ public final class MultiDataSetRequest {
 
     /**
      * Create the base DataSetRequest object passing in the Quandl code.
-     * @param quandlCodeRequests the list of quandl codes/columns you're interested in, not null
+     * 
+     * @param quandlCodeRequests
+     *          the list of quandl codes/columns you're interested in, not null
      * @return a Builder instance, not null
      */
     public static Builder of(final List<QuandlCodeRequest> quandlCodeRequests) {
       ArgumentChecker.notNullOrEmpty(quandlCodeRequests, "quandlCodeRequests");
       return new Builder(quandlCodeRequests);
     }
-    
+
     /**
      * Create the base DataSetRequest object passing in the Quandl code.
-     * @param quandlCodeRequests the quandl codes/columns (VarArgs) you're interested in, not null
+     * 
+     * @param quandlCodeRequests
+     *          the quandl codes/columns (VarArgs) you're interested in, not null
      * @return a Builder instance, not null
      */
     public static Builder of(final QuandlCodeRequest... quandlCodeRequests) {
@@ -99,7 +101,9 @@ public final class MultiDataSetRequest {
 
     /**
      * Optionally specify a start date cut-off for the request.
-     * @param startDate the start date of the request (inclusive), not null
+     * 
+     * @param startDate
+     *          the start date of the request (inclusive), not null
      * @return a Builder instance, not null
      */
     public Builder withStartDate(final LocalDate startDate) {
@@ -110,7 +114,9 @@ public final class MultiDataSetRequest {
 
     /**
      * Optionally specify an end date cut-off for the request.
-     * @param endDate the end date of the request (inclusive), not null
+     * 
+     * @param endDate
+     *          the end date of the request (inclusive), not null
      * @return a Builder instance, not null
      */
     public Builder withEndDate(final LocalDate endDate) {
@@ -121,7 +127,9 @@ public final class MultiDataSetRequest {
 
     /**
      * Optionally specify the sampling frequency for the request.
-     * @param frequency the sampling frequency, not null
+     * 
+     * @param frequency
+     *          the sampling frequency, not null
      * @return a Builder instance, not null
      */
     public Builder withFrequency(final Frequency frequency) {
@@ -132,7 +140,9 @@ public final class MultiDataSetRequest {
 
     /**
      * Optionally specify the maximum number of rows that should be returns for the request.
-     * @param maxRows the maximum number of rows that the server should return from the request
+     * 
+     * @param maxRows
+     *          the maximum number of rows that the server should return from the request
      * @return a Builder instance, not null
      */
     public Builder withMaxRows(final int maxRows) {
@@ -142,7 +152,9 @@ public final class MultiDataSetRequest {
 
     /**
      * Optionally specify a data transformation function for the request.
-     * @param transform the data transformation method that the server should pre-process the data with
+     * 
+     * @param transform
+     *          the data transformation method that the server should pre-process the data with
      * @return a Builder instance, not null
      */
     public Builder withTransform(final Transform transform) {
@@ -153,7 +165,9 @@ public final class MultiDataSetRequest {
 
     /**
      * Optionally specify the sort order of the results.
-     * @param sortOrder the sort order of the results
+     * 
+     * @param sortOrder
+     *          the sort order of the results
      * @return a Builder object onto which you can chain additional calls
      */
     public Builder withSortOrder(final SortOrder sortOrder) {
@@ -161,62 +175,64 @@ public final class MultiDataSetRequest {
       _sortOrder = sortOrder;
       return this;
     }
-    
+
     /**
      * Build the request object.
+     * 
      * @return the immutable build object
      */
     public MultiDataSetRequest build() {
       return new MultiDataSetRequest(this);
     }
   }
+
   /**
    * @return the list of quandl code requests (code + column)
    */
   public List<QuandlCodeRequest> getQuandlCodeRequests() {
-  	return _quandlCodeRequests;
+    return _quandlCodeRequests;
   }
-  
+
   /**
    * @return the start date, or null if not set
    */
   public LocalDate getStartDate() {
-  	return _startDate;
+    return _startDate;
   }
-  
+
   /**
    * @return the end date, or null if not set
    */
   public LocalDate getEndDate() {
-  	return _endDate;
+    return _endDate;
   }
-  
+
   /**
    * @return the frequency, or null if not set
    */
   public Frequency getFrequency() {
-  	return _frequency;
+    return _frequency;
   }
-  
+
   /**
    * @return the maximum number of rows to be returned, or null if not set
    */
   public Integer getMaxRows() {
-  	return _maxRows;
+    return _maxRows;
   }
-  
+
   /**
    * @return the transform requested, or null if not set
    */
   public Transform getTransform() {
-  	return _transform;
+    return _transform;
   }
-  
+
   /**
    * @return the sort order, or null if not set
    */
   public SortOrder getSortOrder() {
-  	return _sortOrder;
+    return _sortOrder;
   }
 
   private String buildCodeList(final List<QuandlCodeRequest> quandlCodeRequests) {
@@ -238,7 +254,9 @@ public final class MultiDataSetRequest {
 
   /**
    * Append any specified parameters to the provided WebTarget.
-   * @param webTarget a web target used by the Jersey Client API, not null
+   * 
+   * @param webTarget
+   *          a web target used by the Jersey Client API, not null
    * @return the WebTarget with any path and query parameters appended, not null
    */
   public WebTarget appendPathAndQueryParameters(final WebTarget webTarget) {

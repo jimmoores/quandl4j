@@ -5,12 +5,12 @@ import javax.ws.rs.client.WebTarget;
 import com.jimmoores.quandl.util.ArgumentChecker;
 
 /**
- * A class that packages the request for search query from Quandl.
- * Examples:
+ * A class that packages the request for search query from Quandl. Examples:
+ * 
  * <pre>
- *   new SearchRequest.Builder().withQuery("query").withPageNumber(5).withMaxPerPage(100).build();
- *   new SearchRequest.Builder().withQuery("query").build();
- *   new SearchRequest.Builder().withDatabaseCode("databasecode").build();
+ * new SearchRequest.Builder().withQuery("query").withPageNumber(5).withMaxPerPage(100).build();
+ * new SearchRequest.Builder().withQuery("query").build();
+ * new SearchRequest.Builder().withDatabaseCode("databasecode").build();
  * </pre>
  */
 public final class SearchRequest {
@@ -25,21 +25,21 @@ public final class SearchRequest {
   private final String _query;
   private Integer _pageNumber;
   private Integer _maxDocsPerPage;
-  
+
   private SearchRequest(final Builder builder) {
     _databaseCode = builder._databaseCode;
     _query = builder._query;
     _pageNumber = builder._pageNumber;
     _maxDocsPerPage = builder._maxDocsPerPage;
   }
-  
+
   /**
-   * Builder for this class.
-   * Examples:
+   * Builder for this class. Examples:
+   * 
    * <pre>
-   *   new SearchRequest.Builder().withQuery("query").withPageNumber(5).withMaxPerPage(100).build();
-   *   new SearchRequest.Builder().withQuery("query").build();
-   *   new SearchRequest.Builder().withDatabaseCode("databasecode").build();
+   * new SearchRequest.Builder().withQuery("query").withPageNumber(5).withMaxPerPage(100).build();
+   * new SearchRequest.Builder().withQuery("query").build();
+   * new SearchRequest.Builder().withDatabaseCode("databasecode").build();
    * </pre>
    */
   public static final class Builder {
@@ -55,11 +55,12 @@ public final class SearchRequest {
     private Builder(final String query) {
       _query = query;
     }
-    
+
     /**
-     * Factory method to create a meta data request instance.
-     * Use empty string to get all documents.
-     * @param query an arbitrary query string, not null (note: can be empty string to get all documents)
+     * Factory method to create a meta data request instance. Use empty string to get all documents.
+     * 
+     * @param query
+     *          an arbitrary query string, not null (note: can be empty string to get all documents)
      * @return an instance of this Builder for the given query string.
      * @deprecated use Builder().withQuery(query) instead
      */
@@ -71,7 +72,9 @@ public final class SearchRequest {
 
     /**
      * Specify the database to search within. For example WIKI
-     * @param databaseCode the database code to search within.
+     * 
+     * @param databaseCode
+     *          the database code to search within.
      * @return this Builder, with this database code specified
      */
     public Builder withDatabaseCode(final String databaseCode) {
@@ -81,36 +84,44 @@ public final class SearchRequest {
 
     /**
      * Specify the search term to use for your query. Multiple search terms can be separated by the + character.
-     * @param query the query string to use
+     * 
+     * @param query
+     *          the query string to use
      * @return this Builder, with this query added
      */
     public Builder withQuery(final String query) {
       _query = query;
       return this;
     }
-    
+
     /**
      * Specify the page number of the results (1-based).
-     * @param pageNumber the page number of the results, 1-based.
+     * 
+     * @param pageNumber
+     *          the page number of the results, 1-based.
      * @return this Builder, with the page number information added
      */
     public Builder withPageNumber(final int pageNumber) {
       _pageNumber = pageNumber;
       return this;
     }
-    
+
     /**
-     * Specify the maximum number of documents per page of results.
-     * Currently, this is limited to 100, but this library does not enforce that in case the limit changes.
-     * @param maxDocsPerPage the maximum number of documents per page (currently limited to 100 by API)
+     * Specify the maximum number of documents per page of results. Currently, this is limited to 100, but this library does not enforce
+     * that in case the limit changes.
+     * 
+     * @param maxDocsPerPage
+     *          the maximum number of documents per page (currently limited to 100 by API)
      * @return this Builder, with the page number information added
      */
     public Builder withMaxPerPage(final int maxDocsPerPage) {
       _maxDocsPerPage = maxDocsPerPage;
       return this;
     }
+
     /**
      * Build an instance of the underlying request object.
+     * 
      * @return an instance of the seach request object
      */
     public SearchRequest build() {
@@ -131,24 +142,26 @@ public final class SearchRequest {
   public String getQuery() {
     return _query;
   }
-  
+
   /**
    * @return the page number, or null if not set
    */
   public Integer getPageNumber() {
     return _pageNumber;
   }
-  
+
   /**
    * @return the maximum number of results to return per page
    */
   public Integer getMaxPerPage() {
     return _maxDocsPerPage;
   }
-  
+
   /**
    * Append any specified parameters to the provided WebTarget.
-   * @param webTarget a web target used by the Jersey Client API, not null
+   * 
+   * @param webTarget
+   *          a web target used by the Jersey Client API, not null
    * @return the WebTarget with any path and query parameters appended
    */
   public WebTarget appendPathAndQueryParameters(final WebTarget webTarget) {

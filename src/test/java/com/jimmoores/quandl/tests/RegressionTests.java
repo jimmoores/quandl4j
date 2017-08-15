@@ -40,6 +40,7 @@ import com.jimmoores.quandl.util.DefaultRESTDataProvider;
 import com.jimmoores.quandl.util.PrettyPrinter;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.RESTDataProvider;
+import com.jimmoores.quandl.v2.GenericQuandlSessionInterface;
 
 /**
  * Grab test data from quandl by having a look through the search results and pulling out pseudo-randomized result sets.  These 

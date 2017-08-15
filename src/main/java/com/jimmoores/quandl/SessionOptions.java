@@ -7,15 +7,18 @@ import com.jimmoores.quandl.util.RESTDataProvider;
 /**
  * Class for specifying any non-trivial options to a QuandlSession.
  */
+@SuppressWarnings("deprecation")
 public final class SessionOptions {
   private String _authToken;
   private RESTDataProvider _restDataProvider;
+  private boolean _isRestDataProviderSet;
   private RetryPolicy _retryPolicy;
 
   private SessionOptions(final Builder builder) {
     _authToken = builder._authToken;
     _restDataProvider = builder._restDataProvider;
     _retryPolicy = builder._retryPolicy;
+    _isRestDataProviderSet = builder._isRestDataProviderSet;
   }
 
   /**
@@ -29,7 +32,9 @@ public final class SessionOptions {
 
     private String _authToken;
     private RESTDataProvider _restDataProvider = new DefaultRESTDataProvider();
-    private RetryPolicy _retryPolicy = RetryPolicy.createSequenceRetryPolicy(new long[] { ONE_SECOND, FIVE_SECONDS, TWENTY_SECONDS, SIXTY_SECONDS });
+    private boolean _isRestDataProviderSet;
+    private RetryPolicy _retryPolicy = RetryPolicy
+        .createSequenceRetryPolicy(new long[] { ONE_SECOND, FIVE_SECONDS, TWENTY_SECONDS, SIXTY_SECONDS });
 
     private Builder(final String authToken) {
       _authToken = authToken;
@@ -37,7 +42,9 @@ public final class SessionOptions {
 
     /**
      * Specify a specific auth token.
-     * @param authToken your auth token
+     * 
+     * @param authToken
+     *          your auth token
      * @return a Builder object for chaining, call build() to complete
      */
     public static Builder withAuthToken(final String authToken) {
@@ -47,6 +54,7 @@ public final class SessionOptions {
 
     /**
      * Specify no auth token.
+     * 
      * @return a Builder object for chaining, call build() to complete
      */
     public static Builder withoutAuthToken() {
@@ -55,18 +63,24 @@ public final class SessionOptions {
 
     /**
      * Specify a custom RESTDataProvider for the session to use when sending requests, intended for testing purposes.
-     * @param restDataProvider a RESTDataProvider for the session
+     * 
+     * @deprecated you should pass this into the QuandlSessionFactory instead
+     * @param restDataProvider
+     *          a RESTDataProvider for the session
      * @return this builder
      */
     public Builder withRESTDataProvider(final RESTDataProvider restDataProvider) {
       ArgumentChecker.notNull(restDataProvider, "restDataProvider");
       _restDataProvider = restDataProvider;
+      _isRestDataProviderSet = true;
       return this;
     }
 
     /**
      * Specify the number of retries to execute before giving up on a request.
-     * @param retryPolicy  the policy to follow regarding retries
+     * 
+     * @param retryPolicy
+     *          the policy to follow regarding retries
      * @return this builder
      */
     public Builder withRetryPolicy(final RetryPolicy retryPolicy) {
@@ -80,6 +94,7 @@ public final class SessionOptions {
      */
     /**
      * Build an instance of QuandlOptions using the parameters in this builder instance.
+     * 
      * @return an instance of QuandlOptions
      */
     public SessionOptions build() {
@@ -89,6 +104,7 @@ public final class SessionOptions {
 
   /**
    * Get the Quandl auth token stored in this SessionOptions, or null if none was specified.
+   * 
    * @return the quandl API auth token String, or null if none was specified
    */
   public String getAuthToken() {
@@ -96,7 +112,8 @@ public final class SessionOptions {
   }
 
   /**
-   * Get the REST data provider to use when sending API requests to Quandl.
+   * @deprecated rest data provider now passed into session at creation. Get the REST data provider to use when sending API requests to
+   *             Quandl.
    * @return the REST data provider, not null
    */
   public RESTDataProvider getRESTDataProvider() {
@@ -104,8 +121,17 @@ public final class SessionOptions {
   }
 
   /**
-   * Get the RetryPolicy to use in determining retry behaviour when calls to Quandl fail.
-   * The default is a four stage back-off of 1 second, 5 seconds, 20 seconds and lastly 60 seconds.
+   * Was the REST data provider explicitly set? This allows us to preserve the behaviour of getRESTDataProvider in returning a default
+   * implementation when not set.
+   */
+  public boolean isRESTDataProviderSet() {
+    return _isRestDataProviderSet;
+  }
+
+  /**
+   * Get the RetryPolicy to use in determining retry behaviour when calls to Quandl fail. The default is a four stage back-off of 1 second,
+   * 5 seconds, 20 seconds and lastly 60 seconds.
+   * 
    * @return the RetryPolicy
    */
   public RetryPolicy getRetryPolicy() {

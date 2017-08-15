@@ -3,22 +3,25 @@ package com.jimmoores.quandl;
 import com.jimmoores.quandl.util.ArgumentChecker;
 
 /**
- * Class for representing a request for either a single column for a given Quandl code, or a request for all columns for a given Quandl code.
- * It is passed in as part of a MultiDataSetRequest to QuandlConnector.getMultipleDataSets().
+ * Class for representing a request for either a single column for a given Quandl code, or a request for all columns for a given Quandl
+ * code. It is passed in as part of a MultiDataSetRequest to QuandlConnector.getMultipleDataSets().
  */
 public final class QuandlCodeRequest {
   private final String _quandlCode;
   private final Integer _columnNumber;
-  
+
   private QuandlCodeRequest(final String quandlCode, final Integer columnNumber) {
     _quandlCode = quandlCode;
     _columnNumber = columnNumber;
   }
-  
+
   /**
    * Request just a single column for a given quandlCode.
-   * @param quandlCode the Quandl code you're interested in, not null
-   * @param columnNumber the column number (determined by meta-data or a single request) of the data you want, not null
+   * 
+   * @param quandlCode
+   *          the Quandl code you're interested in, not null
+   * @param columnNumber
+   *          the column number (determined by meta-data or a single request) of the data you want, not null
    * @return an request instance, not null
    */
   public static QuandlCodeRequest singleColumn(final String quandlCode, final int columnNumber) {
@@ -28,28 +31,30 @@ public final class QuandlCodeRequest {
 
   /**
    * Request all columns for a given quandlCode.
-   * @param quandlCode the Quandl code you're interested in, not null
+   * 
+   * @param quandlCode
+   *          the Quandl code you're interested in, not null
    * @return an request instance, not null
    */
   public static QuandlCodeRequest allColumns(final String quandlCode) {
     ArgumentChecker.notNull(quandlCode, "quandlCode");
     return new QuandlCodeRequest(quandlCode, null);
   }
-  
+
   /**
    * @return the quandl code, not null
    */
   public String getQuandlCode() {
     return _quandlCode;
   }
-  
+
   /**
    * @return the column number requested, or null if all columns were requested.
-   */  
+   */
   public Integer getColumnNumber() {
     return _columnNumber;
   }
-  
+
   /**
    * @return true if the request is for a single column
    */
@@ -101,5 +106,5 @@ public final class QuandlCodeRequest {
       return "QuandlCodeRequest[quandlCode=" + _quandlCode + ", all columns]";
     }
   }
-  
+
 }

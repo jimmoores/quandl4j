@@ -10,6 +10,7 @@ import com.jimmoores.quandl.QuandlCodeRequest;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.Row;
 import com.jimmoores.quandl.TabularResult;
+import com.jimmoores.quandl.v2.GenericQuandlSessionInterface;
 
 /**
  * Example 3a.

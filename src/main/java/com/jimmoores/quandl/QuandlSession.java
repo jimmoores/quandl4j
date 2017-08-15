@@ -31,25 +31,27 @@ import com.jimmoores.quandl.util.QuandlRequestFailedException;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.QuandlServiceUnavailableException;
 import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
+import com.jimmoores.quandl.util.RESTDataProvider;
 
 /**
- * Quandl session class.
- * Create an instance with either
+ * Quandl session class. Create an instance with either
+ * 
  * <pre>
- *   QuandlSession.of(SessionOptions.withAuthToken(AUTH_TOKEN));
+ * QuandlSession.of(SessionOptions.withAuthToken(AUTH_TOKEN));
  * </pre>
- * to use your API authorization token string, or use the API without a token, which may 
- * have lower rate/volume limits.
+ * 
+ * to use your API authorization token string, or use the API without a token, which may have lower rate/volume limits.
+ * 
  * <pre>
- *   QuandlSession.of();
+ * QuandlSession.of();
  * </pre>
+ * 
  * Then call one of the methods to fetch data!
  *
- * You can either invoke withDefaultRetentionPolicy() on the session or withFrequency() on the
- * DataSetRequest to hint the CacheManager whether it should load over the network or retrieve data from
- * the cache
+ * You can either invoke withDefaultRetentionPolicy() on the session or withFrequency() on the DataSetRequest to hint the CacheManager
+ * whether it should load over the network or retrieve data from the cache
  */
-public final class QuandlSession {
+public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, TabularResult, SearchResult> {
   private static final String JSON_TO_DATE_FIELD = "to_date";
   private static final String JSON_FROM_DATE_FIELD = "from_date";
   private static final String JSON_FREQUENCY_FIELD = "frequency";
@@ -64,22 +66,20 @@ public final class QuandlSession {
   private static Logger s_logger = LoggerFactory.getLogger(QuandlSession.class);
 
   private SessionOptions _sessionOptions;
-
-  /**
-   * the parameter name for the authorization token (aka Quandl API key).
-   */
-  public static final String AUTH_TOKEN_PARAM_NAME = "auth_token";
+  private RESTDataProvider _restDataProvider;
 
   private QuandlSession(final SessionOptions sessionOptions) {
     _sessionOptions = sessionOptions;
+    _restDataProvider = _sessionOptions.getRESTDataProvider();
   }
-  
+
   /**
-   * Create a Quandl session to use a specific authorization token (authToken) with 
-   * all requests.  Using a token means you can make more requests.  Note that this method does not
-   * check the quandl.auth.token property.  Creating this object does not make any actual API 
+   * Create a Quandl session to use a specific authorization token (authToken) with all requests. Using a token means you can make more
+   * requests. Note that this method does not check the quandl.auth.token property. Creating this object does not make any actual API
    * requests, the token is used in subsequent requests.
-   * @param authToken a Quandl API authorization token
+   * 
+   * @param authToken
+   *          a Quandl API authorization token
    * @return an instance of the Quandl session with an embedded authorization token
    */
   public static QuandlSession create(final String authToken) {
@@ -88,11 +88,11 @@ public final class QuandlSession {
   }
 
   /**
-   * Create a Quandl session without an authorization token (authToken).  An attempt will be made
-   * to read the java property <em>quandl.auth.token</em> and use that if available.  Any resulting
-   * SecurityException is logged at debug level, otherwise it is ignored and no auth token is used.
-   * Using a token means you can make more requests.  Note creating this object does not
-   * make any actual API requests, the token is used in subsequent requests.
+   * Create a Quandl session without an authorization token (authToken). An attempt will be made to read the java property
+   * <em>quandl.auth.token</em> and use that if available. Any resulting SecurityException is logged at debug level, otherwise it is ignored
+   * and no auth token is used. Using a token means you can make more requests. Note creating this object does not make any actual API
+   * requests, the token is used in subsequent requests.
+   * 
    * @return an instance of the Quandl session, not null.
    */
   public static QuandlSession create() {
@@ -102,35 +102,39 @@ public final class QuandlSession {
         return new QuandlSession(SessionOptions.Builder.withAuthToken(authToken).build());
       }
     } catch (SecurityException se) {
-      s_logger.debug("Error accessing system property " + QUANDL_AUTH_TOKEN_PROPERTY_NAME + ", falling back to not using an auth token", se);
+      s_logger.debug("Error accessing system property " + QUANDL_AUTH_TOKEN_PROPERTY_NAME + ", falling back to not using an auth token",
+          se);
     }
     return new QuandlSession(SessionOptions.Builder.withoutAuthToken().build());
   }
-  
+
   /**
-   * Create a Quandl session with detailed SessionOptions.  
-   * No attempt will be made to read the java property <em>quandl.auth.token</em> even if available.  
-   * Note creating this object does not make any actual API requests, the token is used in subsequent 
-   * requests.
-   * @param sessionOptions a user created SessionOptions instance, not null
+   * Create a Quandl session with detailed SessionOptions. No attempt will be made to read the java property <em>quandl.auth.token</em> even
+   * if available. Note creating this object does not make any actual API requests, the token is used in subsequent requests.
+   * 
+   * @param sessionOptions
+   *          a user created SessionOptions instance, not null
    * @return an instance of the Quandl session, not null
    */
   public static QuandlSession create(final SessionOptions sessionOptions) {
     ArgumentChecker.notNull(sessionOptions, "sessionOptions");
     return new QuandlSession(sessionOptions);
   }
-  
+
   /**
    * Allow the client to be overridden by a test subclass.
+   * 
    * @return a Jersey Client
    */
   protected Client getClient() {
     return ClientBuilder.newClient();
   }
-  
+
   /**
    * Add authorization token to the web target.
-   * @param target the web target
+   * 
+   * @param target
+   *          the web target
    */
   private WebTarget withAuthToken(final WebTarget target) {
     if (_sessionOptions.getAuthToken() != null) {
@@ -139,11 +143,11 @@ public final class QuandlSession {
       return target;
     }
   }
-  
-  /**
-   * Get a tabular data set from Quandl.
-   * @param request the request object containing details of what is required
-   * @return a TabularResult set
+
+  /*
+   * (non-Javadoc)
+   * 
+   * @see com.jimmoores.quandl.QuandlSessionInterface#getDataSet(com.jimmoores.quandl.DataSetRequest)
    */
   public TabularResult getDataSet(final DataSetRequest request) {
     ArgumentChecker.notNull(request, "request");
@@ -163,18 +167,18 @@ public final class QuandlSession {
           throw new QuandlRequestFailedException("Data request limit exceeded", qtmre);
         }
       } catch (QuandlServiceUnavailableException qsue) {
-        s_logger.debug("Quandl returned Service Not Available, retrying if appropriate");        
+        s_logger.debug("Quandl returned Service Not Available, retrying if appropriate");
       }
       // note checkRetries always returns true or throws an exception so we won't get tabularReponse == null
     } while (tabularResponse == null && _sessionOptions.getRetryPolicy().checkRetries(retries++));
 
     return tabularResponse;
   }
-  
-  /**
-   * Get meta data from Quandl about a particular quandlCode.
-   * @param request the request object containing details of what is required
-   * @return a MetaDataResult 
+
+  /*
+   * (non-Javadoc)
+   * 
+   * @see com.jimmoores.quandl.QuandlSessionInterface#getMetaData(com.jimmoores.quandl.MetaDataRequest)
    */
   public MetaDataResult getMetaData(final MetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
@@ -193,19 +197,18 @@ public final class QuandlSession {
           throw new QuandlRequestFailedException("Data request limit exceeded", qtmre);
         }
       } catch (QuandlServiceUnavailableException qsue) {
-        s_logger.debug("Quandl returned Service Not Available, retrying if appropriate");        
+        s_logger.debug("Quandl returned Service Not Available, retrying if appropriate");
       }
       // note checkRetries always returns true or throws an exception so we won't get object == null
     } while (object == null && _sessionOptions.getRetryPolicy().checkRetries(retries++));
     return MetaDataResult.of(object);
   }
-    
-  /**
-   * Get a multiple data sets from quandl and return as single tabular result.
-   * @param request the multi data set request object containing details of what is required
-   * @return a single TabularResult set containing all requested results
-   * @deprecated this call is provided for compatibility purposes and is deprecated, please use the single request mechanism
-   */  
+
+  /*
+   * (non-Javadoc)
+   * 
+   * @see com.jimmoores.quandl.QuandlSessionInterface#getDataSets(com.jimmoores.quandl.MultiDataSetRequest)
+   */
   public TabularResult getDataSets(final MultiDataSetRequest request) {
     final List<QuandlCodeRequest> quandlCodeRequests = request.getQuandlCodeRequests();
     final Map<QuandlCodeRequest, TabularResult> results = new LinkedHashMap<QuandlCodeRequest, TabularResult>();
@@ -237,13 +240,15 @@ public final class QuandlSession {
       try {
         tabularResult = getDataSet(dataSetRequest);
       } catch (final QuandlRuntimeException qre) {
-        s_logger.error("Exception processing request for {}, giving up and skipping.  Full request was {}", quandlCodeRequest.getQuandlCode(), dataSetRequest, qre);
+        s_logger.error("Exception processing request for {}, giving up and skipping.  Full request was {}",
+            quandlCodeRequest.getQuandlCode(), dataSetRequest, qre);
         continue;
       }
       if (tabularResult != null) {
         results.put(quandlCodeRequest, tabularResult);
       } else {
-        s_logger.error("Can't process request for {}, returned null.  Giving up and skipping.  Full request was {}", quandlCodeRequest.getQuandlCode(), dataSetRequest);
+        s_logger.error("Can't process request for {}, returned null.  Giving up and skipping.  Full request was {}",
+            quandlCodeRequest.getQuandlCode(), dataSetRequest);
       }
     }
     return mergeTables(results, request.getSortOrder());
@@ -263,7 +268,9 @@ public final class QuandlSession {
       resultTableWidth += table.getHeaderDefinition().size() - 1; // exclude the date column.
       final List<String> names = table.getHeaderDefinition().getColumnNames();
       final Iterator<String> iter = names.iterator();
-      if (!iter.hasNext()) { throw new QuandlRuntimeException("table has no columns, expected at least date"); }
+      if (!iter.hasNext()) {
+        throw new QuandlRuntimeException("table has no columns, expected at least date");
+      }
       iter.next(); // discard date column name
       while (iter.hasNext()) {
         final String colName = iter.next();
@@ -294,7 +301,8 @@ public final class QuandlSession {
             rows.put(date, bigRow);
           }
           for (int i = 1; i < row.size(); i++) {
-            bigRow[initialOffset.get(codeRequest) + (i - 1)] = row.getString(i); // (i-1 is becuase initialOffset index already includes initial 1 offset)
+            bigRow[initialOffset.get(codeRequest) + (i - 1)] = row.getString(i); // (i-1 is becuase initialOffset index already includes
+                                                                                 // initial 1 offset)
           }
           bigRow[0] = dateStr; // (re)write the date string at the start of the big table.
         }
@@ -308,11 +316,11 @@ public final class QuandlSession {
     }
     return TabularResult.of(headerDefinition, combinedRows);
   }
-  
-  /**
-   * Get meta data from Quandl about a range of quandlCodes returned as a single MetaDataResult.
-   * @param request the request object containing details of what is required
-   * @return a TabularResult set
+
+  /*
+   * (non-Javadoc)
+   * 
+   * @see com.jimmoores.quandl.QuandlSessionInterface#getMetaData(com.jimmoores.quandl.MultiMetaDataRequest)
    */
   public MetaDataResult getMetaData(final MultiMetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
@@ -343,14 +351,11 @@ public final class QuandlSession {
       throw new QuandlRuntimeException("Problem building JSON response", ex);
     }
   }
-  
-  /**
-   * Get header definitions from Quandl about a range of quandlCodes returned as a Map of Quandl code to HeaderDefinition.
-   * The keys of the map will retain the order of the request and are backed by an unmodifiable LinkedHashMap.
-   * Throws a QuandlRuntimeException if it can't find a parsable quandl code or Date column in the result.
-   * @deprecated this now uses single calls to simulate multisets to support legacy code
-   * @param request the request object containing details of what is required, not null
-   * @return an unmodifiable Map of Quandl codes to MetaDataResult for each code, keys ordered according to request, not null
+
+  /*
+   * (non-Javadoc)
+   * 
+   * @see com.jimmoores.quandl.QuandlSessionInterface#getMultipleHeaderDefinition(com.jimmoores.quandl.MultiMetaDataRequest)
    */
   public Map<String, HeaderDefinition> getMultipleHeaderDefinition(final MultiMetaDataRequest request) {
     final Map<String, HeaderDefinition> bulkMetaData = new LinkedHashMap<String, HeaderDefinition>();
@@ -365,11 +370,11 @@ public final class QuandlSession {
     }
     return bulkMetaData;
   }
-  
-  /**
-   * Get search results from Quandl.
-   * @param request the search query parameter, not null
-   * @return the search result, not null
+
+  /*
+   * (non-Javadoc)
+   * 
+   * @see com.jimmoores.quandl.QuandlSessionInterface#search(com.jimmoores.quandl.SearchRequest)
    */
   public SearchResult search(final SearchRequest request) {
     Client client = ClientBuilder.newClient();
@@ -387,10 +392,10 @@ public final class QuandlSession {
           throw new QuandlRequestFailedException("Data request limit exceeded", qtmre);
         }
       } catch (QuandlServiceUnavailableException qsue) {
-        s_logger.debug("Quandl returned Service Not Available, retrying if appropriate");        
+        s_logger.debug("Quandl returned Service Not Available, retrying if appropriate");
       }
       // note checkRetries always returns true or throws an exception so we won't get jsonReponse == null
-    } while (jsonResponse == null && _sessionOptions.getRetryPolicy().checkRetries(retries++)); 
+    } while (jsonResponse == null && _sessionOptions.getRetryPolicy().checkRetries(retries++));
     SearchResult searchResult = SearchResult.of(jsonResponse);
     return searchResult;
   }

@@ -5,6 +5,7 @@ import com.jimmoores.quandl.Frequency;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.Transform;
+import com.jimmoores.quandl.v2.GenericQuandlSessionInterface;
 
 /**
  * Example 2.

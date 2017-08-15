@@ -27,7 +27,6 @@ import au.com.bytecode.opencsv.CSVReader;
 import au.com.bytecode.opencsv.CSVWriter;
 
 import com.jimmoores.quandl.HeaderDefinition;
-import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.Row;
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
@@ -35,6 +34,7 @@ import com.jimmoores.quandl.util.QuandlServiceUnavailableException;
 import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 import com.jimmoores.quandl.util.QuandlUnprocessableEntityException;
 import com.jimmoores.quandl.util.RESTDataProvider;
+import com.jimmoores.quandl.v2.GenericQuandlSessionInterface;
 
 /**
  * RESTDataProvider that creates local file system copies of the files it gets
@@ -60,7 +60,7 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
    */
   public RecordingRESTDataProvider(final String apiKey) {
     if (apiKey != null) {
-      _apiKeyString = QuandlSession.AUTH_TOKEN_PARAM_NAME + "=" + apiKey + "&";
+      _apiKeyString = GenericQuandlSessionInterface.AUTH_TOKEN_PARAM_NAME + "=" + apiKey + "&";
     }
     File file;
     try {
@@ -79,7 +79,7 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
    */
   public RecordingRESTDataProvider(final File rootPath, final String apiKey) {
     if (apiKey != null) {
-      _apiKeyString = QuandlSession.AUTH_TOKEN_PARAM_NAME + "=" + apiKey;
+      _apiKeyString = GenericQuandlSessionInterface.AUTH_TOKEN_PARAM_NAME + "=" + apiKey;
     }
     initWriter(rootPath);
   }

@@ -15,6 +15,7 @@ import com.jimmoores.quandl.SearchResult;
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.Transform;
 import com.jimmoores.quandl.util.PrettyPrinter;
+import com.jimmoores.quandl.v2.GenericQuandlSessionInterface;
 
 /**
  * Demo using Quandl library.

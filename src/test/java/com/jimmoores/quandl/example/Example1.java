@@ -3,6 +3,7 @@ package com.jimmoores.quandl.example;
 import com.jimmoores.quandl.DataSetRequest;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.TabularResult;
+import com.jimmoores.quandl.v2.GenericQuandlSessionInterface;
 
 /**
  * Example 1.

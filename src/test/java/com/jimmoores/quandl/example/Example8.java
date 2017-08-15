@@ -4,6 +4,7 @@ import com.jimmoores.quandl.MetaDataResult;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.SearchRequest;
 import com.jimmoores.quandl.SearchResult;
+import com.jimmoores.quandl.v2.GenericQuandlSessionInterface;
 
 /**
  * Example 8.

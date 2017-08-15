@@ -19,40 +19,44 @@ public final class MultiMetaDataRequest {
   private static final String MULTI_SET_NAME = "multisets";
   private static final String EXCLUDE_DATA_PARAM = "start_date";
   private static final String INFINITE_FUTURE = "2100-01-01";
-  
+
   private List<String> _quandlCodes;
 
   private MultiMetaDataRequest(final List<String> quandlCodes) {
     _quandlCodes = Collections.unmodifiableList(new ArrayList<String>(quandlCodes));
   }
-  
+
   /**
    * Factory method to create a meta data request instance.
-   * @param quandlCodes the list of quandl codes for the meta data required, not null
+   * 
+   * @param quandlCodes
+   *          the list of quandl codes for the meta data required, not null
    * @return an instance of the MetaDataRequest for the given quandlCode, not null
    */
   public static MultiMetaDataRequest of(final List<String> quandlCodes) {
     ArgumentChecker.notNullOrEmpty(quandlCodes, "quandlCodes");
     return new MultiMetaDataRequest(quandlCodes);
   }
-  
+
   /**
    * Factory method to create a meta data request instance.
-   * @param quandlCodes the list of quandl codes for the meta data required (varargs), not null
+   * 
+   * @param quandlCodes
+   *          the list of quandl codes for the meta data required (varargs), not null
    * @return an instance of the MetaDataRequest for the given quandlCode, not null
    */
   public static MultiMetaDataRequest of(final String... quandlCodes) {
     ArgumentChecker.notNullOrEmpty(quandlCodes, "quandlCodes");
     return new MultiMetaDataRequest(Arrays.asList(quandlCodes));
   }
-  
+
   /**
    * @return the list of quandl codes contained in this request.
    */
   public List<String> getQuandlCodes() {
-	return _quandlCodes;
+    return _quandlCodes;
   }
-  
+
   private String buildCodeList(final List<String> quandlCodes) {
     StringBuilder sb = new StringBuilder();
     Iterator<String> iter = quandlCodes.iterator();
@@ -69,10 +73,12 @@ public final class MultiMetaDataRequest {
     }
     return sb.toString();
   }
-  
+
   /**
    * Append any specified parameters to the provided WebTarget.
-   * @param webTarget a web target used by the Jersey Client API, not null
+   * 
+   * @param webTarget
+   *          a web target used by the Jersey Client API, not null
    * @return the WebTarget with any path and query parameters appended, not null
    */
   public WebTarget appendPathAndQueryParameters(final WebTarget webTarget) {
@@ -84,7 +90,7 @@ public final class MultiMetaDataRequest {
     resultTarget = resultTarget.queryParam(EXCLUDE_DATA_PARAM, INFINITE_FUTURE);
     return resultTarget;
   }
-  
+
   @Override
   public int hashCode() {
     return _quandlCodes.hashCode();

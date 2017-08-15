@@ -10,9 +10,7 @@ import com.jimmoores.quandl.util.PrettyPrinter;
 /**
  * Represents a result in tabular form.
  */
-public final class TabularResult
-implements Iterable<Row> 
-{
+public final class TabularResult implements Iterable<Row> {
   /** definition of each column. */
   private HeaderDefinition _headerDefinition;
   /** list of rows. */
@@ -20,8 +18,11 @@ implements Iterable<Row>
 
   /**
    * Private constructor, use static factory {@code of()}.
-   * @param headerDefinition a list of the column headers
-   * @param rows a list of rows
+   * 
+   * @param headerDefinition
+   *          a list of the column headers
+   * @param rows
+   *          a list of rows
    */
   private TabularResult(final HeaderDefinition headerDefinition, final List<Row> rows) {
     _headerDefinition = headerDefinition;
@@ -30,8 +31,11 @@ implements Iterable<Row>
 
   /**
    * Create a tabular result set from a header definition and an ordered list of rows.
-   * @param headerDefinition the definition of the header row, not null
-   * @param rows a list of rows, not null
+   * 
+   * @param headerDefinition
+   *          the definition of the header row, not null
+   * @param rows
+   *          a list of rows, not null
    * @return the {@code TabularResult} instance
    */
   public static TabularResult of(final HeaderDefinition headerDefinition, final List<Row> rows) {
@@ -42,40 +46,45 @@ implements Iterable<Row>
 
   /**
    * Get the header definition.
+   * 
    * @return the header definition, not null
    */
   public HeaderDefinition getHeaderDefinition() {
     return _headerDefinition;
   }
-  
+
   /**
-   * Get a row, indexed from zero (excluding the header).
-   * Throws an {@code IndexOutOfBoundsException} {@literal if index >= size()} 
-   * @param index the index of the row
+   * Get a row, indexed from zero (excluding the header). Throws an {@code IndexOutOfBoundsException} {@literal if index >= size()}
+   * 
+   * @param index
+   *          the index of the row
    * @return the row, not null
    */
   public Row get(final int index) {
     return _rows.get(index);
   }
-  
+
   /**
    * Get the number of rows in this {@code TabularResult}.
+   * 
    * @return the number of rows
    */
   public int size() {
     return _rows.size();
   }
-  
+
   /**
    * Return whether the result set empty.
+   * 
    * @return true, if the result set is empty
    */
   public boolean isEmpty() {
     return _rows.isEmpty();
   }
-  
+
   /**
    * Gets a row iterator.
+   * 
    * @return an iterator over the rows
    */
   public Iterator<Row> iterator() {
@@ -122,9 +131,10 @@ implements Iterable<Row>
     builder.append("]");
     return builder.toString();
   }
-  
+
   /**
-   * Print a nicely formatted representation of this object.  Currently prints a nicely formatted ACSII table.
+   * Print a nicely formatted representation of this object. Currently prints a nicely formatted ACSII table.
+   * 
    * @return a string containing a multi-line description of this object
    */
   public String toPrettyPrintedString() {

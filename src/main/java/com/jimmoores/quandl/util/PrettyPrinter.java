@@ -29,29 +29,35 @@ public final class PrettyPrinter {
   }
 
   /**
-   * Pretty print a SearchResult as an indented piece of JSON code.
-   * Throws a QuandlRuntimeException if it can't render the nested JSONObject to a String.
-   * @param searchResult the searchResult, not null
+   * Pretty print a SearchResult as an indented piece of JSON code. Throws a QuandlRuntimeException if it can't render the nested JSONObject
+   * to a String.
+   * 
+   * @param searchResult
+   *          the searchResult, not null
    * @return a String representation of the object, probably multi-line.
-   */  
+   */
   public static String toPrettyPrintedString(final SearchResult searchResult) {
     return toPrettyPrintedString(searchResult.getRawJSON());
   }
-  
+
   /**
-   * Pretty print a MetaDataResult as an indented piece of JSON code.
-   * Throws a QuandlRuntimeException if it can't render the nested JSONObject to a String.
-   * @param metaDataResult the metaDataResult, not null
+   * Pretty print a MetaDataResult as an indented piece of JSON code. Throws a QuandlRuntimeException if it can't render the nested
+   * JSONObject to a String.
+   * 
+   * @param metaDataResult
+   *          the metaDataResult, not null
    * @return a String representation of the object, probably multi-line.
-   */  
+   */
   public static String toPrettyPrintedString(final MetaDataResult metaDataResult) {
     return toPrettyPrintedString(metaDataResult.getRawJSON());
   }
-  
+
   /**
-   * Pretty print a JSONObject as an indented piece of JSON code.
-   * Throws a QuandlRuntimeException if it can't render the JSONObject to a String.
-   * @param jsonObject the pre-parsed JSON object to pretty-print, not null
+   * Pretty print a JSONObject as an indented piece of JSON code. Throws a QuandlRuntimeException if it can't render the JSONObject to a
+   * String.
+   * 
+   * @param jsonObject
+   *          the pre-parsed JSON object to pretty-print, not null
    * @return a String representation of the object, probably multi-line.
    */
   public static String toPrettyPrintedString(final JSONObject jsonObject) {
@@ -63,11 +69,13 @@ public final class PrettyPrinter {
       throw new QuandlRuntimeException("Problem converting JSONObject to String", ex);
     }
   }
-  
+
   /**
-   * Pretty print a map of String to HeaderDefinition (see QuandlSession.getMultipleHeaderDefinition)
-   * Throws a QuandlRuntimeException if it can't render the JSONObject to a String.
-   * @param multiHeaderDefinitionResult the pre-parsed JSON object to pretty-print, not null
+   * Pretty print a map of String to HeaderDefinition (see QuandlSession.getMultipleHeaderDefinition) Throws a QuandlRuntimeException if it
+   * can't render the JSONObject to a String.
+   * 
+   * @param multiHeaderDefinitionResult
+   *          the pre-parsed JSON object to pretty-print, not null
    * @return a String representation of the object, probably multi-line.
    */
   public static String toPrettyPrintedString(final Map<String, HeaderDefinition> multiHeaderDefinitionResult) {
@@ -94,9 +102,12 @@ public final class PrettyPrinter {
     }
     return sb.toString();
   }
+
   /**
    * Pretty print a TabularResult in a text-based table format.
-   * @param result a TabularResult, not null
+   * 
+   * @param result
+   *          a TabularResult, not null
    * @return a String containing the table to be printed, not null.
    */
   public static String toPrettyPrintedString(final TabularResult result) {
@@ -106,14 +117,13 @@ public final class PrettyPrinter {
     separator(sb, maxWidths);
     header(sb, maxWidths, result.getHeaderDefinition());
     separator(sb, maxWidths);
-    for (final Row row : result)
-    {
+    for (final Row row : result) {
       row(sb, maxWidths, row);
     }
     separator(sb, maxWidths);
     return sb.toString();
   }
-  
+
   private static void separator(final StringBuilder sb, final int[] maxWidths) {
     for (int width : maxWidths) {
       sb.append("+");
@@ -122,7 +132,7 @@ public final class PrettyPrinter {
     sb.append("+");
     sb.append("\n");
   }
-  
+
   private static void row(final StringBuilder sb, final int[] maxWidths, final Row row) {
     int i = 0;
     for (int width : maxWidths) {
@@ -140,7 +150,7 @@ public final class PrettyPrinter {
     sb.append("|");
     sb.append("\n");
   }
-  
+
   private static void header(final StringBuilder sb, final int[] maxWidths, final HeaderDefinition headerDefinition) {
     Iterator<String> iterator = headerDefinition.iterator();
     for (int width : maxWidths) {
@@ -158,13 +168,13 @@ public final class PrettyPrinter {
     sb.append("|");
     sb.append("\n");
   }
-  
+
   private static String repeat(final int n, final char v) {
     char[] repeated = new char[n];
     Arrays.fill(repeated, v);
     return new String(repeated); // this removes the need for commons lang StringUtils.repeat dependency
   }
-  
+
   private static int[] maximumWidths(final TabularResult result) {
     HeaderDefinition headerDefinition = result.getHeaderDefinition();
     int[] maxWidths = new int[headerDefinition.size()];

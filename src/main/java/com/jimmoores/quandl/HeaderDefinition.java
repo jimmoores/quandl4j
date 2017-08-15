@@ -21,7 +21,7 @@ public final class HeaderDefinition {
   private static Logger s_logger = LoggerFactory.getLogger(HeaderDefinition.class);
   private final Map<String, Integer> _columnNamesToIndices = new LinkedHashMap<String, Integer>();
   private final List<String> _columnNames;
-  
+
   private HeaderDefinition(final List<String> columnNames) {
     _columnNames = new ArrayList<String>(columnNames);
     int i = 0;
@@ -47,49 +47,61 @@ public final class HeaderDefinition {
     }
 
   }
-  
+
   /**
-   * Create a RowDefinition.
-   * In rare situations, duplicates can occur.  These will be renamed so:
+   * Create a RowDefinition. In rare situations, duplicates can occur. These will be renamed so:
+   * 
    * <pre>
-   *   column, column, column, ... 
+   *   column, column, column, ...
    * </pre>
+   * 
    * becomes:
+   * 
    * <pre>
    *   column, column.1, column.2, ...
    * </pre>
-   * for lookup and display purposes.  A warning will be printed to the logger.
-   * @param columnNames a list of strings, each naming a column
+   * 
+   * for lookup and display purposes. A warning will be printed to the logger.
+   * 
+   * @param columnNames
+   *          a list of strings, each naming a column
    * @return the instance
    */
   public static HeaderDefinition of(final List<String> columnNames) {
     ArgumentChecker.notNull(columnNames, "columnNames");
     return new HeaderDefinition(columnNames);
-  }  
-  
+  }
+
   /**
-   * Create a RowDefinition when no type information is available.
-   * In rare situations, duplicates can occur.  These will be renamed so:
+   * Create a RowDefinition when no type information is available. In rare situations, duplicates can occur. These will be renamed so:
+   * 
    * <pre>
-   *   column, column, column, ... 
+   *   column, column, column, ...
    * </pre>
+   * 
    * becomes:
+   * 
    * <pre>
    *   column, column.1, column.2, ...
    * </pre>
-   * for lookup purposes.  A warning will be printed to the logger.
-   * @param columnNames a vararg array of strings, each naming a column
+   * 
+   * for lookup purposes. A warning will be printed to the logger.
+   * 
+   * @param columnNames
+   *          a vararg array of strings, each naming a column
    * @return the instance
    */
   public static HeaderDefinition of(final String... columnNames) {
     ArgumentChecker.notNull(columnNames, "columnNames");
     return new HeaderDefinition(Arrays.asList(columnNames));
-  }  
-  
+  }
+
   /**
-   * Get the column index of the named column (zero-based).  Throws IllegalArgumentException if column of provided name is not found.
+   * Get the column index of the named column (zero-based). Throws IllegalArgumentException if column of provided name is not found.
    * Repeated column names can be indexed as column, column.1, column.2, etc.
-   * @param columnName the name of the column
+   * 
+   * @param columnName
+   *          the name of the column
    * @return the column index
    * 
    */
@@ -100,25 +112,28 @@ public final class HeaderDefinition {
     }
     return index;
   }
-  
+
   /**
    * Get the number of columns in this header definition.
+   * 
    * @return the number of columns
    */
   public int size() {
     return _columnNames.size();
   }
-  
+
   /**
    * Get an iterator to return the names of all the columns in order.
+   * 
    * @return the iterator
    */
   public Iterator<String> iterator() {
     return getColumnNames().iterator();
   }
-  
+
   /**
    * Get an immutable copy of the list of column names.
+   * 
    * @return an immutable copy of the list of column names
    */
   public List<String> getColumnNames() {
@@ -151,7 +166,7 @@ public final class HeaderDefinition {
     }
     return true;
   }
-  
+
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
@@ -165,5 +180,5 @@ public final class HeaderDefinition {
     }
     sb.append("]");
     return sb.toString();
-  } 
+  }
 }
