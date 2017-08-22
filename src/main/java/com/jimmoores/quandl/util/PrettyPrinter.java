@@ -32,8 +32,7 @@ public final class PrettyPrinter {
    * Pretty print a SearchResult as an indented piece of JSON code. Throws a QuandlRuntimeException if it can't render the nested JSONObject
    * to a String.
    * 
-   * @param searchResult
-   *          the searchResult, not null
+   * @param searchResult the searchResult, not null
    * @return a String representation of the object, probably multi-line.
    */
   public static String toPrettyPrintedString(final SearchResult searchResult) {
@@ -44,8 +43,7 @@ public final class PrettyPrinter {
    * Pretty print a MetaDataResult as an indented piece of JSON code. Throws a QuandlRuntimeException if it can't render the nested
    * JSONObject to a String.
    * 
-   * @param metaDataResult
-   *          the metaDataResult, not null
+   * @param metaDataResult the metaDataResult, not null
    * @return a String representation of the object, probably multi-line.
    */
   public static String toPrettyPrintedString(final MetaDataResult metaDataResult) {
@@ -56,8 +54,7 @@ public final class PrettyPrinter {
    * Pretty print a JSONObject as an indented piece of JSON code. Throws a QuandlRuntimeException if it can't render the JSONObject to a
    * String.
    * 
-   * @param jsonObject
-   *          the pre-parsed JSON object to pretty-print, not null
+   * @param jsonObject the pre-parsed JSON object to pretty-print, not null
    * @return a String representation of the object, probably multi-line.
    */
   public static String toPrettyPrintedString(final JSONObject jsonObject) {
@@ -74,8 +71,7 @@ public final class PrettyPrinter {
    * Pretty print a map of String to HeaderDefinition (see QuandlSession.getMultipleHeaderDefinition) Throws a QuandlRuntimeException if it
    * can't render the JSONObject to a String.
    * 
-   * @param multiHeaderDefinitionResult
-   *          the pre-parsed JSON object to pretty-print, not null
+   * @param multiHeaderDefinitionResult the pre-parsed JSON object to pretty-print, not null
    * @return a String representation of the object, probably multi-line.
    */
   public static String toPrettyPrintedString(final Map<String, HeaderDefinition> multiHeaderDefinitionResult) {
@@ -106,8 +102,7 @@ public final class PrettyPrinter {
   /**
    * Pretty print a TabularResult in a text-based table format.
    * 
-   * @param result
-   *          a TabularResult, not null
+   * @param result a TabularResult, not null
    * @return a String containing the table to be printed, not null.
    */
   public static String toPrettyPrintedString(final TabularResult result) {

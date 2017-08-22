@@ -1,4 +1,4 @@
-package com.jimmoores.quandl.v2.util;
+package com.jimmoores.quandl.processing;
 
 import java.io.IOException;
 import java.io.InputStream;

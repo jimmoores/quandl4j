@@ -63,8 +63,7 @@ public final class HeaderDefinition {
    * 
    * for lookup and display purposes. A warning will be printed to the logger.
    * 
-   * @param columnNames
-   *          a list of strings, each naming a column
+   * @param columnNames a list of strings, each naming a column
    * @return the instance
    */
   public static HeaderDefinition of(final List<String> columnNames) {
@@ -87,8 +86,7 @@ public final class HeaderDefinition {
    * 
    * for lookup purposes. A warning will be printed to the logger.
    * 
-   * @param columnNames
-   *          a vararg array of strings, each naming a column
+   * @param columnNames a vararg array of strings, each naming a column
    * @return the instance
    */
   public static HeaderDefinition of(final String... columnNames) {
@@ -100,8 +98,7 @@ public final class HeaderDefinition {
    * Get the column index of the named column (zero-based). Throws IllegalArgumentException if column of provided name is not found.
    * Repeated column names can be indexed as column, column.1, column.2, etc.
    * 
-   * @param columnName
-   *          the name of the column
+   * @param columnName the name of the column
    * @return the column index
    * 
    */

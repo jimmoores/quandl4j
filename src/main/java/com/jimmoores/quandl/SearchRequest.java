@@ -59,8 +59,7 @@ public final class SearchRequest {
     /**
      * Factory method to create a meta data request instance. Use empty string to get all documents.
      * 
-     * @param query
-     *          an arbitrary query string, not null (note: can be empty string to get all documents)
+     * @param query an arbitrary query string, not null (note: can be empty string to get all documents)
      * @return an instance of this Builder for the given query string.
      * @deprecated use Builder().withQuery(query) instead
      */
@@ -73,8 +72,7 @@ public final class SearchRequest {
     /**
      * Specify the database to search within. For example WIKI
      * 
-     * @param databaseCode
-     *          the database code to search within.
+     * @param databaseCode the database code to search within.
      * @return this Builder, with this database code specified
      */
     public Builder withDatabaseCode(final String databaseCode) {
@@ -85,8 +83,7 @@ public final class SearchRequest {
     /**
      * Specify the search term to use for your query. Multiple search terms can be separated by the + character.
      * 
-     * @param query
-     *          the query string to use
+     * @param query the query string to use
      * @return this Builder, with this query added
      */
     public Builder withQuery(final String query) {
@@ -97,8 +94,7 @@ public final class SearchRequest {
     /**
      * Specify the page number of the results (1-based).
      * 
-     * @param pageNumber
-     *          the page number of the results, 1-based.
+     * @param pageNumber the page number of the results, 1-based.
      * @return this Builder, with the page number information added
      */
     public Builder withPageNumber(final int pageNumber) {
@@ -110,8 +106,7 @@ public final class SearchRequest {
      * Specify the maximum number of documents per page of results. Currently, this is limited to 100, but this library does not enforce
      * that in case the limit changes.
      * 
-     * @param maxDocsPerPage
-     *          the maximum number of documents per page (currently limited to 100 by API)
+     * @param maxDocsPerPage the maximum number of documents per page (currently limited to 100 by API)
      * @return this Builder, with the page number information added
      */
     public Builder withMaxPerPage(final int maxDocsPerPage) {
@@ -160,8 +155,7 @@ public final class SearchRequest {
   /**
    * Append any specified parameters to the provided WebTarget.
    * 
-   * @param webTarget
-   *          a web target used by the Jersey Client API, not null
+   * @param webTarget a web target used by the Jersey Client API, not null
    * @return the WebTarget with any path and query parameters appended
    */
   public WebTarget appendPathAndQueryParameters(final WebTarget webTarget) {

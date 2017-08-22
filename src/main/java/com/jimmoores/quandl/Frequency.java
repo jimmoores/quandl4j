@@ -1,5 +1,7 @@
 package com.jimmoores.quandl;
 
+import com.jimmoores.quandl.util.ArgumentChecker;
+
 /**
  * Enumerated type representing the frequency of data being requested.
  */
@@ -34,11 +36,10 @@ public enum Frequency {
   /**
    * Constructor to augment enum with correct quandl API string.
    * 
-   * @param quandlString
-   *          string to pass to Quandl REST API
+   * @param quandlString string to pass to Quandl REST API
    */
   Frequency(final String quandlString) {
-    // TODO: null check
+    ArgumentChecker.notNullOrEmpty(quandlString, "quandlString");
     _quandlString = quandlString;
   }
 

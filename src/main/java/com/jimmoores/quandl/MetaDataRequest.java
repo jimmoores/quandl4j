@@ -22,8 +22,7 @@ public final class MetaDataRequest {
   /**
    * Factory method to create a meta data request instance.
    * 
-   * @param quandlCode
-   *          the quandl code for the meta data required, not null
+   * @param quandlCode the quandl code for the meta data required, not null
    * @return an instance of the MetaDataRequest for the given quandlCode
    */
   public static MetaDataRequest of(final String quandlCode) {
@@ -41,8 +40,7 @@ public final class MetaDataRequest {
   /**
    * Append any specified parameters to the provided WebTarget.
    * 
-   * @param webTarget
-   *          a web target used by the Jersey Client API, not null
+   * @param webTarget a web target used by the Jersey Client API, not null
    * @return the WebTarget with any path and query parameters appended
    */
   public WebTarget appendPathAndQueryParameters(final WebTarget webTarget) {

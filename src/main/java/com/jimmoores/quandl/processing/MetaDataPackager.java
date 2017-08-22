@@ -1,4 +1,4 @@
-package com.jimmoores.quandl.v2;
+package com.jimmoores.quandl.processing;
 
 public interface MetaDataPackager<METADATA_TYPE, RAW_METADATA_TYPE, SEARCH_RESULT_TYPE> {
   METADATA_TYPE ofMetaData(RAW_METADATA_TYPE rawData);

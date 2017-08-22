@@ -11,8 +11,7 @@ public abstract class RetryPolicy {
   /**
    * Check if we should retry given current number of retries.
    * 
-   * @param retries
-   *          the current number of retries that have occurred
+   * @param retries the current number of retries that have occurred
    * @return true, if the caller should retry
    */
   public abstract boolean checkRetries(int retries);
@@ -29,10 +28,8 @@ public abstract class RetryPolicy {
   /**
    * Create a retry policy that retries a fixed number of times with a fixed interval.
    * 
-   * @param maxRetries
-   *          the maximum allowable number of retries
-   * @param backOffPeriod
-   *          the period to wait before retrying, in milliseconds
+   * @param maxRetries the maximum allowable number of retries
+   * @param backOffPeriod the period to wait before retrying, in milliseconds
    * @return the retry policy
    */
   public static RetryPolicy createFixedRetryPolicy(final int maxRetries, final long backOffPeriod) {
@@ -43,8 +40,7 @@ public abstract class RetryPolicy {
    * Create a retry policy that retries with a provided set of back off periods. This allows the user to perform an exponential backoff, for
    * example.
    * 
-   * @param backOffPeriods
-   *          an array of times to wait between retries, in milliseconds
+   * @param backOffPeriods an array of times to wait between retries, in milliseconds
    * @return the retry policy
    */
   public static RetryPolicy createSequenceRetryPolicy(final long[] backOffPeriods) {

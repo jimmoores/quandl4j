@@ -29,8 +29,7 @@ public final class MultiMetaDataRequest {
   /**
    * Factory method to create a meta data request instance.
    * 
-   * @param quandlCodes
-   *          the list of quandl codes for the meta data required, not null
+   * @param quandlCodes the list of quandl codes for the meta data required, not null
    * @return an instance of the MetaDataRequest for the given quandlCode, not null
    */
   public static MultiMetaDataRequest of(final List<String> quandlCodes) {
@@ -41,8 +40,7 @@ public final class MultiMetaDataRequest {
   /**
    * Factory method to create a meta data request instance.
    * 
-   * @param quandlCodes
-   *          the list of quandl codes for the meta data required (varargs), not null
+   * @param quandlCodes the list of quandl codes for the meta data required (varargs), not null
    * @return an instance of the MetaDataRequest for the given quandlCode, not null
    */
   public static MultiMetaDataRequest of(final String... quandlCodes) {
@@ -77,8 +75,7 @@ public final class MultiMetaDataRequest {
   /**
    * Append any specified parameters to the provided WebTarget.
    * 
-   * @param webTarget
-   *          a web target used by the Jersey Client API, not null
+   * @param webTarget a web target used by the Jersey Client API, not null
    * @return the WebTarget with any path and query parameters appended, not null
    */
   public WebTarget appendPathAndQueryParameters(final WebTarget webTarget) {

@@ -18,10 +18,8 @@ public final class QuandlCodeRequest {
   /**
    * Request just a single column for a given quandlCode.
    * 
-   * @param quandlCode
-   *          the Quandl code you're interested in, not null
-   * @param columnNumber
-   *          the column number (determined by meta-data or a single request) of the data you want, not null
+   * @param quandlCode the Quandl code you're interested in, not null
+   * @param columnNumber the column number (determined by meta-data or a single request) of the data you want, not null
    * @return an request instance, not null
    */
   public static QuandlCodeRequest singleColumn(final String quandlCode, final int columnNumber) {
@@ -32,8 +30,7 @@ public final class QuandlCodeRequest {
   /**
    * Request all columns for a given quandlCode.
    * 
-   * @param quandlCode
-   *          the Quandl code you're interested in, not null
+   * @param quandlCode the Quandl code you're interested in, not null
    * @return an request instance, not null
    */
   public static QuandlCodeRequest allColumns(final String quandlCode) {

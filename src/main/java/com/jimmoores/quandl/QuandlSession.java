@@ -26,6 +26,7 @@ import org.threeten.bp.LocalDate;
 import org.threeten.bp.chrono.ChronoLocalDate;
 
 import com.jimmoores.quandl.DataSetRequest.Builder;
+import com.jimmoores.quandl.generic.GenericQuandlSession;
 import com.jimmoores.quandl.util.ArgumentChecker;
 import com.jimmoores.quandl.util.QuandlRequestFailedException;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
@@ -34,6 +35,8 @@ import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 import com.jimmoores.quandl.util.RESTDataProvider;
 
 /**
+ * @deprecated use e.g. ClassicQuandlSession, StringQuandlSession or TableSawQuandlSession
+ * 
  * Quandl session class. Create an instance with either
  * 
  * <pre>
@@ -61,8 +64,6 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
   private static final String JSON_COLUMN_NAMES_FIELD = "column_names";
   private static final String DATE_COLUMN = "Date";
   private static final UriBuilder API_BASE_URL_V3 = UriBuilder.fromPath("https://www.quandl.com/api/v3");
-  private static final String QUANDL_AUTH_TOKEN_PROPERTY_NAME = "quandl.auth.token";
-
   private static Logger s_logger = LoggerFactory.getLogger(QuandlSession.class);
 
   private SessionOptions _sessionOptions;
@@ -78,8 +79,7 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
    * requests. Note that this method does not check the quandl.auth.token property. Creating this object does not make any actual API
    * requests, the token is used in subsequent requests.
    * 
-   * @param authToken
-   *          a Quandl API authorization token
+   * @param authToken a Quandl API authorization token
    * @return an instance of the Quandl session with an embedded authorization token
    */
   public static QuandlSession create(final String authToken) {
@@ -97,12 +97,12 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
    */
   public static QuandlSession create() {
     try {
-      String authToken = System.getProperty(QUANDL_AUTH_TOKEN_PROPERTY_NAME);
+      String authToken = System.getProperty(GenericQuandlSession.QUANDL_AUTH_TOKEN_PROPERTY_NAME);
       if (authToken != null) {
         return new QuandlSession(SessionOptions.Builder.withAuthToken(authToken).build());
       }
     } catch (SecurityException se) {
-      s_logger.debug("Error accessing system property " + QUANDL_AUTH_TOKEN_PROPERTY_NAME + ", falling back to not using an auth token",
+      s_logger.debug("Error accessing system property " + GenericQuandlSession.QUANDL_AUTH_TOKEN_PROPERTY_NAME + ", falling back to not using an auth token",
           se);
     }
     return new QuandlSession(SessionOptions.Builder.withoutAuthToken().build());
@@ -112,8 +112,7 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
    * Create a Quandl session with detailed SessionOptions. No attempt will be made to read the java property <em>quandl.auth.token</em> even
    * if available. Note creating this object does not make any actual API requests, the token is used in subsequent requests.
    * 
-   * @param sessionOptions
-   *          a user created SessionOptions instance, not null
+   * @param sessionOptions a user created SessionOptions instance, not null
    * @return an instance of the Quandl session, not null
    */
   public static QuandlSession create(final SessionOptions sessionOptions) {
@@ -133,8 +132,7 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
   /**
    * Add authorization token to the web target.
    * 
-   * @param target
-   *          the web target
+   * @param target the web target
    */
   private WebTarget withAuthToken(final WebTarget target) {
     if (_sessionOptions.getAuthToken() != null) {

@@ -36,8 +36,7 @@ public final class MetaDataResult {
   /**
    * Factory method for creating and instance of a MetaDataResult.
    * 
-   * @param jsonObject
-   *          the JSON object returned by Quandl, not null
+   * @param jsonObject the JSON object returned by Quandl, not null
    * @return a MetaDataResult instance, not null
    */
   public static MetaDataResult of(final JSONObject jsonObject) {
@@ -84,8 +83,7 @@ public final class MetaDataResult {
   /**
    * Get a String field. Throws a QuandlRuntimeException if it cannot find the field
    * 
-   * @param fieldName
-   *          the name of the field
+   * @param fieldName the name of the field
    * @return the field value, or null if the field is null
    */
   public String getString(final String fieldName) {
@@ -99,8 +97,7 @@ public final class MetaDataResult {
   /**
    * Get a LocalDate field (converted from a String internally). Throws a QuandlRuntimeException if it cannot find the field
    * 
-   * @param fieldName
-   *          the name of the field
+   * @param fieldName the name of the field
    * @return the field value, or null if the field is null
    */
   public LocalDate getLocalDate(final String fieldName) {
@@ -118,8 +115,7 @@ public final class MetaDataResult {
   /**
    * Get a LocalDate field (converted from a String internally). Throws a QuandlRuntimeException if it cannot find the field
    * 
-   * @param fieldName
-   *          the name of the field
+   * @param fieldName the name of the field
    * @return the field value, or null if the field is null
    */
   public OffsetDateTime getOffsetDateTime(final String fieldName) {
@@ -137,8 +133,7 @@ public final class MetaDataResult {
   /**
    * Return whether a field is present.
    * 
-   * @param fieldName
-   *          the name of the field
+   * @param fieldName the name of the field
    * @return true, if the field is present
    */
   public boolean has(final String fieldName) {
@@ -149,8 +144,7 @@ public final class MetaDataResult {
    * Get a Double field. This attempts to work around the stupid NaN is null behavior by explicitly testing for null. Throws a
    * QuandlRuntimeException if it cannot find the field
    * 
-   * @param fieldName
-   *          the name of the field
+   * @param fieldName the name of the field
    * @return the field value, or null if the field is null
    */
   public Double getDouble(final String fieldName) {

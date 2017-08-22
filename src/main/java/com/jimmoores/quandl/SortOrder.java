@@ -18,8 +18,7 @@ public enum SortOrder {
   /**
    * Enum constructor allowing the specification of the appropriate Quandl API string to be passed to the REST request.
    * 
-   * @param quandlString
-   *          the string to pass to the Quandl REST API
+   * @param quandlString the string to pass to the Quandl REST API
    */
   SortOrder(final String quandlString) {
     _quandlString = quandlString;

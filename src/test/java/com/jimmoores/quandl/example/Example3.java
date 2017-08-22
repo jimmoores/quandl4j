@@ -7,7 +7,7 @@ import com.jimmoores.quandl.MultiDataSetRequest;
 import com.jimmoores.quandl.QuandlCodeRequest;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.TabularResult;
-import com.jimmoores.quandl.v2.GenericQuandlSessionInterface;
+import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 
 /**
  * Example 3.

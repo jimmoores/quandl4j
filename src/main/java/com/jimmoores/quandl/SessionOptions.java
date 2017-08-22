@@ -43,8 +43,7 @@ public final class SessionOptions {
     /**
      * Specify a specific auth token.
      * 
-     * @param authToken
-     *          your auth token
+     * @param authToken your auth token
      * @return a Builder object for chaining, call build() to complete
      */
     public static Builder withAuthToken(final String authToken) {
@@ -65,8 +64,7 @@ public final class SessionOptions {
      * Specify a custom RESTDataProvider for the session to use when sending requests, intended for testing purposes.
      * 
      * @deprecated you should pass this into the QuandlSessionFactory instead
-     * @param restDataProvider
-     *          a RESTDataProvider for the session
+     * @param restDataProvider a RESTDataProvider for the session
      * @return this builder
      */
     public Builder withRESTDataProvider(final RESTDataProvider restDataProvider) {
@@ -79,8 +77,7 @@ public final class SessionOptions {
     /**
      * Specify the number of retries to execute before giving up on a request.
      * 
-     * @param retryPolicy
-     *          the policy to follow regarding retries
+     * @param retryPolicy the policy to follow regarding retries
      * @return this builder
      */
     public Builder withRetryPolicy(final RetryPolicy retryPolicy) {

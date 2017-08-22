@@ -19,10 +19,8 @@ public final class TabularResult implements Iterable<Row> {
   /**
    * Private constructor, use static factory {@code of()}.
    * 
-   * @param headerDefinition
-   *          a list of the column headers
-   * @param rows
-   *          a list of rows
+   * @param headerDefinition a list of the column headers
+   * @param rows a list of rows
    */
   private TabularResult(final HeaderDefinition headerDefinition, final List<Row> rows) {
     _headerDefinition = headerDefinition;
@@ -32,10 +30,8 @@ public final class TabularResult implements Iterable<Row> {
   /**
    * Create a tabular result set from a header definition and an ordered list of rows.
    * 
-   * @param headerDefinition
-   *          the definition of the header row, not null
-   * @param rows
-   *          a list of rows, not null
+   * @param headerDefinition the definition of the header row, not null
+   * @param rows a list of rows, not null
    * @return the {@code TabularResult} instance
    */
   public static TabularResult of(final HeaderDefinition headerDefinition, final List<Row> rows) {
@@ -56,8 +52,7 @@ public final class TabularResult implements Iterable<Row> {
   /**
    * Get a row, indexed from zero (excluding the header). Throws an {@code IndexOutOfBoundsException} {@literal if index >= size()}
    * 
-   * @param index
-   *          the index of the row
+   * @param index the index of the row
    * @return the row, not null
    */
   public Row get(final int index) {

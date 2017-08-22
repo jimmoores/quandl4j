@@ -15,10 +15,8 @@ public class QuandlTooManyRequestsException extends QuandlRuntimeException {
   /**
    * Constructor when another exception is being included.
    * 
-   * @param message
-   *          a message describing the exception, not null
-   * @param cause
-   *          the cause of the exception if there is one, not null
+   * @param message a message describing the exception, not null
+   * @param cause the cause of the exception if there is one, not null
    */
   public QuandlTooManyRequestsException(final String message, final Throwable cause) {
     super(message, cause);
@@ -27,8 +25,7 @@ public class QuandlTooManyRequestsException extends QuandlRuntimeException {
   /**
    * Constructor when exception is not caused by an underlying exception.
    * 
-   * @param message
-   *          a message describing the exception, not null
+   * @param message a message describing the exception, not null
    */
   public QuandlTooManyRequestsException(final String message) {
     super(message);
@@ -37,14 +34,12 @@ public class QuandlTooManyRequestsException extends QuandlRuntimeException {
   /**
    * Constructor when exception is not caused by an underlying exception.
    * 
-   * @param message
-   *          a message describing the exception, not null
-   * @param retryAfter
-   *          the number of seconds the server has told the client to retry after, or null if not available
-   * @param rateLimitLimit
-   *          the server reported total number of requests allowed in this session in total (presumably one day), or null if not available
-   * @param rateLimitRemaining
-   *          the server reported remaining number of requests allowed in this session (presumably reset each day), or null if not available
+   * @param message a message describing the exception, not null
+   * @param retryAfter the number of seconds the server has told the client to retry after, or null if not available
+   * @param rateLimitLimit the server reported total number of requests allowed in this session in total (presumably one day), or null if
+   *          not available
+   * @param rateLimitRemaining the server reported remaining number of requests allowed in this session (presumably reset each day), or null
+   *          if not available
    */
   public QuandlTooManyRequestsException(final String message, final Long retryAfter, final Long rateLimitLimit,
       final Long rateLimitRemaining) {
@@ -57,16 +52,13 @@ public class QuandlTooManyRequestsException extends QuandlRuntimeException {
   /**
    * Constructor when exception is caused by an underlying exception.
    * 
-   * @param message
-   *          a message describing the exception, not null
-   * @param retryAfter
-   *          the number of seconds the server has told the client to retry after, or null if not available
-   * @param rateLimitLimit
-   *          the server reported total number of requests allowed in this session in total (presumably one day), or null if not available
-   * @param rateLimitRemaining
-   *          the server reported remaining number of requests allowed in this session (presumably reset each day), or null if not available
-   * @param cause
-   *          the cause of the exception if there is one, not null
+   * @param message a message describing the exception, not null
+   * @param retryAfter the number of seconds the server has told the client to retry after, or null if not available
+   * @param rateLimitLimit the server reported total number of requests allowed in this session in total (presumably one day), or null if
+   *          not available
+   * @param rateLimitRemaining the server reported remaining number of requests allowed in this session (presumably reset each day), or null
+   *          if not available
+   * @param cause the cause of the exception if there is one, not null
    */
   public QuandlTooManyRequestsException(final String message, final Long retryAfter, final Long rateLimitLimit,
       final Long rateLimitRemaining, Throwable cause) {

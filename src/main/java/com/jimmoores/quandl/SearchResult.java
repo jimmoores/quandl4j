@@ -30,8 +30,7 @@ public final class SearchResult {
   /**
    * Factory method for creating and instance of a MetaDataResult.
    * 
-   * @param jsonObject
-   *          the JSON object returned by Quandl, not null
+   * @param jsonObject the JSON object returned by Quandl, not null
    * @return a MetaDataResult instance, not null
    */
   public static SearchResult of(final JSONObject jsonObject) {

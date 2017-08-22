@@ -1,4 +1,4 @@
-package com.jimmoores.quandl.v2.util;
+package com.jimmoores.quandl.processing.classic;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,6 +10,7 @@ import java.util.List;
 import com.jimmoores.quandl.HeaderDefinition;
 import com.jimmoores.quandl.Row;
 import com.jimmoores.quandl.TabularResult;
+import com.jimmoores.quandl.processing.ResponseProcessor;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 
 import au.com.bytecode.opencsv.CSVReader;

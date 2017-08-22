@@ -1,4 +1,4 @@
-package com.jimmoores.quandl.v2;
+package com.jimmoores.quandl.generic;
 
 import com.jimmoores.quandl.DataSetRequest;
 import com.jimmoores.quandl.MetaDataRequest;
@@ -13,8 +13,7 @@ public interface GenericQuandlSessionInterface<METADATA_TYPE, TABLE_TYPE, SEARCH
   /**
    * Get a tabular data set from Quandl.
    * 
-   * @param request
-   *          the request object containing details of what is required
+   * @param request the request object containing details of what is required
    * @return a TabularResult set
    */
   TABLE_TYPE getDataSet(DataSetRequest request);
@@ -22,8 +21,7 @@ public interface GenericQuandlSessionInterface<METADATA_TYPE, TABLE_TYPE, SEARCH
   /**
    * Get meta data from Quandl about a particular quandlCode.
    * 
-   * @param request
-   *          the request object containing details of what is required
+   * @param request the request object containing details of what is required
    * @return a MetaDataResult
    */
   METADATA_TYPE getMetaData(MetaDataRequest request);
@@ -31,8 +29,7 @@ public interface GenericQuandlSessionInterface<METADATA_TYPE, TABLE_TYPE, SEARCH
   /**
    * Get search results from Quandl.
    * 
-   * @param request
-   *          the search query parameter, not null
+   * @param request the search query parameter, not null
    * @return the search result, not null
    */
   SEARCH_TYPE search(SearchRequest request);

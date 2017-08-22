@@ -24,7 +24,7 @@ import com.jimmoores.quandl.util.ArgumentChecker;
  * The resulting object should be passed into one of the methods in the QuandlConnector class. If anything is not specified, it will not be
  * included in the request and so the results will reflect the default Quandl behavior (e.g. all columns, no row limits, etc).
  */
-public final class DataSetRequest {
+public class DataSetRequest {
   private static final String START_DATE_PARAM = "start_date";
   private static final String END_DATE_PARAM = "end_date";
   private static final String COLUMN_INDEX_PARAM = "column_index";
@@ -74,7 +74,7 @@ public final class DataSetRequest {
   /**
    * Inner builder class. Create an instance using of("QUANDL/CODE"), call any other methods you need, and finish by calling build().
    */
-  public static final class Builder {
+  public static class Builder {
     private final String _quandlCode;
     private LocalDate _startDate;
     private LocalDate _endDate;
@@ -91,8 +91,7 @@ public final class DataSetRequest {
     /**
      * Create the base DataSetRequest object passing in the Quandl code.
      * 
-     * @param quandlCode
-     *          the quandl code for the data you're interested in, not null
+     * @param quandlCode the quandl code for the data you're interested in, not null
      * @return a Builder instance, not null
      */
     public static Builder of(final String quandlCode) {
@@ -103,8 +102,7 @@ public final class DataSetRequest {
     /**
      * Optionally specify a start date cut-off for the request.
      * 
-     * @param startDate
-     *          the start date of the request (inclusive), not null
+     * @param startDate the start date of the request (inclusive), not null
      * @return a Builder instance, not null
      */
     public Builder withStartDate(final LocalDate startDate) {
@@ -116,8 +114,7 @@ public final class DataSetRequest {
     /**
      * Optionally specify an end date cut-off for the request.
      * 
-     * @param endDate
-     *          the end date of the request (inclusive), not null
+     * @param endDate the end date of the request (inclusive), not null
      * @return a Builder instance, not null
      */
     public Builder withEndDate(final LocalDate endDate) {
@@ -129,8 +126,7 @@ public final class DataSetRequest {
     /**
      * Optionally specify a specific column for the request. This can only be used once per request.
      * 
-     * @param columnIndex
-     *          the zero-based column index being requested
+     * @param columnIndex the zero-based column index being requested
      * @return a Builder instance, not null
      */
     public Builder withColumn(final int columnIndex) {
@@ -141,8 +137,7 @@ public final class DataSetRequest {
     /**
      * Optionally specify the sampling frequency for the request.
      * 
-     * @param frequency
-     *          the sampling frequency, not null
+     * @param frequency the sampling frequency, not null
      * @return a Builder instance, not null
      */
     public Builder withFrequency(final Frequency frequency) {
@@ -154,8 +149,7 @@ public final class DataSetRequest {
     /**
      * Optionally specify the maximum number of rows that should be returns for the request.
      * 
-     * @param maxRows
-     *          the maximum number of rows that the server should return from the request
+     * @param maxRows the maximum number of rows that the server should return from the request
      * @return a Builder instance, not null
      */
     public Builder withMaxRows(final int maxRows) {
@@ -166,8 +160,7 @@ public final class DataSetRequest {
     /**
      * Optionally specify a data transformation function for the request.
      * 
-     * @param transform
-     *          the data transformation method that the server should pre-process the data with
+     * @param transform the data transformation method that the server should pre-process the data with
      * @return a Builder instance, not null
      */
     public Builder withTransform(final Transform transform) {
@@ -179,8 +172,7 @@ public final class DataSetRequest {
     /**
      * Optionally specify the sort order of the results.
      * 
-     * @param sortOrder
-     *          the sort order of the results
+     * @param sortOrder the sort order of the results
      * @return a Builder object onto which you can chain additional calls
      */
     public Builder withSortOrder(final SortOrder sortOrder) {
@@ -202,8 +194,7 @@ public final class DataSetRequest {
   /**
    * Append any specified parameters to the provided WebTarget.
    * 
-   * @param webTarget
-   *          a web target used by the Jersey Client API
+   * @param webTarget a web target used by the Jersey Client API
    * @return the WebTarget with any path and query parameters appended
    */
   public WebTarget appendPathAndQueryParameters(final WebTarget webTarget) {

@@ -1,4 +1,4 @@
-package com.jimmoores.quandl.v2.util;
+package com.jimmoores.quandl.processing;
 
 import javax.ws.rs.client.WebTarget;
 
@@ -25,8 +25,7 @@ public interface GenericRESTDataProvider<RAW_METADATA_TYPE, TABLE_TYPE> {
    * Invoke a GET call on the web target and return the result as a parsed JSON object. Throws a QuandlRuntimeException if there was a CSV
    * parsing problem or response code was not OK
    * 
-   * @param target
-   *          the WebTarget describing the call to make, not null
+   * @param target the WebTarget describing the call to make, not null
    * @return the parsed JSON object
    */
   public abstract RAW_METADATA_TYPE getJSONResponse(final WebTarget target);
@@ -35,8 +34,7 @@ public interface GenericRESTDataProvider<RAW_METADATA_TYPE, TABLE_TYPE> {
    * Invoke a GET call on the web target and return the result as a TabularResult (parsed CSV). Throws a QuandlRuntimeException if there was
    * a JSON parsing problem, network issue or response code was not OK
    * 
-   * @param target
-   *          the WebTarget describing the call to make, not null
+   * @param target the WebTarget describing the call to make, not null
    * @return the parsed TabularResult
    */
   public abstract TABLE_TYPE getTabularResponse(final WebTarget target);

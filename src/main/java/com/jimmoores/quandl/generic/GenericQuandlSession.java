@@ -1,4 +1,4 @@
-package com.jimmoores.quandl.v2;
+package com.jimmoores.quandl.generic;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -12,11 +12,12 @@ import com.jimmoores.quandl.DataSetRequest;
 import com.jimmoores.quandl.MetaDataRequest;
 import com.jimmoores.quandl.SearchRequest;
 import com.jimmoores.quandl.SessionOptions;
+import com.jimmoores.quandl.processing.GenericRESTDataProvider;
+import com.jimmoores.quandl.processing.MetaDataPackager;
 import com.jimmoores.quandl.util.ArgumentChecker;
 import com.jimmoores.quandl.util.QuandlRequestFailedException;
 import com.jimmoores.quandl.util.QuandlServiceUnavailableException;
 import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
-import com.jimmoores.quandl.v2.util.GenericRESTDataProvider;
 
 /**
  * Quandl session class. Create an instance with either
@@ -46,6 +47,8 @@ public class GenericQuandlSession<METADATA_TYPE, RAW_METADATA_TYPE, TABLE_TYPE, 
   private GenericRESTDataProvider<RAW_METADATA_TYPE, TABLE_TYPE> _restDataProvider;
   private MetaDataPackager<METADATA_TYPE, RAW_METADATA_TYPE, SEARCH_RESULT_TYPE> _metaDataPackager;
 
+  public static final String QUANDL_AUTH_TOKEN_PROPERTY_NAME = "quandl.auth.token";
+
   public GenericQuandlSession(final SessionOptions sessionOptions,
       final GenericRESTDataProvider<RAW_METADATA_TYPE, TABLE_TYPE> restDataProvider,
       final MetaDataPackager<METADATA_TYPE, RAW_METADATA_TYPE, SEARCH_RESULT_TYPE> metaDataPackager) {
@@ -66,8 +69,7 @@ public class GenericQuandlSession<METADATA_TYPE, RAW_METADATA_TYPE, TABLE_TYPE, 
   /**
    * Add authorization token to the web target.
    * 
-   * @param target
-   *          the web target
+   * @param target the web target
    */
   private WebTarget withAuthToken(final WebTarget target) {
     if (_sessionOptions.getAuthToken() != null) {

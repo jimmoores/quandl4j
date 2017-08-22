@@ -26,9 +26,9 @@ import au.com.bytecode.opencsv.CSVReader;
 import com.jimmoores.quandl.HeaderDefinition;
 import com.jimmoores.quandl.Row;
 import com.jimmoores.quandl.TabularResult;
+import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.RESTDataProvider;
-import com.jimmoores.quandl.v2.GenericQuandlSessionInterface;
 
 /**
  * RESTDataProvider that creates local file system copies of the files it gets

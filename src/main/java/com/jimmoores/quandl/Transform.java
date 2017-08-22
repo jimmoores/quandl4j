@@ -30,8 +30,7 @@ public enum Transform {
   /**
    * Create a transform enum with the appropriate quandl REST parameter string embedded.
    * 
-   * @param quandlString
-   *          the Quandl REST API string
+   * @param quandlString the Quandl REST API string
    */
   Transform(final String quandlString) {
     _quandlString = quandlString;

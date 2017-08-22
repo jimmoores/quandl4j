@@ -10,10 +10,8 @@ public class QuandlServiceUnavailableException extends QuandlRuntimeException {
   /**
    * Constructor when another exception is being included.
    * 
-   * @param message
-   *          a message describing the exception, not null
-   * @param cause
-   *          the cause of the expection if there is one, not null
+   * @param message a message describing the exception, not null
+   * @param cause the cause of the expection if there is one, not null
    */
   public QuandlServiceUnavailableException(final String message, final Throwable cause) {
     super(message, cause);
@@ -22,8 +20,7 @@ public class QuandlServiceUnavailableException extends QuandlRuntimeException {
   /**
    * Constructor when exception is not caused by an underlying exception.
    * 
-   * @param message
-   *          a message describing the exception, not null
+   * @param message a message describing the exception, not null
    */
   public QuandlServiceUnavailableException(final String message) {
     super(message);

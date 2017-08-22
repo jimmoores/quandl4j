@@ -3,7 +3,7 @@ package com.jimmoores.quandl.util;
 import org.json.JSONObject;
 
 import com.jimmoores.quandl.TabularResult;
-import com.jimmoores.quandl.v2.util.GenericRESTDataProvider;
+import com.jimmoores.quandl.processing.GenericRESTDataProvider;
 
 /**
  * @deprecated use RESTDataProviderInterface with appropriate types An interface for abstracting the detail of getting a result object from

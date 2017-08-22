@@ -5,8 +5,8 @@ import javax.ws.rs.client.WebTarget;
 import org.json.JSONObject;
 
 import com.jimmoores.quandl.TabularResult;
-import com.jimmoores.quandl.v2.util.AbstractRESTDataProvider;
-import com.jimmoores.quandl.v2.util.JSONTabularResultRESTDataProvider;
+import com.jimmoores.quandl.processing.AbstractRESTDataProvider;
+import com.jimmoores.quandl.processing.classic.JSONTabularResultRESTDataProvider;
 
 /**
  * @deprecated use JSONTabularResultRESTDataProvider for equivalent functionality, name became misleading with new data types. Utility
@@ -22,8 +22,7 @@ public final class DefaultRESTDataProvider extends AbstractRESTDataProvider<JSON
    * response code indicating the client had made too many requests Throws a QuandlRuntimeException if there was a CSV parsing problem or
    * response code was unusual
    * 
-   * @param target
-   *          the WebTarget describing the call to make, not null
+   * @param target the WebTarget describing the call to make, not null
    * @return the parsed JSON object
    */
   public JSONObject getJSONResponse(final WebTarget target) {
@@ -36,8 +35,7 @@ public final class DefaultRESTDataProvider extends AbstractRESTDataProvider<JSON
    * response code indicating the client had made too many requests Throws a QuandlRuntimeException if there was a JSON parsing problem,
    * network issue or response code was unusual
    * 
-   * @param target
-   *          the WebTarget describing the call to make, not null
+   * @param target the WebTarget describing the call to make, not null
    * @return the parsed TabularResult
    */
   public TabularResult getTabularResponse(final WebTarget target) {
