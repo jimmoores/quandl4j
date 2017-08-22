@@ -134,6 +134,9 @@ public final class Row {
 
   /**
    * Create row with new header.
+   * 
+   * @param headerDefinition  the header definition
+   * @return a new Row with the new header definition
    */
   public Row withPaddedHeader(final HeaderDefinition headerDefinition) {
     if (_headerDefinition != headerDefinition) {

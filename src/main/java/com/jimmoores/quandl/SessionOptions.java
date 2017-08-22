@@ -120,6 +120,8 @@ public final class SessionOptions {
   /**
    * Was the REST data provider explicitly set? This allows us to preserve the behaviour of getRESTDataProvider in returning a default
    * implementation when not set.
+   * 
+   * @return true, if the REST data provider was explicitly set
    */
   public boolean isRESTDataProviderSet() {
     return _isRestDataProviderSet;
