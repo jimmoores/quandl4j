@@ -35,7 +35,6 @@ public class JSONTabularResultRESTDataProvider extends AbstractRESTDataProvider<
    * @param target the WebTarget describing the call to make, not null
    * @return the parsed TabularResult
    */
-  @SuppressWarnings("resource")
   public TabularResult getTabularResponse(final WebTarget target) {
     return getResponse(target, TABULAR_RESULT_RESPONSE_PROCESSOR);
   }
