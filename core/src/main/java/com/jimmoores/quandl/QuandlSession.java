@@ -67,6 +67,8 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
   private static Logger s_logger = LoggerFactory.getLogger(QuandlSession.class);
 
   private SessionOptions _sessionOptions;
+  @SuppressWarnings("unused")
+  private RESTDataProvider _restDataProvider;
 
   private QuandlSession(final SessionOptions sessionOptions) {
     _sessionOptions = sessionOptions;
