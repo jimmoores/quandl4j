@@ -1,0 +1,33 @@
+{
+  "code": "KWKAQ_Q",
+  "column_names": [
+    "PER_END_DATE",
+    "AS_OF",
+    "EPS_MEAN_EST",
+    "EPS_MEAN_EST_7D_AGO",
+    "EPS_MEAN_EST_30D_AGO",
+    "EPS_MEAN_EST_60D_AGO",
+    "EPS_MEAN_EST_90D_AGO",
+    "EPS_PCT_CHG_EST_7D_AGO",
+    "PER_CODE",
+    "PER_FISC_YEAR",
+    "PER_FISC_QTR",
+    "PER_CAL_YEAR",
+    "PER_CAL_QTR"
+  ],
+  "description": "\n<p>Quarterly Consensus Earnings Trends for Quicksilver Resources Inc. (KWKAQ) per Zacks Research.<\/p>\n<p><b>Currency:<\/b> USD<\/p>\n<p><b>PER_END_DATE<\/b>: Corresponds to the last day of the reporting month to which the estimate applies, <b>not the actual reporting date.<\/b>  Use FISC_YEAR, FISC_QTR, CAL_YEAR, CAL_QTR for mapping the estimate to a fiscal or calendar year and quarter.<\/p>\n<p><b>AS_OF<\/b>: Date on which this report was generated.<\/p>\n<p><b>EPS_MEAN_EST<\/b>: The arithmetic mean of all EPS (earnings per share) estimates.<\/p>\n<p><b>EPS_MEAN_EST_7D_AGO<\/b>: EPS_MEAN_EST as reported 7 days ago.<\/p>\n<p><b>EPS_MEAN_EST_30D_AGO<\/b>: EPS_MEAN_EST as reported 30 days ago.<\/p>\n<p><b>EPS_MEAN_EST_60D_AGO<\/b>: EPS_MEAN_EST as reported 60 days ago.<\/p>\n<p><b>EPS_MEAN_EST_90D_AGO<\/b>: EPS_MEAN_EST as reported 90 days ago.<\/p>\n<p><b>EPS_PCT_CHG_EST_7D_AGO<\/b>: The percentage change in EPS_MEAN_EST from 7 days ago.<\/p>\n<p><b>PER_CODE<\/b>: The fiscal period reference in relation to the most recently reported period. The most recently reported quarter is designated as 0. The next quarter is designated 1. The quarter after that is 2. Etc.  The fiscal period designations roll on each earnings report date, not on calendar period end dates.<\/p>\n<p><b>PER_FISC_YEAR<\/b>: The fiscal year to which this estimate applies.<\/p>\n<p><b>PER_FISC_QTR<\/b>: The fiscal quarter to which this estimate applies.<\/p>\n<p><b>PER_CAL_YEAR<\/b>: The calendar year to which this estimate applies.<\/p>\n<p><b>PER_CAL_QTR<\/b>: The calendar quarter to which this estimate applies.<\/p>\n\n\n\n<p>Premium Support is available for subscribers of this dataset: <a href='mailto:premium_support@quandl.com'>premium_support@quandl.com<\/a><\/p>\n",
+  "display_url": null,
+  "errors": {},
+  "frequency": "quarterly",
+  "from_date": "2015-03-31",
+  "id": 22688107,
+  "name": "Quicksilver Resources Inc. (KWKAQ) Quarterly Consensus Earnings Trends",
+  "premium": true,
+  "private": false,
+  "source_code": "ZET",
+  "source_name": "Zacks Consensus Earnings Estimates Trends",
+  "to_date": "2015-06-30",
+  "type": null,
+  "updated_at": "2015-06-22T12:21:43.501Z",
+  "urlize_name": "Quicksilver-Resources-Inc-KWKAQ-Quarterly-Consensus-Earnings-Trends"
+}

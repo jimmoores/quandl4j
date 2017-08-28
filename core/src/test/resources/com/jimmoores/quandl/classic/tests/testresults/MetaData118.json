@@ -1,0 +1,25 @@
+{
+  "code": "INDICES",
+  "column_names": [
+    "Date",
+    "SEMDEX",
+    "SEM-7",
+    "SEMTRI (Rupees)",
+    "SEMTRI (Dollars)"
+  ],
+  "description": "All indices have a base date of July 5, 1989 and a base value of 100. The SEMDEX is an index of prices of all listed shares and each stock is weighted according to its share in the total market capitalisation.  Total Return Index's (SEMTRI) main purpose is to provide domestic and foreign market participants an important tool for performance measurement of the local market. The SEM-7 comprises the seven largest eligible shares of the Official List, measured in terms of market capitalisation.",
+  "display_url": "http://www.stockexchangeofmauritius.com/downloads/HistoricalDataIndices.xls",
+  "errors": {},
+  "frequency": "daily",
+  "from_date": "1989-07-05",
+  "id": 2424387,
+  "name": "Mauritius Stock Indices",
+  "premium": false,
+  "private": false,
+  "source_code": "MAURITIUSSE",
+  "source_name": "Stock Exchange of Mauritius",
+  "to_date": "2014-07-31",
+  "type": null,
+  "updated_at": "2014-10-29T08:26:03.524Z",
+  "urlize_name": "Mauritius-Stock-Indices"
+}

@@ -78,10 +78,11 @@ public final class SearchRequest implements Request {
     /**
      * Create a builder and specify the database to search within. For example WIKI
      * 
-     * @param databaseCode the database code to search within.
+     * @param databaseCode the database code to search within, not null
      * @return a Builder, with this database code specified
      */
     public static Builder ofDatabaseCode(final String databaseCode) {
+      ArgumentChecker.notNull(databaseCode, "databaseCode");
       Builder builder = new Builder();
       builder._databaseCode = databaseCode;
       return builder;
@@ -90,22 +91,32 @@ public final class SearchRequest implements Request {
     /**
      * Specify the database to search within. For example WIKI
      * 
-     * @param databaseCode the database code to search within.
+     * @param databaseCode the database code to search within, not null.
      * @return this Builder, with this database code specified
      */
     public Builder withDatabaseCode(final String databaseCode) {
+      ArgumentChecker.notNull(databaseCode, "databaseCode");
       _databaseCode = databaseCode;
       return this;
+    }
+    
+    /**
+     * Create a builder set to search for all.
+     * @return a Builder, set to search for all
+     */
+    public static Builder ofAll() {
+      return new Builder();
     }
 
     /**
      * Specify the search term to use for your query. Multiple search terms can be separated by
      * the + character.
      * 
-     * @param query the query string to use
+     * @param query the query string to use, not null
      * @return this Builder, with this query added
      */
     public Builder withQuery(final String query) {
+      ArgumentChecker.notNull(query, "query");
       _query = query;
       return this;
     }
@@ -114,10 +125,11 @@ public final class SearchRequest implements Request {
      * Create a builder and specify the search term to use for your query. Multiple search terms can be separated by
      * the + character.
      * 
-     * @param query the query string to use
+     * @param query the query string to use, not null
      * @return a Builder, with this query added
      */
     public static Builder ofQuery(final String query) {
+      ArgumentChecker.notNull(query, "query");
       Builder builder = new Builder();
       builder._query = query;
       return builder;

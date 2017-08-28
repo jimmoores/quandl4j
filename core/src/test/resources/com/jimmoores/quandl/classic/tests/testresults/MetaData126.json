@@ -1,0 +1,26 @@
+{
+  "code": "TRANSPORT",
+  "column_names": [
+    "Year",
+    "Est. Urban Personal Vehicle Passenger Miles",
+    "Est. Public Transport Passenger Miles",
+    "Personal Vehicle Market Share (%)",
+    "Personal Vehicle Market Share Change (%)",
+    "Pubic Transport Market Share (%)"
+  ],
+  "description": "U.S. Urban Personal Vehicle & Public Transport Market Share. Estimated from data in National Transportation Statistics.",
+  "display_url": "http://www.publicpurpose.com/ut-usptshare45.htm",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "1900-12-31",
+  "id": 537856,
+  "name": "Personal Vehicle vs. Public Transport",
+  "premium": false,
+  "private": false,
+  "source_code": "PUBPUR",
+  "source_name": "The Public Purpose",
+  "to_date": "2005-12-31",
+  "type": null,
+  "updated_at": "2014-08-26T14:59:30.048Z",
+  "urlize_name": "Personal-Vehicle-vs-Public-Transport"
+}

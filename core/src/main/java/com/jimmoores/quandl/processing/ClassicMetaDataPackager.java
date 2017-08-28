@@ -9,7 +9,6 @@ import com.jimmoores.quandl.SearchResult;
  * Packager class provides the classic packaging of meta-data results into *Result wrappers.
  */
 public class ClassicMetaDataPackager implements MetaDataPackager<MetaDataResult, JSONObject, SearchResult> {
-
   /**
    * {@inheritDoc}
    */

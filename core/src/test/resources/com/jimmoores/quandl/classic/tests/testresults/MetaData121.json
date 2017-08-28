@@ -1,0 +1,24 @@
+{
+  "code": "MARKET_CREDIT",
+  "column_names": [
+    "End of month",
+    "Margin debt",
+    "Free credit cash accounts",
+    "Credit balances in margin accounts"
+  ],
+  "description": "",
+  "display_url": "http://www.nyxdata.com/nysedata/asp/factbook/table_export_csv.asp?mode=tables&key=50",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "1959-01-31",
+  "id": 7934627,
+  "name": "Securities Market Credit",
+  "premium": false,
+  "private": false,
+  "source_code": "NYXDATA",
+  "source_name": "NYSE Factbook",
+  "to_date": "2015-04-30",
+  "type": null,
+  "updated_at": "2015-06-29T04:11:05.626Z",
+  "urlize_name": "Securities-Market-Credit"
+}

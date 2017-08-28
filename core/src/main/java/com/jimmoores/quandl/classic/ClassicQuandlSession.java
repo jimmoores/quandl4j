@@ -12,13 +12,16 @@ import com.jimmoores.quandl.generic.GenericQuandlSession;
 import com.jimmoores.quandl.processing.ClassicMetaDataPackager;
 import com.jimmoores.quandl.processing.GenericRESTDataProvider;
 import com.jimmoores.quandl.processing.MetaDataPackager;
+import com.jimmoores.quandl.processing.classic.ClassicRESTDataProvider;
 import com.jimmoores.quandl.processing.classic.JSONTabularResultRESTDataProvider;
 import com.jimmoores.quandl.util.ArgumentChecker;
 
 /**
  * Classic implementation of the new QuandlSession implemented the classic types used in previous versions.
  */
-public final class ClassicQuandlSession extends GenericQuandlSession<MetaDataResult, JSONObject, TabularResult, SearchResult> {
+public final class ClassicQuandlSession 
+    extends GenericQuandlSession<MetaDataResult, JSONObject, TabularResult, SearchResult> 
+    implements ClassicQuandlSessionInterface {
   private static final Logger LOGGER = LoggerFactory.getLogger(ClassicQuandlSession.class);
   private ClassicQuandlSession(final SessionOptions sessionOptions, final GenericRESTDataProvider<JSONObject, TabularResult> restDataProvider,
       final MetaDataPackager<MetaDataResult, JSONObject, SearchResult> metaDataPackager) {
@@ -61,6 +64,23 @@ public final class ClassicQuandlSession extends GenericQuandlSession<MetaDataRes
     return new ClassicQuandlSession(
         sessionOptions, 
         new JSONTabularResultRESTDataProvider(), 
+        new ClassicMetaDataPackager());
+  }
+  
+  /**
+   * Create a Quandl session with detailed SessionOptions and a custom ClassicRESTDataProvider. No attempt will be made to 
+   * read the java property <em>quandl.auth.token</em> even if available. Note creating this object does not make any 
+   * actual API requests, the token is used in subsequent requests.
+   * 
+   * @param sessionOptions a user created SessionOptions instance, not null
+   * @param dataProvider a data provider
+   * @return an instance of the Quandl session, not null
+   */
+  public static ClassicQuandlSession create(final SessionOptions sessionOptions, final ClassicRESTDataProvider dataProvider) {
+    ArgumentChecker.notNull(sessionOptions, "sessionOptions");
+    return new ClassicQuandlSession(
+        sessionOptions, 
+        dataProvider, 
         new ClassicMetaDataPackager());
   }
   

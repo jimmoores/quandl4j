@@ -1,0 +1,25 @@
+{
+  "code": "CRASHES_ALCOHOL",
+  "column_names": [
+    "Year",
+    "Traffic Crashes",
+    "Traffic Fatalities",
+    "Alcohol Related Fatalities",
+    "% of All Fatalities"
+  ],
+  "description": "Data are from the Fatality Analysis Reporting System (FARS) maintained by the National Traffic Highway Safety Administration. Source: Alcohol Epidemiologic Data System. Yi, H., Chen, C.M., and Williams, G.D. Surveillance Report #76: Trends in Alcohol-Related Fatal Traffic Crashes, United States, 1982 - 2004. Bethesda, MD: National Institute on Alcohol Abuse and Alcoholism, Division of Epidemiology and Prevention Research (August 2006).",
+  "display_url": "http://www.niaaa.nih.gov/Resources/DatabaseResources/QuickFacts/TrafficCrashes/Pages/crash01.aspx",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "1982-01-01",
+  "id": 502606,
+  "name": "Traffic crashes, traffic crash fatalities, and alcohol-related traffic crash fatalities in the United States",
+  "premium": false,
+  "private": false,
+  "source_code": "NIAAA",
+  "source_name": "National Institute of Alcohol Abuse and Alcoholism",
+  "to_date": "2004-01-01",
+  "type": null,
+  "updated_at": "2013-06-20T17:12:48.254Z",
+  "urlize_name": "Traffic-crashes-traffic-crash-fatalities-and-alcohol-related-traffic-crash-fatalities-in-the-United-States"
+}

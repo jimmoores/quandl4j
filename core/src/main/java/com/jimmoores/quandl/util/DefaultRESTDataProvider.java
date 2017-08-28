@@ -7,6 +7,7 @@ import org.json.JSONObject;
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.processing.AbstractRESTDataProvider;
 import com.jimmoores.quandl.processing.Request;
+import com.jimmoores.quandl.processing.classic.ClassicRESTDataProvider;
 import com.jimmoores.quandl.processing.classic.JSONTabularResultRESTDataProvider;
 
 /**
@@ -15,7 +16,7 @@ import com.jimmoores.quandl.processing.classic.JSONTabularResultRESTDataProvider
  *             call, the other implementation is used for testing.
  */
 public final class DefaultRESTDataProvider extends AbstractRESTDataProvider<JSONObject, TabularResult> implements RESTDataProvider {
-  private JSONTabularResultRESTDataProvider _impl = new JSONTabularResultRESTDataProvider();
+  private ClassicRESTDataProvider _impl = new JSONTabularResultRESTDataProvider();
 
   /**
    * Invoke a GET call on the web target and return the result as a parsed JSON object. Throws a QuandlUnprocessableEntityException if
