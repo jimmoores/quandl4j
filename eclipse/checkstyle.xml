@@ -48,7 +48,7 @@ Checkstyle config, derived from McLeod Moores standard
     </module>
     <module name="MethodLength"/>
     <module name="ParameterNumber">
-      <property name="max" value="20"/>
+      <property name="max" value="80"/>
     </module>
     <module name="EmptyForIteratorPad"/>
     <module name="MethodParamPad"/>
@@ -81,6 +81,15 @@ Checkstyle config, derived from McLeod Moores standard
     <module name="IllegalInstantiation"/>
     <module name="InnerAssignment"/>
     <module name="MissingSwitchDefault"/>
+    <module name="MagicNumber">
+      <property name="severity" value="ignore"/>
+      <property name="ignoreHashCodeMethod" value="true"/>
+      <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
+    </module>
+    <module name="MissingSwitchDefault"/>
+    <module name="RedundantThrows">
+      <property name="suppressLoadErrors" value="true"/>
+    </module>
     <module name="SimplifyBooleanExpression"/>
     <module name="SimplifyBooleanReturn"/>
     <module name="DesignForExtension">
@@ -98,6 +107,9 @@ Checkstyle config, derived from McLeod Moores standard
       <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
     </module>
     <module name="UpperEll"/>
+    <module name="ParameterNumber">
+      <property name="max" value="20"/>
+    </module>
   </module>
   <module name="JavadocPackage">
     <property name="severity" value="ignore"/>
@@ -121,4 +133,9 @@ Checkstyle config, derived from McLeod Moores standard
     <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
   </module>
   <module name="SuppressionCommentFilter"/>
+  <!-- Header inlined due to m2e -->
+  <module name="RegexpHeader">
+    <property name="header" value="^(/\*[*]?\n^ \* Copyright \(C\) (201[0-9]) - present by Jim Moores\n^ \*\n^ \* Please see distribution for license\.\n^ \*\/)|(Copyright \(C\) (201[4-9])-Present McLeod Moores Software Limited.  All rights reserved.)"/>
+    <property name="fileExtensions" value="java,proto"/>
+  </module>
 </module>
