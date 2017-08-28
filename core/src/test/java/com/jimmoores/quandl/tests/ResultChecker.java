@@ -22,6 +22,7 @@ import com.jimmoores.quandl.util.PrettyPrinter;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 
 /**
+ * @deprecated this test covers the deprecated API.
  * Class that either saves a sequence of results into files.
  */
 public class ResultChecker implements ResultProcessor {

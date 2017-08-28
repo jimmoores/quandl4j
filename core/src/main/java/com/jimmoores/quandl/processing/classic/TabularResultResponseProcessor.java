@@ -10,13 +10,21 @@ import java.util.List;
 import com.jimmoores.quandl.HeaderDefinition;
 import com.jimmoores.quandl.Row;
 import com.jimmoores.quandl.TabularResult;
+import com.jimmoores.quandl.processing.Request;
 import com.jimmoores.quandl.processing.ResponseProcessor;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 
 import au.com.bytecode.opencsv.CSVReader;
 
+/**
+ * ReponseProcessor to process an input stream reply from a query into
+ * a TabularResult object.
+ */
 public class TabularResultResponseProcessor implements ResponseProcessor<TabularResult> {
-  public TabularResult process(InputStream inputStream) {
+  /**
+   * {@inheritDoc}
+   */
+  public TabularResult process(final InputStream inputStream, final Request request) {
     CSVReader reader = new CSVReader(new InputStreamReader(inputStream));
     try {
       String[] headerRow = reader.readNext();

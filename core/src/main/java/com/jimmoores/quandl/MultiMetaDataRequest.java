@@ -8,12 +8,14 @@ import java.util.List;
 
 import javax.ws.rs.client.WebTarget;
 
+import com.jimmoores.quandl.processing.RequestProcessor;
+import com.jimmoores.quandl.processing.Request;
 import com.jimmoores.quandl.util.ArgumentChecker;
 
 /**
  * A class that packages the request for MetaData from Quandl.
  */
-public final class MultiMetaDataRequest {
+public final class MultiMetaDataRequest implements Request {
   private static final String COLUMNS_PARAM = "columns";
   private static final String EXTENSION = ".json";
   private static final String MULTI_SET_NAME = "multisets";
@@ -114,5 +116,15 @@ public final class MultiMetaDataRequest {
   @Override
   public String toString() {
     return "MultiMetaDataRequest[" + _quandlCodes + "]";
+  }
+  
+  /**
+   * Accept a request processor in visitor pattern style.
+   * @param <T> the processor result type
+   * @param processor  the request processor
+   * @return the request processor's result
+   */
+  public <T> T accept(final RequestProcessor<T> processor) {
+    return processor.processMultiMetaDataRequest(this);
   }
 }

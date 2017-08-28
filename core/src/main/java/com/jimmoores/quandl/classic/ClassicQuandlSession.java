@@ -15,10 +15,13 @@ import com.jimmoores.quandl.processing.MetaDataPackager;
 import com.jimmoores.quandl.processing.classic.JSONTabularResultRESTDataProvider;
 import com.jimmoores.quandl.util.ArgumentChecker;
 
-public class ClassicQuandlSession extends GenericQuandlSession<MetaDataResult, JSONObject, TabularResult, SearchResult>{
+/**
+ * Classic implementation of the new QuandlSession implemented the classic types used in previous versions.
+ */
+public final class ClassicQuandlSession extends GenericQuandlSession<MetaDataResult, JSONObject, TabularResult, SearchResult> {
   private static final Logger LOGGER = LoggerFactory.getLogger(ClassicQuandlSession.class);
-  public ClassicQuandlSession(SessionOptions sessionOptions, GenericRESTDataProvider<JSONObject, TabularResult> restDataProvider,
-      MetaDataPackager<MetaDataResult, JSONObject, SearchResult> metaDataPackager) {
+  private ClassicQuandlSession(final SessionOptions sessionOptions, final GenericRESTDataProvider<JSONObject, TabularResult> restDataProvider,
+      final MetaDataPackager<MetaDataResult, JSONObject, SearchResult> metaDataPackager) {
     super(sessionOptions, restDataProvider, metaDataPackager);
   }
   

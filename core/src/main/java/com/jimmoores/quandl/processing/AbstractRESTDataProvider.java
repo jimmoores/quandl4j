@@ -12,13 +12,21 @@ import com.jimmoores.quandl.util.QuandlServiceUnavailableException;
 import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 import com.jimmoores.quandl.util.QuandlUnprocessableEntityException;
 
+/**
+ * Base class to create a specialised GenericRESTDataProvider with the 
+ * invocation and reponse handling all taken care of in a protected method
+ * getReponse.  The specialised methods can then concentrate on processing
+ * the particular reponse type expected in each case.
+ * @param <RAW_METADATA_TYPE>  the type used to hold the raw meta data.
+ * @param <TABLE_TYPE>  the type used to hold tabular data.
+ */
 public abstract class AbstractRESTDataProvider<RAW_METADATA_TYPE, TABLE_TYPE>
     implements GenericRESTDataProvider<RAW_METADATA_TYPE, TABLE_TYPE> {
   private static final String RETRY_AFTER = "Retry-After";
   private static final String X_RATELIMIT_LIMIT = "X-RateLimit-Limit";
   private static final String X_RATELIMIT_REMAINING = "X-RateLimit-Remaining";
 
-  private Long parseOptionalHeader(Response response, String field) {
+  private Long parseOptionalHeader(final Response response, final String field) {
     String value = response.getHeaderString(field);
     if (value != null) {
       try {
@@ -29,14 +37,24 @@ public abstract class AbstractRESTDataProvider<RAW_METADATA_TYPE, TABLE_TYPE>
     return null;
   }
 
-  protected <T> T getResponse(final WebTarget target, final ResponseProcessor<T> responseProcessor) {
+  /**
+   * Generic method to handle the invocation of the requests, error processing
+   * and so on, leaving the specialised methods to simply invoke with the appropriate
+   * ReponseProcessor to process the resulting InputStream.
+   * @param <T>  the type of the response
+   * @param target  the target
+   * @param responseProcessor  the response processor that actually processes the target.
+   * @param request  the request object (for request optional metadata) or null
+   * @return the resulting response
+   */
+  protected <T> T getResponse(final WebTarget target, final ResponseProcessor<T> responseProcessor, final Request request) {
     Builder requestBuilder = target.request();
     Response response = requestBuilder.buildGet().invoke();
     if (response.getStatus() == Response.Status.OK.getStatusCode()) {
       InputStream inputStream = response.readEntity(InputStream.class);
       // should we be buffering this?
       try {
-        T result = responseProcessor.process(inputStream);
+        T result = responseProcessor.process(inputStream, request);
         response.close();
         inputStream.close();
         return result;
@@ -73,7 +91,15 @@ public abstract class AbstractRESTDataProvider<RAW_METADATA_TYPE, TABLE_TYPE>
     }
   }
 
-  public abstract RAW_METADATA_TYPE getJSONResponse(WebTarget target);
-
-  public abstract TABLE_TYPE getTabularResponse(WebTarget target);
+  /**
+   * This should be overriden and call getReponse with the appropriate ResponseProcessor.
+   * {@inheritDoc}
+   */
+  public abstract RAW_METADATA_TYPE getJSONResponse(WebTarget target, Request request);
+  
+  /**
+   * This should be overriden and call getReponse with the appropriate ResponseProcessor.
+   * {@inheritDoc}
+   */
+  public abstract TABLE_TYPE getTabularResponse(WebTarget target, Request request);
 }

@@ -14,6 +14,9 @@ import com.jimmoores.quandl.example.Example7;
 import com.jimmoores.quandl.example.Example8;
 
 // CHECKSTYLE:OFF
+/**
+ * @deprecated this test covers the deprecated API.
+ */
 @Test
 public class ExampleTests {
   @Test

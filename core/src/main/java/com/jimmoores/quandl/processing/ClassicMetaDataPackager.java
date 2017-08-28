@@ -10,11 +10,16 @@ import com.jimmoores.quandl.SearchResult;
  */
 public class ClassicMetaDataPackager implements MetaDataPackager<MetaDataResult, JSONObject, SearchResult> {
 
-  public MetaDataResult ofMetaData(JSONObject rawData) {
+  /**
+   * {@inheritDoc}
+   */
+  public MetaDataResult ofMetaData(final JSONObject rawData) {
     return MetaDataResult.of(rawData);
   }
-
-  public SearchResult ofSearchResult(JSONObject rawData) {
+  /**
+   * {@inheritDoc}
+   */
+  public SearchResult ofSearchResult(final JSONObject rawData) {
     return SearchResult.of(rawData);
   }
 

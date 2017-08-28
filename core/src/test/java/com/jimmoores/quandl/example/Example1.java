@@ -3,9 +3,9 @@ package com.jimmoores.quandl.example;
 import com.jimmoores.quandl.DataSetRequest;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.TabularResult;
-import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 
 /**
+ * @deprecated this example covers the deprecated API.
  * Example 1.
  */
 public final class Example1 {

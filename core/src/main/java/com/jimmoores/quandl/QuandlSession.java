@@ -27,12 +27,13 @@ import org.threeten.bp.chrono.ChronoLocalDate;
 
 import com.jimmoores.quandl.DataSetRequest.Builder;
 import com.jimmoores.quandl.generic.GenericQuandlSession;
+import com.jimmoores.quandl.processing.GenericRESTDataProvider;
+import com.jimmoores.quandl.processing.LegacyRESTDataProviderAdapter;
 import com.jimmoores.quandl.util.ArgumentChecker;
 import com.jimmoores.quandl.util.QuandlRequestFailedException;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.QuandlServiceUnavailableException;
 import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
-import com.jimmoores.quandl.util.RESTDataProvider;
 
 /**
  * @deprecated use e.g. ClassicQuandlSession, StringQuandlSession or TableSawQuandlSession
@@ -67,12 +68,11 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
   private static Logger s_logger = LoggerFactory.getLogger(QuandlSession.class);
 
   private SessionOptions _sessionOptions;
-  @SuppressWarnings("unused")
-  private RESTDataProvider _restDataProvider;
+  private GenericRESTDataProvider<JSONObject, TabularResult> _restDataProvider;
 
   private QuandlSession(final SessionOptions sessionOptions) {
     _sessionOptions = sessionOptions;
-    _restDataProvider = _sessionOptions.getRESTDataProvider();
+    _restDataProvider = LegacyRESTDataProviderAdapter.of(_sessionOptions.getRESTDataProvider());
   }
 
   /**
@@ -143,10 +143,8 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     }
   }
 
-  /*
-   * (non-Javadoc)
-   * 
-   * @see com.jimmoores.quandl.QuandlSessionInterface#getDataSet(com.jimmoores.quandl.DataSetRequest)
+  /**
+   * {@inheritDoc}
    */
   public TabularResult getDataSet(final DataSetRequest request) {
     ArgumentChecker.notNull(request, "request");
@@ -159,7 +157,7 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     int retries = 0;
     do {
       try {
-        tabularResponse = _sessionOptions.getRESTDataProvider().getTabularResponse(target);
+        tabularResponse = _restDataProvider.getTabularResponse(target, request);
       } catch (QuandlTooManyRequestsException qtmre) {
         s_logger.debug("Quandl returned Too Many Requests, retrying if appropriate");
         if (qtmre.isDataExhausted()) {
@@ -174,10 +172,8 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     return tabularResponse;
   }
 
-  /*
-   * (non-Javadoc)
-   * 
-   * @see com.jimmoores.quandl.QuandlSessionInterface#getMetaData(com.jimmoores.quandl.MetaDataRequest)
+  /**
+   * {@inheritDoc}
    */
   public MetaDataResult getMetaData(final MetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
@@ -189,7 +185,7 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     int retries = 0;
     do {
       try {
-        object = _sessionOptions.getRESTDataProvider().getJSONResponse(target);
+        object = _restDataProvider.getJSONResponse(target, request);
       } catch (QuandlTooManyRequestsException qtmre) {
         s_logger.debug("Quandl returned Too Many Requests, retrying if appropriate");
         if (qtmre.isDataExhausted()) {
@@ -203,10 +199,8 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     return MetaDataResult.of(object);
   }
 
-  /*
-   * (non-Javadoc)
-   * 
-   * @see com.jimmoores.quandl.QuandlSessionInterface#getDataSets(com.jimmoores.quandl.MultiDataSetRequest)
+  /**
+   * {@inheritDoc}
    */
   public TabularResult getDataSets(final MultiDataSetRequest request) {
     final List<QuandlCodeRequest> quandlCodeRequests = request.getQuandlCodeRequests();
@@ -316,10 +310,8 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     return TabularResult.of(headerDefinition, combinedRows);
   }
 
-  /*
-   * (non-Javadoc)
-   * 
-   * @see com.jimmoores.quandl.QuandlSessionInterface#getMetaData(com.jimmoores.quandl.MultiMetaDataRequest)
+  /**
+   * {@inheritDoc}
    */
   public MetaDataResult getMetaData(final MultiMetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
@@ -351,10 +343,8 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     }
   }
 
-  /*
-   * (non-Javadoc)
-   * 
-   * @see com.jimmoores.quandl.QuandlSessionInterface#getMultipleHeaderDefinition(com.jimmoores.quandl.MultiMetaDataRequest)
+  /**
+   * {@inheritDoc}
    */
   public Map<String, HeaderDefinition> getMultipleHeaderDefinition(final MultiMetaDataRequest request) {
     final Map<String, HeaderDefinition> bulkMetaData = new LinkedHashMap<String, HeaderDefinition>();
@@ -370,10 +360,8 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     return bulkMetaData;
   }
 
-  /*
-   * (non-Javadoc)
-   * 
-   * @see com.jimmoores.quandl.QuandlSessionInterface#search(com.jimmoores.quandl.SearchRequest)
+  /**
+   * {@inheritDoc}
    */
   public SearchResult search(final SearchRequest request) {
     Client client = ClientBuilder.newClient();
@@ -384,7 +372,7 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     JSONObject jsonResponse = null;
     do {
       try {
-        jsonResponse = _sessionOptions.getRESTDataProvider().getJSONResponse(target);
+        jsonResponse = _restDataProvider.getJSONResponse(target, request);
       } catch (QuandlTooManyRequestsException qtmre) {
         s_logger.debug("Quandl returned Too Many Requests, retrying if appropriate");
         if (qtmre.isDataExhausted()) {

@@ -8,6 +8,8 @@ import javax.ws.rs.client.WebTarget;
 
 import org.threeten.bp.LocalDate;
 
+import com.jimmoores.quandl.processing.RequestProcessor;
+import com.jimmoores.quandl.processing.Request;
 import com.jimmoores.quandl.util.ArgumentChecker;
 
 /**
@@ -28,7 +30,7 @@ import com.jimmoores.quandl.util.ArgumentChecker;
  * The resulting object should be passed into one of the methods in the QuandlConnector class. If anything is not specified, it will not be
  * included in the request and so the results will reflect the default Quandl behavior (e.g. all columns, no row limits, etc).
  */
-public final class MultiDataSetRequest {
+public final class MultiDataSetRequest implements Request {
   private static final String COLUMNS_PARAM = "columns";
   private static final String START_DATE_PARAM = "start_date";
   private static final String END_DATE_PARAM = "end_date";
@@ -372,5 +374,15 @@ public final class MultiDataSetRequest {
     builder.append(_sortOrder);
     builder.append("]");
     return builder.toString();
+  }
+
+  /**
+   * Accept a request processor in visitor pattern style.
+   * @param <T> the processor result type
+   * @param processor  the request processor
+   * @return the request processor's result
+   */
+  public <T> T accept(final RequestProcessor<T> processor) {
+    return processor.processMultiDataSetRequest(this);
   }
 }

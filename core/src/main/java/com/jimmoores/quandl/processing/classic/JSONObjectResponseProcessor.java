@@ -7,11 +7,20 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
+import com.jimmoores.quandl.processing.Request;
 import com.jimmoores.quandl.processing.ResponseProcessor;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 
+/**
+ * Response processor to process an InputStream resulting from a request into
+ * a JSONObject (org.json).
+ */
 public class JSONObjectResponseProcessor implements ResponseProcessor<JSONObject> {
-  public JSONObject process(InputStream inputStream) {
+  
+  /**
+   * {@inheritDoc}
+   */
+  public JSONObject process(final InputStream inputStream, final Request request) {
     JSONTokener tokeniser = new JSONTokener(new InputStreamReader(inputStream));
     try {
       return new JSONObject(tokeniser);

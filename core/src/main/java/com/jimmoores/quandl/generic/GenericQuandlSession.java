@@ -20,22 +20,15 @@ import com.jimmoores.quandl.util.QuandlServiceUnavailableException;
 import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 
 /**
- * Quandl session class. Create an instance with either
- * 
- * <pre>
- * QuandlSession.of(SessionOptions.withAuthToken(AUTH_TOKEN));
- * </pre>
- * 
- * to use your API authorization token string, or use the API without a token, which may have lower rate/volume limits.
- * 
- * <pre>
- * QuandlSession.of();
- * </pre>
- * 
- * Then call one of the methods to fetch data!
- *
- * You can either invoke withDefaultRetentionPolicy() on the session or withFrequency() on the DataSetRequest to hint the CacheManager
- * whether it should load over the network or retrieve data from the cache
+ * Generic Quandl session class. You would generally not use this directly, instead
+ * <ul>
+ * <li>@see com.mcleodmoores.quandl.classic.ClassicQuandlSession</li>
+ * <li>@see com.mcleodmoores.quandl.tablesaw.TableSawQuandlSession</li>
+ * </ul>
+ * @param <METADATA_TYPE>  the wrapper type used to contain returned metadata, which may interpret it.
+ * @param <RAW_METADATA_TYPE>  the type used to hold raw metadata (e.g. JSONObject).
+ * @param <TABLE_TYPE>  the type used to return tabular data (e.g. TabularResult or tablesaw Table)
+ * @param <SEARCH_RESULT_TYPE>  the wrapper type used to contain search result metadata.
  */
 public class GenericQuandlSession<METADATA_TYPE, RAW_METADATA_TYPE, TABLE_TYPE, SEARCH_RESULT_TYPE>
     implements GenericQuandlSessionInterface<METADATA_TYPE, TABLE_TYPE, SEARCH_RESULT_TYPE> {
@@ -47,8 +40,17 @@ public class GenericQuandlSession<METADATA_TYPE, RAW_METADATA_TYPE, TABLE_TYPE, 
   private GenericRESTDataProvider<RAW_METADATA_TYPE, TABLE_TYPE> _restDataProvider;
   private MetaDataPackager<METADATA_TYPE, RAW_METADATA_TYPE, SEARCH_RESULT_TYPE> _metaDataPackager;
 
+  /**
+   * The property name used to pass Quandl auth tokens into the JVM.
+   */
   public static final String QUANDL_AUTH_TOKEN_PROPERTY_NAME = "quandl.auth.token";
 
+  /**
+   * Create a generic quandl session.
+   * @param sessionOptions  the session options
+   * @param restDataProvider  the rest data provider, which reads and encodes data
+   * @param metaDataPackager  the meta data packager, which packages meta data
+   */
   public GenericQuandlSession(final SessionOptions sessionOptions,
       final GenericRESTDataProvider<RAW_METADATA_TYPE, TABLE_TYPE> restDataProvider,
       final MetaDataPackager<METADATA_TYPE, RAW_METADATA_TYPE, SEARCH_RESULT_TYPE> metaDataPackager) {
@@ -79,10 +81,8 @@ public class GenericQuandlSession<METADATA_TYPE, RAW_METADATA_TYPE, TABLE_TYPE, 
     }
   }
 
-  /*
-   * (non-Javadoc)
-   * 
-   * @see com.jimmoores.quandl.QuandlSessionInterface#getDataSet(com.jimmoores.quandl.DataSetRequest)
+  /**
+   * {@inheritDoc}
    */
   public TABLE_TYPE getDataSet(final DataSetRequest request) {
     ArgumentChecker.notNull(request, "request");
@@ -94,7 +94,7 @@ public class GenericQuandlSession<METADATA_TYPE, RAW_METADATA_TYPE, TABLE_TYPE, 
     int retries = 0;
     do {
       try {
-        tabularResponse = _restDataProvider.getTabularResponse(target);
+        tabularResponse = _restDataProvider.getTabularResponse(target, request);
       } catch (QuandlTooManyRequestsException qtmre) {
         s_logger.debug("Quandl returned Too Many Requests, retrying if appropriate");
         if (qtmre.isDataExhausted()) {
@@ -109,10 +109,8 @@ public class GenericQuandlSession<METADATA_TYPE, RAW_METADATA_TYPE, TABLE_TYPE, 
     return tabularResponse;
   }
 
-  /*
-   * (non-Javadoc)
-   * 
-   * @see com.jimmoores.quandl.QuandlSessionInterface#getMetaData(com.jimmoores.quandl.MetaDataRequest)
+  /**
+   * {@inheritDoc}
    */
   public METADATA_TYPE getMetaData(final MetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
@@ -124,7 +122,7 @@ public class GenericQuandlSession<METADATA_TYPE, RAW_METADATA_TYPE, TABLE_TYPE, 
     int retries = 0;
     do {
       try {
-        object = _restDataProvider.getJSONResponse(target);
+        object = _restDataProvider.getJSONResponse(target, request);
       } catch (QuandlTooManyRequestsException qtmre) {
         s_logger.debug("Quandl returned Too Many Requests, retrying if appropriate");
         if (qtmre.isDataExhausted()) {
@@ -138,10 +136,8 @@ public class GenericQuandlSession<METADATA_TYPE, RAW_METADATA_TYPE, TABLE_TYPE, 
     return _metaDataPackager.ofMetaData(object);
   }
 
-  /*
-   * (non-Javadoc)
-   * 
-   * @see com.jimmoores.quandl.QuandlSessionInterface#search(com.jimmoores.quandl.SearchRequest)
+  /**
+   * {@inheritDoc}
    */
   public SEARCH_RESULT_TYPE search(final SearchRequest request) {
     Client client = ClientBuilder.newClient();
@@ -152,7 +148,7 @@ public class GenericQuandlSession<METADATA_TYPE, RAW_METADATA_TYPE, TABLE_TYPE, 
     RAW_METADATA_TYPE jsonResponse = null;
     do {
       try {
-        jsonResponse = _restDataProvider.getJSONResponse(target);
+        jsonResponse = _restDataProvider.getJSONResponse(target, request);
       } catch (QuandlTooManyRequestsException qtmre) {
         s_logger.debug("Quandl returned Too Many Requests, retrying if appropriate");
         if (qtmre.isDataExhausted()) {

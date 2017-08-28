@@ -36,13 +36,12 @@ import com.jimmoores.quandl.SearchResult;
 import com.jimmoores.quandl.SessionOptions;
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.Transform;
-import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 import com.jimmoores.quandl.util.DefaultRESTDataProvider;
-import com.jimmoores.quandl.util.PrettyPrinter;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.RESTDataProvider;
 
 /**
+ * @deprecated this class tests the older style API.
  * Grab test data from quandl by having a look through the search results and pulling out pseudo-randomized result sets.  These 
  * 'random' results are produced using a fixed seed, which means it produces the same sequence of test requests each time it is run.
  * This allows us to re-run tests and provide pre-recorded responses we got before very easily without indexing all the results.
@@ -161,7 +160,9 @@ public final class RegressionTests {
     runMultiHeaderRequests(session, resultProcessor, quandlCodes);
     if (restDataProvider instanceof RecordingRESTDataProvider) {
       RecordingRESTDataProvider recordingRESTDataProvider = (RecordingRESTDataProvider) restDataProvider;
-      recordingRESTDataProvider.close(); // a somewhat unpleasant special-case hack, probably not even necessary as each entry is flushed to disk, but being careful.
+      recordingRESTDataProvider.close(); // a somewhat unpleasant special-case hack, 
+                                         // probably not even necessary as each entry 
+                                         // is flushed to disk, but being careful.
     }
   }
 
@@ -175,6 +176,7 @@ public final class RegressionTests {
     for (String quandlCode : quandlCodes) {
       DataSetRequest req = fuzz(DataSetRequest.Builder.of(quandlCode)).build();
       try {
+        @SuppressWarnings("unused")
         TabularResult dataSet = session.getDataSet(req);
         //s_logger.info(req.toString());
         //s_logger.info(PrettyPrinter.toPrettyPrintedString(dataSet));
@@ -214,6 +216,7 @@ public final class RegressionTests {
    * @param resultProcessor a result processor to either record or check the results
    * @param quandlCodes a random set of Quandl codes to construct requests from
    */
+  @SuppressWarnings("unused")
   private void fuzzDataSetsRequests(final QuandlSession session, final ResultProcessor resultProcessor, final Set<String> quandlCodes) {
     Iterator<String> iter = quandlCodes.iterator();
     while (iter.hasNext()) {
@@ -229,7 +232,6 @@ public final class RegressionTests {
       }
       MultiDataSetRequest req = fuzz(MultiDataSetRequest.Builder.of(chunk)).build();
       try {
-        @SuppressWarnings("deprecation")
         TabularResult dataSet = session.getDataSets(req);
         resultProcessor.processResult(dataSet);
         //s_logger.info(req.toString());
@@ -247,6 +249,7 @@ public final class RegressionTests {
    * @param resultProcessor a result processor to either record or check the results
    * @param quandlCodes a random set of Quandl codes to construct requests from
    */
+  @SuppressWarnings("unused")
   private void runMultiMetaDataRequests(final QuandlSession session, final ResultProcessor resultProcessor, final Set<String> quandlCodes) {
     Iterator<String> iter = quandlCodes.iterator();
     while (iter.hasNext()) {
@@ -278,7 +281,8 @@ public final class RegressionTests {
   private void runMultiHeaderRequests(final QuandlSession session, final ResultProcessor resultProcessor, final Set<String> quandlCodes) {
     Iterator<String> iter = quandlCodes.iterator();
     while (iter.hasNext()) {
-      int chunkSize = _random.nextInt(MAX_CODES_PER_MULTI_REQ - 1) + 1; // means we never get 0 sized chunks.
+      int chunkSize = _random.nextInt(MAX_CODES_PER_MULTI_REQ - 1) + 1; 
+      // means we never get 0 sized chunks.
       List<String> chunk = new ArrayList<String>();
       while (iter.hasNext() && chunkSize > 0) {
         chunk.add(iter.next());
@@ -286,7 +290,6 @@ public final class RegressionTests {
       }
       MultiMetaDataRequest req = MultiMetaDataRequest.of(chunk);
       try {
-        @SuppressWarnings("deprecation")
         Map<String, HeaderDefinition> metaData = session.getMultipleHeaderDefinition(req);
         resultProcessor.processResult(metaData);
         //s_logger.info(req.toString());
@@ -444,7 +447,8 @@ public final class RegressionTests {
         .withLongOpt(RECORD_OPTION_LONG)
         .create(RECORD_OPTION_SHORT);
     Option fileBasedTests = OptionBuilder
-        .withDescription("Run repeatable pseudo-random queries against previously gathered reponses and regression test against previously gathered result objects")
+        .withDescription("Run repeatable pseudo-random queries against previously gathered reponses and "
+                         + "regression test against previously gathered result objects")
         .withLongOpt(FILE_TESTS_OPTION_LONG)
         .create(FILE_TESTS_OPTION_SHORT);
     Option directTests = OptionBuilder

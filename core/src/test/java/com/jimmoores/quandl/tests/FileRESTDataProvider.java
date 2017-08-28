@@ -21,8 +21,6 @@ import org.json.JSONTokener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import au.com.bytecode.opencsv.CSVReader;
-
 import com.jimmoores.quandl.HeaderDefinition;
 import com.jimmoores.quandl.Row;
 import com.jimmoores.quandl.TabularResult;
@@ -30,7 +28,12 @@ import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.RESTDataProvider;
 
+import au.com.bytecode.opencsv.CSVReader;
+
 /**
+ * @deprecated this version doesn't support newer interface GenericRestDataProvider
+ *             a direct replacement isn't available and it's still usable via the 
+ *             LegacyRESTDataProviderAdapter.O
  * RESTDataProvider that creates local file system copies of the files it gets
  * and keeps an index.  Files are created in the current working directory.
  */

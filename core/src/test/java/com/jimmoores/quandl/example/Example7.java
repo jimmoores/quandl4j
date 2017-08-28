@@ -3,9 +3,9 @@ package com.jimmoores.quandl.example;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.SearchRequest;
 import com.jimmoores.quandl.SearchResult;
-import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 
 /**
+ * @deprecated this example covers the deprecated API.
  * Example 7.
  */
 public final class Example7 {

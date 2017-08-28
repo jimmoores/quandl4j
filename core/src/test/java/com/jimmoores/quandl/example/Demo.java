@@ -14,10 +14,10 @@ import com.jimmoores.quandl.SearchRequest;
 import com.jimmoores.quandl.SearchResult;
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.Transform;
-import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 import com.jimmoores.quandl.util.PrettyPrinter;
 
 /**
+ * @deprecated this demo covers the deprecated API.
  * Demo using Quandl library.
  */
 public final class Demo {
@@ -35,7 +35,7 @@ public final class Demo {
    */
   private void run() {
     QuandlSession quandl = QuandlSession.create();
-    SearchResult searchResult = quandl.search(new SearchRequest.Builder().withQuery("Apple").withMaxPerPage(2).build());
+    SearchResult searchResult = quandl.search(SearchRequest.Builder.ofQuery("Apple").withMaxPerPage(2).build());
     System.out.println(searchResult.toPrettyPrintedString());
     for (MetaDataResult metaData : searchResult.getMetaDataResultList()) {
       System.out.println(PrettyPrinter.toPrettyPrintedString(metaData.getRawJSON()));
@@ -45,7 +45,6 @@ public final class Demo {
     tabularResult = quandl.getDataSet(DataSetRequest.Builder.of("WIKI/AAPL").withFrequency(Frequency.QUARTERLY)
                                                                           .withColumn(CLOSE_COLUMN).withTransform(Transform.NORMALIZE).build());
     System.out.println(PrettyPrinter.toPrettyPrintedString(tabularResult));
-    @SuppressWarnings("deprecation")
     TabularResult tabularResultMulti = quandl.getDataSets(
                                        MultiDataSetRequest.Builder.of(
                                          QuandlCodeRequest.allColumns("WIKI/AAPL"), 

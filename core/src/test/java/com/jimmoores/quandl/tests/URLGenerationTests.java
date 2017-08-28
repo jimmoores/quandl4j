@@ -28,6 +28,7 @@ import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.RESTDataProvider;
 
 /**
+ * @deprecated this test covers the deprecated API.
  * Tests to test the generation of URLs.
  */
 @Test(groups = { "unit" })
@@ -37,7 +38,8 @@ public class URLGenerationTests {
   @SuppressWarnings("unused")
   private static final int PRICE_COLUMN = 1;
   private static final HeaderDefinition TEST_HEADER_DEFINITION = HeaderDefinition.of("Date", "Close");
-  private static final TabularResult TEST_TABULAR_RESULT = TabularResult.of(TEST_HEADER_DEFINITION, Collections.singletonList(Row.of(TEST_HEADER_DEFINITION, new String[] { "Value1", "Value2"})));
+  private static final TabularResult TEST_TABULAR_RESULT = 
+      TabularResult.of(TEST_HEADER_DEFINITION, Collections.singletonList(Row.of(TEST_HEADER_DEFINITION, new String[] { "Value1", "Value2"})));
   
   // CHECKSTYLE:OFF
   
@@ -119,8 +121,8 @@ public class URLGenerationTests {
   
   @Test(expectedExceptions = QuandlRuntimeException.class)
   public void testLargeMultiDataSetRequestWithEmpty() {
-    QuandlSession session = getTestSession("https://www.quandl.com/api/v3/multisets.csv?columns=&collapse=monthly&transformation=normalize");
-    @SuppressWarnings("deprecation")
+    QuandlSession session = 
+        getTestSession("https://www.quandl.com/api/v3/multisets.csv?columns=&collapse=monthly&transformation=normalize");
     TabularResult tabularResult = session.getDataSets( // expect an exception here because list is empty
         MultiDataSetRequest.Builder.of()
         .withFrequency(Frequency.MONTHLY)

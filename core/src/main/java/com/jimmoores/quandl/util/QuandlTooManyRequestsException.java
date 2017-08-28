@@ -61,7 +61,7 @@ public class QuandlTooManyRequestsException extends QuandlRuntimeException {
    * @param cause the cause of the exception if there is one, not null
    */
   public QuandlTooManyRequestsException(final String message, final Long retryAfter, final Long rateLimitLimit,
-      final Long rateLimitRemaining, Throwable cause) {
+      final Long rateLimitRemaining, final Throwable cause) {
     super(message, cause);
     _retryAfter = retryAfter;
     _rateLimitLimit = rateLimitLimit;

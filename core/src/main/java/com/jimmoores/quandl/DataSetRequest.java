@@ -4,6 +4,8 @@ import javax.ws.rs.client.WebTarget;
 
 import org.threeten.bp.LocalDate;
 
+import com.jimmoores.quandl.processing.RequestProcessor;
+import com.jimmoores.quandl.processing.Request;
 import com.jimmoores.quandl.util.ArgumentChecker;
 
 /**
@@ -24,7 +26,7 @@ import com.jimmoores.quandl.util.ArgumentChecker;
  * The resulting object should be passed into one of the methods in the QuandlConnector class. If anything is not specified, it will not be
  * included in the request and so the results will reflect the default Quandl behavior (e.g. all columns, no row limits, etc).
  */
-public class DataSetRequest {
+public final class DataSetRequest implements Request {
   private static final String START_DATE_PARAM = "start_date";
   private static final String END_DATE_PARAM = "end_date";
   private static final String COLUMN_INDEX_PARAM = "column_index";
@@ -65,16 +67,58 @@ public class DataSetRequest {
   }
 
   /**
-   * @return the Frequency that was set
+   * @return the Frequency that was set, or null if none specified.
    */
   public Frequency getFrequency() {
     return _frequency;
+  }
+  
+  /**
+   * @return the Start Date that was set, or null if none specified.
+   */
+  public LocalDate getStartDate() {
+    return _startDate;
+  }
+
+  /**
+   * @return the End Date that was set, or null if none specified.
+   */
+  public LocalDate getEndDate() {
+    return _endDate;
+  }
+  
+  /**
+   * @return the column index that was set, or null if none specified.
+   */
+  public Integer getColumnIndex() {
+    return _columnIndex;
+  }
+  
+  /**
+   * @return the maximum number of rows to return, or null if none specified.
+   */
+  public Integer getMaxRows() {
+    return _maxRows;
+  }
+
+  /**
+   * @return the transform method, or null if none specified.
+   */
+  public Transform getTransform() {
+    return _transform;
+  }
+
+  /**
+   * @return the sort order, or null if none specified.
+   */
+  public SortOrder getSortOrder() {
+    return _sortOrder;
   }
 
   /**
    * Inner builder class. Create an instance using of("QUANDL/CODE"), call any other methods you need, and finish by calling build().
    */
-  public static class Builder {
+  public static final class Builder {
     private final String _quandlCode;
     private LocalDate _startDate;
     private LocalDate _endDate;
@@ -339,5 +383,15 @@ public class DataSetRequest {
     builder.append(_sortOrder);
     builder.append("]");
     return builder.toString();
+  }
+  
+  /**
+   * Accept a request processor in visitor pattern style.
+   * @param <T> the processor result type
+   * @param processor  the request processor
+   * @return the request processor's result
+   */
+  public <T> T accept(final RequestProcessor<T> processor) {
+    return processor.processDataSetRequest(this);
   }
 }

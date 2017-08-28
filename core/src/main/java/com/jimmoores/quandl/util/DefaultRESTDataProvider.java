@@ -6,6 +6,7 @@ import org.json.JSONObject;
 
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.processing.AbstractRESTDataProvider;
+import com.jimmoores.quandl.processing.Request;
 import com.jimmoores.quandl.processing.classic.JSONTabularResultRESTDataProvider;
 
 /**
@@ -26,7 +27,7 @@ public final class DefaultRESTDataProvider extends AbstractRESTDataProvider<JSON
    * @return the parsed JSON object
    */
   public JSONObject getJSONResponse(final WebTarget target) {
-    return _impl.getJSONResponse(target);
+    return _impl.getJSONResponse(target, null);
   }
 
   /**
@@ -39,6 +40,16 @@ public final class DefaultRESTDataProvider extends AbstractRESTDataProvider<JSON
    * @return the parsed TabularResult
    */
   public TabularResult getTabularResponse(final WebTarget target) {
-    return _impl.getTabularResponse(target);
+    return _impl.getTabularResponse(target, null);
+  }
+
+  @Override
+  public JSONObject getJSONResponse(final WebTarget target, final Request request) {
+    return _impl.getJSONResponse(target, request);
+  }
+
+  @Override
+  public TabularResult getTabularResponse(final WebTarget target, final Request request) {
+    return _impl.getTabularResponse(target, request);
   }
 }

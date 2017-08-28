@@ -3,9 +3,9 @@ package com.jimmoores.quandl.example;
 import com.jimmoores.quandl.MetaDataResult;
 import com.jimmoores.quandl.MultiMetaDataRequest;
 import com.jimmoores.quandl.QuandlSession;
-import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 
 /**
+ * @deprecated this example covers the deprecated API.
  * Example 5.
  */
 public final class Example5 {

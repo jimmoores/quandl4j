@@ -2,6 +2,8 @@ package com.jimmoores.quandl;
 
 import javax.ws.rs.client.WebTarget;
 
+import com.jimmoores.quandl.processing.Request;
+import com.jimmoores.quandl.processing.RequestProcessor;
 import com.jimmoores.quandl.util.ArgumentChecker;
 
 /**
@@ -13,7 +15,7 @@ import com.jimmoores.quandl.util.ArgumentChecker;
  * new SearchRequest.Builder().withDatabaseCode("databasecode").build();
  * </pre>
  */
-public final class SearchRequest {
+public final class SearchRequest implements Request {
   private static final String EXTENSION = ".json";
   private static final String DATASETS_RELATIVE_URL = "datasets";
   private static final String DATABASE_CODE_PARAM = "database_code";
@@ -48,6 +50,10 @@ public final class SearchRequest {
     private Integer _pageNumber;
     private Integer _maxDocsPerPage;
 
+    /**
+     * Create an uninitialised Builder object.
+     * @deprecated Prefer ofDatabaseCode or ofQuery static factory methods.
+     */
     public Builder() {
     }
 
@@ -68,6 +74,18 @@ public final class SearchRequest {
       ArgumentChecker.notNull(query, "query");
       return new Builder(query);
     }
+    
+    /**
+     * Create a builder and specify the database to search within. For example WIKI
+     * 
+     * @param databaseCode the database code to search within.
+     * @return a Builder, with this database code specified
+     */
+    public static Builder ofDatabaseCode(final String databaseCode) {
+      Builder builder = new Builder();
+      builder._databaseCode = databaseCode;
+      return builder;
+    }
 
     /**
      * Specify the database to search within. For example WIKI
@@ -81,7 +99,8 @@ public final class SearchRequest {
     }
 
     /**
-     * Specify the search term to use for your query. Multiple search terms can be separated by the + character.
+     * Specify the search term to use for your query. Multiple search terms can be separated by
+     * the + character.
      * 
      * @param query the query string to use
      * @return this Builder, with this query added
@@ -89,6 +108,19 @@ public final class SearchRequest {
     public Builder withQuery(final String query) {
       _query = query;
       return this;
+    }
+    
+    /**
+     * Create a builder and specify the search term to use for your query. Multiple search terms can be separated by
+     * the + character.
+     * 
+     * @param query the query string to use
+     * @return a Builder, with this query added
+     */
+    public static Builder ofQuery(final String query) {
+      Builder builder = new Builder();
+      builder._query = query;
+      return builder;
     }
 
     /**
@@ -103,10 +135,11 @@ public final class SearchRequest {
     }
 
     /**
-     * Specify the maximum number of documents per page of results. Currently, this is limited to 100, but this library does not enforce
-     * that in case the limit changes.
+     * Specify the maximum number of documents per page of results. Currently, this is 
+     * limited to 100, but this library does not enforce that in case the limit changes.
      * 
-     * @param maxDocsPerPage the maximum number of documents per page (currently limited to 100 by API)
+     * @param maxDocsPerPage the maximum number of documents per page (currently limited
+     *                       to 100 by API)
      * @return this Builder, with the page number information added
      */
     public Builder withMaxPerPage(final int maxDocsPerPage) {
@@ -122,7 +155,7 @@ public final class SearchRequest {
     public SearchRequest build() {
       return new SearchRequest(this);
     }
-  };
+  }
 
   /**
    * @return the database code, or null if not set
@@ -254,5 +287,15 @@ public final class SearchRequest {
     }
     builder.append("]");
     return builder.toString();
+  }
+
+  /**
+   * Accept a request processor in visitor pattern style.
+   * @param <T> the processor result type
+   * @param processor  the request processor
+   * @return the request processor's result
+   */
+  public <T> T accept(final RequestProcessor<T> processor) {
+    return processor.processSearchRequest(this);
   }
 }

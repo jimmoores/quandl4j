@@ -17,6 +17,7 @@ import com.jimmoores.quandl.util.QuandlRuntimeException;
 import java.util.List;
 
 /**
+ * @deprecated this test covers the deprecated API.
  * Unit tests testing null checking.
  */
 @Test(groups = { "unit" })

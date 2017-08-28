@@ -33,20 +33,20 @@ public interface ResultProcessor {
    * Process a TabularResult, either saving or checking against a saved file.
    * @param tabularResult the tabular result to save or check
    */
-  void processResult(final TabularResult tabularResult);
+  void processResult(TabularResult tabularResult);
   /**
    * Process a MetaDataResult, either saving or checking against a saved file.
    * @param metaDataResult the metaDataResult object to save or check
    */
-  void processResult(final MetaDataResult metaDataResult);
+  void processResult(MetaDataResult metaDataResult);
   /**
    * Process a map of Quandl code to HeaderDefinition, either saving or checking against a saved file.
    * @param multiHeaderDefinitionResult the map of Quandl code to HeaderDefinition to save or check
    */
-  void processResult(final Map<String, HeaderDefinition> multiHeaderDefinitionResult);
+  void processResult(Map<String, HeaderDefinition> multiHeaderDefinitionResult);
   /**
    * Process a SearchResult, either saving or checking against a saved file.
    * @param searchResult the JSON object to save or check
    */
-  void processResult(final SearchResult searchResult);
+  void processResult(SearchResult searchResult);
 }

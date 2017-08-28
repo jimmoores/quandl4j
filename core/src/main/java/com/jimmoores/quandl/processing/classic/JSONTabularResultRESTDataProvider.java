@@ -6,10 +6,14 @@ import org.json.JSONObject;
 
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.processing.AbstractRESTDataProvider;
-import com.jimmoores.quandl.util.RESTDataProvider;
+import com.jimmoores.quandl.processing.Request;
 
-@SuppressWarnings("deprecation")
-public class JSONTabularResultRESTDataProvider extends AbstractRESTDataProvider<JSONObject, TabularResult> implements RESTDataProvider {
+/**
+ * Replacement for DefaultRESTDataProvider that specialises the AbstractRESTDataProvider for
+ * org.json.JSONObject and TabularResult as the metadata and table types the user receives.
+ * This is used by the new ClassicQuandlSession, providing the existing, familiar result types.
+ */
+public class JSONTabularResultRESTDataProvider extends AbstractRESTDataProvider<JSONObject, TabularResult> {
   private static final JSONObjectResponseProcessor JSON_OBJECT_RESPONSE_PROCESSOR = new JSONObjectResponseProcessor();
   private static final TabularResultResponseProcessor TABULAR_RESULT_RESPONSE_PROCESSOR = new TabularResultResponseProcessor();
 
@@ -20,10 +24,11 @@ public class JSONTabularResultRESTDataProvider extends AbstractRESTDataProvider<
    * response code was unusual
    * 
    * @param target the WebTarget describing the call to make, not null
+   * @param request the request object or null
    * @return the parsed JSON object
    */
-  public JSONObject getJSONResponse(final WebTarget target) {
-    return getResponse(target, JSON_OBJECT_RESPONSE_PROCESSOR);
+  public JSONObject getJSONResponse(final WebTarget target, final Request request) {
+    return getResponse(target, JSON_OBJECT_RESPONSE_PROCESSOR, request);
   }
 
   /**
@@ -33,9 +38,11 @@ public class JSONTabularResultRESTDataProvider extends AbstractRESTDataProvider<
    * network issue or response code was unusual
    * 
    * @param target the WebTarget describing the call to make, not null
+   * @param request the request object or null
    * @return the parsed TabularResult
    */
-  public TabularResult getTabularResponse(final WebTarget target) {
-    return getResponse(target, TABULAR_RESULT_RESPONSE_PROCESSOR);
+  public TabularResult getTabularResponse(final WebTarget target, final Request request) {
+    return getResponse(target, TABULAR_RESULT_RESPONSE_PROCESSOR, request);
   }
+
 }

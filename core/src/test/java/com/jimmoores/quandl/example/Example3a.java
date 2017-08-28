@@ -10,9 +10,9 @@ import com.jimmoores.quandl.QuandlCodeRequest;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.Row;
 import com.jimmoores.quandl.TabularResult;
-import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 
 /**
+ * @deprecated this example covers the deprecated API.
  * Example 3a.
  */
 public final class Example3a {
@@ -30,7 +30,6 @@ public final class Example3a {
    */
   private void run() {
     QuandlSession session = QuandlSession.create();
-    @SuppressWarnings("deprecation")
     TabularResult tabularResultMulti = session.getDataSets(
         MultiDataSetRequest.Builder
           .of(

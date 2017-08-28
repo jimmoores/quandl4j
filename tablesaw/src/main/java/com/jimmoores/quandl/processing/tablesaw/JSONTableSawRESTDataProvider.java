@@ -5,6 +5,7 @@ import javax.ws.rs.client.WebTarget;
 import org.json.JSONObject;
 
 import com.jimmoores.quandl.processing.AbstractRESTDataProvider;
+import com.jimmoores.quandl.processing.Request;
 import com.jimmoores.quandl.processing.classic.JSONObjectResponseProcessor;
 
 import tech.tablesaw.api.Table;
@@ -22,8 +23,8 @@ public class JSONTableSawRESTDataProvider extends AbstractRESTDataProvider<JSONO
    * @param target the WebTarget describing the call to make, not null
    * @return the parsed JSON object
    */
-  public JSONObject getJSONResponse(final WebTarget target) {
-    return getResponse(target, JSON_OBJECT_RESPONSE_PROCESSOR);
+  public JSONObject getJSONResponse(final WebTarget target, final Request request) {
+    return getResponse(target, JSON_OBJECT_RESPONSE_PROCESSOR, request);
   }
 
   /**
@@ -35,7 +36,7 @@ public class JSONTableSawRESTDataProvider extends AbstractRESTDataProvider<JSONO
    * @param target the WebTarget describing the call to make, not null
    * @return the parsed TabularResult
    */
-  public Table getTabularResponse(final WebTarget target) {
-    return getResponse(target, TABLE_SAW_RESPONSE_PROCESSOR);
+  public Table getTabularResponse(final WebTarget target, Request request) {
+    return getResponse(target, TABLE_SAW_RESPONSE_PROCESSOR, request);
   }
 }

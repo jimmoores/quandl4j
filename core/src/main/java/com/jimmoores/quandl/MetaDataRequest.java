@@ -2,12 +2,14 @@ package com.jimmoores.quandl;
 
 import javax.ws.rs.client.WebTarget;
 
+import com.jimmoores.quandl.processing.RequestProcessor;
+import com.jimmoores.quandl.processing.Request;
 import com.jimmoores.quandl.util.ArgumentChecker;
 
 /**
  * A class that packages the request for MetaData from Quandl.
  */
-public final class MetaDataRequest {
+public final class MetaDataRequest implements Request {
   private static final String EXTENSION = ".json";
   private static final String DATASETS_RELATIVE_URL = "datasets";
   private static final String EXCLUDE_DATA_PARAM = "start_date";
@@ -75,5 +77,15 @@ public final class MetaDataRequest {
   @Override
   public String toString() {
     return "MetaDataRequest[quandlCode=" + _quandlCode + "]";
+  }
+  
+  /**
+   * Accept a request processor in visitor pattern style.
+   * @param <T> the processor result type
+   * @param processor  the request processor
+   * @return the request processor's result
+   */
+  public <T> T accept(final RequestProcessor<T> processor) {
+    return processor.processMetaDataRequest(this);
   }
 }

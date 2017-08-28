@@ -5,9 +5,9 @@ import com.jimmoores.quandl.Frequency;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.Transform;
-import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 
 /**
+ * @deprecated this example covers the deprecated API.
  * Example 2.
  */
 public final class Example2 {

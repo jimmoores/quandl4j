@@ -7,9 +7,9 @@ import com.jimmoores.quandl.MultiDataSetRequest;
 import com.jimmoores.quandl.QuandlCodeRequest;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.TabularResult;
-import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 
 /**
+ * @deprecated this example covers the deprecated API.
  * Example 3.
  */
 public final class Example3 {
@@ -27,7 +27,6 @@ public final class Example3 {
    */
   private void run() {
     QuandlSession session = QuandlSession.create();
-    @SuppressWarnings("deprecation")
     TabularResult tabularResultMulti = session.getDataSets(
         MultiDataSetRequest.Builder
           .of(

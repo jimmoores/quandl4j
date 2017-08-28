@@ -8,6 +8,7 @@ import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.util.PrettyPrinter;
 
 /**
+ * @deprecated this example covers the deprecated API.
  * Example 6.
  */
 public final class Example6 {

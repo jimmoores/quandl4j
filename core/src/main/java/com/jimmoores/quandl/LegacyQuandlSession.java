@@ -4,6 +4,14 @@ import java.util.Map;
 
 import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 
+/**
+ * Interface to add deprecated methods to new GenericQuandlSessionInterface for the legacy QuandlSession
+ * object, retained for backwards compatibility.
+ *
+ * @param <METADATA_TYPE>  the type used to wrap metadata results
+ * @param <TABLE_TYPE>  the type used to hold tabular results
+ * @param <SEARCH_TYPE>  the type used to wrap search results
+ */
 public interface LegacyQuandlSession<METADATA_TYPE, TABLE_TYPE, SEARCH_TYPE>
     extends GenericQuandlSessionInterface<METADATA_TYPE, TABLE_TYPE, SEARCH_TYPE> {
   /**

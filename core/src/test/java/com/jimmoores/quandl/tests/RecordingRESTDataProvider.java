@@ -23,9 +23,6 @@ import org.json.JSONTokener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import au.com.bytecode.opencsv.CSVReader;
-import au.com.bytecode.opencsv.CSVWriter;
-
 import com.jimmoores.quandl.HeaderDefinition;
 import com.jimmoores.quandl.Row;
 import com.jimmoores.quandl.TabularResult;
@@ -36,7 +33,13 @@ import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 import com.jimmoores.quandl.util.QuandlUnprocessableEntityException;
 import com.jimmoores.quandl.util.RESTDataProvider;
 
+import au.com.bytecode.opencsv.CSVReader;
+import au.com.bytecode.opencsv.CSVWriter;
+
 /**
+ * @deprecated this test class covers the deprecated API.  There is currently no direct
+ *             replacement for tests, so if you need it, use LegacyRESTDataProviderAdapter
+ *             to wrap it.
  * RESTDataProvider that creates local file system copies of the files it gets
  * and keeps an index.  Files are created in the current working directory.
  */
@@ -154,7 +157,8 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
         throw ex;
       }
     } else if (response.getStatus() == UNPROCESSABLE_ENTITY) {
-      QuandlUnprocessableEntityException ex = new QuandlUnprocessableEntityException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
+      QuandlUnprocessableEntityException ex = new QuandlUnprocessableEntityException("Response code to " + target.getUri()
+          + " was " + response.getStatusInfo());
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     } else if (response.getStatus() == TOO_MANY_REQUESTS) {
@@ -162,7 +166,8 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     } else if (response.getStatus() == SERVICE_UNAVAILABLE) {
-      QuandlServiceUnavailableException ex = new QuandlServiceUnavailableException("Response code to " + target.getUri() + " was " + response.getStatusInfo());      
+      QuandlServiceUnavailableException ex = new QuandlServiceUnavailableException("Response code to " + target.getUri() + " was "
+          + response.getStatusInfo());      
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     } else {
@@ -235,19 +240,25 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
         throw qex;
       }
     } else if (response.getStatus() == UNPROCESSABLE_ENTITY) {
-      QuandlUnprocessableEntityException ex = new QuandlUnprocessableEntityException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
+      QuandlUnprocessableEntityException ex = new QuandlUnprocessableEntityException(
+          "Response code to " + target.getUri() + " was " 
+          + response.getStatusInfo());
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     } else if (response.getStatus() == TOO_MANY_REQUESTS) {
-      QuandlTooManyRequestsException ex = new QuandlTooManyRequestsException("Response code to " + target.getUri() + " was " + response.getStatusInfo());      
+      QuandlTooManyRequestsException ex = new QuandlTooManyRequestsException(
+          "Response code to " + target.getUri() + " was " + response.getStatusInfo());      
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     } else if (response.getStatus() == SERVICE_UNAVAILABLE) {
-      QuandlServiceUnavailableException ex = new QuandlServiceUnavailableException("Response code to " + target.getUri() + " was " + response.getStatusInfo());      
+      QuandlServiceUnavailableException ex = new QuandlServiceUnavailableException(
+          "Response code to " + target.getUri() + " was " 
+          + response.getStatusInfo());      
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     } else {
-      QuandlRuntimeException ex = new QuandlRuntimeException("Response code to " + target.getUri() + " was " + response.getStatusInfo());
+      QuandlRuntimeException ex = new QuandlRuntimeException(
+          "Response code to " + target.getUri() + " was " + response.getStatusInfo());
       writeIndexEntry(target.getUriBuilder().build(), file, ex);
       throw ex;
     }
