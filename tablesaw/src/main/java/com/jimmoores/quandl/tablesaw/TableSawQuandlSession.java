@@ -12,6 +12,7 @@ import com.jimmoores.quandl.processing.ClassicMetaDataPackager;
 import com.jimmoores.quandl.processing.GenericRESTDataProvider;
 import com.jimmoores.quandl.processing.MetaDataPackager;
 import com.jimmoores.quandl.processing.tablesaw.JSONTableSawRESTDataProvider;
+import com.jimmoores.quandl.processing.tablesaw.TableSawRESTDataProvider;
 import com.jimmoores.quandl.util.ArgumentChecker;
 
 import tech.tablesaw.api.Table;
@@ -60,6 +61,23 @@ public class TableSawQuandlSession extends GenericQuandlSession<MetaDataResult, 
     return new TableSawQuandlSession(
         sessionOptions, 
         new JSONTableSawRESTDataProvider(), 
+        new ClassicMetaDataPackager());
+  }
+  
+  /**
+   * Create a Quandl session with detailed SessionOptions. No attempt will be made to read the java property <em>quandl.auth.token</em> even
+   * if available. Note creating this object does not make any actual API requests, the token is used in subsequent requests.
+   * 
+   * @param sessionOptions a user created SessionOptions instance, not null
+   * @param restDataProvider  an alternative REST data provider, usually for testing or data collection, not null
+   * @return an instance of the Quandl session, not null
+   */
+  public static TableSawQuandlSession create(final SessionOptions sessionOptions, final TableSawRESTDataProvider restDataProvider) {
+    ArgumentChecker.notNull(sessionOptions, "sessionOptions");
+    ArgumentChecker.notNull(restDataProvider, "restDataProvider");
+    return new TableSawQuandlSession(
+        sessionOptions, 
+        restDataProvider,
         new ClassicMetaDataPackager());
   }
   
