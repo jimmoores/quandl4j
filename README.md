@@ -3,10 +3,9 @@ Quandl4J : A Quandl library for Java
 **NEWS: 2.0.0 released**
 
 *The 2.0.0 release represents a substantial rewrite to allow the use of alternative types to hold tabular and meta-data.  The initial
-implementations are **classic**, **string** **tablesaw**.  Classic refers to the previous 1.x API's use of json.org's JSONObject type
+implementations are **classic**, **tablesaw**.  Classic refers to the previous 1.x API's use of json.org's JSONObject type
 for metadata and the home-grown TabularResult type for tabular data.  Tablesaw is new project build around an in-memory table 
 implementation in the same vein as TabularResult, but taken much, much further, by allowing fast querying, filtering, and so on. 
-String refers to a simple implementation that returns the data as raw strings for further processing at the application level.
 Many thanks to Ben McCann for his suggestions and pull-requests, which kicked off development of 2.0.0.*
 
 More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
@@ -32,7 +31,7 @@ Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform co
 
 ### Quick Start
 The minimum pre-requisites are:
- - OpenJDK 7, Oracle JDK 7 & 8 are tested.  This is the last release that will support Java 7.
+ - OpenJDK 7, Oracle JDK 7 & 8 are tested.  The 2.0.0 release is the last major release that will support Java 7.
  - Maven 3.
 
 Four options are available:
@@ -76,8 +75,8 @@ The core design principles are:
  - A fairly comprehensive overhaul.  The primary aim was to allow the use of alternative types to hold tabular and metadata.  A common
 user question has been around the choice of JSON or Table representation, and these are now abstracted in a way that allows you to 
 choose types that best suit your application, and even add your own very easily.  This version is fully source compatible with previous
-versions, although most existing session classes and interfaces have been deprecated.  See the 2.0.0 migration guide for more 
-information about how to update your code.
+versions, although most existing session classes and interfaces have been deprecated.  Updating existing code is very simple, see the
+[2.0.0 migration guide](#2.0.0-migration-guide) for more information.
 
 ### Version 1.5.0
  - Calls upgraded to use V3 of the REST API for both data and metadata. No API changes. Logback is removed as a normal dependency to 
