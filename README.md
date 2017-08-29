@@ -1,11 +1,12 @@
 Quandl4J : A Quandl library for Java
 ====================================
 **NEWS: 2.0.0 released**
-The 2.0.0 release represents a substantial rewrite to allow the use of alternative types to hold tabular and meta-data.  The initial
+
+*The 2.0.0 release represents a substantial rewrite to allow the use of alternative types to hold tabular and meta-data.  The initial
 implementations will be 'classic' and 'tablesaw'.  Classic refers to the existing API use of json.org's JSONObject type for metadata and 
 the home-grown TabularResult type for tabular data.  Tablesaw is new project build around an in-memory table implementation in the 
 same vein as TabularResult, but taken much, much further, by allowing fast querying, filtering, and so on.  Many thanks to Ben McCann 
-his suggestions, which kicked off development of 2.0.0. 
+his suggestions, which kicked off development of 2.0.0.*
 
 More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
 
