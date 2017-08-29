@@ -151,11 +151,16 @@ new SearchRequest.Builder().withQuery(<query>).build();
  - Initial public release.
 
 ## Tutorial
+Since 2.0.0, you can choose the types used to return data from a session by using the appropriate session object.  This tutorial 
+considers the *classic* session style that returns data using the **json.org** module of the Apache Jackson library to return metadata
+as `JSONObject`s, and uses a table class provided by Quandl4J since the beginning called `TabularResult`.  The same API structure 
+apply to all sessions though.
+
 ### A First Taste of the API
 The following gets the complete data history (with Date, Open, High, Low, Volume, Ex-Dividend, Split Ratio, And Adjusted Open, High, Low Close and Volume columns) of AAPL (Apple Inc).  The symbol `WIKI/AAPL` is what is known as the **Quandl code** and is made up of a data source (in this case `WIKI`) and a data source specific code (in this case the exchange code for Apple Inc, which is `AAPL`).
 ```java
 // Example1.java
-QuandlSession session = QuandlSession.create();
+ClassicQuandlSession session = ClassicQuandlSession.create();
 TabularResult tabularResult = session.getDataSet(
   DataSetRequest.Builder.of("WIKI/AAPL").build());
 System.out.println(tabularResult.toPrettyPrintedString());
@@ -211,72 +216,29 @@ which will return something like
 +------------+-----------------+
 ```
 note that the whole series is normalized against the first value.
-### Retrieving data for multiple Quandl codes at the same time
-To retrieve data for multiple codes, we need a different request structure.  In particular we need to say which Quandl codes we want data retrieved for, but also which columns are required for each.  This is done using the `QuandlCodeRequest`, which has two factory methods: `singleColumn(String quandlCode, int columnIndex)` and `allColumns(String quandlCode)`.  It's worth noting we're allowed to use the normal form of Quandl codes here, in the REST API, the forward slash gets replaced with a full-stop/period in this context:
-```java
-// Example3.java
-QuandlSession session = QuandlSession.create();
-TabularResult tabularResultMulti = session.getDataSets(
-    MultiDataSetRequest.Builder
-      .of(
-        QuandlCodeRequest.singleColumn("WIKI/AAPL", CLOSE_COLUMN), 
-        QuandlCodeRequest.allColumns("DOE/RWTC")
-      )
-      .withStartDate(RECENTISH_DATE)
-      .withFrequency(Frequency.MONTHLY)
-      .build());
-System.out.println(tabularResultMulti.toPrettyPrintedString()); 
-```
-which returns all results in a single `TabularResult`
-```
-+------------+-------------------+------------------+
-| Date       | WIKI/AAPL - Close | DOE/RWTC - Value |
-+------------+-------------------+------------------+
-| 2014-06-30 | 637.54            |                  |
-| 2014-05-31 | 633.0             | 103.37           |
-| 2014-04-30 | 590.09            | 100.07           |
-| 2014-03-31 | 536.74            | 101.57           |
-| 2014-02-28 | 526.24            | 102.88           |
-| 2014-01-31 | 500.6             | 97.55            |
-| 2013-12-31 | 561.02            | 98.17            |
-| 2013-11-30 | 556.07            | 92.55            |
-| 2013-10-31 | 522.7             | 96.29            |
-| 2013-09-30 | 476.75            | 102.36           |
-| 2013-08-31 | 487.22            | 107.98           |
-| 2013-07-31 | 452.53            | 105.1            |
-| 2013-06-30 | 396.53            | 96.36            |
-| 2013-05-31 | 449.73            | 91.93            |
-| 2013-04-30 | 442.78            | 93.22            |
-| 2013-03-31 | 442.66            | 97.24            |
-| 2013-02-28 | 441.4             | 92.03            |
-| 2013-01-31 | 455.49            | 97.65            |
-+------------+-------------------+------------------+
-```
-Note that the column labels actually do have a **SPACE-HYPHEN-SPACE** between the Quandl code and the Column name.  A future version of the library should allow these columns to be separated out automatically.
+
 ### Structure of a TabularResult
 The type `TabularResult` is made up of a `HeaderDefinition`, which is essentially a list of column names (plus the facility to map from name to column index), plus a list of `Row` objects, each of which is linked to their common `HeaderDefinition`.  This allows individual `Row` objects to address their data using the column name rather than just the index as is the underlying API.  `Row` also contains methods to parse and cast data into various types (String, LocalDate, Double).  Here is an example
 ```java
 // Example3a.java
 QuandlSession session = QuandlSession.create();
-TabularResult tabularResultMulti = session.getDataSets(
-    MultiDataSetRequest.Builder
-      .of(
-        QuandlCodeRequest.singleColumn("WIKI/AAPL", CLOSE_COLUMN), 
-        QuandlCodeRequest.allColumns("DOE/RWTC")
-      )
+TabularResult tabularResult = session.getDataSet(
+    DataSetRequest.Builder
+      .of("DOE/RWTC")
+      .withColumn(CLOSE_COLUMN)
       .withStartDate(RECENTISH_DATE)
       .withFrequency(Frequency.MONTHLY)
       .build());
-System.out.println("Header definition: " + tabularResultMulti.getHeaderDefinition());
-for (final Row row : tabularResultMulti) {
+System.out.println("Header definition: " + tabularResult.getHeaderDefinition());
+for (final Row row : tabularResult) {
   LocalDate date = row.getLocalDate("Date");
-  Double value = row.getDouble("DOE/RWTC - Value");
+  Double value = row.getDouble("Value");
   System.out.println("Value on date " + date + " was " + value);
 } 
 ```
 produces:
 ```
-Header definition: HeaderDefinition[Date,WIKI/AAPL - Close,DOE/RWTC - Value]
+Header definition: HeaderDefinition[Date,Value]
 Value on date 2014-06-30 was null
 Value on date 2014-05-31 was 103.37
 Value on date 2014-04-30 was 100.07
