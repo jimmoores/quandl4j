@@ -2,7 +2,6 @@ package com.jimmoores.quandl.processing.tablesaw;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 
 import com.jimmoores.quandl.processing.Request;
 import com.jimmoores.quandl.processing.ResponseProcessor;
@@ -23,7 +22,7 @@ public class TableSawResponseProcessor implements ResponseProcessor<Table> {
       } else {
         name = DEFAULT_NAME;
       }
-      return Table.createFromReader(new InputStreamReader(inputStream), name);
+      return Table.read().csv(inputStream, name);
     } catch (IOException ioe) {
       throw new QuandlRuntimeException("Error reading input stream", ioe);
     }
