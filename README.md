@@ -1,9 +1,12 @@
 Quandl4J : A Quandl library for Java
 ====================================
-**NEWS: 1.5.0 released
-Many thanks to Ben McCann for a pull request updating the REST API calls to V3.  Users should notice no API changes.  Logback has been 
-removed as a dependency so users can choose their own slf4j provider more easily.  If you have build issues, try adding logback to your 
-own pom.xml.  Examples have been moved to tests, and some dependencies (commons-cli) rescoped to only be used for building tests.**
+# NEWS: 2.0.0 released
+The 2.0.0 release represents a substantial rewrite to allow the use of alternative types to hold tabular and meta-data.  The initial
+implementations will be 'classic' and 'tablesaw'.  Classic refers to the existing API use of json.org's JSONObject type for metadata and 
+the home-grown TabularResult type for tabular data.  Tablesaw is new project build around an in-memory table implementation in the 
+same vein as TabularResult, but taken much, much further, by allowing fast querying, filtering, and so on.
+
+Many thanks to Ben McCann his suggestions, which kicked off development of 2.0.0. 
 
 More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
 
@@ -27,11 +30,11 @@ Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform co
 
 ### Quick Start
 The minimum pre-requisites are:
- - OpenJDK 7, Oracle JDK 7 & 8 are tested.
+ - OpenJDK 7, Oracle JDK 7 & 8 are tested.  This is the last release that will support Java 7.
  - Maven 3.
 
-Three options are available:
- - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v1.4.1.zip)
+Four options are available:
+ - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v2.0.0.zip)
  - Clone the repository: `git clone https://github.com/jimmoores/quandl4j.git`
    - Run `mvn install` to build the libray, test, javadoc and source jars and install to your local Maven repository.
    - Run `mvn javadoc:javadoc` to build the documentation.
@@ -41,15 +44,17 @@ Three options are available:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl</artifactId>
-  <version>1.5.0</version>
+  <version>2.0.0</version>
 </dependency>
 ```
 
-Note to Scala/SBT users: for releases prior to 1.4.1 the POM references one artifact which isn't in maven central.  It's now been
-removed, but if you need to use older version for some reason you'll need to add `maven.opengamma.com` as a resolver - see the
-respositories section in the POM.
+ - or in gradle
 
-Gradle users should see the [notes on Gradle use](#gradle) helpfully provided by Martin Andersson.
+``` groovy
+dependencies {
+    compile 'com.jimmoores:quandl:2.0.0'
+}
+```
 
 ### Design Principles
 The core design principles are:
@@ -65,6 +70,13 @@ The core design principles are:
  - Provide comprehensive documentation and JavaDocs.
 
 ## Release Notes
+### Version 2.0.0
+ - A fairly comprehensive overhaul.  The primary aim was to allow the use of alternative types to hold tabular and metadata.  A common
+user question has been around the choice of JSON or Table representation, and these are now abstracted in a way that allows you to 
+choose types that best suit your application, and even add your own very easily.  This version is fully source compatible with previous
+versions, although most existing session classes and interfaces have been deprecated.  See the 2.0.0 migration guide for more 
+information about how to update your code.
+
 ### Version 1.5.0
  - Calls upgraded to use V3 of the REST API for both data and metadata. No API changes. Logback is removed as a normal dependency to 
 allow users to choose their own implementation of SLF4J (which is the whole point of SLF4J!). If you have any build issues try 
