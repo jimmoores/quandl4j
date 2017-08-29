@@ -3,7 +3,7 @@ Quandl4J : A Quandl library for Java
 **NEWS: 2.0.0 released**
 
 *The 2.0.0 release represents a substantial rewrite to allow the use of alternative types to hold tabular and meta-data.  The initial
-implementations are **classic**, **tablesaw**.  Classic refers to the previous 1.x API's use of json.org's JSONObject type
+implementations are **classic** and **tablesaw**.  Classic refers to the previous 1.x API's use of json.org's JSONObject type
 for metadata and the home-grown TabularResult type for tabular data.  Tablesaw is new project build around an in-memory table 
 implementation in the same vein as TabularResult, but taken much, much further, by allowing fast querying, filtering, and so on. 
 Many thanks to Ben McCann for his suggestions and pull-requests, which kicked off development of 2.0.0.*
@@ -246,7 +246,7 @@ Value on date 2017-06-30 was 1.427
 It's also possible to retrieve meta-data about the data sets available.
 ```java
 // Example4.java
-QuandlSession session = QuandlSession.create();
+ClassicQuandlSession session = ClassicQuandlSession.create();
 MetaDataResult metaData = session.getMetaData(MetaDataRequest.of("WIKI/AAPL"));
 System.out.println(metaData.toPrettyPrintedString());
 ```
@@ -286,98 +286,12 @@ which prints out the raw JSON of the underlying message
 }
 ```
 The raw JSON message is accessible, but the intention is for the user to mostly use the convenience methods available to extract named fields (with type casts) and process the `column_names` array into a `HeaderDefinition`.
-### Bulk meta-data
-This uses an undocumented feature of Quandl, which allows you to make requests for JSON to the multisets endpoint.  To this we add the parameter to limit the start date to a date far in the future.  This means we only get the meta-data.  It's limited to only providing enough data to determine the available columns, but that's quite useful in itself.  There are two calls that can process this `MultiMetaDataRequest`.  The first is an overloaded version of `getMetaData`.  Again, it's worth noting we're allowed to use the normal form of Quandl codes here: in the REST API, the forward slash gets replaced with a full-stop/period in this context.
-```java
-// Example5.java
-QuandlSession session = QuandlSession.create();
-MetaDataResult metaData = session.getMetaData(MultiMetaDataRequest.of("WIKI/AAPL", "DOE/RWTC", "WIKI/MSFT"));
-System.out.println(metaData.toPrettyPrintedString());
-```
-which returns a large JSON document wrapped in a normal MetaDataResult object.
-```json
-{
-  "column_names": [
-    "Date",
-    "WIKI/AAPL - Open",
-    "WIKI/AAPL - High",
-    "WIKI/AAPL - Low",
-    "WIKI/AAPL - Close",
-    "WIKI/AAPL - Volume",
-    "WIKI/AAPL - Ex-Dividend",
-    "WIKI/AAPL - Split Ratio",
-    "WIKI/AAPL - Adj. Open",
-    "WIKI/AAPL - Adj. High",
-    "WIKI/AAPL - Adj. Low",
-    "WIKI/AAPL - Adj. Close",
-    "WIKI/AAPL - Adj. Volume",
-    "DOE/RWTC - Value",
-    "WIKI/MSFT - Open",
-    "WIKI/MSFT - High",
-    "WIKI/MSFT - Low",
-    "WIKI/MSFT - Close",
-    "WIKI/MSFT - Volume",
-    "WIKI/MSFT - Ex-Dividend",
-    "WIKI/MSFT - Split Ratio",
-    "WIKI/MSFT - Adj. Open",
-    "WIKI/MSFT - Adj. High",
-    "WIKI/MSFT - Adj. Low",
-    "WIKI/MSFT - Adj. Close",
-    "WIKI/MSFT - Adj. Volume"
-  ],
-  "columns": [
-    "Date",
-    "Open",
-    "High",
-    "Low",
-    "Close",
-    "Volume",
-    "Ex-Dividend",
-    "Split Ratio",
-    "Adj. Open",
-    "Adj. High",
-    "Adj. Low",
-    "Adj. Close",
-    "Adj. Volume",
-    "Value",
-    "Open",
-    "High",
-    "Low",
-    "Close",
-    "Volume",
-    "Ex-Dividend",
-    "Split Ratio",
-    "Adj. Open",
-    "Adj. High",
-    "Adj. Low",
-    "Adj. Close",
-    "Adj. Volume"
-  ],
-  "data": [],
-  "errors": {},
-  "frequency": "annual",
-  "from_date": null,
-  "to_date": null
-}
-```
-A more generally useful method though, is to use the `getMultipleHeaderDefinition()` method
-```java
-// Example6.java
-QuandlSession session = QuandlSession.create();
-Map<String, HeaderDefinition> headers = session.getMultipleHeaderDefinition(MultiMetaDataRequest.of("WIKI/AAPL", "DOE/RWTC", "WIKI/MSFT"));
-System.out.println(PrettyPrinter.toPrettyPrintedString(headers));
-```
-which returns the following map (`PrettyPrinter` contains a PrettyPrinter for these maps too):
-```
-WIKI/AAPL => Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
-DOE/RWTC  => Date, Value
-WIKI/MSFT => Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
-```
+
 ### Searching
 We can also make generalised free-text search requests to Quandl.  For this we use the `search(SearchRequest)` method.  This allows us to specify the maximum number of results per page, and also the page we want.  Note that queries with high page numbers are slow, presumably due to the server-side database having to project the entire result set of several million documents just to get the single page you want.  Try not to add to server load by making these requests excessively.
 ```java
-// Example7.java
-QuandlSession session = QuandlSession.create();
+// Example5.java
+ClassicQuandlSession session = ClassicQuandlSession.create();
 SearchResult searchResult = session.search(new SearchRequest.Builder().withQuery("Apple").withMaxPerPage(2).build());
 System.out.println(searchResult.toPrettyPrintedString());
 ````
@@ -455,8 +369,8 @@ results in
 ```
 More usefully though, there are variously helper methods on SearchResult to allow you to get the document count, number of documents per page and to extract the individual matches as separate MetaDataResult objects.  For example
 ```java
-// Example8.java
-QuandlSession session = QuandlSession.create();
+// Example6.java
+ClassicQuandlSession session = ClassicQuandlSession.create();
 SearchResult searchResult = session.search(new SearchRequest.Builder().withQuery("Apple").withMaxPerPage(2).build());
 System.out.println("Current page:" + searchResult.getCurrentPage());
 System.out.println("Documents per page:" + searchResult.getDocumentsPerPage());
@@ -494,6 +408,37 @@ The default policy is `SequenceRetryPolicy(new long[] {1000, 5000, 20000, 60000}
 
 ### Documentation
 An addition to the tutorial, there is extra documentation at the package and class level within the [JavaDocs, which are hosted in GitHub Pages](http://jimmoores.github.io/quandl4j/apidocs).
+
+### 2.0.0 migration guide
+It's very straightforward to upgrade to the new API, however, some long-deprecated parts of the session API have been removed from the 
+new implementation.  If you still need these, you can continue to use the existing `QuandlSession`, but it is recommended you
+refactor to the new API to ensure long-term support and the availablility of any new features.
+
+For most users the only thing you need to do is to change instances of:
+
+```java
+QuandlSession session = QuandlSession.create();
+QuandlSession session = QuandlSession.create(...);
+```
+
+to
+
+```java
+ClassicQuandlSession session = ClassicQuandlSession.create();
+ClassicQuandlSession session = ClassicQuandlSession.create(...);
+```
+
+although note `ClassicQuandlSession` is in a new package `com.jimmoores.quandl.classic` if you're doing a search/replace without
+IDE support.
+
+Any now removed deprecated methods running multi-dataset or multi-metadata requests will need to be rewritten as single request 
+calls.  These calls have been emulated since they were removed from the Quandl REST API several years ago, so provide no speed
+advantage over single calls.
+
+In the unlikely event you're using custom `RESTDataProvider`s, you should change them to implement `ClassicRESTDataProvider` and 
+add a `Request` argument to each method.  The argument is provided to allow request data to be incorporated into the result (e.g. 
+to give a descriptive title for a table).  You can safely ignore this value though.  A quick-and-dirty fix is to simply wrap your 
+existing `RESTDataProvider` in an instance of `LegacyRESTDataProviderAdapter`.
 
 ### Roadmap
 Some future plans for incorporation include:
