@@ -20,7 +20,7 @@ public final class Example1 {
   private void run() {
     ClassicQuandlSession session = ClassicQuandlSession.create();
     TabularResult tabularResult = session.getDataSet(
-        DataSetRequest.Builder.of("WIKI/AAPL").build());
+        DataSetRequest.Builder.of("WIKI/AAPL").withMaxRows(10).build());
     System.out.println(tabularResult.toPrettyPrintedString());
   }
 

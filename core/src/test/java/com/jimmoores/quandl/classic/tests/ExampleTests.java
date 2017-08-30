@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 import com.jimmoores.quandl.classic.example.Demo;
 import com.jimmoores.quandl.classic.example.Example1;
 import com.jimmoores.quandl.classic.example.Example2;
-import com.jimmoores.quandl.classic.example.Example3;
 import com.jimmoores.quandl.classic.example.Example4;
 import com.jimmoores.quandl.classic.example.Example5;
+import com.jimmoores.quandl.classic.example.Example6;
 
 
 // CHECKSTYLE:OFF
@@ -27,15 +27,15 @@ public class ExampleTests {
   }
   @Test
   public void example3Test() {
-    Example3.main(new String[] {});
-  }
-  @Test
-  public void example4Test() {
     Example4.main(new String[] {});
   }
   @Test
-  public void example5Test() {
+  public void example4Test() {
     Example5.main(new String[] {});
+  }
+  @Test
+  public void example5Test() {
+    Example6.main(new String[] {});
   }
   @Test
   public void demoTest() {

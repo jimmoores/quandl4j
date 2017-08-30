@@ -1,14 +1,13 @@
 package com.jimmoores.quandl.classic.example;
 
-import com.jimmoores.quandl.SearchRequest;
-import com.jimmoores.quandl.SearchResult;
+import com.jimmoores.quandl.MetaDataRequest;
+import com.jimmoores.quandl.MetaDataResult;
 import com.jimmoores.quandl.classic.ClassicQuandlSession;
 
 /**
- * Example 4.
+ * Example 3.
  */
 public final class Example4 {
-
   /**
    * Private default constructor.
    */
@@ -20,8 +19,8 @@ public final class Example4 {
    */
   private void run() {
     ClassicQuandlSession session = ClassicQuandlSession.create();
-    SearchResult searchResult = session.search(SearchRequest.Builder.ofQuery("Apple").withMaxPerPage(2).build());
-    System.out.println(searchResult.toPrettyPrintedString());
+    MetaDataResult metaData = session.getMetaData(MetaDataRequest.of("WIKI/AAPL"));
+    System.out.println(metaData.toPrettyPrintedString());
   }
 
   /**
