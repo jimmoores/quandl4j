@@ -410,6 +410,140 @@ Other properties of `SessionOptions` are the `RESTDataProvider` which is used to
  
 The default policy is `SequenceRetryPolicy(new long[] {1000, 5000, 20000, 60000})`, which will back off first by 1 second, then 5, then 20 and finally a full minute.  Custom policies can be created by subclassing `RetryPolicy` yourself.
 
+### TableSaw
+To use the tablesaw module, simply add the following dependency
+
+```xml
+<dependency>
+  <groupId>com.jimmoores</groupId>
+  <artifactId>quandl-tablesaw</artifactId>
+  <version>2.0.0</version>
+</dependency>
+```
+
+This will pull in both normal quandl4j and tablesaw, but not the tablesaw-plot module, which you'll need to add to use TableSaw's 
+graphing features (although it does as part of the test scope to allow you to run the examples).
+
+```xml
+<dependency>
+ 	<groupId>tech.tablesaw</groupId>
+		<artifactId>tablesaw-plot</artifactId>
+		<version>0.9.2</version>
+</dependency>
+```
+
+#### Simple query with text dump
+This is really a replay of a very simple query, with a textual dump of the output.
+
+```java
+// Example 7
+TableSawQuandlSession session = TableSawQuandlSession.create();
+Table table = session.getDataSet(
+    DataSetRequest.Builder.of("WIKI/AAPL").withMaxRows(10).build());
+System.out.println(table);
+```
+
+which outputs
+
+```
+
+    Date     |   Open   |   High   |    Low     |  Close   |    Volume     |  Ex-Dividend  |  Split Ratio  |  Adj. Open  |  Adj. High  |  Adj. Low  |  Adj. Close  |  Adj. Volume  |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 2017-08-29  |   160.1  |  163.12  |     160.0  |  162.91  |  2.9307862E7  |          0.0  |          1.0  |      160.1  |     163.12  |     160.0  |      162.91  |  2.9307862E7  |
+ 2017-08-28  |  160.14  |   162.0  |    159.93  |  161.47  |  2.5279674E7  |          0.0  |          1.0  |     160.14  |      162.0  |    159.93  |      161.47  |  2.5279674E7  |
+ 2017-08-25  |  159.65  |  160.56  |    159.27  |  159.86  |  2.5015218E7  |          0.0  |          1.0  |     159.65  |     160.56  |    159.27  |      159.86  |  2.5015218E7  |
+ 2017-08-24  |  160.43  |  160.74  |    158.55  |  159.27  |   1.902962E7  |          0.0  |          1.0  |     160.43  |     160.74  |    158.55  |      159.27  |   1.902962E7  |
+ 2017-08-23  |  159.07  |  160.47  |    158.88  |  159.98  |  1.9198188E7  |          0.0  |          1.0  |     159.07  |     160.47  |    158.88  |      159.98  |  1.9198188E7  |
+ 2017-08-22  |  158.23  |   160.0  |    158.02  |  159.78  |  2.1297812E7  |          0.0  |          1.0  |     158.23  |      160.0  |    158.02  |      159.78  |  2.1297812E7  |
+ 2017-08-21  |   157.5  |  157.89  |  155.1101  |  157.21  |  2.6145652E7  |          0.0  |          1.0  |      157.5  |     157.89  |  155.1101  |      157.21  |  2.6145652E7  |
+ 2017-08-18  |  157.86  |   159.5  |    156.72  |   157.5  |  2.7012524E7  |          0.0  |          1.0  |     157.86  |      159.5  |    156.72  |       157.5  |  2.7012524E7  |
+ 2017-08-17  |  160.52  |  160.71  |    157.84  |  157.87  |  2.6925694E7  |          0.0  |          1.0  |     160.52  |     160.71  |    157.84  |      157.87  |  2.6925694E7  |
+ 2017-08-16  |  161.94  |  162.51  |    160.15  |  160.95  |   2.732176E7  |          0.0  |          1.0  |     161.94  |     162.51  |    160.15  |      160.95  |   2.732176E7  |
+```
+
+#### Query with aggregation, grouping and charts
+In this example, we extract the full history of Apple Inc. and do some grouping and aggregation on the results.
+We start similarly, but getting the full history.  We then create a new column by extracting the year from the
+*Date* column.  We then name the new column and add it to the table.  This allows us to then created grouped
+aggregated tables for *max(Close)*, *min(Close)* and *sum(Volume)*.  These are then all used to create a new
+summary table.  
+
+```java
+TableSawQuandlSession session = TableSawQuandlSession.create();
+Table table = session.getDataSet(
+    DataSetRequest.Builder.of("WIKI/AAPL").build());
+// Create a new column containing the year
+ShortColumn yearColumn = table.dateColumn("Date").year();
+yearColumn.setName("Year");
+table.addColumn(yearColumn);
+// Create max, min and total volume tables aggregated by year
+Table summaryMax = table.max("Close").by("year");
+Table summaryMin = table.minimum("Close").by("year");
+Table summaryVolume = table.sum("Volume").by("year");
+// Create a new table from each of these
+Table summary = Table.create("Summary", summaryMax.column(0), summaryMax.column(1), 
+                             summaryMin.column(1), summaryVolume.column(1));
+// Show the max close price as a graph.
+try {
+  Bar.show("Max Close Price by year", summary.shortColumn("Year"), summary.numericColumn(1));
+} catch (Exception e) {
+  e.printStackTrace();
+}
+System.out.println(summary);
+```
+We finish by displaying a graph of *max(Close)* (the graphing doesn't appear to support multiple
+columns currently) 
+
+![Plot of max(Close) by Year on AAPL](docs/tablesaw-chart.png "Plot of max(Close) by Year on AAPL")
+
+and then printing out the table
+
+```
+
+ Year  |  Max [Close]  |  Min [Close]  |  Sum [Volume]   |
+----------------------------------------------------------
+ 1980  |         36.0  |        25.25  |      6003800.0  |
+ 1981  |         34.5  |        14.25  |      3.65935E7  |
+ 1982  |        33.87  |         11.0  |    9.5379504E7  |
+ 1983  |        62.75  |        17.88  |     1.860744E8  |
+ 1984  |        33.25  |        21.87  |     1.874064E8  |
+ 1985  |        30.62  |         14.5  |   2.03094976E8  |
+ 1986  |        43.75  |        22.12  |   2.38050096E8  |
+ 1987  |        80.25  |         28.0  |   3.84217088E8  |
+ 1988  |        47.25  |        36.13  |   3.68687296E8  |
+ 1989  |        49.63  |        33.75  |   4.54516288E8  |
+ 1990  |        47.38  |         25.0  |   3.96445888E8  |
+ 1991  |        72.75  |        41.13  |   5.12032608E8  |
+ 1992  |        69.87  |        43.25  |   3.67302784E8  |
+ 1993  |         65.0  |        22.62  |      5.04044E8  |
+ 1994  |        43.25  |        25.12  |   5.10320512E8  |
+ 1995  |        49.38  |        31.87  |    6.6309408E8  |
+ 1996  |         35.0  |        16.87  |   4.74948416E8  |
+ 1997  |        29.19  |        12.94  |    6.4252998E8  |
+ 1998  |         43.0  |        15.88  |   1.02851962E9  |
+ 1999  |       117.81  |        32.19  |   1.22413133E9  |
+ 2000  |       144.19  |         14.0  |   1.67258214E9  |
+ 2001  |        26.59  |        14.88  |   1.69031782E9  |
+ 2002  |        26.11  |         13.6  |   1.37524864E9  |
+ 2003  |        24.82  |        13.12  |   1.27196877E9  |
+ 2004  |        68.44  |        21.28  |   2.17502976E9  |
+ 2005  |        90.13  |        34.13  |    5.6722284E9  |
+ 2006  |        91.81  |        50.67  |    7.7035346E9  |
+ 2007  |       199.83  |        83.27  |    8.8212849E9  |
+ 2008  |       194.93  |        80.49  |  1.02136146E10  |
+ 2009  |       211.64  |         78.2  |     5.116203E9  |
+ 2010  |       325.47  |       192.05  |    5.3937475E9  |
+ 2011  |       422.24  |       315.32  |    4.4306908E9  |
+ 2012  |        702.1  |       411.23  |    4.7130071E9  |
+ 2013  |       570.09  |       390.53  |   3.65791309E9  |
+ 2014  |       647.35  |        90.28  |    8.7340124E9  |
+ 2015  |        133.0  |       103.12  |  1.30643169E10  |
+ 2016  |       118.25  |        90.34  |    9.6858716E9  |
+ 2017  |       162.91  |       116.02  |    4.3456041E9  |
+ ```
+
+There's a lot more of interest in TableSaw, [see the TableSaw GitHub for more details](https://github.com/jtablesaw/tablesaw).
+
 ### Documentation
 An addition to the tutorial, there is extra documentation at the package and class level within the [JavaDocs, which are hosted in GitHub Pages](http://jimmoores.github.io/quandl4j/apidocs).
 
