@@ -23,9 +23,6 @@ import org.json.JSONTokener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import au.com.bytecode.opencsv.CSVReader;
-import au.com.bytecode.opencsv.CSVWriter;
-
 import com.jimmoores.quandl.HeaderDefinition;
 import com.jimmoores.quandl.QuandlSession;
 import com.jimmoores.quandl.Row;
@@ -35,6 +32,8 @@ import com.jimmoores.quandl.util.QuandlServiceUnavailableException;
 import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 import com.jimmoores.quandl.util.QuandlUnprocessableEntityException;
 import com.jimmoores.quandl.util.RESTDataProvider;
+import com.opencsv.CSVReader;
+import com.opencsv.CSVWriter;
 
 /**
  * RESTDataProvider that creates local file system copies of the files it gets

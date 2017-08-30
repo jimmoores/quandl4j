@@ -15,11 +15,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
-import au.com.bytecode.opencsv.CSVReader;
-
 import com.jimmoores.quandl.HeaderDefinition;
 import com.jimmoores.quandl.Row;
 import com.jimmoores.quandl.TabularResult;
+import com.opencsv.CSVReader;
 
 /**
  * Utility methods for fetching data from remote Quandl REST interface.
