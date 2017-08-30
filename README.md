@@ -6,7 +6,7 @@ Quandl4J : A Quandl library for Java
 implementations are **classic** and **tablesaw**.  **Classic** refers to the previous 1.x API's use of json.org's `JSONObject` type
 for metadata and the home-grown `TabularResult` type for tabular data.  [**Tablesaw**](https://github.com/jtablesaw/tablesaw) is new 
 project build around an in-memory table implementation in the same vein as `TabularResult`, but taken much, much further, by allowing 
-fast querying, filtering, and so on. 
+fast querying and filtering of the in-memory column store, fast import/export, charting and so on. 
 Many thanks to Ben McCann for his suggestions and pull-requests, which kicked off development of 2.0.0.*
 
 More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
@@ -156,6 +156,9 @@ Since 2.0.0, you can choose the types used to return data from a session by usin
 considers the *classic* session style that returns data using the **json.org** module of the Apache Jackson library to return metadata
 as `JSONObject`s, and uses a table class provided by Quandl4J since the beginning called `TabularResult`.  The same API structure 
 apply to all sessions though.
+
+Note that all the examples here don't set your API key.  To do anything non-trivial you must get an API key, you can obtain one by
+registering for a free account at [quandl.com](https://www.quandl.com).
 
 ### A First Taste of the API
 The following gets the complete data history (with Date, Open, High, Low, Volume, Ex-Dividend, Split Ratio, And Adjusted Open, High, Low Close and Volume columns) of AAPL (Apple Inc).  The symbol `WIKI/AAPL` is what is known as the **Quandl code** and is made up of a data source (in this case `WIKI`) and a data source specific code (in this case the exchange code for Apple Inc, which is `AAPL`).
