@@ -428,9 +428,9 @@ graphing features (although it does as part of the test scope to allow you to ru
 
 ```xml
 <dependency>
- 	<groupId>tech.tablesaw</groupId>
-		<artifactId>tablesaw-plot</artifactId>
-		<version>0.9.2</version>
+    <groupId>tech.tablesaw</groupId>
+    <artifactId>tablesaw-plot</artifactId>
+    <version>0.9.2</version>
 </dependency>
 ```
 
