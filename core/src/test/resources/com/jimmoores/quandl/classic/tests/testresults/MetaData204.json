@@ -1,0 +1,28 @@
+{
+  "code": "USD",
+  "column_names": [
+    "Date",
+    "High",
+    "Low",
+    "Last",
+    "Bid",
+    "Ask",
+    "Volume",
+    "VWAP"
+  ],
+  "description": "Bitcoin Price on BitStamp exchange. Updated at 6:00pm EST.",
+  "display_url": null,
+  "errors": {},
+  "frequency": "daily",
+  "from_date": "2014-04-15",
+  "id": 11321277,
+  "name": "USD/BITCOIN Exchange Rate",
+  "premium": false,
+  "private": false,
+  "source_code": "BITSTAMP",
+  "source_name": "Bitstamp",
+  "to_date": "2015-06-29",
+  "type": null,
+  "updated_at": "2015-06-29T22:00:06.656Z",
+  "urlize_name": "USD-BITCOIN-Exchange-Rate"
+}

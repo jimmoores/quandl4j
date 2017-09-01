@@ -1,0 +1,24 @@
+{
+  "code": "INDEX",
+  "column_names": [
+    "Month",
+    "Unemployment Rate",
+    "Inflation Rate",
+    "Misery Index"
+  ],
+  "description": "How miserable do you feel? The misery index was initiated by economist Arthur Okun, an adviser to President Lyndon Johnson in the 1960's. It is simply the unemployment rate added to the inflation rate. It is assumed that both a higher rate of unemployment and a worsening of inflation both create economic and social costs for a country. A combination of rising inflation and more people out of work implies a deterioration in economic performance and a rise in the misery index.",
+  "display_url": "http://www.miseryindex.us/rawdata.aspx",
+  "errors": {},
+  "frequency": "monthly",
+  "from_date": "1948-01-31",
+  "id": 2450270,
+  "name": "United States Misery Index",
+  "premium": false,
+  "private": false,
+  "source_code": "USMISERY",
+  "source_name": "United States Misery Index",
+  "to_date": "2015-05-31",
+  "type": null,
+  "updated_at": "2015-06-22T04:14:11.913Z",
+  "urlize_name": "United-States-Misery-Index"
+}

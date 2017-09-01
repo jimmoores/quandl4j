@@ -1,0 +1,30 @@
+{
+  "code": "PALCAP",
+  "column_names": [
+    "Date",
+    "Africa",
+    "Asia (ex China)",
+    "North America",
+    "South America",
+    "West Europe",
+    "East & Central Europe",
+    "Oceania",
+    "GCC",
+    "Reported Total"
+  ],
+  "description": "World Aluminium capacity in Thousand Metric Tonnes.",
+  "display_url": "http://www.world-aluminium.org/media/stats/primary-aluminium-capacity.csv",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "1973-01-01",
+  "id": 2741566,
+  "name": "Primary Aluminium Capacity",
+  "premium": false,
+  "private": false,
+  "source_code": "WORLDAL",
+  "source_name": "World Aluminium",
+  "to_date": "2016-01-01",
+  "type": null,
+  "updated_at": "2014-09-25T14:46:16.902Z",
+  "urlize_name": "Primary-Aluminium-Capacity"
+}

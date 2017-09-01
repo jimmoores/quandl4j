@@ -1,0 +1,27 @@
+{
+  "code": "LS_CDU",
+  "column_names": [
+    "Date",
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "Adjusted Close"
+  ],
+  "description": "Exchange : EuroNext Lisbon Exchange. Fundamental company data provided by Capital IQ. Historical chart data and daily updates provided by Commodity Systems, Inc. (CSI). International historical chart data, daily updates, fund summary, fund performance, dividend data and Morningstar Index data provided by Morningstar, Inc.",
+  "display_url": "http://ichart.finance.yahoo.com/table.csv?s=CDU.LS&d=31&e=12&f=2039&g=d&a=3&b=7&c=1902&ignore=.csv",
+  "errors": {},
+  "frequency": "daily",
+  "from_date": "2000-01-03",
+  "id": 11147078,
+  "name": "CDU: CONDURIL-ENGENHARIA - EuroNext Lisbon Exchange",
+  "premium": false,
+  "private": false,
+  "source_code": "YAHOO",
+  "source_name": "YFinance",
+  "to_date": "2014-10-09",
+  "type": null,
+  "updated_at": "2015-01-06T09:06:36.917Z",
+  "urlize_name": "CDU-CONDURIL-ENGENHARIA-EuroNext-Lisbon-Exchange"
+}

@@ -1,12 +1,17 @@
 Quandl4J : A Quandl library for Java
 ====================================
-**NEWS: 1.5.0 released
-Many thanks to Ben McCann for a pull request updating the REST API calls to V3.  Users should notice no API changes.  Logback has been 
-removed as a dependency so users can choose their own slf4j provider more easily.  If you have build issues, try adding logback to your 
-own pom.xml.  Examples have been moved to tests, and some dependencies (commons-cli) rescoped to only be used for building tests.**
+**NEWS: 2.0.0 released**
+
+*The 2.0.0 release represents a substantial rewrite to allow the use of alternative types to hold tabular and meta-data.  The initial
+implementations are **classic** and **tablesaw**.  **Classic** refers to the previous 1.x API's use of json.org's `JSONObject` type
+for metadata and the home-grown `TabularResult` type for tabular data.  [**Tablesaw**](https://github.com/jtablesaw/tablesaw) is new 
+project build around an in-memory table implementation in the same vein as `TabularResult`, but taken much, much further, by allowing 
+fast querying and filtering of the in-memory column store, fast import/export, charting and so on. 
+Many thanks to Ben McCann for his suggestions and pull-requests, which kicked off development of 2.0.0.*
 
 More details can be found in the [release notes](https://github.com/jimmoores/quandl4j/blob/master/RELEASE-NOTES.md).
 
+# Introduction
 [Quandl](http://quandl.com) is a source of millions of free data sets covering financial, economic, sociological and country data via an open REST API.  **Quandl4j** is a Java 7+ client-side wrapper for this API provided under the commercially friendly [Apache V2 license](http://www.apache.org/licenses/LICENSE-2.0.html).  It provides a type safe and fluent API in a modern style that takes care of constructing URLs and processing JSON and CSV responses but nonetheless allows access to all the functionality of the underlying REST API.
 
 Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform continuous builds.  The current status is [![Build Status](https://travis-ci.org/jimmoores/quandl4j.svg?branch=master)](https://travis-ci.org/jimmoores/quandl4j)
@@ -27,11 +32,11 @@ Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform co
 
 ### Quick Start
 The minimum pre-requisites are:
- - OpenJDK 7, Oracle JDK 7 & 8 are tested.
+ - OpenJDK 7, Oracle JDK 7 & 8 are tested.  The 2.0.0 release is the last major release that will support Java 7.
  - Maven 3.
 
-Three options are available:
- - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v1.4.1.zip)
+Four options are available:
+ - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v2.0.0.zip)
  - Clone the repository: `git clone https://github.com/jimmoores/quandl4j.git`
    - Run `mvn install` to build the libray, test, javadoc and source jars and install to your local Maven repository.
    - Run `mvn javadoc:javadoc` to build the documentation.
@@ -41,15 +46,17 @@ Three options are available:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl</artifactId>
-  <version>1.5.0</version>
+  <version>2.0.0</version>
 </dependency>
 ```
 
-Note to Scala/SBT users: for releases prior to 1.4.1 the POM references one artifact which isn't in maven central.  It's now been
-removed, but if you need to use older version for some reason you'll need to add `maven.opengamma.com` as a resolver - see the
-respositories section in the POM.
+ - or in gradle
 
-Gradle users should see the [notes on Gradle use](#gradle) helpfully provided by Martin Andersson.
+``` groovy
+dependencies {
+    compile 'com.jimmoores:quandl:2.0.0'
+}
+```
 
 ### Design Principles
 The core design principles are:
@@ -65,6 +72,13 @@ The core design principles are:
  - Provide comprehensive documentation and JavaDocs.
 
 ## Release Notes
+### Version 2.0.0
+ - A fairly comprehensive overhaul.  The primary aim was to allow the use of alternative types to hold tabular and metadata.  A common
+user question has been around the choice of JSON or Table representation, and these are now abstracted in a way that allows you to 
+choose types that best suit your application, and even add your own very easily.  This version is fully source compatible with previous
+versions, although most existing session classes and interfaces have been deprecated.  Updating existing code is very simple, see the
+[2.0.0 migration guide](#2.0.0-migration-guide) for more information.
+
 ### Version 1.5.0
  - Calls upgraded to use V3 of the REST API for both data and metadata. No API changes. Logback is removed as a normal dependency to 
 allow users to choose their own implementation of SLF4J (which is the whole point of SLF4J!). If you have any build issues try 
@@ -138,30 +152,36 @@ new SearchRequest.Builder().withQuery(<query>).build();
  - Initial public release.
 
 ## Tutorial
+Since 2.0.0, you can choose the types used to return data from a session by using the appropriate session object.  This tutorial 
+considers the *classic* session style that returns data using the **json.org** module of the Apache Jackson library to return metadata
+as `JSONObject`s, and uses a table class provided by Quandl4J since the beginning called `TabularResult`.  The same API structure 
+apply to all sessions though.
+
+Note that all the examples here don't set your API key.  To do anything non-trivial you must get an API key, you can obtain one by
+registering for a free account at [quandl.com](https://www.quandl.com).
+
 ### A First Taste of the API
 The following gets the complete data history (with Date, Open, High, Low, Volume, Ex-Dividend, Split Ratio, And Adjusted Open, High, Low Close and Volume columns) of AAPL (Apple Inc).  The symbol `WIKI/AAPL` is what is known as the **Quandl code** and is made up of a data source (in this case `WIKI`) and a data source specific code (in this case the exchange code for Apple Inc, which is `AAPL`).
 ```java
 // Example1.java
-QuandlSession session = QuandlSession.create();
+ClassicQuandlSession session = ClassicQuandlSession.create();
 TabularResult tabularResult = session.getDataSet(
   DataSetRequest.Builder.of("WIKI/AAPL").build());
 System.out.println(tabularResult.toPrettyPrintedString());
 ```
 which produces
 ```
-+------------+--------+----------+----------+----------+------------+-------------+-------------+-----------------+-----------------+-----------------+-----------------+-------------+
-| Date       | Open   | High     | Low      | Close    | Volume     | Ex-Dividend | Split Ratio | Adj. Open       | Adj. High       | Adj. Low        | Adj. Close      | Adj. Volume |
-+------------+--------+----------+----------+----------+------------+-------------+-------------+-----------------+-----------------+-----------------+-----------------+-------------+
-| 2014-06-03 | 628.47 | 638.74   | 628.25   | 637.54   | 10419625.0 | 0.0         | 1.0         | 628.47          | 638.74          | 628.25          | 637.54          | 10419625.0  |
-| 2014-06-02 | 634.0  | 634.83   | 622.5    | 628.65   | 13149746.0 | 0.0         | 1.0         | 634.0           | 634.83          | 622.5           | 628.65          | 13149746.0  |
-| 2014-05-30 | 637.98 | 644.17   | 628.9    | 633.0    | 20073091.0 | 0.0         | 1.0         | 637.98          | 644.17          | 628.9           | 633.0           | 20073091.0  |
-| 2014-05-29 | 628.0  | 636.87   | 627.77   | 635.38   | 13352669.0 | 0.0         | 1.0         | 628.0           | 636.87          | 627.77          | 635.38          | 13352669.0  |
++------------+--------+----------+----------+----------+-------------+-------------+-------------+-----------------+-----------------+-----------------+-----------------+-------------+
+| Date       | Open   | High     | Low      | Close    | Volume      | Ex-Dividend | Split Ratio | Adj. Open       | Adj. High       | Adj. Low        | Adj. Close      | Adj. Volume |
++------------+--------+----------+----------+----------+-------------+-------------+-------------+-----------------+-----------------+-----------------+-----------------+-------------+
+| 2017-08-28 | 160.14 | 162.0    | 159.93   | 161.47   | 25279674.0  | 0.0         | 1.0         | 160.14          | 162.0           | 159.93          | 161.47          | 25279674.0  |
+| 2017-08-25 | 159.65 | 160.56   | 159.27   | 159.86   | 25015218.0  | 0.0         | 1.0         | 159.65          | 160.56          | 159.27          | 159.86          | 25015218.0  |
 ... snip ...
-| 1980-12-17 | 25.88  | 26.0     | 25.88    | 25.88    | 385900.0    | 0.0        | 1.0         | 3.0057815128016 | 3.0197186759213 | 3.0057815128016 | 3.0057815128016 | 3087200.0   |
-| 1980-12-16 | 25.38  | 25.38    | 25.25    | 25.25    | 472000.0    | 0.0        | 1.0         | 2.9477099998031 | 2.9477099998031 | 2.9326114064235 | 2.9326114064235 | 3776000.0   |
-| 1980-12-15 | 27.38  | 27.38    | 27.25    | 27.25    | 785200.0    | 0.0        | 1.0         | 3.1799960517971 | 3.1799960517971 | 3.1648974584175 | 3.1648974584175 | 6281600.0   |
-| 1980-12-12 | 28.75  | 28.88    | 28.75    | 28.75    | 2093900.0   | 0.0        | 1.0         | 3.3391119974129 | 3.3542105907925 | 3.3391119974129 | 3.3391119974129 | 16751200.0  |
-+------------+--------+----------+----------+----------+-------------+------------+-------------+-----------------+-----------------+-----------------+-----------------+-------------+
+| 1980-12-17 | 25.88  | 26.0     | 25.88    | 25.88    | 385900.0    | 0.0         | 1.0         | 3.0057815128016 | 3.0197186759213 | 3.0057815128016 | 3.0057815128016 | 3087200.0   |
+| 1980-12-16 | 25.38  | 25.38    | 25.25    | 25.25    | 472000.0    | 0.0         | 1.0         | 2.9477099998031 | 2.9477099998031 | 2.9326114064235 | 2.9326114064235 | 3776000.0   |
+| 1980-12-15 | 27.38  | 27.38    | 27.25    | 27.25    | 785200.0    | 0.0         | 1.0         | 3.1799960517971 | 3.1799960517971 | 3.1648974584175 | 3.1648974584175 | 6281600.0   |
+| 1980-12-12 | 28.75  | 28.88    | 28.75    | 28.75    | 2093900.0   | 0.0         | 1.0         | 3.3391119974129 | 3.3542105907925 | 3.3391119974129 | 3.3391119974129 | 16751200.0  |
++------------+--------+----------+----------+----------+-------------+-------------+-------------+-----------------+-----------------+-----------------+-----------------+-------------+
 ```
 ### Refining the query
 It's also possible to specify many refining options on your query.  In this next example we
@@ -198,97 +218,39 @@ which will return something like
 +------------+-----------------+
 ```
 note that the whole series is normalized against the first value.
-### Retrieving data for multiple Quandl codes at the same time
-To retrieve data for multiple codes, we need a different request structure.  In particular we need to say which Quandl codes we want data retrieved for, but also which columns are required for each.  This is done using the `QuandlCodeRequest`, which has two factory methods: `singleColumn(String quandlCode, int columnIndex)` and `allColumns(String quandlCode)`.  It's worth noting we're allowed to use the normal form of Quandl codes here, in the REST API, the forward slash gets replaced with a full-stop/period in this context:
-```java
-// Example3.java
-QuandlSession session = QuandlSession.create();
-TabularResult tabularResultMulti = session.getDataSets(
-    MultiDataSetRequest.Builder
-      .of(
-        QuandlCodeRequest.singleColumn("WIKI/AAPL", CLOSE_COLUMN), 
-        QuandlCodeRequest.allColumns("DOE/RWTC")
-      )
-      .withStartDate(RECENTISH_DATE)
-      .withFrequency(Frequency.MONTHLY)
-      .build());
-System.out.println(tabularResultMulti.toPrettyPrintedString()); 
-```
-which returns all results in a single `TabularResult`
-```
-+------------+-------------------+------------------+
-| Date       | WIKI/AAPL - Close | DOE/RWTC - Value |
-+------------+-------------------+------------------+
-| 2014-06-30 | 637.54            |                  |
-| 2014-05-31 | 633.0             | 103.37           |
-| 2014-04-30 | 590.09            | 100.07           |
-| 2014-03-31 | 536.74            | 101.57           |
-| 2014-02-28 | 526.24            | 102.88           |
-| 2014-01-31 | 500.6             | 97.55            |
-| 2013-12-31 | 561.02            | 98.17            |
-| 2013-11-30 | 556.07            | 92.55            |
-| 2013-10-31 | 522.7             | 96.29            |
-| 2013-09-30 | 476.75            | 102.36           |
-| 2013-08-31 | 487.22            | 107.98           |
-| 2013-07-31 | 452.53            | 105.1            |
-| 2013-06-30 | 396.53            | 96.36            |
-| 2013-05-31 | 449.73            | 91.93            |
-| 2013-04-30 | 442.78            | 93.22            |
-| 2013-03-31 | 442.66            | 97.24            |
-| 2013-02-28 | 441.4             | 92.03            |
-| 2013-01-31 | 455.49            | 97.65            |
-+------------+-------------------+------------------+
-```
-Note that the column labels actually do have a **SPACE-HYPHEN-SPACE** between the Quandl code and the Column name.  A future version of the library should allow these columns to be separated out automatically.
+
 ### Structure of a TabularResult
 The type `TabularResult` is made up of a `HeaderDefinition`, which is essentially a list of column names (plus the facility to map from name to column index), plus a list of `Row` objects, each of which is linked to their common `HeaderDefinition`.  This allows individual `Row` objects to address their data using the column name rather than just the index as is the underlying API.  `Row` also contains methods to parse and cast data into various types (String, LocalDate, Double).  Here is an example
 ```java
-// Example3a.java
-QuandlSession session = QuandlSession.create();
-TabularResult tabularResultMulti = session.getDataSets(
-    MultiDataSetRequest.Builder
-      .of(
-        QuandlCodeRequest.singleColumn("WIKI/AAPL", CLOSE_COLUMN), 
-        QuandlCodeRequest.allColumns("DOE/RWTC")
-      )
+// Example3.java
+ClassicQuandlSession session = ClassicQuandlSession.create();
+TabularResult tabularResult = session.getDataSet(
+DataSetRequest.Builder
+      .of("SSE/VROS") // VERIANOS REAL ESTATE AG on Boerse Stuttgart
+      .withColumn(3) // Last (looked up previously)
       .withStartDate(RECENTISH_DATE)
       .withFrequency(Frequency.MONTHLY)
       .build());
-System.out.println("Header definition: " + tabularResultMulti.getHeaderDefinition());
-for (final Row row : tabularResultMulti) {
+System.out.println("Header definition: " + tabularResult.getHeaderDefinition());
+for (final Row row : tabularResult) {
   LocalDate date = row.getLocalDate("Date");
-  Double value = row.getDouble("DOE/RWTC - Value");
+  Double value = row.getDouble("Last");
   System.out.println("Value on date " + date + " was " + value);
 } 
 ```
 produces:
 ```
-Header definition: HeaderDefinition[Date,WIKI/AAPL - Close,DOE/RWTC - Value]
-Value on date 2014-06-30 was null
-Value on date 2014-05-31 was 103.37
-Value on date 2014-04-30 was 100.07
-Value on date 2014-03-31 was 101.57
-Value on date 2014-02-28 was 102.88
-Value on date 2014-01-31 was 97.55
-Value on date 2013-12-31 was 98.17
-Value on date 2013-11-30 was 92.55
-Value on date 2013-10-31 was 96.29
-Value on date 2013-09-30 was 102.36
-Value on date 2013-08-31 was 107.98
-Value on date 2013-07-31 was 105.1
-Value on date 2013-06-30 was 96.36
-Value on date 2013-05-31 was 91.93
-Value on date 2013-04-30 was 93.22
-Value on date 2013-03-31 was 97.24
-Value on date 2013-02-28 was 92.03
-Value on date 2013-01-31 was 97.65
+Header definition: HeaderDefinition[Date,Last]
+Value on date 2017-08-31 was 1.35
+Value on date 2017-07-31 was 1.45
+Value on date 2017-06-30 was 1.427
 '''
 
 ### Single meta data request
 It's also possible to retrieve meta-data about the data sets available.
 ```java
 // Example4.java
-QuandlSession session = QuandlSession.create();
+ClassicQuandlSession session = ClassicQuandlSession.create();
 MetaDataResult metaData = session.getMetaData(MetaDataRequest.of("WIKI/AAPL"));
 System.out.println(metaData.toPrettyPrintedString());
 ```
@@ -328,98 +290,12 @@ which prints out the raw JSON of the underlying message
 }
 ```
 The raw JSON message is accessible, but the intention is for the user to mostly use the convenience methods available to extract named fields (with type casts) and process the `column_names` array into a `HeaderDefinition`.
-### Bulk meta-data
-This uses an undocumented feature of Quandl, which allows you to make requests for JSON to the multisets endpoint.  To this we add the parameter to limit the start date to a date far in the future.  This means we only get the meta-data.  It's limited to only providing enough data to determine the available columns, but that's quite useful in itself.  There are two calls that can process this `MultiMetaDataRequest`.  The first is an overloaded version of `getMetaData`.  Again, it's worth noting we're allowed to use the normal form of Quandl codes here: in the REST API, the forward slash gets replaced with a full-stop/period in this context.
-```java
-// Example5.java
-QuandlSession session = QuandlSession.create();
-MetaDataResult metaData = session.getMetaData(MultiMetaDataRequest.of("WIKI/AAPL", "DOE/RWTC", "WIKI/MSFT"));
-System.out.println(metaData.toPrettyPrintedString());
-```
-which returns a large JSON document wrapped in a normal MetaDataResult object.
-```json
-{
-  "column_names": [
-    "Date",
-    "WIKI/AAPL - Open",
-    "WIKI/AAPL - High",
-    "WIKI/AAPL - Low",
-    "WIKI/AAPL - Close",
-    "WIKI/AAPL - Volume",
-    "WIKI/AAPL - Ex-Dividend",
-    "WIKI/AAPL - Split Ratio",
-    "WIKI/AAPL - Adj. Open",
-    "WIKI/AAPL - Adj. High",
-    "WIKI/AAPL - Adj. Low",
-    "WIKI/AAPL - Adj. Close",
-    "WIKI/AAPL - Adj. Volume",
-    "DOE/RWTC - Value",
-    "WIKI/MSFT - Open",
-    "WIKI/MSFT - High",
-    "WIKI/MSFT - Low",
-    "WIKI/MSFT - Close",
-    "WIKI/MSFT - Volume",
-    "WIKI/MSFT - Ex-Dividend",
-    "WIKI/MSFT - Split Ratio",
-    "WIKI/MSFT - Adj. Open",
-    "WIKI/MSFT - Adj. High",
-    "WIKI/MSFT - Adj. Low",
-    "WIKI/MSFT - Adj. Close",
-    "WIKI/MSFT - Adj. Volume"
-  ],
-  "columns": [
-    "Date",
-    "Open",
-    "High",
-    "Low",
-    "Close",
-    "Volume",
-    "Ex-Dividend",
-    "Split Ratio",
-    "Adj. Open",
-    "Adj. High",
-    "Adj. Low",
-    "Adj. Close",
-    "Adj. Volume",
-    "Value",
-    "Open",
-    "High",
-    "Low",
-    "Close",
-    "Volume",
-    "Ex-Dividend",
-    "Split Ratio",
-    "Adj. Open",
-    "Adj. High",
-    "Adj. Low",
-    "Adj. Close",
-    "Adj. Volume"
-  ],
-  "data": [],
-  "errors": {},
-  "frequency": "annual",
-  "from_date": null,
-  "to_date": null
-}
-```
-A more generally useful method though, is to use the `getMultipleHeaderDefinition()` method
-```java
-// Example6.java
-QuandlSession session = QuandlSession.create();
-Map<String, HeaderDefinition> headers = session.getMultipleHeaderDefinition(MultiMetaDataRequest.of("WIKI/AAPL", "DOE/RWTC", "WIKI/MSFT"));
-System.out.println(PrettyPrinter.toPrettyPrintedString(headers));
-```
-which returns the following map (`PrettyPrinter` contains a PrettyPrinter for these maps too):
-```
-WIKI/AAPL => Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
-DOE/RWTC  => Date, Value
-WIKI/MSFT => Date, Open, High, Low, Close, Volume, Ex-Dividend, Split Ratio, Adj. Open, Adj. High, Adj. Low, Adj. Close, Adj. Volume
-```
+
 ### Searching
 We can also make generalised free-text search requests to Quandl.  For this we use the `search(SearchRequest)` method.  This allows us to specify the maximum number of results per page, and also the page we want.  Note that queries with high page numbers are slow, presumably due to the server-side database having to project the entire result set of several million documents just to get the single page you want.  Try not to add to server load by making these requests excessively.
 ```java
-// Example7.java
-QuandlSession session = QuandlSession.create();
+// Example5.java
+ClassicQuandlSession session = ClassicQuandlSession.create();
 SearchResult searchResult = session.search(new SearchRequest.Builder().withQuery("Apple").withMaxPerPage(2).build());
 System.out.println(searchResult.toPrettyPrintedString());
 ````
@@ -497,8 +373,8 @@ results in
 ```
 More usefully though, there are variously helper methods on SearchResult to allow you to get the document count, number of documents per page and to extract the individual matches as separate MetaDataResult objects.  For example
 ```java
-// Example8.java
-QuandlSession session = QuandlSession.create();
+// Example6.java
+ClassicQuandlSession session = ClassicQuandlSession.create();
 SearchResult searchResult = session.search(new SearchRequest.Builder().withQuery("Apple").withMaxPerPage(2).build());
 System.out.println("Current page:" + searchResult.getCurrentPage());
 System.out.println("Documents per page:" + searchResult.getDocumentsPerPage());
@@ -534,8 +410,173 @@ Other properties of `SessionOptions` are the `RESTDataProvider` which is used to
  
 The default policy is `SequenceRetryPolicy(new long[] {1000, 5000, 20000, 60000})`, which will back off first by 1 second, then 5, then 20 and finally a full minute.  Custom policies can be created by subclassing `RetryPolicy` yourself.
 
+### TableSaw
+To use the tablesaw module, simply add the following dependency
+
+```xml
+<dependency>
+  <groupId>com.jimmoores</groupId>
+  <artifactId>quandl-tablesaw</artifactId>
+  <version>2.0.0</version>
+</dependency>
+```
+
+This will pull in both normal quandl4j and tablesaw, but not the tablesaw-plot module, which you'll need to add to use TableSaw's 
+graphing features (although it does as part of the test scope to allow you to run the examples).
+
+```xml
+<dependency>
+ 	<groupId>tech.tablesaw</groupId>
+		<artifactId>tablesaw-plot</artifactId>
+		<version>0.9.2</version>
+</dependency>
+```
+
+#### Simple query with text dump
+This is really a replay of a very simple query, with a textual dump of the output.
+
+```java
+// Example 7
+TableSawQuandlSession session = TableSawQuandlSession.create();
+Table table = session.getDataSet(
+    DataSetRequest.Builder.of("WIKI/AAPL").withMaxRows(10).build());
+System.out.println(table);
+```
+
+which outputs
+
+```
+
+    Date     |   Open   |   High   |    Low     |  Close   |    Volume     |  Ex-Dividend  |  Split Ratio  |  Adj. Open  |  Adj. High  |  Adj. Low  |  Adj. Close  |  Adj. Volume  |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 2017-08-29  |   160.1  |  163.12  |     160.0  |  162.91  |  2.9307862E7  |          0.0  |          1.0  |      160.1  |     163.12  |     160.0  |      162.91  |  2.9307862E7  |
+ 2017-08-28  |  160.14  |   162.0  |    159.93  |  161.47  |  2.5279674E7  |          0.0  |          1.0  |     160.14  |      162.0  |    159.93  |      161.47  |  2.5279674E7  |
+ 2017-08-25  |  159.65  |  160.56  |    159.27  |  159.86  |  2.5015218E7  |          0.0  |          1.0  |     159.65  |     160.56  |    159.27  |      159.86  |  2.5015218E7  |
+ 2017-08-24  |  160.43  |  160.74  |    158.55  |  159.27  |   1.902962E7  |          0.0  |          1.0  |     160.43  |     160.74  |    158.55  |      159.27  |   1.902962E7  |
+ 2017-08-23  |  159.07  |  160.47  |    158.88  |  159.98  |  1.9198188E7  |          0.0  |          1.0  |     159.07  |     160.47  |    158.88  |      159.98  |  1.9198188E7  |
+ 2017-08-22  |  158.23  |   160.0  |    158.02  |  159.78  |  2.1297812E7  |          0.0  |          1.0  |     158.23  |      160.0  |    158.02  |      159.78  |  2.1297812E7  |
+ 2017-08-21  |   157.5  |  157.89  |  155.1101  |  157.21  |  2.6145652E7  |          0.0  |          1.0  |      157.5  |     157.89  |  155.1101  |      157.21  |  2.6145652E7  |
+ 2017-08-18  |  157.86  |   159.5  |    156.72  |   157.5  |  2.7012524E7  |          0.0  |          1.0  |     157.86  |      159.5  |    156.72  |       157.5  |  2.7012524E7  |
+ 2017-08-17  |  160.52  |  160.71  |    157.84  |  157.87  |  2.6925694E7  |          0.0  |          1.0  |     160.52  |     160.71  |    157.84  |      157.87  |  2.6925694E7  |
+ 2017-08-16  |  161.94  |  162.51  |    160.15  |  160.95  |   2.732176E7  |          0.0  |          1.0  |     161.94  |     162.51  |    160.15  |      160.95  |   2.732176E7  |
+```
+
+#### Query with aggregation, grouping and charts
+In this example, we extract the full history of Apple Inc. and do some grouping and aggregation on the results.
+We start similarly, but getting the full history.  We then create a new column by extracting the year from the
+*Date* column.  We then name the new column and add it to the table.  This allows us to then created grouped
+aggregated tables for *max(Close)*, *min(Close)* and *sum(Volume)*.  These are then all used to create a new
+summary table.  
+
+```java
+TableSawQuandlSession session = TableSawQuandlSession.create();
+Table table = session.getDataSet(
+    DataSetRequest.Builder.of("WIKI/AAPL").build());
+// Create a new column containing the year
+ShortColumn yearColumn = table.dateColumn("Date").year();
+yearColumn.setName("Year");
+table.addColumn(yearColumn);
+// Create max, min and total volume tables aggregated by year
+Table summaryMax = table.max("Close").by("year");
+Table summaryMin = table.minimum("Close").by("year");
+Table summaryVolume = table.sum("Volume").by("year");
+// Create a new table from each of these
+Table summary = Table.create("Summary", summaryMax.column(0), summaryMax.column(1), 
+                             summaryMin.column(1), summaryVolume.column(1));
+// Show the max close price as a graph.
+try {
+  Bar.show("Max Close Price by year", summary.shortColumn("Year"), summary.numericColumn(1));
+} catch (Exception e) {
+  e.printStackTrace();
+}
+System.out.println(summary);
+```
+We finish by displaying a graph of *max(Close)* (the graphing doesn't appear to support multiple
+columns currently) 
+
+![Plot of max(Close) by Year on AAPL](docs/tablesaw-chart.png "Plot of max(Close) by Year on AAPL")
+
+and then printing out the table
+
+```
+
+ Year  |  Max [Close]  |  Min [Close]  |  Sum [Volume]   |
+----------------------------------------------------------
+ 1980  |         36.0  |        25.25  |      6003800.0  |
+ 1981  |         34.5  |        14.25  |      3.65935E7  |
+ 1982  |        33.87  |         11.0  |    9.5379504E7  |
+ 1983  |        62.75  |        17.88  |     1.860744E8  |
+ 1984  |        33.25  |        21.87  |     1.874064E8  |
+ 1985  |        30.62  |         14.5  |   2.03094976E8  |
+ 1986  |        43.75  |        22.12  |   2.38050096E8  |
+ 1987  |        80.25  |         28.0  |   3.84217088E8  |
+ 1988  |        47.25  |        36.13  |   3.68687296E8  |
+ 1989  |        49.63  |        33.75  |   4.54516288E8  |
+ 1990  |        47.38  |         25.0  |   3.96445888E8  |
+ 1991  |        72.75  |        41.13  |   5.12032608E8  |
+ 1992  |        69.87  |        43.25  |   3.67302784E8  |
+ 1993  |         65.0  |        22.62  |      5.04044E8  |
+ 1994  |        43.25  |        25.12  |   5.10320512E8  |
+ 1995  |        49.38  |        31.87  |    6.6309408E8  |
+ 1996  |         35.0  |        16.87  |   4.74948416E8  |
+ 1997  |        29.19  |        12.94  |    6.4252998E8  |
+ 1998  |         43.0  |        15.88  |   1.02851962E9  |
+ 1999  |       117.81  |        32.19  |   1.22413133E9  |
+ 2000  |       144.19  |         14.0  |   1.67258214E9  |
+ 2001  |        26.59  |        14.88  |   1.69031782E9  |
+ 2002  |        26.11  |         13.6  |   1.37524864E9  |
+ 2003  |        24.82  |        13.12  |   1.27196877E9  |
+ 2004  |        68.44  |        21.28  |   2.17502976E9  |
+ 2005  |        90.13  |        34.13  |    5.6722284E9  |
+ 2006  |        91.81  |        50.67  |    7.7035346E9  |
+ 2007  |       199.83  |        83.27  |    8.8212849E9  |
+ 2008  |       194.93  |        80.49  |  1.02136146E10  |
+ 2009  |       211.64  |         78.2  |     5.116203E9  |
+ 2010  |       325.47  |       192.05  |    5.3937475E9  |
+ 2011  |       422.24  |       315.32  |    4.4306908E9  |
+ 2012  |        702.1  |       411.23  |    4.7130071E9  |
+ 2013  |       570.09  |       390.53  |   3.65791309E9  |
+ 2014  |       647.35  |        90.28  |    8.7340124E9  |
+ 2015  |        133.0  |       103.12  |  1.30643169E10  |
+ 2016  |       118.25  |        90.34  |    9.6858716E9  |
+ 2017  |       162.91  |       116.02  |    4.3456041E9  |
+ ```
+
+There's a lot more of interest in TableSaw, [see the TableSaw GitHub for more details](https://github.com/jtablesaw/tablesaw).
+
 ### Documentation
 An addition to the tutorial, there is extra documentation at the package and class level within the [JavaDocs, which are hosted in GitHub Pages](http://jimmoores.github.io/quandl4j/apidocs).
+
+### 2.0.0 migration guide
+It's very straightforward to upgrade to the new API, however, some long-deprecated parts of the session API have been removed from the 
+new implementation.  If you still need these, you can continue to use the existing `QuandlSession`, but it is recommended you
+refactor to the new API to ensure long-term support and the availablility of any new features.
+
+For most users the only thing you need to do is to change instances of:
+
+```java
+QuandlSession session = QuandlSession.create();
+QuandlSession session = QuandlSession.create(...);
+```
+
+to
+
+```java
+ClassicQuandlSession session = ClassicQuandlSession.create();
+ClassicQuandlSession session = ClassicQuandlSession.create(...);
+```
+
+although note `ClassicQuandlSession` is in a new package `com.jimmoores.quandl.classic` if you're doing a search/replace without
+IDE support.
+
+Any now removed deprecated methods running multi-dataset or multi-metadata requests will need to be rewritten as single request 
+calls.  These calls have been emulated since they were removed from the Quandl REST API several years ago, so provide no speed
+advantage over single calls.
+
+In the unlikely event you're using custom `RESTDataProvider`s, you should change them to implement `ClassicRESTDataProvider` and 
+add a `Request` argument to each method.  The argument is provided to allow request data to be incorporated into the result (e.g. 
+to give a descriptive title for a table).  You can safely ignore this value though.  A quick-and-dirty fix is to simply wrap your 
+existing `RESTDataProvider` in an instance of `LegacyRESTDataProviderAdapter`.
 
 ### Roadmap
 Some future plans for incorporation include:

@@ -1,0 +1,22 @@
+{
+  "code": "0_0",
+  "column_names": [
+    "Year",
+    "Value"
+  ],
+  "description": "Nominal GDP (million of Dollars). More info at http://www.measuringworth.com/datasets/usgdp/",
+  "display_url": "http://www.measuringworth.com/datasets/usgdp/result.php?use[]=NOMINALGDP&year_source=1790&year_result=2020",
+  "errors": {},
+  "frequency": "annual",
+  "from_date": "1790-12-31",
+  "id": 1708708,
+  "name": "United States Nominal GDP",
+  "premium": false,
+  "private": false,
+  "source_code": "MWORTH",
+  "source_name": "MeasuringWorth",
+  "to_date": "2013-12-31",
+  "type": null,
+  "updated_at": "2014-09-08T23:09:33.854Z",
+  "urlize_name": "United-States-Nominal-GDP"
+}
