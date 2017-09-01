@@ -27,6 +27,7 @@ import com.jimmoores.quandl.TabularResult;
 import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.RESTDataProvider;
+import com.opencsv.CSVReader;
 
 import au.com.bytecode.opencsv.CSVReader;
 
