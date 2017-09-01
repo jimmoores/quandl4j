@@ -20,7 +20,9 @@ Quandl4J uses [Travis CI](http://travis-ci.org/jimmoores/quandl4j) to perform co
  - [Quick start](#quick-start)
  - [Design Principles](#design-principles)
  - [Release Notes](#release-notes)
- - [Tutorial](#tutorial)
+ - [Classic Tutorial](#tutorial)
+ - [TableSaw Tutorial](#tablesaw)
+ - [2.0.0 Migration Guide](#200-migration-guide)
  - [Documentation](#documentation)
  - [Roadmap](#roadmap)
  - [Contributions](#contributions)
@@ -544,9 +546,6 @@ and then printing out the table
 
 There's a lot more of interest in TableSaw, [see the TableSaw GitHub for more details](https://github.com/jtablesaw/tablesaw).
 
-### Documentation
-An addition to the tutorial, there is extra documentation at the package and class level within the [JavaDocs, which are hosted in GitHub Pages](http://jimmoores.github.io/quandl4j/apidocs).
-
 ### 2.0.0 migration guide
 It's very straightforward to upgrade to the new API, however, some long-deprecated parts of the session API have been removed from the 
 new implementation.  If you still need these, you can continue to use the existing `QuandlSession`, but it is recommended you
@@ -577,6 +576,9 @@ In the unlikely event you're using custom `RESTDataProvider`s, you should change
 add a `Request` argument to each method.  The argument is provided to allow request data to be incorporated into the result (e.g. 
 to give a descriptive title for a table).  You can safely ignore this value though.  A quick-and-dirty fix is to simply wrap your 
 existing `RESTDataProvider` in an instance of `LegacyRESTDataProviderAdapter`.
+
+### Documentation
+An addition to the tutorial, there is extra documentation at the package and class level within the [JavaDocs, which are hosted in GitHub Pages](http://jimmoores.github.io/quandl4j/apidocs).
 
 ### Roadmap
 Some future plans for incorporation include:
