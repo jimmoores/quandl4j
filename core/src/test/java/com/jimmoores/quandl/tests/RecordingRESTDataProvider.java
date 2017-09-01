@@ -32,8 +32,6 @@ import com.jimmoores.quandl.util.QuandlServiceUnavailableException;
 import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 import com.jimmoores.quandl.util.QuandlUnprocessableEntityException;
 import com.jimmoores.quandl.util.RESTDataProvider;
-import com.opencsv.CSVReader;
-import com.opencsv.CSVWriter;
 
 import au.com.bytecode.opencsv.CSVReader;
 import au.com.bytecode.opencsv.CSVWriter;
