@@ -5,7 +5,7 @@ A fairly comprehensive overhaul. The primary aim was to allow the use of alterna
 question has been around the choice of JSON or Table representation, and these are now abstracted in a way that allows you to choose 
 types that best suit your application, and even add your own very easily. This version is fully source compatible with previous 
 versions, although most existing session classes and interfaces have been deprecated. Updating existing code is very simple, 
-see the 2.0.0 migration guide for more information.  A special thanks to Ben McCann (@benmccann) for suggesting the initial idea,
+see the [2.0.0 migration guide](README.md#200-migration-guide) for more information.  A special thanks to Ben McCann (@benmccann) for suggesting the initial idea,
 reviewing and commenting on code, and to both him and Larry White (@lwhite1) for responding to little TableSaw issues so quickly.
 
 # 1.5.0

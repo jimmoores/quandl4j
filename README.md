@@ -77,7 +77,7 @@ The core design principles are:
 user question has been around the choice of JSON or Table representation, and these are now abstracted in a way that allows you to 
 choose types that best suit your application, and even add your own very easily.  This version is fully source compatible with previous
 versions, although most existing session classes and interfaces have been deprecated.  Updating existing code is very simple, see the
-[2.0.0 migration guide](#2.0.0-migration-guide) for more information.
+[2.0.0 migration guide](#200-migration-guide) for more information.
 
 ### Version 1.5.0
  - Calls upgraded to use V3 of the REST API for both data and metadata. No API changes. Logback is removed as a normal dependency to 
