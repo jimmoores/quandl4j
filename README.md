@@ -1,5 +1,8 @@
 Quandl4J : A Quandl library for Java
 ====================================
+Ive updated the documentation to reflect that you now need to add `quandl-core`, and optionally `quandl-tablesaw` rather than `quandl` 
+as your artifact id in your maven pom or gradle script.
+
 **NEWS: 2.0.0 released**
 
 *The 2.0.0 release represents a substantial rewrite to allow the use of alternative types to hold tabular and meta-data.  The initial
@@ -47,7 +50,17 @@ Four options are available:
 ```xml
 <dependency>
   <groupId>com.jimmoores</groupId>
-  <artifactId>quandl</artifactId>
+  <artifactId>quandl-core</artifactId>
+  <version>2.0.0</version>
+</dependency>
+```
+
+and if you want to use the new tablesaw support:
+
+```xml
+<dependency>
+  <groupId>com.jimmoores</groupId>
+  <artifactId>quandl-tablesaw</artifactId>
   <version>2.0.0</version>
 </dependency>
 ```
@@ -56,10 +69,17 @@ Four options are available:
 
 ``` groovy
 dependencies {
-    compile 'com.jimmoores:quandl:2.0.0'
+    compile 'com.jimmoores:quandl-core:2.0.0'
 }
 ```
 
+and add
+
+``` groovy
+compile 'com.jimmoores:quandl-tablesaw:2.0.0'
+```
+
+to your dependencies section if you want tablesaw support.
 ### Design Principles
 The core design principles are:
  - Allow full access to the functionality of the underlying API.
