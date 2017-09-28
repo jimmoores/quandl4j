@@ -3,7 +3,7 @@ Quandl4J : A Quandl library for Java
 **NEWS: 2.0.0 documentation change**
 
 I've updated the documentation to reflect that you now need to add `quandl-core`, and optionally `quandl-tablesaw` rather than `quandl` 
-as your artifact id in your maven pom or gradle script.
+as your artifact id in your maven pom or gradle script.  Thanks to @kenfehling for pointing that out.
 
 **NEWS: 2.0.0 released**
 
