@@ -16,3 +16,4 @@ List of Contributors
 | Olivier            | Olivier-92            | Reported resource leak and proposed fix |
 | William Farrugia   |                       | Suggested update of Jackson for AWS compatibility |
 | Ben McCann         | benmccann             | Multiple pull requests transitioning to V3 API, clean up of maven deps and scopes and docs formatting.  Also ideas for 2.0.0 and code reviews. |
+| Ken Fehling        | kenfehling            | Adding dependencies to parent/aggregate POM |
