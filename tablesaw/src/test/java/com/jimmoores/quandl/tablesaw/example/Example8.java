@@ -30,7 +30,7 @@ public class Example8 {
     table.addColumn(yearColumn);
     // Create max, min and total volume tables aggregated by year
     Table summaryMax = table.max("Close").by("year");
-    Table summaryMin = table.minimum("Close").by("year");
+    Table summaryMin = table.min("Close").by("year");
     Table summaryVolume = table.sum("Volume").by("year");
     // Create a new table from each of these
     Table summary = Table.create("Summary", summaryMax.column(0), summaryMax.column(1), summaryMin.column(1), summaryVolume.column(1));

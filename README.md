@@ -501,9 +501,9 @@ ShortColumn yearColumn = table.dateColumn("Date").year();
 yearColumn.setName("Year");
 table.addColumn(yearColumn);
 // Create max, min and total volume tables aggregated by year
-Table summaryMax = table.max("Close").by("year");
-Table summaryMin = table.minimum("Close").by("year");
-Table summaryVolume = table.sum("Volume").by("year");
+Table summaryMax = table.groupBy("year").max("Adj. Close");
+Table summaryMin = table.groupBy("year").min("Adj. Close");
+Table summaryVolume = table.groupBy("year").sum("Volume");
 // Create a new table from each of these
 Table summary = Table.create("Summary", summaryMax.column(0), summaryMax.column(1), 
                              summaryMin.column(1), summaryVolume.column(1));
