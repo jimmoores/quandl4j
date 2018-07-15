@@ -81,6 +81,10 @@ public class GenericQuandlSession<METADATA_TYPE, RAW_METADATA_TYPE, TABLE_TYPE, 
     }
   }
 
+  public TABLE_TYPE getDataSet(final String symbol) {
+    return getDataSet(DataSetRequest.Builder.of(symbol).build());    
+  }
+
   /**
    * {@inheritDoc}
    */
