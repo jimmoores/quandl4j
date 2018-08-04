@@ -31,12 +31,12 @@
 		<dependency>
 			<groupId>tech.tablesaw</groupId>
 			<artifactId>tablesaw-core</artifactId>
-			<version>0.23.0</version>
+			<version>0.24.5</version>
 		</dependency>
 		<dependency>
 			<groupId>tech.tablesaw</groupId>
-			<artifactId>tablesaw-plot</artifactId>
-			<version>0.23.0</version>
+			<artifactId>tablesaw-jsplot</artifactId>
+			<version>0.24.5</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
