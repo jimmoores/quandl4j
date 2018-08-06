@@ -28,7 +28,7 @@ import com.jimmoores.quandl.generic.GenericQuandlSessionInterface;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.RESTDataProvider;
 
-import au.com.bytecode.opencsv.CSVReader;
+import com.opencsv.CSVReader;
 
 /**
  * @deprecated this version doesn't support newer interface GenericRestDataProvider

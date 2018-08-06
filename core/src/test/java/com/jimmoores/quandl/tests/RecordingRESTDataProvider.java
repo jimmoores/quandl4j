@@ -33,8 +33,8 @@ import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 import com.jimmoores.quandl.util.QuandlUnprocessableEntityException;
 import com.jimmoores.quandl.util.RESTDataProvider;
 
-import au.com.bytecode.opencsv.CSVReader;
-import au.com.bytecode.opencsv.CSVWriter;
+import com.opencsv.CSVReader;
+import com.opencsv.CSVWriter;
 
 /**
  * @deprecated this test class covers the deprecated API.  There is currently no direct

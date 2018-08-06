@@ -14,7 +14,7 @@ import com.jimmoores.quandl.processing.Request;
 import com.jimmoores.quandl.processing.ResponseProcessor;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 
-import au.com.bytecode.opencsv.CSVReader;
+import com.opencsv.CSVReader;
 
 /**
  * ReponseProcessor to process an input stream reply from a query into

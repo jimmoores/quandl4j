@@ -34,8 +34,8 @@ import com.jimmoores.quandl.util.QuandlServiceUnavailableException;
 import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 import com.jimmoores.quandl.util.QuandlUnprocessableEntityException;
 
-import au.com.bytecode.opencsv.CSVReader;
-import au.com.bytecode.opencsv.CSVWriter;
+import com.opencsv.CSVReader;
+import com.opencsv.CSVWriter;
 
 /**
  * ClassicRESTDataProvider that creates local file system copies of the files it gets

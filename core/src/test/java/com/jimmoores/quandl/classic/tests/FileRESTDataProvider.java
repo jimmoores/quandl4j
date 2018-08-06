@@ -29,7 +29,7 @@ import com.jimmoores.quandl.processing.Request;
 import com.jimmoores.quandl.processing.classic.ClassicRESTDataProvider;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 
-import au.com.bytecode.opencsv.CSVReader;
+import com.opencsv.CSVReader;
 
 /**
  * ClassicRESTDataProvider that creates local file system copies of the files it gets
