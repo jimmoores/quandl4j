@@ -9,8 +9,6 @@ import com.jimmoores.quandl.MultiMetaDataRequest;
 import com.jimmoores.quandl.QuandlCodeRequest;
 import com.jimmoores.quandl.SearchRequest;
 
-import jersey.repackaged.com.google.common.base.Joiner;
-
 /**
  * Implementation of RequestProcessor (visitor) that turns each request type (implementer of
  * the Request interface) into a descriptive title string.
@@ -31,7 +29,14 @@ public class TitleRequestProcessor implements RequestProcessor<String> {
    * @return the title string
    */
   public String processMultiMetaDataRequest(final MultiMetaDataRequest request) {
-    return Joiner.on(",").join(request.getQuandlCodes());
+    StringBuilder result = new StringBuilder();
+    for (String code : request.getQuandlCodes()) {
+      if (result.length() > 0) {
+        result.append(",");
+      }
+      result.append(code);
+    }
+    return result.toString();
   }
   /**
    * Process a data set request into a descriptive title string.
