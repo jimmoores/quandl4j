@@ -164,10 +164,8 @@ public final class MetaDataResult {
    * 
    * @return the iterator
    */
-  @SuppressWarnings("unchecked")
   public Iterator<String> iterator() {
-    // interface predates generics so need a suppress warnings here, but should be safe.
-    return (Iterator<String>) _jsonObject.keys();
+    return  _jsonObject.keys();
   }
 
   /**
