@@ -19,7 +19,7 @@ import org.apache.commons.cli.Parser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
-import org.threeten.bp.LocalDate;
+import java.time.LocalDate;
 
 import com.jimmoores.quandl.DataSetRequest;
 import com.jimmoores.quandl.Frequency;

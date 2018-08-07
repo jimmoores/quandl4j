@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.threeten.bp.LocalDate;
+import java.time.LocalDate;
 
 import com.jimmoores.quandl.HeaderDefinition;
 import com.jimmoores.quandl.Row;

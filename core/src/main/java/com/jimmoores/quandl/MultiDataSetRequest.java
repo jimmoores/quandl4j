@@ -6,7 +6,7 @@ import java.util.List;
 
 import javax.ws.rs.client.WebTarget;
 
-import org.threeten.bp.LocalDate;
+import java.time.LocalDate;
 
 import com.jimmoores.quandl.processing.RequestProcessor;
 import com.jimmoores.quandl.processing.Request;

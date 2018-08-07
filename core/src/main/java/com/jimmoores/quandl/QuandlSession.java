@@ -22,8 +22,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.threeten.bp.LocalDate;
-import org.threeten.bp.chrono.ChronoLocalDate;
+import java.time.LocalDate;
+import java.time.chrono.ChronoLocalDate;
 
 import com.jimmoores.quandl.DataSetRequest.Builder;
 import com.jimmoores.quandl.generic.GenericQuandlSession;
@@ -272,9 +272,9 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     }
     final Comparator<ChronoLocalDate> comparator;
     if (sortOrder == SortOrder.ASCENDING) {
-      comparator = LocalDate.timeLineOrder();
+      comparator = ChronoLocalDate.timeLineOrder();
     } else {
-      comparator = Collections.reverseOrder(LocalDate.timeLineOrder());
+      comparator = Collections.reverseOrder(ChronoLocalDate.timeLineOrder());
     }
     final SortedMap<LocalDate, String[]> rows = new TreeMap<LocalDate, String[]>(comparator);
     for (final Map.Entry<QuandlCodeRequest, TabularResult> mapEntry : results.entrySet()) {
