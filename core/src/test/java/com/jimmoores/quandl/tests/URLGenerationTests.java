@@ -8,7 +8,7 @@ import javax.ws.rs.client.WebTarget;
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.threeten.bp.LocalDate;
+import java.time.LocalDate;
 
 import com.jimmoores.quandl.DataSetRequest;
 import com.jimmoores.quandl.Frequency;

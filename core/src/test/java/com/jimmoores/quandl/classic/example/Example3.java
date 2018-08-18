@@ -1,6 +1,6 @@
 package com.jimmoores.quandl.classic.example;
 
-import org.threeten.bp.LocalDate;
+import java.time.LocalDate;
 
 import com.jimmoores.quandl.DataSetRequest;
 import com.jimmoores.quandl.Frequency;
