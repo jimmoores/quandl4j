@@ -445,14 +445,14 @@ To use the tablesaw module, simply add the following dependency
 </dependency>
 ```
 
-This will pull in both normal quandl4j and tablesaw, but not the tablesaw-plot module, which you'll need to add to use TableSaw's 
+This will pull in both normal quandl4j and tablesaw, but not the tablesaw-jsplot module, which you'll need to add to use TableSaw's 
 graphing features (although it does as part of the test scope to allow you to run the examples).
 
 ```xml
 <dependency>
     <groupId>tech.tablesaw</groupId>
-    <artifactId>tablesaw-plot</artifactId>
-    <version>0.9.2</version>
+    <artifactId>tablesaw-jsplot</artifactId>
+    <version>0.30.1</version>
 </dependency>
 ```
 

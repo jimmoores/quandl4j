@@ -7,7 +7,7 @@ import static tech.tablesaw.aggregate.AggregateFunctions.sum;
 import com.jimmoores.quandl.DataSetRequest;
 import com.jimmoores.quandl.tablesaw.TableSawQuandlSession;
 
-import tech.tablesaw.api.NumberColumn;
+import tech.tablesaw.api.IntColumn;
 import tech.tablesaw.api.Table;
 import tech.tablesaw.plotly.Plot;
 import tech.tablesaw.plotly.components.Figure;
@@ -31,7 +31,7 @@ public class Example8 {
     Table table = session.getDataSet(
         DataSetRequest.Builder.of("WIKI/AAPL").build());
     // Create a new column containing the year
-    NumberColumn yearColumn = table.dateColumn("Date").year();
+    IntColumn yearColumn = table.dateColumn("Date").year();
     yearColumn.setName("Year");
     table.addColumns(yearColumn);
     // Create max, min and total volume tables aggregated by year
@@ -42,7 +42,7 @@ public class Example8 {
     Table summary = Table.create("Summary", summaryMax.column(0), summaryMax.column(1), summaryMin.column(1), summaryVolume.column(1));
     // Show the max close price as a graph.
     try {
-      Plot.show(new Figure(BarTrace.builder(summary.numberColumn("Year"), summary.numberColumn(1)).build()));
+      Plot.show(new Figure(BarTrace.builder(summary.intColumn("Year"), summary.numberColumn(1)).build()));
     } catch (Exception e) {
       e.printStackTrace();
     }
