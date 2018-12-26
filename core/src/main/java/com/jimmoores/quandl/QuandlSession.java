@@ -143,9 +143,7 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     }
   }
 
-  /**
-   * {@inheritDoc}
-   */
+  @Override
   public TabularResult getDataSet(final DataSetRequest request) {
     ArgumentChecker.notNull(request, "request");
 
@@ -153,28 +151,27 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     WebTarget target = client.target(API_BASE_URL_V3);
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
-    TabularResult tabularResponse = null;
     int retries = 0;
+    QuandlRuntimeException lastException;
     do {
       try {
-        tabularResponse = _restDataProvider.getTabularResponse(target, request);
+        return _restDataProvider.getTabularResponse(target, request);
       } catch (QuandlTooManyRequestsException qtmre) {
+        lastException = qtmre;
         s_logger.debug("Quandl returned Too Many Requests, retrying if appropriate");
         if (qtmre.isDataExhausted()) {
           throw new QuandlRequestFailedException("Data request limit exceeded", qtmre);
         }
       } catch (QuandlServiceUnavailableException qsue) {
+        lastException = qsue;
         s_logger.debug("Quandl returned Service Not Available, retrying if appropriate");
       }
-      // note checkRetries always returns true or throws an exception so we won't get tabularReponse == null
-    } while (tabularResponse == null && _sessionOptions.getRetryPolicy().checkRetries(retries++));
+    } while (_sessionOptions.getRetryPolicy().checkRetries(retries++));
 
-    return tabularResponse;
+    throw new QuandlRequestFailedException("Giving up on request after " + retries + " retries.", lastException);
   }
 
-  /**
-   * {@inheritDoc}
-   */
+  @Override
   public MetaDataResult getMetaData(final MetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
     Client client = ClientBuilder.newClient();
@@ -183,25 +180,26 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     target = request.appendPathAndQueryParameters(target);
     JSONObject object = null;
     int retries = 0;
+    QuandlRuntimeException lastException;
     do {
       try {
-        object = _restDataProvider.getJSONResponse(target, request);
+        return MetaDataResult.of(_restDataProvider.getJSONResponse(target, request));
       } catch (QuandlTooManyRequestsException qtmre) {
+        lastException = qtmre;
         s_logger.debug("Quandl returned Too Many Requests, retrying if appropriate");
         if (qtmre.isDataExhausted()) {
           throw new QuandlRequestFailedException("Data request limit exceeded", qtmre);
         }
       } catch (QuandlServiceUnavailableException qsue) {
+        lastException = qsue;
         s_logger.debug("Quandl returned Service Not Available, retrying if appropriate");
       }
-      // note checkRetries always returns true or throws an exception so we won't get object == null
     } while (object == null && _sessionOptions.getRetryPolicy().checkRetries(retries++));
-    return MetaDataResult.of(object);
+
+    throw new QuandlRequestFailedException("Giving up on request after " + retries + " retries.", lastException);
   }
 
-  /**
-   * {@inheritDoc}
-   */
+  @Override
   public TabularResult getDataSets(final MultiDataSetRequest request) {
     final List<QuandlCodeRequest> quandlCodeRequests = request.getQuandlCodeRequests();
     final Map<QuandlCodeRequest, TabularResult> results = new LinkedHashMap<QuandlCodeRequest, TabularResult>();
@@ -310,9 +308,7 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     return TabularResult.of(headerDefinition, combinedRows);
   }
 
-  /**
-   * {@inheritDoc}
-   */
+  @Override
   public MetaDataResult getMetaData(final MultiMetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
     Map<String, HeaderDefinition> multipleHeaderDefinition = getMultipleHeaderDefinition(request);
@@ -343,9 +339,7 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     }
   }
 
-  /**
-   * {@inheritDoc}
-   */
+  @Override
   public Map<String, HeaderDefinition> getMultipleHeaderDefinition(final MultiMetaDataRequest request) {
     final Map<String, HeaderDefinition> bulkMetaData = new LinkedHashMap<String, HeaderDefinition>();
     for (final String quandlCode : request.getQuandlCodes()) {
@@ -360,30 +354,29 @@ public final class QuandlSession implements LegacyQuandlSession<MetaDataResult, 
     return bulkMetaData;
   }
 
-  /**
-   * {@inheritDoc}
-   */
+  @Override
   public SearchResult search(final SearchRequest request) {
     Client client = ClientBuilder.newClient();
     WebTarget target = client.target(API_BASE_URL_V3);
     target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
     int retries = 0;
-    JSONObject jsonResponse = null;
+    QuandlRuntimeException lastException;
     do {
       try {
-        jsonResponse = _restDataProvider.getJSONResponse(target, request);
+        return SearchResult.of(_restDataProvider.getJSONResponse(target, request));
       } catch (QuandlTooManyRequestsException qtmre) {
+        lastException = qtmre;
         s_logger.debug("Quandl returned Too Many Requests, retrying if appropriate");
         if (qtmre.isDataExhausted()) {
           throw new QuandlRequestFailedException("Data request limit exceeded", qtmre);
         }
       } catch (QuandlServiceUnavailableException qsue) {
+        lastException = qsue;
         s_logger.debug("Quandl returned Service Not Available, retrying if appropriate");
       }
-      // note checkRetries always returns true or throws an exception so we won't get jsonReponse == null
-    } while (jsonResponse == null && _sessionOptions.getRetryPolicy().checkRetries(retries++));
-    SearchResult searchResult = SearchResult.of(jsonResponse);
-    return searchResult;
+    } while (_sessionOptions.getRetryPolicy().checkRetries(retries++));
+
+    throw new QuandlRequestFailedException("Giving up on request after " + retries + " retries.", lastException);
   }
 }

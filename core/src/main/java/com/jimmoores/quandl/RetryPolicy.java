@@ -1,7 +1,6 @@
 package com.jimmoores.quandl;
 
 import com.jimmoores.quandl.util.QuandlRequestFailedException;
-import com.jimmoores.quandl.util.QuandlRuntimeException;
 
 /**
  * Class containing multiple retry policies.
@@ -56,7 +55,7 @@ public abstract class RetryPolicy {
 
     @Override
     public boolean checkRetries(final int retries) {
-      throw new QuandlRuntimeException("Request failed, policy is no retry.");
+      return false;
     }
   }
 
@@ -81,7 +80,7 @@ public abstract class RetryPolicy {
           throw new QuandlRequestFailedException("Giving up on request, received InterruptedException", ie);
         }
       } else {
-        throw new QuandlRequestFailedException("Giving up on request after " + _maxRetries + " retries of " + _backOffPeriod + "ms each.");
+        return false;
       }
       return true;
     }
@@ -108,7 +107,7 @@ public abstract class RetryPolicy {
           throw new QuandlRequestFailedException("Giving up on request, received InterruptedException", ie);
         }
       } else {
-        throw new QuandlRequestFailedException("Giving up on request after " + _maxRetries);
+        return false;
       }
       return true;
     }

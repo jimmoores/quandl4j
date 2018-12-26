@@ -16,6 +16,7 @@ import com.jimmoores.quandl.processing.GenericRESTDataProvider;
 import com.jimmoores.quandl.processing.MetaDataPackager;
 import com.jimmoores.quandl.util.ArgumentChecker;
 import com.jimmoores.quandl.util.QuandlRequestFailedException;
+import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.QuandlServiceUnavailableException;
 import com.jimmoores.quandl.util.QuandlTooManyRequestsException;
 
@@ -85,84 +86,83 @@ public class GenericQuandlSession<METADATA_TYPE, RAW_METADATA_TYPE, TABLE_TYPE, 
     return getDataSet(DataSetRequest.Builder.of(symbol).build());    
   }
 
-  /**
-   * {@inheritDoc}
-   */
+  @Override
   public TABLE_TYPE getDataSet(final DataSetRequest request) {
     ArgumentChecker.notNull(request, "request");
     Client client = getClient();
     WebTarget target = client.target(API_BASE_URL_V3);
-    target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
-    TABLE_TYPE tabularResponse = null;
+    target = withAuthToken(target);
     int retries = 0;
+    QuandlRuntimeException lastException;
     do {
       try {
-        tabularResponse = _restDataProvider.getTabularResponse(target, request);
+        return _restDataProvider.getTabularResponse(target, request);
       } catch (QuandlTooManyRequestsException qtmre) {
+        lastException = qtmre;
         s_logger.debug("Quandl returned Too Many Requests, retrying if appropriate");
         if (qtmre.isDataExhausted()) {
           throw new QuandlRequestFailedException("Data request limit exceeded", qtmre);
         }
       } catch (QuandlServiceUnavailableException qsue) {
+        lastException = qsue;
         s_logger.debug("Quandl returned Service Not Available, retrying if appropriate");
       }
-      // note checkRetries always returns true or throws an exception so we won't get tabularReponse == null
-    } while (tabularResponse == null && _sessionOptions.getRetryPolicy().checkRetries(retries++));
+    } while (_sessionOptions.getRetryPolicy().checkRetries(retries++));
 
-    return tabularResponse;
+    throw new QuandlRequestFailedException("Giving up on request after " + retries + " retries.", lastException);
   }
 
-  /**
-   * {@inheritDoc}
-   */
+  @Override
   public METADATA_TYPE getMetaData(final MetaDataRequest request) {
     ArgumentChecker.notNull(request, "request");
     Client client = ClientBuilder.newClient();
     WebTarget target = client.target(API_BASE_URL_V3);
-    target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
-    RAW_METADATA_TYPE object = null;
+    target = withAuthToken(target);
     int retries = 0;
+    QuandlRuntimeException lastException;
     do {
       try {
-        object = _restDataProvider.getJSONResponse(target, request);
+        return _metaDataPackager.ofMetaData(_restDataProvider.getJSONResponse(target, request));
       } catch (QuandlTooManyRequestsException qtmre) {
+        lastException = qtmre;
         s_logger.debug("Quandl returned Too Many Requests, retrying if appropriate");
         if (qtmre.isDataExhausted()) {
           throw new QuandlRequestFailedException("Data request limit exceeded", qtmre);
         }
       } catch (QuandlServiceUnavailableException qsue) {
+        lastException = qsue;
         s_logger.debug("Quandl returned Service Not Available, retrying if appropriate");
       }
-      // note checkRetries always returns true or throws an exception so we won't get object == null
-    } while (object == null && _sessionOptions.getRetryPolicy().checkRetries(retries++));
-    return _metaDataPackager.ofMetaData(object);
+    } while (_sessionOptions.getRetryPolicy().checkRetries(retries++));
+
+    throw new QuandlRequestFailedException("Giving up on request after " + retries + " retries.", lastException);
   }
 
-  /**
-   * {@inheritDoc}
-   */
+  @Override
   public SEARCH_RESULT_TYPE search(final SearchRequest request) {
     Client client = ClientBuilder.newClient();
     WebTarget target = client.target(API_BASE_URL_V3);
-    target = withAuthToken(target);
     target = request.appendPathAndQueryParameters(target);
+    target = withAuthToken(target);
     int retries = 0;
-    RAW_METADATA_TYPE jsonResponse = null;
+    QuandlRuntimeException lastException;
     do {
       try {
-        jsonResponse = _restDataProvider.getJSONResponse(target, request);
+        return _metaDataPackager.ofSearchResult(_restDataProvider.getJSONResponse(target, request));
       } catch (QuandlTooManyRequestsException qtmre) {
+        lastException = qtmre;
         s_logger.debug("Quandl returned Too Many Requests, retrying if appropriate");
         if (qtmre.isDataExhausted()) {
           throw new QuandlRequestFailedException("Data request limit exceeded", qtmre);
         }
       } catch (QuandlServiceUnavailableException qsue) {
+        lastException = qsue;
         s_logger.debug("Quandl returned Service Not Available, retrying if appropriate");
       }
-      // note checkRetries always returns true or throws an exception so we won't get jsonReponse == null
-    } while (jsonResponse == null && _sessionOptions.getRetryPolicy().checkRetries(retries++));
-    return _metaDataPackager.ofSearchResult(jsonResponse);
+    } while (_sessionOptions.getRetryPolicy().checkRetries(retries++));
+
+    throw new QuandlRequestFailedException("Giving up on request after " + retries + " retries.", lastException);
   }
 }

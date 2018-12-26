@@ -13,7 +13,7 @@ public class QuandlRequestFailedException extends QuandlRuntimeException {
    * Constructor when another exception is being included.
    * 
    * @param message a message describing the exception, not null
-   * @param cause the cause of the expection if there is one, not null
+   * @param cause the cause of the exception if there is one, not null
    */
   public QuandlRequestFailedException(final String message, final Throwable cause) {
     super(message, cause);
