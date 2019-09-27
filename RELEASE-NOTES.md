@@ -1,5 +1,12 @@
 Release Notes
 =============
+# 2.1.0
+This is a fairly minor release that bumps the version of various dependencies, adds support for GitHub Actions builds, and fixes changes to TravisCI that brokes builds due to Oracle license changes.
+ 
+# 2.0.0 documentation change
+Updated the documentation to reflect that you now need to add `quandl-core`, and optionally `quandl-tablesaw` rather than `quandl` 
+as your artifact id in your maven pom or gradle script.  Thanks to @kenfehling for pointing that out.
+
 # 2.0.0
 A fairly comprehensive overhaul. The primary aim was to allow the use of alternative types to hold tabular and metadata. A common user 
 question has been around the choice of JSON or Table representation, and these are now abstracted in a way that allows you to choose 

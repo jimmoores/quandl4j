@@ -1,9 +1,9 @@
 Quandl4J : A Quandl library for Java
 ====================================
-**NEWS: 2.0.0 documentation change**
 
-I've updated the documentation to reflect that you now need to add `quandl-core`, and optionally `quandl-tablesaw` rather than `quandl` 
-as your artifact id in your maven pom or gradle script.  Thanks to @kenfehling for pointing that out.
+**NEWS: 2.1.0 dependency updates**
+
+This is a fairly minor release that bumps the version of various dependencies, adds support for GitHub Actions builds, and fixes changes to TravisCI that brokes builds due to Oracle license changes.
 
 **NEWS: 2.0.0 released**
 
@@ -44,7 +44,7 @@ The minimum pre-requisites are:
  - Maven 3.
 
 Four options are available:
- - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v2.0.0.zip)
+ - [Download the latest release](https://github.com/jimmoores/quandl4j/archive/rel/v2.1.0.zip)
  - Clone the repository: `git clone https://github.com/jimmoores/quandl4j.git`
    - Run `mvn install` to build the libray, test, javadoc and source jars and install to your local Maven repository.
    - Run `mvn javadoc:javadoc` to build the documentation.
@@ -54,7 +54,7 @@ Four options are available:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl-core</artifactId>
-  <version>2.0.0</version>
+  <version>2.1.0</version>
 </dependency>
 ```
 
@@ -64,7 +64,7 @@ and if you want to use the new tablesaw support:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl-tablesaw</artifactId>
-  <version>2.0.0</version>
+  <version>2.1.0</version>
 </dependency>
 ```
 
@@ -72,14 +72,14 @@ and if you want to use the new tablesaw support:
 
 ``` groovy
 dependencies {
-    compile 'com.jimmoores:quandl-core:2.0.0'
+    compile 'com.jimmoores:quandl-core:2.1.0'
 }
 ```
 
 and add
 
 ``` groovy
-compile 'com.jimmoores:quandl-tablesaw:2.0.0'
+compile 'com.jimmoores:quandl-tablesaw:2.1.0'
 ```
 
 to your dependencies section if you want tablesaw support.
@@ -97,6 +97,10 @@ The core design principles are:
  - Provide comprehensive documentation and JavaDocs.
 
 ## Release Notes
+
+### Version 2.1.0
+ - This is a fairly minor release that bumps the version of various dependencies, adds support for GitHub Actions builds, and fixes changes to TravisCI that brokes builds due to Oracle license changes.
+ 
 ### Version 2.0.0
  - A fairly comprehensive overhaul.  The primary aim was to allow the use of alternative types to hold tabular and metadata.  A common
 user question has been around the choice of JSON or Table representation, and these are now abstracted in a way that allows you to 
