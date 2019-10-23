@@ -29,6 +29,7 @@ import com.jimmoores.quandl.util.QuandlRuntimeException;
 import com.jimmoores.quandl.util.RESTDataProvider;
 
 import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvValidationException;
 
 /**
  * @deprecated this version doesn't support newer interface GenericRestDataProvider
@@ -109,9 +110,11 @@ public final class FileRESTDataProvider implements RESTDataProvider {
         }
       }
       reader.close();
-    } catch (IOException ioe) {
-      s_logger.error("Could not find index file (Index.csv) in {}, try doing a maven build", _rootPath, ioe); 
-      throw new RuntimeException(ioe);
+    } catch (FileNotFoundException e) {
+      s_logger.error("Could not find index file (Index.csv) in {}, try doing a maven build", _rootPath, e); 
+      throw new RuntimeException(e);
+    } catch (IOException | CsvValidationException e) {
+      throw new RuntimeException(e);
     }
   }
   
@@ -192,8 +195,8 @@ public final class FileRESTDataProvider implements RESTDataProvider {
           QuandlRuntimeException ex = new QuandlRuntimeException("No data returned");
           throw ex;
         }
-      } catch (IOException ioe) {
-        throw new QuandlRuntimeException("Problem reading CSV", ioe);
+      } catch (IOException | CsvValidationException e) {
+        throw new QuandlRuntimeException("Problem reading CSV", e);
       }
     } else if (_urlExceptionMap.containsKey(uri)) {
       Exception e = _urlExceptionMap.get(uri);

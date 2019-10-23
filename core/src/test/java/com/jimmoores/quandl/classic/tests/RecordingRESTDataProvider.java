@@ -36,6 +36,7 @@ import com.jimmoores.quandl.util.QuandlUnprocessableEntityException;
 
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
+import com.opencsv.exceptions.CsvValidationException;
 
 /**
  * ClassicRESTDataProvider that creates local file system copies of the files it gets
@@ -234,8 +235,8 @@ public final class RecordingRESTDataProvider implements ClassicRESTDataProvider 
           writeIndexEntry(target.getUriBuilder().build(), file, ex);
           throw ex;
         }
-      } catch (IOException ex) {
-        QuandlRuntimeException qex = new QuandlRuntimeException("Problem reading result stream", ex);
+      } catch (IOException | CsvValidationException e) {
+        QuandlRuntimeException qex = new QuandlRuntimeException("Problem reading result stream", e);
         writeIndexEntry(target.getUriBuilder().build(), file, qex);
         throw qex;
       }

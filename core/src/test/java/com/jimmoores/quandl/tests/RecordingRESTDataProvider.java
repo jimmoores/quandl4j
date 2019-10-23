@@ -35,6 +35,7 @@ import com.jimmoores.quandl.util.RESTDataProvider;
 
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
+import com.opencsv.exceptions.CsvValidationException;
 
 /**
  * @deprecated this test class covers the deprecated API.  There is currently no direct
@@ -234,8 +235,8 @@ public final class RecordingRESTDataProvider implements RESTDataProvider {
           writeIndexEntry(target.getUriBuilder().build(), file, ex);
           throw ex;
         }
-      } catch (IOException ex) {
-        QuandlRuntimeException qex = new QuandlRuntimeException("Problem reading result stream", ex);
+      } catch (IOException | CsvValidationException e) {
+        QuandlRuntimeException qex = new QuandlRuntimeException("Problem reading result stream", e);
         writeIndexEntry(target.getUriBuilder().build(), file, qex);
         throw qex;
       }

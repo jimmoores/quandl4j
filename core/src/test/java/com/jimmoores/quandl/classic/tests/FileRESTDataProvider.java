@@ -30,6 +30,7 @@ import com.jimmoores.quandl.processing.classic.ClassicRESTDataProvider;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 
 import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvValidationException;
 
 /**
  * ClassicRESTDataProvider that creates local file system copies of the files it gets
@@ -111,12 +112,14 @@ public final class FileRESTDataProvider implements ClassicRESTDataProvider {
         }
       }
       reader.close();
-    } catch (IOException ioe) {
-      s_logger.error("Could not find index file (Index.csv) in {}, try doing a maven build", _rootPath, ioe); 
-      throw new RuntimeException(ioe);
+    } catch (FileNotFoundException e) {
+      s_logger.error("Could not find index file (Index.csv) in {}, try doing a maven build", _rootPath, e); 
+      throw new RuntimeException(e);
+    } catch (IOException | CsvValidationException e) {
+      throw new RuntimeException(e);
     }
   }
-  
+
   /**
    * Invoke a GET call on the web target and return the result as a parsed JSON object.
    * Throws a QuandlUnprocessableEntityException if Quandl returned a response code that indicates a nonsensical request
@@ -196,8 +199,8 @@ public final class FileRESTDataProvider implements ClassicRESTDataProvider {
           QuandlRuntimeException ex = new QuandlRuntimeException("No data returned");
           throw ex;
         }
-      } catch (IOException ioe) {
-        throw new QuandlRuntimeException("Problem reading CSV", ioe);
+      } catch (IOException | CsvValidationException e) {
+        throw new QuandlRuntimeException("Problem reading CSV", e);
       }
     } else if (_urlExceptionMap.containsKey(uri)) {
       Exception e = _urlExceptionMap.get(uri);

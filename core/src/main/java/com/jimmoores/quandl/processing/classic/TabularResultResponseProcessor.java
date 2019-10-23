@@ -15,6 +15,7 @@ import com.jimmoores.quandl.processing.ResponseProcessor;
 import com.jimmoores.quandl.util.QuandlRuntimeException;
 
 import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvValidationException;
 
 /**
  * ReponseProcessor to process an input stream reply from a query into
@@ -56,8 +57,8 @@ public class TabularResultResponseProcessor implements ResponseProcessor<Tabular
         reader.close();
         throw new QuandlRuntimeException("No data returned");
       }
-    } catch (IOException ioe) {
-      throw new QuandlRuntimeException("Error reading input stream", ioe);
+    } catch (IOException | CsvValidationException e) {
+      throw new QuandlRuntimeException("Error reading input stream", e);
     }
   }
 }
