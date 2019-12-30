@@ -68,7 +68,7 @@ and if you want to use the new tablesaw support:
 </dependency>
 ```
 
- - or in gradle
+or in gradle
 
 ``` groovy
 dependencies {
