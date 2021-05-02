@@ -1,5 +1,8 @@
 Quandl4J : A Quandl library for Java
 ====================================
+**NEWS: 2.1.1 security update**
+
+Bumped the version of Jersey to address security vulnerability in the Jersey library.  [More information can be found here](https://snyk.io/vuln/SNYK-JAVA-ORGGLASSFISHJERSEYCORE-1255637).  Also corrected minor documentation typos.
 
 **NEWS: 2.1.0 dependency updates**
 
@@ -54,7 +57,7 @@ Four options are available:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl-core</artifactId>
-  <version>2.1.0</version>
+  <version>2.1.1</version>
 </dependency>
 ```
 
@@ -64,7 +67,7 @@ and if you want to use the new tablesaw support:
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl-tablesaw</artifactId>
-  <version>2.1.0</version>
+  <version>2.1.1</version>
 </dependency>
 ```
 
@@ -72,14 +75,14 @@ or in gradle
 
 ``` groovy
 dependencies {
-    compile 'com.jimmoores:quandl-core:2.1.0'
+    compile 'com.jimmoores:quandl-core:2.1.1'
 }
 ```
 
 and add
 
 ``` groovy
-compile 'com.jimmoores:quandl-tablesaw:2.1.0'
+compile 'com.jimmoores:quandl-tablesaw:2.1.1'
 ```
 
 to your dependencies section if you want tablesaw support.
@@ -97,6 +100,8 @@ The core design principles are:
  - Provide comprehensive documentation and JavaDocs.
 
 ## Release Notes
+### Version 2.1.1
+ - Patch for security vulnerability in dependent library.
 
 ### Version 2.1.0
  - This is a fairly minor release that bumps the version of various dependencies, adds support for GitHub Actions builds, and fixes changes to TravisCI that brokes builds due to Oracle license changes.
@@ -446,7 +451,7 @@ To use the tablesaw module, simply add the following dependency
 <dependency>
   <groupId>com.jimmoores</groupId>
   <artifactId>quandl-tablesaw</artifactId>
-  <version>2.0.0</version>
+  <version>2.1.1</version>
 </dependency>
 ```
 
